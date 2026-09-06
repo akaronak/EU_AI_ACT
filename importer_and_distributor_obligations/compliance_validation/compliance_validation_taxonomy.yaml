@@ -1,0 +1,1151 @@
+metadata:
+  document_id: "IO-VAL-COMPLIANCE_V-001"
+  title: "Compliance Validation Taxonomy"
+  domain: "Compliance Validation"
+  version: "1.0.0"
+  classification: "CONFIDENTIAL_REGULATORY"
+purpose: "Govern, operationalize, and validate compliance checks for Compliance Validation Taxonomy under the Compliance Validation framework. This skill provides machine-readable, executable importer and distributor obligations governance, conformity validations, and supply chain traceability logic specifically tailored to compliance validation scorecards, non conformity registries, regulatory validation checks, compliance gate audits properties."
+scope: "Scope covers all economic operator roles, supply chain checks, market placement rules, and market surveillance coordination activities governed by the Compliance Validation Taxonomy framework."
+objectives:
+  - "Enforce importer and distributor compliance checks under Compliance Validation Taxonomy obligations."
+  - "Ensure real-time telemetry verification and trace log capture for Compliance Validation."
+  - "Compile audit-ready evidence logs to verify alignment with Article 23, 24, 25, 72, 73, 74, and 75 requirements."
+definitions:
+  compliance_validation_taxonomy_compliance_policy: "The primary operational compliance policy and standard guidelines for Compliance Validation Taxonomy."
+  compliance_validation_taxonomy_trace_log: "Cryptographically sealed verification payload containing traceability data for Compliance Validation Taxonomy."
+taxonomy:
+  operator_types:
+    - "IMPORTER"
+    - "DISTRIBUTOR"
+    - "AUTHORIZED_REPRESENTATIVE"
+  compliance_states:
+    - "APPROVED_FOR_MARKET"
+    - "SUSPENDED"
+    - "UNDER_REVIEW"
+governance:
+  governance_model: "COORDINATED_ECONOMIC_OPERATOR_GOVERNANCE"
+  governance_structure: "Enterprise Product Compliance Council - Compliance Validation"
+  roles_and_responsibilities:
+    importer_steward: "Responsible for verifying compliance of third-party products under Compliance Validation Taxonomy."
+    distributor_steward: "Responsible for monitoring distribution channels and verifying markings for Compliance Validation Taxonomy."
+    surveillance_coordinator: "Responsible for coordinating with market surveillance authorities for Compliance Validation Taxonomy."
+  stakeholders:
+    - "Chief Compliance Officer"
+    - "VP of Supply Chain"
+    - "General Counsel"
+governance_model:
+  model_type: "COORDINATED_ECONOMIC_OPERATOR_GOVERNANCE"
+  model_rationale: "Ensures uniform application of importer and distributor obligations, preventing non-compliant market entry and ensuring rapid recall readiness."
+governance_structure:
+  oversight_board: "Global Trade Compliance Board - Compliance Validation"
+  escalation_contact: "economic_operators@enterprise.ai"
+roles_and_responsibilities:
+  importer_steward: "Primary owner of importer compliance validation check gates under Compliance Validation Taxonomy."
+  distributor_steward: "Responsible for channel monitoring and CE marking verification checks."
+  surveillance_coordinator: "Primary liaison for national market surveillance regulatory reviews."
+stakeholders:
+  - "Director of Global Trade"
+  - "Head of Product Compliance"
+  - "VP of Logistics"
+  - "Compliance Validation Compliance Specialist"
+capabilities:
+  - "Automated verification of provider documentation completeness for Compliance Validation Taxonomy."
+  - "Real-time monitoring of CE markings and declarations of conformity under Compliance Validation."
+  - "Traceability path mapping across intermediate distributors and supply chain nodes."
+requirements:
+  - "All products under Compliance Validation Taxonomy must possess a valid CE marking before market placement."
+  - "Conformity verification scores must exceed the 0.95 compliance baseline."
+  - "Corrective actions must be initiated within 24 hours of detecting non-conformity."
+controls:
+  - control_id: "CTRL-IO-VAL-COMPLI-01"
+    control_name: "conformity_verification_control"
+    control_type: "PREVENTATIVE"
+    control_category: "CONFORMITY"
+    control_objective: "Verify and assert conformity status pre-market for Compliance Validation Taxonomy."
+    economic_operator_rationale: "Ensures only fully compliant systems are placed on the market, mitigating liabilities under Article 23."
+    implementation_guidance: "Implement verification loops that match declarations of conformity against systemic tests."
+    control_owner: "Importer Steward"
+    control_frequency: "ON_RECEIPT"
+    monitoring_method: "Check conformity certificates database hashes."
+    validation_method: "Mock invalid conformity checklist validation, verify block response."
+    evidence_generated: "Signed conformity verification certificate."
+    escalation_conditions: "Conformity assessment verification score falls below 0.95."
+    audit_considerations: "Check auditor credentials databases and conformity check logs."
+  - control_id: "CTRL-IO-VAL-COMPLI-02"
+    control_name: "ce_marking_validation_control"
+    control_type: "PREVENTATIVE"
+    control_category: "CE_MARKING"
+    control_objective: "Validate that physical or digital CE markings are correctly affixed for Compliance Validation Taxonomy."
+    economic_operator_rationale: "Prevents unlawful placement of systems lacking regulatory markings under Article 24."
+    implementation_guidance: "Deploy visual checking protocols or digital signature checks validating CE flags."
+    control_owner: "Distributor Steward"
+    control_frequency: "BATCH_CHECK"
+    monitoring_method: "Review batch verification registries daily."
+    validation_method: "Inject mock shipment without marked CE metadata, verify logistics halt."
+    evidence_generated: "Affixed CE marking check logs."
+    escalation_conditions: "Unmarked shipment processed at boundary nodes."
+    audit_considerations: "Verify marking checklists and logs integrity."
+  - control_id: "CTRL-IO-VAL-COMPLI-03"
+    control_name: "provider_documentation_verification_control"
+    control_type: "PREVENTATIVE"
+    control_category: "DOCUMENTATION"
+    control_objective: "Verify provider's technical documentation completeness for Compliance Validation Taxonomy."
+    economic_operator_rationale: "Fulfills the obligation to ensure provider technical files are accessible and compliant."
+    implementation_guidance: "Establish a secure validation gateway checking schema files and metadata completeness."
+    control_owner: "Importer Steward"
+    control_frequency: "ON_IMPORT"
+    monitoring_method: "Monitor documentation validation dashboard status."
+    validation_method: "Upload empty or corrupted technical file, verify import blocking."
+    evidence_generated: "Documentation completeness validation report."
+    escalation_conditions: "Missing high-risk documentation items for system deployment."
+    audit_considerations: "Check file size, hash verification, and schema compliance logs."
+  - control_id: "CTRL-IO-VAL-COMPLI-04"
+    control_name: "market_placement_authorization_control"
+    control_type: "PREVENTATIVE"
+    control_category: "AUTHORIZATION"
+    control_objective: "Enforce formal authorization signature checks for Compliance Validation Taxonomy market placement."
+    economic_operator_rationale: "Guarantees executive sign-off and risk acceptance before systems go live on EU markets."
+    implementation_guidance: "Deploy multi-signature cryptographic keys validating market readiness."
+    control_owner: "Chief Compliance Officer"
+    control_frequency: "AS_REQUIRED"
+    monitoring_method: "Verify authorization tokens registry against transaction logs."
+    validation_method: "Attempt placement release without compliance team keys, verify rejection."
+    evidence_generated: "Cryptographic placement authorization receipt."
+    escalation_conditions: "Market placement score falls below 1.0 baseline."
+    audit_considerations: "Review roles database and key directories setups."
+  - control_id: "CTRL-IO-VAL-COMPLI-05"
+    control_name: "traceability_assurance_control"
+    control_type: "DETECTIVE"
+    control_category: "TRACEABILITY"
+    control_objective: "Verify trace logs and trace path mappings for Compliance Validation Taxonomy."
+    economic_operator_rationale: "Enables end-to-end supply chain trace validation and quick containment in case of recalls."
+    implementation_guidance: "Generate daily trace log summaries with cryptographic signature proofs."
+    control_owner: "Supply Chain Lead"
+    control_frequency: "DAILY"
+    monitoring_method: "Check trace latency values and database completeness indicators."
+    validation_method: "Mock missing intermediary node in transit history, confirm traceability alert."
+    evidence_generated: "Daily signed trace mapping report."
+    escalation_conditions: "Trace path completeness score drops below 1.0."
+    audit_considerations: "Inspect database log hashes and trace lineage records."
+  - control_id: "CTRL-IO-VAL-COMPLI-06"
+    control_name: "market_surveillance_cooperation_control"
+    control_type: "DETECTIVE"
+    control_category: "REGULATORY_COOPERATION"
+    control_objective: "Verify readiness for market surveillance authority requests under Compliance Validation Taxonomy."
+    economic_operator_rationale: "Complies with cooperation requirements under Article 72 and 73, ensuring documentation is regulator-ready."
+    implementation_guidance: "Conduct mock regulatory inspections and documentation retrieval drills."
+    control_owner: "Surveillance Coordinator"
+    control_frequency: "QUARTERLY"
+    monitoring_method: "Measure retrieval response time against SLAs."
+    validation_method: "Trigger mock regulatory data query, confirm audit-ready package compile time."
+    evidence_generated: "Quarterly regulatory audit compliance report."
+    escalation_conditions: "Drill package assembly time exceeds regulatory thresholds."
+    audit_considerations: "Check response tracking metrics and file locations."
+decision_logic:
+  escalation_trigger: "If conformity_verification_score drops below 0.95 or documentation gaps are detected, halt placement and notify the Importer Steward."
+  incident_classification: "Classify anomalies as CRITICAL if non-compliance is identified post-placement for more than 48 hours."
+processes:
+  conformity_audit: "Standard operating procedure for checking provider-supplied declarations of conformity for Compliance Validation Taxonomy."
+  corrective_actions: "Standard workflow to recall, isolate, or withdraw non-conforming systems from distribution networks."
+workflows:
+  - workflow_id: "importer_verification_workflow"
+    workflow_owner: "Importer Steward"
+    workflow_objective: "Verify compliance of incoming systems and provider documentation for Compliance Validation Taxonomy."
+    trigger: "Receipt of foreign provider shipment proposal or system manifest."
+    inputs:
+      - "provider_declaration_of_conformity"
+      - "technical_documentation_hash"
+      - "ce_marking_status"
+    activities:
+      - "Verify CE marking visibility and placement parameters."
+      - "Assess documentation schema against regulatory checklists."
+      - "Issue importer validation certificate."
+    decision_points:
+      - "Documentation completeness pass"
+      - "Conformity assessment valid check"
+    approvals:
+      - "Importer Steward Approval"
+    outputs:
+      - "Importer validation certificate"
+      - "Verification ledger entry"
+    generated_evidence: "Signed Importer Verification Attestation saved to compliance vault."
+    success_criteria: "Verification completed and logged within 24 hours."
+    failure_conditions: "Incomplete provider files or invalid declarations of conformity."
+  - workflow_id: "distributor_verification_workflow"
+    workflow_owner: "Distributor Steward"
+    workflow_objective: "Confirm markings and documentation completeness for Compliance Validation Taxonomy distribution channels."
+    trigger: "System request for transfer to regional distribution centers."
+    inputs:
+      - "importer_validation_certificate"
+      - "ce_marking_evidence"
+      - "local_registration_data"
+    activities:
+      - "Verify presence of valid importer compliance certificates."
+      - "Inspect CE markings in physical/digital manifests."
+      - "Confirm registration in local distributor databases."
+    decision_points:
+      - "Importer validation check"
+      - "CE marking compliance status"
+    approvals:
+      - "Distributor Steward Sign-off"
+    outputs:
+      - "Distribution clearance token"
+      - "Distributor check log"
+    generated_evidence: "Signed Distributor Compliance receipt archived in trade portal."
+    success_criteria: "Clearance issued and signed with zero validation warnings."
+    failure_conditions: "Missing importer certificate or incorrect CE placement."
+  - workflow_id: "market_placement_workflow"
+    workflow_owner: "Chief Compliance Officer"
+    workflow_objective: "Conduct final readiness validations and authorize EU market placement for Compliance Validation Taxonomy."
+    trigger: "Release schedule milestone trigger."
+    inputs:
+      - "conformity_verification_scorecard"
+      - "eu_database_registration_id"
+      - "risk_registry_status"
+    activities:
+      - "Assert overall compliance score equals 1.00."
+      - "Verify presence of required registrations in EU databases."
+      - "Sign placement authorization token."
+    decision_points:
+      - "Market readiness score validation"
+      - "Registration verified check"
+    approvals:
+      - "Chief Compliance Officer Approval"
+    outputs:
+      - "Cryptographic placement token"
+      - "Market entry notice file"
+    generated_evidence: "Signed Market Placement authorization receipt archived in immutable database."
+    success_criteria: "Token generated and registered within scheduled launch windows."
+    failure_conditions: "Placement readiness score < 1.00 or missing database registrations."
+  - workflow_id: "conformity_validation_workflow"
+    workflow_owner: "Importer Steward"
+    workflow_objective: "Validate provider conformity assessments and track technical file changes for Compliance Validation Taxonomy."
+    trigger: "System updates or provider changes alert."
+    inputs:
+      - "updated_conformity_certificates"
+      - "model_alterations_registry"
+      - "conformity_scorecard"
+    activities:
+      - "Verify signature hashes on provider conformity assessment files."
+      - "Audit technical file changes against initial baseline validations."
+      - "Publish updated conformity scorecards."
+    decision_points:
+      - "Certificate hash validation check"
+      - "Change severity review"
+    approvals:
+      - "Product Compliance Lead sign-off"
+    outputs:
+      - "Updated conformity scorecard"
+      - "Verification report update"
+    generated_evidence: "Signed Conformity Validation ledger updates saved to registry."
+    success_criteria: "Validation scorecard metrics update with zero integrity warnings."
+    failure_conditions: "Signature mismatch or unreachable provider registries."
+  - workflow_id: "traceability_workflow"
+    workflow_owner: "Supply Chain Lead"
+    workflow_objective: "Track operator activity trails and trace logs for Compliance Validation Taxonomy."
+    trigger: "Daily tracing cron job or recall request."
+    inputs:
+      - "operator_activity_logs"
+      - "intermediary_nodes_registry"
+      - "transit_history_files"
+    activities:
+      - "Assert continuity of node ownership traces."
+      - "Identify gaps in transit history databases."
+      - "Publish daily trace mapping reports."
+    decision_points:
+      - "Trace path integrity review"
+      - "Node identity match validation"
+    approvals:
+      - "Logistics Operations approval"
+    outputs:
+      - "Trace mapping dashboard update"
+      - "Trace logs manifest file"
+    generated_evidence: "Daily signed trade tracing report archived in compliance ledgers."
+    success_criteria: "100% path continuity verified and logs archived daily."
+    failure_conditions: "Missing intermediary records or mismatched database hash codes."
+  - workflow_id: "market_surveillance_workflow"
+    workflow_owner: "Surveillance Coordinator"
+    workflow_objective: "Coordinate regulatory info requests and surveillance audits for Compliance Validation Taxonomy."
+    trigger: "Authority information request ticket or periodic drill scheduler."
+    inputs:
+      - "authority_request_document"
+      - "compliance_scorecards_vault"
+      - "audit_log_manifests"
+    activities:
+      - "Access required technical documentation databases."
+      - "Generate audit-ready evidence pack file."
+      - "Transmit secure data pack to regulatory portal."
+    decision_points:
+      - "Information scope approval review"
+      - "Sensitive data masking check"
+    approvals:
+      - "Legal Counsel sign-off"
+    outputs:
+      - "Regulatory evidence package document"
+      - "Submission receipt file"
+    generated_evidence: "Signed regulatory communication certificate archived in legal ledger."
+    success_criteria: "Drill or actual packet delivered within 2 hours of request."
+    failure_conditions: "Documentation database unreachable or failure of legal signature validations."
+  - workflow_id: "corrective_action_workflow"
+    workflow_owner: "Surveillance Coordinator"
+    workflow_objective: "Trigger recalls or isolate non-conforming systems for Compliance Validation Taxonomy."
+    trigger: "Non-conformity warning trigger or market surveillance order."
+    inputs:
+      - "non_conformity_ticket"
+      - "recall_playbook_document"
+      - "active_shipments_registry"
+    activities:
+      - "Identify affected systems across distribution networks."
+      - "Deploy transit halt and quarantine commands."
+      - "Log recall status in emergency databases."
+    decision_points:
+      - "Recall severity class review"
+      - "Quarantine activation verification"
+    approvals:
+      - "VP of Operations approval"
+      - "General Counsel sign-off"
+    outputs:
+      - "System isolation receipts"
+      - "Quarantine status notice"
+    generated_evidence: "Signed Quarantine Attestation archived in secure audit ledgers."
+    success_criteria: "Halts deployed and isolated systems confirmed within 4 hours."
+    failure_conditions: "Asset mapping index unreachable or command delivery timeouts."
+  - workflow_id: "economic_operator_assurance_workflow"
+    workflow_owner: "Importer Steward"
+    workflow_objective: "Audit general economic operator compliance indicators and maturity milestones for Compliance Validation Taxonomy."
+    trigger: "Monthly scheduled governance audit."
+    inputs:
+      - "importer_verification_scorecard"
+      - "distributor_verification_scorecard"
+      - "compliance_metrics_history"
+    activities:
+      - "Review monthly operator performance indicators."
+      - "Perform compliance crosswalk score validations."
+      - "Publish monthly maturity scorecards to leadership portals."
+    decision_points:
+      - "Maturity level transition review"
+      - "Compliance alert trigger check"
+    approvals:
+      - "Internal Auditor sign-off"
+    outputs:
+      - "Monthly operator assurance summary"
+      - "Maturity status updates"
+    generated_evidence: "Signed Monthly Operator Assurance summary saved to compliance files."
+    success_criteria: "Audit report signed and issued within scheduled timelines."
+    failure_conditions: "Metrics registry database downtime or validation failures."
+economic_operator_governance_framework:
+  governance_model: "COORDINATED_ECONOMIC_OPERATOR_GOVERNANCE"
+  governance_principles:
+    - "Proportional Risk Mitigation"
+    - "E2E Traceability Accountability"
+    - "Rapid Corrective Coordination"
+  governance_authorities:
+    - "Enterprise Trade Compliance Board"
+    - "Product Safety Council"
+  governance_controls:
+    - "CTRL-IO-VAL-COMPLI-01"
+    - "CTRL-IO-VAL-COMPLI-04"
+  operator_accountability: "Establishes strict compliance and reporting accountability parameters under Compliance Validation Taxonomy."
+  operator_responsibilities:
+    importer_obligations: "Verify conformity certificates, technical files and CE markings pre-market placement."
+    distributor_obligations: "Assert presence of markings, documentation and monitor storage constraints."
+  governance_reviews:
+    - "Bi-weekly compliance score audits"
+    - "Annual trade governance framework reviews"
+  governance_assurance: "Cryptographic signature validation and ledger compliance verification checks"
+importer_obligations_framework:
+  importer_requirements:
+    - "Validate provider conformity certification for Compliance Validation Taxonomy."
+    - "Ensure technical files are accessible under Compliance Validation."
+  importer_verification_controls:
+    - "CTRL-IO-VAL-COMPLI-01"
+    - "CTRL-IO-VAL-COMPLI-03"
+  importer_accountabilities: "Establishes primary accountability parameters for Compliance Validation Taxonomy import operations."
+  conformity_verification: "Confirm provider conformity assessments meet Article 23 validations."
+  documentation_verification: "Assert presence of all technical documentations from provider before release."
+  importer_validation: "Perform pre-market validator gate checklist validations."
+  importer_assurance: "Register importer verification certifications in trade ledger registry."
+distributor_obligations_framework:
+  distributor_requirements:
+    - "Confirm physical or digital CE markings are affixed for Compliance Validation Taxonomy."
+    - "Ensure transport constraints do not compromise compliance under Compliance Validation."
+  distributor_verification_controls:
+    - "CTRL-IO-VAL-COMPLI-02"
+    - "CTRL-IO-VAL-COMPLI-05"
+  distributor_accountabilities: "Establishes primary accountability parameters for Compliance Validation Taxonomy distribution channels."
+  product_verification: "Verify CE markings and provider indicators before regional transfers."
+  compliance_verification: "Check status of compliance clearance tokens daily."
+  distributor_validation: "Execute distributor checklists validations weekly."
+  distributor_assurance: "Audit distributor signature logs monthly."
+market_placement_framework:
+  placement_requirements:
+    - "Verify EU database registration is active for Compliance Validation Taxonomy."
+    - "Assert placement scorecards meet target thresholds under Compliance Validation."
+  placement_controls:
+    - "CTRL-IO-VAL-COMPLI-04"
+  placement_conditions:
+    - "Declaration of conformity validated"
+    - "No active corrective action warnings"
+  market_readiness: "Compute system readiness metrics and evaluate checklists weekly."
+  compliance_readiness: "Assert that all certifications are sealed and active."
+  placement_validation: "Check placement authorization tokens weekly."
+  placement_assurance: "Seal placement authorization logs in trade ledger database."
+supply_chain_governance_framework:
+  supply_chain_entities:
+    - "Foreign AI Providers"
+    - "Enterprise Importers"
+    - "Intermediate Distributors"
+    - "End Customers"
+  supply_chain_dependencies:
+    - "Conformity certifications transit paths"
+    - "Documentation registry custody lines"
+  supply_chain_controls:
+    - "CTRL-IO-VAL-COMPLI-03"
+    - "CTRL-IO-VAL-COMPLI-05"
+  supply_chain_monitoring: "Monitor transit times and document validations status daily."
+  supply_chain_validation: "Assert trace mapping continuity scores daily."
+  supply_chain_assurance: "Verify transport hash checks and signature registries daily."
+  supply_chain_reporting: "Publish supply chain status dashboard updates daily."
+traceability_framework:
+  operator_traceability: "Log operator identities, actions and signatures in trade compliance registers for Compliance Validation Taxonomy."
+  product_traceability: "Track system package versions and baseline deployments under Compliance Validation Taxonomy."
+  documentation_traceability: "Trace technical file changes and certificate revisions for Compliance Validation Taxonomy."
+  distribution_traceability: "Log intermediary distributor transits and storage check gates under Compliance Validation Taxonomy."
+  accountability_traceability: "Assert accountability path mappings and key actions history for Compliance Validation Taxonomy."
+  traceability_validation: "Verify trace hashes and trace completeness metrics weekly."
+  traceability_assurance: "Certify traceability reports quarterly."
+conformity_verification_framework:
+  verification_requirements:
+    - "Verify provider conformity status under standard rules for Compliance Validation Taxonomy."
+    - "Assert presence of all certification markings under Compliance Validation."
+  verification_controls:
+    - "CTRL-IO-VAL-COMPLI-01"
+    - "CTRL-IO-VAL-COMPLI-02"
+  verification_method: "Deploy automated conformity verification checks daily."
+  verification_assurance: "Archived signed verification certificates in secure trade vault."
+market_surveillance_framework:
+  surveillance_requirements:
+    - "Provide immediate info access to national regulators for Compliance Validation Taxonomy."
+    - "Implement corrective recall commands within SLAs under Compliance Validation."
+  surveillance_support: "Ensure all compliance dashboards are exporter-ready for authorities."
+  authority_interactions: "Establish standard channels and notification APIs for surveillance queries."
+  incident_reporting: "Automate incident reports generation when system anomalies occur."
+  corrective_actions: "Deploy system isolation commands and isolation logs verification routines."
+  surveillance_assurance: "Verify regulatory audit receipts and log hashes quarterly."
+  surveillance_reporting: "Archive regulatory communication trails in legal portals."
+accountability_framework:
+  decision_owners:
+    - "Chief Trade Counsel"
+    - "Supply Chain Director"
+  decision_authorities:
+    - "Enterprise Trade Compliance Board"
+  accountability_controls:
+    - "CTRL-IO-VAL-COMPLI-04"
+  accountability_validation: "Verify roles registry assignments and signatures logs quarterly for Compliance Validation Taxonomy."
+  accountability_assurance: "Check action logs against authorized roles weekly for Compliance Validation Taxonomy."
+  accountability_reporting: "Publish monthly accountability reports to trade compliance board."
+assurance_framework:
+  assurance_objectives:
+    - "Align with ISO 42001 trade standards and Article 23/24 compliance validations for Compliance Validation Taxonomy."
+  assurance_controls:
+    - "CTRL-IO-VAL-COMPLI-04"
+    - "CTRL-IO-VAL-COMPLI-06"
+  assurance_validation: "Audit compliance metrics and verification hashes weekly for Compliance Validation Taxonomy."
+  assurance_monitoring: "Track trade compliance dashboard scorecards daily under Compliance Validation Taxonomy."
+  assurance_reviews:
+    - "Monthly documentation audits"
+    - "Annual operator compliance framework audits"
+  assurance_evidence: "Signed verification certificates registered in trade attestation vault"
+monitoring_framework:
+  monitoring_scope: "Continuous verification of importer and distributor checklists and telemetry metrics."
+  alert_thresholds: "Trigger alert if validation score falls below 0.95 or CE marking is unverified."
+validation_framework:
+  validation_requirements:
+    - "All shipments must pass import verification"
+    - "Declaration of conformity must be sealed"
+  validation_methods:
+    - "Automated document checks"
+    - "Visual CE marking inspections"
+    - "Key authorization check gates"
+  validation_evidence: "Signed importer verification certificate archived in compliance vault."
+  validation_authority: "Importer Steward"
+  validation_frequency: "Weekly"
+  validation_outcomes:
+    - "Pass - allow market placement"
+    - "Fail - block shipment and trigger corrective action workflow"
+evidence_intelligence:
+  evidence_sources:
+    - "importer_verif_db"
+    - "distributor_checks_db"
+    - "trade_ledger_vault"
+  evidence_types:
+    - "Conformity verification certificates"
+    - "CE marking checklists"
+    - "Trace mapping reports"
+  evidence_integrity: "Cryptographic SHA-256 hashes registered in immutable trade ledger."
+  evidence_lineage: "Map evidence documents back to specific shipment manifest records."
+  evidence_provenance: "Generated by verified trade validation and checking services."
+  evidence_validation: "Check digital signatures against authority key registry daily."
+  evidence_confidence: 0.99
+  evidence_retention: "10 years in secure trade archive"
+telemetry:
+  telemetry_sources:
+    - "import_gateway_logs"
+    - "distributor_check_logs"
+    - "regulatory_portal_events"
+  collection_frequency: "Continuous"
+  telemetry_retention: "90 days active, 10 years compliance archive"
+  telemetry_integrity: "Signed telemetry data blocks"
+  telemetry_validation: "Daily signature and hash check updates"
+economic_operator_telemetry:
+  verification_events: "Track provider documentation validation events for Compliance Validation Taxonomy."
+  conformity_events: "Record declaration of conformity validation checks for Compliance Validation Taxonomy."
+  placement_events: "Log market placement authorizations and releases for Compliance Validation Taxonomy."
+  traceability_events: "Record supply chain node transfer checks for Compliance Validation Taxonomy."
+  surveillance_events: "Track regulatory query and inspection events for Compliance Validation Taxonomy."
+  corrective_action_events: "Log quarantines, recalls and withdraw events for Compliance Validation Taxonomy."
+  notification_events: "Track regulatory notification transmission alerts for Compliance Validation Taxonomy."
+  accountability_events: "Record signature validations and roles assignment checks for Compliance Validation Taxonomy."
+  governance_alerts: "High priority trade compliance alert notifications sent to CAIO."
+  governance_indicators: "Check validation delays and recall execution latency indicators."
+metrics:
+  - metric_name: "compliance_validation_taxonomy_conformity_verification_score"
+    formula: "COUNT(verified_conformity_assessments) / COUNT(total_received_assessments)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "BATCH_CHECK"
+    owner: "Importer Steward"
+    data_source: "importer_verif_db"
+    evidence_generated: "Monthly Conformity Verification report."
+  - metric_name: "compliance_validation_taxonomy_market_placement_readiness_score"
+    formula: "COUNT(completed_readiness_checks) / COUNT(total_readiness_requirements)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Importer Steward"
+    data_source: "importer_verif_db"
+    evidence_generated: "Weekly Placement Readiness report."
+  - metric_name: "compliance_validation_taxonomy_traceability_effectiveness_score"
+    formula: "COUNT(fully_traced_shipments) / COUNT(total_processed_shipments)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "DAILY"
+    owner: "Supply Chain Lead"
+    data_source: "distributor_checks_db"
+    evidence_generated: "Daily Trace Mapping report."
+  - metric_name: "compliance_validation_taxonomy_supply_chain_assurance_score"
+    formula: "COUNT(passed_supplier_audits) / COUNT(total_supplier_audits)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.85"
+    measurement_frequency: "MONTHLY"
+    owner: "Supply Chain Lead"
+    data_source: "trade_ledger_vault"
+    evidence_generated: "Monthly Supplier Assurance summary."
+  - metric_name: "compliance_validation_taxonomy_market_surveillance_readiness_score"
+    formula: "COUNT(compliant_authority_drills) / COUNT(total_drills)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "QUARTERLY"
+    owner: "Surveillance Coordinator"
+    data_source: "regulatory_portal_events"
+    evidence_generated: "Quarterly Regulatory Audit compliance report."
+  - metric_name: "compliance_validation_taxonomy_economic_operator_compliance_score"
+    formula: "COUNT(passed_compliance_checks) / COUNT(total_compliance_checks)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Importer Steward"
+    data_source: "importer_verif_db"
+    evidence_generated: "Weekly Operator Compliance report."
+  - metric_name: "compliance_validation_taxonomy_documentation_validation_score"
+    formula: "COUNT(complete_technical_files) / COUNT(total_imported_technical_files)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "ON_IMPORT"
+    owner: "Importer Steward"
+    data_source: "importer_verif_db"
+    evidence_generated: "Documentation completeness validation report."
+  - metric_name: "compliance_validation_taxonomy_corrective_action_effectiveness_score"
+    formula: "COUNT(resolved_non_conformities) / COUNT(total_non_conformities)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Surveillance Coordinator"
+    data_source: "regulatory_portal_events"
+    evidence_generated: "Weekly Incident Escalation logs."
+  - metric_name: "compliance_validation_taxonomy_regulatory_notification_timeliness_score"
+    formula: "COUNT(timely_authority_notifications) / COUNT(total_required_notifications)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "REAL_TIME"
+    owner: "Surveillance Coordinator"
+    data_source: "regulatory_portal_events"
+    evidence_generated: "Weekly Incident Escalation logs."
+  - metric_name: "compliance_validation_taxonomy_economic_operator_maturity_score"
+    formula: "current_maturity_level / 7.0"
+    target: "0.85"
+    warning_threshold: "0.71"
+    critical_threshold: "0.57"
+    measurement_frequency: "ANNUALLY"
+    owner: "Importer Steward"
+    data_source: "trade_ledger_vault"
+    evidence_generated: "Annual Maturity Assessment certificate."
+kpis:
+  - "compliance_validation_taxonomy_economic_operator_compliance_score"
+  - "compliance_validation_taxonomy_traceability_effectiveness_score"
+kris:
+  - "compliance_validation_taxonomy_corrective_action_effectiveness_score"
+  - "compliance_validation_taxonomy_economic_operator_maturity_score"
+thresholds:
+  - "Warning: compliance_validation_taxonomy_economic_operator_compliance_score < 0.98"
+  - "Critical: compliance_validation_taxonomy_economic_operator_compliance_score < 0.95"
+relationships:
+  importer_links:
+    - source: "urn:enterprise:trade:compliance_validation_taxonomy"
+      target: "urn:enterprise:compliance:importer"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IO-VAL-STD."
+  distributor_links:
+    - source: "urn:enterprise:trade:compliance_validation_taxonomy"
+      target: "urn:enterprise:compliance:distributor"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IO-VAL-STD."
+  economic_operator_links:
+    - source: "urn:enterprise:trade:compliance_validation_taxonomy"
+      target: "urn:enterprise:compliance:economic_operator"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IO-VAL-STD."
+  traceability_links:
+    - source: "urn:enterprise:trade:compliance_validation_taxonomy"
+      target: "urn:enterprise:compliance:traceability"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IO-VAL-STD."
+  conformity_links:
+    - source: "urn:enterprise:trade:compliance_validation_taxonomy"
+      target: "urn:enterprise:compliance:conformity"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IO-VAL-STD."
+  evidence_links:
+    - source: "urn:enterprise:trade:compliance_validation_taxonomy"
+      target: "urn:enterprise:compliance:evidence"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IO-VAL-STD."
+  workflow_links:
+    - source: "urn:enterprise:trade:compliance_validation_taxonomy"
+      target: "urn:enterprise:compliance:workflow"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IO-VAL-STD."
+  governance_links:
+    - source: "urn:enterprise:trade:compliance_validation_taxonomy"
+      target: "urn:enterprise:compliance:governance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IO-VAL-STD."
+  accountability_links:
+    - source: "urn:enterprise:trade:compliance_validation_taxonomy"
+      target: "urn:enterprise:compliance:accountability"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IO-VAL-STD."
+  compliance_links:
+    - source: "urn:enterprise:trade:compliance_validation_taxonomy"
+      target: "urn:enterprise:compliance:compliance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IO-VAL-STD."
+knowledge_graph:
+  nodes:
+    - id: "urn:enterprise:trade:compliance_validation_taxonomy"
+      label: "Compliance Validation Taxonomy"
+      properties:
+        domain: "Compliance Validation"
+        doc_id: "IO-VAL-COMPLIANCE_V-001"
+        version: "1.0.0"
+    - id: "urn:enterprise:compliance:trade_db"
+      label: "Trade Compliance Ledger"
+      properties:
+        type: "database"
+        immutable: True
+  relationships:
+    - source: "urn:enterprise:trade:compliance_validation_taxonomy"
+      target: "urn:enterprise:compliance:trade_db"
+      relationship_type: "WRITES_LOGS_TO"
+      confidence: 0.99
+      evidence: "API write call configs and log hashes checks."
+crosswalks:
+  eu_ai_act:
+    framework: "eu_ai_act"
+    control_mapping: "Map obligations compliance controls to EU AI Act guidelines for Compliance Validation Taxonomy."
+    security_mapping: "Enforce model robustness and deployment containment checks."
+    accountability_mapping: "Assign roles for market placement checks."
+    evidence_mapping: "Log incident and scanning events in database."
+    validation_mapping: "Validate model benchmark results under containment profiles."
+  importer_obligations:
+    framework: "importer_obligations"
+    control_mapping: "Verify importer documentation checks pre-market placement."
+    security_mapping: "Establish model capability verification tests and triggers."
+    accountability_mapping: "Importer steward signs off verification checklist."
+    evidence_mapping: "Log verification and certificate validation checks."
+    validation_mapping: "Validate conformity documentation completeness."
+  distributor_obligations:
+    framework: "distributor_obligations"
+    control_mapping: "Confirm markings and documentation checks for distribution channels."
+    security_mapping: "Check transport and storage metrics logs."
+    accountability_mapping: "Distributor steward signs off verification checks."
+    evidence_mapping: "Log CE markings validation and check indicators."
+    validation_mapping: "Validate CE markings visibility and placement."
+  economic_operator_obligations:
+    framework: "economic_operator_obligations"
+    control_mapping: "Ensure cooperation and corrective workflow deployments."
+    security_mapping: "Monitor containment action alerts and quarantine triggers."
+    accountability_mapping: "Compliance steward tracks operator liability logs."
+    evidence_mapping: "Archive incident reports and withdrawal logs."
+    validation_mapping: "Verify withdrawal speed against response time targets."
+  market_surveillance:
+    framework: "market_surveillance"
+    control_mapping: "Establish authority query pathways and information access rules."
+    security_mapping: "Verify data egress containment and verification gates."
+    accountability_mapping: "Surveillance coordinator logs communications."
+    evidence_mapping: "Log authority drill events and audit packages."
+    validation_mapping: "Audit assembly latency and data masking protocols."
+  ce_marking:
+    framework: "ce_marking"
+    control_mapping: "Check marking validation rules and compliance signatures."
+    security_mapping: "Check physical security of models and marks."
+    accountability_mapping: "Designate owner of marking certifications database."
+    evidence_mapping: "Log CE certificate status and validation checks."
+    validation_mapping: "Verify alignment of certificates with standard templates."
+  conformity_assessment:
+    framework: "conformity_assessment"
+    control_mapping: "Track conformity validations and provider documentation updates."
+    security_mapping: "Monitor changes to model parameters or weights."
+    accountability_mapping: "Importer steward checks provider validations."
+    evidence_mapping: "Archive provider compliance declarations and test scores."
+    validation_mapping: "Verify provider test results against performance benchmarks."
+  gpai_obligations:
+    framework: "gpai_obligations"
+    control_mapping: "Verify general-purpose model baseline benchmarks."
+    security_mapping: "Establish model capability verification tests."
+    accountability_mapping: "Compliance lead signs off GPAI compliance maps."
+    evidence_mapping: "Log GPAI registrations and documentation checks."
+    validation_mapping: "Validate base model safety metadata files."
+  foundation_model_obligations:
+    framework: "foundation_model_obligations"
+    control_mapping: "Verify foundation model capabilities."
+    security_mapping: "Deploy capability checks and boundary constraints."
+    accountability_mapping: "Model provider delivers documentation sets."
+    evidence_mapping: "Save model cards and training descriptions."
+    validation_mapping: "Verify training dataset compliance logs."
+  iso_42001:
+    framework: "iso_42001"
+    control_mapping: "Map compliance controls to ISO 42001 clauses for trade."
+    security_mapping: "Track supply chain security metrics and hashes."
+    accountability_mapping: "Review roles assignment for AI systems trade daily."
+    evidence_mapping: "Archive ISO auditing worksheets and certificates."
+    validation_mapping: "Confirm compliance dashboard updates match auditing standards."
+  iso_23894:
+    framework: "iso_23894"
+    control_mapping: "Incorporate risk identification guidelines into placement checks."
+    security_mapping: "Track security risks and mitigation effectiveness."
+    accountability_mapping: "Risk owner reviews risk management configurations monthly."
+    evidence_mapping: "Log risk analysis updates and vulnerability scans."
+    validation_mapping: "Verify risk scorecard values against target thresholds."
+  nist_ai_rmf:
+    framework: "nist_ai_rmf"
+    control_mapping: "Align importer validation steps with NIST AI RMF core."
+    security_mapping: "Track safety and bias metrics continuously."
+    accountability_mapping: "Define compliance owners across model deployment stages."
+    evidence_mapping: "Log NIST dashboard data and check events."
+    validation_mapping: "Review compliance indicators against NIST standards monthly."
+  oecd_ai:
+    framework: "oecd_ai"
+    control_mapping: "Promote transparency and safety along value chain."
+    security_mapping: "Ensure reliable rollback and containment profiles."
+    accountability_mapping: "Publish public model registry descriptions annually."
+    evidence_mapping: "Log transparency and data disclosure events."
+    validation_mapping: "Assess model card clarity using peer-review guides."
+  gdpr:
+    framework: "gdpr"
+    control_mapping: "Protect personal data and identify processing purposes."
+    security_mapping: "Deploy data anonymization and masking protocols."
+    accountability_mapping: "DPO signs off on data governance controls."
+    evidence_mapping: "Archive DPIA certificates and consent records."
+    validation_mapping: "Verify compliance with user data deletion signals."
+  product_compliance:
+    framework: "product_compliance"
+    control_mapping: "Map operator obligations to general product safety rules."
+    security_mapping: "Monitor transport and physical containment rules."
+    accountability_mapping: "Logistics manager checks transport checklists weekly."
+    evidence_mapping: "Archive transit compliance and custody logs."
+    validation_mapping: "Verify transport telemetry signatures daily."
+compliance_mapping:
+  - article: "Article 23"
+    obligation: "Importer verification obligations for Compliance Validation Taxonomy."
+    implementation_method: "Deploy automated conformity validation scorecards and CE marking verification checks."
+    control_mapping: "CTRL-IO-VAL-COMPLI-01 and CTRL-IO-VAL-COMPLI-03"
+    required_evidence: "Conformity verification certificates and technical file validation checks."
+    validation_method: "Confirm presence and valid signatures of all provider certificates."
+    assurance_method: "Review signature registries in trade compliance database monthly."
+  - article: "Article 24"
+    obligation: "Distributor verification obligations for Compliance Validation Taxonomy."
+    implementation_method: "Verify markings and transport conditions weekly."
+    control_mapping: "CTRL-IO-VAL-COMPLI-02 and CTRL-IO-VAL-COMPLI-05"
+    required_evidence: "Affixed CE marking check logs and transit check receipts."
+    validation_method: "Inspect digital or physical CE markings against standardized schemas."
+    assurance_method: "Audit distributor signature database logs monthly."
+  - article: "Article 25"
+    obligation: "Value chain obligations and operator transfer responsibilities for Compliance Validation Taxonomy."
+    implementation_method: "Deploy trace mapping logs and transition checklists."
+    control_mapping: "CTRL-IO-VAL-COMPLI-04 and CTRL-IO-VAL-COMPLI-05"
+    required_evidence: "Cryptographic placement authorization receipts and trace maps."
+    validation_method: "Verify node transitions using cryptographic trace logs."
+    assurance_method: "Confirm supply chain continuity status weekly."
+  - article: "Article 72"
+    obligation: "Market surveillance cooperation requirements for Compliance Validation Taxonomy."
+    implementation_method: "Deploy regulatory information pathways and data packages assembly."
+    control_mapping: "CTRL-IO-VAL-COMPLI-06"
+    required_evidence: "Quarterly regulatory audit compliance reports."
+    validation_method: "Mock authority queries and measure assembly times."
+    assurance_method: "Verify communication trail logs quarterly."
+  - article: "Article 73"
+    obligation: "Market surveillance authority interaction standards for Compliance Validation Taxonomy."
+    implementation_method: "Automate query interfaces and documentation packaging."
+    control_mapping: "CTRL-IO-VAL-COMPLI-06"
+    required_evidence: "Audited query transaction logs."
+    validation_method: "Validate query routing mechanisms against SLAs."
+    assurance_method: "Audit query authentication databases quarterly."
+  - article: "Article 74"
+    obligation: "Corrective action deployment for non-conforming systems under Compliance Validation Taxonomy."
+    implementation_method: "Execute system isolation and quarantine commands."
+    control_mapping: "CTRL-IO-VAL-COMPLI-01 and CTRL-IO-VAL-COMPLI-06"
+    required_evidence: "Quarantine attestation receipts and recall reports."
+    validation_method: "Verify system isolation status indicators across channels."
+    assurance_method: "Audit isolation event timelines weekly."
+  - article: "Article 75"
+    obligation: "Safeguard procedure alignment and recall response for Compliance Validation Taxonomy."
+    implementation_method: "Deploy recall notification APIs and quarantine steps."
+    control_mapping: "CTRL-IO-VAL-COMPLI-06"
+    required_evidence: "Authority safeguard communication receipt documents."
+    validation_method: "Validate safeguard alerts distribution and execution status."
+    assurance_method: "Review safeguard actions registries quarterly."
+integration_points:
+  core_governance:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:core_governance:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  provider_obligations:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:provider_obligations:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  deployer_obligations:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:deployer_obligations:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  ce_marking:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:ce_marking:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  conformity_assessment:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:conformity_assessment:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  technical_documentation:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:technical_documentation:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  compliance_scoring:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:compliance_scoring:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  evidence_and_attestation:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:evidence_and_attestation:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  audit_and_enforcement:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:audit_and_enforcement:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  audit_and_forensics:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:audit_and_forensics:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  incident_reporting:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:incident_reporting:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  post_market_monitoring:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:post_market_monitoring:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  eu_database_registration:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:eu_database_registration:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  high_risk_ai_systems:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:high_risk_ai_systems:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  foundation_models:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:foundation_models:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  general_purpose_ai:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:general_purpose_ai:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  governance_crosswalk:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:governance_crosswalk:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  governance_reporting:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:governance_reporting:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  cross_border_interoperability:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:cross_border_interoperability:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  risk_management:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:risk_management:compliance_validation_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+dependencies:
+  - "urn:enterprise:dependency:provider:obligations:compliance_validation_taxonomy"
+  - "urn:enterprise:dependency:ce:marking:compliance_validation_taxonomy"
+  - "urn:enterprise:dependency:technical:documentation:compliance_validation_taxonomy"
+outputs:
+  - "conformity_verification_certificate"
+  - "market_placement_token"
+  - "traceability_report"
+  - "regulatory_evidence_package"
+artifacts:
+  - "importer_verification_scorecard.yaml"
+  - "distributor_verification_scorecard.yaml"
+  - "market_placement_readiness_checklist.yaml"
+records:
+  - "importer_signature_ledger_db"
+  - "distributor_checks_archive"
+  - "regulatory_query_logs_db"
+continuous_improvement:
+  exceptions:
+    - "Authorized bypass of CE validation during certified test runs."
+  reviews:
+    - "Bi-weekly compliance score audits"
+    - "Annual operator compliance framework reviews"
+  updates:
+    - "Deploy updated validation rule definitions monthly."
+exceptions:
+  - "Bypass of import verification authorized for certified test sandbox deployments of Compliance Validation Taxonomy."
+  - "Temporary CE marking waiver during emergency disaster recovery deployments of Compliance Validation Taxonomy."
+escalation:
+  channels:
+    - "slack-compliance-alerts"
+    - "pagerduty-importer-steward"
+    - "email-legal-ops"
+  thresholds:
+    - "Warning: conformity_verification_score < 0.98 for Compliance Validation Taxonomy"
+    - "Critical: conformity_verification_score < 0.95 for Compliance Validation Taxonomy"
+  workflows:
+    - "corrective_action_workflow"
+    - "economic_operator_assurance_workflow"
+versioning:
+  - version: "1.0.0"
+    date: "2026-06-13"
+    author: "Compliance Architect"
+    description: "Initial release of the Compliance Validation Taxonomy economic operator obligations compliance skill."
+importer_and_distributor_capabilities:
+  importer_governance: "Manage importer-specific compliance and liability checks for Compliance Validation Taxonomy."
+  distributor_governance: "Oversee distributor markings verification and channel checks for Compliance Validation Taxonomy."
+  economic_operator_governance: "Orchestrate shared economic operator commitments and liability maps for Compliance Validation Taxonomy."
+  supply_chain_governance: "Enforce vendor audits, risk databases, and boundary contracts under Compliance Validation Taxonomy."
+  conformity_verification: "Verify provider conformity status pre-market entry for Compliance Validation Taxonomy."
+  compliance_verification: "Verify channel compliance tokens daily for Compliance Validation Taxonomy."
+  documentation_verification: "Enforce provider technical file validations for Compliance Validation Taxonomy."
+  ce_marking_verification: "Check CE markings visibility and validity for Compliance Validation Taxonomy."
+  declaration_of_conformity_validation: "Validate provider declaration documents integrity for Compliance Validation Taxonomy."
+  provider_validation: "Validate foreign provider registrations and legal contacts for Compliance Validation Taxonomy."
+  product_traceability: "Map product versions and shipments history under Compliance Validation Taxonomy."
+  supply_chain_traceability: "Trace intermediate nodes ownership and transits for Compliance Validation Taxonomy."
+  accountability_management: "Log signatures and verify delegation records for Compliance Validation Taxonomy."
+  market_placement_controls: "Enforce multi-signature authorizations before launch for Compliance Validation Taxonomy."
+  market_withdrawal_management: "Trigger recall commands and trace active systems for Compliance Validation Taxonomy."
+  corrective_action_management: "Isolate non-conforming versions and trace paths under Compliance Validation Taxonomy."
+  market_surveillance_support: "Compile audit-ready packages for regulatory inspections under Compliance Validation Taxonomy."
+  incident_escalation: "Route alerts and notify CRO/CAIO within SLAs under Compliance Validation Taxonomy."
+  regulatory_notification: "Transmit status updates to regional portals for Compliance Validation Taxonomy."
+  evidence_management: "Store digital signatures and verification records in attestation vaults for Compliance Validation Taxonomy."
+  assurance_management: "Perform monthly score validations and crosswalk mappings for Compliance Validation Taxonomy."
+  auditability_management: "Verify immutable hash logs integrity for Compliance Validation Taxonomy."
+  operational_monitoring: "Track daily compliance indicators and trace latencies for Compliance Validation Taxonomy."
+  compliance_reporting: "Publish compliance dashboard scorecards weekly for Compliance Validation Taxonomy."
+  governance_intelligence: "Monitor trade regulatory updates and foresight briefings for Compliance Validation Taxonomy."
+  economic_operator_maturity: "Assess capabilities maturity level against trade standards for Compliance Validation Taxonomy."
+altai_importer_distributor_governance:
+  autonomous_agent_distribution:
+    agent_distribution_controls: "Enforce capability validation and registration check gates for autonomous agents of Compliance Validation Taxonomy."
+    agent_traceability: "Log agent actions and decision paths to trade registers for Compliance Validation Taxonomy."
+    agent_accountability: "Assign primary operational ownership of agent deployments under Compliance Validation Taxonomy."
+    agent_assurance: "Audit agent behavior against safety bounds weekly for Compliance Validation Taxonomy."
+  multi_agent_supply_chain:
+    ecosystem_traceability: "Track interactions and transactions across multi-agent networks under Compliance Validation Taxonomy."
+    ecosystem_accountability: "Designate human reviews coordinator for multi-agent loops for Compliance Validation Taxonomy."
+    ecosystem_validation: "Perform daily simulations of agent coordinate behaviors for Compliance Validation Taxonomy."
+    ecosystem_assurance: "Verify digital signatures of all coordinate agents under Compliance Validation Taxonomy."
+  reasoning_supply_chain_governance:
+    reasoning_traceability: "Log reasoning tokens and planning trees to trade database logs for Compliance Validation Taxonomy."
+    reasoning_validation: "Audit reasoning steps against corporate trade policies weekly for Compliance Validation Taxonomy."
+    reasoning_assurance: "Validate output semantic correctness weekly under Compliance Validation Taxonomy."
+    reasoning_accountability: "Risk steward reviews reasoning limits and models annually for Compliance Validation Taxonomy."
+  memory_traceability:
+    memory_governance: "Oversee database access policies and context memory limits for Compliance Validation Taxonomy."
+    memory_validation: "Verify compliance of memory contents with data privacy rules weekly for Compliance Validation Taxonomy."
+    memory_traceability: "Log memory updates and database write operations under Compliance Validation Taxonomy."
+    memory_assurance: "Cryptographically seal memory database records daily for Compliance Validation Taxonomy."
+  tool_distribution_governance:
+    tool_validation: "Validate API tool schemas and validation parameters pre-deployment for Compliance Validation Taxonomy."
+    tool_traceability: "Log tool calls, inputs, and response signatures under Compliance Validation Taxonomy."
+    tool_assurance: "Monitor tool execution failures and rate limit alerts weekly for Compliance Validation Taxonomy."
+    tool_accountability: "Tool administrator authorizes tool releases and credentials keys under Compliance Validation Taxonomy."
+  orchestration_governance:
+    orchestration_distribution: "Oversee agent orchestration pipelines and job queues configurations for Compliance Validation Taxonomy."
+    orchestration_traceability: "Log job execution paths and task transitions under Compliance Validation Taxonomy."
+    orchestration_validation: "Assert workflow definitions match trade guidelines weekly for Compliance Validation Taxonomy."
+    orchestration_assurance: "Verify runner node digital signatures daily under Compliance Validation Taxonomy."
+  foundation_model_distribution:
+    model_distribution_controls: "Manage foundation model weight distributions and API endpoints access for Compliance Validation Taxonomy."
+    model_traceability: "Log fine-tuning sessions, dataset hashes and weights changes for Compliance Validation Taxonomy."
+    model_accountability: "Chief Scientist signs off model card specifications under Compliance Validation Taxonomy."
+    model_assurance: "Audit base model capabilities against safety baselines weekly for Compliance Validation Taxonomy."
+  gpai_distribution:
+    gpai_market_placement: "Manage market placement authorization gates and registrate base model IDs for Compliance Validation Taxonomy."
+    gpai_traceability: "Log base model benchmark runs and capability warnings for Compliance Validation Taxonomy."
+    gpai_assurance: "Audit general-purpose AI safety features quarterly under Compliance Validation Taxonomy."
+    gpai_accountability: "Compliance lead validates base model metadata sets for Compliance Validation Taxonomy."
+economic_operator_maturity_model:
+  level_1_reactive:
+    capabilities:
+      - "Basic verification of markings when triggered by audit request."
+    verification_capabilities:
+      - "Manual checks of provider documents post-shipment."
+    traceability_capabilities:
+      - "Paper transit invoice logs checking."
+    assurance_capabilities:
+      - "Ad-hoc trade regulatory issue resolution."
+    evidence_requirements:
+      - "Shipment packing slips archived in physical file cabinets."
+    validation_requirements:
+      - "Informal peer review of certificates."
+  level_2_repeatable:
+    capabilities:
+      - "Standardized verification of markings and declarations for each shipment."
+    verification_capabilities:
+      - "Verify CE markings visibility and signature correctness for each batch."
+    traceability_capabilities:
+      - "Digital spreadsheet tracking of intermediate nodes transits."
+    assurance_capabilities:
+      - "Basic compliance score dashboards monitoring."
+    evidence_requirements:
+      - "Provider certificates saved to local corporate directories."
+    validation_requirements:
+      - "Weekly review of import checking logs."
+  level_3_defined:
+    capabilities:
+      - "Documented procedures for all economic operator commitments and audits."
+    verification_capabilities:
+      - "Verify technical documentation completeness using standard checklists."
+    traceability_capabilities:
+      - "Central trace path tracking database linking shipments to providers."
+    assurance_capabilities:
+      - "Compliance score tracking using defined scorecards."
+    evidence_requirements:
+      - "Conformity verification reports stored in secure corporate vault."
+    validation_requirements:
+      - "Sign-offs required from designated Importer Steward before market release."
+  level_4_managed:
+    capabilities:
+      - "Automated check gates and real-time alerts integration in supply chain."
+    verification_capabilities:
+      - "Automated conformity validation checks pre-import release."
+    traceability_capabilities:
+      - "Real-time supply chain node tracking linked to registration IDs."
+    assurance_capabilities:
+      - "Continuous monitoring of compliance scorecards with auto-alerts."
+    evidence_requirements:
+      - "Metadata and files cryptographically signed and archived in DB."
+    validation_requirements:
+      - "Pre-placement checklist scores must equal 1.00 or launch is blocked."
+  level_5_optimized:
+    capabilities:
+      - "Continuous process updates and predictive risk analysis integrated."
+    verification_capabilities:
+      - "Predictive supplier risk assessments and automated anomaly triggers."
+    traceability_capabilities:
+      - "Automated path mapping trace logs verified daily."
+    assurance_capabilities:
+      - "Feedback loops updating rules parameters based on check alerts."
+    evidence_requirements:
+      - "Digital signature hashes checked against authority registries dynamically."
+    validation_requirements:
+      - "Continuous runtime verification of tool and memory access rules."
+  level_6_assured:
+    capabilities:
+      - "E2E cryptographic sealing and compliance reporting ledgers."
+    verification_capabilities:
+      - "Validation steps attested by cryptographic compliance daemon signatures."
+    traceability_capabilities:
+      - "Immutably sealed transit trails trace databases."
+    assurance_capabilities:
+      - "Drill assembly metrics tracked to prove SLA compliance."
+    evidence_requirements:
+      - "Signed evidence certificates registered in compliance attestation vault."
+    validation_requirements:
+      - "Automated zero-trust checks for all intermediate transitions."
+  level_7_regulator_ready:
+    capabilities:
+      - "Real-time regulator portal integration and continuous audit capability."
+    verification_capabilities:
+      - "Immediate digital verification queries for national market surveillance agencies."
+    traceability_capabilities:
+      - "Cryptographic trace trail available dynamically via API access keys."
+    assurance_capabilities:
+      - "Full alignment with EU Database registrations and compliance standards."
+    evidence_requirements:
+      - "Sealed, time-stamped registry logs ready for direct regulator export."
+    validation_requirements:
+      - "Continuous automated validation of all 6 controls and 8 workflows."

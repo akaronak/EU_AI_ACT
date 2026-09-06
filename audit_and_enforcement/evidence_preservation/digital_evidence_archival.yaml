@@ -1,0 +1,1953 @@
+metadata:
+  id: AAE-EP-DIGEVI-001
+  name: digital_evidence_archival
+  title: Digital Evidence Archival
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: evidence_preservation
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - evidence_preservation
+    - digital_evidence_archival
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Digital Evidence Archival governance within
+    audit_and_enforcement/evidence_preservation, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for evidence lifecycle preservation with chain-of-custody
+    defensibility, long-term preservation with retrieval integrity guarantees. Integrates with the
+    EU AI Act governance ecosystem through machine-evaluable obligations, evidence preservation, and
+    conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Digital Evidence Archival across enterprise
+    and cross-border operations within audit_and_enforcement/evidence_preservation.
+objectives:
+  - Operationalize Digital Evidence Archival with regulator-defensible controls and evidence chains
+  - Enable automated validation of Digital Evidence Archival conformance across evidence_preservation
+  - Preserve audit-grade and forensic-grade records for all Digital Evidence Archival activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Digital Evidence Archival with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Digital Evidence Archival
+definitions:
+  digital_evidence_archival_governance_domain:
+    >
+      The operational jurisdiction of Digital Evidence Archival encompassing controlled audit,
+      enforcement, investigation, and evidence processes within evidence_preservation.
+  digital_evidence_archival_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Digital Evidence Archival control
+      effectiveness, process adherence, and regulatory conformity.
+  digital_evidence_archival_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Digital Evidence Archival decision logic.
+  digital_evidence_archival_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Digital Evidence Archival processes.
+  digital_evidence_archival_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within Digital
+      Evidence Archival operations.
+  digital_evidence_archival_conformity_assertion:
+    >
+      Formal statement that Digital Evidence Archival requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: digital_evidence_archival_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  digital_evidence_archival_artifact_type:
+    - digital_evidence_archival_record
+    - digital_evidence_archival_log
+    - digital_evidence_archival_report
+    - digital_evidence_archival_attestation
+    - digital_evidence_archival_package
+  digital_evidence_archival_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Digital Evidence Archival Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: evidence_preservation
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - audit_traceability
+    - investigation_management
+    - governance_forensics
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - compliance_audits
+    - enforcement_actions
+    - reporting
+    - audit_and_enforcement/evidence_preservation/digital_evidence_archival.yaml
+  related_domains:
+    - audit_traceability
+    - governance_forensics
+    - investigation_management
+  related_skills:
+    - chain_of_custody
+    - cryptographic_evidence_integrity
+    - evidence_retention_policies
+    - digital_evidence_archival
+  parent_governance_objects:
+    - audit_metadata
+    - enforcement_framework
+  child_governance_objects:
+    - evidence_artifact
+    - custody_transfer_record
+    - digital_evidence_archival_governance_object
+  consumes_artifacts:
+    - audit_log
+    - investigation_record
+    - forensic_capture
+    - digital_evidence_archival_input_artifact
+  produces_artifacts:
+    - evidence_package
+    - integrity_attestation
+    - archival_manifest
+    - digital_evidence_archival_record
+    - digital_evidence_archival_report
+    - digital_evidence_archival_attestation
+  consumes_evidence:
+    - raw_digital_artifact
+    - runtime_snapshot
+    - digital_evidence_archival_source_evidence
+  produces_evidence:
+    - chain_of_custody_record
+    - cryptographic_hash_anchor
+    - retention_disposition_log
+    - digital_evidence_archival_audit_evidence
+    - digital_evidence_archival_validation_evidence
+    - digital_evidence_archival_enforcement_evidence
+  governance_dependencies:
+    - data_governance
+    - cybersecurity
+  regulatory_dependencies:
+    - eu_ai_act_article_12
+    - eu_ai_act_article_18
+    - gdpr_article_5
+  risk_dependencies:
+    - ai_liability
+  control_dependencies:
+    - audit_traceability
+    - digital_evidence_archival_control_register
+roles_and_responsibilities:
+  digital_evidence_archival_owner:
+    responsibilities:
+      - Accountable for Digital Evidence Archival strategy, control design, and regulatory alignment
+  digital_evidence_archival_operator:
+    responsibilities:
+      - Executes Digital Evidence Archival workflows and maintains operational records
+  digital_evidence_archival_auditor:
+    responsibilities:
+      - Independently validates Digital Evidence Archival control effectiveness and evidence sufficiency
+  digital_evidence_archival_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Digital Evidence Archival investigations
+  digital_evidence_archival_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Digital Evidence Archival
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-033
+    name: Evidence Preservation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-034
+    name: Digital Evidence Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-035
+    name: Chain of Custody
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-036
+    name: Evidence Integrity Validation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-037
+    name: Evidence Archival
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-038
+    name: Evidence Reconstruction
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-039
+    name: Audit Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-040
+    name: Runtime Traceability
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-EVI-DIGITAL_EV-DIGITALCHAI
+    control_name: digital_chain_of_custody_transfer_attestation
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring chain of custody transfer attestation for Digital Evidence Archival
+        across evidence_preservation.
+    governance_rationale:
+      >
+        digital_chain_of_custody_transfer_attestation is required to govern Digital Evidence Archival
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement digital_chain_of_custody_transfer_attestation as automated policy in
+        digital_evidence_archival orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: digital_chain_of_custody_transfer_attestation_continuous_telemetry_dashboard
+    validation_method:
+      digital_chain_of_custody_transfer_attestation_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      digital_chain_of_custody_transfer_attestation_statistical_sampling_with_exception_tracking
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated: digital_chain_of_custody_transfer_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify digital_chain_of_custody_transfer_attestation design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        digital_chain_of_custody_transfer_attestation outputs may trigger enforcement under
+        digital_evidence_archival escalation rules.
+  - control_id: AAE-EVI-DIGITAL_EV-EVIDENCEEVI
+    control_name: evidence_evidence_classification_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring evidence classification enforcer for Digital Evidence Archival
+        across evidence_preservation.
+    governance_rationale:
+      >
+        evidence_evidence_classification_enforcer is required to govern Digital Evidence Archival risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_evidence_classification_enforcer as automated policy in
+        digital_evidence_archival orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: evidence_evidence_classification_enforcer_continuous_telemetry_dashboard
+    validation_method:
+      evidence_evidence_classification_enforcer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      evidence_evidence_classification_enforcer_statistical_sampling_with_exception_tracking
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated: evidence_evidence_classification_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_evidence_classification_enforcer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_evidence_classification_enforcer outputs may trigger enforcement under
+        digital_evidence_archival escalation rules.
+  - control_id: AAE-EVI-DIGITAL_EV-ARCHIVALRET
+    control_name: archival_retention_schedule_executor
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring retention schedule executor for Digital Evidence Archival across
+        evidence_preservation.
+    governance_rationale:
+      >
+        archival_retention_schedule_executor is required to govern Digital Evidence Archival risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement archival_retention_schedule_executor as automated policy in digital_evidence_archival
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: archival_retention_schedule_executor_continuous_telemetry_dashboard
+    validation_method:
+      archival_retention_schedule_executor_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      archival_retention_schedule_executor_statistical_sampling_with_exception_tracking
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated: archival_retention_schedule_executor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify archival_retention_schedule_executor design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        archival_retention_schedule_executor outputs may trigger enforcement under
+        digital_evidence_archival escalation rules.
+  - control_id: AAE-EVI-DIGITAL_EV-DIGITALEVID
+    control_name: digital_evidence_archival_access_authorization_gateway
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring access authorization gateway for Digital Evidence Archival across
+        evidence_preservation.
+    governance_rationale:
+      >
+        digital_evidence_archival_access_authorization_gateway is required to govern Digital Evidence
+        Archival risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement digital_evidence_archival_access_authorization_gateway as automated policy in
+        digital_evidence_archival orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      digital_evidence_archival_access_authorization_gateway_continuous_telemetry_dashboard
+    validation_method:
+      >
+        digital_evidence_archival_access_authorization_gateway_quarterly_design_and_operating_effectiven
+        ess_test
+    testing_method:
+      >
+        digital_evidence_archival_access_authorization_gateway_statistical_sampling_with_exception_track
+        ing
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated: digital_evidence_archival_access_authorization_gateway_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify digital_evidence_archival_access_authorization_gateway design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        digital_evidence_archival_access_authorization_gateway outputs may trigger enforcement under
+        digital_evidence_archival escalation rules.
+  - control_id: AAE-EVI-DIGITAL_EV-DIGITALEVID
+    control_name: digital_evidence_archival_archival_integrity_verifier
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring archival integrity verifier for Digital Evidence Archival across
+        evidence_preservation.
+    governance_rationale:
+      >
+        digital_evidence_archival_archival_integrity_verifier is required to govern Digital Evidence
+        Archival risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement digital_evidence_archival_archival_integrity_verifier as automated policy in
+        digital_evidence_archival orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      digital_evidence_archival_archival_integrity_verifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        digital_evidence_archival_archival_integrity_verifier_quarterly_design_and_operating_effectivene
+        ss_test
+    testing_method:
+      >
+        digital_evidence_archival_archival_integrity_verifier_statistical_sampling_with_exception_tracki
+        ng
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated: digital_evidence_archival_archival_integrity_verifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify digital_evidence_archival_archival_integrity_verifier design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        digital_evidence_archival_archival_integrity_verifier outputs may trigger enforcement under
+        digital_evidence_archival escalation rules.
+  - control_id: AAE-EVI-DIGITAL_EV-DIGITALEVID
+    control_name: digital_evidence_archival_reconstruction_fidelity_validator
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring reconstruction fidelity validator for Digital Evidence Archival
+        across evidence_preservation.
+    governance_rationale:
+      >
+        digital_evidence_archival_reconstruction_fidelity_validator is required to govern Digital
+        Evidence Archival risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement digital_evidence_archival_reconstruction_fidelity_validator as automated policy in
+        digital_evidence_archival orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      digital_evidence_archival_reconstruction_fidelity_validator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        digital_evidence_archival_reconstruction_fidelity_validator_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        digital_evidence_archival_reconstruction_fidelity_validator_statistical_sampling_with_exception_
+        tracking
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated:
+      digital_evidence_archival_reconstruction_fidelity_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify digital_evidence_archival_reconstruction_fidelity_validator design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        digital_evidence_archival_reconstruction_fidelity_validator outputs may trigger enforcement
+        under digital_evidence_archival escalation rules.
+  - control_id: AAE-EVI-DIGITAL_EV-DIGITALEVID
+    control_name: digital_evidence_archival_machine_readable_schema_validator
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring machine readable schema validator for Digital Evidence Archival
+        across evidence_preservation.
+    governance_rationale:
+      >
+        digital_evidence_archival_machine_readable_schema_validator is required to govern Digital
+        Evidence Archival risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement digital_evidence_archival_machine_readable_schema_validator as automated policy in
+        digital_evidence_archival orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      digital_evidence_archival_machine_readable_schema_validator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        digital_evidence_archival_machine_readable_schema_validator_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        digital_evidence_archival_machine_readable_schema_validator_statistical_sampling_with_exception_
+        tracking
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated:
+      digital_evidence_archival_machine_readable_schema_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify digital_evidence_archival_machine_readable_schema_validator design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        digital_evidence_archival_machine_readable_schema_validator outputs may trigger enforcement
+        under digital_evidence_archival escalation rules.
+  - control_id: AAE-EVI-DIGITAL_EV-DIGITALEVID
+    control_name: digital_evidence_archival_legal_hold_override_manager
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring legal hold override manager for Digital Evidence Archival across
+        evidence_preservation.
+    governance_rationale:
+      >
+        digital_evidence_archival_legal_hold_override_manager is required to govern Digital Evidence
+        Archival risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement digital_evidence_archival_legal_hold_override_manager as automated policy in
+        digital_evidence_archival orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      digital_evidence_archival_legal_hold_override_manager_continuous_telemetry_dashboard
+    validation_method:
+      >
+        digital_evidence_archival_legal_hold_override_manager_quarterly_design_and_operating_effectivene
+        ss_test
+    testing_method:
+      >
+        digital_evidence_archival_legal_hold_override_manager_statistical_sampling_with_exception_tracki
+        ng
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated: digital_evidence_archival_legal_hold_override_manager_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify digital_evidence_archival_legal_hold_override_manager design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        digital_evidence_archival_legal_hold_override_manager outputs may trigger enforcement under
+        digital_evidence_archival escalation rules.
+  - control_id: AAE-EVI-DIGITAL_EV-DIGITALEVID
+    control_name: digital_evidence_archival_disposition_authorization_gate
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring disposition authorization gate for Digital Evidence Archival across
+        evidence_preservation.
+    governance_rationale:
+      >
+        digital_evidence_archival_disposition_authorization_gate is required to govern Digital Evidence
+        Archival risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement digital_evidence_archival_disposition_authorization_gate as automated policy in
+        digital_evidence_archival orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      digital_evidence_archival_disposition_authorization_gate_continuous_telemetry_dashboard
+    validation_method:
+      >
+        digital_evidence_archival_disposition_authorization_gate_quarterly_design_and_operating_effectiv
+        eness_test
+    testing_method:
+      >
+        digital_evidence_archival_disposition_authorization_gate_statistical_sampling_with_exception_tra
+        cking
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated: digital_evidence_archival_disposition_authorization_gate_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify digital_evidence_archival_disposition_authorization_gate design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        digital_evidence_archival_disposition_authorization_gate outputs may trigger enforcement under
+        digital_evidence_archival escalation rules.
+  - control_id: AAE-EVI-DIGITAL_EV-DIGITALEVID
+    control_name: digital_evidence_archival_evidence_vault_tamper_detector
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring evidence vault tamper detector for Digital Evidence Archival across
+        evidence_preservation.
+    governance_rationale:
+      >
+        digital_evidence_archival_evidence_vault_tamper_detector is required to govern Digital Evidence
+        Archival risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement digital_evidence_archival_evidence_vault_tamper_detector as automated policy in
+        digital_evidence_archival orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      digital_evidence_archival_evidence_vault_tamper_detector_continuous_telemetry_dashboard
+    validation_method:
+      >
+        digital_evidence_archival_evidence_vault_tamper_detector_quarterly_design_and_operating_effectiv
+        eness_test
+    testing_method:
+      >
+        digital_evidence_archival_evidence_vault_tamper_detector_statistical_sampling_with_exception_tra
+        cking
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated: digital_evidence_archival_evidence_vault_tamper_detector_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify digital_evidence_archival_evidence_vault_tamper_detector design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        digital_evidence_archival_evidence_vault_tamper_detector outputs may trigger enforcement under
+        digital_evidence_archival escalation rules.
+  - control_id: AAE-EVI-DIGITAL_EV-DIGITALEVID
+    control_name: digital_evidence_archival_regulator_evidence_disclosure_packager
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring regulator evidence disclosure packager for Digital Evidence
+        Archival across evidence_preservation.
+    governance_rationale:
+      >
+        digital_evidence_archival_regulator_evidence_disclosure_packager is required to govern Digital
+        Evidence Archival risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement digital_evidence_archival_regulator_evidence_disclosure_packager as automated policy
+        in digital_evidence_archival orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      digital_evidence_archival_regulator_evidence_disclosure_packager_continuous_telemetry_dashboard
+    validation_method:
+      >
+        digital_evidence_archival_regulator_evidence_disclosure_packager_quarterly_design_and_operating_
+        effectiveness_test
+    testing_method:
+      >
+        digital_evidence_archival_regulator_evidence_disclosure_packager_statistical_sampling_with_excep
+        tion_tracking
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated:
+      digital_evidence_archival_regulator_evidence_disclosure_packager_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify digital_evidence_archival_regulator_evidence_disclosure_packager design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        digital_evidence_archival_regulator_evidence_disclosure_packager outputs may trigger enforcement
+        under digital_evidence_archival escalation rules.
+  - control_id: AAE-EVI-DIGITAL_EV-DIGITALEVID
+    control_name: digital_evidence_archival_preservation_assurance_attestation
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring preservation assurance attestation for Digital Evidence Archival
+        across evidence_preservation.
+    governance_rationale:
+      >
+        digital_evidence_archival_preservation_assurance_attestation is required to govern Digital
+        Evidence Archival risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement digital_evidence_archival_preservation_assurance_attestation as automated policy in
+        digital_evidence_archival orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      digital_evidence_archival_preservation_assurance_attestation_continuous_telemetry_dashboard
+    validation_method:
+      >
+        digital_evidence_archival_preservation_assurance_attestation_quarterly_design_and_operating_effe
+        ctiveness_test
+    testing_method:
+      >
+        digital_evidence_archival_preservation_assurance_attestation_statistical_sampling_with_exception
+        _tracking
+    control_owner: digital_evidence_archival_control_owner
+    evidence_generated:
+      digital_evidence_archival_preservation_assurance_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify digital_evidence_archival_preservation_assurance_attestation design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        digital_evidence_archival_preservation_assurance_attestation outputs may trigger enforcement
+        under digital_evidence_archival escalation rules.
+requirements:
+  legal:
+    >
+      Digital Evidence Archival must satisfy legal requirements for evidence lifecycle preservation
+      with chain-of-custody defensibility, long-term preservation with retrieval integrity guarantees
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Digital Evidence Archival must satisfy regulatory requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, long-term preservation with retrieval
+      integrity guarantees including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Digital Evidence Archival must satisfy technical requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, long-term preservation with retrieval
+      integrity guarantees including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Digital Evidence Archival must satisfy operational requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, long-term preservation with retrieval
+      integrity guarantees including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Digital Evidence Archival must satisfy audit requirements for evidence lifecycle preservation
+      with chain-of-custody defensibility, long-term preservation with retrieval integrity guarantees
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Digital Evidence Archival must satisfy forensic requirements for evidence lifecycle preservation
+      with chain-of-custody defensibility, long-term preservation with retrieval integrity guarantees
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Digital Evidence Archival must satisfy enforcement requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, long-term preservation with retrieval
+      integrity guarantees including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Digital Evidence Archival with stage gates, RACI assignments, and evidence
+      capture.
+  triage:
+    >
+      Triage process for Digital Evidence Archival with stage gates, RACI assignments, and evidence
+      capture.
+  execution:
+    >
+      Execution process for Digital Evidence Archival with stage gates, RACI assignments, and evidence
+      capture.
+  validation:
+    >
+      Validation process for Digital Evidence Archival with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Digital Evidence Archival with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Digital Evidence Archival with stage gates, RACI assignments, and evidence
+      capture.
+  improvement:
+    >
+      Improvement process for Digital Evidence Archival with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: digital_evidence_archival_operational_lifecycle_workflow
+    workflow_trigger: digital_evidence_archival_governance_event_detected
+    workflow_steps:
+      - digital_evidence_archival_intake
+      - digital_evidence_archival_triage
+      - digital_evidence_archival_execution
+      - digital_evidence_archival_validation
+      - digital_evidence_archival_approval
+      - digital_evidence_archival_closure
+    approval_points:
+      - digital_evidence_archival_approval
+    escalation_points:
+      - digital_evidence_archival_triage
+    generated_evidence:
+      - digital_evidence_archival_workflow_log
+      - digital_evidence_archival_closure_attestation
+    completion_requirements:
+      - digital_evidence_archival_evidence_complete
+      - digital_evidence_archival_approvals_recorded
+  - workflow_name: digital_evidence_archival_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_digital_evidence_archival
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - digital_evidence_archival_regulatory_package
+      - digital_evidence_archival_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - digital_evidence_archival_governance_event_detected
+    - digital_evidence_archival_regulatory_inquiry
+    - digital_evidence_archival_integrity_breach
+    - digital_evidence_archival_enforcement_authorization
+  required_inputs:
+    - digital_evidence_archival_case_context
+    - digital_evidence_archival_evidence_index
+    - digital_evidence_archival_risk_assessment
+  workflow_steps:
+    - digital_evidence_archival_intake
+    - digital_evidence_archival_triage
+    - digital_evidence_archival_execution
+    - digital_evidence_archival_validation
+    - digital_evidence_archival_approval
+    - digital_evidence_archival_closure
+  validation_steps:
+    - digital_evidence_archival_evidence_sufficiency_check
+    - digital_evidence_archival_integrity_verification
+  approval_steps:
+    - digital_evidence_archival_approval
+  control_checkpoints:
+    - digital_evidence_archival_intake_gate
+    - digital_evidence_archival_evidence_gate
+    - digital_evidence_archival_decision_gate
+  evidence_generation:
+    - digital_evidence_archival_workflow_log
+    - digital_evidence_archival_closure_attestation
+  decision_points:
+    - digital_evidence_archival_severity_classification
+    - digital_evidence_archival_enforcement_authorization
+  escalation_points:
+    - digital_evidence_archival_triage
+  completion_criteria:
+    - digital_evidence_archival_evidence_complete
+    - digital_evidence_archival_approvals_recorded
+  generated_outputs:
+    - digital_evidence_archival_workflow_log
+    - digital_evidence_archival_closure_attestation
+    - digital_evidence_archival_final_disposition
+decision_logic:
+  decision_inputs:
+    - digital_evidence_archival_severity_score
+    - digital_evidence_archival_evidence_completeness
+    - digital_evidence_archival_regulatory_context
+    - digital_evidence_archival_risk_exposure_index
+  decision_conditions:
+    - digital_evidence_archival_critical_threshold_breach
+    - digital_evidence_archival_evidence_integrity_failure
+    - digital_evidence_archival_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: digital_evidence_archival_severity_score >= 90
+    high_severity: digital_evidence_archival_severity_score >= 70
+    evidence_complete: digital_evidence_archival_evidence_completeness >= 0.98
+  decision_rules:
+    digital_evidence_archival_high_severity_violation:
+      condition: digital_evidence_archival_severity_score >= 90
+      action: initiate_digital_evidence_archival_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: digital_evidence_archival_investigation_report
+    digital_evidence_archival_evidence_compromise_detected:
+      condition: digital_evidence_archival_integrity_status == compromised
+      action: activate_digital_evidence_archival_forensic_lockdown
+      approval_required: digital_evidence_archival_forensic_lead
+      evidence_required: digital_evidence_archival_integrity_alert_record
+    digital_evidence_archival_enforcement_authorization:
+      condition: digital_evidence_archival_violation_confirmed == true AND digital_evidence_archival_evidence_complete == true
+      action: issue_digital_evidence_archival_enforcement_order
+      approval_required: digital_evidence_archival_enforcement_officer
+      evidence_required: digital_evidence_archival_violation_evidence_package
+    digital_evidence_archival_regulator_inquiry_response:
+      condition: digital_evidence_archival_regulator_request_received == true
+      action: compile_digital_evidence_archival_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: digital_evidence_archival_regulatory_evidence_index
+  decision_outputs:
+    - digital_evidence_archival_enforcement_decision
+    - digital_evidence_archival_escalation_notice
+    - digital_evidence_archival_remediation_directive
+    - digital_evidence_archival_audit_disposition
+  approval_requirements:
+    enforcement_actions: [digital_evidence_archival_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - digital_evidence_archival_severity_score >= 90
+    - digital_evidence_archival_evidence_integrity_failure == true
+    - digital_evidence_archival_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_digital_evidence_archival_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: digital_evidence_archival_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Digital Evidence Archival may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Digital Evidence Archival per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Digital Evidence Archival per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Digital Evidence Archival per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Digital Evidence Archival per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+metrics:
+  - metric_name: digital_operational_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure digital operational rate for Digital Evidence Archival operational and regulatory
+        assurance
+    formula: computed_digital_operational_rate_from_digital_evidence_archival_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: digital_evidence_archival_metrics_owner
+    data_source: digital_evidence_archival_metrics_warehouse
+    evidence_generated: digital_operational_rate_measurement_record
+  - metric_name: evidence_operational_rate
+    metric_category: risk
+    business_purpose:
+      >
+        Measure evidence operational rate for Digital Evidence Archival operational and regulatory
+        assurance
+    formula: computed_evidence_operational_rate_from_digital_evidence_archival_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: digital_evidence_archival_metrics_owner
+    data_source: digital_evidence_archival_metrics_warehouse
+    evidence_generated: evidence_operational_rate_measurement_record
+  - metric_name: archival_operational_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure archival operational rate for Digital Evidence Archival operational and regulatory
+        assurance
+    formula: computed_archival_operational_rate_from_digital_evidence_archival_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: digital_evidence_archival_metrics_owner
+    data_source: digital_evidence_archival_metrics_warehouse
+    evidence_generated: archival_operational_rate_measurement_record
+  - metric_name: evidence_assurance_score
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure evidence assurance score for Digital Evidence Archival operational and regulatory
+        assurance
+    formula: computed_evidence_assurance_score_from_digital_evidence_archival_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: digital_evidence_archival_metrics_owner
+    data_source: digital_evidence_archival_metrics_warehouse
+    evidence_generated: evidence_assurance_score_measurement_record
+  - metric_name: archival_assurance_score
+    metric_category: governance
+    business_purpose:
+      >
+        Measure archival assurance score for Digital Evidence Archival operational and regulatory
+        assurance
+    formula: computed_archival_assurance_score_from_digital_evidence_archival_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: digital_evidence_archival_metrics_owner
+    data_source: digital_evidence_archival_metrics_warehouse
+    evidence_generated: archival_assurance_score_measurement_record
+  - metric_name: digital_evidence_archival_escalation_frequency
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure digital evidence archival escalation frequency for Digital Evidence Archival operational
+        and regulatory assurance
+    formula:
+      computed_digital_evidence_archival_escalation_frequency_from_digital_evidence_archival_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: digital_evidence_archival_metrics_owner
+    data_source: digital_evidence_archival_metrics_warehouse
+    evidence_generated: digital_evidence_archival_escalation_frequency_measurement_record
+kpis:
+  - metric_name: digital_operational_rate
+    formula: computed_digital_operational_rate_from_digital_evidence_archival_telemetry
+    target: >= 95%
+  - metric_name: evidence_operational_rate
+    formula: computed_evidence_operational_rate_from_digital_evidence_archival_telemetry
+    target: >= 95%
+  - metric_name: archival_operational_rate
+    formula: computed_archival_operational_rate_from_digital_evidence_archival_telemetry
+    target: >= 95%
+  - metric_name: evidence_assurance_score
+    formula: computed_evidence_assurance_score_from_digital_evidence_archival_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: digital_evidence_archival_escalation_frequency
+    business_purpose: Measure digital evidence archival escalation frequency for Digital Evidence Archival operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: digital_evidence_archival_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support digital evidence archival governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_digital_evidence_archival_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: digital_evidence_archival_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: digital_evidence_archival_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support digital evidence archival governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_digital_evidence_archival_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: digital_evidence_archival_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: digital_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support digital evidence archival governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_digital_evidence_archival_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: digital_evidence_archival_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: evidence_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support digital evidence archival governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_digital_evidence_archival_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: digital_evidence_archival_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: archival_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support digital evidence archival governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_digital_evidence_archival_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: digital_evidence_archival_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: digital_evidence_archival_status_dashboard
+    report_owner: digital_evidence_archival_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: monthly
+    report_inputs:
+      - digital_evidence_archival_telemetry
+      - digital_evidence_archival_evidence_index
+    report_outputs:
+      - digital_evidence_archival_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: digital_evidence_archival_compliance_summary
+    report_owner: digital_evidence_archival_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - digital_evidence_archival_telemetry
+      - digital_evidence_archival_evidence_index
+    report_outputs:
+      - digital_evidence_archival_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: digital_assurance_report
+    report_owner: digital_evidence_archival_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - digital_evidence_archival_telemetry
+      - digital_evidence_archival_evidence_index
+    report_outputs:
+      - digital_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: digital_evidence_archival_executive_brief
+    report_owner: digital_evidence_archival_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - digital_evidence_archival_telemetry
+      - digital_evidence_archival_evidence_index
+    report_outputs:
+      - digital_evidence_archival_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: digital_evidence_archival_audit_pack
+    report_owner: digital_evidence_archival_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - digital_evidence_archival_telemetry
+      - digital_evidence_archival_evidence_index
+    report_outputs:
+      - digital_evidence_archival_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Digital Evidence Archival interfaces with autonomous agents,
+      GPAI, or tool-calling systems.
+  agent_governance:
+    agent_identity: digital_evidence_archival_registered_agent_identity_schema
+    agent_role: digital_evidence_archival_delegated_authority_role_matrix
+    agent_permissions: digital_evidence_archival_least_privilege_permission_set
+    agent_constraints: digital_evidence_archival_autonomy_and_tool_constraints
+    agent_accountability: digital_evidence_archival_human_accountability_chain
+    agent_escalation_rules: digital_evidence_archival_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - digital_evidence_archival_policy_context
+      - digital_evidence_archival_risk_score
+      - digital_evidence_archival_human_intent
+    decision_outputs:
+      - digital_evidence_archival_authorized_action
+      - digital_evidence_archival_escalation_notice
+    decision_owners:
+      - digital_evidence_archival_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: digital_evidence_archival_high_risk_decision_mandatory_review
+    decision_accountability: digital_evidence_archival_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: digital_evidence_archival_approved_tool_allowlist
+    tool_execution_validation: digital_evidence_archival_pre_execution_tool_risk_check
+    tool_risk_controls: digital_evidence_archival_tool_side_effect_containment
+    tool_auditability: digital_evidence_archival_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: digital_evidence_archival_memory_segment_access_policy
+    memory_integrity_validation: digital_evidence_archival_memory_tamper_detection
+    memory_retention_controls: digital_evidence_archival_memory_retention_and_purge_rules
+    memory_auditability: digital_evidence_archival_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: digital_evidence_archival_chain_of_thought_capture
+    reasoning_validation: digital_evidence_archival_reasoning_consistency_check
+    reasoning_risk_monitoring: digital_evidence_archival_reasoning_hazard_detection
+    reasoning_accountability: digital_evidence_archival_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - digital_evidence_archival_audit_log
+  - digital_evidence_archival_activity_log
+  - digital_evidence_archival_decision_log
+  - digital_evidence_archival_traceability_record
+  - digital_evidence_archival_evidence_package
+  - digital_evidence_archival_chain_of_custody_record
+  - digital_evidence_archival_attestation
+required_evidence:
+  - digital_evidence_archival_audit_log
+  - digital_evidence_archival_activity_log
+  - digital_evidence_archival_decision_log
+  - digital_evidence_archival_traceability_record
+  - digital_evidence_archival_evidence_package
+  - digital_evidence_archival_chain_of_custody_record
+  - digital_evidence_archival_attestation
+supporting_evidence:
+  - digital_evidence_archival_audit_log
+  - digital_evidence_archival_activity_log
+  - digital_evidence_archival_decision_log
+  - digital_evidence_archival_traceability_record
+  - digital_evidence_archival_evidence_package
+audit_evidence:
+  - digital_evidence_archival_audit_log
+  - digital_evidence_archival_activity_log
+  - digital_evidence_archival_decision_log
+  - digital_evidence_archival_traceability_record
+  - digital_evidence_archival_evidence_package
+  - digital_evidence_archival_chain_of_custody_record
+  - digital_evidence_archival_attestation
+forensic_evidence:
+  - digital_evidence_archival_audit_log
+  - digital_evidence_archival_activity_log
+  - digital_evidence_archival_decision_log
+  - digital_evidence_archival_traceability_record
+  - digital_evidence_archival_evidence_package
+  - digital_evidence_archival_chain_of_custody_record
+  - digital_evidence_archival_attestation
+regulatory_evidence:
+  - digital_evidence_archival_audit_log
+  - digital_evidence_archival_activity_log
+  - digital_evidence_archival_decision_log
+  - digital_evidence_archival_traceability_record
+  - digital_evidence_archival_evidence_package
+  - digital_evidence_archival_chain_of_custody_record
+  - digital_evidence_archival_attestation
+validation_evidence:
+  - digital_evidence_archival_audit_log
+  - digital_evidence_archival_activity_log
+  - digital_evidence_archival_decision_log
+  - digital_evidence_archival_traceability_record
+  - digital_evidence_archival_evidence_package
+  - digital_evidence_archival_chain_of_custody_record
+  - digital_evidence_archival_attestation
+validation_rules:
+  - rule: digital_evidence_archival_evidence_complete
+    condition: required_evidence_digital_evidence_archival < threshold
+    action: BLOCK_SUBMISSION
+  - rule: digital_evidence_archival_integrity_verified
+    condition: integrity_status_digital_evidence_archival != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: digital_evidence_archival_custody_intact
+    condition: custody_gap_digital_evidence_archival == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Digital Evidence Archival controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Digital Evidence Archival controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Digital Evidence Archival controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Digital Evidence Archival controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Digital Evidence Archival controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - digital_evidence_archival_control_failure
+    - digital_evidence_archival_evidence_compromise
+    - digital_evidence_archival_regulatory_non_compliance
+    - digital_evidence_archival_enforcement_delay
+  risk_events:
+    - digital_evidence_archival_audit_finding_critical
+    - digital_evidence_archival_investigation_escalation
+    - digital_evidence_archival_sanction_exposure
+    - digital_evidence_archival_market_surveillance_inquiry
+  risk_indicators:
+    - digital_evidence_archival_control_effectiveness_degradation
+    - digital_evidence_archival_evidence_gap_rate
+    - digital_evidence_archival_sla_breach_count
+    - digital_evidence_archival_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    digital_evidence_archival_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: digital_evidence_archival_forensic_lead
+    digital_evidence_archival_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    digital_evidence_archival_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: digital_evidence_archival_enforcement_officer
+  risk_tolerance:
+    digital_evidence_archival_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: digital_evidence_archival_risk_score >= 60
+    critical: digital_evidence_archival_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Digital Evidence Archival controls documented in
+      digital_evidence_archival_risk_register with quarterly review.
+  risk_treatment:
+    - digital_evidence_archival_preventive_control_reinforcement
+    - digital_evidence_archival_detective_monitoring_enhancement
+    - digital_evidence_archival_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: digital_evidence_archival_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Digital Evidence Archival workflow events with provenance anchor and
+      digital_evidence_archival_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via digital_evidence_archival_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      digital_evidence_archival_validation_engine
+  evidence_classification:
+    RESTRICTED/CONFIDENTIAL classification per digital_evidence_archival_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in digital_evidence_archival_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per digital_evidence_archival_retention_schedule aligned with EU AI Act Article 18 and
+      legal hold
+  evidence_archival:
+    Long-term archival with digital_evidence_archival_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via digital_evidence_archival_retrieval_gateway with purpose logging
+  evidence_disposal:
+    Authorized disposition with digital_evidence_archival_disposition_certificate and dual approval
+chain_of_custody:
+  custody_events:
+    - digital_evidence_archival_capture_event
+    - digital_evidence_archival_transfer_event
+    - digital_evidence_archival_access_event
+    - digital_evidence_archival_disposition_event
+  custody_owners:
+    primary: digital_evidence_archival_evidence_custodian
+    secondary: digital_evidence_archival_forensic_lead
+  custody_validation:
+    method: digital_evidence_archival_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - digital_evidence_archival_sha256_hash_chain
+    - digital_evidence_archival_digital_signature
+    - digital_evidence_archival_timestamp_authority
+  tamper_detection:
+    method: digital_evidence_archival_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: digital_evidence_archival_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_11:
+    article: Article 11
+    regulatory_text_summary:
+      Technical documentation requirements.
+    obligation:
+      >
+        Comprehensive technical documentation before market placement. Implemented through Digital
+        Evidence Archival in evidence_preservation.
+    implementation_controls:
+      - digital_evidence_archival_article_11_preventive_control
+      - digital_evidence_archival_article_11_detective_control
+      - digital_evidence_archival_article_11_evidence_control
+    implementation_processes:
+      - digital_evidence_archival_article_11_workflow
+      - digital_evidence_archival_article_11_validation_process
+      - digital_evidence_archival_article_11_escalation_process
+    implementation_evidence:
+      - digital_evidence_archival_article_11_compliance_record
+      - digital_evidence_archival_article_11_audit_package
+      - digital_evidence_archival_article_11_attestation
+    validation_method: digital_evidence_archival_article_11_automated_and_manual_conformity_testing
+    audit_method: digital_evidence_archival_article_11_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: digital_evidence_archival_article_11_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Digital Evidence Archival demonstrates Article 11 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_12:
+    article: Article 12
+    regulatory_text_summary:
+      Record-keeping and automatic logging.
+    obligation:
+      >
+        Logging capabilities enabling traceability throughout system lifetime. Implemented through
+        Digital Evidence Archival in evidence_preservation.
+    implementation_controls:
+      - digital_evidence_archival_article_12_preventive_control
+      - digital_evidence_archival_article_12_detective_control
+      - digital_evidence_archival_article_12_evidence_control
+    implementation_processes:
+      - digital_evidence_archival_article_12_workflow
+      - digital_evidence_archival_article_12_validation_process
+      - digital_evidence_archival_article_12_escalation_process
+    implementation_evidence:
+      - digital_evidence_archival_article_12_compliance_record
+      - digital_evidence_archival_article_12_audit_package
+      - digital_evidence_archival_article_12_attestation
+    validation_method: digital_evidence_archival_article_12_automated_and_manual_conformity_testing
+    audit_method: digital_evidence_archival_article_12_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: digital_evidence_archival_article_12_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Digital Evidence Archival demonstrates Article 12 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_18:
+    article: Article 18
+    regulatory_text_summary:
+      Documentation retention.
+    obligation:
+      >
+        Retention of technical documentation for prescribed periods. Implemented through Digital
+        Evidence Archival in evidence_preservation.
+    implementation_controls:
+      - digital_evidence_archival_article_18_preventive_control
+      - digital_evidence_archival_article_18_detective_control
+      - digital_evidence_archival_article_18_evidence_control
+    implementation_processes:
+      - digital_evidence_archival_article_18_workflow
+      - digital_evidence_archival_article_18_validation_process
+      - digital_evidence_archival_article_18_escalation_process
+    implementation_evidence:
+      - digital_evidence_archival_article_18_compliance_record
+      - digital_evidence_archival_article_18_audit_package
+      - digital_evidence_archival_article_18_attestation
+    validation_method: digital_evidence_archival_article_18_automated_and_manual_conformity_testing
+    audit_method: digital_evidence_archival_article_18_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: digital_evidence_archival_article_18_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Digital Evidence Archival demonstrates Article 18 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_19:
+    article: Article 19
+    regulatory_text_summary:
+      Conformity assessment and EU declaration.
+    obligation:
+      >
+        Conformity assessment and declaration of conformity. Implemented through Digital Evidence
+        Archival in evidence_preservation.
+    implementation_controls:
+      - digital_evidence_archival_article_19_preventive_control
+      - digital_evidence_archival_article_19_detective_control
+      - digital_evidence_archival_article_19_evidence_control
+    implementation_processes:
+      - digital_evidence_archival_article_19_workflow
+      - digital_evidence_archival_article_19_validation_process
+      - digital_evidence_archival_article_19_escalation_process
+    implementation_evidence:
+      - digital_evidence_archival_article_19_compliance_record
+      - digital_evidence_archival_article_19_audit_package
+      - digital_evidence_archival_article_19_attestation
+    validation_method: digital_evidence_archival_article_19_automated_and_manual_conformity_testing
+    audit_method: digital_evidence_archival_article_19_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: digital_evidence_archival_article_19_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Digital Evidence Archival demonstrates Article 19 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+crosswalks:
+  eu_ai_act:
+    article_11:
+      implementation: digital_evidence_archival_eu_ai_act_article_11_control_set
+      process: digital_evidence_archival_eu_ai_act_article_11_workflow
+      evidence: digital_evidence_archival_eu_ai_act_article_11_attestation
+    article_12:
+      implementation: digital_evidence_archival_eu_ai_act_article_12_control_set
+      process: digital_evidence_archival_eu_ai_act_article_12_workflow
+      evidence: digital_evidence_archival_eu_ai_act_article_12_attestation
+    article_18:
+      implementation: digital_evidence_archival_eu_ai_act_article_18_control_set
+      process: digital_evidence_archival_eu_ai_act_article_18_workflow
+      evidence: digital_evidence_archival_eu_ai_act_article_18_attestation
+    article_19:
+      implementation: digital_evidence_archival_eu_ai_act_article_19_control_set
+      process: digital_evidence_archival_eu_ai_act_article_19_workflow
+      evidence: digital_evidence_archival_eu_ai_act_article_19_attestation
+  gdpr:
+    article_5:
+      implementation: digital_evidence_archival_gdpr_article_5_privacy_control
+      evidence: digital_evidence_archival_gdpr_article_5_compliance_record
+    article_6:
+      implementation: digital_evidence_archival_gdpr_article_6_privacy_control
+      evidence: digital_evidence_archival_gdpr_article_6_compliance_record
+    article_22:
+      implementation: digital_evidence_archival_gdpr_article_22_privacy_control
+      evidence: digital_evidence_archival_gdpr_article_22_compliance_record
+    article_25:
+      implementation: digital_evidence_archival_gdpr_article_25_privacy_control
+      evidence: digital_evidence_archival_gdpr_article_25_compliance_record
+    article_32:
+      implementation: digital_evidence_archival_gdpr_article_32_privacy_control
+      evidence: digital_evidence_archival_gdpr_article_32_compliance_record
+    article_35:
+      implementation: digital_evidence_archival_gdpr_article_35_privacy_control
+      evidence: digital_evidence_archival_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: digital_evidence_archival_iso42001_clause_4_1_aims_control
+      evidence: digital_evidence_archival_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: digital_evidence_archival_iso42001_clause_4_2_aims_control
+      evidence: digital_evidence_archival_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: digital_evidence_archival_iso42001_clause_5_1_aims_control
+      evidence: digital_evidence_archival_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: digital_evidence_archival_iso42001_clause_5_2_aims_control
+      evidence: digital_evidence_archival_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: digital_evidence_archival_iso42001_clause_6_1_aims_control
+      evidence: digital_evidence_archival_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: digital_evidence_archival_iso42001_clause_8_1_aims_control
+      evidence: digital_evidence_archival_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: digital_evidence_archival_iso42001_clause_9_1_aims_control
+      evidence: digital_evidence_archival_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: digital_evidence_archival_iso42001_clause_10_1_aims_control
+      evidence: digital_evidence_archival_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: digital_evidence_archival_iso23894_risk_identification_alignment
+      evidence: digital_evidence_archival_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: digital_evidence_archival_iso23894_risk_analysis_alignment
+      evidence: digital_evidence_archival_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: digital_evidence_archival_iso23894_risk_evaluation_alignment
+      evidence: digital_evidence_archival_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: digital_evidence_archival_iso23894_risk_treatment_alignment
+      evidence: digital_evidence_archival_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: digital_evidence_archival_iso23894_risk_monitoring_alignment
+      evidence: digital_evidence_archival_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: digital_evidence_archival_iso19011_audit_principles_procedure
+      evidence: digital_evidence_archival_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: digital_evidence_archival_iso19011_audit_programme_management_procedure
+      evidence: digital_evidence_archival_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: digital_evidence_archival_iso19011_audit_evidence_requirements_procedure
+      evidence: digital_evidence_archival_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: digital_evidence_archival_iso19011_audit_reporting_procedure
+      evidence: digital_evidence_archival_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: digital_evidence_archival_nist_rmf_govern_control_mapping
+      evidence: digital_evidence_archival_nist_rmf_govern_assessment
+    map:
+      implementation: digital_evidence_archival_nist_rmf_map_control_mapping
+      evidence: digital_evidence_archival_nist_rmf_map_assessment
+    measure:
+      implementation: digital_evidence_archival_nist_rmf_measure_control_mapping
+      evidence: digital_evidence_archival_nist_rmf_measure_assessment
+    manage:
+      implementation: digital_evidence_archival_nist_rmf_manage_control_mapping
+      evidence: digital_evidence_archival_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: digital_evidence_archival_nist_csf_identify_safeguard
+      evidence: digital_evidence_archival_nist_csf_identify_log
+    protect:
+      implementation: digital_evidence_archival_nist_csf_protect_safeguard
+      evidence: digital_evidence_archival_nist_csf_protect_log
+    detect:
+      implementation: digital_evidence_archival_nist_csf_detect_safeguard
+      evidence: digital_evidence_archival_nist_csf_detect_log
+    respond:
+      implementation: digital_evidence_archival_nist_csf_respond_safeguard
+      evidence: digital_evidence_archival_nist_csf_respond_log
+    recover:
+      implementation: digital_evidence_archival_nist_csf_recover_safeguard
+      evidence: digital_evidence_archival_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: digital_evidence_archival_oecd_accountability_governance_control
+      evidence: digital_evidence_archival_oecd_accountability_attestation
+    transparency:
+      implementation: digital_evidence_archival_oecd_transparency_governance_control
+      evidence: digital_evidence_archival_oecd_transparency_attestation
+    robustness_security:
+      implementation: digital_evidence_archival_oecd_robustness_security_governance_control
+      evidence: digital_evidence_archival_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: digital_evidence_archival_oecd_inclusive_growth_governance_control
+      evidence: digital_evidence_archival_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: digital_evidence_archival_unesco_human_rights_ethics_control
+      evidence: digital_evidence_archival_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: digital_evidence_archival_unesco_fairness_non_discrimination_ethics_control
+      evidence: digital_evidence_archival_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: digital_evidence_archival_unesco_transparency_explainability_ethics_control
+      evidence: digital_evidence_archival_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: digital_evidence_archival_unesco_accountability_ethics_control
+      evidence: digital_evidence_archival_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Digital Evidence Archival covering executive, board, regulatory, audit,
+      forensic, and attestation consumers.
+  report_types:
+    - digital_evidence_archival_status_report
+    - digital_evidence_archival_compliance_report
+    - digital_evidence_archival_enforcement_report
+    - digital_evidence_archival_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [digital_evidence_archival_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_digital_evidence_archival
+  - quarterly_control_testing_digital_evidence_archival
+  - evidence_sampling_digital_evidence_archival
+  - finding_remediation_tracking_digital_evidence_archival
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Digital Evidence Archival aligned with ISO/IEC 27037 and legal
+      admissibility standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Digital Evidence Archival.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Digital Evidence Archival.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Digital Evidence Archival.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Digital Evidence Archival.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Digital Evidence Archival.
+integration_points:
+  upstream_systems:
+    - system: audit_traceability
+      purpose: digital_evidence_archival_to_audit_traceability_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_audit_traceability]
+      produced_artifacts: [digital_evidence_archival_output_to_audit_traceability]
+    - system: investigation_management
+      purpose: digital_evidence_archival_to_investigation_management_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_investigation_management]
+      produced_artifacts: [digital_evidence_archival_output_to_investigation_management]
+    - system: governance_forensics
+      purpose: digital_evidence_archival_to_governance_forensics_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_governance_forensics]
+      produced_artifacts: [digital_evidence_archival_output_to_governance_forensics]
+  downstream_systems:
+    - system: compliance_audits
+      purpose: digital_evidence_archival_to_compliance_audits_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_compliance_audits]
+      produced_artifacts: [digital_evidence_archival_output_to_compliance_audits]
+    - system: enforcement_actions
+      purpose: digital_evidence_archival_to_enforcement_actions_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_enforcement_actions]
+      produced_artifacts: [digital_evidence_archival_output_to_enforcement_actions]
+    - system: reporting
+      purpose: digital_evidence_archival_to_reporting_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_reporting]
+      produced_artifacts: [digital_evidence_archival_output_to_reporting]
+  governance_integrations:
+    - system: data_governance
+      purpose: digital_evidence_archival_to_data_governance_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_data_governance]
+      produced_artifacts: [digital_evidence_archival_output_to_data_governance]
+    - system: cybersecurity
+      purpose: digital_evidence_archival_to_cybersecurity_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_cybersecurity]
+      produced_artifacts: [digital_evidence_archival_output_to_cybersecurity]
+  risk_integrations:
+    - system: ai_liability
+      purpose: digital_evidence_archival_to_ai_liability_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_ai_liability]
+      produced_artifacts: [digital_evidence_archival_output_to_ai_liability]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: digital_evidence_archival_to_compliance_audits_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_compliance_audits]
+      produced_artifacts: [digital_evidence_archival_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: digital_evidence_archival_to_internal_audit_system_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_internal_audit_system]
+      produced_artifacts: [digital_evidence_archival_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: digital_evidence_archival_to_governance_reporting_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_governance_reporting]
+      produced_artifacts: [digital_evidence_archival_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: digital_evidence_archival_to_executive_dashboard_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_executive_dashboard]
+      produced_artifacts: [digital_evidence_archival_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: digital_evidence_archival_to_enforcement_actions_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_enforcement_actions]
+      produced_artifacts: [digital_evidence_archival_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: digital_evidence_archival_to_policy_enforcement_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_policy_enforcement]
+      produced_artifacts: [digital_evidence_archival_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: digital_evidence_archival_to_remediation_tracking_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_remediation_tracking]
+      produced_artifacts: [digital_evidence_archival_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: digital_evidence_archival_to_remediation_engine_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_remediation_engine]
+      produced_artifacts: [digital_evidence_archival_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: digital_evidence_archival_to_evidence_preservation_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_evidence_preservation]
+      produced_artifacts: [digital_evidence_archival_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: digital_evidence_archival_to_technical_documentation_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_technical_documentation]
+      produced_artifacts: [digital_evidence_archival_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: digital_evidence_archival_to_post_market_monitoring_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_post_market_monitoring]
+      produced_artifacts: [digital_evidence_archival_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: digital_evidence_archival_to_incident_reporting_governance_sync
+      data_exchanged: [digital_evidence_archival_events, digital_evidence_archival_evidence_refs, digital_evidence_archival_metrics]
+      trigger_conditions: [digital_evidence_archival_state_change, digital_evidence_archival_escalation, digital_evidence_archival_closure]
+      consumed_artifacts: [digital_evidence_archival_input_from_incident_reporting]
+      produced_artifacts: [digital_evidence_archival_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Digital Evidence Archival activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Digital Evidence Archival procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - digital_evidence_archival_procedure_checklist
+    required_evidence:
+      - digital_evidence_archival_process_log
+    required_metrics:
+      - digital_evidence_archival_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Digital Evidence Archival enterprise-wide.
+    required_capabilities:
+      - digital_evidence_archival_standard_control_set
+    required_controls:
+      - digital_evidence_archival_control_register
+    required_evidence:
+      - digital_evidence_archival_audit_evidence
+    required_metrics:
+      - digital_evidence_archival_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Digital Evidence Archival with KPI optimization.
+    required_capabilities:
+      - digital_evidence_archival_automated_controls
+    required_controls:
+      - digital_evidence_archival_telemetry_controls
+    required_evidence:
+      - digital_evidence_archival_assurance_package
+    required_metrics:
+      - digital_evidence_archival_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Digital Evidence Archival with predictive analytics.
+    required_capabilities:
+      - digital_evidence_archival_autonomous_governance
+    required_controls:
+      - digital_evidence_archival_adaptive_controls
+    required_evidence:
+      - digital_evidence_archival_regulator_ready_portfolio
+    required_metrics:
+      - digital_evidence_archival_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - digital_evidence_archival_report
+  - digital_evidence_archival_evidence_package
+  - digital_evidence_archival_attestation
+  - digital_evidence_archival_enforcement_record
+artifacts:
+  - name: digital_evidence_archival_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: digital_evidence_archival_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: digital_evidence_archival_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: digital_evidence_archival_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - digital_evidence_archival_case_record
+  - digital_evidence_archival_audit_record
+  - digital_evidence_archival_enforcement_record
+  - digital_evidence_archival_remediation_record
+monitoring:
+  continuous:
+    - digital_evidence_archival_control_telemetry
+    - digital_evidence_archival_evidence_integrity_feed
+    - digital_evidence_archival_escalation_queue
+  periodic:
+    - digital_evidence_archival_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Digital Evidence Archival effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: digital_evidence_archival_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: digital_evidence_archival_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: digital_evidence_archival_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: digital_evidence_archival_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Digital Evidence Archival

@@ -1,0 +1,1291 @@
+metadata:
+  document_id: "LI-ORCH-LEGAL_INTERO-001"
+  title: "Legal Interoperability Metadata"
+  domain: "Orchestration"
+  version: "1.0.0"
+  classification: "CONFIDENTIAL_REGULATORY"
+purpose: "Govern, operationalize, and validate compliance checks for Legal Interoperability Metadata under the Orchestration framework. This skill provides machine-readable, executable Legal Interoperability & regulatory harmonization logic specifically tailored to adaptive compliance alignment rules, legal coordination loops, orchestrated compliance flows, conflict resolution paths properties."
+scope: "Scope covers all cross-framework alignments, transfer controls, conflict resolution pathways, and jurisdictional mappings governed by the Legal Interoperability Metadata framework."
+objectives:
+  - "Enforce automated jurisdictional mappings and equivalency rules under Legal Interoperability Metadata criteria."
+  - "Ensure real-time translation audits and traceability log capture for Orchestration."
+  - "Compile litigation-aware legal assurance reports to verify defensibility under cross-border regimes."
+definitions:
+  legal_interoperability_metadata_interop_policy: "The primary operational legal interoperability policy and rules for Legal Interoperability Metadata."
+  legal_interoperability_metadata_alignment_map: "Cryptographically sealed concept alignment matrix containing regulatory mapping data for Legal Interoperability Metadata."
+taxonomy:
+  jurisdictional_zones:
+    - "EU_ZONE"
+    - "US_FEDERAL"
+    - "UK_REGULATORY"
+    - "GLOBAL_TREATED"
+  interop_states:
+    - "HARMONIZED"
+    - "CONFLICT_POTENTIAL"
+    - "RESOLVED"
+    - "EXEMPTED"
+governance:
+  governance_model: "COORDINATED_LEGAL_INTEROPERABILITY_GOVERNANCE"
+  governance_structure: "Enterprise Legal Interoperability Board - Orchestration"
+  roles_and_responsibilities:
+    legal_steward: "Responsible for managing regulatory mappings and conflict analysis for Legal Interoperability Metadata."
+    compliance_officer: "Responsible for ensuring cross-border transfer compliance for Legal Interoperability Metadata."
+    harmonization_steward: "Responsible for term translation and cross-framework validation reviews for Legal Interoperability Metadata."
+  stakeholders:
+    - "General Counsel"
+    - "Head of International Affairs"
+    - "Chief AI Safety Officer"
+governance_model:
+  model_type: "COORDINATED_LEGAL_INTEROPERABILITY_GOVERNANCE"
+  model_rationale: "Ensures uniform application of jurisdictional alignments, automated conflict resolution, and compliant legal translation records across all operating regions."
+governance_structure:
+  oversight_board: "Global Regulatory Harmonization Committee - Orchestration"
+  escalation_contact: "legal_compliance@enterprise.ai"
+roles_and_responsibilities:
+  legal_steward: "Primary owner of legal taxonomy mappings and conflict analyses under Legal Interoperability Metadata."
+  compliance_officer: "Responsible for transfer authorizations and cross-border audits coordination."
+  harmonization_steward: "Responsible for regulatory change alerts assessments and translation review validations."
+stakeholders:
+  - "Head of Global AI Policy"
+  - "Director of Corporate Compliance"
+  - "VP of International Trade"
+  - "Orchestration Interoperability Lead"
+capabilities:
+  - "Automated mapping of obligations between international regulatory frameworks under Legal Interoperability Metadata."
+  - "Real-time conflict detection and precedence rules application under Orchestration."
+  - "Litigation-aware legal evidence compiling and cryptographic attestation."
+requirements:
+  - "All model releases under Legal Interoperability Metadata must possess valid mappings across active target jurisdictions."
+  - "Legal alignment scores must exceed the 0.90 compliance baseline parameters."
+  - "Conflicts must be resolved using precedence rules databases within 48 hours of detection."
+controls:
+  - control_id: "CTRL-LI-ORCH-LEGAL_-01"
+    control_name: "jurisdiction_mapping_control"
+    control_type: "PREVENTATIVE"
+    control_category: "MAPPING"
+    control_objective: "Verify and enforce jurisdictional requirement mappings for Legal Interoperability Metadata."
+    legal_interoperability_rationale: "Ensures systems meet local rules pre-launch, avoiding cross-border compliance penalties."
+    implementation_guidance: "Deploy validation checkers that match model deployments configurations against target jurisdictions checklists weekly."
+    control_owner: "Legal Steward"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Monitor mapping status ticker on global compliance portal."
+    validation_method: "Simulate deployment to unauthorized zone, verify automated gate blocks release."
+    evidence_generated: "Signed jurisdiction verification certificate."
+    mapping_confidence: 0.99
+    audit_considerations: "Check regional directory updates and classification registers."
+  - control_id: "CTRL-LI-ORCH-LEGAL_-02"
+    control_name: "cross_border_compliance_control"
+    control_type: "PREVENTATIVE"
+    control_category: "TRANSFER"
+    control_objective: "Validate adequacy decisions status and transfer requirements for Legal Interoperability Metadata."
+    legal_interoperability_rationale: "Prevents unlawful data transfers violating GDPR Chapter V or Data Governance Act limitations."
+    implementation_guidance: "Setup checkpoints verifying adequacy keys and consent logs completeness before transfers."
+    control_owner: "Compliance Officer"
+    control_frequency: "AS_REQUIRED"
+    monitoring_method: "Audit transfer logs against authorized keys database monthly."
+    validation_method: "Attempt data packet transfer with missing consent metadata, verify validation halt."
+    evidence_generated: "Signed transfer validation attestation."
+    mapping_confidence: 0.98
+    audit_considerations: "Check data residency records and kms signatures vaults."
+  - control_id: "CTRL-LI-ORCH-LEGAL_-03"
+    control_name: "legal_conflict_resolution_control"
+    control_type: "PREVENTATIVE"
+    control_category: "CONFLICT"
+    control_objective: "Apply precedence rules to resolve conflicting obligations for Legal Interoperability Metadata."
+    legal_interoperability_rationale: "Resolves regulatory contradictions systematically, protecting the enterprise from conflicting liability exposure."
+    implementation_guidance: "Deploy rules engines that resolve conflict indices against priority databases weekly."
+    control_owner: "Legal Steward"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Review active conflict resolution scoreboard statuses."
+    validation_method: "Inject mock conflicting rules from two frameworks, check if priority rules resolve anomaly correctly."
+    evidence_generated: "Conflict resolution decision log document."
+    mapping_confidence: 0.95
+    audit_considerations: "Inspect resolution rules logic files and history tables."
+  - control_id: "CTRL-LI-ORCH-LEGAL_-04"
+    control_name: "regulatory_translation_control"
+    control_type: "PREVENTATIVE"
+    control_category: "TRANSLATION"
+    control_objective: "Verify semantic correctness of translated requirements for Legal Interoperability Metadata."
+    legal_interoperability_rationale: "Ensures translated rules accurately represent source obligations without legal drift."
+    implementation_guidance: "Implement dual-check translations verification pipelines that require peer signature checks."
+    control_owner: "Harmonization Steward"
+    control_frequency: "ON_UPDATE"
+    monitoring_method: "Check translation consistency scores daily."
+    validation_method: "Inject text anomaly with semantic drift into requirements, verify validation check failure."
+    evidence_generated: "Signed translation validation report."
+    mapping_confidence: 0.97
+    audit_considerations: "Verify translator credential sets and dictionary databases setups."
+  - control_id: "CTRL-LI-ORCH-LEGAL_-05"
+    control_name: "legal_traceability_control"
+    control_type: "DETECTIVE"
+    control_category: "TRACEABILITY"
+    control_objective: "Audit legal obligation trace lineage maps for Legal Interoperability Metadata."
+    legal_interoperability_rationale: "Provides E2E trace proofs from regulatory articles down to automated system controls, proving compliance to auditors."
+    implementation_guidance: "Maintain continuous traceability maps database linking obligations, controls, and evidence."
+    control_owner: "Legal Steward"
+    control_frequency: "DAILY"
+    monitoring_method: "Monitor traceability mapping completeness values daily."
+    validation_method: "Inject mock control with missing parent obligation, verify trace audit alert."
+    evidence_generated: "Daily signed trace mapping report."
+    mapping_confidence: 0.99
+    audit_considerations: "Inspect log database hashes and compliance lineage records."
+  - control_id: "CTRL-LI-ORCH-LEGAL_-06"
+    control_name: "regulatory_change_monitoring_control"
+    control_type: "DETECTIVE"
+    control_category: "INTELLIGENCE"
+    control_objective: "Monitor regulatory update alerts and check for changes impacting Legal Interoperability Metadata."
+    legal_interoperability_rationale: "Ensures compliance maps are kept up-to-date with shifts in international regulations."
+    implementation_guidance: "Establish a secure validation gateway checking RSS and official journal feeds daily."
+    control_owner: "Harmonization Steward"
+    control_frequency: "DAILY"
+    monitoring_method: "Track intelligence dashboard status indicators."
+    validation_method: "Inject mock regulatory amendment update, confirm generation of change ticket."
+    evidence_generated: "Regulatory change monitoring audit log."
+    mapping_confidence: 0.98
+    audit_considerations: "Verify monitoring feeds sources lists and database connections."
+decision_logic:
+  escalation_trigger: "If legal_assurance_score drops below 0.90 or conflict resolution fails, halt cross-border transactions and notify Legal Steward."
+  incident_classification: "Classify conflicts as CRITICAL if they expose the enterprise to direct sanction risks or class actions."
+processes:
+  harmonization: "Standard operating procedures for aligning regional controls to global policies for Legal Interoperability Metadata."
+  dispute_resolution: "Standard workflow to review conflicting obligations and apply formal exception processes."
+workflows:
+  - workflow_id: "jurisdiction_mapping_workflow"
+    workflow_owner: "Legal Steward"
+    workflow_objective: "Mapping jurisdictional requirements and validating alignments for Legal Interoperability Metadata."
+    trigger: "System request for deployment in new territorial zone."
+    inputs:
+      - "jurisdiction_checklists"
+      - "regional_rules_registry"
+      - "system_capability_file"
+    activities:
+      - "Map system capabilities against regional rule entries."
+      - "Verify compatibility of data transfer paths."
+      - "Issue territorial mapping validation token."
+    decision_points:
+      - "Territorial zone authorized check"
+      - "Compliance mapping complete validation"
+    approvals:
+      - "Legal Steward Approval"
+    outputs:
+      - "Territorial validation token"
+      - "Jurisdiction check log"
+    generated_evidence: "Signed Jurisdiction Verification Certificate stored in trade vault."
+    compliance_outputs:
+      jurisdiction_status: "APPROVED"
+      obligations_mapped: 12
+    success_criteria: "Mapping completed and token generated within 24 hours of request."
+    failure_conditions: "Target region parameters missing or invalid capability profiles."
+  - workflow_id: "legal_obligation_mapping_workflow"
+    workflow_owner: "Legal Steward"
+    workflow_objective: "Asserting legal obligation relationships and tracking dependencies for Legal Interoperability Metadata."
+    trigger: "Updates to baseline regulatory compliance profiles."
+    inputs:
+      - "legal_obligation_rules"
+      - "compliance_scorecards_vault"
+      - "dependency_lists"
+    activities:
+      - "Execute rule dependency validation checklist."
+      - "Update obligation dependency map files."
+      - "Publish updated compliance mapping scorecards."
+    decision_points:
+      - "Obligations mismatch validation"
+      - "Dependencies trace check"
+    approvals:
+      - "Chief Compliance Counsel sign-off"
+    outputs:
+      - "Updated obligation dependency map"
+      - "Compliance report update"
+    generated_evidence: "Signed Obligation Mapping ledger updates saved in secure portal."
+    compliance_outputs:
+      mapping_accuracy: 0.98
+      missing_links_count: 0
+    success_criteria: "Maturity metrics update with zero integrity warnings."
+    failure_conditions: "Obligation registries database offline or signature mismatch."
+  - workflow_id: "cross_border_compliance_workflow"
+    workflow_owner: "Compliance Officer"
+    workflow_objective: "Verifying data transfer requirements and transfer risk validations for Legal Interoperability Metadata."
+    trigger: "Scheduled cross-border transfer schedule or transaction trigger."
+    inputs:
+      - "transfer_authorization_ticket"
+      - "adequacy_keys_registry"
+      - "transit_history_files"
+    activities:
+      - "Assert presence of all required adequacy certificates."
+      - "Perform transfer risk validation audit check."
+      - "Sign transfer release clearance token."
+    decision_points:
+      - "Adequacy verification check"
+      - "Risk score validation status"
+    approvals:
+      - "Compliance Officer Approval"
+    outputs:
+      - "Data transfer clearance token"
+      - "Transfer check log"
+    generated_evidence: "Signed data transfer clearance certificate archived in compliance registry."
+    compliance_outputs:
+      transfer_approved: True
+      risk_index: 0.04
+    success_criteria: "Clearance token generated and signed within 30 minutes of request."
+    failure_conditions: "Missing adequacy certifications or risk score above critical bounds."
+  - workflow_id: "legal_conflict_resolution_workflow"
+    workflow_owner: "Legal Steward"
+    workflow_objective: "Resolving conflicting obligations and enforcing precedence rules for Legal Interoperability Metadata."
+    trigger: "Conflict detection alert or manual manager trigger."
+    inputs:
+      - "conflicting_obligation_ticket"
+      - "precedence_rules_manifest"
+      - "exceptions_registry"
+    activities:
+      - "Apply precedence rules to conflict indicators."
+      - "Deploy legal exception management playbooks rules."
+      - "Log dispute resolution results in emergency database."
+    decision_points:
+      - "Precedence rule resolution pass"
+      - "Exception authorization check"
+    approvals:
+      - "VP of Corporate Compliance approval"
+      - "General Counsel sign-off"
+    outputs:
+      - "Dispute resolution token"
+      - "Exception status notice"
+    generated_evidence: "Signed Legal Exception certificate archived in secure audit ledger."
+    compliance_outputs:
+      conflict_status: "RESOLVED"
+      exception_approved: True
+    success_criteria: "Exceptions deployed and confirmed within 4 hours of alert."
+    failure_conditions: "Conflict registry write timeout or failed legal signature validations."
+  - workflow_id: "regulatory_translation_workflow"
+    workflow_owner: "Harmonization Steward"
+    workflow_objective: "Translating requirements and validating semantic alignments for Legal Interoperability Metadata."
+    trigger: "Requirement translation update schedule."
+    inputs:
+      - "source_requirements_document"
+      - "dictionary_databases"
+      - "translation_rules"
+    activities:
+      - "Convert source requirements to target schemas."
+      - "Perform peer verification signature review checks."
+      - "Publish translated requirement scorecards."
+    decision_points:
+      - "Semantic correctness validation"
+      - "Dictionary matches check"
+    approvals:
+      - "Harmonization Steward validation sign-off"
+    outputs:
+      - "Translated requirements scorecard"
+      - "Validation report update"
+    generated_evidence: "Signed translation validation report archived in compliance portal."
+    compliance_outputs:
+      translation_accuracy: 0.99
+      language_zone: "EN-FR-DE"
+    success_criteria: "Translation scorecard metrics update with zero integrity warnings."
+    failure_conditions: "Dictionary database unreachable or signature mismatch."
+  - workflow_id: "legal_traceability_workflow"
+    workflow_owner: "Legal Steward"
+    workflow_objective: "Auditing legal traceability paths and trace log continuity for Legal Interoperability Metadata."
+    trigger: "Daily tracing schedule or recall request."
+    inputs:
+      - "legal_traceability_logs"
+      - "obligation_trace_paths"
+      - "audit_log_manifests"
+    activities:
+      - "Assert E2E path traceability from rules to controls."
+      - "Identify gaps in transit history databases."
+      - "Publish daily trace mapping report."
+    decision_points:
+      - "Trace path integrity review"
+      - "Evidence match validation"
+    approvals:
+      - "Internal Auditor sign-off"
+    outputs:
+      - "Trace mapping dashboard update"
+      - "Trace logs manifest file"
+    generated_evidence: "Daily signed trace mapping report archived in compliance ledgers."
+    compliance_outputs:
+      traceability_index: 1.0
+      gaps_count: 0
+    success_criteria: "100% path continuity verified and logs archived daily."
+    failure_conditions: "Missing mapping records or mismatched database hash codes."
+  - workflow_id: "regulatory_change_management_workflow"
+    workflow_owner: "Harmonization Steward"
+    workflow_objective: "Monitoring regulatory change events and drafting impact analyses for Legal Interoperability Metadata."
+    trigger: "Regulatory change event alert."
+    inputs:
+      - "change_event_ticket"
+      - "monitoring_feeds_vault"
+      - "alert_distribution_channels"
+    activities:
+      - "Assess change event parameters against baseline scopes."
+      - "Generate change ticket and notify Legal Steward."
+      - "Publish change notices to safety portal."
+    decision_points:
+      - "Change severity level check"
+      - "Impact analysis validation"
+    approvals:
+      - "Harmonization Steward change approval"
+    outputs:
+      - "Change notice document"
+      - "Change ticket updates file"
+    generated_evidence: "Regulatory change monitoring audit log archived in secure files."
+    compliance_outputs:
+      change_detected: True
+      impact_class: "MEDIUM"
+    success_criteria: "Change ticket generated and alerts sent within 2 hours."
+    failure_conditions: "Monitoring database unreachable or connection check failures."
+  - workflow_id: "legal_assurance_workflow"
+    workflow_owner: "Legal Steward"
+    workflow_objective: "Auditing legal defensibility indicators and maturity milestones for Legal Interoperability Metadata."
+    trigger: "Monthly scheduled governance audit."
+    inputs:
+      - "legal_assurance_scorecard"
+      - "maturity_baselines"
+      - "evidence_checklists"
+    activities:
+      - "Review monthly operator performance indicators."
+      - "Verify compliance crosswalk score validations."
+      - "Publish monthly maturity scorecards to portals."
+    decision_points:
+      - "Maturity level transition review"
+      - "Compliance alert trigger check"
+    approvals:
+      - "Internal Auditor sign-off"
+    outputs:
+      - "Monthly legal assurance summary"
+      - "Maturity status updates"
+    generated_evidence: "Signed Monthly Legal Assurance summary saved to compliance files."
+    compliance_outputs:
+      assurance_score: 0.98
+      maturity_level: 5
+    success_criteria: "Audit report signed and issued within scheduled timelines."
+    failure_conditions: "Metrics registry database downtime or validation failures."
+legal_interoperability_framework:
+  governance_model: "COORDINATED_LEGAL_INTEROPERABILITY_GOVERNANCE"
+  governance_principles:
+    - "Proportional Legal Harmonization"
+    - "E2E Traceability Accountability"
+    - "Litigation Defensibility"
+  governance_authorities:
+    - "Global Regulatory Harmonization Committee"
+    - "Product Safety Council"
+  governance_controls:
+    - "CTRL-LI-ORCH-LEGAL_-01"
+    - "CTRL-LI-ORCH-LEGAL_-04"
+  interoperability_ownership: "Assigns primary ownership of legal interoperability registries directly to the General Counsel."
+  interoperability_accountability: "Establishes primary accountability parameters for Legal Interoperability Metadata jurisdictional alignments with the Legal Steward."
+  governance_reviews:
+    - "Bi-weekly compliance score audits"
+    - "Annual trade governance framework reviews"
+  governance_assurance: "Cryptographic signature validation and ledger compliance verification checks"
+jurisdiction_mapping_framework:
+  source_jurisdictions:
+    - "EU_ZONE"
+  target_jurisdictions:
+    - "US_FEDERAL"
+    - "UK_REGULATORY"
+  jurisdiction_requirements:
+    - "Validate requirement compliance for Legal Interoperability Metadata."
+    - "Ensure technical files access under Orchestration."
+  jurisdiction_dependencies:
+    - "Conformity certifications transit paths"
+    - "Documentation registry custody lines"
+  jurisdiction_equivalencies:
+    - "Map EU AI Act controls to NIST AI RMF equivalent guidelines for Legal Interoperability Metadata."
+  jurisdiction_variations:
+    - "Different response times for incident alerts in US and UK."
+  mapping_validation: "Perform pre-market validator gate checklist validations weekly."
+  mapping_assurance: "Register mapping certifications in trade ledger registry quarterly."
+regulatory_harmonization_framework:
+  source_regulations:
+    - "EU_AI_ACT"
+  target_regulations:
+    - "GDPR"
+    - "DORA"
+    - "NIS2"
+  harmonization_rules:
+    - "Enforce joint accountability reviews for security breaches under Legal Interoperability Metadata."
+  harmonization_controls:
+    - "CTRL-LI-ORCH-LEGAL_-03"
+    - "CTRL-LI-ORCH-LEGAL_-05"
+  implementation_alignment: "Deploy unified control points across all target regulations."
+  compliance_alignment: "Assert alignment scores meet target thresholds weekly."
+  harmonization_validation: "Verify harmonization rules weekly against target frameworks."
+  harmonization_assurance: "Audit harmonization logs monthly."
+legal_obligation_framework:
+  obligations:
+    - "Verify provider conformity status under standard rules for Legal Interoperability Metadata."
+  rights:
+    - "User data portability rights"
+    - "Right to explainability for AI decisions"
+  duties:
+    - "Duty of transparency to end users"
+    - "Duty of incident escalation to CRO"
+  responsibilities:
+    importer_steward: "Verify conformity certificates and CE markings pre-market."
+    distributor_steward: "Assert markings visibility and monitor storage constraints."
+  obligation_mappings:
+    - "CTRL-LI-ORCH-LEGAL_-01 and CTRL-LI-ORCH-LEGAL_-03"
+  obligation_dependencies:
+    - "Conformity certifications transit paths"
+  obligation_validation: "Check obligation mapping scorecards weekly."
+  obligation_assurance: "Seal obligation logs in trade ledger database monthly."
+cross_border_compliance_framework:
+  jurisdiction_requirements:
+    - "Confirm data residency rules are met for Legal Interoperability Metadata."
+    - "Ensure transit constraints do not compromise compliance under Orchestration."
+  transfer_requirements:
+    - "Adequacy decision keys checklist"
+    - "SCC agreement validation checks"
+  operational_requirements:
+    - "Local data storage validation weekly"
+    - "Regional DPO reviews weekly"
+  cross_border_controls:
+    - "CTRL-LI-ORCH-LEGAL_-02"
+    - "CTRL-LI-ORCH-LEGAL_-05"
+  cross_border_assurance: "Audit cross-border transfer logs monthly."
+  compliance_validation: "Verify adequacy certificates and consent logs daily."
+  compliance_monitoring: "Monitor transfer risk indices daily."
+legal_conflict_resolution_framework:
+  conflict_identification: "Log conflicting rules and rules contradictions in trade registers for Legal Interoperability Metadata."
+  conflict_classification:
+    - "High Risk - contradicting core controls"
+    - "Low Risk - template variations"
+  conflict_prioritization:
+    - "Tier 1: Fundamental Rights conflict"
+    - "Tier 2: Reporting timing conflicts"
+  conflict_resolution_rules:
+    - "GDPR takes precedence over local AI rules for user privacy data."
+  precedence_rules:
+    - "Apply stricter validation parameters in case of control mismatches."
+  resolution_validation: "Verify conflict status indicators across channels weekly."
+  resolution_assurance: "Audit resolution event timelines monthly."
+regulatory_translation_framework:
+  source_requirements:
+    - "EU AI Act Annex IV technical specifications"
+  translated_requirements:
+    - "NIST AI RMF profile metadata sets"
+  implementation_translation: "Map EU control IDs to NIST equivalent control codes."
+  control_translation: "Map visual CE marking validation to regional cert checking rules."
+  evidence_translation: "Archive translation mappings logs for Legal Interoperability Metadata regulatory reviews."
+  accountability_translation: "Map General Counsel approvals to DPO authorizations registry."
+  translation_validation: "Verify translated requirement scorecards weekly."
+  translation_assurance: "Seal translation validation logs in compliance vaults monthly."
+legal_traceability_framework:
+  legal_sources:
+    - "EU Official Journal Article 23"
+    - "GDPR Article 33"
+  obligation_sources:
+    - "Conformity validation requirements list"
+    - "Breach notification timeline rules"
+  implementation_traceability: "Log E2E trace lineage maps from regulations to active systems for Legal Interoperability Metadata."
+  evidence_traceability: "Trace compliance evidence documents back to specific telemetry events for Legal Interoperability Metadata."
+  accountability_traceability: "Trace signature registries and role records to actions logs under Legal Interoperability Metadata."
+  traceability_validation: "Verify trace logs completeness and data residency parameters weekly."
+  traceability_assurance: "Register trace log hashes in trade attestation vault monthly."
+regulatory_intelligence_framework:
+  intelligence_sources:
+    - "active_incident_db"
+    - "external_threat_feeds"
+    - "regulatory_bulletins"
+  regulatory_monitoring: "Trace regulatory update alerts and standard guidelines revisions for Legal Interoperability Metadata."
+  legal_monitoring: "Monitor trade regulatory update alerts weekly under Orchestration."
+  change_detection: "Track mean time to detect (MTTD) and mean time to resolve (MTTR) monthly trends for Legal Interoperability Metadata."
+  impact_analysis: "Assess change event parameters against baseline scopes monthly for Legal Interoperability Metadata."
+  intelligence_validation: "Perform peer reviews of foresight briefing documents monthly"
+  intelligence_assurance: "Validate source integrity hashes weekly"
+legal_assurance_framework:
+  assurance_objectives:
+    - "Align with ISO 42001 trade standards and Article 23/24 compliance validations for Legal Interoperability Metadata."
+  assurance_controls:
+    - "CTRL-LI-ORCH-LEGAL_-04"
+    - "CTRL-LI-ORCH-LEGAL_-06"
+  assurance_validation: "Audit compliance metrics and verification hashes weekly for Legal Interoperability Metadata."
+  assurance_monitoring: "Track trade compliance dashboard scorecards daily under Legal Interoperability Metadata."
+  assurance_reviews:
+    - "Monthly documentation audits"
+    - "Annual operator compliance framework audits"
+  assurance_evidence: "Signed verification certificates registered in trade attestation vault"
+monitoring_framework:
+  monitoring_scope: "Continuous verification of legal mappings and translation metrics."
+  alert_thresholds: "Trigger alert if validation score falls below 0.90 or conflict is unresolved for 48 hours."
+validation_framework:
+  validation_requirements:
+    - "All model releases must pass validation gate"
+    - "Translation logs must pass completeness checks"
+  validation_methods:
+    - "Automated document checks"
+    - "Simulated validation safety checks"
+  validation_evidence: "Signed legal alignment certificates archived in compliance vaults."
+  validation_authority: "Legal Steward"
+  validation_frequency: "Weekly"
+  validation_outcomes:
+    - "Pass - allow deployment"
+    - "Fail - block release and initiate dispute resolution workflow"
+evidence_intelligence:
+  evidence_sources:
+    - "mapping_verif_db"
+    - "translation_checks_db"
+    - "trade_ledger_vault"
+  evidence_types:
+    - "Jurisdiction mapping certificates"
+    - "Translation reports"
+    - "Trace mapping reports"
+  evidence_integrity: "Cryptographic SHA-256 hashes registered in immutable trade ledger."
+  evidence_lineage: "Map evidence documents back to specific deployment logs."
+  evidence_provenance: "Generated by verified trade validation and checking services."
+  evidence_validation: "Check digital signatures against authority key registry daily."
+  evidence_confidence: 0.99
+  evidence_retention: "10 years in secure trade archive"
+telemetry:
+  telemetry_sources:
+    - "mapping_gateway_logs"
+    - "translation_check_logs"
+    - "regulatory_portal_events"
+  collection_frequency: "Continuous"
+  telemetry_retention: "90 days active, 10 years compliance archive"
+  telemetry_integrity: "Signed telemetry data blocks"
+  telemetry_validation: "Daily signature and hash check updates"
+legal_interoperability_telemetry:
+  jurisdiction_mapping_events: "Track automated territorial validation checks for Legal Interoperability Metadata."
+  obligation_mapping_events: "Record daily requirement dependency validations for Legal Interoperability Metadata."
+  harmonization_events: "Log compliance alignment scorecard updates for Legal Interoperability Metadata."
+  conflict_resolution_events: "Record daily conflict priority check results for Legal Interoperability Metadata."
+  regulatory_change_events: "Track RSS feeds checks and change ticket alerts for Legal Interoperability Metadata."
+  compliance_translation_events: "Log requirement schema conversions checks for Legal Interoperability Metadata."
+  traceability_events: "Record trace log continuity verification outcomes for Legal Interoperability Metadata."
+  assurance_events: "Track monthly operator assurance audit milestones for Legal Interoperability Metadata."
+  governance_alerts: "High priority trade compliance alert notifications sent to CAIO."
+  governance_indicators: "Check validation delays and recall execution latency indicators."
+metrics:
+  - metric_name: "legal_interoperability_metadata_jurisdiction_alignment_score"
+    formula: "COUNT(verified_jurisdiction_mappings) / COUNT(total_jurisdiction_mappings)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Legal Steward"
+    data_source: "mapping_verif_db"
+    evidence_generated: "Monthly Jurisdiction Alignment report."
+  - metric_name: "legal_interoperability_metadata_regulatory_harmonization_score"
+    formula: "COUNT(harmonized_rules) / COUNT(total_rules_in_scope)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.85"
+    measurement_frequency: "MONTHLY"
+    owner: "Harmonization Steward"
+    data_source: "mapping_verif_db"
+    evidence_generated: "Monthly Harmonization scorecard."
+  - metric_name: "legal_interoperability_metadata_cross_border_compliance_score"
+    formula: "COUNT(compliant_transfers) / COUNT(total_processed_transfers)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "DAILY"
+    owner: "Compliance Officer"
+    data_source: "translation_checks_db"
+    evidence_generated: "Daily Cross-Border Compliance report."
+  - metric_name: "legal_interoperability_metadata_legal_traceability_score"
+    formula: "COUNT(fully_traced_obligations) / COUNT(total_obligations_in_scope)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "DAILY"
+    owner: "Legal Steward"
+    data_source: "trade_ledger_vault"
+    evidence_generated: "Daily Trace Mapping report."
+  - metric_name: "legal_interoperability_metadata_legal_defensibility_score"
+    formula: "COUNT(defensible_evidence_records) / COUNT(total_evidence_records)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "QUARTERLY"
+    owner: "Legal Steward"
+    data_source: "regulatory_portal_events"
+    evidence_generated: "Quarterly Legal Defensibility compliance report."
+  - metric_name: "legal_interoperability_metadata_regulatory_translation_accuracy_score"
+    formula: "COUNT(passed_translation_reviews) / COUNT(total_translations)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "ON_UPDATE"
+    owner: "Harmonization Steward"
+    data_source: "translation_checks_db"
+    evidence_generated: "Requirement translation scorecard report."
+  - metric_name: "legal_interoperability_metadata_conflict_resolution_effectiveness_score"
+    formula: "COUNT(resolved_conflicts_within_48h) / COUNT(total_conflicts)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Legal Steward"
+    data_source: "regulatory_portal_events"
+    evidence_generated: "Weekly Conflict Resolution logs."
+  - metric_name: "legal_interoperability_metadata_legal_assurance_score"
+    formula: "COUNT(signed_assurance_certificates) / COUNT(total_assurance_requirements)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Legal Steward"
+    data_source: "evidence_vaults_db"
+    evidence_generated: "Weekly Legal Assurance report."
+  - metric_name: "legal_interoperability_metadata_regulatory_change_response_score"
+    formula: "COUNT(processed_changes_within_SLA) / COUNT(total_regulatory_changes)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.80"
+    measurement_frequency: "DAILY"
+    owner: "Harmonization Steward"
+    data_source: "regulatory_portal_events"
+    evidence_generated: "Regulatory change response report."
+  - metric_name: "legal_interoperability_metadata_legal_interoperability_maturity_score"
+    formula: "current_maturity_level / 7.0"
+    target: "0.85"
+    warning_threshold: "0.71"
+    critical_threshold: "0.57"
+    measurement_frequency: "ANNUALLY"
+    owner: "Legal Steward"
+    data_source: "trade_ledger_vault"
+    evidence_generated: "Annual Maturity Assessment certificate."
+kpis:
+  - "legal_interoperability_metadata_jurisdiction_alignment_score"
+  - "legal_interoperability_metadata_regulatory_harmonization_score"
+kris:
+  - "legal_interoperability_metadata_conflict_resolution_effectiveness_score"
+  - "legal_interoperability_metadata_legal_interoperability_maturity_score"
+thresholds:
+  - "Warning: legal_interoperability_metadata_jurisdiction_alignment_score < 0.95"
+  - "Critical: legal_interoperability_metadata_jurisdiction_alignment_score < 0.90"
+relationships:
+  jurisdiction_links:
+    - source: "urn:enterprise:legal:legal_interoperability_metadata"
+      target: "urn:enterprise:compliance:jurisdiction"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-LI-ORCH-STD."
+  regulation_links:
+    - source: "urn:enterprise:legal:legal_interoperability_metadata"
+      target: "urn:enterprise:compliance:regulation"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-LI-ORCH-STD."
+  obligation_links:
+    - source: "urn:enterprise:legal:legal_interoperability_metadata"
+      target: "urn:enterprise:compliance:obligation"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-LI-ORCH-STD."
+  rights_links:
+    - source: "urn:enterprise:legal:legal_interoperability_metadata"
+      target: "urn:enterprise:compliance:rights"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-LI-ORCH-STD."
+  accountability_links:
+    - source: "urn:enterprise:legal:legal_interoperability_metadata"
+      target: "urn:enterprise:compliance:accountability"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-LI-ORCH-STD."
+  evidence_links:
+    - source: "urn:enterprise:legal:legal_interoperability_metadata"
+      target: "urn:enterprise:compliance:evidence"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-LI-ORCH-STD."
+  workflow_links:
+    - source: "urn:enterprise:legal:legal_interoperability_metadata"
+      target: "urn:enterprise:compliance:workflow"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-LI-ORCH-STD."
+  governance_links:
+    - source: "urn:enterprise:legal:legal_interoperability_metadata"
+      target: "urn:enterprise:compliance:governance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-LI-ORCH-STD."
+  interoperability_links:
+    - source: "urn:enterprise:legal:legal_interoperability_metadata"
+      target: "urn:enterprise:compliance:interoperability"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-LI-ORCH-STD."
+  compliance_links:
+    - source: "urn:enterprise:legal:legal_interoperability_metadata"
+      target: "urn:enterprise:compliance:compliance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-LI-ORCH-STD."
+knowledge_graph:
+  jurisdiction_nodes:
+    - id: "urn:enterprise:jurisdiction:eu"
+      label: "EU Jurisdiction"
+      properties:
+        type: "region"
+  regulation_nodes:
+    - id: "urn:enterprise:regulation:eu_ai_act"
+      label: "EU AI Act"
+      properties:
+        type: "act"
+  obligation_nodes:
+    - id: "urn:enterprise:obligation:legal_interoperability_metadata"
+      label: "Legal Interoperability Metadata"
+      properties:
+        type: "obligation"
+  rights_nodes:
+    - id: "urn:enterprise:rights:data_portability"
+      label: "Data Portability"
+      properties:
+        type: "right"
+  accountability_nodes:
+    - id: "urn:enterprise:role:legal_steward"
+      label: "Legal Steward"
+      properties:
+        type: "role"
+  evidence_nodes:
+    - id: "urn:enterprise:evidence:verification_cert"
+      label: "Verification Certificate"
+      properties:
+        type: "evidence"
+  control_nodes:
+    - id: "urn:enterprise:control:ORCH-LEGAL_-01"
+      label: "Jurisdiction Mapping Control"
+      properties:
+        type: "control"
+  workflow_nodes:
+    - id: "urn:enterprise:workflow:jurisdiction_mapping"
+      label: "Jurisdiction Mapping Workflow"
+      properties:
+        type: "workflow"
+  legal_relationships:
+    - source: "urn:enterprise:obligation:legal_interoperability_metadata"
+      target: "urn:enterprise:regulation:eu_ai_act"
+      relationship_type: "DERIVED_FROM"
+      confidence: 0.99
+      evidence: "Legal analysis docs."
+  compliance_relationships:
+    - source: "urn:enterprise:control:ORCH-LEGAL_-01"
+      target: "urn:enterprise:obligation:legal_interoperability_metadata"
+      relationship_type: "ENFORCES"
+      confidence: 0.98
+      evidence: "Control mapping tables."
+  traceability_relationships:
+    - source: "urn:enterprise:evidence:verification_cert"
+      target: "urn:enterprise:control:ORCH-LEGAL_-01"
+      relationship_type: "GENERATED_BY"
+      confidence: 0.99
+      evidence: "Audit trails DB."
+  interoperability_relationships:
+    - source: "urn:enterprise:regulation:eu_ai_act"
+      target: "urn:enterprise:jurisdiction:eu"
+      relationship_type: "APPLIES_IN"
+      confidence: 0.99
+      evidence: "Official gazette entries."
+crosswalks:
+  eu_ai_act:
+    framework: "eu_ai_act"
+    control_mapping: "Map obligations compliance controls to EU AI Act guidelines for Legal Interoperability Metadata."
+    security_mapping: "Enforce model robustness and deployment containment checks."
+    accountability_mapping: "Assign roles for post-market monitoring and incident reviews."
+    evidence_mapping: "Log incident and scanning events in database."
+    validation_mapping: "Validate model benchmark results under containment profiles."
+  gdpr:
+    framework: "gdpr"
+    control_mapping: "Protect personal data and identify processing purposes."
+    security_mapping: "Deploy data anonymization and masking protocols."
+    accountability_mapping: "DPO signs off on data governance controls."
+    evidence_mapping: "Archive DPIA certificates and consent records."
+    validation_mapping: "Verify compliance with user data deletion signals."
+  data_governance_act:
+    framework: "data_governance_act"
+    control_mapping: "Apply data sharing registry controls and checks."
+    security_mapping: "Monitor data transfer encryption configurations."
+    accountability_mapping: "Data officer signs off public datasets entries."
+    evidence_mapping: "Save registry access checklists and query logs."
+    validation_mapping: "Validate dataset sizes and formats."
+  data_act:
+    framework: "data_act"
+    control_mapping: "Protect data portability rights for users."
+    security_mapping: "Verify API connection routes are secure."
+    accountability_mapping: "IT manager reviews data portability portals."
+    evidence_mapping: "Log data portability transaction events."
+    validation_mapping: "Verify request times against SLAs monthly."
+  nis2:
+    framework: "nis2"
+    control_mapping: "Align infrastructure checks with NIS2 security rules."
+    security_mapping: "Enforce firewall blocks and malware scanning routines."
+    accountability_mapping: "CISO logs network events monthly."
+    evidence_mapping: "Archive infrastructure scan audits reports."
+    validation_mapping: "Audit network delay indicators against targets monthly."
+  dora:
+    framework: "dora"
+    control_mapping: "Enforce operational resilience checks for trade systems."
+    security_mapping: "Check failover rules and system rollback scripts."
+    accountability_mapping: "System administrator runs resilience audits quarterly."
+    evidence_mapping: "Log resilience test results in database."
+    validation_mapping: "Verify rollback latencies against limits monthly."
+  eprivacy_regulation:
+    framework: "eprivacy_regulation"
+    control_mapping: "Check cookie consent status and tracker exclusions."
+    security_mapping: "Monitor cookie flags on web servers monthly."
+    accountability_mapping: "DPO reviews web compliance scorecards weekly."
+    evidence_mapping: "Log customer consent choice events."
+    validation_mapping: "Verify that tracking block signals function correctly."
+  digital_services_act:
+    framework: "digital_services_act"
+    control_mapping: "Incorporate content moderation checks in model deployments."
+    security_mapping: "Trace moderating queues outputs daily."
+    accountability_mapping: "Moderation manager reviews flags database daily."
+    evidence_mapping: "Save moderation dashboard updates history."
+    validation_mapping: "Confirm moderation response matches target thresholds."
+  digital_markets_act:
+    framework: "digital_markets_act"
+    control_mapping: "Verify fair competition indicators for core services."
+    security_mapping: "Monitor gatekeeper access constraints monthly."
+    accountability_mapping: "Corporate trade officer logs core transactions weekly."
+    evidence_mapping: "Archive gatekeeper access checklists logs."
+    validation_mapping: "Review access latency values monthly."
+  consumer_protection:
+    framework: "consumer_protection"
+    control_mapping: "Enforce clear disclosures rules for model predictions."
+    security_mapping: "Trace output explanations generation rates daily."
+    accountability_mapping: "Product owner signs off transparency reviews monthly."
+    evidence_mapping: "Log transparency checklist verifications."
+    validation_mapping: "Verify user comprehension scorecard indices weekly."
+  product_liability:
+    framework: "product_liability"
+    control_mapping: "Trace defect risk scorecards and mitigation tracks."
+    security_mapping: "Monitor system weight drift patterns weekly."
+    accountability_mapping: "Quality manager checks liability limits weekly."
+    evidence_mapping: "Log quality scans and defect tickets history."
+    validation_mapping: "Assert defect index is below baseline daily."
+  ai_liability:
+    framework: "ai_liability"
+    control_mapping: "Align incident recording rules with liability frameworks."
+    security_mapping: "Check incident trace databases and timestamps indexes."
+    accountability_mapping: "CISO reviews liability scorecard values monthly."
+    evidence_mapping: "Save incident reports drafts and validation checks."
+    validation_mapping: "Confirm containment duration matches SLA bounds."
+  iso_42001:
+    framework: "iso_42001"
+    control_mapping: "Map compliance controls to ISO 42001 clauses for trade."
+    security_mapping: "Track supply chain security metrics and hashes."
+    accountability_mapping: "Review roles assignment for AI systems trade daily."
+    evidence_mapping: "Archive ISO auditing worksheets and certificates."
+    validation_mapping: "Confirm compliance dashboard updates match auditing standards."
+  iso_23894:
+    framework: "iso_23894"
+    control_mapping: "Incorporate risk identification guidelines into placement checks."
+    security_mapping: "Track security risks and mitigation effectiveness."
+    accountability_mapping: "Risk owner reviews risk management configurations monthly."
+    evidence_mapping: "Log risk analysis updates and vulnerability scans."
+    validation_mapping: "Verify risk scorecard values against target thresholds."
+  iso_27001:
+    framework: "iso_27001"
+    control_mapping: "Incorporate security controls from Annex A of ISO 27001."
+    security_mapping: "Track security breaches and containment latency daily."
+    accountability_mapping: "Security manager reviews incident classification monthly."
+    evidence_mapping: "Archive incident logs and timeline reconstructions in DB."
+    validation_mapping: "Confirm containment timeline matches SLA targets."
+  iso_27701:
+    framework: "iso_27701"
+    control_mapping: "Deploy privacy information management controls weekly."
+    security_mapping: "Check data anonymization and encryption configurations monthly."
+    accountability_mapping: "Privacy officer signs off database registries checks."
+    evidence_mapping: "Log PIMS audits reports in corporate ledger."
+    validation_mapping: "Confirm privacy compliance index is above baseline weekly."
+  nist_ai_rmf:
+    framework: "nist_ai_rmf"
+    control_mapping: "Align importer validation steps with NIST AI RMF core."
+    security_mapping: "Track safety and bias metrics continuously."
+    accountability_mapping: "Define compliance owners across model deployment stages."
+    evidence_mapping: "Log NIST dashboard data and check events."
+    validation_mapping: "Review compliance indicators against NIST standards monthly."
+  oecd_ai:
+    framework: "oecd_ai"
+    control_mapping: "Promote transparency and safety along value chain."
+    security_mapping: "Ensure reliable rollback and containment profiles."
+    accountability_mapping: "Publish public model registry descriptions annually."
+    evidence_mapping: "Log transparency and data disclosure events."
+    validation_mapping: "Assess model card clarity using peer-review guides."
+  unesco_ai:
+    framework: "unesco_ai"
+    control_mapping: "Audit ethics score and bias metrics daily."
+    security_mapping: "Track model social and environmental impacts."
+    accountability_mapping: "Ethics committee reviews bias report profiles monthly."
+    evidence_mapping: "Save ethics scorecards and compliance reports."
+    validation_mapping: "Check model outputs against social safety guidelines."
+  national_ai:
+    framework: "national_ai"
+    control_mapping: "Verify national registration requirements weekly."
+    security_mapping: "Assert local connection check rules daily."
+    accountability_mapping: "Regional steward reviews national registries checks monthly."
+    evidence_mapping: "Save local registration certs and query logs."
+    validation_mapping: "Confirm connection path is active daily."
+  cross_border:
+    framework: "cross_border"
+    control_mapping: "Verify transfer controls and adequacy decisions weekly."
+    security_mapping: "Check data egress containment and masking daily."
+    accountability_mapping: "Compliance officer reviews transfer logs monthly."
+    evidence_mapping: "Archive transfer authorization receipts in DB."
+    validation_mapping: "Verify transfer check score equals 1.00 daily."
+compliance_mapping:
+  - article: "EU AI Act"
+    obligation: "Legal alignment and mapping obligations for Legal Interoperability Metadata."
+    implementation_method: "Deploy automated jurisdictional mapping and crosswalk alignment scorecards."
+    control_mapping: "CTRL-LI-ORCH-LEGAL_-01 and CTRL-LI-ORCH-LEGAL_-03"
+    required_evidence: "Jurisdiction verification certificates and conflict resolution logs."
+    validation_method: "Confirm presence and valid signatures of all compliance mappings."
+    assurance_method: "Review mapping registries in trade compliance database monthly."
+  - article: "GDPR"
+    obligation: "Data transfer and adequacy obligations for Legal Interoperability Metadata."
+    implementation_method: "Verify adequacy decisions and consent logs weekly."
+    control_mapping: "CTRL-LI-ORCH-LEGAL_-02 and CTRL-LI-ORCH-LEGAL_-05"
+    required_evidence: "Signed transfer validation attestations and transit logs."
+    validation_method: "Inspect digital signature adequacy keys against standard registries."
+    assurance_method: "Audit transfer signature logs database monthly."
+  - article: "Data Governance Act"
+    obligation: "Data sharing and registry compliance obligations for Legal Interoperability Metadata."
+    implementation_method: "Monitor data sharing checklists and access logs weekly."
+    control_mapping: "CTRL-LI-ORCH-LEGAL_-02 and CTRL-LI-ORCH-LEGAL_-06"
+    required_evidence: "Registry access checklists and query logs."
+    validation_method: "Validate dataset sizes and formats against standard schemas."
+    assurance_method: "Audit registry connections daily."
+  - article: "Data Act"
+    obligation: "Data portability and API connection requirements for Legal Interoperability Metadata."
+    implementation_method: "Track data portability transaction events daily."
+    control_mapping: "CTRL-LI-ORCH-LEGAL_-02"
+    required_evidence: "Data portability logs and access receipts."
+    validation_method: "Assert portability request response latency is below SLA targets."
+    assurance_method: "Review request databases weekly."
+  - article: "NIS2"
+    obligation: "Infrastructure security and incident reporting for Legal Interoperability Metadata."
+    implementation_method: "Monitor infrastructure scan reports and firewall rules weekly."
+    control_mapping: "CTRL-LI-ORCH-LEGAL_-06"
+    required_evidence: "Infrastructure scan audits and firewall log entries."
+    validation_method: "Verify network connection paths are secure and active."
+    assurance_method: "Audit network configurations monthly."
+  - article: "DORA"
+    obligation: "Operational resilience and failover testing for Legal Interoperability Metadata."
+    implementation_method: "Run automated resilience test suites quarterly."
+    control_mapping: "CTRL-LI-ORCH-LEGAL_-05"
+    required_evidence: "Resilience test scorecards and rollback logs."
+    validation_method: "Verify system weight rollback script execution times."
+    assurance_method: "Review resilience metrics monthly."
+  - article: "Digital Services Act"
+    obligation: "Content moderation and algorithm transparency for Legal Interoperability Metadata."
+    implementation_method: "Audit content moderation queue outputs weekly."
+    control_mapping: "CTRL-LI-ORCH-LEGAL_-04"
+    required_evidence: "Moderation dashboard snapshot and audit receipts."
+    validation_method: "Confirm moderation response times match target limits."
+    assurance_method: "Review moderation scorecards weekly."
+  - article: "Digital Markets Act"
+    obligation: "Gatekeeper access and competition compliance for Legal Interoperability Metadata."
+    implementation_method: "Review gatekeeper checklists and transaction logs weekly."
+    control_mapping: "CTRL-LI-ORCH-LEGAL_-01"
+    required_evidence: "Gatekeeper access certificates and query logs."
+    validation_method: "Verify gatekeeper access connection latency scores."
+    assurance_method: "Audit gatekeeper access connections monthly."
+integration_points:
+  core_governance:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:core_governance:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  governance_crosswalk:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:governance_crosswalk:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  cross_border_interoperability:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:cross_border_interoperability:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  privacy_and_fundamental_rights:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:privacy_and_fundamental_rights:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  provider_obligations:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:provider_obligations:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  deployer_obligations:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:deployer_obligations:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  compliance_scoring:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:compliance_scoring:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  conformity_assessment:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:conformity_assessment:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  evidence_and_attestation:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:evidence_and_attestation:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  audit_and_enforcement:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:audit_and_enforcement:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  audit_and_forensics:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:audit_and_forensics:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  risk_management:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:risk_management:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  incident_reporting:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:incident_reporting:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  foundation_models:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:foundation_models:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  general_purpose_ai:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:general_purpose_ai:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  future_ai_governance:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:future_ai_governance:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  cybersecurity:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:cybersecurity:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  cybersecurity_and_resilience:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:cybersecurity_and_resilience:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  governance_reporting:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:governance_reporting:legal_interoperability_metadata"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+dependencies:
+  - "urn:enterprise:dependency:governance:crosswalk:legal_interoperability_metadata"
+  - "urn:enterprise:dependency:privacy:fundamental:rights:legal_interoperability_metadata"
+  - "urn:enterprise:dependency:compliance:scoring:legal_interoperability_metadata"
+outputs:
+  - "territorial_validation_token"
+  - "translated_requirements_scorecard"
+  - "data_transfer_clearance_token"
+  - "dispute_resolution_token"
+artifacts:
+  - "jurisdiction_validation_checklist.yaml"
+  - "translated_requirements_scorecard.yaml"
+  - "transfer_authorization_receipt.yaml"
+records:
+  - "jurisdiction_mapping_ledger_db"
+  - "translation_reviews_archive"
+  - "cross_border_transfers_db"
+continuous_improvement:
+  exceptions:
+    - "Authorized bypass of mapping rules during certified test sandbox runs."
+  reviews:
+    - "Bi-weekly compliance score audits"
+    - "Annual operator compliance framework reviews"
+  updates:
+    - "Deploy updated validation rule definitions monthly."
+exceptions:
+  - "Bypass of jurisdiction mapping checks authorized for sandboxed simulation drills of Legal Interoperability Metadata."
+  - "Temporary transfer controls waiver during emergency disaster recovery deployments of Legal Interoperability Metadata."
+escalation:
+  channels:
+    - "slack-compliance-alerts"
+    - "pagerduty-legal-lead"
+    - "email-legal-ops"
+  thresholds:
+    - "Warning: legal_assurance_score < 0.95 for Legal Interoperability Metadata"
+    - "Critical: legal_assurance_score < 0.90 for Legal Interoperability Metadata"
+  workflows:
+    - "legal_conflict_resolution_workflow"
+    - "legal_assurance_workflow"
+versioning:
+  - version: "1.0.0"
+    date: "2026-06-13"
+    author: "Compliance Architect"
+    description: "Initial release of the Legal Interoperability Metadata legal interoperability compliance skill."
+legal_interoperability_capabilities:
+  legal_interoperability: "Oversee global legal interoperability policies and frameworks alignment for Legal Interoperability Metadata."
+  regulatory_interoperability: "Govern cross-framework mapping and compliance translations under Legal Interoperability Metadata."
+  jurisdictional_alignment: "Manage jurisdictional requirement mappings and variations databases for Legal Interoperability Metadata."
+  jurisdiction_mapping: "Triage territorial requirements and validate alignments for Legal Interoperability Metadata."
+  regulatory_harmonization: "Deploy unified controls and check harmonization rules weekly for Legal Interoperability Metadata."
+  legal_translation: "Convert source requirements to target schemas and verify semantic accuracy for Legal Interoperability Metadata."
+  legal_traceability: "Log E2E trace maps from articles to automated system controls under Legal Interoperability Metadata."
+  legal_accountability: "Verify roles registry assignments and action log entries quarterly for Legal Interoperability Metadata."
+  legal_auditability: "Verify immutable logs hash codes integrity daily under Legal Interoperability Metadata."
+  legal_assurance: "Verify digital signatures and trace validation metrics weekly under Legal Interoperability Metadata."
+  legal_validation: "Perform mock connection checks and test connection routes daily under Legal Interoperability Metadata."
+  cross_border_compliance: "Confirm data residency rules and transfer requirements are met under Legal Interoperability Metadata."
+  legal_conflict_identification: "Log conflicting rules and rules contradictions in trade registers for Legal Interoperability Metadata."
+  legal_conflict_resolution: "Apply precedence rules to conflict indicators and deploy exception playbooks for Legal Interoperability Metadata."
+  obligation_mapping: "Verify and enforce legal obligation mappings for Legal Interoperability Metadata."
+  regulatory_mapping: "Map obligations between international regulatory frameworks under Legal Interoperability Metadata."
+  rights_mapping: "Verify user rights mappings and access rules under Legal Interoperability Metadata."
+  enforcement_mapping: "Map regulatory enforcement rules and penalty structures under Legal Interoperability Metadata."
+  evidence_mapping: "Trace compliance evidence documents back to specific telemetry events for Legal Interoperability Metadata."
+  legal_defensibility: "Ensure litigation-ready evidence compilation and attestation under Legal Interoperability Metadata."
+  regulatory_defensibility: "Compile regulator-ready evidence files to verify compliance under Legal Interoperability Metadata."
+  legal_risk_management: "Incorporate risk identification guidelines into placement checks for Legal Interoperability Metadata."
+  regulatory_intelligence: "Trace regulatory update alerts and standard guidelines revisions for Legal Interoperability Metadata."
+  legal_change_management: "Assess change event parameters against baseline scopes monthly for Legal Interoperability Metadata."
+  legal_monitoring: "Monitor trade regulatory update alerts weekly under Orchestration."
+  governance_alignment: "Review monthly operator performance indicators and maturity milestones for Legal Interoperability Metadata."
+  interoperability_assurance: "Seal legal alignment logs in trade ledger database monthly for Legal Interoperability Metadata."
+  legal_maturity: "Assess capabilities maturity level against ISO standards weekly for Legal Interoperability Metadata."
+altai_legal_interoperability:
+  autonomous_agent_compliance:
+    agent_jurisdiction_mapping: "Log agent actions and decision paths to regional trade registers for Legal Interoperability Metadata."
+    agent_accountability_mapping: "Assign primary operational ownership of agent deployments under Legal Interoperability Metadata."
+    agent_liability_mapping: "Track physical or digital harm events caused by agent planning for Legal Interoperability Metadata."
+    agent_compliance_assurance: "Audit agent behavior against safety bounds weekly for Legal Interoperability Metadata."
+  multi_agent_compliance:
+    ecosystem_jurisdiction_controls: "Track interactions and transactions across multi-agent networks under Legal Interoperability Metadata."
+    swarm_accountability_controls: "Designate human reviews coordinator for multi-agent loops for Legal Interoperability Metadata."
+    coordination_compliance_controls: "Perform daily simulations of agent coordinate behaviors for Legal Interoperability Metadata."
+    ecosystem_assurance: "Verify digital signatures of all coordinate agents under Legal Interoperability Metadata."
+  reasoning_compliance:
+    reasoning_accountability: "Risk analyst reviews reasoning planning trees monthly for Legal Interoperability Metadata."
+    reasoning_traceability: "Log reasoning tokens and planning trees to trade database logs for Legal Interoperability Metadata."
+    reasoning_assurance: "Validate output semantic correctness weekly under Legal Interoperability Metadata."
+    reasoning_validation: "Audit reasoning steps against corporate trade policies weekly for Legal Interoperability Metadata."
+  memory_compliance:
+    memory_governance_mapping: "Oversee database access policies and context memory limits for Legal Interoperability Metadata."
+    memory_accountability: "Database manager audits memory context size limits monthly for Legal Interoperability Metadata."
+    memory_traceability: "Log memory updates and database write operations under Legal Interoperability Metadata."
+    memory_assurance: "Cryptographically seal memory database records daily for Legal Interoperability Metadata."
+  tool_compliance:
+    tool_regulatory_mapping: "Validate API tool schemas and validation parameters pre-deployment for Legal Interoperability Metadata."
+    tool_accountability_mapping: "API lead signs off credentials setups monthly for Legal Interoperability Metadata."
+    tool_assurance: "Monitor tool execution failures and rate limit alerts weekly for Legal Interoperability Metadata."
+    tool_validation: "Log tool calls, inputs, and response signatures under Legal Interoperability Metadata."
+  orchestration_compliance:
+    orchestration_accountability: "Orchestrator signs off workflow definitions weekly under Legal Interoperability Metadata."
+    orchestration_traceability: "Log job execution paths and task transitions under Legal Interoperability Metadata."
+    orchestration_assurance: "Verify runner node digital signatures daily under Legal Interoperability Metadata."
+    orchestration_validation: "Assert workflow definitions match trade guidelines weekly for Legal Interoperability Metadata."
+  foundation_model_compliance:
+    model_obligation_mapping: "Manage foundation model weight distributions and API endpoints access for Legal Interoperability Metadata."
+    model_accountability: "Chief Scientist signs off model card specifications under Legal Interoperability Metadata."
+    model_assurance: "Audit base model capabilities against safety baselines weekly for Legal Interoperability Metadata."
+    model_traceability: "Log fine-tuning sessions, dataset hashes and weights changes for Legal Interoperability Metadata."
+  gpai_compliance:
+    gpai_obligation_mapping: "Manage market placement authorization gates and registrate base model IDs for Legal Interoperability Metadata."
+    gpai_accountability: "Compliance lead validates base model metadata sets for Legal Interoperability Metadata."
+    gpai_assurance: "Audit general-purpose AI safety features quarterly under Legal Interoperability Metadata."
+    gpai_systemic_risk_mapping: "Log base model benchmark runs and capability warnings for Legal Interoperability Metadata."
+legal_interoperability_maturity_model:
+  level_1_reactive:
+    capabilities:
+      - "Basic mapping of requirements post-deployment when triggered by litigation."
+    mapping_capabilities:
+      - "Manual lookup of regional rules registries."
+    harmonization_capabilities:
+      - "Ad-hoc translation of rules checklists."
+    assurance_capabilities:
+      - "Manual backup of compliance spreadsheets logs."
+    evidence_requirements:
+      - "Shipment mapping files archived in physical cabinets."
+    validation_requirements:
+      - "Informal team review of territorial rules."
+  level_2_repeatable:
+    capabilities:
+      - "Standardized mapping lists for major regions."
+    mapping_capabilities:
+      - "Triage regional rules lists using defined templates."
+    harmonization_capabilities:
+      - "Check standard translations for each batch."
+    assurance_capabilities:
+      - "Verify CISO dashboard alerts monthly."
+    evidence_requirements:
+      - "Mapping tickets saved in local folders."
+    validation_requirements:
+      - "Weekly review of alert classification metrics."
+  level_3_defined:
+    capabilities:
+      - "Documented mapping and conflict resolution procedures."
+    mapping_capabilities:
+      - "Verify territorial compliance using standard databases."
+    harmonization_capabilities:
+      - "Automated template compilation for requirements translations."
+    assurance_capabilities:
+      - "Track compliance status scores using defined scorecards."
+    evidence_requirements:
+      - "Mapping assessment reports stored in secure vaults."
+    validation_requirements:
+      - "Triage sign-off required from CISO before closure."
+  level_4_managed:
+    capabilities:
+      - "Real-time mapping triggers and automatic containment rules."
+    mapping_capabilities:
+      - "Automated severity classification pre-escalation check gates."
+    harmonization_capabilities:
+      - "Secure transmission to regulatory portal within SLA bounds."
+    assurance_capabilities:
+      - "Continuous monitoring of compliance scorecards with alerts."
+    evidence_requirements:
+      - "Attestations sealed and archived in DB dynamically."
+    validation_requirements:
+      - "Pre-closure checklist scores must equal 1.00 or ticket remains open."
+  level_5_optimized:
+    capabilities:
+      - "Predictive risk analysis and mapping updates feeds integration."
+    mapping_capabilities:
+      - "Predictive incident impact assessments and triage updates."
+    harmonization_capabilities:
+      - "Dynamic routing updates based on incident severity classes."
+    assurance_capabilities:
+      - "Feedback loop updating triage checklists weekly based on alert rates."
+    evidence_requirements:
+      - "Log hashes checked against authority directories dynamically."
+    validation_requirements:
+      - "Continuous runtime verification of data privacy and masking rules."
+  level_6_harmonized:
+    capabilities:
+      - "E2E cryptographic evidence sealing and validation tracking."
+    mapping_capabilities:
+      - "Validation steps attested by cryptographic compliance daemon signatures."
+    harmonization_capabilities:
+      - "Immutably sealed transit trails trace databases."
+    assurance_capabilities:
+      - "Verify drill package assembly latency indicators monthly."
+    evidence_requirements:
+      - "Signed evidence certificates registered in compliance attestation vault."
+    validation_requirements:
+      - "Automated zero-trust checks for all intermediate transitions."
+  level_7_interoperable:
+    capabilities:
+      - "Real-time regulatory portal APIs and continuous compliance audits."
+    mapping_capabilities:
+      - "Immediate digital verification queries for national surveillance agencies."
+    harmonization_capabilities:
+      - "Cryptographic trace trail available dynamically via API access keys."
+    assurance_capabilities:
+      - "Full alignment with European AI Board database standards."
+    evidence_requirements:
+      - "Sealed, time-stamped registry logs ready for regulator export."
+    validation_requirements:
+      - "Continuous automated validation of all 6 controls and 8 workflows."

@@ -1,0 +1,674 @@
+metadata:
+  id: CE-CG-CEOPE-001
+  name: ce_operational_controls
+  title: Ce Operational Controls
+  version: 1.0.0
+  status: production
+  owner: CE Marking and Conformity Office
+  maintainers:
+    - ce_conformity
+    - regulatory_affairs
+    - notified_body_liaison
+  created_date: 2026-06-12
+  last_updated: 2026-06-12
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: ce_marketing
+  skill_type: ce_governance
+  lifecycle_phase: operate
+  jurisdiction: EU_EEA
+  language: en
+  tags:
+    - ce_governance
+    - ce_operational_controls
+    - ce_marking
+    - conformity
+    - eu_ai_act
+    - notified_body
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GPAI Obligations
+    - ISO 42001
+    - ISO 23894
+    - ISO 27001
+    - ISO 9001
+    - NIST AI RMF
+    - GDPR
+    - CE Marking Framework
+  skill_functions:
+    - governance_skill
+    - conformity_skill
+    - certification_skill
+    - compliance_skill
+    - evidence_skill
+    - assessment_skill
+    - regulatory_skill
+    - market_access_skill
+    - monitoring_skill
+    - orchestration_skill
+purpose:
+  >
+    Executable CE Marking skill for Ce Operational Controls within ce_marketing/ce_governance.
+    Delivers conformity-assessment-ready, notified-body-ready, market-access-ready operations for
+    governance controls, accountability, provider obligations, conformity ownership. Functions as
+    governance, conformity, certification, compliance, evidence, assessment, regulatory, market-
+    access, monitoring, and orchestration skill.
+scope:
+  >
+    All AI systems, technical documentation, conformity assessments, declarations of conformity,
+    notified body interactions, and market authorization activities governed by Ce Operational
+    Controls.
+objectives:
+  - Operationalize Ce Operational Controls as executable CE marking conformity skill
+  - Enable notified-body-ready conformity validation for Ce Operational Controls
+  - Maintain market-access-ready evidence for Ce Operational Controls
+  - Integrate Ce Operational Controls with declaration and market authorization lifecycle
+  - Support post-certification monitoring and recertification for Ce Operational Controls
+definitions:
+  ce_operational_controls_conformity_assertion:
+    Formal conformity statement for Ce Operational Controls supported by indexed evidence.
+  ce_operational_controls_notified_body_evidence:
+    Evidence package suitable for notified body conformity assessment review.
+  ce_operational_controls_market_access_record:
+    Record demonstrating market authorization readiness for Ce Operational Controls.
+taxonomy:
+  root: ce_operational_controls_taxonomy
+  conformity_phase:
+    - preparation
+    - assessment
+    - declaration
+    - market_placement
+    - surveillance
+  ce_operational_controls_status:
+    - draft
+    - validated
+    - approved
+    - published
+    - suspended
+governance:
+  policy_owner: Ce Operational Controls Conformity Lead
+  oversight_body: CE Marking Governance Committee
+  domain: ce_governance
+roles_and_responsibilities:
+  ce_operational_controls_conformity_officer:
+    responsibilities:
+      - Accountable for Ce Operational Controls conformity outcomes
+  ce_operational_controls_technical_documentation_lead:
+    responsibilities:
+      - Maintains Article 11 technical file for Ce Operational Controls
+  notified_body_liaison:
+    responsibilities:
+      - Coordinates notified body assessment activities
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Conformity Assessment Director
+    - Regulatory Affairs
+    - Notified Body Liaison
+capabilities:
+  - id: CE-CAP-001
+    name: CE Marking Governance
+    status: production
+  - id: CE-CAP-002
+    name: Conformity Assessment
+    status: production
+  - id: CE-CAP-003
+    name: Conformity Validation
+    status: production
+  - id: CE-CAP-004
+    name: Technical Documentation Governance
+    status: production
+  - id: CE-CAP-005
+    name: Declaration of Conformity Governance
+    status: production
+  - id: CE-CAP-006
+    name: Notified Body Coordination
+    status: production
+  - id: CE-CAP-007
+    name: Market Authorization Readiness
+    status: production
+  - id: CE-CAP-008
+    name: Post-Certification Monitoring
+    status: production
+controls:
+  - control_id: CE-CE_G-CE_OPERA-CEOPERATI
+    control_name: ce_operational_controls_ce_marking_accountability_chain_enforcer
+    control_category: preventive
+    control_objective: Enforce accountability chain for CE marking decisions
+    regulatory_rationale: ce_operational_controls_ce_marking_accountability_chain_enforcer implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy ce_operational_controls_ce_marking_accountability_chain_enforcer in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_operational_controls_ce_marking_accountability_chain_enforcer_telemetry_stream
+    validation_method: ce_operational_controls_ce_marking_accountability_chain_enforcer_conformity_test
+    testing_method: ce_operational_controls_ce_marking_accountability_chain_enforcer_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: ce_operational_controls_ce_marking_accountability_chain_enforcer_execution_record
+    audit_considerations: Notified body may sample ce_operational_controls_ce_marking_accountability_chain_enforcer during conformity assessment.
+  - control_id: CE-CE_G-CE_OPERA-OPERATIONA
+    control_name: operational_provider_obligation_coverage_validator
+    control_category: preventive
+    control_objective: Validate provider obligation coverage in CE governance framework
+    regulatory_rationale: operational_provider_obligation_coverage_validator implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy operational_provider_obligation_coverage_validator in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: operational_provider_obligation_coverage_validator_telemetry_stream
+    validation_method: operational_provider_obligation_coverage_validator_conformity_test
+    testing_method: operational_provider_obligation_coverage_validator_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: operational_provider_obligation_coverage_validator_execution_record
+    audit_considerations: Notified body may sample operational_provider_obligation_coverage_validator during conformity assessment.
+  - control_id: CE-CE_G-CE_OPERA-CONTROLSC
+    control_name: controls_conformity_ownership_assignment_gate
+    control_category: preventive
+    control_objective: Assign conformity ownership before assessment activities begin
+    regulatory_rationale: controls_conformity_ownership_assignment_gate implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy controls_conformity_ownership_assignment_gate in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: controls_conformity_ownership_assignment_gate_telemetry_stream
+    validation_method: controls_conformity_ownership_assignment_gate_conformity_test
+    testing_method: controls_conformity_ownership_assignment_gate_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: controls_conformity_ownership_assignment_gate_execution_record
+    audit_considerations: Notified body may sample controls_conformity_ownership_assignment_gate during conformity assessment.
+  - control_id: CE-CE_G-CE_OPERA-GOVERNANCE
+    control_name: governance_escalation_tier_manager
+    control_category: corrective
+    control_objective: Manage governance escalation tiers for conformity failures
+    regulatory_rationale: governance_escalation_tier_manager implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy governance_escalation_tier_manager in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: governance_escalation_tier_manager_telemetry_stream
+    validation_method: governance_escalation_tier_manager_conformity_test
+    testing_method: governance_escalation_tier_manager_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: governance_escalation_tier_manager_execution_record
+    audit_considerations: Notified body may sample governance_escalation_tier_manager during conformity assessment.
+  - control_id: CE-CE_G-CE_OPERA-CEOPERATI
+    control_name: ce_operational_control_effectiveness_monitor
+    control_category: detective
+    control_objective: Monitor CE operational control effectiveness continuously
+    regulatory_rationale: ce_operational_control_effectiveness_monitor implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy ce_operational_control_effectiveness_monitor in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_operational_control_effectiveness_monitor_telemetry_stream
+    validation_method: ce_operational_control_effectiveness_monitor_conformity_test
+    testing_method: ce_operational_control_effectiveness_monitor_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: ce_operational_control_effectiveness_monitor_execution_record
+    audit_considerations: Notified body may sample ce_operational_control_effectiveness_monitor during conformity assessment.
+  - control_id: CE-CE_G-CE_OPERA-CONTROLSR
+    control_name: controls_regulatory_oversight_coordination_hub
+    control_category: preventive
+    control_objective: Coordinate regulatory oversight interactions and responses
+    regulatory_rationale: controls_regulatory_oversight_coordination_hub implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy controls_regulatory_oversight_coordination_hub in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: controls_regulatory_oversight_coordination_hub_telemetry_stream
+    validation_method: controls_regulatory_oversight_coordination_hub_conformity_test
+    testing_method: controls_regulatory_oversight_coordination_hub_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: controls_regulatory_oversight_coordination_hub_execution_record
+    audit_considerations: Notified body may sample controls_regulatory_oversight_coordination_hub during conformity assessment.
+  - control_id: CE-CE_G-CE_OPERA-CEPOLICY
+    control_name: ce_policy_version_control_enforcer
+    control_category: preventive
+    control_objective: Enforce version control on CE governance policies
+    regulatory_rationale: ce_policy_version_control_enforcer implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy ce_policy_version_control_enforcer in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_policy_version_control_enforcer_telemetry_stream
+    validation_method: ce_policy_version_control_enforcer_conformity_test
+    testing_method: ce_policy_version_control_enforcer_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: ce_policy_version_control_enforcer_execution_record
+    audit_considerations: Notified body may sample ce_policy_version_control_enforcer during conformity assessment.
+  - control_id: CE-CE_G-CE_OPERA-OPERATIONA
+    control_name: operational_responsibility_mapping_integrity_validator
+    control_category: detective
+    control_objective: Validate responsibility mapping integrity across roles
+    regulatory_rationale: operational_responsibility_mapping_integrity_validator implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy operational_responsibility_mapping_integrity_validator in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: operational_responsibility_mapping_integrity_validator_telemetry_stream
+    validation_method: operational_responsibility_mapping_integrity_validator_conformity_test
+    testing_method: operational_responsibility_mapping_integrity_validator_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: operational_responsibility_mapping_integrity_validator_execution_record
+    audit_considerations: Notified body may sample operational_responsibility_mapping_integrity_validator during conformity assessment.
+  - control_id: CE-CE_G-CE_OPERA-CONTROLSC
+    control_name: controls_ce_governance_committee_decision_logger
+    control_category: evidence
+    control_objective: Log CE governance committee decisions immutably
+    regulatory_rationale: controls_ce_governance_committee_decision_logger implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy controls_ce_governance_committee_decision_logger in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: controls_ce_governance_committee_decision_logger_telemetry_stream
+    validation_method: controls_ce_governance_committee_decision_logger_conformity_test
+    testing_method: controls_ce_governance_committee_decision_logger_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: controls_ce_governance_committee_decision_logger_execution_record
+    audit_considerations: Notified body may sample controls_ce_governance_committee_decision_logger during conformity assessment.
+  - control_id: CE-CE_G-CE_OPERA-CROSSFUNC
+    control_name: cross_functional_ce_accountability_reviewer
+    control_category: audit
+    control_objective: Review cross-functional CE accountability quarterly
+    regulatory_rationale: cross_functional_ce_accountability_reviewer implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy cross_functional_ce_accountability_reviewer in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: cross_functional_ce_accountability_reviewer_telemetry_stream
+    validation_method: cross_functional_ce_accountability_reviewer_conformity_test
+    testing_method: cross_functional_ce_accountability_reviewer_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: cross_functional_ce_accountability_reviewer_execution_record
+    audit_considerations: Notified body may sample cross_functional_ce_accountability_reviewer during conformity assessment.
+  - control_id: CE-CE_G-CE_OPERA-OPERATIONA
+    control_name: operational_provider_conformity_attestation_collector
+    control_category: preventive
+    control_objective: Collect provider conformity attestations on schedule
+    regulatory_rationale: operational_provider_conformity_attestation_collector implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy operational_provider_conformity_attestation_collector in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: operational_provider_conformity_attestation_collector_telemetry_stream
+    validation_method: operational_provider_conformity_attestation_collector_conformity_test
+    testing_method: operational_provider_conformity_attestation_collector_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: operational_provider_conformity_attestation_collector_execution_record
+    audit_considerations: Notified body may sample operational_provider_conformity_attestation_collector during conformity assessment.
+  - control_id: CE-CE_G-CE_OPERA-CONTROLSC
+    control_name: controls_ce_governance_maturity_scorer
+    control_category: detective
+    control_objective: Score CE governance maturity against target levels
+    regulatory_rationale: controls_ce_governance_maturity_scorer implements EU AI Act conformity obligations for Ce Operational Controls under ce_governance.
+    implementation_guidance: Deploy controls_ce_governance_maturity_scorer in ce_operational_controls workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: controls_ce_governance_maturity_scorer_telemetry_stream
+    validation_method: controls_ce_governance_maturity_scorer_conformity_test
+    testing_method: controls_ce_governance_maturity_scorer_sampling_audit
+    control_owner: ce_operational_controls_conformity_owner
+    evidence_generated: controls_ce_governance_maturity_scorer_execution_record
+    audit_considerations: Notified body may sample controls_ce_governance_maturity_scorer during conformity assessment.
+workflows:
+  - workflow_id: WF-CE-CE_OPERATIONAL_CONTR
+    workflow_name: ce_operational_controls_conformity_workflow
+    workflow_owner: ce_operational_controls_workflow_owner
+    trigger: ce_operational_controls_conformity_event
+    inputs:
+      - ce_operational_controls_conformity_context
+      - ce_operational_controls_evidence_index
+    activities:
+      - ce_operational_controls_intake
+      - ce_operational_controls_validation
+      - ce_operational_controls_evidence_review
+      - ce_operational_controls_approval
+      - ce_operational_controls_attestation
+      - ce_operational_controls_closure
+    decision_points:
+      - ce_operational_controls_conformity_decision
+      - ce_operational_controls_escalation_decision
+    approvals:
+      - ce_operational_controls_conformity_officer_approval
+    outputs:
+      - ce_operational_controls_conformity_record
+    evidence_generated:
+      - ce_operational_controls_workflow_log
+      - ce_operational_controls_attestation
+    success_criteria:
+      - ce_operational_controls_conformity_validated
+      - ce_operational_controls_evidence_complete
+    failure_conditions:
+      - ce_operational_controls_critical_gap_unresolved
+      - ce_operational_controls_evidence_integrity_failure
+  - workflow_id: WF-CE-CE_MARKING_P
+    workflow_name: ce_operational_controls_ce_marking_preparation_workflow
+    linked: true
+    trigger: ce_operational_controls_ce_marking_preparation_initiated
+  - workflow_id: WF-CE-CONFORMITY_A
+    workflow_name: ce_operational_controls_conformity_assessment_workflow
+    linked: true
+    trigger: ce_operational_controls_conformity_assessment_initiated
+  - workflow_id: WF-CE-NOTIFIED_BOD
+    workflow_name: ce_operational_controls_notified_body_engagement_workflow
+    linked: true
+    trigger: ce_operational_controls_notified_body_engagement_initiated
+  - workflow_id: WF-CE-DECLARATION_
+    workflow_name: ce_operational_controls_declaration_of_conformity_workflow
+    linked: true
+    trigger: ce_operational_controls_declaration_of_conformity_initiated
+  - workflow_id: WF-CE-MARKET_AUTHO
+    workflow_name: ce_operational_controls_market_authorization_workflow
+    linked: true
+    trigger: ce_operational_controls_market_authorization_initiated
+  - workflow_id: WF-CE-POST_CERTIFI
+    workflow_name: ce_operational_controls_post_certification_monitoring_workflow
+    linked: true
+    trigger: ce_operational_controls_post_certification_monitoring_initiated
+  - workflow_id: WF-CE-RECERTIFICAT
+    workflow_name: ce_operational_controls_recertification_workflow
+    linked: true
+    trigger: ce_operational_controls_recertification_initiated
+decision_logic:
+  ce_operational_controls_conformity_gate:
+    condition: ce_operational_controls_readiness_score >= 0.95 AND ce_operational_controls_evidence_complete == true
+    action: authorize_ce_operational_controls_progression
+    approval_required: conformity_officer
+conformity_assessment:
+  assessment_scope: Ce Operational Controls EU AI Act conformity dimensions
+  assessment_methodology: ce_operational_controls_iso_19011_conformity_method
+  assessment_criteria: ce_operational_controls_annex_iii_and_article_requirements
+  conformity_dimensions:
+    - technical
+    - organizational
+    - operational
+    - documentation
+  evidence_requirements:
+    - ce_operational_controls_technical_file
+    - ce_operational_controls_risk_assessment
+    - ce_operational_controls_validation_records
+  acceptance_thresholds: ce_operational_controls_readiness_score >= 0.95
+  rejection_thresholds: ce_operational_controls_critical_gap == true
+metrics:
+  - metric_name: ce_operational_controls_conformity_score
+    metric_category: conformity
+    formula: computed_ce_operational_controls_conformity_score_from_ce_operational_controls_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_operational_controls_metrics_owner
+    data_source: ce_operational_controls_conformity_warehouse
+    evidence_generated: ce_operational_controls_conformity_score_measurement_record
+  - metric_name: ce_readiness_index
+    metric_category: conformity
+    formula: computed_ce_readiness_index_from_ce_operational_controls_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_operational_controls_metrics_owner
+    data_source: ce_operational_controls_conformity_warehouse
+    evidence_generated: ce_readiness_index_measurement_record
+  - metric_name: ce_operational_controls_validation_pass_rate
+    metric_category: conformity
+    formula: computed_ce_operational_controls_validation_pass_rate_from_ce_operational_controls_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_operational_controls_metrics_owner
+    data_source: ce_operational_controls_conformity_warehouse
+    evidence_generated: ce_operational_controls_validation_pass_rate_measurement_record
+  - metric_name: ce_operational_controls_evidence_completeness
+    metric_category: conformity
+    formula: computed_ce_operational_controls_evidence_completeness_from_ce_operational_controls_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_operational_controls_metrics_owner
+    data_source: ce_operational_controls_conformity_warehouse
+    evidence_generated: ce_operational_controls_evidence_completeness_measurement_record
+  - metric_name: ce_operational_controls_assurance_score
+    metric_category: conformity
+    formula: computed_ce_operational_controls_assurance_score_from_ce_operational_controls_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_operational_controls_metrics_owner
+    data_source: ce_operational_controls_conformity_warehouse
+    evidence_generated: ce_operational_controls_assurance_score_measurement_record
+  - metric_name: ce_operational_controls_compliance_index
+    metric_category: conformity
+    formula: computed_ce_operational_controls_compliance_index_from_ce_operational_controls_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_operational_controls_metrics_owner
+    data_source: ce_operational_controls_conformity_warehouse
+    evidence_generated: ce_operational_controls_compliance_index_measurement_record
+kpis:
+  - ce_operational_controls_conformity_score
+  - ce_readiness_index
+  - ce_operational_controls_validation_pass_rate
+  - ce_operational_controls_evidence_completeness
+kris:
+  - ce_operational_controls_assurance_score
+  - ce_operational_controls_compliance_index
+evidence_requirements:
+  - evidence_name: ce_operational_controls_conformity_assessment_record
+    evidence_type: conformity
+    business_purpose: Support Ce Operational Controls conformity assessment and CE marking
+    generation_method: automated_ce_operational_controls_pipeline
+    retention_period: 10_years
+    validation_method: ce_operational_controls_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: ce_operational_controls_technical_documentation_extract
+    evidence_type: conformity
+    business_purpose: Support Ce Operational Controls conformity assessment and CE marking
+    generation_method: automated_ce_operational_controls_pipeline
+    retention_period: 10_years
+    validation_method: ce_operational_controls_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: ce_operational_controls_validation_report
+    evidence_type: conformity
+    business_purpose: Support Ce Operational Controls conformity assessment and CE marking
+    generation_method: automated_ce_operational_controls_pipeline
+    retention_period: 10_years
+    validation_method: ce_operational_controls_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: ce_operational_controls_notified_body_correspondence
+    evidence_type: conformity
+    business_purpose: Support Ce Operational Controls conformity assessment and CE marking
+    generation_method: automated_ce_operational_controls_pipeline
+    retention_period: 10_years
+    validation_method: ce_operational_controls_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: ce_operational_controls_declaration_reference
+    evidence_type: conformity
+    business_purpose: Support Ce Operational Controls conformity assessment and CE marking
+    generation_method: automated_ce_operational_controls_pipeline
+    retention_period: 10_years
+    validation_method: ce_operational_controls_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: ce_operational_controls_market_authorization_record
+    evidence_type: conformity
+    business_purpose: Support Ce Operational Controls conformity assessment and CE marking
+    generation_method: automated_ce_operational_controls_pipeline
+    retention_period: 10_years
+    validation_method: ce_operational_controls_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+attestation_requirements:
+  - attestation: ce_operational_controls_conformity_attestation
+    owner: conformity_officer
+    frequency: quarterly
+domain_reports:
+  - report_name: ce_operational_controls_status_dashboard
+    report_owner: ce_operational_controls_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: ce_operational_controls_conformity_summary
+    report_owner: ce_operational_controls_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: ce_operational_controls_regulatory_brief
+    report_owner: ce_operational_controls_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: ce_operational_controls_executive_report
+    report_owner: ce_operational_controls_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: ce_operational_controls_assurance_pack
+    report_owner: ce_operational_controls_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+altai_conformity:
+  agent_conformity:
+    validation: ce_operational_controls_agent_conformity_validation
+    traceability: ce_operational_controls_agent_conformity_traceability
+    monitoring: ce_operational_controls_agent_conformity_monitoring
+  reasoning_conformity:
+    validation: ce_operational_controls_reasoning_conformity_validation
+    traceability: ce_operational_controls_reasoning_conformity_traceability
+    monitoring: ce_operational_controls_reasoning_conformity_monitoring
+  memory_conformity:
+    validation: ce_operational_controls_memory_conformity_validation
+    traceability: ce_operational_controls_memory_conformity_traceability
+    monitoring: ce_operational_controls_memory_conformity_monitoring
+  tool_conformity:
+    validation: ce_operational_controls_tool_conformity_validation
+    traceability: ce_operational_controls_tool_conformity_traceability
+    monitoring: ce_operational_controls_tool_conformity_monitoring
+  foundation_model_conformity:
+    validation: ce_operational_controls_foundation_model_conformity_validation
+    traceability: ce_operational_controls_foundation_model_conformity_traceability
+    monitoring: ce_operational_controls_foundation_model_conformity_monitoring
+  gpai_conformity:
+    validation: ce_operational_controls_gpai_conformity_validation
+    traceability: ce_operational_controls_gpai_conformity_traceability
+    monitoring: ce_operational_controls_gpai_conformity_monitoring
+compliance_mapping:
+  article_16:
+    article: Article 16
+    obligation: Ce Operational Controls conformity under Article 16
+    implementation_method: ce_operational_controls_article_16_controls
+    evidence_required: [ce_operational_controls_article_16_evidence]
+    validation_method: ce_operational_controls_article_16_conformity_test
+    assurance_method: ce_operational_controls_article_16_assurance_review
+  article_17:
+    article: Article 17
+    obligation: Ce Operational Controls conformity under Article 17
+    implementation_method: ce_operational_controls_article_17_controls
+    evidence_required: [ce_operational_controls_article_17_evidence]
+    validation_method: ce_operational_controls_article_17_conformity_test
+    assurance_method: ce_operational_controls_article_17_assurance_review
+  article_4:
+    article: Article 4
+    obligation: Ce Operational Controls conformity under Article 4
+    implementation_method: ce_operational_controls_article_4_controls
+    evidence_required: [ce_operational_controls_article_4_evidence]
+    validation_method: ce_operational_controls_article_4_conformity_test
+    assurance_method: ce_operational_controls_article_4_assurance_review
+  article_9:
+    article: Article 9
+    obligation: Ce Operational Controls conformity under Article 9
+    implementation_method: ce_operational_controls_article_9_controls
+    evidence_required: [ce_operational_controls_article_9_evidence]
+    validation_method: ce_operational_controls_article_9_conformity_test
+    assurance_method: ce_operational_controls_article_9_assurance_review
+relationships:
+  conformity_links:
+    - source: ce_operational_controls
+      target: ce_operational_controls_to_declaration_of_conformity
+      relationship_type: governs
+      confidence: 0.95
+  certification_links:
+    - source: ce_operational_controls
+      target: ce_operational_controls_to_ce_certification
+      relationship_type: governs
+      confidence: 0.95
+  evidence_links:
+    - source: ce_operational_controls
+      target: ce_operational_controls_to_conformity_evidence
+      relationship_type: governs
+      confidence: 0.95
+  documentation_links:
+    - source: ce_operational_controls
+      target: ce_operational_controls_to_technical_documentation
+      relationship_type: governs
+      confidence: 0.95
+integration_points:
+  - system: provider_obligations
+    purpose: ce_operational_controls_to_provider_obligations_conformity_sync
+    data_exchanged: [ce_operational_controls_conformity_scores, ce_operational_controls_evidence_refs]
+    consumed_artifacts: [provider_obligations_records]
+    produced_artifacts: [ce_operational_controls_conformity_package]
+  - system: technical_documentation
+    purpose: ce_operational_controls_to_technical_documentation_conformity_sync
+    data_exchanged: [ce_operational_controls_conformity_scores, ce_operational_controls_evidence_refs]
+    consumed_artifacts: [technical_documentation_records]
+    produced_artifacts: [ce_operational_controls_conformity_package]
+  - system: risk_management
+    purpose: ce_operational_controls_to_risk_management_conformity_sync
+    data_exchanged: [ce_operational_controls_conformity_scores, ce_operational_controls_evidence_refs]
+    consumed_artifacts: [risk_management_records]
+    produced_artifacts: [ce_operational_controls_conformity_package]
+  - system: post_market_monitoring
+    purpose: ce_operational_controls_to_post_market_monitoring_conformity_sync
+    data_exchanged: [ce_operational_controls_conformity_scores, ce_operational_controls_evidence_refs]
+    consumed_artifacts: [post_market_monitoring_records]
+    produced_artifacts: [ce_operational_controls_conformity_package]
+  - system: audit_and_enforcement
+    purpose: ce_operational_controls_to_audit_and_enforcement_conformity_sync
+    data_exchanged: [ce_operational_controls_conformity_scores, ce_operational_controls_evidence_refs]
+    consumed_artifacts: [audit_and_enforcement_records]
+    produced_artifacts: [ce_operational_controls_conformity_package]
+attestation_framework:
+  attestation_owner: ce_operational_controls_conformity_officer
+  attestation_frequency: quarterly
+  attestation_evidence: [ce_operational_controls_conformity_attestation, ce_operational_controls_control_effectiveness_review]
+maturity_model:
+  level_1:
+    name: Initial
+    characteristics: Ad hoc conformity for Ce Operational Controls
+  level_2:
+    name: Developing
+    characteristics: Documented procedures for Ce Operational Controls
+  level_3:
+    name: Managed
+    characteristics: Standardized enterprise-wide for Ce Operational Controls
+  level_4:
+    name: Advanced
+    characteristics: Measured with KPIs for Ce Operational Controls
+  level_5:
+    name: Optimized
+    characteristics: Predictive conformity for Ce Operational Controls
+risk_model:
+  risk_sources: [ce_operational_controls_conformity_gap, ce_operational_controls_evidence_failure, ce_operational_controls_notified_body_finding]
+  risk_monitoring: ce_operational_controls_conformity_risk_dashboard
+crosswalks:
+  eu_ai_act:
+    implementation: ce_operational_controls_eu_ai_act_conformity_mapping
+    evidence: ce_operational_controls_eu_ai_act_conformity_attestation
+  gdpr:
+    implementation: ce_operational_controls_gdpr_conformity_mapping
+    evidence: ce_operational_controls_gdpr_conformity_attestation
+  iso_42001:
+    implementation: ce_operational_controls_iso_42001_conformity_mapping
+    evidence: ce_operational_controls_iso_42001_conformity_attestation
+  iso_23894:
+    implementation: ce_operational_controls_iso_23894_conformity_mapping
+    evidence: ce_operational_controls_iso_23894_conformity_attestation
+  nist_ai_rmf:
+    implementation: ce_operational_controls_nist_ai_rmf_conformity_mapping
+    evidence: ce_operational_controls_nist_ai_rmf_conformity_attestation
+monitoring:
+  continuous: [ce_operational_controls_conformity_telemetry, ce_operational_controls_readiness_score_feed]
+continuous_improvement:
+  feedback_loop: ce_operational_controls_conformity_retrospective
+escalation:
+  critical_path: chief_compliance_officer
+versioning:
+  current: 1.0.0

@@ -1,0 +1,1834 @@
+metadata:
+  id: AAE-C-AUDCLA-001
+  name: audit_classification
+  title: Audit Classification
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: governance_foundation
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - core
+    - audit_classification
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Audit Classification governance within audit_and_enforcement/core,
+    delivering regulator-ready, audit-ready, and enforcement-ready controls for structured audit
+    execution and evidence sufficiency validation, violation and audit finding taxonomy with
+    severity mapping. Integrates with the EU AI Act governance ecosystem through machine-evaluable
+    obligations, evidence preservation, and conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Audit Classification across enterprise and
+    cross-border operations within audit_and_enforcement/core.
+objectives:
+  - Operationalize Audit Classification with regulator-defensible controls and evidence chains
+  - Enable automated validation of Audit Classification conformance across core
+  - Preserve audit-grade and forensic-grade records for all Audit Classification activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Audit Classification with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Audit Classification
+definitions:
+  audit_classification_governance_domain:
+    >
+      The operational jurisdiction of Audit Classification encompassing controlled audit, enforcement,
+      investigation, and evidence processes within core.
+  audit_classification_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Audit Classification control
+      effectiveness, process adherence, and regulatory conformity.
+  audit_classification_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Audit Classification decision logic.
+  audit_classification_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Audit Classification processes.
+  audit_classification_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within Audit
+      Classification operations.
+  audit_classification_conformity_assertion:
+    >
+      Formal statement that Audit Classification requirements are met, supported by indexed evidence
+      and validation attestations.
+taxonomy:
+  root: audit_classification_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  audit_classification_artifact_type:
+    - audit_classification_record
+    - audit_classification_log
+    - audit_classification_report
+    - audit_classification_attestation
+    - audit_classification_package
+  audit_classification_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Audit Classification Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: core
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - core_governance
+    - legal_interoperability
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - compliance_audits
+    - enforcement_actions
+    - audit_traceability
+    - crosswalks
+    - audit_and_enforcement/core/audit_classification.yaml
+  related_domains:
+    - compliance_audits
+    - crosswalks
+    - reporting
+  related_skills:
+    - audit_metadata
+    - audit_taxonomy
+    - enforcement_framework
+    - audit_classification
+  parent_governance_objects:
+    - eu_ai_act_foundations
+  child_governance_objects:
+    - audit_classification_schema
+    - enforcement_scope_definition
+    - audit_classification_governance_object
+  consumes_artifacts:
+    - legal_scope_definition
+    - governance_charter
+    - audit_classification_input_artifact
+  produces_artifacts:
+    - audit_metadata_schema
+    - enforcement_reference_architecture
+    - audit_classification_record
+    - audit_classification_report
+    - audit_classification_attestation
+  consumes_evidence:
+    - governance_policy_corpus
+    - audit_classification_source_evidence
+  produces_evidence:
+    - taxonomy_registry
+    - classification_matrix
+    - audit_classification_audit_evidence
+    - audit_classification_validation_evidence
+    - audit_classification_enforcement_evidence
+  governance_dependencies:
+    - core_governance
+  regulatory_dependencies:
+    - eu_ai_act_article_4
+  risk_dependencies:
+    - risk_management
+  control_dependencies:
+    - audit_classification_control_register
+roles_and_responsibilities:
+  audit_classification_owner:
+    responsibilities:
+      - Accountable for Audit Classification strategy, control design, and regulatory alignment
+  audit_classification_operator:
+    responsibilities:
+      - Executes Audit Classification workflows and maintains operational records
+  audit_classification_auditor:
+    responsibilities:
+      - Independently validates Audit Classification control effectiveness and evidence sufficiency
+  audit_classification_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Audit Classification investigations
+  audit_classification_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Audit Classification
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-001
+    name: Audit Governance
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-009
+    name: Enforcement Governance
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-010
+    name: Enforcement Actions
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-033
+    name: Evidence Preservation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-039
+    name: Audit Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-044
+    name: Regulatory Reporting
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-COR-AUDIT_CLAS-AUDITMETADA
+    control_name: audit_metadata_schema_validator
+    control_category: preventive
+    control_objective:
+      Operational control ensuring metadata schema validator for Audit Classification across core.
+    governance_rationale:
+      >
+        audit_metadata_schema_validator is required to govern Audit Classification risks under EU AI Act
+        and enterprise audit-enforcement policy; failure enables undetected core failures.
+    implementation_guidance:
+      >
+        Implement audit_metadata_schema_validator as automated policy in audit_classification
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: audit_metadata_schema_validator_continuous_telemetry_dashboard
+    validation_method:
+      audit_metadata_schema_validator_quarterly_design_and_operating_effectiveness_test
+    testing_method: audit_metadata_schema_validator_statistical_sampling_with_exception_tracking
+    control_owner: audit_classification_control_owner
+    evidence_generated: audit_metadata_schema_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_metadata_schema_validator design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        audit_metadata_schema_validator outputs may trigger enforcement under audit_classification
+        escalation rules.
+  - control_id: AAE-COR-AUDIT_CLAS-CLASSIFICATI
+    control_name: classification_taxonomy_consistency_enforcer
+    control_category: preventive
+    control_objective:
+      Operational control ensuring taxonomy consistency enforcer for Audit Classification across core.
+    governance_rationale:
+      >
+        classification_taxonomy_consistency_enforcer is required to govern Audit Classification risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected core
+        failures.
+    implementation_guidance:
+      >
+        Implement classification_taxonomy_consistency_enforcer as automated policy in
+        audit_classification orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: classification_taxonomy_consistency_enforcer_continuous_telemetry_dashboard
+    validation_method:
+      classification_taxonomy_consistency_enforcer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      classification_taxonomy_consistency_enforcer_statistical_sampling_with_exception_tracking
+    control_owner: audit_classification_control_owner
+    evidence_generated: classification_taxonomy_consistency_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify classification_taxonomy_consistency_enforcer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        classification_taxonomy_consistency_enforcer outputs may trigger enforcement under
+        audit_classification escalation rules.
+  - control_id: AAE-COR-AUDIT_CLAS-AUDITCLASSI
+    control_name: audit_classification_classification_rule_engine
+    control_category: preventive
+    control_objective:
+      Operational control ensuring classification rule engine for Audit Classification across core.
+    governance_rationale:
+      >
+        audit_classification_classification_rule_engine is required to govern Audit Classification risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected core
+        failures.
+    implementation_guidance:
+      >
+        Implement audit_classification_classification_rule_engine as automated policy in
+        audit_classification orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: audit_classification_classification_rule_engine_continuous_telemetry_dashboard
+    validation_method:
+      >
+        audit_classification_classification_rule_engine_quarterly_design_and_operating_effectiveness_tes
+        t
+    testing_method:
+      audit_classification_classification_rule_engine_statistical_sampling_with_exception_tracking
+    control_owner: audit_classification_control_owner
+    evidence_generated: audit_classification_classification_rule_engine_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_classification_classification_rule_engine design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_classification_classification_rule_engine outputs may trigger enforcement under
+        audit_classification escalation rules.
+  - control_id: AAE-COR-AUDIT_CLAS-AUDITCLASSI
+    control_name: audit_classification_enforcement_scope_boundary_definer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring enforcement scope boundary definer for Audit Classification across
+        core.
+    governance_rationale:
+      >
+        audit_classification_enforcement_scope_boundary_definer is required to govern Audit
+        Classification risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected core failures.
+    implementation_guidance:
+      >
+        Implement audit_classification_enforcement_scope_boundary_definer as automated policy in
+        audit_classification orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      audit_classification_enforcement_scope_boundary_definer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        audit_classification_enforcement_scope_boundary_definer_quarterly_design_and_operating_effective
+        ness_test
+    testing_method:
+      >
+        audit_classification_enforcement_scope_boundary_definer_statistical_sampling_with_exception_trac
+        king
+    control_owner: audit_classification_control_owner
+    evidence_generated: audit_classification_enforcement_scope_boundary_definer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_classification_enforcement_scope_boundary_definer design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_classification_enforcement_scope_boundary_definer outputs may trigger enforcement under
+        audit_classification escalation rules.
+  - control_id: AAE-COR-AUDIT_CLAS-AUDITCLASSI
+    control_name: audit_classification_framework_version_controller
+    control_category: preventive
+    control_objective:
+      Operational control ensuring framework version controller for Audit Classification across core.
+    governance_rationale:
+      >
+        audit_classification_framework_version_controller is required to govern Audit Classification
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected core
+        failures.
+    implementation_guidance:
+      >
+        Implement audit_classification_framework_version_controller as automated policy in
+        audit_classification orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: audit_classification_framework_version_controller_continuous_telemetry_dashboard
+    validation_method:
+      >
+        audit_classification_framework_version_controller_quarterly_design_and_operating_effectiveness_t
+        est
+    testing_method:
+      audit_classification_framework_version_controller_statistical_sampling_with_exception_tracking
+    control_owner: audit_classification_control_owner
+    evidence_generated: audit_classification_framework_version_controller_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_classification_framework_version_controller design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_classification_framework_version_controller outputs may trigger enforcement under
+        audit_classification escalation rules.
+  - control_id: AAE-COR-AUDIT_CLAS-AUDITCLASSI
+    control_name: audit_classification_reference_architecture_integrity_checker
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring reference architecture integrity checker for Audit Classification
+        across core.
+    governance_rationale:
+      >
+        audit_classification_reference_architecture_integrity_checker is required to govern Audit
+        Classification risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected core failures.
+    implementation_guidance:
+      >
+        Implement audit_classification_reference_architecture_integrity_checker as automated policy in
+        audit_classification orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      audit_classification_reference_architecture_integrity_checker_continuous_telemetry_dashboard
+    validation_method:
+      >
+        audit_classification_reference_architecture_integrity_checker_quarterly_design_and_operating_eff
+        ectiveness_test
+    testing_method:
+      >
+        audit_classification_reference_architecture_integrity_checker_statistical_sampling_with_exceptio
+        n_tracking
+    control_owner: audit_classification_control_owner
+    evidence_generated:
+      audit_classification_reference_architecture_integrity_checker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_classification_reference_architecture_integrity_checker design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_classification_reference_architecture_integrity_checker outputs may trigger enforcement
+        under audit_classification escalation rules.
+  - control_id: AAE-COR-AUDIT_CLAS-AUDITCLASSI
+    control_name: audit_classification_governance_object_registry
+    control_category: preventive
+    control_objective:
+      Operational control ensuring governance object registry for Audit Classification across core.
+    governance_rationale:
+      >
+        audit_classification_governance_object_registry is required to govern Audit Classification risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected core
+        failures.
+    implementation_guidance:
+      >
+        Implement audit_classification_governance_object_registry as automated policy in
+        audit_classification orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: audit_classification_governance_object_registry_continuous_telemetry_dashboard
+    validation_method:
+      >
+        audit_classification_governance_object_registry_quarterly_design_and_operating_effectiveness_tes
+        t
+    testing_method:
+      audit_classification_governance_object_registry_statistical_sampling_with_exception_tracking
+    control_owner: audit_classification_control_owner
+    evidence_generated: audit_classification_governance_object_registry_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_classification_governance_object_registry design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_classification_governance_object_registry outputs may trigger enforcement under
+        audit_classification escalation rules.
+  - control_id: AAE-COR-AUDIT_CLAS-AUDITCLASSI
+    control_name: audit_classification_canonical_identifier_uniqueness_guard
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring canonical identifier uniqueness guard for Audit Classification
+        across core.
+    governance_rationale:
+      >
+        audit_classification_canonical_identifier_uniqueness_guard is required to govern Audit
+        Classification risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected core failures.
+    implementation_guidance:
+      >
+        Implement audit_classification_canonical_identifier_uniqueness_guard as automated policy in
+        audit_classification orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      audit_classification_canonical_identifier_uniqueness_guard_continuous_telemetry_dashboard
+    validation_method:
+      >
+        audit_classification_canonical_identifier_uniqueness_guard_quarterly_design_and_operating_effect
+        iveness_test
+    testing_method:
+      >
+        audit_classification_canonical_identifier_uniqueness_guard_statistical_sampling_with_exception_t
+        racking
+    control_owner: audit_classification_control_owner
+    evidence_generated: audit_classification_canonical_identifier_uniqueness_guard_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_classification_canonical_identifier_uniqueness_guard design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_classification_canonical_identifier_uniqueness_guard outputs may trigger enforcement under
+        audit_classification escalation rules.
+  - control_id: AAE-COR-AUDIT_CLAS-AUDITCLASSI
+    control_name: audit_classification_foundation_control_cross_reference
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring foundation control cross reference for Audit Classification across
+        core.
+    governance_rationale:
+      >
+        audit_classification_foundation_control_cross_reference is required to govern Audit
+        Classification risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected core failures.
+    implementation_guidance:
+      >
+        Implement audit_classification_foundation_control_cross_reference as automated policy in
+        audit_classification orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      audit_classification_foundation_control_cross_reference_continuous_telemetry_dashboard
+    validation_method:
+      >
+        audit_classification_foundation_control_cross_reference_quarterly_design_and_operating_effective
+        ness_test
+    testing_method:
+      >
+        audit_classification_foundation_control_cross_reference_statistical_sampling_with_exception_trac
+        king
+    control_owner: audit_classification_control_owner
+    evidence_generated: audit_classification_foundation_control_cross_reference_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_classification_foundation_control_cross_reference design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_classification_foundation_control_cross_reference outputs may trigger enforcement under
+        audit_classification escalation rules.
+  - control_id: AAE-COR-AUDIT_CLAS-AUDITCLASSI
+    control_name: audit_classification_core_artifact_publication_gate
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring core artifact publication gate for Audit Classification across
+        core.
+    governance_rationale:
+      >
+        audit_classification_core_artifact_publication_gate is required to govern Audit Classification
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected core
+        failures.
+    implementation_guidance:
+      >
+        Implement audit_classification_core_artifact_publication_gate as automated policy in
+        audit_classification orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      audit_classification_core_artifact_publication_gate_continuous_telemetry_dashboard
+    validation_method:
+      >
+        audit_classification_core_artifact_publication_gate_quarterly_design_and_operating_effectiveness
+        _test
+    testing_method:
+      audit_classification_core_artifact_publication_gate_statistical_sampling_with_exception_tracking
+    control_owner: audit_classification_control_owner
+    evidence_generated: audit_classification_core_artifact_publication_gate_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_classification_core_artifact_publication_gate design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_classification_core_artifact_publication_gate outputs may trigger enforcement under
+        audit_classification escalation rules.
+  - control_id: AAE-COR-AUDIT_CLAS-AUDITCLASSI
+    control_name: audit_classification_maturity_baseline_definer
+    control_category: preventive
+    control_objective:
+      Operational control ensuring maturity baseline definer for Audit Classification across core.
+    governance_rationale:
+      >
+        audit_classification_maturity_baseline_definer is required to govern Audit Classification risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected core
+        failures.
+    implementation_guidance:
+      >
+        Implement audit_classification_maturity_baseline_definer as automated policy in
+        audit_classification orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: audit_classification_maturity_baseline_definer_continuous_telemetry_dashboard
+    validation_method:
+      audit_classification_maturity_baseline_definer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      audit_classification_maturity_baseline_definer_statistical_sampling_with_exception_tracking
+    control_owner: audit_classification_control_owner
+    evidence_generated: audit_classification_maturity_baseline_definer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_classification_maturity_baseline_definer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_classification_maturity_baseline_definer outputs may trigger enforcement under
+        audit_classification escalation rules.
+  - control_id: AAE-COR-AUDIT_CLAS-AUDITCLASSI
+    control_name: audit_classification_core_governance_attestation
+    control_category: audit
+    control_objective:
+      Operational control ensuring core governance attestation for Audit Classification across core.
+    governance_rationale:
+      >
+        audit_classification_core_governance_attestation is required to govern Audit Classification
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected core
+        failures.
+    implementation_guidance:
+      >
+        Implement audit_classification_core_governance_attestation as automated policy in
+        audit_classification orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: audit_classification_core_governance_attestation_continuous_telemetry_dashboard
+    validation_method:
+      >
+        audit_classification_core_governance_attestation_quarterly_design_and_operating_effectiveness_te
+        st
+    testing_method:
+      audit_classification_core_governance_attestation_statistical_sampling_with_exception_tracking
+    control_owner: audit_classification_control_owner
+    evidence_generated: audit_classification_core_governance_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_classification_core_governance_attestation design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_classification_core_governance_attestation outputs may trigger enforcement under
+        audit_classification escalation rules.
+requirements:
+  legal:
+    >
+      Audit Classification must satisfy legal requirements for structured audit execution and evidence
+      sufficiency validation, violation and audit finding taxonomy with severity mapping including
+      documented procedures, accountable roles, measurable SLAs, and evidence retention aligned with
+      EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Audit Classification must satisfy regulatory requirements for structured audit execution and
+      evidence sufficiency validation, violation and audit finding taxonomy with severity mapping
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Audit Classification must satisfy technical requirements for structured audit execution and
+      evidence sufficiency validation, violation and audit finding taxonomy with severity mapping
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Audit Classification must satisfy operational requirements for structured audit execution and
+      evidence sufficiency validation, violation and audit finding taxonomy with severity mapping
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Audit Classification must satisfy audit requirements for structured audit execution and evidence
+      sufficiency validation, violation and audit finding taxonomy with severity mapping including
+      documented procedures, accountable roles, measurable SLAs, and evidence retention aligned with
+      EU AI Act and ISO 19011.
+  forensic:
+    >
+      Audit Classification must satisfy forensic requirements for structured audit execution and
+      evidence sufficiency validation, violation and audit finding taxonomy with severity mapping
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Audit Classification must satisfy enforcement requirements for structured audit execution and
+      evidence sufficiency validation, violation and audit finding taxonomy with severity mapping
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Audit Classification with stage gates, RACI assignments, and evidence
+      capture.
+  triage:
+    >
+      Triage process for Audit Classification with stage gates, RACI assignments, and evidence
+      capture.
+  execution:
+    >
+      Execution process for Audit Classification with stage gates, RACI assignments, and evidence
+      capture.
+  validation:
+    >
+      Validation process for Audit Classification with stage gates, RACI assignments, and evidence
+      capture.
+  escalation:
+    >
+      Escalation process for Audit Classification with stage gates, RACI assignments, and evidence
+      capture.
+  closure:
+    >
+      Closure process for Audit Classification with stage gates, RACI assignments, and evidence
+      capture.
+  improvement:
+    >
+      Improvement process for Audit Classification with stage gates, RACI assignments, and evidence
+      capture.
+workflows:
+  - workflow_name: audit_classification_operational_lifecycle_workflow
+    workflow_trigger: audit_classification_governance_event_detected
+    workflow_steps:
+      - audit_classification_intake
+      - audit_classification_triage
+      - audit_classification_execution
+      - audit_classification_validation
+      - audit_classification_approval
+      - audit_classification_closure
+    approval_points:
+      - audit_classification_approval
+    escalation_points:
+      - audit_classification_triage
+    generated_evidence:
+      - audit_classification_workflow_log
+      - audit_classification_closure_attestation
+    completion_requirements:
+      - audit_classification_evidence_complete
+      - audit_classification_approvals_recorded
+  - workflow_name: audit_classification_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_audit_classification
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - audit_classification_regulatory_package
+      - audit_classification_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - audit_classification_governance_event_detected
+    - audit_classification_regulatory_inquiry
+    - audit_classification_integrity_breach
+    - audit_classification_enforcement_authorization
+  required_inputs:
+    - audit_classification_case_context
+    - audit_classification_evidence_index
+    - audit_classification_risk_assessment
+  workflow_steps:
+    - audit_classification_intake
+    - audit_classification_triage
+    - audit_classification_execution
+    - audit_classification_validation
+    - audit_classification_approval
+    - audit_classification_closure
+  validation_steps:
+    - audit_classification_evidence_sufficiency_check
+    - audit_classification_integrity_verification
+  approval_steps:
+    - audit_classification_approval
+  control_checkpoints:
+    - audit_classification_intake_gate
+    - audit_classification_evidence_gate
+    - audit_classification_decision_gate
+  evidence_generation:
+    - audit_classification_workflow_log
+    - audit_classification_closure_attestation
+  decision_points:
+    - audit_classification_severity_classification
+    - audit_classification_enforcement_authorization
+  escalation_points:
+    - audit_classification_triage
+  completion_criteria:
+    - audit_classification_evidence_complete
+    - audit_classification_approvals_recorded
+  generated_outputs:
+    - audit_classification_workflow_log
+    - audit_classification_closure_attestation
+    - audit_classification_final_disposition
+decision_logic:
+  decision_inputs:
+    - audit_classification_severity_score
+    - audit_classification_evidence_completeness
+    - audit_classification_regulatory_context
+    - audit_classification_risk_exposure_index
+  decision_conditions:
+    - audit_classification_critical_threshold_breach
+    - audit_classification_evidence_integrity_failure
+    - audit_classification_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: audit_classification_severity_score >= 90
+    high_severity: audit_classification_severity_score >= 70
+    evidence_complete: audit_classification_evidence_completeness >= 0.98
+  decision_rules:
+    audit_classification_high_severity_violation:
+      condition: audit_classification_severity_score >= 90
+      action: initiate_audit_classification_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: audit_classification_investigation_report
+    audit_classification_evidence_compromise_detected:
+      condition: audit_classification_integrity_status == compromised
+      action: activate_audit_classification_forensic_lockdown
+      approval_required: audit_classification_forensic_lead
+      evidence_required: audit_classification_integrity_alert_record
+    audit_classification_enforcement_authorization:
+      condition: audit_classification_violation_confirmed == true AND audit_classification_evidence_complete == true
+      action: issue_audit_classification_enforcement_order
+      approval_required: audit_classification_enforcement_officer
+      evidence_required: audit_classification_violation_evidence_package
+    audit_classification_regulator_inquiry_response:
+      condition: audit_classification_regulator_request_received == true
+      action: compile_audit_classification_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: audit_classification_regulatory_evidence_index
+  decision_outputs:
+    - audit_classification_enforcement_decision
+    - audit_classification_escalation_notice
+    - audit_classification_remediation_directive
+    - audit_classification_audit_disposition
+  approval_requirements:
+    enforcement_actions: [audit_classification_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - audit_classification_severity_score >= 90
+    - audit_classification_evidence_integrity_failure == true
+    - audit_classification_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_audit_classification_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: audit_classification_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Audit Classification may trigger EU AI Act Articles 71, 73 reporting, market
+      surveillance cooperation, and conformity assessment suspension; all outputs must be litigation-
+      defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Audit Classification per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Audit Classification per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Audit Classification per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Audit Classification per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+metrics:
+  - metric_name: audit_finding_closure_rate
+    metric_category: operational
+    business_purpose:
+      Measure audit finding closure rate for Audit Classification operational and regulatory assurance
+    formula: computed_audit_finding_closure_rate_from_audit_classification_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: audit_classification_metrics_owner
+    data_source: audit_classification_metrics_warehouse
+    evidence_generated: audit_finding_closure_rate_measurement_record
+  - metric_name: inspection_readiness_score
+    metric_category: risk
+    business_purpose:
+      Measure inspection readiness score for Audit Classification operational and regulatory assurance
+    formula: computed_inspection_readiness_score_from_audit_classification_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: audit_classification_metrics_owner
+    data_source: audit_classification_metrics_warehouse
+    evidence_generated: inspection_readiness_score_measurement_record
+  - metric_name: control_test_pass_rate
+    metric_category: compliance
+    business_purpose:
+      Measure control test pass rate for Audit Classification operational and regulatory assurance
+    formula: computed_control_test_pass_rate_from_audit_classification_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: audit_classification_metrics_owner
+    data_source: audit_classification_metrics_warehouse
+    evidence_generated: control_test_pass_rate_measurement_record
+  - metric_name: evidence_gap_count
+    metric_category: effectiveness
+    business_purpose:
+      Measure evidence gap count for Audit Classification operational and regulatory assurance
+    formula: computed_evidence_gap_count_from_audit_classification_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: audit_classification_metrics_owner
+    data_source: audit_classification_metrics_warehouse
+    evidence_generated: evidence_gap_count_measurement_record
+  - metric_name: regulatory_alignment_score
+    metric_category: governance
+    business_purpose:
+      Measure regulatory alignment score for Audit Classification operational and regulatory assurance
+    formula: computed_regulatory_alignment_score_from_audit_classification_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: audit_classification_metrics_owner
+    data_source: audit_classification_metrics_warehouse
+    evidence_generated: regulatory_alignment_score_measurement_record
+  - metric_name: continuous_audit_coverage
+    metric_category: enforcement
+    business_purpose:
+      Measure continuous audit coverage for Audit Classification operational and regulatory assurance
+    formula: computed_continuous_audit_coverage_from_audit_classification_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: audit_classification_metrics_owner
+    data_source: audit_classification_metrics_warehouse
+    evidence_generated: continuous_audit_coverage_measurement_record
+kpis:
+  - metric_name: audit_finding_closure_rate
+    formula: computed_audit_finding_closure_rate_from_audit_classification_telemetry
+    target: >= 95%
+  - metric_name: inspection_readiness_score
+    formula: computed_inspection_readiness_score_from_audit_classification_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: control_test_pass_rate
+    formula: computed_control_test_pass_rate_from_audit_classification_telemetry
+    target: >= 95%
+  - metric_name: evidence_gap_count
+    formula: computed_evidence_gap_count_from_audit_classification_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: regulatory_alignment_score
+    business_purpose: Measure regulatory alignment score for Audit Classification operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+  - metric_name: continuous_audit_coverage
+    business_purpose: Measure continuous audit coverage for Audit Classification operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: audit_classification_primary_record
+    evidence_type: primary
+    business_purpose: Support audit classification governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_audit_classification_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: audit_classification_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: audit_classification_validation_attestation
+    evidence_type: corroborating
+    business_purpose: Support audit classification governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_audit_classification_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: audit_classification_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: audit_operational_log
+    evidence_type: attestation
+    business_purpose: Support audit classification governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_audit_classification_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: audit_classification_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: classification_operational_log
+    evidence_type: derivative
+    business_purpose: Support audit classification governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_audit_classification_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: audit_classification_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: audit_classification_status_dashboard
+    report_owner: audit_classification_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: monthly
+    report_inputs:
+      - audit_classification_telemetry
+      - audit_classification_evidence_index
+    report_outputs:
+      - audit_classification_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: audit_classification_compliance_summary
+    report_owner: audit_classification_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - audit_classification_telemetry
+      - audit_classification_evidence_index
+    report_outputs:
+      - audit_classification_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: audit_assurance_report
+    report_owner: audit_classification_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - audit_classification_telemetry
+      - audit_classification_evidence_index
+    report_outputs:
+      - audit_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: audit_classification_executive_brief
+    report_owner: audit_classification_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - audit_classification_telemetry
+      - audit_classification_evidence_index
+    report_outputs:
+      - audit_classification_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: audit_classification_audit_pack
+    report_owner: audit_classification_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - audit_classification_telemetry
+      - audit_classification_evidence_index
+    report_outputs:
+      - audit_classification_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Audit Classification interfaces with autonomous agents, GPAI, or
+      tool-calling systems.
+  agent_governance:
+    agent_identity: audit_classification_registered_agent_identity_schema
+    agent_role: audit_classification_delegated_authority_role_matrix
+    agent_permissions: audit_classification_least_privilege_permission_set
+    agent_constraints: audit_classification_autonomy_and_tool_constraints
+    agent_accountability: audit_classification_human_accountability_chain
+    agent_escalation_rules: audit_classification_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - audit_classification_policy_context
+      - audit_classification_risk_score
+      - audit_classification_human_intent
+    decision_outputs:
+      - audit_classification_authorized_action
+      - audit_classification_escalation_notice
+    decision_owners:
+      - audit_classification_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: audit_classification_high_risk_decision_mandatory_review
+    decision_accountability: audit_classification_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: audit_classification_approved_tool_allowlist
+    tool_execution_validation: audit_classification_pre_execution_tool_risk_check
+    tool_risk_controls: audit_classification_tool_side_effect_containment
+    tool_auditability: audit_classification_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: audit_classification_memory_segment_access_policy
+    memory_integrity_validation: audit_classification_memory_tamper_detection
+    memory_retention_controls: audit_classification_memory_retention_and_purge_rules
+    memory_auditability: audit_classification_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: audit_classification_chain_of_thought_capture
+    reasoning_validation: audit_classification_reasoning_consistency_check
+    reasoning_risk_monitoring: audit_classification_reasoning_hazard_detection
+    reasoning_accountability: audit_classification_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - audit_classification_audit_log
+  - audit_classification_activity_log
+  - audit_classification_decision_log
+  - audit_classification_traceability_record
+  - audit_classification_evidence_package
+  - audit_classification_chain_of_custody_record
+  - audit_classification_attestation
+required_evidence:
+  - audit_classification_audit_log
+  - audit_classification_activity_log
+  - audit_classification_decision_log
+  - audit_classification_traceability_record
+  - audit_classification_evidence_package
+  - audit_classification_chain_of_custody_record
+  - audit_classification_attestation
+supporting_evidence:
+  - audit_classification_audit_log
+  - audit_classification_activity_log
+  - audit_classification_decision_log
+  - audit_classification_traceability_record
+  - audit_classification_evidence_package
+audit_evidence:
+  - audit_classification_audit_log
+  - audit_classification_activity_log
+  - audit_classification_decision_log
+  - audit_classification_traceability_record
+  - audit_classification_evidence_package
+  - audit_classification_chain_of_custody_record
+  - audit_classification_attestation
+forensic_evidence:
+  - audit_classification_audit_log
+  - audit_classification_activity_log
+  - audit_classification_decision_log
+  - audit_classification_traceability_record
+  - audit_classification_evidence_package
+  - audit_classification_chain_of_custody_record
+  - audit_classification_attestation
+regulatory_evidence:
+  - audit_classification_audit_log
+  - audit_classification_activity_log
+  - audit_classification_decision_log
+  - audit_classification_traceability_record
+  - audit_classification_evidence_package
+  - audit_classification_chain_of_custody_record
+  - audit_classification_attestation
+validation_evidence:
+  - audit_classification_audit_log
+  - audit_classification_activity_log
+  - audit_classification_decision_log
+  - audit_classification_traceability_record
+  - audit_classification_evidence_package
+  - audit_classification_chain_of_custody_record
+  - audit_classification_attestation
+validation_rules:
+  - rule: audit_classification_evidence_complete
+    condition: required_evidence_audit_classification < threshold
+    action: BLOCK_SUBMISSION
+  - rule: audit_classification_integrity_verified
+    condition: integrity_status_audit_classification != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: audit_classification_custody_intact
+    condition: custody_gap_audit_classification == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Audit Classification controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Audit Classification controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Audit Classification controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Audit Classification controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Audit Classification controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - audit_classification_control_failure
+    - audit_classification_evidence_compromise
+    - audit_classification_regulatory_non_compliance
+    - audit_classification_enforcement_delay
+  risk_events:
+    - audit_classification_audit_finding_critical
+    - audit_classification_investigation_escalation
+    - audit_classification_sanction_exposure
+    - audit_classification_market_surveillance_inquiry
+  risk_indicators:
+    - audit_classification_control_effectiveness_degradation
+    - audit_classification_evidence_gap_rate
+    - audit_classification_sla_breach_count
+    - audit_classification_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    audit_classification_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: audit_classification_forensic_lead
+    audit_classification_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    audit_classification_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: audit_classification_enforcement_officer
+  risk_tolerance:
+    audit_classification_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: audit_classification_risk_score >= 60
+    critical: audit_classification_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Audit Classification controls documented in
+      audit_classification_risk_register with quarterly review.
+  risk_treatment:
+    - audit_classification_preventive_control_reinforcement
+    - audit_classification_detective_monitoring_enhancement
+    - audit_classification_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: audit_classification_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Audit Classification workflow events with provenance anchor and
+      audit_classification_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via audit_classification_collection_api with schema validation and
+      classification
+  evidence_validation:
+    Completeness, authenticity, and admissibility checks via audit_classification_validation_engine
+  evidence_classification:
+    RESTRICTED/CONFIDENTIAL classification per audit_classification_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in audit_classification_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per audit_classification_retention_schedule aligned with EU AI Act Article 18 and
+      legal hold
+  evidence_archival:
+    Long-term archival with audit_classification_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via audit_classification_retrieval_gateway with purpose logging
+  evidence_disposal:
+    Authorized disposition with audit_classification_disposition_certificate and dual approval
+compliance_mapping:
+  article_4:
+    article: Article 4
+    regulatory_text_summary:
+      AI literacy and training obligations for providers and deployers.
+    obligation:
+      >
+        Workforce competence and awareness for AI system lifecycle activities. Implemented through Audit
+        Classification in core.
+    implementation_controls:
+      - audit_classification_article_4_preventive_control
+      - audit_classification_article_4_detective_control
+      - audit_classification_article_4_evidence_control
+    implementation_processes:
+      - audit_classification_article_4_workflow
+      - audit_classification_article_4_validation_process
+      - audit_classification_article_4_escalation_process
+    implementation_evidence:
+      - audit_classification_article_4_compliance_record
+      - audit_classification_article_4_audit_package
+      - audit_classification_article_4_attestation
+    validation_method: audit_classification_article_4_automated_and_manual_conformity_testing
+    audit_method: audit_classification_article_4_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: audit_classification_article_4_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Audit Classification demonstrates Article 4 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_9:
+    article: Article 9
+    regulatory_text_summary:
+      Risk management system for high-risk AI systems.
+    obligation:
+      >
+        Continuous risk identification, analysis, evaluation, and treatment. Implemented through Audit
+        Classification in core.
+    implementation_controls:
+      - audit_classification_article_9_preventive_control
+      - audit_classification_article_9_detective_control
+      - audit_classification_article_9_evidence_control
+    implementation_processes:
+      - audit_classification_article_9_workflow
+      - audit_classification_article_9_validation_process
+      - audit_classification_article_9_escalation_process
+    implementation_evidence:
+      - audit_classification_article_9_compliance_record
+      - audit_classification_article_9_audit_package
+      - audit_classification_article_9_attestation
+    validation_method: audit_classification_article_9_automated_and_manual_conformity_testing
+    audit_method: audit_classification_article_9_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: audit_classification_article_9_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Audit Classification demonstrates Article 9 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_17:
+    article: Article 17
+    regulatory_text_summary:
+      Quality management system.
+    obligation:
+      >
+        QMS covering design, development, quality control, and post-market monitoring. Implemented
+        through Audit Classification in core.
+    implementation_controls:
+      - audit_classification_article_17_preventive_control
+      - audit_classification_article_17_detective_control
+      - audit_classification_article_17_evidence_control
+    implementation_processes:
+      - audit_classification_article_17_workflow
+      - audit_classification_article_17_validation_process
+      - audit_classification_article_17_escalation_process
+    implementation_evidence:
+      - audit_classification_article_17_compliance_record
+      - audit_classification_article_17_audit_package
+      - audit_classification_article_17_attestation
+    validation_method: audit_classification_article_17_automated_and_manual_conformity_testing
+    audit_method: audit_classification_article_17_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: audit_classification_article_17_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Audit Classification demonstrates Article 17 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_43:
+    article: Article 43
+    regulatory_text_summary:
+      Conformity assessment.
+    obligation:
+      >
+        Conformity assessment procedures for high-risk AI systems. Implemented through Audit
+        Classification in core.
+    implementation_controls:
+      - audit_classification_article_43_preventive_control
+      - audit_classification_article_43_detective_control
+      - audit_classification_article_43_evidence_control
+    implementation_processes:
+      - audit_classification_article_43_workflow
+      - audit_classification_article_43_validation_process
+      - audit_classification_article_43_escalation_process
+    implementation_evidence:
+      - audit_classification_article_43_compliance_record
+      - audit_classification_article_43_audit_package
+      - audit_classification_article_43_attestation
+    validation_method: audit_classification_article_43_automated_and_manual_conformity_testing
+    audit_method: audit_classification_article_43_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: audit_classification_article_43_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Audit Classification demonstrates Article 43 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+crosswalks:
+  eu_ai_act:
+    article_4:
+      implementation: audit_classification_eu_ai_act_article_4_control_set
+      process: audit_classification_eu_ai_act_article_4_workflow
+      evidence: audit_classification_eu_ai_act_article_4_attestation
+    article_9:
+      implementation: audit_classification_eu_ai_act_article_9_control_set
+      process: audit_classification_eu_ai_act_article_9_workflow
+      evidence: audit_classification_eu_ai_act_article_9_attestation
+    article_17:
+      implementation: audit_classification_eu_ai_act_article_17_control_set
+      process: audit_classification_eu_ai_act_article_17_workflow
+      evidence: audit_classification_eu_ai_act_article_17_attestation
+    article_43:
+      implementation: audit_classification_eu_ai_act_article_43_control_set
+      process: audit_classification_eu_ai_act_article_43_workflow
+      evidence: audit_classification_eu_ai_act_article_43_attestation
+  gdpr:
+    article_5:
+      implementation: audit_classification_gdpr_article_5_privacy_control
+      evidence: audit_classification_gdpr_article_5_compliance_record
+    article_6:
+      implementation: audit_classification_gdpr_article_6_privacy_control
+      evidence: audit_classification_gdpr_article_6_compliance_record
+    article_22:
+      implementation: audit_classification_gdpr_article_22_privacy_control
+      evidence: audit_classification_gdpr_article_22_compliance_record
+    article_25:
+      implementation: audit_classification_gdpr_article_25_privacy_control
+      evidence: audit_classification_gdpr_article_25_compliance_record
+    article_32:
+      implementation: audit_classification_gdpr_article_32_privacy_control
+      evidence: audit_classification_gdpr_article_32_compliance_record
+    article_35:
+      implementation: audit_classification_gdpr_article_35_privacy_control
+      evidence: audit_classification_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: audit_classification_iso42001_clause_4_1_aims_control
+      evidence: audit_classification_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: audit_classification_iso42001_clause_4_2_aims_control
+      evidence: audit_classification_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: audit_classification_iso42001_clause_5_1_aims_control
+      evidence: audit_classification_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: audit_classification_iso42001_clause_5_2_aims_control
+      evidence: audit_classification_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: audit_classification_iso42001_clause_6_1_aims_control
+      evidence: audit_classification_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: audit_classification_iso42001_clause_8_1_aims_control
+      evidence: audit_classification_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: audit_classification_iso42001_clause_9_1_aims_control
+      evidence: audit_classification_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: audit_classification_iso42001_clause_10_1_aims_control
+      evidence: audit_classification_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: audit_classification_iso23894_risk_identification_alignment
+      evidence: audit_classification_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: audit_classification_iso23894_risk_analysis_alignment
+      evidence: audit_classification_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: audit_classification_iso23894_risk_evaluation_alignment
+      evidence: audit_classification_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: audit_classification_iso23894_risk_treatment_alignment
+      evidence: audit_classification_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: audit_classification_iso23894_risk_monitoring_alignment
+      evidence: audit_classification_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: audit_classification_iso19011_audit_principles_procedure
+      evidence: audit_classification_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: audit_classification_iso19011_audit_programme_management_procedure
+      evidence: audit_classification_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: audit_classification_iso19011_audit_evidence_requirements_procedure
+      evidence: audit_classification_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: audit_classification_iso19011_audit_reporting_procedure
+      evidence: audit_classification_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: audit_classification_nist_rmf_govern_control_mapping
+      evidence: audit_classification_nist_rmf_govern_assessment
+    map:
+      implementation: audit_classification_nist_rmf_map_control_mapping
+      evidence: audit_classification_nist_rmf_map_assessment
+    measure:
+      implementation: audit_classification_nist_rmf_measure_control_mapping
+      evidence: audit_classification_nist_rmf_measure_assessment
+    manage:
+      implementation: audit_classification_nist_rmf_manage_control_mapping
+      evidence: audit_classification_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: audit_classification_nist_csf_identify_safeguard
+      evidence: audit_classification_nist_csf_identify_log
+    protect:
+      implementation: audit_classification_nist_csf_protect_safeguard
+      evidence: audit_classification_nist_csf_protect_log
+    detect:
+      implementation: audit_classification_nist_csf_detect_safeguard
+      evidence: audit_classification_nist_csf_detect_log
+    respond:
+      implementation: audit_classification_nist_csf_respond_safeguard
+      evidence: audit_classification_nist_csf_respond_log
+    recover:
+      implementation: audit_classification_nist_csf_recover_safeguard
+      evidence: audit_classification_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: audit_classification_oecd_accountability_governance_control
+      evidence: audit_classification_oecd_accountability_attestation
+    transparency:
+      implementation: audit_classification_oecd_transparency_governance_control
+      evidence: audit_classification_oecd_transparency_attestation
+    robustness_security:
+      implementation: audit_classification_oecd_robustness_security_governance_control
+      evidence: audit_classification_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: audit_classification_oecd_inclusive_growth_governance_control
+      evidence: audit_classification_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: audit_classification_unesco_human_rights_ethics_control
+      evidence: audit_classification_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: audit_classification_unesco_fairness_non_discrimination_ethics_control
+      evidence: audit_classification_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: audit_classification_unesco_transparency_explainability_ethics_control
+      evidence: audit_classification_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: audit_classification_unesco_accountability_ethics_control
+      evidence: audit_classification_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Audit Classification covering executive, board, regulatory, audit,
+      forensic, and attestation consumers.
+  report_types:
+    - audit_classification_status_report
+    - audit_classification_compliance_report
+    - audit_classification_enforcement_report
+    - audit_classification_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [audit_classification_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_audit_classification
+  - quarterly_control_testing_audit_classification
+  - evidence_sampling_audit_classification
+  - finding_remediation_tracking_audit_classification
+integration_points:
+  upstream_systems:
+    - system: core_governance
+      purpose: audit_classification_to_core_governance_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_core_governance]
+      produced_artifacts: [audit_classification_output_to_core_governance]
+    - system: legal_interoperability
+      purpose: audit_classification_to_legal_interoperability_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_legal_interoperability]
+      produced_artifacts: [audit_classification_output_to_legal_interoperability]
+  downstream_systems:
+    - system: compliance_audits
+      purpose: audit_classification_to_compliance_audits_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_compliance_audits]
+      produced_artifacts: [audit_classification_output_to_compliance_audits]
+    - system: enforcement_actions
+      purpose: audit_classification_to_enforcement_actions_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_enforcement_actions]
+      produced_artifacts: [audit_classification_output_to_enforcement_actions]
+    - system: audit_traceability
+      purpose: audit_classification_to_audit_traceability_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_audit_traceability]
+      produced_artifacts: [audit_classification_output_to_audit_traceability]
+    - system: crosswalks
+      purpose: audit_classification_to_crosswalks_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_crosswalks]
+      produced_artifacts: [audit_classification_output_to_crosswalks]
+  governance_integrations:
+    - system: core_governance
+      purpose: audit_classification_to_core_governance_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_core_governance]
+      produced_artifacts: [audit_classification_output_to_core_governance]
+  risk_integrations:
+    - system: risk_management
+      purpose: audit_classification_to_risk_management_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_risk_management]
+      produced_artifacts: [audit_classification_output_to_risk_management]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: audit_classification_to_compliance_audits_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_compliance_audits]
+      produced_artifacts: [audit_classification_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: audit_classification_to_internal_audit_system_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_internal_audit_system]
+      produced_artifacts: [audit_classification_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: audit_classification_to_governance_reporting_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_governance_reporting]
+      produced_artifacts: [audit_classification_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: audit_classification_to_executive_dashboard_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_executive_dashboard]
+      produced_artifacts: [audit_classification_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: audit_classification_to_enforcement_actions_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_enforcement_actions]
+      produced_artifacts: [audit_classification_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: audit_classification_to_policy_enforcement_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_policy_enforcement]
+      produced_artifacts: [audit_classification_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: audit_classification_to_remediation_tracking_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_remediation_tracking]
+      produced_artifacts: [audit_classification_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: audit_classification_to_remediation_engine_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_remediation_engine]
+      produced_artifacts: [audit_classification_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: audit_classification_to_evidence_preservation_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_evidence_preservation]
+      produced_artifacts: [audit_classification_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: audit_classification_to_technical_documentation_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_technical_documentation]
+      produced_artifacts: [audit_classification_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: audit_classification_to_post_market_monitoring_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_post_market_monitoring]
+      produced_artifacts: [audit_classification_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: audit_classification_to_incident_reporting_governance_sync
+      data_exchanged: [audit_classification_events, audit_classification_evidence_refs, audit_classification_metrics]
+      trigger_conditions: [audit_classification_state_change, audit_classification_escalation, audit_classification_closure]
+      consumed_artifacts: [audit_classification_input_from_incident_reporting]
+      produced_artifacts: [audit_classification_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Audit Classification activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Audit Classification procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - audit_classification_procedure_checklist
+    required_evidence:
+      - audit_classification_process_log
+    required_metrics:
+      - audit_classification_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Audit Classification enterprise-wide.
+    required_capabilities:
+      - audit_classification_standard_control_set
+    required_controls:
+      - audit_classification_control_register
+    required_evidence:
+      - audit_classification_audit_evidence
+    required_metrics:
+      - audit_classification_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Audit Classification with KPI optimization.
+    required_capabilities:
+      - audit_classification_automated_controls
+    required_controls:
+      - audit_classification_telemetry_controls
+    required_evidence:
+      - audit_classification_assurance_package
+    required_metrics:
+      - audit_classification_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Audit Classification with predictive analytics.
+    required_capabilities:
+      - audit_classification_autonomous_governance
+    required_controls:
+      - audit_classification_adaptive_controls
+    required_evidence:
+      - audit_classification_regulator_ready_portfolio
+    required_metrics:
+      - audit_classification_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - audit_classification_report
+  - audit_classification_evidence_package
+  - audit_classification_attestation
+  - audit_classification_enforcement_record
+artifacts:
+  - name: audit_classification_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: audit_classification_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: audit_classification_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: audit_classification_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - audit_classification_case_record
+  - audit_classification_audit_record
+  - audit_classification_enforcement_record
+  - audit_classification_remediation_record
+monitoring:
+  continuous:
+    - audit_classification_control_telemetry
+    - audit_classification_evidence_integrity_feed
+    - audit_classification_escalation_queue
+  periodic:
+    - audit_classification_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Audit Classification effectiveness, regulatory change impact assessment, and
+    control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: audit_classification_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: audit_classification_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: audit_classification_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: audit_classification_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Audit Classification

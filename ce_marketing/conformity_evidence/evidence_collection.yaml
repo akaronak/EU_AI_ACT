@@ -1,0 +1,673 @@
+metadata:
+  id: CE-CE-EVICOL-001
+  name: evidence_collection
+  title: Evidence Collection
+  version: 1.0.0
+  status: production
+  owner: CE Marking and Conformity Office
+  maintainers:
+    - ce_conformity
+    - regulatory_affairs
+    - notified_body_liaison
+  created_date: 2026-06-12
+  last_updated: 2026-06-12
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: ce_marketing
+  skill_type: conformity_evidence
+  lifecycle_phase: operate
+  jurisdiction: EU_EEA
+  language: en
+  tags:
+    - conformity_evidence
+    - evidence_collection
+    - ce_marking
+    - conformity
+    - eu_ai_act
+    - notified_body
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GPAI Obligations
+    - ISO 42001
+    - ISO 23894
+    - ISO 27001
+    - ISO 9001
+    - NIST AI RMF
+    - GDPR
+    - CE Marking Framework
+  skill_functions:
+    - governance_skill
+    - conformity_skill
+    - certification_skill
+    - compliance_skill
+    - evidence_skill
+    - assessment_skill
+    - regulatory_skill
+    - market_access_skill
+    - monitoring_skill
+    - orchestration_skill
+purpose:
+  >
+    Executable CE Marking skill for Evidence Collection within ce_marketing/conformity_evidence.
+    Delivers conformity-assessment-ready, notified-body-ready, market-access-ready operations for
+    evidence generation, validation, integrity, assurance, retention. Functions as governance,
+    conformity, certification, compliance, evidence, assessment, regulatory, market-access,
+    monitoring, and orchestration skill.
+scope:
+  >
+    All AI systems, technical documentation, conformity assessments, declarations of conformity,
+    notified body interactions, and market authorization activities governed by Evidence Collection.
+objectives:
+  - Operationalize Evidence Collection as executable CE marking conformity skill
+  - Enable notified-body-ready conformity validation for Evidence Collection
+  - Maintain market-access-ready evidence for Evidence Collection
+  - Integrate Evidence Collection with declaration and market authorization lifecycle
+  - Support post-certification monitoring and recertification for Evidence Collection
+definitions:
+  evidence_collection_conformity_assertion:
+    Formal conformity statement for Evidence Collection supported by indexed evidence.
+  evidence_collection_notified_body_evidence:
+    Evidence package suitable for notified body conformity assessment review.
+  evidence_collection_market_access_record:
+    Record demonstrating market authorization readiness for Evidence Collection.
+taxonomy:
+  root: evidence_collection_taxonomy
+  conformity_phase:
+    - preparation
+    - assessment
+    - declaration
+    - market_placement
+    - surveillance
+  evidence_collection_status:
+    - draft
+    - validated
+    - approved
+    - published
+    - suspended
+governance:
+  policy_owner: Evidence Collection Conformity Lead
+  oversight_body: CE Marking Governance Committee
+  domain: conformity_evidence
+roles_and_responsibilities:
+  evidence_collection_conformity_officer:
+    responsibilities:
+      - Accountable for Evidence Collection conformity outcomes
+  evidence_collection_technical_documentation_lead:
+    responsibilities:
+      - Maintains Article 11 technical file for Evidence Collection
+  notified_body_liaison:
+    responsibilities:
+      - Coordinates notified body assessment activities
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Conformity Assessment Director
+    - Regulatory Affairs
+    - Notified Body Liaison
+capabilities:
+  - id: CE-CAP-001
+    name: CE Marking Governance
+    status: production
+  - id: CE-CAP-002
+    name: Conformity Assessment
+    status: production
+  - id: CE-CAP-003
+    name: Conformity Validation
+    status: production
+  - id: CE-CAP-004
+    name: Technical Documentation Governance
+    status: production
+  - id: CE-CAP-005
+    name: Declaration of Conformity Governance
+    status: production
+  - id: CE-CAP-006
+    name: Notified Body Coordination
+    status: production
+  - id: CE-CAP-007
+    name: Market Authorization Readiness
+    status: production
+  - id: CE-CAP-008
+    name: Post-Certification Monitoring
+    status: production
+controls:
+  - control_id: CE-CONF-EVIDENCE-CONFORMITY
+    control_name: conformity_evidence_collection_orchestrator
+    control_category: preventive
+    control_objective: Orchestrate conformity evidence collection across domains
+    regulatory_rationale: conformity_evidence_collection_orchestrator implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy conformity_evidence_collection_orchestrator in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: conformity_evidence_collection_orchestrator_telemetry_stream
+    validation_method: conformity_evidence_collection_orchestrator_conformity_test
+    testing_method: conformity_evidence_collection_orchestrator_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: conformity_evidence_collection_orchestrator_execution_record
+    audit_considerations: Notified body may sample conformity_evidence_collection_orchestrator during conformity assessment.
+  - control_id: CE-CONF-EVIDENCE-COLLECTION
+    control_name: collection_technical_evidence_mapping_integrity_validator
+    control_category: detective
+    control_objective: Validate technical evidence mapping to EU AI Act requirements
+    regulatory_rationale: collection_technical_evidence_mapping_integrity_validator implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy collection_technical_evidence_mapping_integrity_validator in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: collection_technical_evidence_mapping_integrity_validator_telemetry_stream
+    validation_method: collection_technical_evidence_mapping_integrity_validator_conformity_test
+    testing_method: collection_technical_evidence_mapping_integrity_validator_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: collection_technical_evidence_mapping_integrity_validator_execution_record
+    audit_considerations: Notified body may sample collection_technical_evidence_mapping_integrity_validator during conformity assessment.
+  - control_id: CE-CONF-EVIDENCE-EVIDENCEV
+    control_name: evidence_validation_methodology_enforcer
+    control_category: preventive
+    control_objective: Enforce evidence validation methodology per ISO 19011
+    regulatory_rationale: evidence_validation_methodology_enforcer implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy evidence_validation_methodology_enforcer in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: evidence_validation_methodology_enforcer_telemetry_stream
+    validation_method: evidence_validation_methodology_enforcer_conformity_test
+    testing_method: evidence_validation_methodology_enforcer_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: evidence_validation_methodology_enforcer_execution_record
+    audit_considerations: Notified body may sample evidence_validation_methodology_enforcer during conformity assessment.
+  - control_id: CE-CONF-EVIDENCE-COLLECTION
+    control_name: collection_audit_evidence_registry_governor
+    control_category: preventive
+    control_objective: Govern audit evidence registry with access controls
+    regulatory_rationale: collection_audit_evidence_registry_governor implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy collection_audit_evidence_registry_governor in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: collection_audit_evidence_registry_governor_telemetry_stream
+    validation_method: collection_audit_evidence_registry_governor_conformity_test
+    testing_method: collection_audit_evidence_registry_governor_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: collection_audit_evidence_registry_governor_execution_record
+    audit_considerations: Notified body may sample collection_audit_evidence_registry_governor during conformity assessment.
+  - control_id: CE-CONF-EVIDENCE-EVIDENCER
+    control_name: evidence_retention_schedule_executor
+    control_category: preventive
+    control_objective: Execute evidence retention schedules per Article 18
+    regulatory_rationale: evidence_retention_schedule_executor implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy evidence_retention_schedule_executor in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: evidence_retention_schedule_executor_telemetry_stream
+    validation_method: evidence_retention_schedule_executor_conformity_test
+    testing_method: evidence_retention_schedule_executor_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: evidence_retention_schedule_executor_execution_record
+    audit_considerations: Notified body may sample evidence_retention_schedule_executor during conformity assessment.
+  - control_id: CE-CONF-EVIDENCE-COLLECTION
+    control_name: collection_risk_evidence_correlation_engine
+    control_category: detective
+    control_objective: Correlate risk evidence with conformity assessment findings
+    regulatory_rationale: collection_risk_evidence_correlation_engine implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy collection_risk_evidence_correlation_engine in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: collection_risk_evidence_correlation_engine_telemetry_stream
+    validation_method: collection_risk_evidence_correlation_engine_conformity_test
+    testing_method: collection_risk_evidence_correlation_engine_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: collection_risk_evidence_correlation_engine_execution_record
+    audit_considerations: Notified body may sample collection_risk_evidence_correlation_engine during conformity assessment.
+  - control_id: CE-CONF-EVIDENCE-EVIDENCEI
+    control_name: evidence_integrity_tamper_detector
+    control_category: detective
+    control_objective: Detect tamper evidence in conformity evidence artifacts
+    regulatory_rationale: evidence_integrity_tamper_detector implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy evidence_integrity_tamper_detector in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: evidence_integrity_tamper_detector_telemetry_stream
+    validation_method: evidence_integrity_tamper_detector_conformity_test
+    testing_method: evidence_integrity_tamper_detector_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: evidence_integrity_tamper_detector_execution_record
+    audit_considerations: Notified body may sample evidence_integrity_tamper_detector during conformity assessment.
+  - control_id: CE-CONF-EVIDENCE-COLLECTION
+    control_name: collection_evidence_lineage_provenance_tracker
+    control_category: preventive
+    control_objective: Track evidence lineage and provenance end-to-end
+    regulatory_rationale: collection_evidence_lineage_provenance_tracker implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy collection_evidence_lineage_provenance_tracker in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: collection_evidence_lineage_provenance_tracker_telemetry_stream
+    validation_method: collection_evidence_lineage_provenance_tracker_conformity_test
+    testing_method: collection_evidence_lineage_provenance_tracker_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: collection_evidence_lineage_provenance_tracker_execution_record
+    audit_considerations: Notified body may sample collection_evidence_lineage_provenance_tracker during conformity assessment.
+  - control_id: CE-CONF-EVIDENCE-NOTIFIEDB
+    control_name: notified_body_evidence_submission_packager
+    control_category: evidence
+    control_objective: Package evidence for notified body submission
+    regulatory_rationale: notified_body_evidence_submission_packager implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy notified_body_evidence_submission_packager in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: notified_body_evidence_submission_packager_telemetry_stream
+    validation_method: notified_body_evidence_submission_packager_conformity_test
+    testing_method: notified_body_evidence_submission_packager_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: notified_body_evidence_submission_packager_execution_record
+    audit_considerations: Notified body may sample notified_body_evidence_submission_packager during conformity assessment.
+  - control_id: CE-CONF-EVIDENCE-COLLECTION
+    control_name: collection_evidence_gap_remediation_tracker
+    control_category: corrective
+    control_objective: Track remediation of evidence gaps with SLA
+    regulatory_rationale: collection_evidence_gap_remediation_tracker implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy collection_evidence_gap_remediation_tracker in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: collection_evidence_gap_remediation_tracker_telemetry_stream
+    validation_method: collection_evidence_gap_remediation_tracker_conformity_test
+    testing_method: collection_evidence_gap_remediation_tracker_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: collection_evidence_gap_remediation_tracker_execution_record
+    audit_considerations: Notified body may sample collection_evidence_gap_remediation_tracker during conformity assessment.
+  - control_id: CE-CONF-EVIDENCE-EVIDENCEA
+    control_name: evidence_assurance_attestation_generator
+    control_category: audit
+    control_objective: Generate evidence assurance attestations for conformity
+    regulatory_rationale: evidence_assurance_attestation_generator implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy evidence_assurance_attestation_generator in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: evidence_assurance_attestation_generator_telemetry_stream
+    validation_method: evidence_assurance_attestation_generator_conformity_test
+    testing_method: evidence_assurance_attestation_generator_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: evidence_assurance_attestation_generator_execution_record
+    audit_considerations: Notified body may sample evidence_assurance_attestation_generator during conformity assessment.
+  - control_id: CE-CONF-EVIDENCE-COLLECTION
+    control_name: collection_machine_readable_evidence_schema_validator
+    control_category: preventive
+    control_objective: Validate machine-readable evidence schema compliance
+    regulatory_rationale: collection_machine_readable_evidence_schema_validator implements EU AI Act conformity obligations for Evidence Collection under conformity_evidence.
+    implementation_guidance: Deploy collection_machine_readable_evidence_schema_validator in evidence_collection workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: collection_machine_readable_evidence_schema_validator_telemetry_stream
+    validation_method: collection_machine_readable_evidence_schema_validator_conformity_test
+    testing_method: collection_machine_readable_evidence_schema_validator_sampling_audit
+    control_owner: evidence_collection_conformity_owner
+    evidence_generated: collection_machine_readable_evidence_schema_validator_execution_record
+    audit_considerations: Notified body may sample collection_machine_readable_evidence_schema_validator during conformity assessment.
+workflows:
+  - workflow_id: WF-CE-EVIDENCE_COLLECTION
+    workflow_name: evidence_collection_conformity_workflow
+    workflow_owner: evidence_collection_workflow_owner
+    trigger: evidence_collection_conformity_event
+    inputs:
+      - evidence_collection_conformity_context
+      - evidence_collection_evidence_index
+    activities:
+      - evidence_collection_intake
+      - evidence_collection_validation
+      - evidence_collection_evidence_review
+      - evidence_collection_approval
+      - evidence_collection_attestation
+      - evidence_collection_closure
+    decision_points:
+      - evidence_collection_conformity_decision
+      - evidence_collection_escalation_decision
+    approvals:
+      - evidence_collection_conformity_officer_approval
+    outputs:
+      - evidence_collection_conformity_record
+    evidence_generated:
+      - evidence_collection_workflow_log
+      - evidence_collection_attestation
+    success_criteria:
+      - evidence_collection_conformity_validated
+      - evidence_collection_evidence_complete
+    failure_conditions:
+      - evidence_collection_critical_gap_unresolved
+      - evidence_collection_evidence_integrity_failure
+  - workflow_id: WF-CE-CE_MARKING_P
+    workflow_name: evidence_collection_ce_marking_preparation_workflow
+    linked: true
+    trigger: evidence_collection_ce_marking_preparation_initiated
+  - workflow_id: WF-CE-CONFORMITY_A
+    workflow_name: evidence_collection_conformity_assessment_workflow
+    linked: true
+    trigger: evidence_collection_conformity_assessment_initiated
+  - workflow_id: WF-CE-NOTIFIED_BOD
+    workflow_name: evidence_collection_notified_body_engagement_workflow
+    linked: true
+    trigger: evidence_collection_notified_body_engagement_initiated
+  - workflow_id: WF-CE-DECLARATION_
+    workflow_name: evidence_collection_declaration_of_conformity_workflow
+    linked: true
+    trigger: evidence_collection_declaration_of_conformity_initiated
+  - workflow_id: WF-CE-MARKET_AUTHO
+    workflow_name: evidence_collection_market_authorization_workflow
+    linked: true
+    trigger: evidence_collection_market_authorization_initiated
+  - workflow_id: WF-CE-POST_CERTIFI
+    workflow_name: evidence_collection_post_certification_monitoring_workflow
+    linked: true
+    trigger: evidence_collection_post_certification_monitoring_initiated
+  - workflow_id: WF-CE-RECERTIFICAT
+    workflow_name: evidence_collection_recertification_workflow
+    linked: true
+    trigger: evidence_collection_recertification_initiated
+decision_logic:
+  evidence_collection_conformity_gate:
+    condition: evidence_collection_readiness_score >= 0.95 AND evidence_collection_evidence_complete == true
+    action: authorize_evidence_collection_progression
+    approval_required: conformity_officer
+conformity_assessment:
+  assessment_scope: Evidence Collection EU AI Act conformity dimensions
+  assessment_methodology: evidence_collection_iso_19011_conformity_method
+  assessment_criteria: evidence_collection_annex_iii_and_article_requirements
+  conformity_dimensions:
+    - technical
+    - organizational
+    - operational
+    - documentation
+  evidence_requirements:
+    - evidence_collection_technical_file
+    - evidence_collection_risk_assessment
+    - evidence_collection_validation_records
+  acceptance_thresholds: evidence_collection_readiness_score >= 0.95
+  rejection_thresholds: evidence_collection_critical_gap == true
+metrics:
+  - metric_name: evidence_completeness_rate
+    metric_category: conformity
+    formula: computed_evidence_completeness_rate_from_evidence_collection_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: evidence_collection_metrics_owner
+    data_source: evidence_collection_conformity_warehouse
+    evidence_generated: evidence_completeness_rate_measurement_record
+  - metric_name: evidence_validation_pass_rate
+    metric_category: conformity
+    formula: computed_evidence_validation_pass_rate_from_evidence_collection_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: evidence_collection_metrics_owner
+    data_source: evidence_collection_conformity_warehouse
+    evidence_generated: evidence_validation_pass_rate_measurement_record
+  - metric_name: evidence_integrity_score
+    metric_category: conformity
+    formula: computed_evidence_integrity_score_from_evidence_collection_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: evidence_collection_metrics_owner
+    data_source: evidence_collection_conformity_warehouse
+    evidence_generated: evidence_integrity_score_measurement_record
+  - metric_name: evidence_retention_compliance_rate
+    metric_category: conformity
+    formula: computed_evidence_retention_compliance_rate_from_evidence_collection_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: evidence_collection_metrics_owner
+    data_source: evidence_collection_conformity_warehouse
+    evidence_generated: evidence_retention_compliance_rate_measurement_record
+  - metric_name: audit_evidence_sufficiency_score
+    metric_category: conformity
+    formula: computed_audit_evidence_sufficiency_score_from_evidence_collection_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: evidence_collection_metrics_owner
+    data_source: evidence_collection_conformity_warehouse
+    evidence_generated: audit_evidence_sufficiency_score_measurement_record
+  - metric_name: evidence_gap_closure_rate
+    metric_category: conformity
+    formula: computed_evidence_gap_closure_rate_from_evidence_collection_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: evidence_collection_metrics_owner
+    data_source: evidence_collection_conformity_warehouse
+    evidence_generated: evidence_gap_closure_rate_measurement_record
+kpis:
+  - evidence_completeness_rate
+  - evidence_validation_pass_rate
+  - evidence_integrity_score
+  - evidence_retention_compliance_rate
+kris:
+  - audit_evidence_sufficiency_score
+  - evidence_gap_closure_rate
+evidence_requirements:
+  - evidence_name: evidence_collection_conformity_assessment_record
+    evidence_type: conformity
+    business_purpose: Support Evidence Collection conformity assessment and CE marking
+    generation_method: automated_evidence_collection_pipeline
+    retention_period: 10_years
+    validation_method: evidence_collection_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: evidence_collection_technical_documentation_extract
+    evidence_type: conformity
+    business_purpose: Support Evidence Collection conformity assessment and CE marking
+    generation_method: automated_evidence_collection_pipeline
+    retention_period: 10_years
+    validation_method: evidence_collection_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: evidence_collection_validation_report
+    evidence_type: conformity
+    business_purpose: Support Evidence Collection conformity assessment and CE marking
+    generation_method: automated_evidence_collection_pipeline
+    retention_period: 10_years
+    validation_method: evidence_collection_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: evidence_collection_notified_body_correspondence
+    evidence_type: conformity
+    business_purpose: Support Evidence Collection conformity assessment and CE marking
+    generation_method: automated_evidence_collection_pipeline
+    retention_period: 10_years
+    validation_method: evidence_collection_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: evidence_collection_declaration_reference
+    evidence_type: conformity
+    business_purpose: Support Evidence Collection conformity assessment and CE marking
+    generation_method: automated_evidence_collection_pipeline
+    retention_period: 10_years
+    validation_method: evidence_collection_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: evidence_collection_market_authorization_record
+    evidence_type: conformity
+    business_purpose: Support Evidence Collection conformity assessment and CE marking
+    generation_method: automated_evidence_collection_pipeline
+    retention_period: 10_years
+    validation_method: evidence_collection_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+attestation_requirements:
+  - attestation: evidence_collection_conformity_attestation
+    owner: conformity_officer
+    frequency: quarterly
+domain_reports:
+  - report_name: evidence_collection_status_dashboard
+    report_owner: evidence_collection_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: evidence_collection_conformity_summary
+    report_owner: evidence_collection_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: evidence_collection_regulatory_brief
+    report_owner: evidence_collection_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: evidence_collection_executive_report
+    report_owner: evidence_collection_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: evidence_collection_assurance_pack
+    report_owner: evidence_collection_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+altai_conformity:
+  agent_conformity:
+    validation: evidence_collection_agent_conformity_validation
+    traceability: evidence_collection_agent_conformity_traceability
+    monitoring: evidence_collection_agent_conformity_monitoring
+  reasoning_conformity:
+    validation: evidence_collection_reasoning_conformity_validation
+    traceability: evidence_collection_reasoning_conformity_traceability
+    monitoring: evidence_collection_reasoning_conformity_monitoring
+  memory_conformity:
+    validation: evidence_collection_memory_conformity_validation
+    traceability: evidence_collection_memory_conformity_traceability
+    monitoring: evidence_collection_memory_conformity_monitoring
+  tool_conformity:
+    validation: evidence_collection_tool_conformity_validation
+    traceability: evidence_collection_tool_conformity_traceability
+    monitoring: evidence_collection_tool_conformity_monitoring
+  foundation_model_conformity:
+    validation: evidence_collection_foundation_model_conformity_validation
+    traceability: evidence_collection_foundation_model_conformity_traceability
+    monitoring: evidence_collection_foundation_model_conformity_monitoring
+  gpai_conformity:
+    validation: evidence_collection_gpai_conformity_validation
+    traceability: evidence_collection_gpai_conformity_traceability
+    monitoring: evidence_collection_gpai_conformity_monitoring
+compliance_mapping:
+  article_11:
+    article: Article 11
+    obligation: Evidence Collection conformity under Article 11
+    implementation_method: evidence_collection_article_11_controls
+    evidence_required: [evidence_collection_article_11_evidence]
+    validation_method: evidence_collection_article_11_conformity_test
+    assurance_method: evidence_collection_article_11_assurance_review
+  article_12:
+    article: Article 12
+    obligation: Evidence Collection conformity under Article 12
+    implementation_method: evidence_collection_article_12_controls
+    evidence_required: [evidence_collection_article_12_evidence]
+    validation_method: evidence_collection_article_12_conformity_test
+    assurance_method: evidence_collection_article_12_assurance_review
+  article_18:
+    article: Article 18
+    obligation: Evidence Collection conformity under Article 18
+    implementation_method: evidence_collection_article_18_controls
+    evidence_required: [evidence_collection_article_18_evidence]
+    validation_method: evidence_collection_article_18_conformity_test
+    assurance_method: evidence_collection_article_18_assurance_review
+  article_43:
+    article: Article 43
+    obligation: Evidence Collection conformity under Article 43
+    implementation_method: evidence_collection_article_43_controls
+    evidence_required: [evidence_collection_article_43_evidence]
+    validation_method: evidence_collection_article_43_conformity_test
+    assurance_method: evidence_collection_article_43_assurance_review
+relationships:
+  conformity_links:
+    - source: evidence_collection
+      target: evidence_collection_to_declaration_of_conformity
+      relationship_type: governs
+      confidence: 0.95
+  certification_links:
+    - source: evidence_collection
+      target: evidence_collection_to_ce_certification
+      relationship_type: governs
+      confidence: 0.95
+  evidence_links:
+    - source: evidence_collection
+      target: evidence_collection_to_conformity_evidence
+      relationship_type: governs
+      confidence: 0.95
+  documentation_links:
+    - source: evidence_collection
+      target: evidence_collection_to_technical_documentation
+      relationship_type: governs
+      confidence: 0.95
+integration_points:
+  - system: provider_obligations
+    purpose: evidence_collection_to_provider_obligations_conformity_sync
+    data_exchanged: [evidence_collection_conformity_scores, evidence_collection_evidence_refs]
+    consumed_artifacts: [provider_obligations_records]
+    produced_artifacts: [evidence_collection_conformity_package]
+  - system: technical_documentation
+    purpose: evidence_collection_to_technical_documentation_conformity_sync
+    data_exchanged: [evidence_collection_conformity_scores, evidence_collection_evidence_refs]
+    consumed_artifacts: [technical_documentation_records]
+    produced_artifacts: [evidence_collection_conformity_package]
+  - system: risk_management
+    purpose: evidence_collection_to_risk_management_conformity_sync
+    data_exchanged: [evidence_collection_conformity_scores, evidence_collection_evidence_refs]
+    consumed_artifacts: [risk_management_records]
+    produced_artifacts: [evidence_collection_conformity_package]
+  - system: post_market_monitoring
+    purpose: evidence_collection_to_post_market_monitoring_conformity_sync
+    data_exchanged: [evidence_collection_conformity_scores, evidence_collection_evidence_refs]
+    consumed_artifacts: [post_market_monitoring_records]
+    produced_artifacts: [evidence_collection_conformity_package]
+  - system: audit_and_enforcement
+    purpose: evidence_collection_to_audit_and_enforcement_conformity_sync
+    data_exchanged: [evidence_collection_conformity_scores, evidence_collection_evidence_refs]
+    consumed_artifacts: [audit_and_enforcement_records]
+    produced_artifacts: [evidence_collection_conformity_package]
+attestation_framework:
+  attestation_owner: evidence_collection_conformity_officer
+  attestation_frequency: quarterly
+  attestation_evidence: [evidence_collection_conformity_attestation, evidence_collection_control_effectiveness_review]
+maturity_model:
+  level_1:
+    name: Initial
+    characteristics: Ad hoc conformity for Evidence Collection
+  level_2:
+    name: Developing
+    characteristics: Documented procedures for Evidence Collection
+  level_3:
+    name: Managed
+    characteristics: Standardized enterprise-wide for Evidence Collection
+  level_4:
+    name: Advanced
+    characteristics: Measured with KPIs for Evidence Collection
+  level_5:
+    name: Optimized
+    characteristics: Predictive conformity for Evidence Collection
+risk_model:
+  risk_sources: [evidence_collection_conformity_gap, evidence_collection_evidence_failure, evidence_collection_notified_body_finding]
+  risk_monitoring: evidence_collection_conformity_risk_dashboard
+crosswalks:
+  eu_ai_act:
+    implementation: evidence_collection_eu_ai_act_conformity_mapping
+    evidence: evidence_collection_eu_ai_act_conformity_attestation
+  gdpr:
+    implementation: evidence_collection_gdpr_conformity_mapping
+    evidence: evidence_collection_gdpr_conformity_attestation
+  iso_42001:
+    implementation: evidence_collection_iso_42001_conformity_mapping
+    evidence: evidence_collection_iso_42001_conformity_attestation
+  iso_23894:
+    implementation: evidence_collection_iso_23894_conformity_mapping
+    evidence: evidence_collection_iso_23894_conformity_attestation
+  nist_ai_rmf:
+    implementation: evidence_collection_nist_ai_rmf_conformity_mapping
+    evidence: evidence_collection_nist_ai_rmf_conformity_attestation
+monitoring:
+  continuous: [evidence_collection_conformity_telemetry, evidence_collection_readiness_score_feed]
+continuous_improvement:
+  feedback_loop: evidence_collection_conformity_retrospective
+escalation:
+  critical_path: chief_compliance_officer
+versioning:
+  current: 1.0.0

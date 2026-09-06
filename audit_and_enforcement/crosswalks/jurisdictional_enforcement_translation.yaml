@@ -1,0 +1,1925 @@
+metadata:
+  id: AAE-C-JURENF-001
+  name: jurisdictional_enforcement_translation
+  title: Jurisdictional Enforcement Translation
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: regulatory_crosswalk
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - crosswalks
+    - jurisdictional_enforcement_translation
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Jurisdictional Enforcement Translation governance within
+    audit_and_enforcement/crosswalks, delivering regulator-ready, audit-ready, and enforcement-ready
+    controls for enforceable restriction, prohibition, and corrective action execution. Integrates
+    with the EU AI Act governance ecosystem through machine-evaluable obligations, evidence
+    preservation, and conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Jurisdictional Enforcement Translation across
+    enterprise and cross-border operations within audit_and_enforcement/crosswalks.
+objectives:
+  - Operationalize Jurisdictional Enforcement Translation with regulator-defensible controls and evidence chains
+  - Enable automated validation of Jurisdictional Enforcement Translation conformance across crosswalks
+  - Preserve audit-grade and forensic-grade records for all Jurisdictional Enforcement Translation activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Jurisdictional Enforcement Translation with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Jurisdictional Enforcement Translation
+definitions:
+  jurisdictional_enforcement_translation_governance_domain:
+    >
+      The operational jurisdiction of Jurisdictional Enforcement Translation encompassing controlled
+      audit, enforcement, investigation, and evidence processes within crosswalks.
+  jurisdictional_enforcement_translation_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Jurisdictional Enforcement Translation
+      control effectiveness, process adherence, and regulatory conformity.
+  jurisdictional_enforcement_translation_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Jurisdictional Enforcement Translation decision logic.
+  jurisdictional_enforcement_translation_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Jurisdictional Enforcement Translation processes.
+  jurisdictional_enforcement_translation_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Jurisdictional Enforcement Translation operations.
+  jurisdictional_enforcement_translation_conformity_assertion:
+    >
+      Formal statement that Jurisdictional Enforcement Translation requirements are met, supported by
+      indexed evidence and validation attestations.
+taxonomy:
+  root: jurisdictional_enforcement_translation_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  jurisdictional_enforcement_translation_artifact_type:
+    - jurisdictional_enforcement_translation_record
+    - jurisdictional_enforcement_translation_log
+    - jurisdictional_enforcement_translation_report
+    - jurisdictional_enforcement_translation_attestation
+    - jurisdictional_enforcement_translation_package
+  jurisdictional_enforcement_translation_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Jurisdictional Enforcement Translation Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: crosswalks
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - core
+    - compliance_audits
+    - legal_interoperability
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - compliance_audits
+    - reporting
+    - enforcement_actions
+    - audit_and_enforcement/crosswalks/jurisdictional_enforcement_translation.yaml
+  related_domains:
+    - compliance_audits
+    - core
+    - reporting
+  related_skills:
+    - eu_ai_act_audit_crosswalk
+    - gdpr_audit_crosswalk
+    - iso42001_audit_crosswalk
+    - jurisdictional_enforcement_translation
+  parent_governance_objects:
+    - audit_taxonomy
+    - governance_crosswalks
+  child_governance_objects:
+    - clause_mapping_record
+    - jurisdictional_translation_matrix
+    - jurisdictional_enforcement_translation_governance_object
+  consumes_artifacts:
+    - regulatory_text_corpus
+    - control_inventory
+    - jurisdictional_enforcement_translation_input_artifact
+  produces_artifacts:
+    - crosswalk_matrix
+    - implementation_mapping_guide
+    - jurisdictional_enforcement_translation_record
+    - jurisdictional_enforcement_translation_report
+    - jurisdictional_enforcement_translation_attestation
+  consumes_evidence:
+    - audit_finding_corpus
+    - conformity_evidence
+    - jurisdictional_enforcement_translation_source_evidence
+  produces_evidence:
+    - crosswalk_attestation
+    - regulatory_alignment_scorecard
+    - jurisdictional_enforcement_translation_audit_evidence
+    - jurisdictional_enforcement_translation_validation_evidence
+    - jurisdictional_enforcement_translation_enforcement_evidence
+  governance_dependencies:
+    - governance_crosswalks
+    - legal_interoperability
+  regulatory_dependencies:
+    - eu_ai_act
+    - gdpr
+    - iso_42001
+    - nist_ai_rmf
+  risk_dependencies:
+  control_dependencies:
+    - compliance_audits
+    - jurisdictional_enforcement_translation_control_register
+roles_and_responsibilities:
+  jurisdictional_enforcement_translation_owner:
+    responsibilities:
+      - Accountable for Jurisdictional Enforcement Translation strategy, control design, and regulatory alignment
+  jurisdictional_enforcement_translation_operator:
+    responsibilities:
+      - Executes Jurisdictional Enforcement Translation workflows and maintains operational records
+  jurisdictional_enforcement_translation_auditor:
+    responsibilities:
+      - Independently validates Jurisdictional Enforcement Translation control effectiveness and evidence sufficiency
+  jurisdictional_enforcement_translation_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Jurisdictional Enforcement Translation investigations
+  jurisdictional_enforcement_translation_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Jurisdictional Enforcement Translation
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-044
+    name: Regulatory Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-045
+    name: Executive Audit Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-048
+    name: Compliance Attestation Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-049
+    name: Market Surveillance Support
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-CRO-JURISDICTI-JURISDICTION
+    control_name: jurisdictional_clause_mapping_accuracy_validator
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring clause mapping accuracy validator for Jurisdictional Enforcement
+        Translation across crosswalks.
+    governance_rationale:
+      >
+        jurisdictional_clause_mapping_accuracy_validator is required to govern Jurisdictional
+        Enforcement Translation risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement jurisdictional_clause_mapping_accuracy_validator as automated policy in
+        jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method: jurisdictional_clause_mapping_accuracy_validator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        jurisdictional_clause_mapping_accuracy_validator_quarterly_design_and_operating_effectiveness_te
+        st
+    testing_method:
+      jurisdictional_clause_mapping_accuracy_validator_statistical_sampling_with_exception_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated: jurisdictional_clause_mapping_accuracy_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify jurisdictional_clause_mapping_accuracy_validator design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        jurisdictional_clause_mapping_accuracy_validator outputs may trigger enforcement under
+        jurisdictional_enforcement_translation escalation rules.
+  - control_id: AAE-CRO-JURISDICTI-ENFORCEMENT
+    control_name: enforcement_jurisdictional_translation_verifier
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring jurisdictional translation verifier for Jurisdictional Enforcement
+        Translation across crosswalks.
+    governance_rationale:
+      >
+        enforcement_jurisdictional_translation_verifier is required to govern Jurisdictional Enforcement
+        Translation risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement enforcement_jurisdictional_translation_verifier as automated policy in
+        jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method: enforcement_jurisdictional_translation_verifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        enforcement_jurisdictional_translation_verifier_quarterly_design_and_operating_effectiveness_tes
+        t
+    testing_method:
+      enforcement_jurisdictional_translation_verifier_statistical_sampling_with_exception_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated: enforcement_jurisdictional_translation_verifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify enforcement_jurisdictional_translation_verifier design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        enforcement_jurisdictional_translation_verifier outputs may trigger enforcement under
+        jurisdictional_enforcement_translation escalation rules.
+  - control_id: AAE-CRO-JURISDICTI-TRANSLATION
+    control_name: translation_framework_obligation_indexer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring framework obligation indexer for Jurisdictional Enforcement
+        Translation across crosswalks.
+    governance_rationale:
+      >
+        translation_framework_obligation_indexer is required to govern Jurisdictional Enforcement
+        Translation risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement translation_framework_obligation_indexer as automated policy in
+        jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method: translation_framework_obligation_indexer_continuous_telemetry_dashboard
+    validation_method:
+      translation_framework_obligation_indexer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      translation_framework_obligation_indexer_statistical_sampling_with_exception_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated: translation_framework_obligation_indexer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify translation_framework_obligation_indexer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        translation_framework_obligation_indexer outputs may trigger enforcement under
+        jurisdictional_enforcement_translation escalation rules.
+  - control_id: AAE-CRO-JURISDICTI-JURISDICTION
+    control_name: jurisdictional_enforcement_translation_crosswalk_version_synchronizer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring crosswalk version synchronizer for Jurisdictional Enforcement
+        Translation across crosswalks.
+    governance_rationale:
+      >
+        jurisdictional_enforcement_translation_crosswalk_version_synchronizer is required to govern
+        Jurisdictional Enforcement Translation risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement jurisdictional_enforcement_translation_crosswalk_version_synchronizer as automated
+        policy in jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus;
+        block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        jurisdictional_enforcement_translation_crosswalk_version_synchronizer_continuous_telemetry_dashb
+        oard
+    validation_method:
+      >
+        jurisdictional_enforcement_translation_crosswalk_version_synchronizer_quarterly_design_and_opera
+        ting_effectiveness_test
+    testing_method:
+      >
+        jurisdictional_enforcement_translation_crosswalk_version_synchronizer_statistical_sampling_with_
+        exception_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated:
+      jurisdictional_enforcement_translation_crosswalk_version_synchronizer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify jurisdictional_enforcement_translation_crosswalk_version_synchronizer design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        jurisdictional_enforcement_translation_crosswalk_version_synchronizer outputs may trigger
+        enforcement under jurisdictional_enforcement_translation escalation rules.
+  - control_id: AAE-CRO-JURISDICTI-JURISDICTION
+    control_name: jurisdictional_enforcement_translation_implementation_gap_detector
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring implementation gap detector for Jurisdictional Enforcement
+        Translation across crosswalks.
+    governance_rationale:
+      >
+        jurisdictional_enforcement_translation_implementation_gap_detector is required to govern
+        Jurisdictional Enforcement Translation risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement jurisdictional_enforcement_translation_implementation_gap_detector as automated policy
+        in jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        jurisdictional_enforcement_translation_implementation_gap_detector_continuous_telemetry_dashboar
+        d
+    validation_method:
+      >
+        jurisdictional_enforcement_translation_implementation_gap_detector_quarterly_design_and_operatin
+        g_effectiveness_test
+    testing_method:
+      >
+        jurisdictional_enforcement_translation_implementation_gap_detector_statistical_sampling_with_exc
+        eption_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated:
+      jurisdictional_enforcement_translation_implementation_gap_detector_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify jurisdictional_enforcement_translation_implementation_gap_detector design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        jurisdictional_enforcement_translation_implementation_gap_detector outputs may trigger
+        enforcement under jurisdictional_enforcement_translation escalation rules.
+  - control_id: AAE-CRO-JURISDICTI-JURISDICTION
+    control_name: jurisdictional_enforcement_translation_regulatory_text_change_monitor
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring regulatory text change monitor for Jurisdictional Enforcement
+        Translation across crosswalks.
+    governance_rationale:
+      >
+        jurisdictional_enforcement_translation_regulatory_text_change_monitor is required to govern
+        Jurisdictional Enforcement Translation risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement jurisdictional_enforcement_translation_regulatory_text_change_monitor as automated
+        policy in jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus;
+        block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        jurisdictional_enforcement_translation_regulatory_text_change_monitor_continuous_telemetry_dashb
+        oard
+    validation_method:
+      >
+        jurisdictional_enforcement_translation_regulatory_text_change_monitor_quarterly_design_and_opera
+        ting_effectiveness_test
+    testing_method:
+      >
+        jurisdictional_enforcement_translation_regulatory_text_change_monitor_statistical_sampling_with_
+        exception_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated:
+      jurisdictional_enforcement_translation_regulatory_text_change_monitor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify jurisdictional_enforcement_translation_regulatory_text_change_monitor design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        jurisdictional_enforcement_translation_regulatory_text_change_monitor outputs may trigger
+        enforcement under jurisdictional_enforcement_translation escalation rules.
+  - control_id: AAE-CRO-JURISDICTI-JURISDICTION
+    control_name: jurisdictional_enforcement_translation_mapping_evidence_linker
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring mapping evidence linker for Jurisdictional Enforcement Translation
+        across crosswalks.
+    governance_rationale:
+      >
+        jurisdictional_enforcement_translation_mapping_evidence_linker is required to govern
+        Jurisdictional Enforcement Translation risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement jurisdictional_enforcement_translation_mapping_evidence_linker as automated policy in
+        jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      jurisdictional_enforcement_translation_mapping_evidence_linker_continuous_telemetry_dashboard
+    validation_method:
+      >
+        jurisdictional_enforcement_translation_mapping_evidence_linker_quarterly_design_and_operating_ef
+        fectiveness_test
+    testing_method:
+      >
+        jurisdictional_enforcement_translation_mapping_evidence_linker_statistical_sampling_with_excepti
+        on_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated:
+      jurisdictional_enforcement_translation_mapping_evidence_linker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify jurisdictional_enforcement_translation_mapping_evidence_linker design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        jurisdictional_enforcement_translation_mapping_evidence_linker outputs may trigger enforcement
+        under jurisdictional_enforcement_translation escalation rules.
+  - control_id: AAE-CRO-JURISDICTI-JURISDICTION
+    control_name: jurisdictional_enforcement_translation_sector_overlay_harmonizer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring sector overlay harmonizer for Jurisdictional Enforcement
+        Translation across crosswalks.
+    governance_rationale:
+      >
+        jurisdictional_enforcement_translation_sector_overlay_harmonizer is required to govern
+        Jurisdictional Enforcement Translation risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement jurisdictional_enforcement_translation_sector_overlay_harmonizer as automated policy
+        in jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      jurisdictional_enforcement_translation_sector_overlay_harmonizer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        jurisdictional_enforcement_translation_sector_overlay_harmonizer_quarterly_design_and_operating_
+        effectiveness_test
+    testing_method:
+      >
+        jurisdictional_enforcement_translation_sector_overlay_harmonizer_statistical_sampling_with_excep
+        tion_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated:
+      jurisdictional_enforcement_translation_sector_overlay_harmonizer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify jurisdictional_enforcement_translation_sector_overlay_harmonizer design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        jurisdictional_enforcement_translation_sector_overlay_harmonizer outputs may trigger enforcement
+        under jurisdictional_enforcement_translation escalation rules.
+  - control_id: AAE-CRO-JURISDICTI-JURISDICTION
+    control_name: jurisdictional_enforcement_translation_multi_framework_conflict_resolver
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring multi framework conflict resolver for Jurisdictional Enforcement
+        Translation across crosswalks.
+    governance_rationale:
+      >
+        jurisdictional_enforcement_translation_multi_framework_conflict_resolver is required to govern
+        Jurisdictional Enforcement Translation risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement jurisdictional_enforcement_translation_multi_framework_conflict_resolver as automated
+        policy in jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus;
+        block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        jurisdictional_enforcement_translation_multi_framework_conflict_resolver_continuous_telemetry_da
+        shboard
+    validation_method:
+      >
+        jurisdictional_enforcement_translation_multi_framework_conflict_resolver_quarterly_design_and_op
+        erating_effectiveness_test
+    testing_method:
+      >
+        jurisdictional_enforcement_translation_multi_framework_conflict_resolver_statistical_sampling_wi
+        th_exception_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated:
+      jurisdictional_enforcement_translation_multi_framework_conflict_resolver_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify jurisdictional_enforcement_translation_multi_framework_conflict_resolver design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        jurisdictional_enforcement_translation_multi_framework_conflict_resolver outputs may trigger
+        enforcement under jurisdictional_enforcement_translation escalation rules.
+  - control_id: AAE-CRO-JURISDICTI-JURISDICTION
+    control_name: jurisdictional_enforcement_translation_crosswalk_attestation_generator
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring crosswalk attestation generator for Jurisdictional Enforcement
+        Translation across crosswalks.
+    governance_rationale:
+      >
+        jurisdictional_enforcement_translation_crosswalk_attestation_generator is required to govern
+        Jurisdictional Enforcement Translation risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement jurisdictional_enforcement_translation_crosswalk_attestation_generator as automated
+        policy in jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus;
+        block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        jurisdictional_enforcement_translation_crosswalk_attestation_generator_continuous_telemetry_dash
+        board
+    validation_method:
+      >
+        jurisdictional_enforcement_translation_crosswalk_attestation_generator_quarterly_design_and_oper
+        ating_effectiveness_test
+    testing_method:
+      >
+        jurisdictional_enforcement_translation_crosswalk_attestation_generator_statistical_sampling_with
+        _exception_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated:
+      jurisdictional_enforcement_translation_crosswalk_attestation_generator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify jurisdictional_enforcement_translation_crosswalk_attestation_generator design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        jurisdictional_enforcement_translation_crosswalk_attestation_generator outputs may trigger
+        enforcement under jurisdictional_enforcement_translation escalation rules.
+  - control_id: AAE-CRO-JURISDICTI-JURISDICTION
+    control_name: jurisdictional_enforcement_translation_notified_body_mapping_exporter
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring notified body mapping exporter for Jurisdictional Enforcement
+        Translation across crosswalks.
+    governance_rationale:
+      >
+        jurisdictional_enforcement_translation_notified_body_mapping_exporter is required to govern
+        Jurisdictional Enforcement Translation risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement jurisdictional_enforcement_translation_notified_body_mapping_exporter as automated
+        policy in jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus;
+        block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        jurisdictional_enforcement_translation_notified_body_mapping_exporter_continuous_telemetry_dashb
+        oard
+    validation_method:
+      >
+        jurisdictional_enforcement_translation_notified_body_mapping_exporter_quarterly_design_and_opera
+        ting_effectiveness_test
+    testing_method:
+      >
+        jurisdictional_enforcement_translation_notified_body_mapping_exporter_statistical_sampling_with_
+        exception_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated:
+      jurisdictional_enforcement_translation_notified_body_mapping_exporter_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify jurisdictional_enforcement_translation_notified_body_mapping_exporter design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        jurisdictional_enforcement_translation_notified_body_mapping_exporter outputs may trigger
+        enforcement under jurisdictional_enforcement_translation escalation rules.
+  - control_id: AAE-CRO-JURISDICTI-JURISDICTION
+    control_name: jurisdictional_enforcement_translation_crosswalk_integrity_sealer
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring crosswalk integrity sealer for Jurisdictional Enforcement
+        Translation across crosswalks.
+    governance_rationale:
+      >
+        jurisdictional_enforcement_translation_crosswalk_integrity_sealer is required to govern
+        Jurisdictional Enforcement Translation risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected crosswalks failures.
+    implementation_guidance:
+      >
+        Implement jurisdictional_enforcement_translation_crosswalk_integrity_sealer as automated policy
+        in jurisdictional_enforcement_translation orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      jurisdictional_enforcement_translation_crosswalk_integrity_sealer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        jurisdictional_enforcement_translation_crosswalk_integrity_sealer_quarterly_design_and_operating
+        _effectiveness_test
+    testing_method:
+      >
+        jurisdictional_enforcement_translation_crosswalk_integrity_sealer_statistical_sampling_with_exce
+        ption_tracking
+    control_owner: jurisdictional_enforcement_translation_control_owner
+    evidence_generated:
+      jurisdictional_enforcement_translation_crosswalk_integrity_sealer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify jurisdictional_enforcement_translation_crosswalk_integrity_sealer design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        jurisdictional_enforcement_translation_crosswalk_integrity_sealer outputs may trigger
+        enforcement under jurisdictional_enforcement_translation escalation rules.
+requirements:
+  legal:
+    >
+      Jurisdictional Enforcement Translation must satisfy legal requirements for enforceable
+      restriction, prohibition, and corrective action execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Jurisdictional Enforcement Translation must satisfy regulatory requirements for enforceable
+      restriction, prohibition, and corrective action execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Jurisdictional Enforcement Translation must satisfy technical requirements for enforceable
+      restriction, prohibition, and corrective action execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Jurisdictional Enforcement Translation must satisfy operational requirements for enforceable
+      restriction, prohibition, and corrective action execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Jurisdictional Enforcement Translation must satisfy audit requirements for enforceable
+      restriction, prohibition, and corrective action execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Jurisdictional Enforcement Translation must satisfy forensic requirements for enforceable
+      restriction, prohibition, and corrective action execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Jurisdictional Enforcement Translation must satisfy enforcement requirements for enforceable
+      restriction, prohibition, and corrective action execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Jurisdictional Enforcement Translation with stage gates, RACI assignments,
+      and evidence capture.
+  triage:
+    >
+      Triage process for Jurisdictional Enforcement Translation with stage gates, RACI assignments,
+      and evidence capture.
+  execution:
+    >
+      Execution process for Jurisdictional Enforcement Translation with stage gates, RACI assignments,
+      and evidence capture.
+  validation:
+    >
+      Validation process for Jurisdictional Enforcement Translation with stage gates, RACI
+      assignments, and evidence capture.
+  escalation:
+    >
+      Escalation process for Jurisdictional Enforcement Translation with stage gates, RACI
+      assignments, and evidence capture.
+  closure:
+    >
+      Closure process for Jurisdictional Enforcement Translation with stage gates, RACI assignments,
+      and evidence capture.
+  improvement:
+    >
+      Improvement process for Jurisdictional Enforcement Translation with stage gates, RACI
+      assignments, and evidence capture.
+workflows:
+  - workflow_name: jurisdictional_enforcement_translation_operational_lifecycle_workflow
+    workflow_trigger: jurisdictional_enforcement_translation_governance_event_detected
+    workflow_steps:
+      - jurisdictional_enforcement_translation_intake
+      - jurisdictional_enforcement_translation_triage
+      - jurisdictional_enforcement_translation_execution
+      - jurisdictional_enforcement_translation_validation
+      - jurisdictional_enforcement_translation_approval
+      - jurisdictional_enforcement_translation_closure
+    approval_points:
+      - jurisdictional_enforcement_translation_approval
+    escalation_points:
+      - jurisdictional_enforcement_translation_triage
+    generated_evidence:
+      - jurisdictional_enforcement_translation_workflow_log
+      - jurisdictional_enforcement_translation_closure_attestation
+    completion_requirements:
+      - jurisdictional_enforcement_translation_evidence_complete
+      - jurisdictional_enforcement_translation_approvals_recorded
+  - workflow_name: jurisdictional_enforcement_translation_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_jurisdictional_enforcement_translation
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - jurisdictional_enforcement_translation_regulatory_package
+      - jurisdictional_enforcement_translation_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - jurisdictional_enforcement_translation_governance_event_detected
+    - jurisdictional_enforcement_translation_regulatory_inquiry
+    - jurisdictional_enforcement_translation_integrity_breach
+    - jurisdictional_enforcement_translation_enforcement_authorization
+  required_inputs:
+    - jurisdictional_enforcement_translation_case_context
+    - jurisdictional_enforcement_translation_evidence_index
+    - jurisdictional_enforcement_translation_risk_assessment
+  workflow_steps:
+    - jurisdictional_enforcement_translation_intake
+    - jurisdictional_enforcement_translation_triage
+    - jurisdictional_enforcement_translation_execution
+    - jurisdictional_enforcement_translation_validation
+    - jurisdictional_enforcement_translation_approval
+    - jurisdictional_enforcement_translation_closure
+  validation_steps:
+    - jurisdictional_enforcement_translation_evidence_sufficiency_check
+    - jurisdictional_enforcement_translation_integrity_verification
+  approval_steps:
+    - jurisdictional_enforcement_translation_approval
+  control_checkpoints:
+    - jurisdictional_enforcement_translation_intake_gate
+    - jurisdictional_enforcement_translation_evidence_gate
+    - jurisdictional_enforcement_translation_decision_gate
+  evidence_generation:
+    - jurisdictional_enforcement_translation_workflow_log
+    - jurisdictional_enforcement_translation_closure_attestation
+  decision_points:
+    - jurisdictional_enforcement_translation_severity_classification
+    - jurisdictional_enforcement_translation_enforcement_authorization
+  escalation_points:
+    - jurisdictional_enforcement_translation_triage
+  completion_criteria:
+    - jurisdictional_enforcement_translation_evidence_complete
+    - jurisdictional_enforcement_translation_approvals_recorded
+  generated_outputs:
+    - jurisdictional_enforcement_translation_workflow_log
+    - jurisdictional_enforcement_translation_closure_attestation
+    - jurisdictional_enforcement_translation_final_disposition
+decision_logic:
+  decision_inputs:
+    - jurisdictional_enforcement_translation_severity_score
+    - jurisdictional_enforcement_translation_evidence_completeness
+    - jurisdictional_enforcement_translation_regulatory_context
+    - jurisdictional_enforcement_translation_risk_exposure_index
+  decision_conditions:
+    - jurisdictional_enforcement_translation_critical_threshold_breach
+    - jurisdictional_enforcement_translation_evidence_integrity_failure
+    - jurisdictional_enforcement_translation_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: jurisdictional_enforcement_translation_severity_score >= 90
+    high_severity: jurisdictional_enforcement_translation_severity_score >= 70
+    evidence_complete: jurisdictional_enforcement_translation_evidence_completeness >= 0.98
+  decision_rules:
+    jurisdictional_enforcement_translation_high_severity_violation:
+      condition: jurisdictional_enforcement_translation_severity_score >= 90
+      action: initiate_jurisdictional_enforcement_translation_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: jurisdictional_enforcement_translation_investigation_report
+    jurisdictional_enforcement_translation_evidence_compromise_detected:
+      condition: jurisdictional_enforcement_translation_integrity_status == compromised
+      action: activate_jurisdictional_enforcement_translation_forensic_lockdown
+      approval_required: jurisdictional_enforcement_translation_forensic_lead
+      evidence_required: jurisdictional_enforcement_translation_integrity_alert_record
+    jurisdictional_enforcement_translation_enforcement_authorization:
+      condition: jurisdictional_enforcement_translation_violation_confirmed == true AND jurisdictional_enforcement_translation_evidence_complete == true
+      action: issue_jurisdictional_enforcement_translation_enforcement_order
+      approval_required: jurisdictional_enforcement_translation_enforcement_officer
+      evidence_required: jurisdictional_enforcement_translation_violation_evidence_package
+    jurisdictional_enforcement_translation_regulator_inquiry_response:
+      condition: jurisdictional_enforcement_translation_regulator_request_received == true
+      action: compile_jurisdictional_enforcement_translation_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: jurisdictional_enforcement_translation_regulatory_evidence_index
+  decision_outputs:
+    - jurisdictional_enforcement_translation_enforcement_decision
+    - jurisdictional_enforcement_translation_escalation_notice
+    - jurisdictional_enforcement_translation_remediation_directive
+    - jurisdictional_enforcement_translation_audit_disposition
+  approval_requirements:
+    enforcement_actions: [jurisdictional_enforcement_translation_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - jurisdictional_enforcement_translation_severity_score >= 90
+    - jurisdictional_enforcement_translation_evidence_integrity_failure == true
+    - jurisdictional_enforcement_translation_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_jurisdictional_enforcement_translation_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: jurisdictional_enforcement_translation_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Jurisdictional Enforcement Translation may trigger EU AI Act Articles 71, 73
+      reporting, market surveillance cooperation, and conformity assessment suspension; all outputs
+      must be litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Jurisdictional Enforcement Translation per ISO
+      19011 and EU AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Jurisdictional Enforcement Translation per
+      ISO 19011 and EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Jurisdictional Enforcement Translation per ISO
+      19011 and EU AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Jurisdictional Enforcement Translation per ISO
+      19011 and EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: enforcement_execution_success_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure enforcement execution success rate for Jurisdictional Enforcement Translation
+        operational and regulatory assurance
+    formula:
+      >
+        computed_enforcement_execution_success_rate_from_jurisdictional_enforcement_translation_telemetr
+        y
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: jurisdictional_enforcement_translation_metrics_owner
+    data_source: jurisdictional_enforcement_translation_metrics_warehouse
+    evidence_generated: enforcement_execution_success_rate_measurement_record
+  - metric_name: restriction_compliance_rate
+    metric_category: risk
+    business_purpose:
+      >
+        Measure restriction compliance rate for Jurisdictional Enforcement Translation operational and
+        regulatory assurance
+    formula:
+      computed_restriction_compliance_rate_from_jurisdictional_enforcement_translation_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: jurisdictional_enforcement_translation_metrics_owner
+    data_source: jurisdictional_enforcement_translation_metrics_warehouse
+    evidence_generated: restriction_compliance_rate_measurement_record
+  - metric_name: prohibition_violation_detection_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure prohibition violation detection rate for Jurisdictional Enforcement Translation
+        operational and regulatory assurance
+    formula:
+      >
+        computed_prohibition_violation_detection_rate_from_jurisdictional_enforcement_translation_teleme
+        try
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: jurisdictional_enforcement_translation_metrics_owner
+    data_source: jurisdictional_enforcement_translation_metrics_warehouse
+    evidence_generated: prohibition_violation_detection_rate_measurement_record
+  - metric_name: corrective_action_closure_rate
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure corrective action closure rate for Jurisdictional Enforcement Translation operational
+        and regulatory assurance
+    formula:
+      computed_corrective_action_closure_rate_from_jurisdictional_enforcement_translation_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: jurisdictional_enforcement_translation_metrics_owner
+    data_source: jurisdictional_enforcement_translation_metrics_warehouse
+    evidence_generated: corrective_action_closure_rate_measurement_record
+  - metric_name: emergency_containment_activation_time
+    metric_category: governance
+    business_purpose:
+      >
+        Measure emergency containment activation time for Jurisdictional Enforcement Translation
+        operational and regulatory assurance
+    formula:
+      >
+        computed_emergency_containment_activation_time_from_jurisdictional_enforcement_translation_telem
+        etry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: jurisdictional_enforcement_translation_metrics_owner
+    data_source: jurisdictional_enforcement_translation_metrics_warehouse
+    evidence_generated: emergency_containment_activation_time_measurement_record
+  - metric_name: enforcement_appeal_rate
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure enforcement appeal rate for Jurisdictional Enforcement Translation operational and
+        regulatory assurance
+    formula:
+      computed_enforcement_appeal_rate_from_jurisdictional_enforcement_translation_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: jurisdictional_enforcement_translation_metrics_owner
+    data_source: jurisdictional_enforcement_translation_metrics_warehouse
+    evidence_generated: enforcement_appeal_rate_measurement_record
+kpis:
+  - metric_name: enforcement_execution_success_rate
+    formula: computed_enforcement_execution_success_rate_from_jurisdictional_enforcement_translation_telemetry
+    target: >= 95%
+  - metric_name: restriction_compliance_rate
+    formula: computed_restriction_compliance_rate_from_jurisdictional_enforcement_translation_telemetry
+    target: >= 95%
+  - metric_name: prohibition_violation_detection_rate
+    formula: computed_prohibition_violation_detection_rate_from_jurisdictional_enforcement_translation_telemetry
+    target: >= 95%
+  - metric_name: corrective_action_closure_rate
+    formula: computed_corrective_action_closure_rate_from_jurisdictional_enforcement_translation_telemetry
+    target: >= 95%
+kris:
+  - metric_name: prohibition_violation_detection_rate
+    business_purpose: Measure prohibition violation detection rate for Jurisdictional Enforcement Translation operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: jurisdictional_enforcement_translation_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support jurisdictional enforcement translation governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_jurisdictional_enforcement_translation_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: jurisdictional_enforcement_translation_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: jurisdictional_enforcement_translation_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support jurisdictional enforcement translation governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_jurisdictional_enforcement_translation_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: jurisdictional_enforcement_translation_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: jurisdictional_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support jurisdictional enforcement translation governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_jurisdictional_enforcement_translation_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: jurisdictional_enforcement_translation_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: enforcement_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support jurisdictional enforcement translation governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_jurisdictional_enforcement_translation_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: jurisdictional_enforcement_translation_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: translation_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support jurisdictional enforcement translation governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_jurisdictional_enforcement_translation_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: jurisdictional_enforcement_translation_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: jurisdictional_enforcement_translation_status_dashboard
+    report_owner: jurisdictional_enforcement_translation_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: monthly
+    report_inputs:
+      - jurisdictional_enforcement_translation_telemetry
+      - jurisdictional_enforcement_translation_evidence_index
+    report_outputs:
+      - jurisdictional_enforcement_translation_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: jurisdictional_enforcement_translation_compliance_summary
+    report_owner: jurisdictional_enforcement_translation_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - jurisdictional_enforcement_translation_telemetry
+      - jurisdictional_enforcement_translation_evidence_index
+    report_outputs:
+      - jurisdictional_enforcement_translation_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: jurisdictional_assurance_report
+    report_owner: jurisdictional_enforcement_translation_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - jurisdictional_enforcement_translation_telemetry
+      - jurisdictional_enforcement_translation_evidence_index
+    report_outputs:
+      - jurisdictional_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: jurisdictional_enforcement_translation_executive_brief
+    report_owner: jurisdictional_enforcement_translation_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - jurisdictional_enforcement_translation_telemetry
+      - jurisdictional_enforcement_translation_evidence_index
+    report_outputs:
+      - jurisdictional_enforcement_translation_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: jurisdictional_enforcement_translation_audit_pack
+    report_owner: jurisdictional_enforcement_translation_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - jurisdictional_enforcement_translation_telemetry
+      - jurisdictional_enforcement_translation_evidence_index
+    report_outputs:
+      - jurisdictional_enforcement_translation_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Jurisdictional Enforcement Translation interfaces with autonomous
+      agents, GPAI, or tool-calling systems.
+  agent_governance:
+    agent_identity: jurisdictional_enforcement_translation_registered_agent_identity_schema
+    agent_role: jurisdictional_enforcement_translation_delegated_authority_role_matrix
+    agent_permissions: jurisdictional_enforcement_translation_least_privilege_permission_set
+    agent_constraints: jurisdictional_enforcement_translation_autonomy_and_tool_constraints
+    agent_accountability: jurisdictional_enforcement_translation_human_accountability_chain
+    agent_escalation_rules: jurisdictional_enforcement_translation_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - jurisdictional_enforcement_translation_policy_context
+      - jurisdictional_enforcement_translation_risk_score
+      - jurisdictional_enforcement_translation_human_intent
+    decision_outputs:
+      - jurisdictional_enforcement_translation_authorized_action
+      - jurisdictional_enforcement_translation_escalation_notice
+    decision_owners:
+      - jurisdictional_enforcement_translation_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: jurisdictional_enforcement_translation_high_risk_decision_mandatory_review
+    decision_accountability: jurisdictional_enforcement_translation_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: jurisdictional_enforcement_translation_approved_tool_allowlist
+    tool_execution_validation: jurisdictional_enforcement_translation_pre_execution_tool_risk_check
+    tool_risk_controls: jurisdictional_enforcement_translation_tool_side_effect_containment
+    tool_auditability: jurisdictional_enforcement_translation_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: jurisdictional_enforcement_translation_memory_segment_access_policy
+    memory_integrity_validation: jurisdictional_enforcement_translation_memory_tamper_detection
+    memory_retention_controls: jurisdictional_enforcement_translation_memory_retention_and_purge_rules
+    memory_auditability: jurisdictional_enforcement_translation_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: jurisdictional_enforcement_translation_chain_of_thought_capture
+    reasoning_validation: jurisdictional_enforcement_translation_reasoning_consistency_check
+    reasoning_risk_monitoring: jurisdictional_enforcement_translation_reasoning_hazard_detection
+    reasoning_accountability: jurisdictional_enforcement_translation_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - jurisdictional_enforcement_translation_audit_log
+  - jurisdictional_enforcement_translation_activity_log
+  - jurisdictional_enforcement_translation_decision_log
+  - jurisdictional_enforcement_translation_traceability_record
+  - jurisdictional_enforcement_translation_evidence_package
+  - jurisdictional_enforcement_translation_chain_of_custody_record
+  - jurisdictional_enforcement_translation_attestation
+required_evidence:
+  - jurisdictional_enforcement_translation_audit_log
+  - jurisdictional_enforcement_translation_activity_log
+  - jurisdictional_enforcement_translation_decision_log
+  - jurisdictional_enforcement_translation_traceability_record
+  - jurisdictional_enforcement_translation_evidence_package
+  - jurisdictional_enforcement_translation_chain_of_custody_record
+  - jurisdictional_enforcement_translation_attestation
+supporting_evidence:
+  - jurisdictional_enforcement_translation_audit_log
+  - jurisdictional_enforcement_translation_activity_log
+  - jurisdictional_enforcement_translation_decision_log
+  - jurisdictional_enforcement_translation_traceability_record
+  - jurisdictional_enforcement_translation_evidence_package
+audit_evidence:
+  - jurisdictional_enforcement_translation_audit_log
+  - jurisdictional_enforcement_translation_activity_log
+  - jurisdictional_enforcement_translation_decision_log
+  - jurisdictional_enforcement_translation_traceability_record
+  - jurisdictional_enforcement_translation_evidence_package
+  - jurisdictional_enforcement_translation_chain_of_custody_record
+  - jurisdictional_enforcement_translation_attestation
+forensic_evidence:
+  - jurisdictional_enforcement_translation_audit_log
+  - jurisdictional_enforcement_translation_activity_log
+  - jurisdictional_enforcement_translation_decision_log
+  - jurisdictional_enforcement_translation_traceability_record
+  - jurisdictional_enforcement_translation_evidence_package
+  - jurisdictional_enforcement_translation_chain_of_custody_record
+  - jurisdictional_enforcement_translation_attestation
+regulatory_evidence:
+  - jurisdictional_enforcement_translation_audit_log
+  - jurisdictional_enforcement_translation_activity_log
+  - jurisdictional_enforcement_translation_decision_log
+  - jurisdictional_enforcement_translation_traceability_record
+  - jurisdictional_enforcement_translation_evidence_package
+  - jurisdictional_enforcement_translation_chain_of_custody_record
+  - jurisdictional_enforcement_translation_attestation
+validation_evidence:
+  - jurisdictional_enforcement_translation_audit_log
+  - jurisdictional_enforcement_translation_activity_log
+  - jurisdictional_enforcement_translation_decision_log
+  - jurisdictional_enforcement_translation_traceability_record
+  - jurisdictional_enforcement_translation_evidence_package
+  - jurisdictional_enforcement_translation_chain_of_custody_record
+  - jurisdictional_enforcement_translation_attestation
+validation_rules:
+  - rule: jurisdictional_enforcement_translation_evidence_complete
+    condition: required_evidence_jurisdictional_enforcement_translation < threshold
+    action: BLOCK_SUBMISSION
+  - rule: jurisdictional_enforcement_translation_integrity_verified
+    condition: integrity_status_jurisdictional_enforcement_translation != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: jurisdictional_enforcement_translation_custody_intact
+    condition: custody_gap_jurisdictional_enforcement_translation == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Jurisdictional Enforcement Translation controls fail; mitigated
+      through preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Jurisdictional Enforcement Translation controls fail;
+      mitigated through preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Jurisdictional Enforcement Translation controls fail; mitigated
+      through preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Jurisdictional Enforcement Translation controls fail; mitigated
+      through preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Jurisdictional Enforcement Translation controls fail;
+      mitigated through preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - jurisdictional_enforcement_translation_control_failure
+    - jurisdictional_enforcement_translation_evidence_compromise
+    - jurisdictional_enforcement_translation_regulatory_non_compliance
+    - jurisdictional_enforcement_translation_enforcement_delay
+  risk_events:
+    - jurisdictional_enforcement_translation_audit_finding_critical
+    - jurisdictional_enforcement_translation_investigation_escalation
+    - jurisdictional_enforcement_translation_sanction_exposure
+    - jurisdictional_enforcement_translation_market_surveillance_inquiry
+  risk_indicators:
+    - jurisdictional_enforcement_translation_control_effectiveness_degradation
+    - jurisdictional_enforcement_translation_evidence_gap_rate
+    - jurisdictional_enforcement_translation_sla_breach_count
+    - jurisdictional_enforcement_translation_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    jurisdictional_enforcement_translation_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: jurisdictional_enforcement_translation_forensic_lead
+    jurisdictional_enforcement_translation_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    jurisdictional_enforcement_translation_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: jurisdictional_enforcement_translation_enforcement_officer
+  risk_tolerance:
+    jurisdictional_enforcement_translation_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: jurisdictional_enforcement_translation_risk_score >= 60
+    critical: jurisdictional_enforcement_translation_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Jurisdictional Enforcement Translation controls documented in
+      jurisdictional_enforcement_translation_risk_register with quarterly review.
+  risk_treatment:
+    - jurisdictional_enforcement_translation_preventive_control_reinforcement
+    - jurisdictional_enforcement_translation_detective_monitoring_enhancement
+    - jurisdictional_enforcement_translation_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: jurisdictional_enforcement_translation_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Jurisdictional Enforcement Translation workflow events with provenance
+      anchor and jurisdictional_enforcement_translation_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via jurisdictional_enforcement_translation_collection_api with schema
+      validation and classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      jurisdictional_enforcement_translation_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      jurisdictional_enforcement_translation_data_classification_policy
+  evidence_storage:
+    >
+      Write-once immutable storage in jurisdictional_enforcement_translation_evidence_vault with
+      access controls
+  evidence_retention:
+    >
+      Retention per jurisdictional_enforcement_translation_retention_schedule aligned with EU AI Act
+      Article 18 and legal hold
+  evidence_archival:
+    >
+      Long-term archival with jurisdictional_enforcement_translation_integrity_verification before
+      migration
+  evidence_retrieval:
+    >
+      Audited retrieval via jurisdictional_enforcement_translation_retrieval_gateway with purpose
+      logging
+  evidence_disposal:
+    >
+      Authorized disposition with jurisdictional_enforcement_translation_disposition_certificate and
+      dual approval
+compliance_mapping:
+  article_4:
+    article: Article 4
+    regulatory_text_summary:
+      AI literacy and training obligations for providers and deployers.
+    obligation:
+      >
+        Workforce competence and awareness for AI system lifecycle activities. Implemented through
+        Jurisdictional Enforcement Translation in crosswalks.
+    implementation_controls:
+      - jurisdictional_enforcement_translation_article_4_preventive_control
+      - jurisdictional_enforcement_translation_article_4_detective_control
+      - jurisdictional_enforcement_translation_article_4_evidence_control
+    implementation_processes:
+      - jurisdictional_enforcement_translation_article_4_workflow
+      - jurisdictional_enforcement_translation_article_4_validation_process
+      - jurisdictional_enforcement_translation_article_4_escalation_process
+    implementation_evidence:
+      - jurisdictional_enforcement_translation_article_4_compliance_record
+      - jurisdictional_enforcement_translation_article_4_audit_package
+      - jurisdictional_enforcement_translation_article_4_attestation
+    validation_method: jurisdictional_enforcement_translation_article_4_automated_and_manual_conformity_testing
+    audit_method: jurisdictional_enforcement_translation_article_4_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: jurisdictional_enforcement_translation_article_4_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Jurisdictional Enforcement Translation demonstrates Article 4 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+  article_9:
+    article: Article 9
+    regulatory_text_summary:
+      Risk management system for high-risk AI systems.
+    obligation:
+      >
+        Continuous risk identification, analysis, evaluation, and treatment. Implemented through
+        Jurisdictional Enforcement Translation in crosswalks.
+    implementation_controls:
+      - jurisdictional_enforcement_translation_article_9_preventive_control
+      - jurisdictional_enforcement_translation_article_9_detective_control
+      - jurisdictional_enforcement_translation_article_9_evidence_control
+    implementation_processes:
+      - jurisdictional_enforcement_translation_article_9_workflow
+      - jurisdictional_enforcement_translation_article_9_validation_process
+      - jurisdictional_enforcement_translation_article_9_escalation_process
+    implementation_evidence:
+      - jurisdictional_enforcement_translation_article_9_compliance_record
+      - jurisdictional_enforcement_translation_article_9_audit_package
+      - jurisdictional_enforcement_translation_article_9_attestation
+    validation_method: jurisdictional_enforcement_translation_article_9_automated_and_manual_conformity_testing
+    audit_method: jurisdictional_enforcement_translation_article_9_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: jurisdictional_enforcement_translation_article_9_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Jurisdictional Enforcement Translation demonstrates Article 9 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+  article_43:
+    article: Article 43
+    regulatory_text_summary:
+      Conformity assessment.
+    obligation:
+      >
+        Conformity assessment procedures for high-risk AI systems. Implemented through Jurisdictional
+        Enforcement Translation in crosswalks.
+    implementation_controls:
+      - jurisdictional_enforcement_translation_article_43_preventive_control
+      - jurisdictional_enforcement_translation_article_43_detective_control
+      - jurisdictional_enforcement_translation_article_43_evidence_control
+    implementation_processes:
+      - jurisdictional_enforcement_translation_article_43_workflow
+      - jurisdictional_enforcement_translation_article_43_validation_process
+      - jurisdictional_enforcement_translation_article_43_escalation_process
+    implementation_evidence:
+      - jurisdictional_enforcement_translation_article_43_compliance_record
+      - jurisdictional_enforcement_translation_article_43_audit_package
+      - jurisdictional_enforcement_translation_article_43_attestation
+    validation_method: jurisdictional_enforcement_translation_article_43_automated_and_manual_conformity_testing
+    audit_method: jurisdictional_enforcement_translation_article_43_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: jurisdictional_enforcement_translation_article_43_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Jurisdictional Enforcement Translation demonstrates Article 43 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+  article_50:
+    article: Article 50
+    regulatory_text_summary:
+      Codes of practice for GPAI.
+    obligation:
+      >
+        Codes of practice and compliance demonstration for GPAI models. Implemented through
+        Jurisdictional Enforcement Translation in crosswalks.
+    implementation_controls:
+      - jurisdictional_enforcement_translation_article_50_preventive_control
+      - jurisdictional_enforcement_translation_article_50_detective_control
+      - jurisdictional_enforcement_translation_article_50_evidence_control
+    implementation_processes:
+      - jurisdictional_enforcement_translation_article_50_workflow
+      - jurisdictional_enforcement_translation_article_50_validation_process
+      - jurisdictional_enforcement_translation_article_50_escalation_process
+    implementation_evidence:
+      - jurisdictional_enforcement_translation_article_50_compliance_record
+      - jurisdictional_enforcement_translation_article_50_audit_package
+      - jurisdictional_enforcement_translation_article_50_attestation
+    validation_method: jurisdictional_enforcement_translation_article_50_automated_and_manual_conformity_testing
+    audit_method: jurisdictional_enforcement_translation_article_50_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: jurisdictional_enforcement_translation_article_50_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Jurisdictional Enforcement Translation demonstrates Article 50 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_4:
+      implementation: jurisdictional_enforcement_translation_eu_ai_act_article_4_control_set
+      process: jurisdictional_enforcement_translation_eu_ai_act_article_4_workflow
+      evidence: jurisdictional_enforcement_translation_eu_ai_act_article_4_attestation
+    article_9:
+      implementation: jurisdictional_enforcement_translation_eu_ai_act_article_9_control_set
+      process: jurisdictional_enforcement_translation_eu_ai_act_article_9_workflow
+      evidence: jurisdictional_enforcement_translation_eu_ai_act_article_9_attestation
+    article_43:
+      implementation: jurisdictional_enforcement_translation_eu_ai_act_article_43_control_set
+      process: jurisdictional_enforcement_translation_eu_ai_act_article_43_workflow
+      evidence: jurisdictional_enforcement_translation_eu_ai_act_article_43_attestation
+    article_50:
+      implementation: jurisdictional_enforcement_translation_eu_ai_act_article_50_control_set
+      process: jurisdictional_enforcement_translation_eu_ai_act_article_50_workflow
+      evidence: jurisdictional_enforcement_translation_eu_ai_act_article_50_attestation
+  gdpr:
+    article_5:
+      implementation: jurisdictional_enforcement_translation_gdpr_article_5_privacy_control
+      evidence: jurisdictional_enforcement_translation_gdpr_article_5_compliance_record
+    article_6:
+      implementation: jurisdictional_enforcement_translation_gdpr_article_6_privacy_control
+      evidence: jurisdictional_enforcement_translation_gdpr_article_6_compliance_record
+    article_22:
+      implementation: jurisdictional_enforcement_translation_gdpr_article_22_privacy_control
+      evidence: jurisdictional_enforcement_translation_gdpr_article_22_compliance_record
+    article_25:
+      implementation: jurisdictional_enforcement_translation_gdpr_article_25_privacy_control
+      evidence: jurisdictional_enforcement_translation_gdpr_article_25_compliance_record
+    article_32:
+      implementation: jurisdictional_enforcement_translation_gdpr_article_32_privacy_control
+      evidence: jurisdictional_enforcement_translation_gdpr_article_32_compliance_record
+    article_35:
+      implementation: jurisdictional_enforcement_translation_gdpr_article_35_privacy_control
+      evidence: jurisdictional_enforcement_translation_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: jurisdictional_enforcement_translation_iso42001_clause_4_1_aims_control
+      evidence: jurisdictional_enforcement_translation_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: jurisdictional_enforcement_translation_iso42001_clause_4_2_aims_control
+      evidence: jurisdictional_enforcement_translation_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: jurisdictional_enforcement_translation_iso42001_clause_5_1_aims_control
+      evidence: jurisdictional_enforcement_translation_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: jurisdictional_enforcement_translation_iso42001_clause_5_2_aims_control
+      evidence: jurisdictional_enforcement_translation_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: jurisdictional_enforcement_translation_iso42001_clause_6_1_aims_control
+      evidence: jurisdictional_enforcement_translation_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: jurisdictional_enforcement_translation_iso42001_clause_8_1_aims_control
+      evidence: jurisdictional_enforcement_translation_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: jurisdictional_enforcement_translation_iso42001_clause_9_1_aims_control
+      evidence: jurisdictional_enforcement_translation_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: jurisdictional_enforcement_translation_iso42001_clause_10_1_aims_control
+      evidence: jurisdictional_enforcement_translation_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: jurisdictional_enforcement_translation_iso23894_risk_identification_alignment
+      evidence: jurisdictional_enforcement_translation_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: jurisdictional_enforcement_translation_iso23894_risk_analysis_alignment
+      evidence: jurisdictional_enforcement_translation_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: jurisdictional_enforcement_translation_iso23894_risk_evaluation_alignment
+      evidence: jurisdictional_enforcement_translation_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: jurisdictional_enforcement_translation_iso23894_risk_treatment_alignment
+      evidence: jurisdictional_enforcement_translation_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: jurisdictional_enforcement_translation_iso23894_risk_monitoring_alignment
+      evidence: jurisdictional_enforcement_translation_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: jurisdictional_enforcement_translation_iso19011_audit_principles_procedure
+      evidence: jurisdictional_enforcement_translation_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: jurisdictional_enforcement_translation_iso19011_audit_programme_management_procedure
+      evidence: jurisdictional_enforcement_translation_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: jurisdictional_enforcement_translation_iso19011_audit_evidence_requirements_procedure
+      evidence: jurisdictional_enforcement_translation_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: jurisdictional_enforcement_translation_iso19011_audit_reporting_procedure
+      evidence: jurisdictional_enforcement_translation_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: jurisdictional_enforcement_translation_nist_rmf_govern_control_mapping
+      evidence: jurisdictional_enforcement_translation_nist_rmf_govern_assessment
+    map:
+      implementation: jurisdictional_enforcement_translation_nist_rmf_map_control_mapping
+      evidence: jurisdictional_enforcement_translation_nist_rmf_map_assessment
+    measure:
+      implementation: jurisdictional_enforcement_translation_nist_rmf_measure_control_mapping
+      evidence: jurisdictional_enforcement_translation_nist_rmf_measure_assessment
+    manage:
+      implementation: jurisdictional_enforcement_translation_nist_rmf_manage_control_mapping
+      evidence: jurisdictional_enforcement_translation_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: jurisdictional_enforcement_translation_nist_csf_identify_safeguard
+      evidence: jurisdictional_enforcement_translation_nist_csf_identify_log
+    protect:
+      implementation: jurisdictional_enforcement_translation_nist_csf_protect_safeguard
+      evidence: jurisdictional_enforcement_translation_nist_csf_protect_log
+    detect:
+      implementation: jurisdictional_enforcement_translation_nist_csf_detect_safeguard
+      evidence: jurisdictional_enforcement_translation_nist_csf_detect_log
+    respond:
+      implementation: jurisdictional_enforcement_translation_nist_csf_respond_safeguard
+      evidence: jurisdictional_enforcement_translation_nist_csf_respond_log
+    recover:
+      implementation: jurisdictional_enforcement_translation_nist_csf_recover_safeguard
+      evidence: jurisdictional_enforcement_translation_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: jurisdictional_enforcement_translation_oecd_accountability_governance_control
+      evidence: jurisdictional_enforcement_translation_oecd_accountability_attestation
+    transparency:
+      implementation: jurisdictional_enforcement_translation_oecd_transparency_governance_control
+      evidence: jurisdictional_enforcement_translation_oecd_transparency_attestation
+    robustness_security:
+      implementation: jurisdictional_enforcement_translation_oecd_robustness_security_governance_control
+      evidence: jurisdictional_enforcement_translation_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: jurisdictional_enforcement_translation_oecd_inclusive_growth_governance_control
+      evidence: jurisdictional_enforcement_translation_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: jurisdictional_enforcement_translation_unesco_human_rights_ethics_control
+      evidence: jurisdictional_enforcement_translation_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: jurisdictional_enforcement_translation_unesco_fairness_non_discrimination_ethics_control
+      evidence: jurisdictional_enforcement_translation_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: jurisdictional_enforcement_translation_unesco_transparency_explainability_ethics_control
+      evidence: jurisdictional_enforcement_translation_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: jurisdictional_enforcement_translation_unesco_accountability_ethics_control
+      evidence: jurisdictional_enforcement_translation_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Jurisdictional Enforcement Translation covering executive, board,
+      regulatory, audit, forensic, and attestation consumers.
+  report_types:
+    - jurisdictional_enforcement_translation_status_report
+    - jurisdictional_enforcement_translation_compliance_report
+    - jurisdictional_enforcement_translation_enforcement_report
+    - jurisdictional_enforcement_translation_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [jurisdictional_enforcement_translation_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_jurisdictional_enforcement_translation
+  - quarterly_control_testing_jurisdictional_enforcement_translation
+  - evidence_sampling_jurisdictional_enforcement_translation
+  - finding_remediation_tracking_jurisdictional_enforcement_translation
+integration_points:
+  upstream_systems:
+    - system: core
+      purpose: jurisdictional_enforcement_translation_to_core_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_core]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_core]
+    - system: compliance_audits
+      purpose: jurisdictional_enforcement_translation_to_compliance_audits_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_compliance_audits]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_compliance_audits]
+    - system: legal_interoperability
+      purpose: jurisdictional_enforcement_translation_to_legal_interoperability_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_legal_interoperability]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_legal_interoperability]
+  downstream_systems:
+    - system: compliance_audits
+      purpose: jurisdictional_enforcement_translation_to_compliance_audits_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_compliance_audits]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_compliance_audits]
+    - system: reporting
+      purpose: jurisdictional_enforcement_translation_to_reporting_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_reporting]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_reporting]
+    - system: enforcement_actions
+      purpose: jurisdictional_enforcement_translation_to_enforcement_actions_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_enforcement_actions]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_enforcement_actions]
+  governance_integrations:
+    - system: governance_crosswalks
+      purpose: jurisdictional_enforcement_translation_to_governance_crosswalks_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_governance_crosswalks]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_governance_crosswalks]
+    - system: legal_interoperability
+      purpose: jurisdictional_enforcement_translation_to_legal_interoperability_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_legal_interoperability]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_legal_interoperability]
+  risk_integrations:
+  audit_integrations:
+    - system: compliance_audits
+      purpose: jurisdictional_enforcement_translation_to_compliance_audits_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_compliance_audits]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: jurisdictional_enforcement_translation_to_internal_audit_system_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_internal_audit_system]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: jurisdictional_enforcement_translation_to_governance_reporting_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_governance_reporting]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: jurisdictional_enforcement_translation_to_executive_dashboard_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_executive_dashboard]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: jurisdictional_enforcement_translation_to_enforcement_actions_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_enforcement_actions]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: jurisdictional_enforcement_translation_to_policy_enforcement_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_policy_enforcement]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: jurisdictional_enforcement_translation_to_remediation_tracking_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_remediation_tracking]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: jurisdictional_enforcement_translation_to_remediation_engine_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_remediation_engine]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: jurisdictional_enforcement_translation_to_evidence_preservation_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_evidence_preservation]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: jurisdictional_enforcement_translation_to_technical_documentation_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_technical_documentation]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: jurisdictional_enforcement_translation_to_post_market_monitoring_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_post_market_monitoring]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: jurisdictional_enforcement_translation_to_incident_reporting_governance_sync
+      data_exchanged: [jurisdictional_enforcement_translation_events, jurisdictional_enforcement_translation_evidence_refs, jurisdictional_enforcement_translation_metrics]
+      trigger_conditions: [jurisdictional_enforcement_translation_state_change, jurisdictional_enforcement_translation_escalation, jurisdictional_enforcement_translation_closure]
+      consumed_artifacts: [jurisdictional_enforcement_translation_input_from_incident_reporting]
+      produced_artifacts: [jurisdictional_enforcement_translation_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Jurisdictional Enforcement Translation activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Jurisdictional Enforcement Translation procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - jurisdictional_enforcement_translation_procedure_checklist
+    required_evidence:
+      - jurisdictional_enforcement_translation_process_log
+    required_metrics:
+      - jurisdictional_enforcement_translation_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Jurisdictional Enforcement Translation enterprise-wide.
+    required_capabilities:
+      - jurisdictional_enforcement_translation_standard_control_set
+    required_controls:
+      - jurisdictional_enforcement_translation_control_register
+    required_evidence:
+      - jurisdictional_enforcement_translation_audit_evidence
+    required_metrics:
+      - jurisdictional_enforcement_translation_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Jurisdictional Enforcement Translation with KPI optimization.
+    required_capabilities:
+      - jurisdictional_enforcement_translation_automated_controls
+    required_controls:
+      - jurisdictional_enforcement_translation_telemetry_controls
+    required_evidence:
+      - jurisdictional_enforcement_translation_assurance_package
+    required_metrics:
+      - jurisdictional_enforcement_translation_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Jurisdictional Enforcement Translation with predictive analytics.
+    required_capabilities:
+      - jurisdictional_enforcement_translation_autonomous_governance
+    required_controls:
+      - jurisdictional_enforcement_translation_adaptive_controls
+    required_evidence:
+      - jurisdictional_enforcement_translation_regulator_ready_portfolio
+    required_metrics:
+      - jurisdictional_enforcement_translation_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - jurisdictional_enforcement_translation_report
+  - jurisdictional_enforcement_translation_evidence_package
+  - jurisdictional_enforcement_translation_attestation
+  - jurisdictional_enforcement_translation_enforcement_record
+artifacts:
+  - name: jurisdictional_enforcement_translation_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: jurisdictional_enforcement_translation_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: jurisdictional_enforcement_translation_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: jurisdictional_enforcement_translation_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - jurisdictional_enforcement_translation_case_record
+  - jurisdictional_enforcement_translation_audit_record
+  - jurisdictional_enforcement_translation_enforcement_record
+  - jurisdictional_enforcement_translation_remediation_record
+monitoring:
+  continuous:
+    - jurisdictional_enforcement_translation_control_telemetry
+    - jurisdictional_enforcement_translation_evidence_integrity_feed
+    - jurisdictional_enforcement_translation_escalation_queue
+  periodic:
+    - jurisdictional_enforcement_translation_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Jurisdictional Enforcement Translation effectiveness, regulatory change
+    impact assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: jurisdictional_enforcement_translation_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: jurisdictional_enforcement_translation_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: jurisdictional_enforcement_translation_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: jurisdictional_enforcement_translation_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Jurisdictional Enforcement Translation

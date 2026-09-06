@@ -1,0 +1,1722 @@
+metadata:
+  id: TE-REP-TRANSPARENCY-061
+  domain: transparency_reporting
+  version: 1.0.0
+  specialization: transparency_metrics_reporting
+purpose: |
+  Govern, operationalize, and validate transparency and explainability frameworks for Transparency Metrics Reporting under the Transparency Reporting framework. This skill provides machine-readable, executable governance infrastructure, explainability assurance, and stakeholder communication channels tailored to transparency scorecards, kpi tracking, stakeholder reporting, assurance metrics parameters.
+scope: |
+  Scope covers all transparency notifications, explainability metrics, XAI algorithms, and human understanding assurance workflows governed by the Transparency Metrics Reporting framework in production deployments.
+objectives:
+  - Enforce automated disclosure and notice triggers under Transparency Metrics Reporting criteria.
+  - Verify local and global model explainability metrics matching target threshold 81%.
+  - Audit compliance with EU AI Act transparency rules for Transparency Reporting.
+definitions:
+  transparency_metrics_reporting_notice_registry: The primary ledger containing all active disclosure noticed actions for Transparency Metrics Reporting.
+  transparency_metrics_reporting_explanation_store: Cryptographically signed repository containing explanation traces for Transparency Metrics Reporting decisions.
+taxonomy:
+  disclosure_classes:
+    - USER_NOTICE
+    - REGULATORY_SUBMISSION
+    - PUBLIC_REGISTRY
+    - EXPLANATION_TRACE
+  governance_modes:
+    - PROACTIVE_ASSURANCE
+    - REAL_TIME_MONITORING
+    - POST_HOC_AUDITING
+governance:
+  governance_model: TRANSPARENCY_GOVERNANCE_SYSTEM_MODEL_61
+  governance_structure: Enterprise Transparency Board - Transparency Reporting
+  roles_and_responsibilities:
+    transparency_governor: Responsible for managing EU AI Act disclosure registries and notice triggers for Transparency Metrics Reporting.
+    explainability_lead: Responsible for verifying feature attributions and explanation quality for Transparency Metrics Reporting.
+    assurance_auditor: Responsible for transparency validation and audit sign-off for Transparency Metrics Reporting.
+  stakeholders:
+    - Chief Compliance Officer
+    - Head of AI Engineering
+    - VP of Human-Centered AI
+governance_model:
+  model_type: TRANSPARENCY_GOVERNANCE_MODEL_14
+  model_rationale: Ensures continuous disclosure notices validation, XAI metrics audits, and multi-agent traceability logs.
+governance_structure:
+  oversight_board: Transparency Oversight Board - Transparency Reporting
+  escalation_contact: transparency_escalation_61@enterprise.ai
+roles_and_responsibilities:
+  transparency_governor: Responsible for managing EU AI Act disclosure registries and notice triggers for Transparency Metrics Reporting.
+  explainability_lead: Responsible for verifying feature attributions and explanation quality for Transparency Metrics Reporting.
+  assurance_auditor: Responsible for transparency validation and audit sign-off for Transparency Metrics Reporting.
+stakeholders:
+  - Chief Compliance Officer
+  - Head of AI Engineering
+  - VP of Human-Centered AI
+capabilities:
+  - Automated trigger tracking and notice validation under Transparency Metrics Reporting.
+  - Stochastic local explanation checking and XAI verification under Transparency Metrics Reporting.
+  - Stakeholder disclosure auditing and regulatory mapping for Transparency Reporting operations.
+requirements:
+  - All model decisions under Transparency Metrics Reporting must generate explainability traces within 114ms.
+  - Disclosure notices for Transparency Metrics Reporting must achieve user understanding scores above 92%.
+  - Audit trails must record explanation generation lineage cryptographically.
+controls:
+  decision_transparency_control:
+    control_id: CTRL-TE-REP-TRANSP-DT-61
+    control_name: decision_transparency_control
+    control_type: PREVENTATIVE
+    control_category: TRANSPARENCY
+    control_objective: Govern decision path visibility and verify automated explanation outputs for Transparency Metrics Reporting decisions.
+    transparency_rationale: Ensures users receive immediate and accurate reasoning explanations behind high-risk actions under Transparency Metrics Reporting.
+    implementation_guidance: Deploy explanation interceptors in the decision engine pipeline to log feature attributions.
+    control_owner: Explainability Lead
+    control_frequency: REAL_TIME
+    monitoring_method: Monitor explanation generation latency and completeness in GRC dashboard.
+    validation_method: Submit test payload, assert presence of structured decision factors in output.
+    evidence_generated: Signed explanation trace receipt.
+    stakeholder_requirements: Users must receive plain-language summaries of top 3 decision factors.
+    audit_considerations: Verify model card version matches deployed weights during explanation parsing.
+  explainability_assurance_control:
+    control_id: CTRL-TE-REP-TRANSP-EA-14
+    control_name: explainability_assurance_control
+    control_type: DETECTIVE
+    control_category: ASSURANCE
+    control_objective: Validate fidelity and consistency of XAI explanation methods for Transparency Metrics Reporting.
+    transparency_rationale: Mitigates risks of hallucinated or unfaithful explanations by validating SHAP/LIME outputs under Transparency Metrics Reporting.
+    implementation_guidance: Run stability evaluations weekly using randomized input perturbations.
+    control_owner: Assurance Auditor
+    control_frequency: WEEKLY
+    monitoring_method: Track explanation fidelity score trends on compliance portal.
+    validation_method: Execute pertubations validation suite, assert fidelity above threshold.
+    evidence_generated: Weekly explainability fidelity validation report.
+    stakeholder_requirements: Auditors require access to base raw feature weights and models.
+    audit_considerations: Check for feature correlation leakage affecting explanation attribution.
+  reasoning_traceability_control:
+    control_id: CTRL-TE-REP-TRANSP-RT-57
+    control_name: reasoning_traceability_control
+    control_type: PREVENTATIVE
+    control_category: TRACEABILITY
+    control_objective: Enforce step-by-step reasoning traceability for AltAI agents and multi-agent swarms under Transparency Metrics Reporting.
+    transparency_rationale: Enables full auditing of autonomous agent behaviors and tool selections under Transparency Metrics Reporting.
+    implementation_guidance: Format agent outputs to include system prompt snapshots and scratchpad logs.
+    control_owner: Transparency Governor
+    control_frequency: TRANSACTION_BASED
+    monitoring_method: Log agent trace coverage daily on safety portal.
+    validation_method: Trigger agent task, assert scratchpad output contains execution chain.
+    evidence_generated: Signed reasoning trace token.
+    stakeholder_requirements: Operators require trace maps to debug agent tool invocations.
+    audit_considerations: Confirm PII is redacted from reasoning logs before archival.
+  stakeholder_disclosure_control:
+    control_id: CTRL-TE-REP-TRANSP-SD-61
+    control_name: stakeholder_disclosure_control
+    control_type: PREVENTATIVE
+    control_category: DISCLOSURE
+    control_objective: Validate disclosure notice rendering and compliance across channels for Transparency Metrics Reporting.
+    transparency_rationale: Ensures mandatory transparency notifications are displayed legibly to users under Transparency Metrics Reporting.
+    implementation_guidance: Check UI frontends for presence of standard notification components.
+    control_owner: Transparency Governor
+    control_frequency: CONTINUOUS
+    monitoring_method: Review UI telemetry logs for notification display failures.
+    validation_method: Mock browser agent, query DOM to verify notice visibility.
+    evidence_generated: Notice validation telemetry log.
+    stakeholder_requirements: End-users must see clearly formatted warning banners before interacting.
+    audit_considerations: Verify translation accuracy of notices for all target locales.
+  accountability_control:
+    control_id: CTRL-TE-REP-TRANSP-AC-14
+    control_name: accountability_control
+    control_type: PREVENTATIVE
+    control_category: ACCOUNTABILITY
+    control_objective: Govern responsibility allocation and sign-offs for system deployments under Transparency Metrics Reporting.
+    transparency_rationale: Establishes legal and operational ownership of AI outcomes under Transparency Metrics Reporting.
+    implementation_guidance: Require multi-sig keys from accountability leads prior to model updates.
+    control_owner: Assurance Auditor
+    control_frequency: RELEASE_BASED
+    monitoring_method: Check compliance registry for signed release authorization files.
+    validation_method: Attempt model deployment without sign-off, verify block.
+    evidence_generated: Signed release authorization certificate.
+    stakeholder_requirements: Regulators require clear mappings of system owner identities.
+    audit_considerations: Verify public keys of signers match corporate directory records.
+  transparency_validation_control:
+    control_id: CTRL-TE-REP-TRANSP-TV-57
+    control_name: transparency_validation_control
+    control_type: DETECTIVE
+    control_category: VALIDATION
+    control_objective: Validate transparency mechanism performance and user understanding scores for Transparency Metrics Reporting.
+    transparency_rationale: Measures if transparency notices are effective in conveying critical context under Transparency Metrics Reporting.
+    implementation_guidance: Run quarterly feedback surveys and automated readability analysis.
+    control_owner: Explainability Lead
+    control_frequency: QUARTERLY
+    monitoring_method: Track average understanding score metrics on transparency dashboard.
+    validation_method: Analyze notice corpus with Flesch-Kincaid scale, verify grade level is below 10.
+    evidence_generated: Quarterly transparency effectiveness survey report.
+    stakeholder_requirements: End-users require plain, non-legalese language explanations.
+    audit_considerations: Review participant selection methods to ensure representative sampling.
+decision_logic: |
+  Rule-based notice routing, stochastic fidelity threshold checks, and cryptographic validation chains.
+processes:
+  - process_name: transparency_audit_process
+    trigger: Daily check trigger
+    steps:
+      - Fetch active notice telemetry stream.
+      - Verify notice presentation validity and readability scores.
+workflows:
+  transparency_assessment_workflow:
+    workflow_id: WF-TE-REP-TRANSP-00-61
+    workflow_owner: Transparency Governor
+    workflow_objective: Operationalize and validate Transparency Assessment Workflow for Transparency Metrics Reporting operations.
+    trigger: Scheduled trigger or event detection for transparency_assessment_workflow.
+    inputs:
+      - transparency_metrics_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from transparency_metrics_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 91%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Explainability Lead Verification
+    outputs:
+      - transparency_assessment_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for transparency_assessment_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for transparency_assessment_workflow.
+      - Public registry disclosure entry for transparency_assessment_workflow.
+    success_criteria: Successfully validated transparency_assessment_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in transparency_assessment_workflow.
+      - Timeout in transparency_assessment_workflow execution path.
+  explanation_generation_workflow:
+    workflow_id: WF-TE-REP-TRANSP-01-62
+    workflow_owner: Explainability Lead
+    workflow_objective: Operationalize and validate Explanation Generation Workflow for Transparency Metrics Reporting operations.
+    trigger: Scheduled trigger or event detection for explanation_generation_workflow.
+    inputs:
+      - transparency_metrics_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from transparency_metrics_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 92%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Explainability Lead Verification
+    outputs:
+      - explanation_generation_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for explanation_generation_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for explanation_generation_workflow.
+      - Public registry disclosure entry for explanation_generation_workflow.
+    success_criteria: Successfully validated explanation_generation_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in explanation_generation_workflow.
+      - Timeout in explanation_generation_workflow execution path.
+  stakeholder_disclosure_workflow:
+    workflow_id: WF-TE-REP-TRANSP-02-63
+    workflow_owner: Transparency Governor
+    workflow_objective: Operationalize and validate Stakeholder Disclosure Workflow for Transparency Metrics Reporting operations.
+    trigger: Scheduled trigger or event detection for stakeholder_disclosure_workflow.
+    inputs:
+      - transparency_metrics_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from transparency_metrics_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 93%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Explainability Lead Verification
+    outputs:
+      - stakeholder_disclosure_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for stakeholder_disclosure_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for stakeholder_disclosure_workflow.
+      - Public registry disclosure entry for stakeholder_disclosure_workflow.
+    success_criteria: Successfully validated stakeholder_disclosure_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in stakeholder_disclosure_workflow.
+      - Timeout in stakeholder_disclosure_workflow execution path.
+  decision_traceability_workflow:
+    workflow_id: WF-TE-REP-TRANSP-03-64
+    workflow_owner: Explainability Lead
+    workflow_objective: Operationalize and validate Decision Traceability Workflow for Transparency Metrics Reporting operations.
+    trigger: Scheduled trigger or event detection for decision_traceability_workflow.
+    inputs:
+      - transparency_metrics_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from transparency_metrics_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 94%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Explainability Lead Verification
+    outputs:
+      - decision_traceability_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for decision_traceability_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for decision_traceability_workflow.
+      - Public registry disclosure entry for decision_traceability_workflow.
+    success_criteria: Successfully validated decision_traceability_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in decision_traceability_workflow.
+      - Timeout in decision_traceability_workflow execution path.
+  reasoning_visibility_workflow:
+    workflow_id: WF-TE-REP-TRANSP-04-65
+    workflow_owner: Transparency Governor
+    workflow_objective: Operationalize and validate Reasoning Visibility Workflow for Transparency Metrics Reporting operations.
+    trigger: Scheduled trigger or event detection for reasoning_visibility_workflow.
+    inputs:
+      - transparency_metrics_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from transparency_metrics_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 95%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Explainability Lead Verification
+    outputs:
+      - reasoning_visibility_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for reasoning_visibility_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for reasoning_visibility_workflow.
+      - Public registry disclosure entry for reasoning_visibility_workflow.
+    success_criteria: Successfully validated reasoning_visibility_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in reasoning_visibility_workflow.
+      - Timeout in reasoning_visibility_workflow execution path.
+  communication_assurance_workflow:
+    workflow_id: WF-TE-REP-TRANSP-05-66
+    workflow_owner: Explainability Lead
+    workflow_objective: Operationalize and validate Communication Assurance Workflow for Transparency Metrics Reporting operations.
+    trigger: Scheduled trigger or event detection for communication_assurance_workflow.
+    inputs:
+      - transparency_metrics_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from transparency_metrics_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 96%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Explainability Lead Verification
+    outputs:
+      - communication_assurance_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for communication_assurance_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for communication_assurance_workflow.
+      - Public registry disclosure entry for communication_assurance_workflow.
+    success_criteria: Successfully validated communication_assurance_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in communication_assurance_workflow.
+      - Timeout in communication_assurance_workflow execution path.
+  transparency_validation_workflow:
+    workflow_id: WF-TE-REP-TRANSP-06-67
+    workflow_owner: Transparency Governor
+    workflow_objective: Operationalize and validate Transparency Validation Workflow for Transparency Metrics Reporting operations.
+    trigger: Scheduled trigger or event detection for transparency_validation_workflow.
+    inputs:
+      - transparency_metrics_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from transparency_metrics_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 97%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Explainability Lead Verification
+    outputs:
+      - transparency_validation_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for transparency_validation_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for transparency_validation_workflow.
+      - Public registry disclosure entry for transparency_validation_workflow.
+    success_criteria: Successfully validated transparency_validation_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in transparency_validation_workflow.
+      - Timeout in transparency_validation_workflow execution path.
+  continuous_transparency_workflow:
+    workflow_id: WF-TE-REP-TRANSP-07-68
+    workflow_owner: Explainability Lead
+    workflow_objective: Operationalize and validate Continuous Transparency Workflow for Transparency Metrics Reporting operations.
+    trigger: Scheduled trigger or event detection for continuous_transparency_workflow.
+    inputs:
+      - transparency_metrics_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from transparency_metrics_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 98%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Explainability Lead Verification
+    outputs:
+      - continuous_transparency_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for continuous_transparency_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for continuous_transparency_workflow.
+      - Public registry disclosure entry for continuous_transparency_workflow.
+    success_criteria: Successfully validated continuous_transparency_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in continuous_transparency_workflow.
+      - Timeout in continuous_transparency_workflow execution path.
+transparency_governance_framework:
+  governance_model:
+    description: Enforce Governance Model rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_model in deployment pipelines.
+  governance_principles:
+    description: Enforce Governance Principles rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_principles in deployment pipelines.
+  governance_authorities:
+    description: Enforce Governance Authorities rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_authorities in deployment pipelines.
+  governance_controls:
+    description: Enforce Governance Controls rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_controls in deployment pipelines.
+  transparency_accountability:
+    description: Enforce Transparency Accountability rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for transparency_accountability in deployment pipelines.
+  transparency_ownership:
+    description: Enforce Transparency Ownership rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for transparency_ownership in deployment pipelines.
+  governance_reviews:
+    description: Enforce Governance Reviews rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_reviews in deployment pipelines.
+  governance_assurance:
+    description: Enforce Governance Assurance rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_assurance in deployment pipelines.
+explainability_framework:
+  explainability_requirements:
+    description: Operationalize Explainability Requirements under explanation validation rules.
+    owner: Explainability Lead
+    implementation_details: Integrate explanation hooks and fidelity score metrics for explainability_requirements.
+  explainability_objectives:
+    description: Operationalize Explainability Objectives under explanation validation rules.
+    owner: Explainability Lead
+    implementation_details: Integrate explanation hooks and fidelity score metrics for explainability_objectives.
+  explainability_controls:
+    description: Operationalize Explainability Controls under explanation validation rules.
+    owner: Explainability Lead
+    implementation_details: Integrate explanation hooks and fidelity score metrics for explainability_controls.
+  explanation_types:
+    description: Operationalize Explanation Types under explanation validation rules.
+    owner: Explainability Lead
+    implementation_details: Integrate explanation hooks and fidelity score metrics for explanation_types.
+  explanation_levels:
+    description: Operationalize Explanation Levels under explanation validation rules.
+    owner: Explainability Lead
+    implementation_details: Integrate explanation hooks and fidelity score metrics for explanation_levels.
+  explainability_validation:
+    description: Operationalize Explainability Validation under explanation validation rules.
+    owner: Explainability Lead
+    implementation_details: Integrate explanation hooks and fidelity score metrics for explainability_validation.
+  explainability_assurance:
+    description: Operationalize Explainability Assurance under explanation validation rules.
+    owner: Explainability Lead
+    implementation_details: Integrate explanation hooks and fidelity score metrics for explainability_assurance.
+interpretability_framework:
+  interpretability_requirements:
+    description: Manage Interpretability Requirements parameters to support post-hoc analysis.
+    owner: Explainability Lead
+    implementation_details: Track interpretability indexes and validation results for interpretability_requirements.
+  interpretability_controls:
+    description: Manage Interpretability Controls parameters to support post-hoc analysis.
+    owner: Explainability Lead
+    implementation_details: Track interpretability indexes and validation results for interpretability_controls.
+  interpretability_methods:
+    description: Manage Interpretability Methods parameters to support post-hoc analysis.
+    owner: Explainability Lead
+    implementation_details: Track interpretability indexes and validation results for interpretability_methods.
+  model_interpretability:
+    description: Manage Model Interpretability parameters to support post-hoc analysis.
+    owner: Explainability Lead
+    implementation_details: Track interpretability indexes and validation results for model_interpretability.
+  decision_interpretability:
+    description: Manage Decision Interpretability parameters to support post-hoc analysis.
+    owner: Explainability Lead
+    implementation_details: Track interpretability indexes and validation results for decision_interpretability.
+  validation_controls:
+    description: Manage Validation Controls parameters to support post-hoc analysis.
+    owner: Explainability Lead
+    implementation_details: Track interpretability indexes and validation results for validation_controls.
+  assurance_controls:
+    description: Manage Assurance Controls parameters to support post-hoc analysis.
+    owner: Explainability Lead
+    implementation_details: Track interpretability indexes and validation results for assurance_controls.
+decision_transparency_framework:
+  decision_visibility:
+    description: Enforce Decision Visibility for algorithmic decisions.
+    owner: Explainability Lead
+    implementation_details: Log decision factor vectors and check notice display triggers for decision_visibility.
+  decision_traceability:
+    description: Enforce Decision Traceability for algorithmic decisions.
+    owner: Explainability Lead
+    implementation_details: Log decision factor vectors and check notice display triggers for decision_traceability.
+  decision_justification:
+    description: Enforce Decision Justification for algorithmic decisions.
+    owner: Explainability Lead
+    implementation_details: Log decision factor vectors and check notice display triggers for decision_justification.
+  decision_inputs:
+    description: Enforce Decision Inputs for algorithmic decisions.
+    owner: Explainability Lead
+    implementation_details: Log decision factor vectors and check notice display triggers for decision_inputs.
+  decision_outputs:
+    description: Enforce Decision Outputs for algorithmic decisions.
+    owner: Explainability Lead
+    implementation_details: Log decision factor vectors and check notice display triggers for decision_outputs.
+  transparency_validation:
+    description: Enforce Transparency Validation for algorithmic decisions.
+    owner: Explainability Lead
+    implementation_details: Log decision factor vectors and check notice display triggers for transparency_validation.
+  transparency_assurance:
+    description: Enforce Transparency Assurance for algorithmic decisions.
+    owner: Explainability Lead
+    implementation_details: Log decision factor vectors and check notice display triggers for transparency_assurance.
+stakeholder_disclosure_framework:
+  user_disclosures:
+    description: Govern User Disclosures disclosures across communication channels.
+    owner: Transparency Governor
+    implementation_details: Ensure channel endpoints display proper standard notices for user_disclosures.
+  regulator_disclosures:
+    description: Govern Regulator Disclosures disclosures across communication channels.
+    owner: Transparency Governor
+    implementation_details: Ensure channel endpoints display proper standard notices for regulator_disclosures.
+  auditor_disclosures:
+    description: Govern Auditor Disclosures disclosures across communication channels.
+    owner: Transparency Governor
+    implementation_details: Ensure channel endpoints display proper standard notices for auditor_disclosures.
+  operator_disclosures:
+    description: Govern Operator Disclosures disclosures across communication channels.
+    owner: Transparency Governor
+    implementation_details: Ensure channel endpoints display proper standard notices for operator_disclosures.
+  deployer_disclosures:
+    description: Govern Deployer Disclosures disclosures across communication channels.
+    owner: Transparency Governor
+    implementation_details: Ensure channel endpoints display proper standard notices for deployer_disclosures.
+  disclosure_validation:
+    description: Govern Disclosure Validation disclosures across communication channels.
+    owner: Transparency Governor
+    implementation_details: Ensure channel endpoints display proper standard notices for disclosure_validation.
+  disclosure_assurance:
+    description: Govern Disclosure Assurance disclosures across communication channels.
+    owner: Transparency Governor
+    implementation_details: Ensure channel endpoints display proper standard notices for disclosure_assurance.
+accountability_framework:
+  accountability_requirements:
+    description: Assign and track Accountability Requirements ownership registries.
+    owner: Assurance Auditor
+    implementation_details: Require cryptographic multi-sig authorization keys for accountability_requirements.
+  accountability_controls:
+    description: Assign and track Accountability Controls ownership registries.
+    owner: Assurance Auditor
+    implementation_details: Require cryptographic multi-sig authorization keys for accountability_controls.
+  accountability_assignments:
+    description: Assign and track Accountability Assignments ownership registries.
+    owner: Assurance Auditor
+    implementation_details: Require cryptographic multi-sig authorization keys for accountability_assignments.
+  ownership_models:
+    description: Assign and track Ownership Models ownership registries.
+    owner: Assurance Auditor
+    implementation_details: Require cryptographic multi-sig authorization keys for ownership_models.
+  responsibility_models:
+    description: Assign and track Responsibility Models ownership registries.
+    owner: Assurance Auditor
+    implementation_details: Require cryptographic multi-sig authorization keys for responsibility_models.
+  accountability_validation:
+    description: Assign and track Accountability Validation ownership registries.
+    owner: Assurance Auditor
+    implementation_details: Require cryptographic multi-sig authorization keys for accountability_validation.
+  accountability_assurance:
+    description: Assign and track Accountability Assurance ownership registries.
+    owner: Assurance Auditor
+    implementation_details: Require cryptographic multi-sig authorization keys for accountability_assurance.
+communication_framework:
+  communication_requirements:
+    description: Establish Communication Requirements protocols with external stakeholders.
+    owner: Transparency Governor
+    implementation_details: Deploy automated reporting templates and secure conduits for communication_requirements.
+  communication_controls:
+    description: Establish Communication Controls protocols with external stakeholders.
+    owner: Transparency Governor
+    implementation_details: Deploy automated reporting templates and secure conduits for communication_controls.
+  communication_channels:
+    description: Establish Communication Channels protocols with external stakeholders.
+    owner: Transparency Governor
+    implementation_details: Deploy automated reporting templates and secure conduits for communication_channels.
+  stakeholder_communications:
+    description: Establish Stakeholder Communications protocols with external stakeholders.
+    owner: Transparency Governor
+    implementation_details: Deploy automated reporting templates and secure conduits for stakeholder_communications.
+  regulatory_communications:
+    description: Establish Regulatory Communications protocols with external stakeholders.
+    owner: Transparency Governor
+    implementation_details: Deploy automated reporting templates and secure conduits for regulatory_communications.
+  communication_validation:
+    description: Establish Communication Validation protocols with external stakeholders.
+    owner: Transparency Governor
+    implementation_details: Deploy automated reporting templates and secure conduits for communication_validation.
+  communication_assurance:
+    description: Establish Communication Assurance protocols with external stakeholders.
+    owner: Transparency Governor
+    implementation_details: Deploy automated reporting templates and secure conduits for communication_assurance.
+trustworthiness_framework:
+  trust_principles:
+    - Transparency by design
+    - User comprehension and agency
+  trust_validation_methods:
+    - Automated feedback loops
+    - Independent third-party audit
+transparency_assurance_framework:
+  assurance_requirements:
+    - Cryptographic evidence attestation for all notice events
+  assurance_controls:
+    - Standardized notice template check
+  assurance_reviews:
+    - Quarterly regulatory package review
+  disclosure_reviews:
+    - Legibility and usability audit of notice banners
+  explainability_reviews:
+    - Stability check of feature attributions
+  assurance_validation:
+    - Independent fidelity validation pipeline
+  assurance_reporting:
+    - Publish transparency assurance dockets
+transparency_intelligence_framework:
+  intelligence_sources:
+    - GRC incident register
+    - Stakeholder feedback channels
+  transparency_gaps:
+    - High-latency in SHAP computation loops
+  explainability_gaps:
+    - Lack of local fidelity verification tools in staging
+  stakeholder_feedback:
+    - UI alerts are too technical for non-specialist users
+  communication_effectiveness:
+    - Track bounce rates on transparency disclosure portals
+  intelligence_validation:
+    - Verification of feedback capture rates
+  intelligence_assurance:
+    - External audit of user understanding metrics
+monitoring_framework:
+  monitoring_mode: CONTINUOUS_TELEMETRY
+  metrics_scope:
+    - Explanation latency
+    - Notice presentation accuracy
+validation_framework:
+  validation_strategy: STOCHASTIC_VERIFICATION
+  test_suites:
+    - explanation_fidelity_checks
+    - notice_rendering_validation
+evidence_intelligence:
+  evidence_sources:
+    - decision_engine_traces
+    - UI_notice_telemetry
+  evidence_types:
+    - EXPLANATION_TRACE
+    - DISCLOSURE_RECORD
+  transparency_evidence:
+    - Signed notice display logs
+  explainability_evidence:
+    - Shapley values database matrices
+  evidence_integrity:
+    - SHA256 hashes registered in audit ledger
+  evidence_lineage:
+    - Training pipeline to inference trace mapping
+  evidence_provenance:
+    - Cryptographic model cards registry
+  evidence_validation:
+    - Public key validation checks
+  evidence_confidence:
+    - Confidence score based on signature verifications
+  evidence_retention:
+    - Store validation tokens for 10 years
+telemetry:
+  telemetry_service: transparency_telemetry_agent
+  telemetry_frequency: REAL_TIME
+transparency_explainability_telemetry:
+  disclosure_events:
+    event_id: EVT-TE-REP-DISCLOSURE_E-61
+    event_source: transparency_metrics_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  explanation_events:
+    event_id: EVT-TE-REP-EXPLANATION_-61
+    event_source: transparency_metrics_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  reasoning_trace_events:
+    event_id: EVT-TE-REP-REASONING_TR-61
+    event_source: transparency_metrics_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  accountability_events:
+    event_id: EVT-TE-REP-ACCOUNTABILI-61
+    event_source: transparency_metrics_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  communication_events:
+    event_id: EVT-TE-REP-COMMUNICATIO-61
+    event_source: transparency_metrics_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  transparency_events:
+    event_id: EVT-TE-REP-TRANSPARENCY-61
+    event_source: transparency_metrics_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  assurance_events:
+    event_id: EVT-TE-REP-ASSURANCE_EV-61
+    event_source: transparency_metrics_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  stakeholder_feedback_events:
+    event_id: EVT-TE-REP-STAKEHOLDER_-61
+    event_source: transparency_metrics_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  governance_alerts:
+    event_id: EVT-TE-REP-GOVERNANCE_A-61
+    event_source: transparency_metrics_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  governance_indicators:
+    event_id: EVT-TE-REP-GOVERNANCE_I-61
+    event_source: transparency_metrics_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+metrics:
+  transparency_compliance_score:
+    metric_name: transparency_compliance_score
+    formula: sum(transparency_valid_events) / sum(transparency_total_events) * 96
+    target: '94%'
+    warning_threshold: '84%'
+    critical_threshold: '74%'
+    measurement_frequency: DAILY
+    owner: Explainability Lead
+    data_source: transparency_metrics_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for transparency_compliance_score
+  explainability_effectiveness_score:
+    metric_name: explainability_effectiveness_score
+    formula: sum(explainabili_valid_events) / sum(explainabili_total_events) * 100
+    target: '95%'
+    warning_threshold: '85%'
+    critical_threshold: '75%'
+    measurement_frequency: WEEKLY
+    owner: Transparency Governor
+    data_source: transparency_metrics_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for explainability_effectiveness_score
+  decision_traceability_score:
+    metric_name: decision_traceability_score
+    formula: sum(decision_tra_valid_events) / sum(decision_tra_total_events) * 99
+    target: '96%'
+    warning_threshold: '86%'
+    critical_threshold: '76%'
+    measurement_frequency: DAILY
+    owner: Transparency Governor
+    data_source: transparency_metrics_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for decision_traceability_score
+  stakeholder_disclosure_rate:
+    metric_name: stakeholder_disclosure_rate
+    formula: sum(stakeholder__valid_events) / sum(stakeholder__total_events) * 98
+    target: '97%'
+    warning_threshold: '87%'
+    critical_threshold: '77%'
+    measurement_frequency: WEEKLY
+    owner: Explainability Lead
+    data_source: transparency_metrics_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for stakeholder_disclosure_rate
+  reasoning_visibility_score:
+    metric_name: reasoning_visibility_score
+    formula: sum(reasoning_vi_valid_events) / sum(reasoning_vi_total_events) * 97
+    target: '98%'
+    warning_threshold: '88%'
+    critical_threshold: '78%'
+    measurement_frequency: DAILY
+    owner: Transparency Governor
+    data_source: transparency_metrics_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for reasoning_visibility_score
+  accountability_transparency_score:
+    metric_name: accountability_transparency_score
+    formula: sum(accountabili_valid_events) / sum(accountabili_total_events) * 96
+    target: '99%'
+    warning_threshold: '89%'
+    critical_threshold: '79%'
+    measurement_frequency: WEEKLY
+    owner: Transparency Governor
+    data_source: transparency_metrics_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for accountability_transparency_score
+  communication_effectiveness_score:
+    metric_name: communication_effectiveness_score
+    formula: sum(communicatio_valid_events) / sum(communicatio_total_events) * 100
+    target: '90%'
+    warning_threshold: '80%'
+    critical_threshold: '70%'
+    measurement_frequency: DAILY
+    owner: Explainability Lead
+    data_source: transparency_metrics_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for communication_effectiveness_score
+  transparency_assurance_score:
+    metric_name: transparency_assurance_score
+    formula: sum(transparency_valid_events) / sum(transparency_total_events) * 99
+    target: '91%'
+    warning_threshold: '81%'
+    critical_threshold: '71%'
+    measurement_frequency: WEEKLY
+    owner: Transparency Governor
+    data_source: transparency_metrics_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for transparency_assurance_score
+  stakeholder_understanding_score:
+    metric_name: stakeholder_understanding_score
+    formula: sum(stakeholder__valid_events) / sum(stakeholder__total_events) * 98
+    target: '92%'
+    warning_threshold: '82%'
+    critical_threshold: '72%'
+    measurement_frequency: DAILY
+    owner: Transparency Governor
+    data_source: transparency_metrics_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for stakeholder_understanding_score
+  transparency_maturity_score:
+    metric_name: transparency_maturity_score
+    formula: sum(transparency_valid_events) / sum(transparency_total_events) * 97
+    target: '93%'
+    warning_threshold: '83%'
+    critical_threshold: '73%'
+    measurement_frequency: WEEKLY
+    owner: Explainability Lead
+    data_source: transparency_metrics_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for transparency_maturity_score
+kpis:
+  - transparency_compliance_score
+  - explainability_effectiveness_score
+kris:
+  - low_fidelity_explanations_rate
+  - missed_notices_count
+thresholds:
+  transparency_compliance_score: 91%
+  explainability_effectiveness_score: 89%
+relationships:
+  transparency_links:
+    - source: technical_documentation/transparency_metrics_reporting
+      target: transparency_and_explainability/transparency_metrics_reporting
+      relationship_type: VERIFIES_TRANSPARENCY
+      confidence: 0.96
+      evidence: Integrity validation verification ticket for transparency_links
+  explainability_links:
+    - source: technical_documentation/transparency_metrics_reporting
+      target: transparency_and_explainability/transparency_metrics_reporting
+      relationship_type: VERIFIES_EXPLAINABILI
+      confidence: 0.96
+      evidence: Integrity validation verification ticket for explainability_links
+  disclosure_links:
+    - source: technical_documentation/transparency_metrics_reporting
+      target: transparency_and_explainability/transparency_metrics_reporting
+      relationship_type: VERIFIES_DISCLOSURE_L
+      confidence: 0.96
+      evidence: Integrity validation verification ticket for disclosure_links
+  accountability_links:
+    - source: technical_documentation/transparency_metrics_reporting
+      target: transparency_and_explainability/transparency_metrics_reporting
+      relationship_type: VERIFIES_ACCOUNTABILI
+      confidence: 0.96
+      evidence: Integrity validation verification ticket for accountability_links
+  evidence_links:
+    - source: technical_documentation/transparency_metrics_reporting
+      target: transparency_and_explainability/transparency_metrics_reporting
+      relationship_type: VERIFIES_EVIDENCE_LIN
+      confidence: 0.96
+      evidence: Integrity validation verification ticket for evidence_links
+  workflow_links:
+    - source: technical_documentation/transparency_metrics_reporting
+      target: transparency_and_explainability/transparency_metrics_reporting
+      relationship_type: VERIFIES_WORKFLOW_LIN
+      confidence: 0.96
+      evidence: Integrity validation verification ticket for workflow_links
+  governance_links:
+    - source: technical_documentation/transparency_metrics_reporting
+      target: transparency_and_explainability/transparency_metrics_reporting
+      relationship_type: VERIFIES_GOVERNANCE_L
+      confidence: 0.96
+      evidence: Integrity validation verification ticket for governance_links
+  traceability_links:
+    - source: technical_documentation/transparency_metrics_reporting
+      target: transparency_and_explainability/transparency_metrics_reporting
+      relationship_type: VERIFIES_TRACEABILITY
+      confidence: 0.96
+      evidence: Integrity validation verification ticket for traceability_links
+  assurance_links:
+    - source: technical_documentation/transparency_metrics_reporting
+      target: transparency_and_explainability/transparency_metrics_reporting
+      relationship_type: VERIFIES_ASSURANCE_LI
+      confidence: 0.96
+      evidence: Integrity validation verification ticket for assurance_links
+  compliance_links:
+    - source: technical_documentation/transparency_metrics_reporting
+      target: transparency_and_explainability/transparency_metrics_reporting
+      relationship_type: VERIFIES_COMPLIANCE_L
+      confidence: 0.96
+      evidence: Integrity validation verification ticket for compliance_links
+knowledge_graph:
+  nodes:
+    - id: transparency_metrics_reporting_node
+      label: Transparency Metrics Reporting
+  edges:
+    - source: transparency_metrics_reporting_node
+      target: transparency_node
+      label: GOVERNS
+crosswalks:
+  - standards: [ISO_42001, ISO_23894, NIST_AI_RMF]
+    mapping_status: COMPLIANT
+compliance_mapping:
+  eu_ai_act: Article 13, Article 14, Article 50
+  gdpr: Articles 13, 14, 15, 22
+integration_points:
+  transparency_obligations:
+    integration_path: d:\eu_ai_act\transparency_obligations\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_transparency_obligations_transparency_sync
+  human_oversight:
+    integration_path: d:\eu_ai_act\human_oversight\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_human_oversight_transparency_sync
+  risk_management:
+    integration_path: d:\eu_ai_act\risk_management\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_risk_management_transparency_sync
+  technical_documentation:
+    integration_path: d:\eu_ai_act\technical_documentation\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_technical_documentation_transparency_sync
+  privacy_and_fundamental_rights:
+    integration_path: d:\eu_ai_act\privacy_and_fundamental_rights\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_privacy_and_fundamental_rights_transparency_sync
+  high_risk_ai_systems:
+    integration_path: d:\eu_ai_act\high_risk_ai_systems\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_high_risk_ai_systems_transparency_sync
+  provider_obligations:
+    integration_path: d:\eu_ai_act\provider_obligations\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_provider_obligations_transparency_sync
+  deployer_obligations:
+    integration_path: d:\eu_ai_act\deployer_obligations\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_deployer_obligations_transparency_sync
+  foundation_models:
+    integration_path: d:\eu_ai_act\foundation_models\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_foundation_models_transparency_sync
+  general_purpose_ai:
+    integration_path: d:\eu_ai_act\general_purpose_ai\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_general_purpose_ai_transparency_sync
+  synthetic_media:
+    integration_path: d:\eu_ai_act\synthetic_media\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_synthetic_media_transparency_sync
+  governance_reporting:
+    integration_path: d:\eu_ai_act\governance_reporting\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_governance_reporting_transparency_sync
+  audit_and_enforcement:
+    integration_path: d:\eu_ai_act\audit_and_enforcement\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_audit_and_enforcement_transparency_sync
+  audit_and_forensics:
+    integration_path: d:\eu_ai_act\audit_and_forensics\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_audit_and_forensics_transparency_sync
+  evidence_and_attestation:
+    integration_path: d:\eu_ai_act\evidence_and_attestation\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_evidence_and_attestation_transparency_sync
+  conformity_assessment:
+    integration_path: d:\eu_ai_act\conformity_assessment\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_conformity_assessment_transparency_sync
+  operational_runtime_governance:
+    integration_path: d:\eu_ai_act\operational_runtime_governance\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_operational_runtime_governance_transparency_sync
+  core_governance:
+    integration_path: d:\eu_ai_act\core_governance\
+    sync_frequency: REAL_TIME
+    validation_interface: verify_core_governance_transparency_sync
+dependencies:
+  - transparency_portal_v1
+  - decision_tracking_library_v2
+outputs:
+  - plain_language_notice_template
+  - shap_explanation_json
+artifacts:
+  - transparency_report_docket.yaml
+  - model_card_supplement.yaml
+records:
+  - user_consent_logs
+  - audit_trail_database
+continuous_improvement:
+  review_cycle: SEMI_ANNUAL
+  feedback_channels:
+    - user_interface_reports
+    - auditor_workshops
+exceptions:
+  - path: bypass_due_to_national_security
+    approved_by: Chief Compliance Officer
+escalation:
+  - alert_level: critical_transparency_gap
+    conduit: slack_compliance_channel
+versioning:
+  current_version: 1.0.0
+  revision_history:
+    - version: 1.0.0
+      date: '2026-06-13'
+      author: Governance Architect
+      changes: Initial production release of transparency infrastructure.
+transparency_and_explainability_capabilities:
+  transparency_governance:
+    description: Manage and oversee Transparency Governance capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for transparency_governance.
+  explainability_governance:
+    description: Manage and oversee Explainability Governance capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for explainability_governance.
+  interpretability_governance:
+    description: Manage and oversee Interpretability Governance capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for interpretability_governance.
+  accountability_governance:
+    description: Manage and oversee Accountability Governance capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for accountability_governance.
+  disclosure_management:
+    description: Manage and oversee Disclosure Management capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for disclosure_management.
+  decision_transparency:
+    description: Manage and oversee Decision Transparency capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for decision_transparency.
+  model_transparency:
+    description: Manage and oversee Model Transparency capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for model_transparency.
+  system_transparency:
+    description: Manage and oversee System Transparency capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for system_transparency.
+  process_transparency:
+    description: Manage and oversee Process Transparency capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for process_transparency.
+  explainability_management:
+    description: Manage and oversee Explainability Management capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for explainability_management.
+  interpretability_management:
+    description: Manage and oversee Interpretability Management capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for interpretability_management.
+  justification_management:
+    description: Manage and oversee Justification Management capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for justification_management.
+  reasoning_visibility:
+    description: Manage and oversee Reasoning Visibility capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for reasoning_visibility.
+  stakeholder_communication:
+    description: Manage and oversee Stakeholder Communication capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for stakeholder_communication.
+  user_information_management:
+    description: Manage and oversee User Information Management capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for user_information_management.
+  regulator_information_management:
+    description: Manage and oversee Regulator Information Management capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for regulator_information_management.
+  auditor_information_management:
+    description: Manage and oversee Auditor Information Management capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for auditor_information_management.
+  traceability_management:
+    description: Manage and oversee Traceability Management capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for traceability_management.
+  accountability_management:
+    description: Manage and oversee Accountability Management capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for accountability_management.
+  trustworthiness_management:
+    description: Manage and oversee Trustworthiness Management capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for trustworthiness_management.
+  confidence_management:
+    description: Manage and oversee Confidence Management capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for confidence_management.
+  governance_intelligence:
+    description: Manage and oversee Governance Intelligence capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for governance_intelligence.
+  transparency_intelligence:
+    description: Manage and oversee Transparency Intelligence capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for transparency_intelligence.
+  transparency_maturity:
+    description: Manage and oversee Transparency Maturity capabilities under Transparency Metrics Reporting rules.
+    controls:
+      - CTRL-TE-REP-TRANSP-DT-61
+      - CTRL-TE-REP-TRANSP-EA-14
+    assessment_method: Verify trace logs and audit scores for transparency_maturity.
+altai_transparency_and_explainability:
+  autonomous_agent_transparency:
+    agent_identity_transparency: |
+      Establish and run transparency mechanisms for Agent Identity Transparency under Transparency Metrics Reporting deployment guidelines.
+    agent_role_transparency: |
+      Establish and run transparency mechanisms for Agent Role Transparency under Transparency Metrics Reporting deployment guidelines.
+    agent_behavior_transparency: |
+      Establish and run transparency mechanisms for Agent Behavior Transparency under Transparency Metrics Reporting deployment guidelines.
+    agent_accountability_transparency: |
+      Establish and run transparency mechanisms for Agent Accountability Transparency under Transparency Metrics Reporting deployment guidelines.
+  multi_agent_transparency:
+    swarm_visibility: |
+      Establish and run transparency mechanisms for Swarm Visibility under Transparency Metrics Reporting deployment guidelines.
+    coordination_transparency: |
+      Establish and run transparency mechanisms for Coordination Transparency under Transparency Metrics Reporting deployment guidelines.
+    interaction_transparency: |
+      Establish and run transparency mechanisms for Interaction Transparency under Transparency Metrics Reporting deployment guidelines.
+    ecosystem_accountability: |
+      Establish and run transparency mechanisms for Ecosystem Accountability under Transparency Metrics Reporting deployment guidelines.
+  reasoning_transparency:
+    reasoning_visibility: |
+      Establish and run transparency mechanisms for Reasoning Visibility under Transparency Metrics Reporting deployment guidelines.
+    reasoning_traceability: |
+      Establish and run transparency mechanisms for Reasoning Traceability under Transparency Metrics Reporting deployment guidelines.
+    reasoning_explanations: |
+      Establish and run transparency mechanisms for Reasoning Explanations under Transparency Metrics Reporting deployment guidelines.
+    reasoning_accountability: |
+      Establish and run transparency mechanisms for Reasoning Accountability under Transparency Metrics Reporting deployment guidelines.
+  memory_transparency:
+    memory_usage_visibility: |
+      Establish and run transparency mechanisms for Memory Usage Visibility under Transparency Metrics Reporting deployment guidelines.
+    memory_source_traceability: |
+      Establish and run transparency mechanisms for Memory Source Traceability under Transparency Metrics Reporting deployment guidelines.
+    memory_explainability: |
+      Establish and run transparency mechanisms for Memory Explainability under Transparency Metrics Reporting deployment guidelines.
+    memory_accountability: |
+      Establish and run transparency mechanisms for Memory Accountability under Transparency Metrics Reporting deployment guidelines.
+  tool_transparency:
+    tool_usage_visibility: |
+      Establish and run transparency mechanisms for Tool Usage Visibility under Transparency Metrics Reporting deployment guidelines.
+    tool_decision_traceability: |
+      Establish and run transparency mechanisms for Tool Decision Traceability under Transparency Metrics Reporting deployment guidelines.
+    tool_accountability: |
+      Establish and run transparency mechanisms for Tool Accountability under Transparency Metrics Reporting deployment guidelines.
+    tool_explainability: |
+      Establish and run transparency mechanisms for Tool Explainability under Transparency Metrics Reporting deployment guidelines.
+  orchestration_transparency:
+    workflow_visibility: |
+      Establish and run transparency mechanisms for Workflow Visibility under Transparency Metrics Reporting deployment guidelines.
+    orchestration_traceability: |
+      Establish and run transparency mechanisms for Orchestration Traceability under Transparency Metrics Reporting deployment guidelines.
+    orchestration_explanations: |
+      Establish and run transparency mechanisms for Orchestration Explanations under Transparency Metrics Reporting deployment guidelines.
+    orchestration_accountability: |
+      Establish and run transparency mechanisms for Orchestration Accountability under Transparency Metrics Reporting deployment guidelines.
+  foundation_model_transparency:
+    capability_disclosures: |
+      Establish and run transparency mechanisms for Capability Disclosures under Transparency Metrics Reporting deployment guidelines.
+    limitation_disclosures: |
+      Establish and run transparency mechanisms for Limitation Disclosures under Transparency Metrics Reporting deployment guidelines.
+    systemic_risk_disclosures: |
+      Establish and run transparency mechanisms for Systemic Risk Disclosures under Transparency Metrics Reporting deployment guidelines.
+    accountability_disclosures: |
+      Establish and run transparency mechanisms for Accountability Disclosures under Transparency Metrics Reporting deployment guidelines.
+  gpai_transparency:
+    ecosystem_visibility: |
+      Establish and run transparency mechanisms for Ecosystem Visibility under Transparency Metrics Reporting deployment guidelines.
+    societal_impact_disclosures: |
+      Establish and run transparency mechanisms for Societal Impact Disclosures under Transparency Metrics Reporting deployment guidelines.
+    systemic_risk_visibility: |
+      Establish and run transparency mechanisms for Systemic Risk Visibility under Transparency Metrics Reporting deployment guidelines.
+    accountability_assurance: |
+      Establish and run transparency mechanisms for Accountability Assurance under Transparency Metrics Reporting deployment guidelines.
+explainability_taxonomy:
+  local_explainability:
+    definition: |
+      Definition of Local Explainability specifically for Transparency Metrics Reporting operations.
+    objectives:
+      - Verify explainability compliance for local_explainability
+    stakeholders:
+      - Explainability Lead
+    validation_requirements:
+      - Run explanation verification checkers for local_explainability
+    evidence_requirements:
+      - Attestation trace for local_explainability
+  global_explainability:
+    definition: |
+      Definition of Global Explainability specifically for Transparency Metrics Reporting operations.
+    objectives:
+      - Verify explainability compliance for global_explainability
+    stakeholders:
+      - Explainability Lead
+    validation_requirements:
+      - Run explanation verification checkers for global_explainability
+    evidence_requirements:
+      - Attestation trace for global_explainability
+  decision_explainability:
+    definition: |
+      Definition of Decision Explainability specifically for Transparency Metrics Reporting operations.
+    objectives:
+      - Verify explainability compliance for decision_explainability
+    stakeholders:
+      - Explainability Lead
+    validation_requirements:
+      - Run explanation verification checkers for decision_explainability
+    evidence_requirements:
+      - Attestation trace for decision_explainability
+  prediction_explainability:
+    definition: |
+      Definition of Prediction Explainability specifically for Transparency Metrics Reporting operations.
+    objectives:
+      - Verify explainability compliance for prediction_explainability
+    stakeholders:
+      - Explainability Lead
+    validation_requirements:
+      - Run explanation verification checkers for prediction_explainability
+    evidence_requirements:
+      - Attestation trace for prediction_explainability
+  recommendation_explainability:
+    definition: |
+      Definition of Recommendation Explainability specifically for Transparency Metrics Reporting operations.
+    objectives:
+      - Verify explainability compliance for recommendation_explainability
+    stakeholders:
+      - Explainability Lead
+    validation_requirements:
+      - Run explanation verification checkers for recommendation_explainability
+    evidence_requirements:
+      - Attestation trace for recommendation_explainability
+  behavioral_explainability:
+    definition: |
+      Definition of Behavioral Explainability specifically for Transparency Metrics Reporting operations.
+    objectives:
+      - Verify explainability compliance for behavioral_explainability
+    stakeholders:
+      - Explainability Lead
+    validation_requirements:
+      - Run explanation verification checkers for behavioral_explainability
+    evidence_requirements:
+      - Attestation trace for behavioral_explainability
+  process_explainability:
+    definition: |
+      Definition of Process Explainability specifically for Transparency Metrics Reporting operations.
+    objectives:
+      - Verify explainability compliance for process_explainability
+    stakeholders:
+      - Explainability Lead
+    validation_requirements:
+      - Run explanation verification checkers for process_explainability
+    evidence_requirements:
+      - Attestation trace for process_explainability
+  reasoning_explainability:
+    definition: |
+      Definition of Reasoning Explainability specifically for Transparency Metrics Reporting operations.
+    objectives:
+      - Verify explainability compliance for reasoning_explainability
+    stakeholders:
+      - Explainability Lead
+    validation_requirements:
+      - Run explanation verification checkers for reasoning_explainability
+    evidence_requirements:
+      - Attestation trace for reasoning_explainability
+  operational_explainability:
+    definition: |
+      Definition of Operational Explainability specifically for Transparency Metrics Reporting operations.
+    objectives:
+      - Verify explainability compliance for operational_explainability
+    stakeholders:
+      - Explainability Lead
+    validation_requirements:
+      - Run explanation verification checkers for operational_explainability
+    evidence_requirements:
+      - Attestation trace for operational_explainability
+  compliance_explainability:
+    definition: |
+      Definition of Compliance Explainability specifically for Transparency Metrics Reporting operations.
+    objectives:
+      - Verify explainability compliance for compliance_explainability
+    stakeholders:
+      - Explainability Lead
+    validation_requirements:
+      - Run explanation verification checkers for compliance_explainability
+    evidence_requirements:
+      - Attestation trace for compliance_explainability
+transparency_taxonomy:
+  system_transparency:
+    definition: |
+      Definition of System Transparency specifically for Transparency Metrics Reporting operations.
+    disclosure_requirements:
+      - Render disclosures for system_transparency under standards
+    stakeholder_requirements:
+      - Access to plain-text summaries for system_transparency
+    validation_requirements:
+      - Confirm presentation format for system_transparency
+    evidence_requirements:
+      - Signed proof of system_transparency notice rendering
+  model_transparency:
+    definition: |
+      Definition of Model Transparency specifically for Transparency Metrics Reporting operations.
+    disclosure_requirements:
+      - Render disclosures for model_transparency under standards
+    stakeholder_requirements:
+      - Access to plain-text summaries for model_transparency
+    validation_requirements:
+      - Confirm presentation format for model_transparency
+    evidence_requirements:
+      - Signed proof of model_transparency notice rendering
+  data_transparency:
+    definition: |
+      Definition of Data Transparency specifically for Transparency Metrics Reporting operations.
+    disclosure_requirements:
+      - Render disclosures for data_transparency under standards
+    stakeholder_requirements:
+      - Access to plain-text summaries for data_transparency
+    validation_requirements:
+      - Confirm presentation format for data_transparency
+    evidence_requirements:
+      - Signed proof of data_transparency notice rendering
+  process_transparency:
+    definition: |
+      Definition of Process Transparency specifically for Transparency Metrics Reporting operations.
+    disclosure_requirements:
+      - Render disclosures for process_transparency under standards
+    stakeholder_requirements:
+      - Access to plain-text summaries for process_transparency
+    validation_requirements:
+      - Confirm presentation format for process_transparency
+    evidence_requirements:
+      - Signed proof of process_transparency notice rendering
+  operational_transparency:
+    definition: |
+      Definition of Operational Transparency specifically for Transparency Metrics Reporting operations.
+    disclosure_requirements:
+      - Render disclosures for operational_transparency under standards
+    stakeholder_requirements:
+      - Access to plain-text summaries for operational_transparency
+    validation_requirements:
+      - Confirm presentation format for operational_transparency
+    evidence_requirements:
+      - Signed proof of operational_transparency notice rendering
+  governance_transparency:
+    definition: |
+      Definition of Governance Transparency specifically for Transparency Metrics Reporting operations.
+    disclosure_requirements:
+      - Render disclosures for governance_transparency under standards
+    stakeholder_requirements:
+      - Access to plain-text summaries for governance_transparency
+    validation_requirements:
+      - Confirm presentation format for governance_transparency
+    evidence_requirements:
+      - Signed proof of governance_transparency notice rendering
+  accountability_transparency:
+    definition: |
+      Definition of Accountability Transparency specifically for Transparency Metrics Reporting operations.
+    disclosure_requirements:
+      - Render disclosures for accountability_transparency under standards
+    stakeholder_requirements:
+      - Access to plain-text summaries for accountability_transparency
+    validation_requirements:
+      - Confirm presentation format for accountability_transparency
+    evidence_requirements:
+      - Signed proof of accountability_transparency notice rendering
+  compliance_transparency:
+    definition: |
+      Definition of Compliance Transparency specifically for Transparency Metrics Reporting operations.
+    disclosure_requirements:
+      - Render disclosures for compliance_transparency under standards
+    stakeholder_requirements:
+      - Access to plain-text summaries for compliance_transparency
+    validation_requirements:
+      - Confirm presentation format for compliance_transparency
+    evidence_requirements:
+      - Signed proof of compliance_transparency notice rendering
+  risk_transparency:
+    definition: |
+      Definition of Risk Transparency specifically for Transparency Metrics Reporting operations.
+    disclosure_requirements:
+      - Render disclosures for risk_transparency under standards
+    stakeholder_requirements:
+      - Access to plain-text summaries for risk_transparency
+    validation_requirements:
+      - Confirm presentation format for risk_transparency
+    evidence_requirements:
+      - Signed proof of risk_transparency notice rendering
+  performance_transparency:
+    definition: |
+      Definition of Performance Transparency specifically for Transparency Metrics Reporting operations.
+    disclosure_requirements:
+      - Render disclosures for performance_transparency under standards
+    stakeholder_requirements:
+      - Access to plain-text summaries for performance_transparency
+    validation_requirements:
+      - Confirm presentation format for performance_transparency
+    evidence_requirements:
+      - Signed proof of performance_transparency notice rendering
+decision_explanation_framework:
+  decision_inputs:
+    description: Enforce Decision Inputs rules for decision validation.
+    owner: Explainability Lead
+    evidence: Log of decision factors for decision_inputs
+  decision_factors:
+    description: Enforce Decision Factors rules for decision validation.
+    owner: Explainability Lead
+    evidence: Log of decision factors for decision_factors
+  decision_outputs:
+    description: Enforce Decision Outputs rules for decision validation.
+    owner: Explainability Lead
+    evidence: Log of decision factors for decision_outputs
+  explanation_generation:
+    description: Enforce Explanation Generation rules for decision validation.
+    owner: Explainability Lead
+    evidence: Log of decision factors for explanation_generation
+  explanation_delivery:
+    description: Enforce Explanation Delivery rules for decision validation.
+    owner: Explainability Lead
+    evidence: Log of decision factors for explanation_delivery
+  explanation_validation:
+    description: Enforce Explanation Validation rules for decision validation.
+    owner: Explainability Lead
+    evidence: Log of decision factors for explanation_validation
+  explanation_assurance:
+    description: Enforce Explanation Assurance rules for decision validation.
+    owner: Explainability Lead
+    evidence: Log of decision factors for explanation_assurance
+reasoning_traceability_framework:
+  reasoning_inputs:
+    description: Enforce Reasoning Inputs rules for agent execution tracing.
+    owner: Transparency Governor
+    evidence: Signed reasoning log for reasoning_inputs
+  reasoning_steps:
+    description: Enforce Reasoning Steps rules for agent execution tracing.
+    owner: Transparency Governor
+    evidence: Signed reasoning log for reasoning_steps
+  reasoning_outputs:
+    description: Enforce Reasoning Outputs rules for agent execution tracing.
+    owner: Transparency Governor
+    evidence: Signed reasoning log for reasoning_outputs
+  traceability_controls:
+    description: Enforce Traceability Controls rules for agent execution tracing.
+    owner: Transparency Governor
+    evidence: Signed reasoning log for traceability_controls
+  traceability_validation:
+    description: Enforce Traceability Validation rules for agent execution tracing.
+    owner: Transparency Governor
+    evidence: Signed reasoning log for traceability_validation
+  traceability_assurance:
+    description: Enforce Traceability Assurance rules for agent execution tracing.
+    owner: Transparency Governor
+    evidence: Signed reasoning log for traceability_assurance
+  traceability_reporting:
+    description: Enforce Traceability Reporting rules for agent execution tracing.
+    owner: Transparency Governor
+    evidence: Signed reasoning log for traceability_reporting
+disclosure_communication_framework:
+  disclosure_triggers:
+    description: Operationalize Disclosure Triggers rules across channels.
+    owner: Transparency Governor
+    evidence: Signed communication log for disclosure_triggers
+  disclosure_obligations:
+    description: Operationalize Disclosure Obligations rules across channels.
+    owner: Transparency Governor
+    evidence: Signed communication log for disclosure_obligations
+  disclosure_channels:
+    description: Operationalize Disclosure Channels rules across channels.
+    owner: Transparency Governor
+    evidence: Signed communication log for disclosure_channels
+  communication_requirements:
+    description: Operationalize Communication Requirements rules across channels.
+    owner: Transparency Governor
+    evidence: Signed communication log for communication_requirements
+  stakeholder_requirements:
+    description: Operationalize Stakeholder Requirements rules across channels.
+    owner: Transparency Governor
+    evidence: Signed communication log for stakeholder_requirements
+  validation_controls:
+    description: Operationalize Validation Controls rules across channels.
+    owner: Transparency Governor
+    evidence: Signed communication log for validation_controls
+  assurance_controls:
+    description: Operationalize Assurance Controls rules across channels.
+    owner: Transparency Governor
+    evidence: Signed communication log for assurance_controls
+transparency_explainability_maturity_model:
+  level_1_reactive:
+    capabilities:
+      - Verify basic Transparency Metrics Reporting transparency notices.
+      - Track Transparency Metrics Reporting explainability fidelity.
+    transparency_capabilities:
+      - Display standardized notifications for Transparency Metrics Reporting.
+    explainability_capabilities:
+      - Generate feature attribution matrices for Transparency Metrics Reporting.
+    accountability_capabilities:
+      - Assign system owners and log release sign-offs for Transparency Metrics Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 1).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 1).
+  level_2_repeatable:
+    capabilities:
+      - Verify basic Transparency Metrics Reporting transparency notices.
+      - Track Transparency Metrics Reporting explainability fidelity.
+    transparency_capabilities:
+      - Display standardized notifications for Transparency Metrics Reporting.
+    explainability_capabilities:
+      - Generate feature attribution matrices for Transparency Metrics Reporting.
+    accountability_capabilities:
+      - Assign system owners and log release sign-offs for Transparency Metrics Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 2).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 2).
+  level_3_defined:
+    capabilities:
+      - Verify basic Transparency Metrics Reporting transparency notices.
+      - Track Transparency Metrics Reporting explainability fidelity.
+    transparency_capabilities:
+      - Display standardized notifications for Transparency Metrics Reporting.
+    explainability_capabilities:
+      - Generate feature attribution matrices for Transparency Metrics Reporting.
+    accountability_capabilities:
+      - Assign system owners and log release sign-offs for Transparency Metrics Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 3).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 3).
+  level_4_managed:
+    capabilities:
+      - Verify basic Transparency Metrics Reporting transparency notices.
+      - Track Transparency Metrics Reporting explainability fidelity.
+    transparency_capabilities:
+      - Display standardized notifications for Transparency Metrics Reporting.
+    explainability_capabilities:
+      - Generate feature attribution matrices for Transparency Metrics Reporting.
+    accountability_capabilities:
+      - Assign system owners and log release sign-offs for Transparency Metrics Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 4).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 4).
+  level_5_optimized:
+    capabilities:
+      - Verify basic Transparency Metrics Reporting transparency notices.
+      - Track Transparency Metrics Reporting explainability fidelity.
+    transparency_capabilities:
+      - Display standardized notifications for Transparency Metrics Reporting.
+    explainability_capabilities:
+      - Generate feature attribution matrices for Transparency Metrics Reporting.
+    accountability_capabilities:
+      - Assign system owners and log release sign-offs for Transparency Metrics Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 5).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 5).
+  level_6_assured:
+    capabilities:
+      - Verify basic Transparency Metrics Reporting transparency notices.
+      - Track Transparency Metrics Reporting explainability fidelity.
+    transparency_capabilities:
+      - Display standardized notifications for Transparency Metrics Reporting.
+    explainability_capabilities:
+      - Generate feature attribution matrices for Transparency Metrics Reporting.
+    accountability_capabilities:
+      - Assign system owners and log release sign-offs for Transparency Metrics Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 6).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 6).
+  level_7_transparency_by_design:
+    capabilities:
+      - Verify basic Transparency Metrics Reporting transparency notices.
+      - Track Transparency Metrics Reporting explainability fidelity.
+    transparency_capabilities:
+      - Display standardized notifications for Transparency Metrics Reporting.
+    explainability_capabilities:
+      - Generate feature attribution matrices for Transparency Metrics Reporting.
+    accountability_capabilities:
+      - Assign system owners and log release sign-offs for Transparency Metrics Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 7).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 7).
+eu_ai_act_transparency_mapping:
+  Article 13:
+    article: 'Article 13'
+    obligation: Enforce Article 13 compliance rules and disclosure procedures under Transparency Metrics Reporting.
+    implementation_method: Deploy automated validation checkers for Transparency Metrics Reporting workflows.
+    transparency_control: CTRL-TE-REP-TRANSP-DT-61
+    required_evidence: Signed daily compliance audit report mapping to Article 13.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Article 13 standards.
+  Article 14:
+    article: 'Article 14'
+    obligation: Enforce Article 14 compliance rules and disclosure procedures under Transparency Metrics Reporting.
+    implementation_method: Deploy automated validation checkers for Transparency Metrics Reporting workflows.
+    transparency_control: CTRL-TE-REP-TRANSP-DT-61
+    required_evidence: Signed daily compliance audit report mapping to Article 14.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Article 14 standards.
+  Article 50:
+    article: 'Article 50'
+    obligation: Enforce Article 50 compliance rules and disclosure procedures under Transparency Metrics Reporting.
+    implementation_method: Deploy automated validation checkers for Transparency Metrics Reporting workflows.
+    transparency_control: CTRL-TE-REP-TRANSP-DT-61
+    required_evidence: Signed daily compliance audit report mapping to Article 50.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Article 50 standards.
+  GDPR Articles 13, 14, 15, 22:
+    article: 'GDPR Articles 13, 14, 15, 22'
+    obligation: Enforce GDPR Articles 13, 14, 15, 22 compliance rules and disclosure procedures under Transparency Metrics Reporting.
+    implementation_method: Deploy automated validation checkers for Transparency Metrics Reporting workflows.
+    transparency_control: CTRL-TE-REP-TRANSP-DT-61
+    required_evidence: Signed daily compliance audit report mapping to GDPR Articles 13, 14, 15, 22.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against GDPR Articles 13, 14, 15, 22 standards.
+  Transparency Obligations:
+    article: 'Transparency Obligations'
+    obligation: Enforce Transparency Obligations compliance rules and disclosure procedures under Transparency Metrics Reporting.
+    implementation_method: Deploy automated validation checkers for Transparency Metrics Reporting workflows.
+    transparency_control: CTRL-TE-REP-TRANSP-DT-61
+    required_evidence: Signed daily compliance audit report mapping to Transparency Obligations.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Transparency Obligations standards.
+  Explainability Requirements:
+    article: 'Explainability Requirements'
+    obligation: Enforce Explainability Requirements compliance rules and disclosure procedures under Transparency Metrics Reporting.
+    implementation_method: Deploy automated validation checkers for Transparency Metrics Reporting workflows.
+    transparency_control: CTRL-TE-REP-TRANSP-DT-61
+    required_evidence: Signed daily compliance audit report mapping to Explainability Requirements.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Explainability Requirements standards.

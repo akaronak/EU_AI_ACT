@@ -1,0 +1,673 @@
+metadata:
+  id: CE-LR-LABTAX-001
+  name: labeling_taxonomy
+  title: Labeling Taxonomy
+  version: 1.0.0
+  status: production
+  owner: CE Marking and Conformity Office
+  maintainers:
+    - ce_conformity
+    - regulatory_affairs
+    - notified_body_liaison
+  created_date: 2026-06-12
+  last_updated: 2026-06-12
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: ce_marketing
+  skill_type: labeling_requirements
+  lifecycle_phase: operate
+  jurisdiction: EU_EEA
+  language: en
+  tags:
+    - labeling_requirements
+    - labeling_taxonomy
+    - ce_marking
+    - conformity
+    - eu_ai_act
+    - notified_body
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GPAI Obligations
+    - ISO 42001
+    - ISO 23894
+    - ISO 27001
+    - ISO 9001
+    - NIST AI RMF
+    - GDPR
+    - CE Marking Framework
+  skill_functions:
+    - governance_skill
+    - conformity_skill
+    - certification_skill
+    - compliance_skill
+    - evidence_skill
+    - assessment_skill
+    - regulatory_skill
+    - market_access_skill
+    - monitoring_skill
+    - orchestration_skill
+purpose:
+  >
+    Executable CE Marking skill for Labeling Taxonomy within ce_marketing/labeling_requirements.
+    Delivers conformity-assessment-ready, notified-body-ready, market-access-ready operations for
+    labeling controls, disclosure validation, transparency labeling, synthetic media labeling.
+    Functions as governance, conformity, certification, compliance, evidence, assessment,
+    regulatory, market-access, monitoring, and orchestration skill.
+scope:
+  >
+    All AI systems, technical documentation, conformity assessments, declarations of conformity,
+    notified body interactions, and market authorization activities governed by Labeling Taxonomy.
+objectives:
+  - Operationalize Labeling Taxonomy as executable CE marking conformity skill
+  - Enable notified-body-ready conformity validation for Labeling Taxonomy
+  - Maintain market-access-ready evidence for Labeling Taxonomy
+  - Integrate Labeling Taxonomy with declaration and market authorization lifecycle
+  - Support post-certification monitoring and recertification for Labeling Taxonomy
+definitions:
+  labeling_taxonomy_conformity_assertion:
+    Formal conformity statement for Labeling Taxonomy supported by indexed evidence.
+  labeling_taxonomy_notified_body_evidence:
+    Evidence package suitable for notified body conformity assessment review.
+  labeling_taxonomy_market_access_record:
+    Record demonstrating market authorization readiness for Labeling Taxonomy.
+taxonomy:
+  root: labeling_taxonomy_taxonomy
+  conformity_phase:
+    - preparation
+    - assessment
+    - declaration
+    - market_placement
+    - surveillance
+  labeling_taxonomy_status:
+    - draft
+    - validated
+    - approved
+    - published
+    - suspended
+governance:
+  policy_owner: Labeling Taxonomy Conformity Lead
+  oversight_body: CE Marking Governance Committee
+  domain: labeling_requirements
+roles_and_responsibilities:
+  labeling_taxonomy_conformity_officer:
+    responsibilities:
+      - Accountable for Labeling Taxonomy conformity outcomes
+  labeling_taxonomy_technical_documentation_lead:
+    responsibilities:
+      - Maintains Article 11 technical file for Labeling Taxonomy
+  notified_body_liaison:
+    responsibilities:
+      - Coordinates notified body assessment activities
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Conformity Assessment Director
+    - Regulatory Affairs
+    - Notified Body Liaison
+capabilities:
+  - id: CE-CAP-001
+    name: CE Marking Governance
+    status: production
+  - id: CE-CAP-002
+    name: Conformity Assessment
+    status: production
+  - id: CE-CAP-003
+    name: Conformity Validation
+    status: production
+  - id: CE-CAP-004
+    name: Technical Documentation Governance
+    status: production
+  - id: CE-CAP-005
+    name: Declaration of Conformity Governance
+    status: production
+  - id: CE-CAP-006
+    name: Notified Body Coordination
+    status: production
+  - id: CE-CAP-007
+    name: Market Authorization Readiness
+    status: production
+  - id: CE-CAP-008
+    name: Post-Certification Monitoring
+    status: production
+controls:
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_taxonomy_conformity_validation
+    control_category: preventive
+    control_objective: Validate conformity for Labeling Taxonomy
+    regulatory_rationale: labeling_taxonomy_conformity_validation implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_taxonomy_conformity_validation in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_taxonomy_conformity_validation_telemetry_stream
+    validation_method: labeling_taxonomy_conformity_validation_conformity_test
+    testing_method: labeling_taxonomy_conformity_validation_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_taxonomy_conformity_validation_execution_record
+    audit_considerations: Notified body may sample labeling_taxonomy_conformity_validation during conformity assessment.
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_taxonomy_evidence_integrity_assurance
+    control_category: detective
+    control_objective: Assure evidence integrity for Labeling Taxonomy
+    regulatory_rationale: labeling_taxonomy_evidence_integrity_assurance implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_taxonomy_evidence_integrity_assurance in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_taxonomy_evidence_integrity_assurance_telemetry_stream
+    validation_method: labeling_taxonomy_evidence_integrity_assurance_conformity_test
+    testing_method: labeling_taxonomy_evidence_integrity_assurance_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_taxonomy_evidence_integrity_assurance_execution_record
+    audit_considerations: Notified body may sample labeling_taxonomy_evidence_integrity_assurance during conformity assessment.
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_taxonomy_notified_body_readiness_gate
+    control_category: preventive
+    control_objective: Gate notified body readiness for Labeling Taxonomy
+    regulatory_rationale: labeling_taxonomy_notified_body_readiness_gate implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_taxonomy_notified_body_readiness_gate in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_taxonomy_notified_body_readiness_gate_telemetry_stream
+    validation_method: labeling_taxonomy_notified_body_readiness_gate_conformity_test
+    testing_method: labeling_taxonomy_notified_body_readiness_gate_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_taxonomy_notified_body_readiness_gate_execution_record
+    audit_considerations: Notified body may sample labeling_taxonomy_notified_body_readiness_gate during conformity assessment.
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_technical_documentation_completeness
+    control_category: detective
+    control_objective: Verify technical documentation for Labeling Taxonomy
+    regulatory_rationale: labeling_technical_documentation_completeness implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_technical_documentation_completeness in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_technical_documentation_completeness_telemetry_stream
+    validation_method: labeling_technical_documentation_completeness_conformity_test
+    testing_method: labeling_technical_documentation_completeness_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_technical_documentation_completeness_execution_record
+    audit_considerations: Notified body may sample labeling_technical_documentation_completeness during conformity assessment.
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_taxonomy_declaration_alignment_checker
+    control_category: detective
+    control_objective: Check declaration alignment for Labeling Taxonomy
+    regulatory_rationale: labeling_taxonomy_declaration_alignment_checker implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_taxonomy_declaration_alignment_checker in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_taxonomy_declaration_alignment_checker_telemetry_stream
+    validation_method: labeling_taxonomy_declaration_alignment_checker_conformity_test
+    testing_method: labeling_taxonomy_declaration_alignment_checker_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_taxonomy_declaration_alignment_checker_execution_record
+    audit_considerations: Notified body may sample labeling_taxonomy_declaration_alignment_checker during conformity assessment.
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_taxonomy_market_authorization_readiness
+    control_category: preventive
+    control_objective: Assure market authorization readiness for Labeling Taxonomy
+    regulatory_rationale: labeling_taxonomy_market_authorization_readiness implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_taxonomy_market_authorization_readiness in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_taxonomy_market_authorization_readiness_telemetry_stream
+    validation_method: labeling_taxonomy_market_authorization_readiness_conformity_test
+    testing_method: labeling_taxonomy_market_authorization_readiness_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_taxonomy_market_authorization_readiness_execution_record
+    audit_considerations: Notified body may sample labeling_taxonomy_market_authorization_readiness during conformity assessment.
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_taxonomy_regulatory_submission_validation
+    control_category: preventive
+    control_objective: Validate regulatory submissions for Labeling Taxonomy
+    regulatory_rationale: labeling_taxonomy_regulatory_submission_validation implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_taxonomy_regulatory_submission_validation in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_taxonomy_regulatory_submission_validation_telemetry_stream
+    validation_method: labeling_taxonomy_regulatory_submission_validation_conformity_test
+    testing_method: labeling_taxonomy_regulatory_submission_validation_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_taxonomy_regulatory_submission_validation_execution_record
+    audit_considerations: Notified body may sample labeling_taxonomy_regulatory_submission_validation during conformity assessment.
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_taxonomy_post_certification_monitoring_link
+    control_category: detective
+    control_objective: Link post-certification monitoring for Labeling Taxonomy
+    regulatory_rationale: labeling_taxonomy_post_certification_monitoring_link implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_taxonomy_post_certification_monitoring_link in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_taxonomy_post_certification_monitoring_link_telemetry_stream
+    validation_method: labeling_taxonomy_post_certification_monitoring_link_conformity_test
+    testing_method: labeling_taxonomy_post_certification_monitoring_link_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_taxonomy_post_certification_monitoring_link_execution_record
+    audit_considerations: Notified body may sample labeling_taxonomy_post_certification_monitoring_link during conformity assessment.
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_taxonomy_ce_marking_evidence_sealer
+    control_category: evidence
+    control_objective: Seal CE marking evidence for Labeling Taxonomy
+    regulatory_rationale: labeling_taxonomy_ce_marking_evidence_sealer implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_taxonomy_ce_marking_evidence_sealer in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_taxonomy_ce_marking_evidence_sealer_telemetry_stream
+    validation_method: labeling_taxonomy_ce_marking_evidence_sealer_conformity_test
+    testing_method: labeling_taxonomy_ce_marking_evidence_sealer_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_taxonomy_ce_marking_evidence_sealer_execution_record
+    audit_considerations: Notified body may sample labeling_taxonomy_ce_marking_evidence_sealer during conformity assessment.
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_taxonomy_conformity_assurance_attestation
+    control_category: audit
+    control_objective: Attest conformity controls for Labeling Taxonomy
+    regulatory_rationale: labeling_taxonomy_conformity_assurance_attestation implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_taxonomy_conformity_assurance_attestation in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_taxonomy_conformity_assurance_attestation_telemetry_stream
+    validation_method: labeling_taxonomy_conformity_assurance_attestation_conformity_test
+    testing_method: labeling_taxonomy_conformity_assurance_attestation_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_taxonomy_conformity_assurance_attestation_execution_record
+    audit_considerations: Notified body may sample labeling_taxonomy_conformity_assurance_attestation during conformity assessment.
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_taxonomy_cross_border_compliance_validator
+    control_category: preventive
+    control_objective: Validate cross-border compliance for Labeling Taxonomy
+    regulatory_rationale: labeling_taxonomy_cross_border_compliance_validator implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_taxonomy_cross_border_compliance_validator in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_taxonomy_cross_border_compliance_validator_telemetry_stream
+    validation_method: labeling_taxonomy_cross_border_compliance_validator_conformity_test
+    testing_method: labeling_taxonomy_cross_border_compliance_validator_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_taxonomy_cross_border_compliance_validator_execution_record
+    audit_considerations: Notified body may sample labeling_taxonomy_cross_border_compliance_validator during conformity assessment.
+  - control_id: CE-LABE-LABELING-LABELINGT
+    control_name: labeling_taxonomy_certification_lifecycle_tracker
+    control_category: detective
+    control_objective: Track certification lifecycle for Labeling Taxonomy
+    regulatory_rationale: labeling_taxonomy_certification_lifecycle_tracker implements EU AI Act conformity obligations for Labeling Taxonomy under labeling_requirements.
+    implementation_guidance: Deploy labeling_taxonomy_certification_lifecycle_tracker in labeling_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: labeling_taxonomy_certification_lifecycle_tracker_telemetry_stream
+    validation_method: labeling_taxonomy_certification_lifecycle_tracker_conformity_test
+    testing_method: labeling_taxonomy_certification_lifecycle_tracker_sampling_audit
+    control_owner: labeling_taxonomy_conformity_owner
+    evidence_generated: labeling_taxonomy_certification_lifecycle_tracker_execution_record
+    audit_considerations: Notified body may sample labeling_taxonomy_certification_lifecycle_tracker during conformity assessment.
+workflows:
+  - workflow_id: WF-CE-LABELING_TAXONOMY
+    workflow_name: labeling_taxonomy_conformity_workflow
+    workflow_owner: labeling_taxonomy_workflow_owner
+    trigger: labeling_taxonomy_conformity_event
+    inputs:
+      - labeling_taxonomy_conformity_context
+      - labeling_taxonomy_evidence_index
+    activities:
+      - labeling_taxonomy_intake
+      - labeling_taxonomy_validation
+      - labeling_taxonomy_evidence_review
+      - labeling_taxonomy_approval
+      - labeling_taxonomy_attestation
+      - labeling_taxonomy_closure
+    decision_points:
+      - labeling_taxonomy_conformity_decision
+      - labeling_taxonomy_escalation_decision
+    approvals:
+      - labeling_taxonomy_conformity_officer_approval
+    outputs:
+      - labeling_taxonomy_conformity_record
+    evidence_generated:
+      - labeling_taxonomy_workflow_log
+      - labeling_taxonomy_attestation
+    success_criteria:
+      - labeling_taxonomy_conformity_validated
+      - labeling_taxonomy_evidence_complete
+    failure_conditions:
+      - labeling_taxonomy_critical_gap_unresolved
+      - labeling_taxonomy_evidence_integrity_failure
+  - workflow_id: WF-CE-CE_MARKING_P
+    workflow_name: labeling_taxonomy_ce_marking_preparation_workflow
+    linked: true
+    trigger: labeling_taxonomy_ce_marking_preparation_initiated
+  - workflow_id: WF-CE-CONFORMITY_A
+    workflow_name: labeling_taxonomy_conformity_assessment_workflow
+    linked: true
+    trigger: labeling_taxonomy_conformity_assessment_initiated
+  - workflow_id: WF-CE-NOTIFIED_BOD
+    workflow_name: labeling_taxonomy_notified_body_engagement_workflow
+    linked: true
+    trigger: labeling_taxonomy_notified_body_engagement_initiated
+  - workflow_id: WF-CE-DECLARATION_
+    workflow_name: labeling_taxonomy_declaration_of_conformity_workflow
+    linked: true
+    trigger: labeling_taxonomy_declaration_of_conformity_initiated
+  - workflow_id: WF-CE-MARKET_AUTHO
+    workflow_name: labeling_taxonomy_market_authorization_workflow
+    linked: true
+    trigger: labeling_taxonomy_market_authorization_initiated
+  - workflow_id: WF-CE-POST_CERTIFI
+    workflow_name: labeling_taxonomy_post_certification_monitoring_workflow
+    linked: true
+    trigger: labeling_taxonomy_post_certification_monitoring_initiated
+  - workflow_id: WF-CE-RECERTIFICAT
+    workflow_name: labeling_taxonomy_recertification_workflow
+    linked: true
+    trigger: labeling_taxonomy_recertification_initiated
+decision_logic:
+  labeling_taxonomy_conformity_gate:
+    condition: labeling_taxonomy_readiness_score >= 0.95 AND labeling_taxonomy_evidence_complete == true
+    action: authorize_labeling_taxonomy_progression
+    approval_required: conformity_officer
+conformity_assessment:
+  assessment_scope: Labeling Taxonomy EU AI Act conformity dimensions
+  assessment_methodology: labeling_taxonomy_iso_19011_conformity_method
+  assessment_criteria: labeling_taxonomy_annex_iii_and_article_requirements
+  conformity_dimensions:
+    - technical
+    - organizational
+    - operational
+    - documentation
+  evidence_requirements:
+    - labeling_taxonomy_technical_file
+    - labeling_taxonomy_risk_assessment
+    - labeling_taxonomy_validation_records
+  acceptance_thresholds: labeling_taxonomy_readiness_score >= 0.95
+  rejection_thresholds: labeling_taxonomy_critical_gap == true
+metrics:
+  - metric_name: label_compliance_rate
+    metric_category: conformity
+    formula: computed_label_compliance_rate_from_labeling_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: labeling_taxonomy_metrics_owner
+    data_source: labeling_taxonomy_conformity_warehouse
+    evidence_generated: label_compliance_rate_measurement_record
+  - metric_name: transparency_label_coverage
+    metric_category: conformity
+    formula: computed_transparency_label_coverage_from_labeling_taxonomy_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: labeling_taxonomy_metrics_owner
+    data_source: labeling_taxonomy_conformity_warehouse
+    evidence_generated: transparency_label_coverage_measurement_record
+  - metric_name: synthetic_media_label_accuracy
+    metric_category: conformity
+    formula: computed_synthetic_media_label_accuracy_from_labeling_taxonomy_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: labeling_taxonomy_metrics_owner
+    data_source: labeling_taxonomy_conformity_warehouse
+    evidence_generated: synthetic_media_label_accuracy_measurement_record
+  - metric_name: consumer_information_completeness
+    metric_category: conformity
+    formula: computed_consumer_information_completeness_from_labeling_taxonomy_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: labeling_taxonomy_metrics_owner
+    data_source: labeling_taxonomy_conformity_warehouse
+    evidence_generated: consumer_information_completeness_measurement_record
+  - metric_name: multi_jurisdiction_label_harmonization_score
+    metric_category: conformity
+    formula: computed_multi_jurisdiction_label_harmonization_score_from_labeling_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: labeling_taxonomy_metrics_owner
+    data_source: labeling_taxonomy_conformity_warehouse
+    evidence_generated: multi_jurisdiction_label_harmonization_score_measurement_record
+  - metric_name: label_integrity_score
+    metric_category: conformity
+    formula: computed_label_integrity_score_from_labeling_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: labeling_taxonomy_metrics_owner
+    data_source: labeling_taxonomy_conformity_warehouse
+    evidence_generated: label_integrity_score_measurement_record
+kpis:
+  - label_compliance_rate
+  - transparency_label_coverage
+  - synthetic_media_label_accuracy
+  - consumer_information_completeness
+kris:
+  - multi_jurisdiction_label_harmonization_score
+  - label_integrity_score
+evidence_requirements:
+  - evidence_name: labeling_taxonomy_conformity_assessment_record
+    evidence_type: conformity
+    business_purpose: Support Labeling Taxonomy conformity assessment and CE marking
+    generation_method: automated_labeling_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: labeling_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: labeling_taxonomy_technical_documentation_extract
+    evidence_type: conformity
+    business_purpose: Support Labeling Taxonomy conformity assessment and CE marking
+    generation_method: automated_labeling_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: labeling_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: labeling_taxonomy_validation_report
+    evidence_type: conformity
+    business_purpose: Support Labeling Taxonomy conformity assessment and CE marking
+    generation_method: automated_labeling_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: labeling_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: labeling_taxonomy_notified_body_correspondence
+    evidence_type: conformity
+    business_purpose: Support Labeling Taxonomy conformity assessment and CE marking
+    generation_method: automated_labeling_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: labeling_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: labeling_taxonomy_declaration_reference
+    evidence_type: conformity
+    business_purpose: Support Labeling Taxonomy conformity assessment and CE marking
+    generation_method: automated_labeling_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: labeling_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: labeling_taxonomy_market_authorization_record
+    evidence_type: conformity
+    business_purpose: Support Labeling Taxonomy conformity assessment and CE marking
+    generation_method: automated_labeling_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: labeling_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+attestation_requirements:
+  - attestation: labeling_taxonomy_conformity_attestation
+    owner: conformity_officer
+    frequency: quarterly
+domain_reports:
+  - report_name: labeling_taxonomy_status_dashboard
+    report_owner: labeling_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: labeling_taxonomy_conformity_summary
+    report_owner: labeling_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: labeling_taxonomy_regulatory_brief
+    report_owner: labeling_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: labeling_taxonomy_executive_report
+    report_owner: labeling_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: labeling_taxonomy_assurance_pack
+    report_owner: labeling_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+altai_conformity:
+  agent_conformity:
+    validation: labeling_taxonomy_agent_conformity_validation
+    traceability: labeling_taxonomy_agent_conformity_traceability
+    monitoring: labeling_taxonomy_agent_conformity_monitoring
+  reasoning_conformity:
+    validation: labeling_taxonomy_reasoning_conformity_validation
+    traceability: labeling_taxonomy_reasoning_conformity_traceability
+    monitoring: labeling_taxonomy_reasoning_conformity_monitoring
+  memory_conformity:
+    validation: labeling_taxonomy_memory_conformity_validation
+    traceability: labeling_taxonomy_memory_conformity_traceability
+    monitoring: labeling_taxonomy_memory_conformity_monitoring
+  tool_conformity:
+    validation: labeling_taxonomy_tool_conformity_validation
+    traceability: labeling_taxonomy_tool_conformity_traceability
+    monitoring: labeling_taxonomy_tool_conformity_monitoring
+  foundation_model_conformity:
+    validation: labeling_taxonomy_foundation_model_conformity_validation
+    traceability: labeling_taxonomy_foundation_model_conformity_traceability
+    monitoring: labeling_taxonomy_foundation_model_conformity_monitoring
+  gpai_conformity:
+    validation: labeling_taxonomy_gpai_conformity_validation
+    traceability: labeling_taxonomy_gpai_conformity_traceability
+    monitoring: labeling_taxonomy_gpai_conformity_monitoring
+compliance_mapping:
+  article_13:
+    article: Article 13
+    obligation: Labeling Taxonomy conformity under Article 13
+    implementation_method: labeling_taxonomy_article_13_controls
+    evidence_required: [labeling_taxonomy_article_13_evidence]
+    validation_method: labeling_taxonomy_article_13_conformity_test
+    assurance_method: labeling_taxonomy_article_13_assurance_review
+  article_50:
+    article: Article 50
+    obligation: Labeling Taxonomy conformity under Article 50
+    implementation_method: labeling_taxonomy_article_50_controls
+    evidence_required: [labeling_taxonomy_article_50_evidence]
+    validation_method: labeling_taxonomy_article_50_conformity_test
+    assurance_method: labeling_taxonomy_article_50_assurance_review
+  article_52:
+    article: Article 52
+    obligation: Labeling Taxonomy conformity under Article 52
+    implementation_method: labeling_taxonomy_article_52_controls
+    evidence_required: [labeling_taxonomy_article_52_evidence]
+    validation_method: labeling_taxonomy_article_52_conformity_test
+    assurance_method: labeling_taxonomy_article_52_assurance_review
+  article_47:
+    article: Article 47
+    obligation: Labeling Taxonomy conformity under Article 47
+    implementation_method: labeling_taxonomy_article_47_controls
+    evidence_required: [labeling_taxonomy_article_47_evidence]
+    validation_method: labeling_taxonomy_article_47_conformity_test
+    assurance_method: labeling_taxonomy_article_47_assurance_review
+relationships:
+  conformity_links:
+    - source: labeling_taxonomy
+      target: labeling_taxonomy_to_declaration_of_conformity
+      relationship_type: governs
+      confidence: 0.95
+  certification_links:
+    - source: labeling_taxonomy
+      target: labeling_taxonomy_to_ce_certification
+      relationship_type: governs
+      confidence: 0.95
+  evidence_links:
+    - source: labeling_taxonomy
+      target: labeling_taxonomy_to_conformity_evidence
+      relationship_type: governs
+      confidence: 0.95
+  documentation_links:
+    - source: labeling_taxonomy
+      target: labeling_taxonomy_to_technical_documentation
+      relationship_type: governs
+      confidence: 0.95
+integration_points:
+  - system: provider_obligations
+    purpose: labeling_taxonomy_to_provider_obligations_conformity_sync
+    data_exchanged: [labeling_taxonomy_conformity_scores, labeling_taxonomy_evidence_refs]
+    consumed_artifacts: [provider_obligations_records]
+    produced_artifacts: [labeling_taxonomy_conformity_package]
+  - system: technical_documentation
+    purpose: labeling_taxonomy_to_technical_documentation_conformity_sync
+    data_exchanged: [labeling_taxonomy_conformity_scores, labeling_taxonomy_evidence_refs]
+    consumed_artifacts: [technical_documentation_records]
+    produced_artifacts: [labeling_taxonomy_conformity_package]
+  - system: risk_management
+    purpose: labeling_taxonomy_to_risk_management_conformity_sync
+    data_exchanged: [labeling_taxonomy_conformity_scores, labeling_taxonomy_evidence_refs]
+    consumed_artifacts: [risk_management_records]
+    produced_artifacts: [labeling_taxonomy_conformity_package]
+  - system: post_market_monitoring
+    purpose: labeling_taxonomy_to_post_market_monitoring_conformity_sync
+    data_exchanged: [labeling_taxonomy_conformity_scores, labeling_taxonomy_evidence_refs]
+    consumed_artifacts: [post_market_monitoring_records]
+    produced_artifacts: [labeling_taxonomy_conformity_package]
+  - system: audit_and_enforcement
+    purpose: labeling_taxonomy_to_audit_and_enforcement_conformity_sync
+    data_exchanged: [labeling_taxonomy_conformity_scores, labeling_taxonomy_evidence_refs]
+    consumed_artifacts: [audit_and_enforcement_records]
+    produced_artifacts: [labeling_taxonomy_conformity_package]
+attestation_framework:
+  attestation_owner: labeling_taxonomy_conformity_officer
+  attestation_frequency: quarterly
+  attestation_evidence: [labeling_taxonomy_conformity_attestation, labeling_taxonomy_control_effectiveness_review]
+maturity_model:
+  level_1:
+    name: Initial
+    characteristics: Ad hoc conformity for Labeling Taxonomy
+  level_2:
+    name: Developing
+    characteristics: Documented procedures for Labeling Taxonomy
+  level_3:
+    name: Managed
+    characteristics: Standardized enterprise-wide for Labeling Taxonomy
+  level_4:
+    name: Advanced
+    characteristics: Measured with KPIs for Labeling Taxonomy
+  level_5:
+    name: Optimized
+    characteristics: Predictive conformity for Labeling Taxonomy
+risk_model:
+  risk_sources: [labeling_taxonomy_conformity_gap, labeling_taxonomy_evidence_failure, labeling_taxonomy_notified_body_finding]
+  risk_monitoring: labeling_taxonomy_conformity_risk_dashboard
+crosswalks:
+  eu_ai_act:
+    implementation: labeling_taxonomy_eu_ai_act_conformity_mapping
+    evidence: labeling_taxonomy_eu_ai_act_conformity_attestation
+  gdpr:
+    implementation: labeling_taxonomy_gdpr_conformity_mapping
+    evidence: labeling_taxonomy_gdpr_conformity_attestation
+  iso_42001:
+    implementation: labeling_taxonomy_iso_42001_conformity_mapping
+    evidence: labeling_taxonomy_iso_42001_conformity_attestation
+  iso_23894:
+    implementation: labeling_taxonomy_iso_23894_conformity_mapping
+    evidence: labeling_taxonomy_iso_23894_conformity_attestation
+  nist_ai_rmf:
+    implementation: labeling_taxonomy_nist_ai_rmf_conformity_mapping
+    evidence: labeling_taxonomy_nist_ai_rmf_conformity_attestation
+monitoring:
+  continuous: [labeling_taxonomy_conformity_telemetry, labeling_taxonomy_readiness_score_feed]
+continuous_improvement:
+  feedback_loop: labeling_taxonomy_conformity_retrospective
+escalation:
+  critical_path: chief_compliance_officer
+versioning:
+  current: 1.0.0

@@ -1,0 +1,1876 @@
+metadata:
+  id: AAE-EP-CRYEVI-001
+  name: cryptographic_evidence_integrity
+  title: Cryptographic Evidence Integrity
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: evidence_preservation
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - evidence_preservation
+    - cryptographic_evidence_integrity
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Cryptographic Evidence Integrity governance within
+    audit_and_enforcement/evidence_preservation, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for evidence lifecycle preservation with chain-of-custody
+    defensibility, hash anchoring, signature validation, and authenticity proofs, tamper detection
+    and cryptographic verification protocols. Integrates with the EU AI Act governance ecosystem
+    through machine-evaluable obligations, evidence preservation, and conformity-assessment-ready
+    artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Cryptographic Evidence Integrity across
+    enterprise and cross-border operations within audit_and_enforcement/evidence_preservation.
+objectives:
+  - Operationalize Cryptographic Evidence Integrity with regulator-defensible controls and evidence chains
+  - Enable automated validation of Cryptographic Evidence Integrity conformance across evidence_preservation
+  - Preserve audit-grade and forensic-grade records for all Cryptographic Evidence Integrity activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Cryptographic Evidence Integrity with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Cryptographic Evidence Integrity
+definitions:
+  cryptographic_evidence_integrity_governance_domain:
+    >
+      The operational jurisdiction of Cryptographic Evidence Integrity encompassing controlled audit,
+      enforcement, investigation, and evidence processes within evidence_preservation.
+  cryptographic_evidence_integrity_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Cryptographic Evidence Integrity
+      control effectiveness, process adherence, and regulatory conformity.
+  cryptographic_evidence_integrity_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Cryptographic Evidence Integrity decision logic.
+  cryptographic_evidence_integrity_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Cryptographic Evidence Integrity processes.
+  cryptographic_evidence_integrity_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Cryptographic Evidence Integrity operations.
+  cryptographic_evidence_integrity_conformity_assertion:
+    >
+      Formal statement that Cryptographic Evidence Integrity requirements are met, supported by
+      indexed evidence and validation attestations.
+taxonomy:
+  root: cryptographic_evidence_integrity_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  cryptographic_evidence_integrity_artifact_type:
+    - cryptographic_evidence_integrity_record
+    - cryptographic_evidence_integrity_log
+    - cryptographic_evidence_integrity_report
+    - cryptographic_evidence_integrity_attestation
+    - cryptographic_evidence_integrity_package
+  cryptographic_evidence_integrity_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Cryptographic Evidence Integrity Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: evidence_preservation
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - audit_traceability
+    - investigation_management
+    - governance_forensics
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - compliance_audits
+    - enforcement_actions
+    - reporting
+    - audit_and_enforcement/evidence_preservation/cryptographic_evidence_integrity.yaml
+  related_domains:
+    - audit_traceability
+    - governance_forensics
+    - investigation_management
+  related_skills:
+    - chain_of_custody
+    - cryptographic_evidence_integrity
+    - evidence_retention_policies
+    - cryptographic_evidence_integrity
+  parent_governance_objects:
+    - audit_metadata
+    - enforcement_framework
+  child_governance_objects:
+    - evidence_artifact
+    - custody_transfer_record
+    - cryptographic_evidence_integrity_governance_object
+  consumes_artifacts:
+    - audit_log
+    - investigation_record
+    - forensic_capture
+    - cryptographic_evidence_integrity_input_artifact
+  produces_artifacts:
+    - evidence_package
+    - integrity_attestation
+    - archival_manifest
+    - cryptographic_evidence_integrity_record
+    - cryptographic_evidence_integrity_report
+    - cryptographic_evidence_integrity_attestation
+  consumes_evidence:
+    - raw_digital_artifact
+    - runtime_snapshot
+    - cryptographic_evidence_integrity_source_evidence
+  produces_evidence:
+    - chain_of_custody_record
+    - cryptographic_hash_anchor
+    - retention_disposition_log
+    - cryptographic_evidence_integrity_audit_evidence
+    - cryptographic_evidence_integrity_validation_evidence
+    - cryptographic_evidence_integrity_enforcement_evidence
+  governance_dependencies:
+    - data_governance
+    - cybersecurity
+  regulatory_dependencies:
+    - eu_ai_act_article_12
+    - eu_ai_act_article_18
+    - gdpr_article_5
+  risk_dependencies:
+    - ai_liability
+  control_dependencies:
+    - audit_traceability
+    - cryptographic_evidence_integrity_control_register
+roles_and_responsibilities:
+  cryptographic_evidence_integrity_owner:
+    responsibilities:
+      - Accountable for Cryptographic Evidence Integrity strategy, control design, and regulatory alignment
+  cryptographic_evidence_integrity_operator:
+    responsibilities:
+      - Executes Cryptographic Evidence Integrity workflows and maintains operational records
+  cryptographic_evidence_integrity_auditor:
+    responsibilities:
+      - Independently validates Cryptographic Evidence Integrity control effectiveness and evidence sufficiency
+  cryptographic_evidence_integrity_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Cryptographic Evidence Integrity investigations
+  cryptographic_evidence_integrity_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Cryptographic Evidence Integrity
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-033
+    name: Evidence Preservation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-034
+    name: Digital Evidence Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-035
+    name: Chain of Custody
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-036
+    name: Evidence Integrity Validation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-037
+    name: Evidence Archival
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-038
+    name: Evidence Reconstruction
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-039
+    name: Audit Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-040
+    name: Runtime Traceability
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-EVI-CRYPTOGRAP-HASHCHAINI
+    control_name: hash_chain_integrity_anchoring
+    control_category: preventive
+    control_objective: Anchor evidence artifacts with SHA-256 hash chains at point of capture
+    governance_rationale:
+      >
+        hash_chain_integrity_anchoring is required to govern Cryptographic Evidence Integrity risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement hash_chain_integrity_anchoring as automated policy in cryptographic_evidence_integrity
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: hash_chain_integrity_anchoring_continuous_telemetry_dashboard
+    validation_method: hash_chain_integrity_anchoring_quarterly_design_and_operating_effectiveness_test
+    testing_method: hash_chain_integrity_anchoring_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: hash_chain_integrity_anchoring_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify hash_chain_integrity_anchoring design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        hash_chain_integrity_anchoring outputs may trigger enforcement under
+        cryptographic_evidence_integrity escalation rules.
+  - control_id: AAE-EVI-CRYPTOGRAP-DIGITALSIGN
+    control_name: digital_signature_verification
+    control_category: detective
+    control_objective: Verify digital signatures on evidence packages before admissibility acceptance
+    governance_rationale:
+      >
+        digital_signature_verification is required to govern Cryptographic Evidence Integrity risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement digital_signature_verification as automated policy in cryptographic_evidence_integrity
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: digital_signature_verification_continuous_telemetry_dashboard
+    validation_method: digital_signature_verification_quarterly_design_and_operating_effectiveness_test
+    testing_method: digital_signature_verification_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: digital_signature_verification_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify digital_signature_verification design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        digital_signature_verification outputs may trigger enforcement under
+        cryptographic_evidence_integrity escalation rules.
+  - control_id: AAE-EVI-CRYPTOGRAP-TAMPEREVIDE
+    control_name: tamper_evidence_detection
+    control_category: detective
+    control_objective: Detect tamper evidence through continuous hash chain recomputation
+    governance_rationale:
+      >
+        tamper_evidence_detection is required to govern Cryptographic Evidence Integrity risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected evidence preservation
+        failures.
+    implementation_guidance:
+      >
+        Implement tamper_evidence_detection as automated policy in cryptographic_evidence_integrity
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: tamper_evidence_detection_continuous_telemetry_dashboard
+    validation_method: tamper_evidence_detection_quarterly_design_and_operating_effectiveness_test
+    testing_method: tamper_evidence_detection_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: tamper_evidence_detection_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify tamper_evidence_detection design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        tamper_evidence_detection outputs may trigger enforcement under cryptographic_evidence_integrity
+        escalation rules.
+  - control_id: AAE-EVI-CRYPTOGRAP-TIMESTAMPAU
+    control_name: timestamp_authority_validation
+    control_category: preventive
+    control_objective: Validate trusted timestamp authority seals on forensic evidence artifacts
+    governance_rationale:
+      >
+        timestamp_authority_validation is required to govern Cryptographic Evidence Integrity risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement timestamp_authority_validation as automated policy in cryptographic_evidence_integrity
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: timestamp_authority_validation_continuous_telemetry_dashboard
+    validation_method: timestamp_authority_validation_quarterly_design_and_operating_effectiveness_test
+    testing_method: timestamp_authority_validation_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: timestamp_authority_validation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify timestamp_authority_validation design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        timestamp_authority_validation outputs may trigger enforcement under
+        cryptographic_evidence_integrity escalation rules.
+  - control_id: AAE-EVI-CRYPTOGRAP-CRYPTOGRAPHI
+    control_name: cryptographic_key_custody_control
+    control_category: preventive
+    control_objective: Control custody of cryptographic signing keys used for evidence integrity
+    governance_rationale:
+      >
+        cryptographic_key_custody_control is required to govern Cryptographic Evidence Integrity risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement cryptographic_key_custody_control as automated policy in
+        cryptographic_evidence_integrity orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: cryptographic_key_custody_control_continuous_telemetry_dashboard
+    validation_method:
+      cryptographic_key_custody_control_quarterly_design_and_operating_effectiveness_test
+    testing_method: cryptographic_key_custody_control_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: cryptographic_key_custody_control_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify cryptographic_key_custody_control design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        cryptographic_key_custody_control outputs may trigger enforcement under
+        cryptographic_evidence_integrity escalation rules.
+  - control_id: AAE-EVI-CRYPTOGRAP-INTEGRITYBR
+    control_name: integrity_breach_quarantine
+    control_category: corrective
+    control_objective: Quarantine evidence artifacts upon integrity breach pending forensic review
+    governance_rationale:
+      >
+        integrity_breach_quarantine is required to govern Cryptographic Evidence Integrity risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement integrity_breach_quarantine as automated policy in cryptographic_evidence_integrity
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: integrity_breach_quarantine_continuous_telemetry_dashboard
+    validation_method: integrity_breach_quarantine_quarterly_design_and_operating_effectiveness_test
+    testing_method: integrity_breach_quarantine_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: integrity_breach_quarantine_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify integrity_breach_quarantine design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        integrity_breach_quarantine outputs may trigger enforcement under
+        cryptographic_evidence_integrity escalation rules.
+  - control_id: AAE-EVI-CRYPTOGRAP-CROSSSYSTEM
+    control_name: cross_system_hash_reconciliation
+    control_category: detective
+    control_objective: Reconcile hash values across replicated evidence stores for consistency
+    governance_rationale:
+      >
+        cross_system_hash_reconciliation is required to govern Cryptographic Evidence Integrity risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement cross_system_hash_reconciliation as automated policy in
+        cryptographic_evidence_integrity orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: cross_system_hash_reconciliation_continuous_telemetry_dashboard
+    validation_method:
+      cross_system_hash_reconciliation_quarterly_design_and_operating_effectiveness_test
+    testing_method: cross_system_hash_reconciliation_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: cross_system_hash_reconciliation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify cross_system_hash_reconciliation design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        cross_system_hash_reconciliation outputs may trigger enforcement under
+        cryptographic_evidence_integrity escalation rules.
+  - control_id: AAE-EVI-CRYPTOGRAP-EVIDENCEAUT
+    control_name: evidence_authenticity_attestation
+    control_category: audit
+    control_objective:
+      Attest authenticity of cryptographically protected evidence for legal proceedings
+    governance_rationale:
+      >
+        evidence_authenticity_attestation is required to govern Cryptographic Evidence Integrity risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_authenticity_attestation as automated policy in
+        cryptographic_evidence_integrity orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: evidence_authenticity_attestation_continuous_telemetry_dashboard
+    validation_method:
+      evidence_authenticity_attestation_quarterly_design_and_operating_effectiveness_test
+    testing_method: evidence_authenticity_attestation_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: evidence_authenticity_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_authenticity_attestation design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_authenticity_attestation outputs may trigger enforcement under
+        cryptographic_evidence_integrity escalation rules.
+  - control_id: AAE-EVI-CRYPTOGRAP-ALGORITHMAG
+    control_name: algorithm_agility_migration
+    control_category: corrective
+    control_objective:
+      Migrate evidence integrity algorithms under approved cryptographic agility policy
+    governance_rationale:
+      >
+        algorithm_agility_migration is required to govern Cryptographic Evidence Integrity risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement algorithm_agility_migration as automated policy in cryptographic_evidence_integrity
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: algorithm_agility_migration_continuous_telemetry_dashboard
+    validation_method: algorithm_agility_migration_quarterly_design_and_operating_effectiveness_test
+    testing_method: algorithm_agility_migration_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: algorithm_agility_migration_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify algorithm_agility_migration design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        algorithm_agility_migration outputs may trigger enforcement under
+        cryptographic_evidence_integrity escalation rules.
+  - control_id: AAE-EVI-CRYPTOGRAP-MERKLETREE
+    control_name: merkle_tree_evidence_indexing
+    control_category: preventive
+    control_objective: Index evidence collections in Merkle trees for efficient integrity verification
+    governance_rationale:
+      >
+        merkle_tree_evidence_indexing is required to govern Cryptographic Evidence Integrity risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement merkle_tree_evidence_indexing as automated policy in cryptographic_evidence_integrity
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: merkle_tree_evidence_indexing_continuous_telemetry_dashboard
+    validation_method: merkle_tree_evidence_indexing_quarterly_design_and_operating_effectiveness_test
+    testing_method: merkle_tree_evidence_indexing_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: merkle_tree_evidence_indexing_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify merkle_tree_evidence_indexing design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        merkle_tree_evidence_indexing outputs may trigger enforcement under
+        cryptographic_evidence_integrity escalation rules.
+  - control_id: AAE-EVI-CRYPTOGRAP-REGULATORIN
+    control_name: regulator_integrity_disclosure
+    control_category: reporting
+    control_objective: Disclose integrity verification results to regulators on demand within SLA
+    governance_rationale:
+      >
+        regulator_integrity_disclosure is required to govern Cryptographic Evidence Integrity risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement regulator_integrity_disclosure as automated policy in cryptographic_evidence_integrity
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: regulator_integrity_disclosure_continuous_telemetry_dashboard
+    validation_method: regulator_integrity_disclosure_quarterly_design_and_operating_effectiveness_test
+    testing_method: regulator_integrity_disclosure_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: regulator_integrity_disclosure_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulator_integrity_disclosure design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        regulator_integrity_disclosure outputs may trigger enforcement under
+        cryptographic_evidence_integrity escalation rules.
+  - control_id: AAE-EVI-CRYPTOGRAP-INTEGRITYMO
+    control_name: integrity_monitoring_telemetry
+    control_category: detective
+    control_objective: Stream integrity monitoring telemetry to SOC and governance dashboards
+    governance_rationale:
+      >
+        integrity_monitoring_telemetry is required to govern Cryptographic Evidence Integrity risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement integrity_monitoring_telemetry as automated policy in cryptographic_evidence_integrity
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: integrity_monitoring_telemetry_continuous_telemetry_dashboard
+    validation_method: integrity_monitoring_telemetry_quarterly_design_and_operating_effectiveness_test
+    testing_method: integrity_monitoring_telemetry_statistical_sampling_with_exception_tracking
+    control_owner: cryptographic_evidence_integrity_control_owner
+    evidence_generated: integrity_monitoring_telemetry_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify integrity_monitoring_telemetry design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        integrity_monitoring_telemetry outputs may trigger enforcement under
+        cryptographic_evidence_integrity escalation rules.
+requirements:
+  legal:
+    >
+      Cryptographic Evidence Integrity must satisfy legal requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, hash anchoring, signature validation, and
+      authenticity proofs, tamper detection and cryptographic verification protocols including
+      documented procedures, accountable roles, measurable SLAs, and evidence retention aligned with
+      EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Cryptographic Evidence Integrity must satisfy regulatory requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, hash anchoring, signature validation, and
+      authenticity proofs, tamper detection and cryptographic verification protocols including
+      documented procedures, accountable roles, measurable SLAs, and evidence retention aligned with
+      EU AI Act and ISO 19011.
+  technical:
+    >
+      Cryptographic Evidence Integrity must satisfy technical requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, hash anchoring, signature validation, and
+      authenticity proofs, tamper detection and cryptographic verification protocols including
+      documented procedures, accountable roles, measurable SLAs, and evidence retention aligned with
+      EU AI Act and ISO 19011.
+  operational:
+    >
+      Cryptographic Evidence Integrity must satisfy operational requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, hash anchoring, signature validation, and
+      authenticity proofs, tamper detection and cryptographic verification protocols including
+      documented procedures, accountable roles, measurable SLAs, and evidence retention aligned with
+      EU AI Act and ISO 19011.
+  audit:
+    >
+      Cryptographic Evidence Integrity must satisfy audit requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, hash anchoring, signature validation, and
+      authenticity proofs, tamper detection and cryptographic verification protocols including
+      documented procedures, accountable roles, measurable SLAs, and evidence retention aligned with
+      EU AI Act and ISO 19011.
+  forensic:
+    >
+      Cryptographic Evidence Integrity must satisfy forensic requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, hash anchoring, signature validation, and
+      authenticity proofs, tamper detection and cryptographic verification protocols including
+      documented procedures, accountable roles, measurable SLAs, and evidence retention aligned with
+      EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Cryptographic Evidence Integrity must satisfy enforcement requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, hash anchoring, signature validation, and
+      authenticity proofs, tamper detection and cryptographic verification protocols including
+      documented procedures, accountable roles, measurable SLAs, and evidence retention aligned with
+      EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Cryptographic Evidence Integrity with stage gates, RACI assignments, and
+      evidence capture.
+  triage:
+    >
+      Triage process for Cryptographic Evidence Integrity with stage gates, RACI assignments, and
+      evidence capture.
+  execution:
+    >
+      Execution process for Cryptographic Evidence Integrity with stage gates, RACI assignments, and
+      evidence capture.
+  validation:
+    >
+      Validation process for Cryptographic Evidence Integrity with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Cryptographic Evidence Integrity with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Cryptographic Evidence Integrity with stage gates, RACI assignments, and
+      evidence capture.
+  improvement:
+    >
+      Improvement process for Cryptographic Evidence Integrity with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: cryptographic_evidence_integrity_operational_lifecycle_workflow
+    workflow_trigger: cryptographic_evidence_integrity_governance_event_detected
+    workflow_steps:
+      - cryptographic_evidence_integrity_intake
+      - cryptographic_evidence_integrity_triage
+      - cryptographic_evidence_integrity_execution
+      - cryptographic_evidence_integrity_validation
+      - cryptographic_evidence_integrity_approval
+      - cryptographic_evidence_integrity_closure
+    approval_points:
+      - cryptographic_evidence_integrity_approval
+    escalation_points:
+      - cryptographic_evidence_integrity_triage
+    generated_evidence:
+      - cryptographic_evidence_integrity_workflow_log
+      - cryptographic_evidence_integrity_closure_attestation
+    completion_requirements:
+      - cryptographic_evidence_integrity_evidence_complete
+      - cryptographic_evidence_integrity_approvals_recorded
+  - workflow_name: cryptographic_evidence_integrity_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_cryptographic_evidence_integrity
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - cryptographic_evidence_integrity_regulatory_package
+      - cryptographic_evidence_integrity_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - cryptographic_evidence_integrity_governance_event_detected
+    - cryptographic_evidence_integrity_regulatory_inquiry
+    - cryptographic_evidence_integrity_integrity_breach
+    - cryptographic_evidence_integrity_enforcement_authorization
+  required_inputs:
+    - cryptographic_evidence_integrity_case_context
+    - cryptographic_evidence_integrity_evidence_index
+    - cryptographic_evidence_integrity_risk_assessment
+  workflow_steps:
+    - cryptographic_evidence_integrity_intake
+    - cryptographic_evidence_integrity_triage
+    - cryptographic_evidence_integrity_execution
+    - cryptographic_evidence_integrity_validation
+    - cryptographic_evidence_integrity_approval
+    - cryptographic_evidence_integrity_closure
+  validation_steps:
+    - cryptographic_evidence_integrity_evidence_sufficiency_check
+    - cryptographic_evidence_integrity_integrity_verification
+  approval_steps:
+    - cryptographic_evidence_integrity_approval
+  control_checkpoints:
+    - cryptographic_evidence_integrity_intake_gate
+    - cryptographic_evidence_integrity_evidence_gate
+    - cryptographic_evidence_integrity_decision_gate
+  evidence_generation:
+    - cryptographic_evidence_integrity_workflow_log
+    - cryptographic_evidence_integrity_closure_attestation
+  decision_points:
+    - cryptographic_evidence_integrity_severity_classification
+    - cryptographic_evidence_integrity_enforcement_authorization
+  escalation_points:
+    - cryptographic_evidence_integrity_triage
+  completion_criteria:
+    - cryptographic_evidence_integrity_evidence_complete
+    - cryptographic_evidence_integrity_approvals_recorded
+  generated_outputs:
+    - cryptographic_evidence_integrity_workflow_log
+    - cryptographic_evidence_integrity_closure_attestation
+    - cryptographic_evidence_integrity_final_disposition
+decision_logic:
+  decision_inputs:
+    - cryptographic_evidence_integrity_severity_score
+    - cryptographic_evidence_integrity_evidence_completeness
+    - cryptographic_evidence_integrity_regulatory_context
+    - cryptographic_evidence_integrity_risk_exposure_index
+  decision_conditions:
+    - cryptographic_evidence_integrity_critical_threshold_breach
+    - cryptographic_evidence_integrity_evidence_integrity_failure
+    - cryptographic_evidence_integrity_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: cryptographic_evidence_integrity_severity_score >= 90
+    high_severity: cryptographic_evidence_integrity_severity_score >= 70
+    evidence_complete: cryptographic_evidence_integrity_evidence_completeness >= 0.98
+  decision_rules:
+    cryptographic_evidence_integrity_high_severity_violation:
+      condition: cryptographic_evidence_integrity_severity_score >= 90
+      action: initiate_cryptographic_evidence_integrity_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: cryptographic_evidence_integrity_investigation_report
+    cryptographic_evidence_integrity_evidence_compromise_detected:
+      condition: cryptographic_evidence_integrity_integrity_status == compromised
+      action: activate_cryptographic_evidence_integrity_forensic_lockdown
+      approval_required: cryptographic_evidence_integrity_forensic_lead
+      evidence_required: cryptographic_evidence_integrity_integrity_alert_record
+    cryptographic_evidence_integrity_enforcement_authorization:
+      condition: cryptographic_evidence_integrity_violation_confirmed == true AND cryptographic_evidence_integrity_evidence_complete == true
+      action: issue_cryptographic_evidence_integrity_enforcement_order
+      approval_required: cryptographic_evidence_integrity_enforcement_officer
+      evidence_required: cryptographic_evidence_integrity_violation_evidence_package
+    cryptographic_evidence_integrity_regulator_inquiry_response:
+      condition: cryptographic_evidence_integrity_regulator_request_received == true
+      action: compile_cryptographic_evidence_integrity_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: cryptographic_evidence_integrity_regulatory_evidence_index
+  decision_outputs:
+    - cryptographic_evidence_integrity_enforcement_decision
+    - cryptographic_evidence_integrity_escalation_notice
+    - cryptographic_evidence_integrity_remediation_directive
+    - cryptographic_evidence_integrity_audit_disposition
+  approval_requirements:
+    enforcement_actions: [cryptographic_evidence_integrity_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - cryptographic_evidence_integrity_severity_score >= 90
+    - cryptographic_evidence_integrity_evidence_integrity_failure == true
+    - cryptographic_evidence_integrity_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_cryptographic_evidence_integrity_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: cryptographic_evidence_integrity_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Cryptographic Evidence Integrity may trigger EU AI Act Articles 71, 73
+      reporting, market surveillance cooperation, and conformity assessment suspension; all outputs
+      must be litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Cryptographic Evidence Integrity per ISO 19011
+      and EU AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Cryptographic Evidence Integrity per ISO
+      19011 and EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Cryptographic Evidence Integrity per ISO 19011
+      and EU AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Cryptographic Evidence Integrity per ISO 19011
+      and EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: hash_verification_success_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure hash verification success rate for Cryptographic Evidence Integrity operational and
+        regulatory assurance
+    formula:
+      computed_hash_verification_success_rate_from_cryptographic_evidence_integrity_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: cryptographic_evidence_integrity_metrics_owner
+    data_source: cryptographic_evidence_integrity_metrics_warehouse
+    evidence_generated: hash_verification_success_rate_measurement_record
+  - metric_name: tamper_detection_latency_seconds
+    metric_category: risk
+    business_purpose:
+      >
+        Measure tamper detection latency seconds for Cryptographic Evidence Integrity operational and
+        regulatory assurance
+    formula:
+      computed_tamper_detection_latency_seconds_from_cryptographic_evidence_integrity_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: cryptographic_evidence_integrity_metrics_owner
+    data_source: cryptographic_evidence_integrity_metrics_warehouse
+    evidence_generated: tamper_detection_latency_seconds_measurement_record
+  - metric_name: integrity_breach_count
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure integrity breach count for Cryptographic Evidence Integrity operational and regulatory
+        assurance
+    formula: computed_integrity_breach_count_from_cryptographic_evidence_integrity_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: cryptographic_evidence_integrity_metrics_owner
+    data_source: cryptographic_evidence_integrity_metrics_warehouse
+    evidence_generated: integrity_breach_count_measurement_record
+  - metric_name: signature_validation_pass_rate
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure signature validation pass rate for Cryptographic Evidence Integrity operational and
+        regulatory assurance
+    formula:
+      computed_signature_validation_pass_rate_from_cryptographic_evidence_integrity_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: cryptographic_evidence_integrity_metrics_owner
+    data_source: cryptographic_evidence_integrity_metrics_warehouse
+    evidence_generated: signature_validation_pass_rate_measurement_record
+  - metric_name: evidence_quarantine_rate
+    metric_category: governance
+    business_purpose:
+      >
+        Measure evidence quarantine rate for Cryptographic Evidence Integrity operational and regulatory
+        assurance
+    formula:
+      computed_evidence_quarantine_rate_from_cryptographic_evidence_integrity_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: cryptographic_evidence_integrity_metrics_owner
+    data_source: cryptographic_evidence_integrity_metrics_warehouse
+    evidence_generated: evidence_quarantine_rate_measurement_record
+  - metric_name: cryptographic_audit_coverage
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure cryptographic audit coverage for Cryptographic Evidence Integrity operational and
+        regulatory assurance
+    formula:
+      computed_cryptographic_audit_coverage_from_cryptographic_evidence_integrity_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: cryptographic_evidence_integrity_metrics_owner
+    data_source: cryptographic_evidence_integrity_metrics_warehouse
+    evidence_generated: cryptographic_audit_coverage_measurement_record
+kpis:
+  - metric_name: hash_verification_success_rate
+    formula: computed_hash_verification_success_rate_from_cryptographic_evidence_integrity_telemetry
+    target: >= 95%
+  - metric_name: tamper_detection_latency_seconds
+    formula: computed_tamper_detection_latency_seconds_from_cryptographic_evidence_integrity_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: integrity_breach_count
+    formula: computed_integrity_breach_count_from_cryptographic_evidence_integrity_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: signature_validation_pass_rate
+    formula: computed_signature_validation_pass_rate_from_cryptographic_evidence_integrity_telemetry
+    target: >= 95%
+kris:
+  - metric_name: integrity_breach_count
+    business_purpose: Measure integrity breach count for Cryptographic Evidence Integrity operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: hash_chain_verification_logs
+    evidence_type: primary
+    business_purpose:
+      Support cryptographic evidence integrity governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cryptographic_evidence_integrity_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cryptographic_evidence_integrity_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: digital_signature_validation_records
+    evidence_type: corroborating
+    business_purpose:
+      Support cryptographic evidence integrity governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cryptographic_evidence_integrity_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cryptographic_evidence_integrity_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: tamper_detection_alerts
+    evidence_type: attestation
+    business_purpose:
+      Support cryptographic evidence integrity governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cryptographic_evidence_integrity_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cryptographic_evidence_integrity_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: integrity_attestation_certificates
+    evidence_type: derivative
+    business_purpose:
+      Support cryptographic evidence integrity governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cryptographic_evidence_integrity_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cryptographic_evidence_integrity_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: cryptographic_key_custody_logs
+    evidence_type: audit
+    business_purpose:
+      Support cryptographic evidence integrity governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cryptographic_evidence_integrity_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cryptographic_evidence_integrity_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: evidence_authenticity_reports
+    evidence_type: regulatory
+    business_purpose:
+      Support cryptographic evidence integrity governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cryptographic_evidence_integrity_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cryptographic_evidence_integrity_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: cryptographic_evidence_integrity_status_dashboard
+    report_owner: cryptographic_evidence_integrity_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: monthly
+    report_inputs:
+      - cryptographic_evidence_integrity_telemetry
+      - cryptographic_evidence_integrity_evidence_index
+    report_outputs:
+      - cryptographic_evidence_integrity_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: cryptographic_evidence_integrity_compliance_summary
+    report_owner: cryptographic_evidence_integrity_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - cryptographic_evidence_integrity_telemetry
+      - cryptographic_evidence_integrity_evidence_index
+    report_outputs:
+      - cryptographic_evidence_integrity_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: cryptographic_assurance_report
+    report_owner: cryptographic_evidence_integrity_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - cryptographic_evidence_integrity_telemetry
+      - cryptographic_evidence_integrity_evidence_index
+    report_outputs:
+      - cryptographic_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: cryptographic_evidence_integrity_executive_brief
+    report_owner: cryptographic_evidence_integrity_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - cryptographic_evidence_integrity_telemetry
+      - cryptographic_evidence_integrity_evidence_index
+    report_outputs:
+      - cryptographic_evidence_integrity_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: cryptographic_evidence_integrity_audit_pack
+    report_owner: cryptographic_evidence_integrity_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - cryptographic_evidence_integrity_telemetry
+      - cryptographic_evidence_integrity_evidence_index
+    report_outputs:
+      - cryptographic_evidence_integrity_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Cryptographic Evidence Integrity interfaces with autonomous
+      agents, GPAI, or tool-calling systems.
+  agent_governance:
+    agent_identity: cryptographic_evidence_integrity_registered_agent_identity_schema
+    agent_role: cryptographic_evidence_integrity_delegated_authority_role_matrix
+    agent_permissions: cryptographic_evidence_integrity_least_privilege_permission_set
+    agent_constraints: cryptographic_evidence_integrity_autonomy_and_tool_constraints
+    agent_accountability: cryptographic_evidence_integrity_human_accountability_chain
+    agent_escalation_rules: cryptographic_evidence_integrity_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - cryptographic_evidence_integrity_policy_context
+      - cryptographic_evidence_integrity_risk_score
+      - cryptographic_evidence_integrity_human_intent
+    decision_outputs:
+      - cryptographic_evidence_integrity_authorized_action
+      - cryptographic_evidence_integrity_escalation_notice
+    decision_owners:
+      - cryptographic_evidence_integrity_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: cryptographic_evidence_integrity_high_risk_decision_mandatory_review
+    decision_accountability: cryptographic_evidence_integrity_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: cryptographic_evidence_integrity_approved_tool_allowlist
+    tool_execution_validation: cryptographic_evidence_integrity_pre_execution_tool_risk_check
+    tool_risk_controls: cryptographic_evidence_integrity_tool_side_effect_containment
+    tool_auditability: cryptographic_evidence_integrity_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: cryptographic_evidence_integrity_memory_segment_access_policy
+    memory_integrity_validation: cryptographic_evidence_integrity_memory_tamper_detection
+    memory_retention_controls: cryptographic_evidence_integrity_memory_retention_and_purge_rules
+    memory_auditability: cryptographic_evidence_integrity_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: cryptographic_evidence_integrity_chain_of_thought_capture
+    reasoning_validation: cryptographic_evidence_integrity_reasoning_consistency_check
+    reasoning_risk_monitoring: cryptographic_evidence_integrity_reasoning_hazard_detection
+    reasoning_accountability: cryptographic_evidence_integrity_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - cryptographic_evidence_integrity_audit_log
+  - cryptographic_evidence_integrity_activity_log
+  - cryptographic_evidence_integrity_decision_log
+  - cryptographic_evidence_integrity_traceability_record
+  - cryptographic_evidence_integrity_evidence_package
+  - cryptographic_evidence_integrity_chain_of_custody_record
+  - cryptographic_evidence_integrity_attestation
+required_evidence:
+  - cryptographic_evidence_integrity_audit_log
+  - cryptographic_evidence_integrity_activity_log
+  - cryptographic_evidence_integrity_decision_log
+  - cryptographic_evidence_integrity_traceability_record
+  - cryptographic_evidence_integrity_evidence_package
+  - cryptographic_evidence_integrity_chain_of_custody_record
+  - cryptographic_evidence_integrity_attestation
+supporting_evidence:
+  - cryptographic_evidence_integrity_audit_log
+  - cryptographic_evidence_integrity_activity_log
+  - cryptographic_evidence_integrity_decision_log
+  - cryptographic_evidence_integrity_traceability_record
+  - cryptographic_evidence_integrity_evidence_package
+audit_evidence:
+  - cryptographic_evidence_integrity_audit_log
+  - cryptographic_evidence_integrity_activity_log
+  - cryptographic_evidence_integrity_decision_log
+  - cryptographic_evidence_integrity_traceability_record
+  - cryptographic_evidence_integrity_evidence_package
+  - cryptographic_evidence_integrity_chain_of_custody_record
+  - cryptographic_evidence_integrity_attestation
+forensic_evidence:
+  - cryptographic_evidence_integrity_audit_log
+  - cryptographic_evidence_integrity_activity_log
+  - cryptographic_evidence_integrity_decision_log
+  - cryptographic_evidence_integrity_traceability_record
+  - cryptographic_evidence_integrity_evidence_package
+  - cryptographic_evidence_integrity_chain_of_custody_record
+  - cryptographic_evidence_integrity_attestation
+regulatory_evidence:
+  - cryptographic_evidence_integrity_audit_log
+  - cryptographic_evidence_integrity_activity_log
+  - cryptographic_evidence_integrity_decision_log
+  - cryptographic_evidence_integrity_traceability_record
+  - cryptographic_evidence_integrity_evidence_package
+  - cryptographic_evidence_integrity_chain_of_custody_record
+  - cryptographic_evidence_integrity_attestation
+validation_evidence:
+  - cryptographic_evidence_integrity_audit_log
+  - cryptographic_evidence_integrity_activity_log
+  - cryptographic_evidence_integrity_decision_log
+  - cryptographic_evidence_integrity_traceability_record
+  - cryptographic_evidence_integrity_evidence_package
+  - cryptographic_evidence_integrity_chain_of_custody_record
+  - cryptographic_evidence_integrity_attestation
+validation_rules:
+  - rule: cryptographic_evidence_integrity_evidence_complete
+    condition: required_evidence_cryptographic_evidence_integrity < threshold
+    action: BLOCK_SUBMISSION
+  - rule: cryptographic_evidence_integrity_integrity_verified
+    condition: integrity_status_cryptographic_evidence_integrity != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: cryptographic_evidence_integrity_custody_intact
+    condition: custody_gap_cryptographic_evidence_integrity == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Cryptographic Evidence Integrity controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Cryptographic Evidence Integrity controls fail; mitigated
+      through preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Cryptographic Evidence Integrity controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Cryptographic Evidence Integrity controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Cryptographic Evidence Integrity controls fail; mitigated
+      through preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - cryptographic_evidence_integrity_control_failure
+    - cryptographic_evidence_integrity_evidence_compromise
+    - cryptographic_evidence_integrity_regulatory_non_compliance
+    - cryptographic_evidence_integrity_enforcement_delay
+  risk_events:
+    - cryptographic_evidence_integrity_audit_finding_critical
+    - cryptographic_evidence_integrity_investigation_escalation
+    - cryptographic_evidence_integrity_sanction_exposure
+    - cryptographic_evidence_integrity_market_surveillance_inquiry
+  risk_indicators:
+    - cryptographic_evidence_integrity_control_effectiveness_degradation
+    - cryptographic_evidence_integrity_evidence_gap_rate
+    - cryptographic_evidence_integrity_sla_breach_count
+    - cryptographic_evidence_integrity_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    cryptographic_evidence_integrity_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: cryptographic_evidence_integrity_forensic_lead
+    cryptographic_evidence_integrity_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    cryptographic_evidence_integrity_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: cryptographic_evidence_integrity_enforcement_officer
+  risk_tolerance:
+    cryptographic_evidence_integrity_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: cryptographic_evidence_integrity_risk_score >= 60
+    critical: cryptographic_evidence_integrity_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Cryptographic Evidence Integrity controls documented in
+      cryptographic_evidence_integrity_risk_register with quarterly review.
+  risk_treatment:
+    - cryptographic_evidence_integrity_preventive_control_reinforcement
+    - cryptographic_evidence_integrity_detective_monitoring_enhancement
+    - cryptographic_evidence_integrity_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: cryptographic_evidence_integrity_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Cryptographic Evidence Integrity workflow events with provenance anchor and
+      cryptographic_evidence_integrity_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via cryptographic_evidence_integrity_collection_api with schema validation
+      and classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      cryptographic_evidence_integrity_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      cryptographic_evidence_integrity_data_classification_policy
+  evidence_storage:
+    >
+      Write-once immutable storage in cryptographic_evidence_integrity_evidence_vault with access
+      controls
+  evidence_retention:
+    >
+      Retention per cryptographic_evidence_integrity_retention_schedule aligned with EU AI Act Article
+      18 and legal hold
+  evidence_archival:
+    Long-term archival with cryptographic_evidence_integrity_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via cryptographic_evidence_integrity_retrieval_gateway with purpose logging
+  evidence_disposal:
+    >
+      Authorized disposition with cryptographic_evidence_integrity_disposition_certificate and dual
+      approval
+chain_of_custody:
+  custody_events:
+    - cryptographic_evidence_integrity_capture_event
+    - cryptographic_evidence_integrity_transfer_event
+    - cryptographic_evidence_integrity_access_event
+    - cryptographic_evidence_integrity_disposition_event
+  custody_owners:
+    primary: cryptographic_evidence_integrity_evidence_custodian
+    secondary: cryptographic_evidence_integrity_forensic_lead
+  custody_validation:
+    method: cryptographic_evidence_integrity_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - cryptographic_evidence_integrity_sha256_hash_chain
+    - cryptographic_evidence_integrity_digital_signature
+    - cryptographic_evidence_integrity_timestamp_authority
+  tamper_detection:
+    method: cryptographic_evidence_integrity_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: cryptographic_evidence_integrity_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_11:
+    article: Article 11
+    regulatory_text_summary:
+      Technical documentation requirements.
+    obligation:
+      >
+        Comprehensive technical documentation before market placement. Implemented through Cryptographic
+        Evidence Integrity in evidence_preservation.
+    implementation_controls:
+      - cryptographic_evidence_integrity_article_11_preventive_control
+      - cryptographic_evidence_integrity_article_11_detective_control
+      - cryptographic_evidence_integrity_article_11_evidence_control
+    implementation_processes:
+      - cryptographic_evidence_integrity_article_11_workflow
+      - cryptographic_evidence_integrity_article_11_validation_process
+      - cryptographic_evidence_integrity_article_11_escalation_process
+    implementation_evidence:
+      - cryptographic_evidence_integrity_article_11_compliance_record
+      - cryptographic_evidence_integrity_article_11_audit_package
+      - cryptographic_evidence_integrity_article_11_attestation
+    validation_method: cryptographic_evidence_integrity_article_11_automated_and_manual_conformity_testing
+    audit_method: cryptographic_evidence_integrity_article_11_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: cryptographic_evidence_integrity_article_11_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Cryptographic Evidence Integrity demonstrates Article 11 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_12:
+    article: Article 12
+    regulatory_text_summary:
+      Record-keeping and automatic logging.
+    obligation:
+      >
+        Logging capabilities enabling traceability throughout system lifetime. Implemented through
+        Cryptographic Evidence Integrity in evidence_preservation.
+    implementation_controls:
+      - cryptographic_evidence_integrity_article_12_preventive_control
+      - cryptographic_evidence_integrity_article_12_detective_control
+      - cryptographic_evidence_integrity_article_12_evidence_control
+    implementation_processes:
+      - cryptographic_evidence_integrity_article_12_workflow
+      - cryptographic_evidence_integrity_article_12_validation_process
+      - cryptographic_evidence_integrity_article_12_escalation_process
+    implementation_evidence:
+      - cryptographic_evidence_integrity_article_12_compliance_record
+      - cryptographic_evidence_integrity_article_12_audit_package
+      - cryptographic_evidence_integrity_article_12_attestation
+    validation_method: cryptographic_evidence_integrity_article_12_automated_and_manual_conformity_testing
+    audit_method: cryptographic_evidence_integrity_article_12_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: cryptographic_evidence_integrity_article_12_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Cryptographic Evidence Integrity demonstrates Article 12 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_18:
+    article: Article 18
+    regulatory_text_summary:
+      Documentation retention.
+    obligation:
+      >
+        Retention of technical documentation for prescribed periods. Implemented through Cryptographic
+        Evidence Integrity in evidence_preservation.
+    implementation_controls:
+      - cryptographic_evidence_integrity_article_18_preventive_control
+      - cryptographic_evidence_integrity_article_18_detective_control
+      - cryptographic_evidence_integrity_article_18_evidence_control
+    implementation_processes:
+      - cryptographic_evidence_integrity_article_18_workflow
+      - cryptographic_evidence_integrity_article_18_validation_process
+      - cryptographic_evidence_integrity_article_18_escalation_process
+    implementation_evidence:
+      - cryptographic_evidence_integrity_article_18_compliance_record
+      - cryptographic_evidence_integrity_article_18_audit_package
+      - cryptographic_evidence_integrity_article_18_attestation
+    validation_method: cryptographic_evidence_integrity_article_18_automated_and_manual_conformity_testing
+    audit_method: cryptographic_evidence_integrity_article_18_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: cryptographic_evidence_integrity_article_18_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Cryptographic Evidence Integrity demonstrates Article 18 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_19:
+    article: Article 19
+    regulatory_text_summary:
+      Conformity assessment and EU declaration.
+    obligation:
+      >
+        Conformity assessment and declaration of conformity. Implemented through Cryptographic Evidence
+        Integrity in evidence_preservation.
+    implementation_controls:
+      - cryptographic_evidence_integrity_article_19_preventive_control
+      - cryptographic_evidence_integrity_article_19_detective_control
+      - cryptographic_evidence_integrity_article_19_evidence_control
+    implementation_processes:
+      - cryptographic_evidence_integrity_article_19_workflow
+      - cryptographic_evidence_integrity_article_19_validation_process
+      - cryptographic_evidence_integrity_article_19_escalation_process
+    implementation_evidence:
+      - cryptographic_evidence_integrity_article_19_compliance_record
+      - cryptographic_evidence_integrity_article_19_audit_package
+      - cryptographic_evidence_integrity_article_19_attestation
+    validation_method: cryptographic_evidence_integrity_article_19_automated_and_manual_conformity_testing
+    audit_method: cryptographic_evidence_integrity_article_19_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: cryptographic_evidence_integrity_article_19_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Cryptographic Evidence Integrity demonstrates Article 19 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_11:
+      implementation: cryptographic_evidence_integrity_eu_ai_act_article_11_control_set
+      process: cryptographic_evidence_integrity_eu_ai_act_article_11_workflow
+      evidence: cryptographic_evidence_integrity_eu_ai_act_article_11_attestation
+    article_12:
+      implementation: cryptographic_evidence_integrity_eu_ai_act_article_12_control_set
+      process: cryptographic_evidence_integrity_eu_ai_act_article_12_workflow
+      evidence: cryptographic_evidence_integrity_eu_ai_act_article_12_attestation
+    article_18:
+      implementation: cryptographic_evidence_integrity_eu_ai_act_article_18_control_set
+      process: cryptographic_evidence_integrity_eu_ai_act_article_18_workflow
+      evidence: cryptographic_evidence_integrity_eu_ai_act_article_18_attestation
+    article_19:
+      implementation: cryptographic_evidence_integrity_eu_ai_act_article_19_control_set
+      process: cryptographic_evidence_integrity_eu_ai_act_article_19_workflow
+      evidence: cryptographic_evidence_integrity_eu_ai_act_article_19_attestation
+  gdpr:
+    article_5:
+      implementation: cryptographic_evidence_integrity_gdpr_article_5_privacy_control
+      evidence: cryptographic_evidence_integrity_gdpr_article_5_compliance_record
+    article_6:
+      implementation: cryptographic_evidence_integrity_gdpr_article_6_privacy_control
+      evidence: cryptographic_evidence_integrity_gdpr_article_6_compliance_record
+    article_22:
+      implementation: cryptographic_evidence_integrity_gdpr_article_22_privacy_control
+      evidence: cryptographic_evidence_integrity_gdpr_article_22_compliance_record
+    article_25:
+      implementation: cryptographic_evidence_integrity_gdpr_article_25_privacy_control
+      evidence: cryptographic_evidence_integrity_gdpr_article_25_compliance_record
+    article_32:
+      implementation: cryptographic_evidence_integrity_gdpr_article_32_privacy_control
+      evidence: cryptographic_evidence_integrity_gdpr_article_32_compliance_record
+    article_35:
+      implementation: cryptographic_evidence_integrity_gdpr_article_35_privacy_control
+      evidence: cryptographic_evidence_integrity_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: cryptographic_evidence_integrity_iso42001_clause_4_1_aims_control
+      evidence: cryptographic_evidence_integrity_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: cryptographic_evidence_integrity_iso42001_clause_4_2_aims_control
+      evidence: cryptographic_evidence_integrity_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: cryptographic_evidence_integrity_iso42001_clause_5_1_aims_control
+      evidence: cryptographic_evidence_integrity_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: cryptographic_evidence_integrity_iso42001_clause_5_2_aims_control
+      evidence: cryptographic_evidence_integrity_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: cryptographic_evidence_integrity_iso42001_clause_6_1_aims_control
+      evidence: cryptographic_evidence_integrity_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: cryptographic_evidence_integrity_iso42001_clause_8_1_aims_control
+      evidence: cryptographic_evidence_integrity_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: cryptographic_evidence_integrity_iso42001_clause_9_1_aims_control
+      evidence: cryptographic_evidence_integrity_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: cryptographic_evidence_integrity_iso42001_clause_10_1_aims_control
+      evidence: cryptographic_evidence_integrity_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: cryptographic_evidence_integrity_iso23894_risk_identification_alignment
+      evidence: cryptographic_evidence_integrity_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: cryptographic_evidence_integrity_iso23894_risk_analysis_alignment
+      evidence: cryptographic_evidence_integrity_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: cryptographic_evidence_integrity_iso23894_risk_evaluation_alignment
+      evidence: cryptographic_evidence_integrity_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: cryptographic_evidence_integrity_iso23894_risk_treatment_alignment
+      evidence: cryptographic_evidence_integrity_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: cryptographic_evidence_integrity_iso23894_risk_monitoring_alignment
+      evidence: cryptographic_evidence_integrity_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: cryptographic_evidence_integrity_iso19011_audit_principles_procedure
+      evidence: cryptographic_evidence_integrity_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: cryptographic_evidence_integrity_iso19011_audit_programme_management_procedure
+      evidence: cryptographic_evidence_integrity_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: cryptographic_evidence_integrity_iso19011_audit_evidence_requirements_procedure
+      evidence: cryptographic_evidence_integrity_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: cryptographic_evidence_integrity_iso19011_audit_reporting_procedure
+      evidence: cryptographic_evidence_integrity_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: cryptographic_evidence_integrity_nist_rmf_govern_control_mapping
+      evidence: cryptographic_evidence_integrity_nist_rmf_govern_assessment
+    map:
+      implementation: cryptographic_evidence_integrity_nist_rmf_map_control_mapping
+      evidence: cryptographic_evidence_integrity_nist_rmf_map_assessment
+    measure:
+      implementation: cryptographic_evidence_integrity_nist_rmf_measure_control_mapping
+      evidence: cryptographic_evidence_integrity_nist_rmf_measure_assessment
+    manage:
+      implementation: cryptographic_evidence_integrity_nist_rmf_manage_control_mapping
+      evidence: cryptographic_evidence_integrity_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: cryptographic_evidence_integrity_nist_csf_identify_safeguard
+      evidence: cryptographic_evidence_integrity_nist_csf_identify_log
+    protect:
+      implementation: cryptographic_evidence_integrity_nist_csf_protect_safeguard
+      evidence: cryptographic_evidence_integrity_nist_csf_protect_log
+    detect:
+      implementation: cryptographic_evidence_integrity_nist_csf_detect_safeguard
+      evidence: cryptographic_evidence_integrity_nist_csf_detect_log
+    respond:
+      implementation: cryptographic_evidence_integrity_nist_csf_respond_safeguard
+      evidence: cryptographic_evidence_integrity_nist_csf_respond_log
+    recover:
+      implementation: cryptographic_evidence_integrity_nist_csf_recover_safeguard
+      evidence: cryptographic_evidence_integrity_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: cryptographic_evidence_integrity_oecd_accountability_governance_control
+      evidence: cryptographic_evidence_integrity_oecd_accountability_attestation
+    transparency:
+      implementation: cryptographic_evidence_integrity_oecd_transparency_governance_control
+      evidence: cryptographic_evidence_integrity_oecd_transparency_attestation
+    robustness_security:
+      implementation: cryptographic_evidence_integrity_oecd_robustness_security_governance_control
+      evidence: cryptographic_evidence_integrity_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: cryptographic_evidence_integrity_oecd_inclusive_growth_governance_control
+      evidence: cryptographic_evidence_integrity_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: cryptographic_evidence_integrity_unesco_human_rights_ethics_control
+      evidence: cryptographic_evidence_integrity_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: cryptographic_evidence_integrity_unesco_fairness_non_discrimination_ethics_control
+      evidence: cryptographic_evidence_integrity_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: cryptographic_evidence_integrity_unesco_transparency_explainability_ethics_control
+      evidence: cryptographic_evidence_integrity_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: cryptographic_evidence_integrity_unesco_accountability_ethics_control
+      evidence: cryptographic_evidence_integrity_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Cryptographic Evidence Integrity covering executive, board, regulatory,
+      audit, forensic, and attestation consumers.
+  report_types:
+    - cryptographic_evidence_integrity_status_report
+    - cryptographic_evidence_integrity_compliance_report
+    - cryptographic_evidence_integrity_enforcement_report
+    - cryptographic_evidence_integrity_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [cryptographic_evidence_integrity_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_cryptographic_evidence_integrity
+  - quarterly_control_testing_cryptographic_evidence_integrity
+  - evidence_sampling_cryptographic_evidence_integrity
+  - finding_remediation_tracking_cryptographic_evidence_integrity
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Cryptographic Evidence Integrity aligned with ISO/IEC 27037 and legal
+      admissibility standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Cryptographic Evidence Integrity.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Cryptographic Evidence Integrity.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Cryptographic Evidence Integrity.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Cryptographic Evidence Integrity.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Cryptographic Evidence Integrity.
+integration_points:
+  upstream_systems:
+    - system: audit_traceability
+      purpose: cryptographic_evidence_integrity_to_audit_traceability_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_audit_traceability]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_audit_traceability]
+    - system: investigation_management
+      purpose: cryptographic_evidence_integrity_to_investigation_management_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_investigation_management]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_investigation_management]
+    - system: governance_forensics
+      purpose: cryptographic_evidence_integrity_to_governance_forensics_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_governance_forensics]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_governance_forensics]
+  downstream_systems:
+    - system: compliance_audits
+      purpose: cryptographic_evidence_integrity_to_compliance_audits_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_compliance_audits]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_compliance_audits]
+    - system: enforcement_actions
+      purpose: cryptographic_evidence_integrity_to_enforcement_actions_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_enforcement_actions]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_enforcement_actions]
+    - system: reporting
+      purpose: cryptographic_evidence_integrity_to_reporting_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_reporting]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_reporting]
+  governance_integrations:
+    - system: data_governance
+      purpose: cryptographic_evidence_integrity_to_data_governance_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_data_governance]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_data_governance]
+    - system: cybersecurity
+      purpose: cryptographic_evidence_integrity_to_cybersecurity_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_cybersecurity]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_cybersecurity]
+  risk_integrations:
+    - system: ai_liability
+      purpose: cryptographic_evidence_integrity_to_ai_liability_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_ai_liability]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_ai_liability]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: cryptographic_evidence_integrity_to_compliance_audits_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_compliance_audits]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: cryptographic_evidence_integrity_to_internal_audit_system_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_internal_audit_system]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: cryptographic_evidence_integrity_to_governance_reporting_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_governance_reporting]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: cryptographic_evidence_integrity_to_executive_dashboard_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_executive_dashboard]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: cryptographic_evidence_integrity_to_enforcement_actions_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_enforcement_actions]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: cryptographic_evidence_integrity_to_policy_enforcement_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_policy_enforcement]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: cryptographic_evidence_integrity_to_remediation_tracking_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_remediation_tracking]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: cryptographic_evidence_integrity_to_remediation_engine_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_remediation_engine]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: cryptographic_evidence_integrity_to_evidence_preservation_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_evidence_preservation]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: cryptographic_evidence_integrity_to_technical_documentation_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_technical_documentation]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: cryptographic_evidence_integrity_to_post_market_monitoring_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_post_market_monitoring]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: cryptographic_evidence_integrity_to_incident_reporting_governance_sync
+      data_exchanged: [cryptographic_evidence_integrity_events, cryptographic_evidence_integrity_evidence_refs, cryptographic_evidence_integrity_metrics]
+      trigger_conditions: [cryptographic_evidence_integrity_state_change, cryptographic_evidence_integrity_escalation, cryptographic_evidence_integrity_closure]
+      consumed_artifacts: [cryptographic_evidence_integrity_input_from_incident_reporting]
+      produced_artifacts: [cryptographic_evidence_integrity_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Cryptographic Evidence Integrity activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Cryptographic Evidence Integrity procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - cryptographic_evidence_integrity_procedure_checklist
+    required_evidence:
+      - cryptographic_evidence_integrity_process_log
+    required_metrics:
+      - cryptographic_evidence_integrity_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Cryptographic Evidence Integrity enterprise-wide.
+    required_capabilities:
+      - cryptographic_evidence_integrity_standard_control_set
+    required_controls:
+      - cryptographic_evidence_integrity_control_register
+    required_evidence:
+      - cryptographic_evidence_integrity_audit_evidence
+    required_metrics:
+      - cryptographic_evidence_integrity_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Cryptographic Evidence Integrity with KPI optimization.
+    required_capabilities:
+      - cryptographic_evidence_integrity_automated_controls
+    required_controls:
+      - cryptographic_evidence_integrity_telemetry_controls
+    required_evidence:
+      - cryptographic_evidence_integrity_assurance_package
+    required_metrics:
+      - cryptographic_evidence_integrity_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Cryptographic Evidence Integrity with predictive analytics.
+    required_capabilities:
+      - cryptographic_evidence_integrity_autonomous_governance
+    required_controls:
+      - cryptographic_evidence_integrity_adaptive_controls
+    required_evidence:
+      - cryptographic_evidence_integrity_regulator_ready_portfolio
+    required_metrics:
+      - cryptographic_evidence_integrity_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - cryptographic_evidence_integrity_report
+  - cryptographic_evidence_integrity_evidence_package
+  - cryptographic_evidence_integrity_attestation
+  - cryptographic_evidence_integrity_enforcement_record
+artifacts:
+  - name: cryptographic_evidence_integrity_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: cryptographic_evidence_integrity_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: cryptographic_evidence_integrity_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: cryptographic_evidence_integrity_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - cryptographic_evidence_integrity_case_record
+  - cryptographic_evidence_integrity_audit_record
+  - cryptographic_evidence_integrity_enforcement_record
+  - cryptographic_evidence_integrity_remediation_record
+monitoring:
+  continuous:
+    - cryptographic_evidence_integrity_control_telemetry
+    - cryptographic_evidence_integrity_evidence_integrity_feed
+    - cryptographic_evidence_integrity_escalation_queue
+  periodic:
+    - cryptographic_evidence_integrity_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Cryptographic Evidence Integrity effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: cryptographic_evidence_integrity_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: cryptographic_evidence_integrity_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: cryptographic_evidence_integrity_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: cryptographic_evidence_integrity_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Cryptographic Evidence Integrity

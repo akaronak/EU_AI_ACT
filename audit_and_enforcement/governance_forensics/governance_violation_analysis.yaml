@@ -1,0 +1,1985 @@
+metadata:
+  id: AAE-GF-GOVVIO-001
+  name: governance_violation_analysis
+  title: Governance Violation Analysis
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: governance_forensics
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - governance_forensics
+    - governance_violation_analysis
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Governance Violation Analysis governance within
+    audit_and_enforcement/governance_forensics, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for violation typology analysis and severity classification.
+    Integrates with the EU AI Act governance ecosystem through machine-evaluable obligations,
+    evidence preservation, and conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Governance Violation Analysis across
+    enterprise and cross-border operations within audit_and_enforcement/governance_forensics.
+objectives:
+  - Operationalize Governance Violation Analysis with regulator-defensible controls and evidence chains
+  - Enable automated validation of Governance Violation Analysis conformance across governance_forensics
+  - Preserve audit-grade and forensic-grade records for all Governance Violation Analysis activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Governance Violation Analysis with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Governance Violation Analysis
+definitions:
+  governance_violation_analysis_governance_domain:
+    >
+      The operational jurisdiction of Governance Violation Analysis encompassing controlled audit,
+      enforcement, investigation, and evidence processes within governance_forensics.
+  governance_violation_analysis_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Governance Violation Analysis control
+      effectiveness, process adherence, and regulatory conformity.
+  governance_violation_analysis_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Governance Violation Analysis decision logic.
+  governance_violation_analysis_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Governance Violation Analysis processes.
+  governance_violation_analysis_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Governance Violation Analysis operations.
+  governance_violation_analysis_conformity_assertion:
+    >
+      Formal statement that Governance Violation Analysis requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: governance_violation_analysis_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  governance_violation_analysis_artifact_type:
+    - governance_violation_analysis_record
+    - governance_violation_analysis_log
+    - governance_violation_analysis_report
+    - governance_violation_analysis_attestation
+    - governance_violation_analysis_package
+  governance_violation_analysis_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Governance Violation Analysis Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: governance_forensics
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - audit_traceability
+    - evidence_preservation
+    - incident_reporting
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - investigation_management
+    - enforcement_actions
+    - reporting
+    - audit_and_enforcement/governance_forensics/governance_violation_analysis.yaml
+  related_domains:
+    - evidence_preservation
+    - investigation_management
+    - audit_traceability
+  related_skills:
+    - forensic_event_reconstruction
+    - behavioral_forensics
+    - governance_violation_analysis
+    - governance_violation_analysis
+  parent_governance_objects:
+    - enforcement_framework
+    - evidence_management
+  child_governance_objects:
+    - forensic_reconstruction_report
+    - violation_analysis_record
+    - governance_violation_analysis_governance_object
+  consumes_artifacts:
+    - evidence_package
+    - incident_record
+    - audit_trail
+    - governance_violation_analysis_input_artifact
+  produces_artifacts:
+    - forensic_report
+    - event_reconstruction_timeline
+    - behavioral_analysis_profile
+    - governance_violation_analysis_record
+    - governance_violation_analysis_report
+    - governance_violation_analysis_attestation
+  consumes_evidence:
+    - chain_of_custody_record
+    - immutable_audit_record
+    - model_activity_log
+    - governance_violation_analysis_source_evidence
+  produces_evidence:
+    - forensic_integrity_attestation
+    - causal_linkage_map
+    - governance_violation_analysis_audit_evidence
+    - governance_violation_analysis_validation_evidence
+    - governance_violation_analysis_enforcement_evidence
+  governance_dependencies:
+    - ai_liability
+    - incident_reporting
+  regulatory_dependencies:
+    - eu_ai_act_article_73
+    - eu_ai_act_article_26
+  risk_dependencies:
+    - risk_management
+    - ai_liability
+  control_dependencies:
+    - evidence_preservation
+    - audit_traceability
+    - governance_violation_analysis_control_register
+roles_and_responsibilities:
+  governance_violation_analysis_owner:
+    responsibilities:
+      - Accountable for Governance Violation Analysis strategy, control design, and regulatory alignment
+  governance_violation_analysis_operator:
+    responsibilities:
+      - Executes Governance Violation Analysis workflows and maintains operational records
+  governance_violation_analysis_auditor:
+    responsibilities:
+      - Independently validates Governance Violation Analysis control effectiveness and evidence sufficiency
+  governance_violation_analysis_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Governance Violation Analysis investigations
+  governance_violation_analysis_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Governance Violation Analysis
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-020
+    name: Regulatory Forensics
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-021
+    name: Governance Forensics
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-022
+    name: Behavioral Forensics
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-023
+    name: Event Reconstruction
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-024
+    name: Violation Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-025
+    name: Violation Classification
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-033
+    name: Evidence Preservation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-036
+    name: Evidence Integrity Validation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-038
+    name: Evidence Reconstruction
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-047
+    name: Forensic Reporting
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-GOV-GOVERNANCE-GOVERNANCEE
+    control_name: governance_event_timeline_reconstructor
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring event timeline reconstructor for Governance Violation Analysis
+        across governance_forensics.
+    governance_rationale:
+      >
+        governance_event_timeline_reconstructor is required to govern Governance Violation Analysis
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        governance forensics failures.
+    implementation_guidance:
+      >
+        Implement governance_event_timeline_reconstructor as automated policy in
+        governance_violation_analysis orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: governance_event_timeline_reconstructor_continuous_telemetry_dashboard
+    validation_method:
+      governance_event_timeline_reconstructor_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      governance_event_timeline_reconstructor_statistical_sampling_with_exception_tracking
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated: governance_event_timeline_reconstructor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_event_timeline_reconstructor design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_event_timeline_reconstructor outputs may trigger enforcement under
+        governance_violation_analysis escalation rules.
+  - control_id: AAE-GOV-GOVERNANCE-VIOLATIONBE
+    control_name: violation_behavioral_pattern_analyzer
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring behavioral pattern analyzer for Governance Violation Analysis
+        across governance_forensics.
+    governance_rationale:
+      >
+        violation_behavioral_pattern_analyzer is required to govern Governance Violation Analysis risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected governance
+        forensics failures.
+    implementation_guidance:
+      >
+        Implement violation_behavioral_pattern_analyzer as automated policy in
+        governance_violation_analysis orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: violation_behavioral_pattern_analyzer_continuous_telemetry_dashboard
+    validation_method:
+      violation_behavioral_pattern_analyzer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      violation_behavioral_pattern_analyzer_statistical_sampling_with_exception_tracking
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated: violation_behavioral_pattern_analyzer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify violation_behavioral_pattern_analyzer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        violation_behavioral_pattern_analyzer outputs may trigger enforcement under
+        governance_violation_analysis escalation rules.
+  - control_id: AAE-GOV-GOVERNANCE-ANALYSISGOV
+    control_name: analysis_governance_failure_root_identifier
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring governance failure root identifier for Governance Violation
+        Analysis across governance_forensics.
+    governance_rationale:
+      >
+        analysis_governance_failure_root_identifier is required to govern Governance Violation Analysis
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        governance forensics failures.
+    implementation_guidance:
+      >
+        Implement analysis_governance_failure_root_identifier as automated policy in
+        governance_violation_analysis orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: analysis_governance_failure_root_identifier_continuous_telemetry_dashboard
+    validation_method:
+      analysis_governance_failure_root_identifier_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      analysis_governance_failure_root_identifier_statistical_sampling_with_exception_tracking
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated: analysis_governance_failure_root_identifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify analysis_governance_failure_root_identifier design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        analysis_governance_failure_root_identifier outputs may trigger enforcement under
+        governance_violation_analysis escalation rules.
+  - control_id: AAE-GOV-GOVERNANCE-GOVERNANCEV
+    control_name: governance_violation_analysis_forensic_custody_integrity_guard
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring forensic custody integrity guard for Governance Violation Analysis
+        across governance_forensics.
+    governance_rationale:
+      >
+        governance_violation_analysis_forensic_custody_integrity_guard is required to govern Governance
+        Violation Analysis risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement governance_violation_analysis_forensic_custody_integrity_guard as automated policy in
+        governance_violation_analysis orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      governance_violation_analysis_forensic_custody_integrity_guard_continuous_telemetry_dashboard
+    validation_method:
+      >
+        governance_violation_analysis_forensic_custody_integrity_guard_quarterly_design_and_operating_ef
+        fectiveness_test
+    testing_method:
+      >
+        governance_violation_analysis_forensic_custody_integrity_guard_statistical_sampling_with_excepti
+        on_tracking
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated:
+      governance_violation_analysis_forensic_custody_integrity_guard_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_violation_analysis_forensic_custody_integrity_guard design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_violation_analysis_forensic_custody_integrity_guard outputs may trigger enforcement
+        under governance_violation_analysis escalation rules.
+  - control_id: AAE-GOV-GOVERNANCE-GOVERNANCEV
+    control_name: governance_violation_analysis_causal_linkage_mapper
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring causal linkage mapper for Governance Violation Analysis across
+        governance_forensics.
+    governance_rationale:
+      >
+        governance_violation_analysis_causal_linkage_mapper is required to govern Governance Violation
+        Analysis risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement governance_violation_analysis_causal_linkage_mapper as automated policy in
+        governance_violation_analysis orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      governance_violation_analysis_causal_linkage_mapper_continuous_telemetry_dashboard
+    validation_method:
+      >
+        governance_violation_analysis_causal_linkage_mapper_quarterly_design_and_operating_effectiveness
+        _test
+    testing_method:
+      governance_violation_analysis_causal_linkage_mapper_statistical_sampling_with_exception_tracking
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated: governance_violation_analysis_causal_linkage_mapper_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_violation_analysis_causal_linkage_mapper design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_violation_analysis_causal_linkage_mapper outputs may trigger enforcement under
+        governance_violation_analysis escalation rules.
+  - control_id: AAE-GOV-GOVERNANCE-GOVERNANCEV
+    control_name: governance_violation_analysis_violation_typology_classifier
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring violation typology classifier for Governance Violation Analysis
+        across governance_forensics.
+    governance_rationale:
+      >
+        governance_violation_analysis_violation_typology_classifier is required to govern Governance
+        Violation Analysis risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement governance_violation_analysis_violation_typology_classifier as automated policy in
+        governance_violation_analysis orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      governance_violation_analysis_violation_typology_classifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        governance_violation_analysis_violation_typology_classifier_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        governance_violation_analysis_violation_typology_classifier_statistical_sampling_with_exception_
+        tracking
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated:
+      governance_violation_analysis_violation_typology_classifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_violation_analysis_violation_typology_classifier design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_violation_analysis_violation_typology_classifier outputs may trigger enforcement
+        under governance_violation_analysis escalation rules.
+  - control_id: AAE-GOV-GOVERNANCE-GOVERNANCEV
+    control_name: governance_violation_analysis_incident_forensic_alignment_checker
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring incident forensic alignment checker for Governance Violation
+        Analysis across governance_forensics.
+    governance_rationale:
+      >
+        governance_violation_analysis_incident_forensic_alignment_checker is required to govern
+        Governance Violation Analysis risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement governance_violation_analysis_incident_forensic_alignment_checker as automated policy
+        in governance_violation_analysis orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      governance_violation_analysis_incident_forensic_alignment_checker_continuous_telemetry_dashboard
+    validation_method:
+      >
+        governance_violation_analysis_incident_forensic_alignment_checker_quarterly_design_and_operating
+        _effectiveness_test
+    testing_method:
+      >
+        governance_violation_analysis_incident_forensic_alignment_checker_statistical_sampling_with_exce
+        ption_tracking
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated:
+      governance_violation_analysis_incident_forensic_alignment_checker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_violation_analysis_incident_forensic_alignment_checker design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_violation_analysis_incident_forensic_alignment_checker outputs may trigger
+        enforcement under governance_violation_analysis escalation rules.
+  - control_id: AAE-GOV-GOVERNANCE-GOVERNANCEV
+    control_name: governance_violation_analysis_decision_path_rebuilder
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring decision path rebuilder for Governance Violation Analysis across
+        governance_forensics.
+    governance_rationale:
+      >
+        governance_violation_analysis_decision_path_rebuilder is required to govern Governance Violation
+        Analysis risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement governance_violation_analysis_decision_path_rebuilder as automated policy in
+        governance_violation_analysis orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      governance_violation_analysis_decision_path_rebuilder_continuous_telemetry_dashboard
+    validation_method:
+      >
+        governance_violation_analysis_decision_path_rebuilder_quarterly_design_and_operating_effectivene
+        ss_test
+    testing_method:
+      >
+        governance_violation_analysis_decision_path_rebuilder_statistical_sampling_with_exception_tracki
+        ng
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated: governance_violation_analysis_decision_path_rebuilder_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_violation_analysis_decision_path_rebuilder design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_violation_analysis_decision_path_rebuilder outputs may trigger enforcement under
+        governance_violation_analysis escalation rules.
+  - control_id: AAE-GOV-GOVERNANCE-GOVERNANCEV
+    control_name: governance_violation_analysis_forensic_integrity_validator
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring forensic integrity validator for Governance Violation Analysis
+        across governance_forensics.
+    governance_rationale:
+      >
+        governance_violation_analysis_forensic_integrity_validator is required to govern Governance
+        Violation Analysis risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement governance_violation_analysis_forensic_integrity_validator as automated policy in
+        governance_violation_analysis orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      governance_violation_analysis_forensic_integrity_validator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        governance_violation_analysis_forensic_integrity_validator_quarterly_design_and_operating_effect
+        iveness_test
+    testing_method:
+      >
+        governance_violation_analysis_forensic_integrity_validator_statistical_sampling_with_exception_t
+        racking
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated: governance_violation_analysis_forensic_integrity_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_violation_analysis_forensic_integrity_validator design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_violation_analysis_forensic_integrity_validator outputs may trigger enforcement under
+        governance_violation_analysis escalation rules.
+  - control_id: AAE-GOV-GOVERNANCE-GOVERNANCEV
+    control_name: governance_violation_analysis_litigation_readiness_assessor
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring litigation readiness assessor for Governance Violation Analysis
+        across governance_forensics.
+    governance_rationale:
+      >
+        governance_violation_analysis_litigation_readiness_assessor is required to govern Governance
+        Violation Analysis risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement governance_violation_analysis_litigation_readiness_assessor as automated policy in
+        governance_violation_analysis orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      governance_violation_analysis_litigation_readiness_assessor_continuous_telemetry_dashboard
+    validation_method:
+      >
+        governance_violation_analysis_litigation_readiness_assessor_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        governance_violation_analysis_litigation_readiness_assessor_statistical_sampling_with_exception_
+        tracking
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated:
+      governance_violation_analysis_litigation_readiness_assessor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_violation_analysis_litigation_readiness_assessor design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_violation_analysis_litigation_readiness_assessor outputs may trigger enforcement
+        under governance_violation_analysis escalation rules.
+  - control_id: AAE-GOV-GOVERNANCE-GOVERNANCEV
+    control_name: governance_violation_analysis_regulator_forensic_disclosure_preparer
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring regulator forensic disclosure preparer for Governance Violation
+        Analysis across governance_forensics.
+    governance_rationale:
+      >
+        governance_violation_analysis_regulator_forensic_disclosure_preparer is required to govern
+        Governance Violation Analysis risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement governance_violation_analysis_regulator_forensic_disclosure_preparer as automated
+        policy in governance_violation_analysis orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        governance_violation_analysis_regulator_forensic_disclosure_preparer_continuous_telemetry_dashbo
+        ard
+    validation_method:
+      >
+        governance_violation_analysis_regulator_forensic_disclosure_preparer_quarterly_design_and_operat
+        ing_effectiveness_test
+    testing_method:
+      >
+        governance_violation_analysis_regulator_forensic_disclosure_preparer_statistical_sampling_with_e
+        xception_tracking
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated:
+      governance_violation_analysis_regulator_forensic_disclosure_preparer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_violation_analysis_regulator_forensic_disclosure_preparer design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_violation_analysis_regulator_forensic_disclosure_preparer outputs may trigger
+        enforcement under governance_violation_analysis escalation rules.
+  - control_id: AAE-GOV-GOVERNANCE-GOVERNANCEV
+    control_name: governance_violation_analysis_forensic_evidence_sealer
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring forensic evidence sealer for Governance Violation Analysis across
+        governance_forensics.
+    governance_rationale:
+      >
+        governance_violation_analysis_forensic_evidence_sealer is required to govern Governance
+        Violation Analysis risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement governance_violation_analysis_forensic_evidence_sealer as automated policy in
+        governance_violation_analysis orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      governance_violation_analysis_forensic_evidence_sealer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        governance_violation_analysis_forensic_evidence_sealer_quarterly_design_and_operating_effectiven
+        ess_test
+    testing_method:
+      >
+        governance_violation_analysis_forensic_evidence_sealer_statistical_sampling_with_exception_track
+        ing
+    control_owner: governance_violation_analysis_control_owner
+    evidence_generated: governance_violation_analysis_forensic_evidence_sealer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_violation_analysis_forensic_evidence_sealer design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_violation_analysis_forensic_evidence_sealer outputs may trigger enforcement under
+        governance_violation_analysis escalation rules.
+requirements:
+  legal:
+    >
+      Governance Violation Analysis must satisfy legal requirements for violation typology analysis
+      and severity classification including documented procedures, accountable roles, measurable SLAs,
+      and evidence retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Governance Violation Analysis must satisfy regulatory requirements for violation typology
+      analysis and severity classification including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Governance Violation Analysis must satisfy technical requirements for violation typology
+      analysis and severity classification including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Governance Violation Analysis must satisfy operational requirements for violation typology
+      analysis and severity classification including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Governance Violation Analysis must satisfy audit requirements for violation typology analysis
+      and severity classification including documented procedures, accountable roles, measurable SLAs,
+      and evidence retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Governance Violation Analysis must satisfy forensic requirements for violation typology analysis
+      and severity classification including documented procedures, accountable roles, measurable SLAs,
+      and evidence retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Governance Violation Analysis must satisfy enforcement requirements for violation typology
+      analysis and severity classification including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Governance Violation Analysis with stage gates, RACI assignments, and
+      evidence capture.
+  triage:
+    >
+      Triage process for Governance Violation Analysis with stage gates, RACI assignments, and
+      evidence capture.
+  execution:
+    >
+      Execution process for Governance Violation Analysis with stage gates, RACI assignments, and
+      evidence capture.
+  validation:
+    >
+      Validation process for Governance Violation Analysis with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Governance Violation Analysis with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Governance Violation Analysis with stage gates, RACI assignments, and
+      evidence capture.
+  improvement:
+    >
+      Improvement process for Governance Violation Analysis with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: governance_violation_analysis_operational_lifecycle_workflow
+    workflow_trigger: governance_violation_analysis_governance_event_detected
+    workflow_steps:
+      - governance_violation_analysis_intake
+      - governance_violation_analysis_triage
+      - governance_violation_analysis_execution
+      - governance_violation_analysis_validation
+      - governance_violation_analysis_approval
+      - governance_violation_analysis_closure
+    approval_points:
+      - governance_violation_analysis_approval
+    escalation_points:
+      - governance_violation_analysis_triage
+    generated_evidence:
+      - governance_violation_analysis_workflow_log
+      - governance_violation_analysis_closure_attestation
+    completion_requirements:
+      - governance_violation_analysis_evidence_complete
+      - governance_violation_analysis_approvals_recorded
+  - workflow_name: governance_violation_analysis_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_governance_violation_analysis
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - governance_violation_analysis_regulatory_package
+      - governance_violation_analysis_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - governance_violation_analysis_governance_event_detected
+    - governance_violation_analysis_regulatory_inquiry
+    - governance_violation_analysis_integrity_breach
+    - governance_violation_analysis_enforcement_authorization
+  required_inputs:
+    - governance_violation_analysis_case_context
+    - governance_violation_analysis_evidence_index
+    - governance_violation_analysis_risk_assessment
+  workflow_steps:
+    - governance_violation_analysis_intake
+    - governance_violation_analysis_triage
+    - governance_violation_analysis_execution
+    - governance_violation_analysis_validation
+    - governance_violation_analysis_approval
+    - governance_violation_analysis_closure
+  validation_steps:
+    - governance_violation_analysis_evidence_sufficiency_check
+    - governance_violation_analysis_integrity_verification
+  approval_steps:
+    - governance_violation_analysis_approval
+  control_checkpoints:
+    - governance_violation_analysis_intake_gate
+    - governance_violation_analysis_evidence_gate
+    - governance_violation_analysis_decision_gate
+  evidence_generation:
+    - governance_violation_analysis_workflow_log
+    - governance_violation_analysis_closure_attestation
+  decision_points:
+    - governance_violation_analysis_severity_classification
+    - governance_violation_analysis_enforcement_authorization
+  escalation_points:
+    - governance_violation_analysis_triage
+  completion_criteria:
+    - governance_violation_analysis_evidence_complete
+    - governance_violation_analysis_approvals_recorded
+  generated_outputs:
+    - governance_violation_analysis_workflow_log
+    - governance_violation_analysis_closure_attestation
+    - governance_violation_analysis_final_disposition
+decision_logic:
+  decision_inputs:
+    - governance_violation_analysis_severity_score
+    - governance_violation_analysis_evidence_completeness
+    - governance_violation_analysis_regulatory_context
+    - governance_violation_analysis_risk_exposure_index
+  decision_conditions:
+    - governance_violation_analysis_critical_threshold_breach
+    - governance_violation_analysis_evidence_integrity_failure
+    - governance_violation_analysis_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: governance_violation_analysis_severity_score >= 90
+    high_severity: governance_violation_analysis_severity_score >= 70
+    evidence_complete: governance_violation_analysis_evidence_completeness >= 0.98
+  decision_rules:
+    governance_violation_analysis_high_severity_violation:
+      condition: governance_violation_analysis_severity_score >= 90
+      action: initiate_governance_violation_analysis_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: governance_violation_analysis_investigation_report
+    governance_violation_analysis_evidence_compromise_detected:
+      condition: governance_violation_analysis_integrity_status == compromised
+      action: activate_governance_violation_analysis_forensic_lockdown
+      approval_required: governance_violation_analysis_forensic_lead
+      evidence_required: governance_violation_analysis_integrity_alert_record
+    governance_violation_analysis_enforcement_authorization:
+      condition: governance_violation_analysis_violation_confirmed == true AND governance_violation_analysis_evidence_complete == true
+      action: issue_governance_violation_analysis_enforcement_order
+      approval_required: governance_violation_analysis_enforcement_officer
+      evidence_required: governance_violation_analysis_violation_evidence_package
+    governance_violation_analysis_regulator_inquiry_response:
+      condition: governance_violation_analysis_regulator_request_received == true
+      action: compile_governance_violation_analysis_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: governance_violation_analysis_regulatory_evidence_index
+  decision_outputs:
+    - governance_violation_analysis_enforcement_decision
+    - governance_violation_analysis_escalation_notice
+    - governance_violation_analysis_remediation_directive
+    - governance_violation_analysis_audit_disposition
+  approval_requirements:
+    enforcement_actions: [governance_violation_analysis_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - governance_violation_analysis_severity_score >= 90
+    - governance_violation_analysis_evidence_integrity_failure == true
+    - governance_violation_analysis_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_governance_violation_analysis_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: governance_violation_analysis_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Governance Violation Analysis may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Governance Violation Analysis per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Governance Violation Analysis per ISO 19011
+      and EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Governance Violation Analysis per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Governance Violation Analysis per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: governance_operational_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure governance operational rate for Governance Violation Analysis operational and regulatory
+        assurance
+    formula:
+      computed_governance_operational_rate_from_governance_violation_analysis_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: governance_violation_analysis_metrics_owner
+    data_source: governance_violation_analysis_metrics_warehouse
+    evidence_generated: governance_operational_rate_measurement_record
+  - metric_name: violation_operational_rate
+    metric_category: risk
+    business_purpose:
+      >
+        Measure violation operational rate for Governance Violation Analysis operational and regulatory
+        assurance
+    formula: computed_violation_operational_rate_from_governance_violation_analysis_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: governance_violation_analysis_metrics_owner
+    data_source: governance_violation_analysis_metrics_warehouse
+    evidence_generated: violation_operational_rate_measurement_record
+  - metric_name: analysis_operational_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure analysis operational rate for Governance Violation Analysis operational and regulatory
+        assurance
+    formula: computed_analysis_operational_rate_from_governance_violation_analysis_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: governance_violation_analysis_metrics_owner
+    data_source: governance_violation_analysis_metrics_warehouse
+    evidence_generated: analysis_operational_rate_measurement_record
+  - metric_name: violation_assurance_score
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure violation assurance score for Governance Violation Analysis operational and regulatory
+        assurance
+    formula: computed_violation_assurance_score_from_governance_violation_analysis_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: governance_violation_analysis_metrics_owner
+    data_source: governance_violation_analysis_metrics_warehouse
+    evidence_generated: violation_assurance_score_measurement_record
+  - metric_name: analysis_assurance_score
+    metric_category: governance
+    business_purpose:
+      >
+        Measure analysis assurance score for Governance Violation Analysis operational and regulatory
+        assurance
+    formula: computed_analysis_assurance_score_from_governance_violation_analysis_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: governance_violation_analysis_metrics_owner
+    data_source: governance_violation_analysis_metrics_warehouse
+    evidence_generated: analysis_assurance_score_measurement_record
+  - metric_name: governance_violation_analysis_escalation_frequency
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure governance violation analysis escalation frequency for Governance Violation Analysis
+        operational and regulatory assurance
+    formula:
+      >
+        computed_governance_violation_analysis_escalation_frequency_from_governance_violation_analysis_t
+        elemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: governance_violation_analysis_metrics_owner
+    data_source: governance_violation_analysis_metrics_warehouse
+    evidence_generated: governance_violation_analysis_escalation_frequency_measurement_record
+kpis:
+  - metric_name: governance_operational_rate
+    formula: computed_governance_operational_rate_from_governance_violation_analysis_telemetry
+    target: >= 95%
+  - metric_name: violation_operational_rate
+    formula: computed_violation_operational_rate_from_governance_violation_analysis_telemetry
+    target: >= 95%
+  - metric_name: analysis_operational_rate
+    formula: computed_analysis_operational_rate_from_governance_violation_analysis_telemetry
+    target: >= 95%
+  - metric_name: violation_assurance_score
+    formula: computed_violation_assurance_score_from_governance_violation_analysis_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: violation_operational_rate
+    business_purpose: Measure violation operational rate for Governance Violation Analysis operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+  - metric_name: violation_assurance_score
+    business_purpose: Measure violation assurance score for Governance Violation Analysis operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+  - metric_name: governance_violation_analysis_escalation_frequency
+    business_purpose: Measure governance violation analysis escalation frequency for Governance Violation Analysis operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: governance_violation_analysis_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support governance violation analysis governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_governance_violation_analysis_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: governance_violation_analysis_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: governance_violation_analysis_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support governance violation analysis governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_governance_violation_analysis_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: governance_violation_analysis_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: governance_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support governance violation analysis governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_governance_violation_analysis_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: governance_violation_analysis_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: violation_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support governance violation analysis governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_governance_violation_analysis_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: governance_violation_analysis_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: analysis_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support governance violation analysis governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_governance_violation_analysis_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: governance_violation_analysis_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: governance_violation_analysis_status_dashboard
+    report_owner: governance_violation_analysis_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: monthly
+    report_inputs:
+      - governance_violation_analysis_telemetry
+      - governance_violation_analysis_evidence_index
+    report_outputs:
+      - governance_violation_analysis_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: governance_violation_analysis_compliance_summary
+    report_owner: governance_violation_analysis_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - governance_violation_analysis_telemetry
+      - governance_violation_analysis_evidence_index
+    report_outputs:
+      - governance_violation_analysis_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: governance_assurance_report
+    report_owner: governance_violation_analysis_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - governance_violation_analysis_telemetry
+      - governance_violation_analysis_evidence_index
+    report_outputs:
+      - governance_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: governance_violation_analysis_executive_brief
+    report_owner: governance_violation_analysis_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - governance_violation_analysis_telemetry
+      - governance_violation_analysis_evidence_index
+    report_outputs:
+      - governance_violation_analysis_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: governance_violation_analysis_audit_pack
+    report_owner: governance_violation_analysis_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - governance_violation_analysis_telemetry
+      - governance_violation_analysis_evidence_index
+    report_outputs:
+      - governance_violation_analysis_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  agent_governance:
+    agent_identity: governance_violation_analysis_registered_agent_identity_schema
+    agent_role: governance_violation_analysis_delegated_authority_role_matrix
+    agent_permissions: governance_violation_analysis_least_privilege_permission_set
+    agent_constraints: governance_violation_analysis_autonomy_and_tool_constraints
+    agent_accountability: governance_violation_analysis_human_accountability_chain
+    agent_escalation_rules: governance_violation_analysis_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - governance_violation_analysis_policy_context
+      - governance_violation_analysis_risk_score
+      - governance_violation_analysis_human_intent
+    decision_outputs:
+      - governance_violation_analysis_authorized_action
+      - governance_violation_analysis_escalation_notice
+    decision_owners:
+      - governance_violation_analysis_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: governance_violation_analysis_high_risk_decision_mandatory_review
+    decision_accountability: governance_violation_analysis_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: governance_violation_analysis_approved_tool_allowlist
+    tool_execution_validation: governance_violation_analysis_pre_execution_tool_risk_check
+    tool_risk_controls: governance_violation_analysis_tool_side_effect_containment
+    tool_auditability: governance_violation_analysis_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: governance_violation_analysis_memory_segment_access_policy
+    memory_integrity_validation: governance_violation_analysis_memory_tamper_detection
+    memory_retention_controls: governance_violation_analysis_memory_retention_and_purge_rules
+    memory_auditability: governance_violation_analysis_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: governance_violation_analysis_chain_of_thought_capture
+    reasoning_validation: governance_violation_analysis_reasoning_consistency_check
+    reasoning_risk_monitoring: governance_violation_analysis_reasoning_hazard_detection
+    reasoning_accountability: governance_violation_analysis_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - governance_violation_analysis_audit_log
+  - governance_violation_analysis_activity_log
+  - governance_violation_analysis_decision_log
+  - governance_violation_analysis_traceability_record
+  - governance_violation_analysis_evidence_package
+  - governance_violation_analysis_chain_of_custody_record
+  - governance_violation_analysis_attestation
+required_evidence:
+  - governance_violation_analysis_audit_log
+  - governance_violation_analysis_activity_log
+  - governance_violation_analysis_decision_log
+  - governance_violation_analysis_traceability_record
+  - governance_violation_analysis_evidence_package
+  - governance_violation_analysis_chain_of_custody_record
+  - governance_violation_analysis_attestation
+supporting_evidence:
+  - governance_violation_analysis_audit_log
+  - governance_violation_analysis_activity_log
+  - governance_violation_analysis_decision_log
+  - governance_violation_analysis_traceability_record
+  - governance_violation_analysis_evidence_package
+audit_evidence:
+  - governance_violation_analysis_audit_log
+  - governance_violation_analysis_activity_log
+  - governance_violation_analysis_decision_log
+  - governance_violation_analysis_traceability_record
+  - governance_violation_analysis_evidence_package
+  - governance_violation_analysis_chain_of_custody_record
+  - governance_violation_analysis_attestation
+forensic_evidence:
+  - governance_violation_analysis_audit_log
+  - governance_violation_analysis_activity_log
+  - governance_violation_analysis_decision_log
+  - governance_violation_analysis_traceability_record
+  - governance_violation_analysis_evidence_package
+  - governance_violation_analysis_chain_of_custody_record
+  - governance_violation_analysis_attestation
+regulatory_evidence:
+  - governance_violation_analysis_audit_log
+  - governance_violation_analysis_activity_log
+  - governance_violation_analysis_decision_log
+  - governance_violation_analysis_traceability_record
+  - governance_violation_analysis_evidence_package
+  - governance_violation_analysis_chain_of_custody_record
+  - governance_violation_analysis_attestation
+validation_evidence:
+  - governance_violation_analysis_audit_log
+  - governance_violation_analysis_activity_log
+  - governance_violation_analysis_decision_log
+  - governance_violation_analysis_traceability_record
+  - governance_violation_analysis_evidence_package
+  - governance_violation_analysis_chain_of_custody_record
+  - governance_violation_analysis_attestation
+validation_rules:
+  - rule: governance_violation_analysis_evidence_complete
+    condition: required_evidence_governance_violation_analysis < threshold
+    action: BLOCK_SUBMISSION
+  - rule: governance_violation_analysis_integrity_verified
+    condition: integrity_status_governance_violation_analysis != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: governance_violation_analysis_custody_intact
+    condition: custody_gap_governance_violation_analysis == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Governance Violation Analysis controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Governance Violation Analysis controls fail; mitigated
+      through preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Governance Violation Analysis controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Governance Violation Analysis controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Governance Violation Analysis controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - governance_violation_analysis_control_failure
+    - governance_violation_analysis_evidence_compromise
+    - governance_violation_analysis_regulatory_non_compliance
+    - governance_violation_analysis_enforcement_delay
+  risk_events:
+    - governance_violation_analysis_audit_finding_critical
+    - governance_violation_analysis_investigation_escalation
+    - governance_violation_analysis_sanction_exposure
+    - governance_violation_analysis_market_surveillance_inquiry
+  risk_indicators:
+    - governance_violation_analysis_control_effectiveness_degradation
+    - governance_violation_analysis_evidence_gap_rate
+    - governance_violation_analysis_sla_breach_count
+    - governance_violation_analysis_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    governance_violation_analysis_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: governance_violation_analysis_forensic_lead
+    governance_violation_analysis_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    governance_violation_analysis_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: governance_violation_analysis_enforcement_officer
+  risk_tolerance:
+    governance_violation_analysis_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: governance_violation_analysis_risk_score >= 60
+    critical: governance_violation_analysis_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Governance Violation Analysis controls documented in
+      governance_violation_analysis_risk_register with quarterly review.
+  risk_treatment:
+    - governance_violation_analysis_preventive_control_reinforcement
+    - governance_violation_analysis_detective_monitoring_enhancement
+    - governance_violation_analysis_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: governance_violation_analysis_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Governance Violation Analysis workflow events with provenance anchor and
+      governance_violation_analysis_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via governance_violation_analysis_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      governance_violation_analysis_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      governance_violation_analysis_data_classification_policy
+  evidence_storage:
+    >
+      Write-once immutable storage in governance_violation_analysis_evidence_vault with access
+      controls
+  evidence_retention:
+    >
+      Retention per governance_violation_analysis_retention_schedule aligned with EU AI Act Article 18
+      and legal hold
+  evidence_archival:
+    Long-term archival with governance_violation_analysis_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via governance_violation_analysis_retrieval_gateway with purpose logging
+  evidence_disposal:
+    >
+      Authorized disposition with governance_violation_analysis_disposition_certificate and dual
+      approval
+chain_of_custody:
+  custody_events:
+    - governance_violation_analysis_capture_event
+    - governance_violation_analysis_transfer_event
+    - governance_violation_analysis_access_event
+    - governance_violation_analysis_disposition_event
+  custody_owners:
+    primary: governance_violation_analysis_evidence_custodian
+    secondary: governance_violation_analysis_forensic_lead
+  custody_validation:
+    method: governance_violation_analysis_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - governance_violation_analysis_sha256_hash_chain
+    - governance_violation_analysis_digital_signature
+    - governance_violation_analysis_timestamp_authority
+  tamper_detection:
+    method: governance_violation_analysis_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: governance_violation_analysis_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_12:
+    article: Article 12
+    regulatory_text_summary:
+      Record-keeping and automatic logging.
+    obligation:
+      >
+        Logging capabilities enabling traceability throughout system lifetime. Implemented through
+        Governance Violation Analysis in governance_forensics.
+    implementation_controls:
+      - governance_violation_analysis_article_12_preventive_control
+      - governance_violation_analysis_article_12_detective_control
+      - governance_violation_analysis_article_12_evidence_control
+    implementation_processes:
+      - governance_violation_analysis_article_12_workflow
+      - governance_violation_analysis_article_12_validation_process
+      - governance_violation_analysis_article_12_escalation_process
+    implementation_evidence:
+      - governance_violation_analysis_article_12_compliance_record
+      - governance_violation_analysis_article_12_audit_package
+      - governance_violation_analysis_article_12_attestation
+    validation_method: governance_violation_analysis_article_12_automated_and_manual_conformity_testing
+    audit_method: governance_violation_analysis_article_12_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: governance_violation_analysis_article_12_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Governance Violation Analysis demonstrates Article 12 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_14:
+    article: Article 14
+    regulatory_text_summary:
+      Human oversight.
+    obligation:
+      >
+        Effective human oversight measures during system use. Implemented through Governance Violation
+        Analysis in governance_forensics.
+    implementation_controls:
+      - governance_violation_analysis_article_14_preventive_control
+      - governance_violation_analysis_article_14_detective_control
+      - governance_violation_analysis_article_14_evidence_control
+    implementation_processes:
+      - governance_violation_analysis_article_14_workflow
+      - governance_violation_analysis_article_14_validation_process
+      - governance_violation_analysis_article_14_escalation_process
+    implementation_evidence:
+      - governance_violation_analysis_article_14_compliance_record
+      - governance_violation_analysis_article_14_audit_package
+      - governance_violation_analysis_article_14_attestation
+    validation_method: governance_violation_analysis_article_14_automated_and_manual_conformity_testing
+    audit_method: governance_violation_analysis_article_14_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: governance_violation_analysis_article_14_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Governance Violation Analysis demonstrates Article 14 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Governance Violation Analysis in governance_forensics.
+    implementation_controls:
+      - governance_violation_analysis_article_26_preventive_control
+      - governance_violation_analysis_article_26_detective_control
+      - governance_violation_analysis_article_26_evidence_control
+    implementation_processes:
+      - governance_violation_analysis_article_26_workflow
+      - governance_violation_analysis_article_26_validation_process
+      - governance_violation_analysis_article_26_escalation_process
+    implementation_evidence:
+      - governance_violation_analysis_article_26_compliance_record
+      - governance_violation_analysis_article_26_audit_package
+      - governance_violation_analysis_article_26_attestation
+    validation_method: governance_violation_analysis_article_26_automated_and_manual_conformity_testing
+    audit_method: governance_violation_analysis_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: governance_violation_analysis_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Governance Violation Analysis demonstrates Article 26 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_73:
+    article: Article 73
+    regulatory_text_summary:
+      Reporting of serious incidents.
+    obligation:
+      >
+        Serious incident reporting to market surveillance authorities. Implemented through Governance
+        Violation Analysis in governance_forensics.
+    implementation_controls:
+      - governance_violation_analysis_article_73_preventive_control
+      - governance_violation_analysis_article_73_detective_control
+      - governance_violation_analysis_article_73_evidence_control
+    implementation_processes:
+      - governance_violation_analysis_article_73_workflow
+      - governance_violation_analysis_article_73_validation_process
+      - governance_violation_analysis_article_73_escalation_process
+    implementation_evidence:
+      - governance_violation_analysis_article_73_compliance_record
+      - governance_violation_analysis_article_73_audit_package
+      - governance_violation_analysis_article_73_attestation
+    validation_method: governance_violation_analysis_article_73_automated_and_manual_conformity_testing
+    audit_method: governance_violation_analysis_article_73_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: governance_violation_analysis_article_73_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Governance Violation Analysis demonstrates Article 73 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_12:
+      implementation: governance_violation_analysis_eu_ai_act_article_12_control_set
+      process: governance_violation_analysis_eu_ai_act_article_12_workflow
+      evidence: governance_violation_analysis_eu_ai_act_article_12_attestation
+    article_14:
+      implementation: governance_violation_analysis_eu_ai_act_article_14_control_set
+      process: governance_violation_analysis_eu_ai_act_article_14_workflow
+      evidence: governance_violation_analysis_eu_ai_act_article_14_attestation
+    article_26:
+      implementation: governance_violation_analysis_eu_ai_act_article_26_control_set
+      process: governance_violation_analysis_eu_ai_act_article_26_workflow
+      evidence: governance_violation_analysis_eu_ai_act_article_26_attestation
+    article_73:
+      implementation: governance_violation_analysis_eu_ai_act_article_73_control_set
+      process: governance_violation_analysis_eu_ai_act_article_73_workflow
+      evidence: governance_violation_analysis_eu_ai_act_article_73_attestation
+  gdpr:
+    article_5:
+      implementation: governance_violation_analysis_gdpr_article_5_privacy_control
+      evidence: governance_violation_analysis_gdpr_article_5_compliance_record
+    article_6:
+      implementation: governance_violation_analysis_gdpr_article_6_privacy_control
+      evidence: governance_violation_analysis_gdpr_article_6_compliance_record
+    article_22:
+      implementation: governance_violation_analysis_gdpr_article_22_privacy_control
+      evidence: governance_violation_analysis_gdpr_article_22_compliance_record
+    article_25:
+      implementation: governance_violation_analysis_gdpr_article_25_privacy_control
+      evidence: governance_violation_analysis_gdpr_article_25_compliance_record
+    article_32:
+      implementation: governance_violation_analysis_gdpr_article_32_privacy_control
+      evidence: governance_violation_analysis_gdpr_article_32_compliance_record
+    article_35:
+      implementation: governance_violation_analysis_gdpr_article_35_privacy_control
+      evidence: governance_violation_analysis_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: governance_violation_analysis_iso42001_clause_4_1_aims_control
+      evidence: governance_violation_analysis_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: governance_violation_analysis_iso42001_clause_4_2_aims_control
+      evidence: governance_violation_analysis_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: governance_violation_analysis_iso42001_clause_5_1_aims_control
+      evidence: governance_violation_analysis_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: governance_violation_analysis_iso42001_clause_5_2_aims_control
+      evidence: governance_violation_analysis_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: governance_violation_analysis_iso42001_clause_6_1_aims_control
+      evidence: governance_violation_analysis_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: governance_violation_analysis_iso42001_clause_8_1_aims_control
+      evidence: governance_violation_analysis_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: governance_violation_analysis_iso42001_clause_9_1_aims_control
+      evidence: governance_violation_analysis_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: governance_violation_analysis_iso42001_clause_10_1_aims_control
+      evidence: governance_violation_analysis_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: governance_violation_analysis_iso23894_risk_identification_alignment
+      evidence: governance_violation_analysis_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: governance_violation_analysis_iso23894_risk_analysis_alignment
+      evidence: governance_violation_analysis_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: governance_violation_analysis_iso23894_risk_evaluation_alignment
+      evidence: governance_violation_analysis_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: governance_violation_analysis_iso23894_risk_treatment_alignment
+      evidence: governance_violation_analysis_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: governance_violation_analysis_iso23894_risk_monitoring_alignment
+      evidence: governance_violation_analysis_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: governance_violation_analysis_iso19011_audit_principles_procedure
+      evidence: governance_violation_analysis_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: governance_violation_analysis_iso19011_audit_programme_management_procedure
+      evidence: governance_violation_analysis_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: governance_violation_analysis_iso19011_audit_evidence_requirements_procedure
+      evidence: governance_violation_analysis_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: governance_violation_analysis_iso19011_audit_reporting_procedure
+      evidence: governance_violation_analysis_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: governance_violation_analysis_nist_rmf_govern_control_mapping
+      evidence: governance_violation_analysis_nist_rmf_govern_assessment
+    map:
+      implementation: governance_violation_analysis_nist_rmf_map_control_mapping
+      evidence: governance_violation_analysis_nist_rmf_map_assessment
+    measure:
+      implementation: governance_violation_analysis_nist_rmf_measure_control_mapping
+      evidence: governance_violation_analysis_nist_rmf_measure_assessment
+    manage:
+      implementation: governance_violation_analysis_nist_rmf_manage_control_mapping
+      evidence: governance_violation_analysis_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: governance_violation_analysis_nist_csf_identify_safeguard
+      evidence: governance_violation_analysis_nist_csf_identify_log
+    protect:
+      implementation: governance_violation_analysis_nist_csf_protect_safeguard
+      evidence: governance_violation_analysis_nist_csf_protect_log
+    detect:
+      implementation: governance_violation_analysis_nist_csf_detect_safeguard
+      evidence: governance_violation_analysis_nist_csf_detect_log
+    respond:
+      implementation: governance_violation_analysis_nist_csf_respond_safeguard
+      evidence: governance_violation_analysis_nist_csf_respond_log
+    recover:
+      implementation: governance_violation_analysis_nist_csf_recover_safeguard
+      evidence: governance_violation_analysis_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: governance_violation_analysis_oecd_accountability_governance_control
+      evidence: governance_violation_analysis_oecd_accountability_attestation
+    transparency:
+      implementation: governance_violation_analysis_oecd_transparency_governance_control
+      evidence: governance_violation_analysis_oecd_transparency_attestation
+    robustness_security:
+      implementation: governance_violation_analysis_oecd_robustness_security_governance_control
+      evidence: governance_violation_analysis_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: governance_violation_analysis_oecd_inclusive_growth_governance_control
+      evidence: governance_violation_analysis_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: governance_violation_analysis_unesco_human_rights_ethics_control
+      evidence: governance_violation_analysis_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: governance_violation_analysis_unesco_fairness_non_discrimination_ethics_control
+      evidence: governance_violation_analysis_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: governance_violation_analysis_unesco_transparency_explainability_ethics_control
+      evidence: governance_violation_analysis_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: governance_violation_analysis_unesco_accountability_ethics_control
+      evidence: governance_violation_analysis_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Governance Violation Analysis covering executive, board, regulatory,
+      audit, forensic, and attestation consumers.
+  report_types:
+    - governance_violation_analysis_status_report
+    - governance_violation_analysis_compliance_report
+    - governance_violation_analysis_enforcement_report
+    - governance_violation_analysis_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [governance_violation_analysis_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_governance_violation_analysis
+  - quarterly_control_testing_governance_violation_analysis
+  - evidence_sampling_governance_violation_analysis
+  - finding_remediation_tracking_governance_violation_analysis
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Governance Violation Analysis aligned with ISO/IEC 27037 and legal
+      admissibility standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Governance Violation Analysis.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Governance Violation Analysis.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Governance Violation Analysis.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Governance Violation Analysis.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Governance Violation Analysis.
+investigation_requirements:
+  case_management:
+    Case Management for Governance Violation Analysis investigations.
+  investigation_lifecycle:
+    Investigation Lifecycle for Governance Violation Analysis investigations.
+  evidence_collection:
+    Evidence Collection for Governance Violation Analysis investigations.
+  root_cause_analysis:
+    Root Cause Analysis for Governance Violation Analysis investigations.
+  violation_determination:
+    Violation Determination for Governance Violation Analysis investigations.
+  regulatory_notification:
+    Regulatory Notification for Governance Violation Analysis investigations.
+integration_points:
+  upstream_systems:
+    - system: audit_traceability
+      purpose: governance_violation_analysis_to_audit_traceability_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_audit_traceability]
+      produced_artifacts: [governance_violation_analysis_output_to_audit_traceability]
+    - system: evidence_preservation
+      purpose: governance_violation_analysis_to_evidence_preservation_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_evidence_preservation]
+      produced_artifacts: [governance_violation_analysis_output_to_evidence_preservation]
+    - system: incident_reporting
+      purpose: governance_violation_analysis_to_incident_reporting_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_incident_reporting]
+      produced_artifacts: [governance_violation_analysis_output_to_incident_reporting]
+  downstream_systems:
+    - system: investigation_management
+      purpose: governance_violation_analysis_to_investigation_management_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_investigation_management]
+      produced_artifacts: [governance_violation_analysis_output_to_investigation_management]
+    - system: enforcement_actions
+      purpose: governance_violation_analysis_to_enforcement_actions_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_enforcement_actions]
+      produced_artifacts: [governance_violation_analysis_output_to_enforcement_actions]
+    - system: reporting
+      purpose: governance_violation_analysis_to_reporting_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_reporting]
+      produced_artifacts: [governance_violation_analysis_output_to_reporting]
+  governance_integrations:
+    - system: ai_liability
+      purpose: governance_violation_analysis_to_ai_liability_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_ai_liability]
+      produced_artifacts: [governance_violation_analysis_output_to_ai_liability]
+    - system: incident_reporting
+      purpose: governance_violation_analysis_to_incident_reporting_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_incident_reporting]
+      produced_artifacts: [governance_violation_analysis_output_to_incident_reporting]
+  risk_integrations:
+    - system: risk_management
+      purpose: governance_violation_analysis_to_risk_management_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_risk_management]
+      produced_artifacts: [governance_violation_analysis_output_to_risk_management]
+    - system: ai_liability
+      purpose: governance_violation_analysis_to_ai_liability_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_ai_liability]
+      produced_artifacts: [governance_violation_analysis_output_to_ai_liability]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: governance_violation_analysis_to_compliance_audits_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_compliance_audits]
+      produced_artifacts: [governance_violation_analysis_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: governance_violation_analysis_to_internal_audit_system_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_internal_audit_system]
+      produced_artifacts: [governance_violation_analysis_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: governance_violation_analysis_to_governance_reporting_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_governance_reporting]
+      produced_artifacts: [governance_violation_analysis_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: governance_violation_analysis_to_executive_dashboard_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_executive_dashboard]
+      produced_artifacts: [governance_violation_analysis_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: governance_violation_analysis_to_enforcement_actions_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_enforcement_actions]
+      produced_artifacts: [governance_violation_analysis_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: governance_violation_analysis_to_policy_enforcement_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_policy_enforcement]
+      produced_artifacts: [governance_violation_analysis_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: governance_violation_analysis_to_remediation_tracking_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_remediation_tracking]
+      produced_artifacts: [governance_violation_analysis_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: governance_violation_analysis_to_remediation_engine_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_remediation_engine]
+      produced_artifacts: [governance_violation_analysis_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: governance_violation_analysis_to_evidence_preservation_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_evidence_preservation]
+      produced_artifacts: [governance_violation_analysis_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: governance_violation_analysis_to_technical_documentation_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_technical_documentation]
+      produced_artifacts: [governance_violation_analysis_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: governance_violation_analysis_to_post_market_monitoring_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_post_market_monitoring]
+      produced_artifacts: [governance_violation_analysis_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: governance_violation_analysis_to_incident_reporting_governance_sync
+      data_exchanged: [governance_violation_analysis_events, governance_violation_analysis_evidence_refs, governance_violation_analysis_metrics]
+      trigger_conditions: [governance_violation_analysis_state_change, governance_violation_analysis_escalation, governance_violation_analysis_closure]
+      consumed_artifacts: [governance_violation_analysis_input_from_incident_reporting]
+      produced_artifacts: [governance_violation_analysis_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Governance Violation Analysis activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Governance Violation Analysis procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - governance_violation_analysis_procedure_checklist
+    required_evidence:
+      - governance_violation_analysis_process_log
+    required_metrics:
+      - governance_violation_analysis_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Governance Violation Analysis enterprise-wide.
+    required_capabilities:
+      - governance_violation_analysis_standard_control_set
+    required_controls:
+      - governance_violation_analysis_control_register
+    required_evidence:
+      - governance_violation_analysis_audit_evidence
+    required_metrics:
+      - governance_violation_analysis_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Governance Violation Analysis with KPI optimization.
+    required_capabilities:
+      - governance_violation_analysis_automated_controls
+    required_controls:
+      - governance_violation_analysis_telemetry_controls
+    required_evidence:
+      - governance_violation_analysis_assurance_package
+    required_metrics:
+      - governance_violation_analysis_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Governance Violation Analysis with predictive analytics.
+    required_capabilities:
+      - governance_violation_analysis_autonomous_governance
+    required_controls:
+      - governance_violation_analysis_adaptive_controls
+    required_evidence:
+      - governance_violation_analysis_regulator_ready_portfolio
+    required_metrics:
+      - governance_violation_analysis_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - governance_violation_analysis_report
+  - governance_violation_analysis_evidence_package
+  - governance_violation_analysis_attestation
+  - governance_violation_analysis_enforcement_record
+artifacts:
+  - name: governance_violation_analysis_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: governance_violation_analysis_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: governance_violation_analysis_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: governance_violation_analysis_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - governance_violation_analysis_case_record
+  - governance_violation_analysis_audit_record
+  - governance_violation_analysis_enforcement_record
+  - governance_violation_analysis_remediation_record
+monitoring:
+  continuous:
+    - governance_violation_analysis_control_telemetry
+    - governance_violation_analysis_evidence_integrity_feed
+    - governance_violation_analysis_escalation_queue
+  periodic:
+    - governance_violation_analysis_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Governance Violation Analysis effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: governance_violation_analysis_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: governance_violation_analysis_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: governance_violation_analysis_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: governance_violation_analysis_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Governance Violation Analysis

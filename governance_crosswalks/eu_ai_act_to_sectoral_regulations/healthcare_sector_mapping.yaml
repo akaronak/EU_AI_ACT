@@ -1,0 +1,1115 @@
+metadata:
+  document_id: "CW-SECT-HEALTHCARE_S-001"
+  title: "Healthcare Sector Mapping"
+  domain: "Governance Crosswalk"
+  version: "1.0.0"
+  classification: "RESTRICTED"
+  purpose: "Govern, operationalize, and validate framework mappings for Healthcare Sector Mapping under the Eu Ai Act To Sectoral Regulations framework. This skill provides machine-readable, executable governance crosswalks, harmonization logic, and traceability maps specifically tailored to automotive sector compliance, financial sector risk balancing, healthcare sector mappings, employment sector alignments properties."
+  scope: "Scope covers all compliance mapping matrices, semantic translation records, telemetry streams, and assurance assessments governed by the Healthcare Sector Mapping architecture under Eu Ai Act To Sectoral Regulations requirements."
+  objectives:
+    - "Enforce automated validation check gates for Healthcare Sector Mapping mapping equivalencies."
+    - "Enable real-time tracking, overlap scoring, and semantic updates under Eu Ai Act To Sectoral Regulations."
+    - "Compile verifiable evidence reports to prove cross-framework compliance alignment."
+  definitions:
+    healthcare_sector_mapping_crosswalk_policy: "The primary operational crosswalk policy guidelines for Healthcare Sector Mapping."
+    healthcare_sector_mapping_telemetry_payload: "Structured telemetry bundle containing mapping events, validation indicators, and quality scores."
+  taxonomy:
+    mapping_types:
+      - "DIRECT_EQUIVALENCE"
+      - "PARTIAL_OVERLAP"
+      - "GAP_IDENTIFIED"
+    governance_roles:
+      - "CROSSWALK_ARCHITECT"
+      - "OBLIGATION_ANALYST"
+      - "INTEROPERABILITY_LEAD"
+  applicable_roles:
+    - "crosswalk_architect"
+    - "obligation_analyst"
+    - "interoperability_lead"
+    - "assurance_lead"
+    - "oversight_lead"
+  regulatory_alignment:
+    iso_42001:
+      requirements: "Establish AI management systems."
+      sections:
+        - "Section 6"
+        - "Section 8"
+        - "Section 9"
+    nist_ai_rmf:
+      requirements: "Align with GOVERN and MANAGE parameters."
+      functions:
+        - "GOVERN"
+        - "MAP"
+        - "MEASURE"
+        - "MANAGE"
+    eu_ai_act:
+      requirements: "Conform with Articles obligations."
+      articles:
+        - "Article 9"
+        - "Article 52"
+        - "Article 53"
+        - "Article 55"
+purpose: "Govern, operationalize, and validate framework mappings for Healthcare Sector Mapping under the Eu Ai Act To Sectoral Regulations framework. This skill provides machine-readable, executable governance crosswalks, harmonization logic, and traceability maps specifically tailored to automotive sector compliance, financial sector risk balancing, healthcare sector mappings, employment sector alignments properties."
+scope: "Scope covers all compliance mapping matrices, semantic translation records, telemetry streams, and assurance assessments governed by the Healthcare Sector Mapping architecture under Eu Ai Act To Sectoral Regulations requirements."
+objectives:
+  - "Enforce automated validation check gates for Healthcare Sector Mapping mapping equivalencies."
+  - "Enable real-time tracking, overlap scoring, and semantic updates under Eu Ai Act To Sectoral Regulations."
+  - "Compile verifiable evidence reports to prove cross-framework compliance alignment."
+definitions:
+  healthcare_sector_mapping_crosswalk_policy: "The primary operational crosswalk policy guidelines for Healthcare Sector Mapping."
+  healthcare_sector_mapping_telemetry_payload: "Structured telemetry bundle containing mapping events, validation indicators, and quality scores."
+taxonomy:
+  mapping_types:
+    - "DIRECT_EQUIVALENCE"
+    - "PARTIAL_OVERLAP"
+    - "GAP_IDENTIFIED"
+  governance_roles:
+    - "CROSSWALK_ARCHITECT"
+    - "OBLIGATION_ANALYST"
+    - "INTEROPERABILITY_LEAD"
+governance:
+  governance_model: "HARMONIZED_COMPLIANCE_MANAGEMENT"
+  governance_structure: "Enterprise Compliance Interoperability Board - Eu Ai Act To Sectoral Regulations"
+  roles_and_responsibilities:
+    crosswalk_architect: "Responsible for leading mapping architecture and rule updates for Healthcare Sector Mapping."
+    obligation_analyst: "Responsible for verifying requirement equivalencies and taxonomies for Healthcare Sector Mapping."
+    interoperability_lead: "Responsible for managing cross-framework audits and evidence reuse for Healthcare Sector Mapping."
+  stakeholders:
+    - "Chief Compliance Officer"
+    - "Legal Counsel"
+    - "Enterprise Standards Architect"
+governance_model:
+  model_type: "HARMONIZED_COMPLIANCE_MANAGEMENT"
+  model_rationale: "Ensures uniform application of compliance crosswalks and audit-ready tracking of Healthcare Sector Mapping mappings across all operating subsidiaries."
+governance_structure:
+  oversight_board: "Enterprise Trust & Alignment Committee - Eu Ai Act To Sectoral Regulations"
+  escalation_contact: "crosswalk_ops@enterprise.ai"
+roles_and_responsibilities:
+  crosswalk_architect: "Primary owner of Healthcare Sector Mapping compliance crosswalk registries and mapping rules."
+  obligation_analyst: "Responsible for mapping traceability validations and updating Healthcare Sector Mapping gap logs."
+  interoperability_lead: "Responsible for coordinating evidence reuse checks and cross-framework validation gateway runs."
+stakeholders:
+  - "Head of Regulatory Affairs"
+  - "Chief Compliance Officer"
+  - "Lead System Architect"
+  - "Eu Ai Act To Sectoral Regulations Lead specialist"
+capabilities:
+  - "Continuous automated monitoring of mapping integrity for Healthcare Sector Mapping."
+  - "Real-time signal analysis and automated threshold escalation under Eu Ai Act To Sectoral Regulations."
+  - "Pre-attested crosswalk evidence packaging for multi-framework compliance audits."
+requirements:
+  - "All mapping changes in Healthcare Sector Mapping must be tracked and logged."
+  - "Assurance verification scores must exceed the 0.90 baseline parameters."
+  - "Telemetry reports must map to applicable interoperability indicators."
+controls:
+  - control_id: "CTRL-CW-SECT-HEALTH-01"
+    control_name: "framework_equivalency_control"
+    control_type: "PREVENTATIVE"
+    control_category: "HARMONIZATION"
+    control_objective: "Verify and enforce framework equivalencies and mapping rules for Healthcare Sector Mapping."
+    crosswalk_rationale: "Required to maintain mapping integrity and prevent compliance duplication for Healthcare Sector Mapping."
+    implementation_guidance: "Deploy validation scripts that compare mapping rules against schema rules weekly."
+    control_owner: "Crosswalk Architect"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Track framework check logs and verification database entries."
+    validation_method: "Inject mapping rule violation profile, verify release gateway block."
+    evidence_generated: "Signed framework classification attestation saved in compliance vault."
+    mapping_confidence: 0.99
+    audit_considerations: "Check classification rules and benchmark evaluation datasets."
+  - control_id: "CTRL-CW-SECT-HEALTH-02"
+    control_name: "obligation_traceability_control"
+    control_type: "DETECTIVE"
+    control_category: "TRACEABILITY"
+    control_objective: "Ensure that all source obligations map to target obligations with traceable paths for Healthcare Sector Mapping."
+    crosswalk_rationale: "Ensures audit defensibility and mapping visibility for Healthcare Sector Mapping."
+    implementation_guidance: "Deploy traceability telemetry webhook loops that continuously monitor mapping updates."
+    control_owner: "Obligation Analyst"
+    control_frequency: "CONTINUOUS"
+    monitoring_method: "Monitor traceability dashboard scores and webhook status daily."
+    validation_method: "Simulate orphan obligation stream, verify traceability alert is generated."
+    evidence_generated: "Daily Traceability Compliance reports."
+    mapping_confidence: 0.98
+    audit_considerations: "Check trace correlation metrics and telemetry source indexes."
+  - control_id: "CTRL-CW-SECT-HEALTH-03"
+    control_name: "evidence_reusability_control"
+    control_type: "PREVENTATIVE"
+    control_category: "EVIDENCE"
+    control_objective: "Verify and maximize evidence reusability across mapped frameworks for Healthcare Sector Mapping."
+    crosswalk_rationale: "Reduces evidence duplication costs and coordinates interoperability audits for Healthcare Sector Mapping."
+    implementation_guidance: "Deploy runtime enforcement policies that restrict evidence uploads to pre-validated structures."
+    control_owner: "Interoperability Lead"
+    control_frequency: "REAL_TIME"
+    monitoring_method: "Track active evidence transactions and override counts."
+    validation_method: "Mock invalid evidence file upload, confirm block response."
+    evidence_generated: "Weekly evidence reuse reports and override event logs."
+    mapping_confidence: 0.95
+    audit_considerations: "Verify runtime policy configuration file signature."
+  - control_id: "CTRL-CW-SECT-HEALTH-04"
+    control_name: "semantic_alignment_control"
+    control_type: "DETECTIVE"
+    control_category: "ONTOLOGY"
+    control_objective: "Monitor and resolve ontology and terminology conflicts daily for Healthcare Sector Mapping."
+    crosswalk_rationale: "Ensures semantic interoperability and reduces terminological drift across frameworks for Healthcare Sector Mapping."
+    implementation_guidance: "Compile terminology validation manifest weekly and track usage logs for unauthorized terms."
+    control_owner: "Crosswalk Architect"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Review ontology dependency tracking graphs daily."
+    validation_method: "Simulate terminology drift event, check alert response."
+    evidence_generated: "Weekly Terminology Verification Attestation and logs registry."
+    mapping_confidence: 0.97
+    audit_considerations: "Check terminology allow-lists."
+  - control_id: "CTRL-CW-SECT-HEALTH-05"
+    control_name: "cross_framework_validation_control"
+    control_type: "PREVENTATIVE"
+    control_category: "VALIDATION"
+    control_objective: "Validate cross-framework mapping confidence and rules completeness before registry update for Healthcare Sector Mapping."
+    crosswalk_rationale: "Ensures audit-readiness and verification consistency of the mapping matrix for Healthcare Sector Mapping."
+    implementation_guidance: "Verify all mapping matrix metadata fields match verification metrics before release."
+    control_owner: "Crosswalk Architect"
+    control_frequency: "ON_RELEASE"
+    monitoring_method: "Verify metadata checklist validation state."
+    validation_method: "Generate mapping matrix with missing fields, confirm release blocking."
+    evidence_generated: "Signed Mapping Matrix Attestation certificate."
+    mapping_confidence: 0.99
+    audit_considerations: "Review matrix generation scripts and source registries."
+  - control_id: "CTRL-CW-SECT-HEALTH-06"
+    control_name: "regulatory_harmonization_control"
+    control_type: "DETECTIVE"
+    control_category: "HARMONIZATION"
+    control_objective: "Trace regulatory changes and update control alignments dynamically for Healthcare Sector Mapping."
+    crosswalk_rationale: "Maintains alignment validity and coordinates regulatory updates responses for Healthcare Sector Mapping."
+    implementation_guidance: "Log all regulatory updates signatures and change items to a secure database."
+    control_owner: "Interoperability Lead"
+    control_frequency: "REAL_TIME"
+    monitoring_method: "Audit regulatory trace ledger daily."
+    validation_method: "Mock regulatory change event without update keys, verify connection reset."
+    evidence_generated: "Weekly Regulatory Change Ledger logs."
+    mapping_confidence: 0.98
+    audit_considerations: "Verify ledger entry logic and signature authority setups."
+decision_logic:
+  escalation_trigger: "If mapping_assurance_score falls below 0.83, alert the Crosswalk Architect immediately."
+  incident_classification: "Classify as CRITICAL if mapping_accuracy_score drops below 0.90 for more than 24 hours."
+processes:
+  mapping_review: "Detailed process for evaluating framework updates and mapping changes for Healthcare Sector Mapping."
+  harmonization_execution: "Standard procedures to deploy updated crosswalk configurations and resolve conflicts for Healthcare Sector Mapping."
+workflows:
+  - workflow_id: "framework_mapping_workflow"
+    workflow_owner: "Crosswalk Architect"
+    workflow_objective: "Map source framework requirements to target framework parameters for Healthcare Sector Mapping."
+    trigger: "New framework version draft compiled."
+    inputs:
+      - "source_framework_registry"
+      - "target_framework_registry"
+      - "mapping_rules_manifest"
+    activities:
+      - "Execute automated mapping alignment checks in database."
+      - "Extract equivalency ratings and compare against rules."
+      - "Generate framework mapping draft report."
+    decision_points:
+      - "Equivalency rating check"
+      - "Interoperability review"
+    approvals:
+      - "Crosswalk Architect Sign-off"
+    outputs:
+      - "Framework mapping report"
+      - "Updated crosswalk records"
+    generated_evidence: "Framework Mapping Attestation saved in compliance vault."
+    mapping_outputs:
+      - "Equivalency matrices"
+      - "Gap reports"
+    success_criteria: "Mapping completes and report is generated within 12 hours of trigger."
+    failure_conditions: "Mapping database is unreachable or missing version inputs."
+  - workflow_id: "obligation_mapping_workflow"
+    workflow_owner: "Obligation Analyst"
+    workflow_objective: "Trace obligations and update equivalencies registers for Healthcare Sector Mapping."
+    trigger: "Scheduled monthly review cycle or obligation update alert."
+    inputs:
+      - "source_obligations_vault"
+      - "target_obligations_vault"
+      - "traceability_baselines"
+    activities:
+      - "Audit active obligation trace logs against compliance registers."
+      - "Identify mapping gaps in current framework requirements."
+      - "Draft obligation mapping briefing."
+    decision_points:
+      - "Traceability score check"
+      - "Overlap alignment review"
+    approvals:
+      - "Obligation Analyst Approval"
+    outputs:
+      - "Obligation mapping summary"
+      - "Updated trace register logs"
+    generated_evidence: "Signed Monthly Obligation Trace report."
+    mapping_outputs:
+      - "Obligation trace charts"
+      - "Overlap matrices"
+    success_criteria: "Obligation review completed and registered within first week of month."
+    failure_conditions: "Traceability ledger is corrupted or unreachable."
+  - workflow_id: "control_mapping_workflow"
+    workflow_owner: "Control Auditor"
+    workflow_objective: "Enforce control equivalency verifications and check alignments for Healthcare Sector Mapping."
+    trigger: "Scheduled quarterly audit schedule or control modification event."
+    inputs:
+      - "source_controls_index"
+      - "target_controls_index"
+      - "audit_log_manifests"
+    activities:
+      - "Verify control equivalencies against implementation logs."
+      - "Review control overlap alignment scores."
+      - "Draft and issue official control equivalency report."
+    decision_points:
+      - "Equivalency check"
+      - "Implementation overlap review"
+    approvals:
+      - "Control Auditor Approval"
+    outputs:
+      - "Control equivalency report"
+      - "Audit scorecard summary"
+    generated_evidence: "Signed Control Alignment Attestation stored in database."
+    mapping_outputs:
+      - "Control overlaps list"
+      - "Verification charts"
+    success_criteria: "Audit completed and control alignments published."
+    failure_conditions: "Signature mismatch or missing key control records."
+  - workflow_id: "evidence_mapping_workflow"
+    workflow_owner: "Evidence Steward"
+    workflow_objective: "Verify evidence reusability and check metadata alignments for Healthcare Sector Mapping."
+    trigger: "Evidence upload request or audit review gateway."
+    inputs:
+      - "source_evidence_metadata"
+      - "target_evidence_metadata"
+      - "reusability_thresholds"
+    activities:
+      - "Extract metadata details and check fields completeness."
+      - "Calculate reusability scores against thresholds."
+      - "Register validated evidence logs in mapping registry."
+    decision_points:
+      - "Reusability check"
+      - "Completeness review"
+    approvals:
+      - "Evidence Steward Approval"
+    outputs:
+      - "Evidence verification token"
+      - "Validated reusability score"
+    generated_evidence: "Signed Evidence Validation certificate stored in ledger."
+    mapping_outputs:
+      - "Evidence trace logs"
+      - "Interoperability matrices"
+    success_criteria: "Reusability check passes within defined SLA window."
+    failure_conditions: "Missing metadata fields or check validation failure."
+  - workflow_id: "semantic_validation_workflow"
+    workflow_owner: "Semantic Engineer"
+    workflow_objective: "Resolve ontology conflicts and validate terminology mappings for Healthcare Sector Mapping."
+    trigger: "New term ingestion event or terminology warning alert."
+    inputs:
+      - "ontology_definitions_vault"
+      - "taxonomy_mappings_list"
+      - "drift_indicators"
+    activities:
+      - "Analyze terminology inputs against defined semantic databases."
+      - "Flag semantic drift anomalies and update classifications."
+      - "Generate terminology validation report."
+    decision_points:
+      - "Semantic similarity check"
+      - "Inheritance mapping review"
+    approvals:
+      - "Semantic Engineer Sign-off"
+    outputs:
+      - "Terminology validation report"
+      - "Updated ontology config"
+    generated_evidence: "Signed Terminology Alignment Attestation saved in compliance vault."
+    mapping_outputs:
+      - "Ontology links map"
+      - "Synonym index logs"
+    success_criteria: "Validation passes and reports register within 24 hours of trigger."
+    failure_conditions: "Semantic parser loop errors or definitions vault unreachable."
+  - workflow_id: "crosswalk_assurance_workflow"
+    workflow_owner: "Assurance Lead"
+    workflow_objective: "Validate mapping accuracy and compile assurance reports for Healthcare Sector Mapping."
+    trigger: "Scheduled bi-annual audit or release gateway block."
+    inputs:
+      - "mapping_matrix_vault"
+      - "assurance_baselines"
+      - "validation_certificates"
+    activities:
+      - "Audit mapping matrices for completeness and accuracy."
+      - "Verify signature hashes on validation certificates."
+      - "Draft and issue official Crosswalk Assurance report."
+    decision_points:
+      - "Mapping accuracy check"
+      - "Assurance status review"
+    approvals:
+      - "Assurance Lead Sign-off"
+    outputs:
+      - "Crosswalk assurance report"
+      - "Validated mapping matrix"
+    generated_evidence: "Signed Crosswalk Assurance Attestation archived in secure vault."
+    mapping_outputs:
+      - "Assurance scores list"
+      - "Matrix coverage charts"
+    success_criteria: "Assurance audit completed with 100% checks pass."
+    failure_conditions: "Accuracy score < 0.95 or signature checks fail."
+  - workflow_id: "regulatory_alignment_workflow"
+    workflow_owner: "Interoperability Lead"
+    workflow_objective: "Trace regulatory changes and coordinate update responses for Healthcare Sector Mapping."
+    trigger: "Regulatory change event notification."
+    inputs:
+      - "regulatory_update_manifest"
+      - "alignment_overlap_maps"
+      - "impact_scores"
+    activities:
+      - "Evaluate impact of updates on active mapping matrices."
+      - "Adjust control equivalency and obligation maps."
+      - "Register update change logs in compliance database."
+    decision_points:
+      - "Update severity check"
+      - "Impact status review"
+    approvals:
+      - "Interoperability Lead Sign-off"
+      - "Crosswalk Architect Approval"
+    outputs:
+      - "Regulatory update analysis report"
+      - "Updated crosswalk mappings"
+    generated_evidence: "Signed Regulatory Change Attestation stored in vault."
+    mapping_outputs:
+      - "Change impact log"
+      - "Matrix delta analysis"
+    success_criteria: "Change impact review completed within 48 hours of notification."
+    failure_conditions: "Impact scoring errors or update details incomplete."
+  - workflow_id: "interoperability_review_workflow"
+    workflow_owner: "Oversight Lead"
+    workflow_objective: "Monitor overall crosswalk interoperability metrics and maturity scoring for Healthcare Sector Mapping."
+    trigger: "Continuous run loop."
+    inputs:
+      - "crosswalk_scorecards_vault"
+      - "interoperability_indicators"
+      - "maturity_baselines"
+    activities:
+      - "Calculate interoperability indicators weekly."
+      - "Verify crosswalk maturity scorecard parameters."
+      - "Publish maturity indicators to corporate portal."
+    decision_points:
+      - "Maturity check scorecard assessment"
+      - "Interoperability alert trigger"
+    approvals:
+      - "Automated Execution - No approval required"
+    outputs:
+      - "Maturity indicator values"
+      - "Interoperability dashboard updates"
+    generated_evidence: "Weekly crosswalk dashboard snapshot archived in vault."
+    mapping_outputs:
+      - "Maturity trend analysis"
+      - "Gap tracking logs"
+    success_criteria: "Indicator values publish with 100% uptime."
+    failure_conditions: "Scorecard database unreachable or execution errors."
+crosswalk_governance_framework:
+  governance_model: "HARMONIZED_COMPLIANCE_MANAGEMENT"
+  governance_principles:
+    - "Framework Interoperability"
+    - "Semantic Harmonization"
+    - "Traceable Equivalence"
+  governance_authorities:
+    - "Compliance Interoperability Board"
+    - "Ethics Committee"
+  governance_controls:
+    - "CTRL-CW-SECT-HEALTH-01"
+    - "CTRL-CW-SECT-HEALTH-05"
+  crosswalk_ownership: "Assigns primary ownership of Healthcare Sector Mapping mapping matrices directly to the CAIO."
+  crosswalk_accountability: "Establishes primary accountability of Healthcare Sector Mapping rule validations with the Crosswalk Architect."
+  governance_reviews:
+    - "Monthly gap dashboard reviews"
+    - "Annual crosswalk policy updates"
+  governance_assurance: "Cryptographic signature validation and ledger compliance verifications"
+framework_mapping_framework:
+  source_framework: "EU_AI_ACT"
+  target_framework: "ISO_42001"
+  framework_equivalencies:
+    - "AIMS establishes AI management system requirements that satisfy compliance controls."
+  framework_relationships:
+    - source: "EU AI Act conformity checks"
+      relation: "Harmonized with"
+      target: "ISO 42001 internal audits"
+  framework_dependencies:
+    - "urn:enterprise:policy:standards_master"
+  mapping_rules:
+    - "Requirement is equivalent if target covers all audit considerations and validation steps."
+  mapping_confidence: 0.99
+  validation_requirements:
+    - "Verify target requirements are active"
+    - "Audit mapping rules completeness"
+  assurance_requirements:
+    - "Obtain Ethics Board sign-off on release manifest"
+obligation_mapping_framework:
+  source_obligations:
+    - "Verify and trace provider accountability mappings."
+  target_obligations:
+    - "Document compliance mappings files weekly."
+  obligation_equivalencies:
+    - "Source obligations match target obligations when implementation scopes align."
+  obligation_dependencies:
+    - "urn:enterprise:policy:obligations_index"
+  implementation_relationships:
+    - source: "Provider disclosure"
+      relation: "Implements"
+      target: "Transparency disclosures"
+  accountability_relationships:
+    - role: "Compliance Steward"
+      accountable_for: "Model card completenes audits"
+  mapping_validation: "Check accuracy and completeness of obligation mappings weekly."
+  mapping_assurance: "Register signed obligation attestation in compliance registry."
+control_mapping_framework:
+  source_controls:
+    - "CTRL-CW-SECT-HEALTH-01"
+    - "CTRL-CW-SECT-HEALTH-05"
+  target_controls:
+    - "CTRL-ISO42001-AIMS-01"
+    - "CTRL-ISO42001-AIMS-05"
+  control_equivalencies:
+    - "Source controls match target controls when implementation guidance and objectives align."
+  control_dependencies:
+    - "urn:enterprise:policy:controls_master"
+  control_relationships:
+    - source: "AIMS validation checks"
+      relation: "Corresponds to"
+      target: "Conformity validations checklist"
+  implementation_alignment: "Deploy automated webhook checks that align control validation gateway parameters."
+  assurance_alignment: "Verify dashboard scorecard metrics check outcomes weekly."
+  validation_rules:
+    - "Compare parameters validation lists"
+    - "Check validation signatures daily."
+  assurance_rules:
+    - "Register signed validation reports in compliant database weekly."
+evidence_mapping_framework:
+  source_evidence:
+    - "Validation logs"
+    - "Signed attestation certificates"
+  target_evidence:
+    - "Internal audit reports"
+    - "System logs archives"
+  evidence_equivalencies:
+    - "Source evidence matches target evidence when schema fields match."
+  evidence_dependencies:
+    - "urn:enterprise:data:evidence_index"
+  evidence_reusability: "Maximizes evidence reuse by maps multiple framework parameters to a single report template."
+  evidence_interoperability: "Define standard metadata layout that maps compliance check indicators to report columns."
+  validation_requirements:
+    - "Verify digital signature key against cert registry before loading data."
+  assurance_requirements:
+    - "Check file hash match against compliance ledger daily."
+risk_mapping_framework:
+  source_risks:
+    - "Systemic database lockout"
+    - "Model planning loop loop errors"
+  target_risks:
+    - "Information security asset threats"
+    - "AIMS operational errors"
+  risk_equivalencies:
+    - "Source risks map to target risks when hazard vectors overlap."
+  risk_dependencies:
+    - "urn:enterprise:data:risk_master"
+  mitigation_alignment: "Align risk mitigations with standard ISO 31000 rules."
+  assurance_alignment: "Check risk register entries daily for mapping completeness."
+taxonomy_mapping_framework:
+  ontology_mappings:
+    - source_class: "HighRiskAISystem"
+      relation: "EquivalentTo"
+      target_class: "ISO42001AIApplication"
+  taxonomy_mappings:
+    - source_term: "ConformityAssessment"
+      relation: "MapsTo"
+      target_term: "InternalAudit"
+  terminology_mappings:
+    - source_phrase: "NotifiedBody"
+      relation: "CorrespondsTo"
+      target_phrase: "ExternalAuditor"
+  semantic_equivalencies:
+    - "Terms are equivalent when defined synonym lists match."
+  semantic_dependencies:
+    - "urn:enterprise:data:ontology_master"
+  semantic_validation: "Parse terminology inputs weekly and flag semantic drift."
+  semantic_assurance: "Audit semantic mappings annual with standards committee."
+semantic_mapping_framework:
+  ontology_mappings:
+    - source_class: "HighRiskAISystem"
+      relation: "EquivalentTo"
+      target_class: "ISO42001AIApplication"
+  taxonomy_mappings:
+    - source_term: "ConformityAssessment"
+      relation: "MapsTo"
+      target_term: "InternalAudit"
+  terminology_mappings:
+    - source_phrase: "NotifiedBody"
+      relation: "CorrespondsTo"
+      target_phrase: "ExternalAuditor"
+  semantic_equivalencies:
+    - "Terms are equivalent when defined synonym lists match."
+  semantic_dependencies:
+    - "urn:enterprise:data:ontology_master"
+  semantic_validation: "Parse terminology inputs weekly and flag semantic drift."
+  semantic_assurance: "Audit semantic mappings annual with standards committee."
+interoperability_framework:
+  ontology_mappings:
+    - source_class: "HighRiskAISystem"
+      relation: "EquivalentTo"
+      target_class: "ISO42001AIApplication"
+  taxonomy_mappings:
+    - source_term: "ConformityAssessment"
+      relation: "MapsTo"
+      target_term: "InternalAudit"
+  terminology_mappings:
+    - source_phrase: "NotifiedBody"
+      relation: "CorrespondsTo"
+      target_phrase: "ExternalAuditor"
+  semantic_equivalencies:
+    - "Terms are equivalent when defined synonym lists match."
+  semantic_dependencies:
+    - "urn:enterprise:data:ontology_master"
+  semantic_validation: "Parse terminology inputs weekly and flag semantic drift."
+  semantic_assurance: "Audit semantic mappings annual with standards committee."
+assurance_framework:
+  ontology_mappings:
+    - source_class: "HighRiskAISystem"
+      relation: "EquivalentTo"
+      target_class: "ISO42001AIApplication"
+  taxonomy_mappings:
+    - source_term: "ConformityAssessment"
+      relation: "MapsTo"
+      target_term: "InternalAudit"
+  terminology_mappings:
+    - source_phrase: "NotifiedBody"
+      relation: "CorrespondsTo"
+      target_phrase: "ExternalAuditor"
+  semantic_equivalencies:
+    - "Terms are equivalent when defined synonym lists match."
+  semantic_dependencies:
+    - "urn:enterprise:data:ontology_master"
+  semantic_validation: "Parse terminology inputs weekly and flag semantic drift."
+  semantic_assurance: "Audit semantic mappings annual with standards committee."
+monitoring_framework:
+  monitoring_scope: "Continuous tracking of framework mappings and compliance gaps."
+  alert_thresholds: "Trigger alert if any control mapping accuracy drops below 0.90."
+validation_framework:
+  validation_requirements:
+    - "All control mapping adjustments must be validated"
+    - "Ontology drift evaluations must pass verification gates"
+  validation_methods:
+    - "Automated test checks"
+    - "Interoperability committee manual reviews"
+  validation_evidence: "Signed validation attestation documents registered in compliance vault."
+  validation_authority: "Crosswalk Architect"
+  validation_frequency: "Weekly"
+  validation_outcomes:
+    - "Pass - update mapping matrix"
+    - "Fail - block and review gap"
+evidence_intelligence:
+  evidence_sources:
+    - "mapping_matrix_vault"
+    - "regulatory_change_ledger"
+    - "compliance_ledger_db"
+  evidence_types:
+    - "Validation logs"
+    - "Signed attestation certificates"
+    - "Audit reports metadata"
+  evidence_integrity: "SHA-256 hashes registered in corporate ledger database."
+  evidence_lineage: "Map evidence items back to specific pipeline execution timestamps."
+  evidence_provenance: "Generated directly by authorized mapping daemons."
+  evidence_validation: "Check signature keys against corporate key directories."
+  evidence_confidence: 0.99
+  evidence_retention: "10 years in compliant archives"
+telemetry:
+  telemetry_sources:
+    - "mapping_gateway_logs"
+    - "compliance_ledger_db"
+  collection_frequency: "Continuous"
+  telemetry_retention: "30 days in database, 10 years in cold archive"
+  telemetry_integrity: "Cryptographically sealed log records"
+  telemetry_validation: "Daily automated hash check"
+crosswalk_telemetry:
+  mapping_events: "Track mapping creation, rules updates, and revision details."
+  validation_events: "Log mapping validation checks and schema mismatch parameters."
+  assurance_events: "Capture test cases results, pass rates, and signature checks daily."
+  equivalency_events: "Record direct equivalency calculations and overlaps."
+  semantic_events: "Log parser volumes and flagged semantic drift anomalies."
+  interoperability_events: "Record api usage statistics, transaction counts, and connection resets."
+  governance_alerts: "High priority notifications sent to Interoperability Board."
+  governance_indicators: "Check metrics threshold crossings and validation status."
+metrics:
+  - metric_name: "healthcare_sector_mapping_framework_alignment_score"
+    formula: "COUNT(mapped_requirements) / COUNT(total_requirements)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.80"
+    measurement_frequency: "QUARTERLY"
+    owner: "Crosswalk Architect"
+    data_source: "mapping_matrix_vault"
+    evidence_generated: "Quarterly Framework Alignment reports."
+  - metric_name: "healthcare_sector_mapping_mapping_accuracy_score"
+    formula: "COUNT(accurate_mappings) / COUNT(total_checked_mappings)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Obligation Analyst"
+    data_source: "traceability_ledger_db"
+    evidence_generated: "Weekly Mapping Accuracy reports."
+  - metric_name: "healthcare_sector_mapping_semantic_consistency_score"
+    formula: "COUNT(aligned_synonyms) / COUNT(total_ontology_classes)"
+    target: "0.98"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Crosswalk Architect"
+    data_source: "ontology_definitions_vault"
+    evidence_generated: "Weekly Semantic Consistency stats."
+  - metric_name: "healthcare_sector_mapping_control_equivalency_score"
+    formula: "COUNT(equivalent_controls) / COUNT(total_mapped_controls)"
+    target: "0.90"
+    warning_threshold: "0.85"
+    critical_threshold: "0.75"
+    measurement_frequency: "MONTHLY"
+    owner: "Control Auditor"
+    data_source: "gpai_control_registry"
+    evidence_generated: "Monthly Control Equivalency reports."
+  - metric_name: "healthcare_sector_mapping_evidence_reusability_score"
+    formula: "COUNT(reused_evidence_files) / COUNT(total_evidence_uploads)"
+    target: "0.85"
+    warning_threshold: "0.80"
+    critical_threshold: "0.70"
+    measurement_frequency: "MONTHLY"
+    owner: "Interoperability Lead"
+    data_source: "compliance_ledger_db"
+    evidence_generated: "Monthly Evidence Reusability reports."
+  - metric_name: "healthcare_sector_mapping_regulatory_interoperability_score"
+    formula: "COUNT(interoperable_mappings) / COUNT(total_mappings)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.80"
+    measurement_frequency: "QUARTERLY"
+    owner: "Interoperability Lead"
+    data_source: "mapping_matrix_vault"
+    evidence_generated: "Quarterly Regulatory Interoperability reports."
+  - metric_name: "healthcare_sector_mapping_cross_framework_traceability_score"
+    formula: "COUNT(traceable_requirements) / COUNT(total_requirements)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Obligation Analyst"
+    data_source: "traceability_ledger_db"
+    evidence_generated: "Weekly Traceability compliance reports."
+  - metric_name: "healthcare_sector_mapping_mapping_assurance_score"
+    formula: "COUNT(signed_assurance_records) / COUNT(total_validation_records)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "ON_RELEASE"
+    owner: "Assurance Lead"
+    data_source: "validation_certificates"
+    evidence_generated: "Signed Mapping Matrix Attestation certificate."
+  - metric_name: "healthcare_sector_mapping_crosswalk_quality_score"
+    formula: "MIN(validation_checklist_scores)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.80"
+    measurement_frequency: "MONTHLY"
+    owner: "Crosswalk Architect"
+    data_source: "mapping_matrix_vault"
+    evidence_generated: "Monthly Crosswalk Quality reports."
+  - metric_name: "healthcare_sector_mapping_governance_crosswalk_maturity_score"
+    formula: "current_maturity_level / 7.0"
+    target: "0.85"
+    warning_threshold: "0.71"
+    critical_threshold: "0.57"
+    measurement_frequency: "ANNUALLY"
+    owner: "Assurance Lead"
+    data_source: "compliance_ledger_db"
+    evidence_generated: "Annual Maturity Assessment certificate."
+kpis:
+  - "healthcare_sector_mapping_framework_alignment_score"
+  - "healthcare_sector_mapping_mapping_accuracy_score"
+kris:
+  - "healthcare_sector_mapping_semantic_consistency_score"
+  - "healthcare_sector_mapping_governance_crosswalk_maturity_score"
+thresholds:
+  - "Warning: healthcare_sector_mapping_framework_alignment_score < 0.90"
+  - "Critical: healthcare_sector_mapping_framework_alignment_score < 0.80"
+relationships:
+  framework_links:
+    - source: "urn:enterprise:crosswalk:healthcare_sector_mapping"
+      target: "urn:enterprise:compliance:framework"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-CW-SECT-STD."
+  obligation_links:
+    - source: "urn:enterprise:crosswalk:healthcare_sector_mapping"
+      target: "urn:enterprise:compliance:obligation"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-CW-SECT-STD."
+  control_links:
+    - source: "urn:enterprise:crosswalk:healthcare_sector_mapping"
+      target: "urn:enterprise:compliance:control"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-CW-SECT-STD."
+  evidence_links:
+    - source: "urn:enterprise:crosswalk:healthcare_sector_mapping"
+      target: "urn:enterprise:compliance:evidence"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-CW-SECT-STD."
+  risk_links:
+    - source: "urn:enterprise:crosswalk:healthcare_sector_mapping"
+      target: "urn:enterprise:compliance:risk"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-CW-SECT-STD."
+  workflow_links:
+    - source: "urn:enterprise:crosswalk:healthcare_sector_mapping"
+      target: "urn:enterprise:compliance:workflow"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-CW-SECT-STD."
+  governance_links:
+    - source: "urn:enterprise:crosswalk:healthcare_sector_mapping"
+      target: "urn:enterprise:compliance:governance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-CW-SECT-STD."
+  accountability_links:
+    - source: "urn:enterprise:crosswalk:healthcare_sector_mapping"
+      target: "urn:enterprise:compliance:accountability"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-CW-SECT-STD."
+  semantic_links:
+    - source: "urn:enterprise:crosswalk:healthcare_sector_mapping"
+      target: "urn:enterprise:compliance:semantic"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-CW-SECT-STD."
+  compliance_links:
+    - source: "urn:enterprise:crosswalk:healthcare_sector_mapping"
+      target: "urn:enterprise:compliance:compliance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-CW-SECT-STD."
+knowledge_graph:
+  framework_nodes:
+    - "EU_AI_ACT"
+    - "ISO_42001"
+    - "NIST_AI_RMF"
+    - "GDPR"
+  obligation_nodes:
+    - "Article_9"
+    - "Article_52"
+    - "Article_53"
+    - "ISO_Section_6"
+    - "ISO_Section_8"
+  control_nodes:
+    - "CTRL-CW-SECT-HEALTH-01"
+    - "CTRL-CW-SECT-HEALTH-05"
+    - "CTRL-ISO-01"
+    - "CTRL-ISO-05"
+  evidence_nodes:
+    - "validation_log"
+    - "attestation_cert"
+    - "audit_report"
+  risk_nodes:
+    - "compliance_risk"
+    - "security_risk"
+    - "semantic_risk"
+  workflow_nodes:
+    - "framework_mapping_workflow"
+    - "crosswalk_assurance_workflow"
+  accountability_nodes:
+    - "crosswalk_architect"
+    - "obligation_analyst"
+    - "interoperability_lead"
+  semantic_relationships:
+    - source: "HighRiskAISystem"
+      relation: "equivalentClass"
+      target: "ISO42001AIApplication"
+  equivalency_relationships:
+    - source: "ConformityAssessment"
+      relation: "equivalentTerm"
+      target: "InternalAudit"
+  dependency_relationships:
+    - source: "Article_9"
+      relation: "dependsOn"
+      target: "ISO_Section_6"
+  inheritance_relationships:
+    - source: "compliance_risk"
+      relation: "subClassOf"
+      target: "security_risk"
+crosswalks:
+  eu_ai_act:
+    framework: "eu_ai_act"
+    control_mapping: "Map crosswalk controls to EU AI Act compliance guidelines for Healthcare Sector Mapping."
+    security_mapping: "Enforce model robustness and deployment containment checks."
+    accountability_mapping: "Assign roles for post-market monitoring and capability review."
+    evidence_mapping: "Log incident and scanning events in database."
+    validation_mapping: "Validate model benchmark results under containment profiles."
+  gpai_obligations:
+    framework: "gpai_obligations"
+    control_mapping: "Verify base model capabilities checks and benchmark runs."
+    security_mapping: "Establish model capability verification tests and triggers."
+    accountability_mapping: "AI system owner signs off base model capability risk map."
+    evidence_mapping: "Log capability testing and benchmark results."
+    validation_mapping: "Validate model capability growth metrics weekly."
+  gdpr:
+    framework: "gdpr"
+    control_mapping: "Enforce data privacy policies during foresight data collection."
+    security_mapping: "Secure threat intelligence databases and restrict access."
+    accountability_mapping: "DPO reviews data scanning sources."
+    evidence_mapping: "Log data processing consents and source audits."
+    validation_mapping: "Audit privacy impact assessments annually."
+  iso_42001:
+    framework: "iso_42001"
+    control_mapping: "Establish AI management system rules and oversight frameworks."
+    security_mapping: "Define security boundaries and limits for AI configurations."
+    accountability_mapping: "Assign CAIO as owner of AI management systems."
+    evidence_mapping: "Document internal audits and model validation reviews."
+    validation_mapping: "Audit AI management system outcomes annually."
+  iso_23894:
+    framework: "iso_23894"
+    control_mapping: "Align risk assessment rules with ISO 31000 standards."
+    security_mapping: "Assess risk of capability growth and containment bypass."
+    accountability_mapping: "Risk director signs off risk assessments."
+    evidence_mapping: "Log risks in future risk register databases."
+    validation_mapping: "Audit risk mitigation plan outcomes."
+  iso_27001:
+    framework: "iso_27001"
+    control_mapping: "Deploy ISMS security control policies."
+    security_mapping: "Secure information assets from unauthorized access."
+    accountability_mapping: "Security owner manages ISMS audits."
+    evidence_mapping: "Log database access checks and network events."
+    validation_mapping: "Audit ISMS control operations annually."
+  iso_27701:
+    framework: "iso_27701"
+    control_mapping: "Enforce PII processor privacy controls."
+    security_mapping: "Encrypt personal data and logs in transit and rest."
+    accountability_mapping: "DPO validates PII data boundaries."
+    evidence_mapping: "Log user access and processing agreements."
+    validation_mapping: "Validate PII system controls weekly."
+  nist_ai_rmf:
+    framework: "nist_ai_rmf"
+    control_mapping: "Align controls with GOVERN, MAP, MEASURE, MANAGE functions."
+    security_mapping: "Enforce model robustness and resilience controls."
+    accountability_mapping: "Assign risk managers to all AI models."
+    evidence_mapping: "Document model verification test plans."
+    validation_mapping: "Validate model inputs and outputs weekly."
+  oecd_ai:
+    framework: "oecd_ai"
+    control_mapping: "Align with human-centered values and fairness guidelines."
+    security_mapping: "Enforce transparency and explainability standards."
+    accountability_mapping: "Establish accountability boards for AI projects."
+    evidence_mapping: "Document stakeholder transparency assessments."
+    validation_mapping: "Verify explanation accuracy and readability scores."
+  unesco_ai:
+    framework: "unesco_ai"
+    control_mapping: "Align controls with ethical AI guidelines."
+    security_mapping: "Conduct ethical impact checks before deployment."
+    accountability_mapping: "Assign ethical reviews to compliance board."
+    evidence_mapping: "Log ethical assessment records."
+    validation_mapping: "Verify ethical design criteria compliance."
+compliance_mapping:
+  - source_requirement: "Conformity assessment checklist requirements."
+    target_requirement: "Internal audit and management system controls."
+    mapping_type: "DIRECT_EQUIVALENCE"
+    mapping_strength: "HIGH"
+    mapping_confidence: 0.99
+    validation_method: "Audit evaluation datasets and signature verifications weekly."
+    assurance_method: "Verify benchmark database hashes against compliance ledger weekly."
+integration_points:
+  core_governance: "Establish crosswalk mapping in core policy registry."
+  compliance_scoring: "Publish mapping accuracy score to dashboard."
+  conformity_assessment: "Verify pre-launch safety gate parameters against conformity criteria."
+  provider_obligations: "Provide provider compliance files and technical documentation."
+  deployer_obligations: "Provide operational guidelines and override parameters."
+  risk_management: "Integrate crosswalk gap assessment results to enterprise risk matrices."
+  audit_and_enforcement: "Provide regulator-ready logs and signature verifications."
+  audit_and_forensics: "Log capability evolution hashes in immutable trace databases."
+  evidence_and_attestation: "Register signed verification certificates in attestation portals."
+  technical_documentation: "Publish technical specification documents and architecture diagrams."
+  governance_reporting: "Publish monthly compliance dashboards to safety portals."
+  cross_border_interoperability: "Align crosswalk mappings with international regulatory portals."
+  foundation_models: "Monitor planning loops and benchmark drift of foundation models."
+  general_purpose_ai: "Assess capability transitions and obligational compliance paths."
+  future_ai_governance: "Sync systemic risk reports to strategic foresight registers."
+  data_governance: "Audit data processing consent and source indexes."
+  privacy_and_fundamental_rights: "Verify privacy impact assessments are mapped."
+  cybersecurity: "Secure model checkpoints and isolate sandbox run loops."
+  cybersecurity_and_resilience: "Secure containment sandboxes and monitor resource consumption."
+dependencies:
+  - "urn:enterprise:policy:crosswalk_master"
+  - "urn:enterprise:data:frameworks_index"
+outputs:
+  - "crosswalk_matrices"
+  - "assurance_reports"
+  - "gap_analysis_dashboards"
+  - "regulatory_change_logs"
+artifacts:
+  - "equivalency_matrix_graph.png"
+  - "semantic_ontology_map.xlsx"
+records:
+  - "traceability_ledger_logs"
+  - "change_webhook_receipts"
+  - "validation_certificates_db"
+continuous_improvement:
+  improvement_process: "Refining terminology database keys and mapping rules based on standards updates."
+  cycle_frequency: "Quarterly"
+  review_board: "Interoperability Review Board"
+exceptions:
+  exception_process: "Request manual override from CAIO for partner access configurations violating limits."
+  sla_hours: 24
+escalation:
+  escalation_path: "Compliance alerts -> Crosswalk Architect -> CAIO -> Oversight Board"
+  sla_minutes:
+    warning: 120
+    critical: 15
+versioning:
+  current_version: "1.0.0"
+  previous_version: "N/A"
+  change_log:
+    - version: "1.0.0"
+      date: "2026-06-13"
+      author: "Antigravity Agent"
+      description: "Initial release of Governance Crosswalk compliance skill."
+altai_crosswalk_governance:
+  agent_governance_mappings:
+    agent_accountability_mappings: "Map agent planning loops and goal accountability paths for Healthcare Sector Mapping."
+    agent_oversight_mappings: "Define human-in-the-loop validation gates and override paths."
+    agent_risk_mappings: "Audit model behavior weekly and assign risk tiers."
+    agent_control_mappings: "Deploy action limits checks on API runtime loops."
+  multi_agent_mappings:
+    ecosystem_mappings: "Verify multi-agent swarm interaction patterns for Healthcare Sector Mapping."
+    coordination_mappings: "Enforce swarm coordination logic limits and access keys."
+    swarm_governance_mappings: "Audit combined communication volumes and consensus paths."
+    autonomy_mappings: "Block agents crossing defined capability boundaries."
+  reasoning_mappings:
+    reasoning_traceability_mappings: "Map and trace step-by-step reasoning steps for Healthcare Sector Mapping."
+    reasoning_assurance_mappings: "Audit semantic validity of reasoning output weekly."
+    reasoning_accountability_mappings: "Verify that reasoning logs check signatures are archived."
+  memory_mappings:
+    memory_governance_mappings: "Manage storage capacity and cross-context retrieval bounds for Healthcare Sector Mapping."
+    memory_assurance_mappings: "Assert that memory variables do not persist PII or source data."
+    memory_traceability_mappings: "Log memory write transactions in compliance databases."
+  tool_mappings:
+    tool_governance_mappings: "Govern API endpoints and executable permissions accessible by Healthcare Sector Mapping."
+    tool_assurance_mappings: "Audit external API tool integration schemas monthly."
+    tool_accountability_mappings: "Trace and log all tool invocation params and signatures."
+  foundation_model_mappings:
+    foundation_model_obligations: "Govern upstream foundation model dependencies and API endpoints for Healthcare Sector Mapping."
+    foundation_model_controls: "Assert that upstream check signatures are valid on connection."
+    foundation_model_assurance: "Track model training compute and performance changes monthly."
+  gpai_mappings:
+    gpai_obligations: "Verify downstream deployments and fine-tuning profiles of Healthcare Sector Mapping."
+    gpai_controls: "Track downstream developer incidents and model derivative risks."
+    gpai_assurance: "Publish conformity certificates and reference files to authority registers."
+    gpai_accountability: "Assign primary responsibility for base model security to original providers."
+crosswalk_matrix:
+  source_framework: "EU_AI_ACT"
+  target_framework: "ISO_42001"
+  source_requirement: "Conformity assessment checklist requirements."
+  target_requirement: "Internal audit and management system controls."
+  mapping_type: "DIRECT_EQUIVALENCE"
+  mapping_strength: "HIGH"
+  mapping_confidence: 0.99
+  implementation_overlap: "AIMS internal audit steps satisfy conformity checks."
+  evidence_overlap: "Signed validation attestation PDF reuse."
+  control_overlap: "CTRL-CW-SECT-HEALTH-01 maps to ISO control gates."
+  validation_status: "VALIDATED"
+  assurance_status: "ASSURED"
+governance_crosswalk_maturity_model:
+  level_1_manual:
+    capabilities:
+      - "Basic manual framework mappings and ad-hoc checklists for Healthcare Sector Mapping."
+    mapping_capabilities:
+      - "Manual spreadsheet mappings without automation."
+    interoperability_capabilities:
+      - "Ad-hoc framework comparisons manually updated."
+    assurance_capabilities:
+      - "None established."
+    evidence_requirements:
+      - "Spreadsheet records."
+    validation_requirements:
+      - "None established."
+  level_2_repeatable:
+    capabilities:
+      - "Documented mapping procedures and repeatable checklists for Healthcare Sector Mapping."
+    mapping_capabilities:
+      - "Standard mapping rules documented."
+    interoperability_capabilities:
+      - "Gap registers compiled systematically."
+    assurance_capabilities:
+      - "Internal team review of release checklists."
+    evidence_requirements:
+      - "Checklist results saved in database."
+    validation_requirements:
+      - "Validation cert files indexed."
+  level_3_defined:
+    capabilities:
+      - "Formally defined future capability thresholds and gap maps for Healthcare Sector Mapping."
+    mapping_capabilities:
+      - "Mappings indexed to central compliance registry."
+    interoperability_capabilities:
+      - "Interoperability review boards formally established."
+    assurance_capabilities:
+      - "Formal audit checklists verified monthly."
+    evidence_requirements:
+      - "Signed attestation records saved in ledger."
+    validation_requirements:
+      - "Annual risk framework compliance checks."
+  level_4_managed:
+    capabilities:
+      - "Continuous automated monitoring and metric dashboards for Healthcare Sector Mapping."
+    mapping_capabilities:
+      - "Real-time webhook indicators configured."
+    interoperability_capabilities:
+      - "Gap dashboard updated weekly on portal."
+    assurance_capabilities:
+      - "Independent ISMS audits conducted annually."
+    evidence_requirements:
+      - "Attestation certificates registered in portal."
+    validation_requirements:
+      - "Third-party validation audits."
+  level_5_optimized:
+    capabilities:
+      - "Automated risk simulations and continuous improvements loops for Healthcare Sector Mapping."
+    mapping_capabilities:
+      - "Automated rules evaluation gates active."
+    interoperability_capabilities:
+      - "Terminology translation checks run weekly."
+    assurance_capabilities:
+      - "Continuous automated verification checks on check signatures."
+    evidence_requirements:
+      - "Cryptographically signed evidence registers populated."
+    validation_requirements:
+      - "Annual third-party compliance audits."
+  level_6_semantic:
+    capabilities:
+      - "Ontology mapping and automated semantic verifications for Healthcare Sector Mapping."
+    mapping_capabilities:
+      - "Dynamic ontology graph updates active."
+    interoperability_capabilities:
+      - "Semantic similarity analysis runs daily."
+    assurance_capabilities:
+      - "External audit compliance checks run systematically."
+    evidence_requirements:
+      - "Ontology links map saved in ledger."
+    validation_requirements:
+      - "Continuous automated validation checking."
+  level_7_autonomous:
+    capabilities:
+      - "Self-updating crosswalk mapping matrices and real-time gap remediation for Healthcare Sector Mapping."
+    mapping_capabilities:
+      - "Autonomous mapping rule adjustments executed."
+    interoperability_capabilities:
+      - "Global coordinated standards feeds integrated."
+    assurance_capabilities:
+      - "Continuous external trust attestations registered."
+    evidence_requirements:
+      - "Real-time evidence portals active."
+    validation_requirements:
+      - "Continuous external audits compliance checks."

@@ -1,0 +1,1599 @@
+metadata:
+  id: TO-UNF-USER_NOTIFIC-009
+  domain: user_notification
+  version: 1.0.0
+  specialization: user_notification_reporting
+purpose: |
+  Govern, operationalize, and validate transparency obligations and Article 50 disclosures for User Notification Reporting under the User Notification framework. This skill provides machine-readable, executable governance infrastructure, disclosure assurance, and stakeholder communication channels tailored to consent banners, user rights notice, limitation notices, opt-out logs parameters.
+scope: |
+  Scope covers all transparency notifications, Article 50 notices, synthetic media labeling, and human understanding assurance workflows governed by the User Notification Reporting framework in production deployments.
+objectives:
+  - Enforce automated disclosure and notice triggers under User Notification Reporting criteria.
+  - Verify Article 50 notification requirements matching target threshold 94%.
+  - Audit compliance with EU AI Act transparency obligations for User Notification.
+definitions:
+  user_notification_reporting_notice_registry: The primary ledger containing all active disclosure noticed actions for User Notification Reporting.
+  user_notification_reporting_disclosure_store: Cryptographically signed repository containing disclosure traces for User Notification Reporting decisions.
+taxonomy:
+  disclosure_classes:
+    - USER_NOTICE
+    - REGULATORY_SUBMISSION
+    - PUBLIC_REGISTRY
+    - EXPLANATION_TRACE
+  governance_modes:
+    - PROACTIVE_ASSURANCE
+    - REAL_TIME_MONITORING
+    - POST_HOC_AUDITING
+governance:
+  governance_model: TRANSPARENCY_OBLIGATIONS_GOVERNANCE_SYSTEM_MODEL_9
+  governance_structure: Enterprise Transparency Obligations Board - User Notification
+  roles_and_responsibilities:
+    transparency_governor: Responsible for managing EU AI Act transparency obligations and notice triggers for User Notification Reporting.
+    disclosure_lead: Responsible for verifying disclosure completeness and explanation quality for User Notification Reporting.
+    assurance_auditor: Responsible for transparency validation and audit sign-off for User Notification Reporting.
+  stakeholders:
+    - Chief Compliance Officer
+    - Head of AI Engineering
+    - VP of Human-Centered AI
+governance_model:
+  model_type: TRANSPARENCY_GOVERNANCE_MODEL_27
+  model_rationale: Ensures continuous disclosure notices validation, XAI metrics audits, and multi-agent traceability logs.
+governance_structure:
+  oversight_board: Transparency Oversight Board - User Notification
+  escalation_contact: transparency_escalation_9@enterprise.ai
+roles_and_responsibilities:
+  transparency_governor: Responsible for managing EU AI Act transparency obligations and notice triggers for User Notification Reporting.
+  disclosure_lead: Responsible for verifying disclosure completeness and explanation quality for User Notification Reporting.
+  assurance_auditor: Responsible for transparency validation and audit sign-off for User Notification Reporting.
+stakeholders:
+  - Chief Compliance Officer
+  - Head of AI Engineering
+  - VP of Human-Centered AI
+capabilities:
+  - Automated trigger tracking and notice validation under User Notification Reporting.
+  - Stochastic local explanation checking and XAI verification under User Notification Reporting.
+  - Stakeholder disclosure auditing and regulatory mapping for User Notification operations.
+requirements:
+  - All model decisions under User Notification Reporting must generate explainability traces within 127ms.
+  - Disclosure notices for User Notification Reporting must achieve user understanding scores above 92%.
+  - Audit trails must record explanation generation lineage cryptographically.
+controls:
+  ai_interaction_disclosure_control:
+    control_id: CTRL-TO-UNF-USER_N-AID-09
+    control_name: ai_interaction_disclosure_control
+    control_type: PREVENTATIVE
+    control_category: TRANSPARENCY
+    control_objective: Govern decision path visibility and verify automated explanation outputs for User Notification Reporting decisions.
+    transparency_rationale: Ensures users receive immediate and accurate reasoning explanations behind high-risk actions under User Notification Reporting.
+    implementation_guidance: Deploy explanation interceptors in the decision engine pipeline to log feature attributions.
+    control_owner: Disclosure_lead
+    control_frequency: REAL_TIME
+    monitoring_method: Monitor explanation generation latency and completeness in GRC dashboard.
+    validation_method: Submit test payload, assert presence of structured decision factors in output.
+    evidence_generated: Signed explanation trace receipt.
+    stakeholder_requirements: Users must receive plain-language summaries of top 3 decision factors.
+    audit_considerations: Verify model card version matches deployed weights during explanation parsing.
+  synthetic_media_disclosure_control:
+    control_id: CTRL-TO-UNF-USER_N-SMD-27
+    control_name: synthetic_media_disclosure_control
+    control_type: DETECTIVE
+    control_category: ASSURANCE
+    control_objective: Validate fidelity and consistency of XAI explanation methods for User Notification Reporting.
+    transparency_rationale: Mitigates risks of hallucinated or unfaithful explanations by validating SHAP/LIME outputs under User Notification Reporting.
+    implementation_guidance: Run stability evaluations weekly using randomized input perturbations.
+    control_owner: Assurance Auditor
+    control_frequency: WEEKLY
+    monitoring_method: Track explanation fidelity score trends on compliance portal.
+    validation_method: Execute pertubations validation suite, assert fidelity above threshold.
+    evidence_generated: Weekly explainability fidelity validation report.
+    stakeholder_requirements: Auditors require access to base raw feature weights and models.
+    audit_considerations: Check for feature correlation leakage affecting explanation attribution.
+  user_notification_control:
+    control_id: CTRL-TO-UNF-USER_N-UN-47
+    control_name: user_notification_control
+    control_type: PREVENTATIVE
+    control_category: TRACEABILITY
+    control_objective: Enforce step-by-step reasoning traceability for AltAI agents and multi-agent swarms under User Notification Reporting.
+    transparency_rationale: Enables full auditing of autonomous agent behaviors and tool selections under User Notification Reporting.
+    implementation_guidance: Format agent outputs to include system prompt snapshots and scratchpad logs.
+    control_owner: Transparency Governor
+    control_frequency: TRANSACTION_BASED
+    monitoring_method: Log agent trace coverage daily on safety portal.
+    validation_method: Trigger agent task, assert scratchpad output contains execution chain.
+    evidence_generated: Signed reasoning trace token.
+    stakeholder_requirements: Operators require trace maps to debug agent tool invocations.
+    audit_considerations: Confirm PII is redacted from reasoning logs before archival.
+  transparency_assurance_control:
+    control_id: CTRL-TO-UNF-USER_N-TA-09
+    control_name: transparency_assurance_control
+    control_type: PREVENTATIVE
+    control_category: DISCLOSURE
+    control_objective: Validate disclosure notice rendering and compliance across channels for User Notification Reporting.
+    transparency_rationale: Ensures mandatory transparency notifications are displayed legibly to users under User Notification Reporting.
+    implementation_guidance: Check UI frontends for presence of standard notification components.
+    control_owner: Transparency Governor
+    control_frequency: CONTINUOUS
+    monitoring_method: Review UI telemetry logs for notification display failures.
+    validation_method: Mock browser agent, query DOM to verify notice visibility.
+    evidence_generated: Notice validation telemetry log.
+    stakeholder_requirements: End-users must see clearly formatted warning banners before interacting.
+    audit_considerations: Verify translation accuracy of notices for all target locales.
+  article_50_compliance_control:
+    control_id: CTRL-TO-UNF-USER_N-A50-27
+    control_name: article_50_compliance_control
+    control_type: PREVENTATIVE
+    control_category: ACCOUNTABILITY
+    control_objective: Govern responsibility allocation and sign-offs for system deployments under User Notification Reporting.
+    transparency_rationale: Establishes legal and operational ownership of AI outcomes under User Notification Reporting.
+    implementation_guidance: Require multi-sig keys from accountability leads prior to model updates.
+    control_owner: Assurance Auditor
+    control_frequency: RELEASE_BASED
+    monitoring_method: Check compliance registry for signed release authorization files.
+    validation_method: Attempt model deployment without sign-off, verify block.
+    evidence_generated: Signed release authorization certificate.
+    stakeholder_requirements: Regulators require clear mappings of system owner identities.
+    audit_considerations: Verify public keys of signers match corporate directory records.
+  stakeholder_information_control:
+    control_id: CTRL-TO-UNF-USER_N-SI-47
+    control_name: stakeholder_information_control
+    control_type: DETECTIVE
+    control_category: VALIDATION
+    control_objective: Validate transparency mechanism performance and user understanding scores for User Notification Reporting.
+    transparency_rationale: Measures if transparency notices are effective in conveying critical context under User Notification Reporting.
+    implementation_guidance: Run quarterly feedback surveys and automated readability analysis.
+    control_owner: Disclosure_lead
+    control_frequency: QUARTERLY
+    monitoring_method: Track average understanding score metrics on transparency dashboard.
+    validation_method: Analyze notice corpus with Flesch-Kincaid scale, verify grade level is below 10.
+    evidence_generated: Quarterly transparency effectiveness survey report.
+    stakeholder_requirements: End-users require plain, non-legalese language explanations.
+    audit_considerations: Review participant selection methods to ensure representative sampling.
+decision_logic: |
+  Rule-based notice routing, stochastic fidelity threshold checks, and cryptographic validation chains.
+processes:
+  - process_name: transparency_audit_process
+    trigger: Daily check trigger
+    steps:
+      - Fetch active notice telemetry stream.
+      - Verify notice presentation validity and readability scores.
+workflows:
+  disclosure_management_workflow:
+    workflow_id: WF-TO-UNF-USER_N-00-09
+    workflow_owner: Transparency Governor
+    workflow_objective: Operationalize and validate Disclosure Management Workflow for User Notification Reporting operations.
+    trigger: Scheduled trigger or event detection for disclosure_management_workflow.
+    inputs:
+      - user_notification_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from user_notification_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 99%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Disclosure_lead Verification
+    outputs:
+      - disclosure_management_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for disclosure_management_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for disclosure_management_workflow.
+      - Public registry disclosure entry for disclosure_management_workflow.
+    success_criteria: Successfully validated disclosure_management_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in disclosure_management_workflow.
+      - Timeout in disclosure_management_workflow execution path.
+  user_notification_workflow:
+    workflow_id: WF-TO-UNF-USER_N-01-10
+    workflow_owner: Disclosure_lead
+    workflow_objective: Operationalize and validate User Notification Workflow for User Notification Reporting operations.
+    trigger: Scheduled trigger or event detection for user_notification_workflow.
+    inputs:
+      - user_notification_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from user_notification_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 90%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Disclosure_lead Verification
+    outputs:
+      - user_notification_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for user_notification_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for user_notification_workflow.
+      - Public registry disclosure entry for user_notification_workflow.
+    success_criteria: Successfully validated user_notification_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in user_notification_workflow.
+      - Timeout in user_notification_workflow execution path.
+  article_50_assessment_workflow:
+    workflow_id: WF-TO-UNF-USER_N-02-11
+    workflow_owner: Transparency Governor
+    workflow_objective: Operationalize and validate Article 50 Assessment Workflow for User Notification Reporting operations.
+    trigger: Scheduled trigger or event detection for article_50_assessment_workflow.
+    inputs:
+      - user_notification_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from user_notification_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 91%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Disclosure_lead Verification
+    outputs:
+      - article_50_assessment_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for article_50_assessment_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for article_50_assessment_workflow.
+      - Public registry disclosure entry for article_50_assessment_workflow.
+    success_criteria: Successfully validated article_50_assessment_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in article_50_assessment_workflow.
+      - Timeout in article_50_assessment_workflow execution path.
+  ai_interaction_disclosure_workflow:
+    workflow_id: WF-TO-UNF-USER_N-03-12
+    workflow_owner: Disclosure_lead
+    workflow_objective: Operationalize and validate Ai Interaction Disclosure Workflow for User Notification Reporting operations.
+    trigger: Scheduled trigger or event detection for ai_interaction_disclosure_workflow.
+    inputs:
+      - user_notification_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from user_notification_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 92%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Disclosure_lead Verification
+    outputs:
+      - ai_interaction_disclosure_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for ai_interaction_disclosure_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for ai_interaction_disclosure_workflow.
+      - Public registry disclosure entry for ai_interaction_disclosure_workflow.
+    success_criteria: Successfully validated ai_interaction_disclosure_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in ai_interaction_disclosure_workflow.
+      - Timeout in ai_interaction_disclosure_workflow execution path.
+  synthetic_media_disclosure_workflow:
+    workflow_id: WF-TO-UNF-USER_N-04-13
+    workflow_owner: Transparency Governor
+    workflow_objective: Operationalize and validate Synthetic Media Disclosure Workflow for User Notification Reporting operations.
+    trigger: Scheduled trigger or event detection for synthetic_media_disclosure_workflow.
+    inputs:
+      - user_notification_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from user_notification_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 93%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Disclosure_lead Verification
+    outputs:
+      - synthetic_media_disclosure_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for synthetic_media_disclosure_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for synthetic_media_disclosure_workflow.
+      - Public registry disclosure entry for synthetic_media_disclosure_workflow.
+    success_criteria: Successfully validated synthetic_media_disclosure_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in synthetic_media_disclosure_workflow.
+      - Timeout in synthetic_media_disclosure_workflow execution path.
+  stakeholder_information_workflow:
+    workflow_id: WF-TO-UNF-USER_N-05-14
+    workflow_owner: Disclosure_lead
+    workflow_objective: Operationalize and validate Stakeholder Information Workflow for User Notification Reporting operations.
+    trigger: Scheduled trigger or event detection for stakeholder_information_workflow.
+    inputs:
+      - user_notification_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from user_notification_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 94%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Disclosure_lead Verification
+    outputs:
+      - stakeholder_information_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for stakeholder_information_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for stakeholder_information_workflow.
+      - Public registry disclosure entry for stakeholder_information_workflow.
+    success_criteria: Successfully validated stakeholder_information_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in stakeholder_information_workflow.
+      - Timeout in stakeholder_information_workflow execution path.
+  transparency_validation_workflow:
+    workflow_id: WF-TO-UNF-USER_N-06-15
+    workflow_owner: Transparency Governor
+    workflow_objective: Operationalize and validate Transparency Validation Workflow for User Notification Reporting operations.
+    trigger: Scheduled trigger or event detection for transparency_validation_workflow.
+    inputs:
+      - user_notification_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from user_notification_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 95%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Disclosure_lead Verification
+    outputs:
+      - transparency_validation_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for transparency_validation_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for transparency_validation_workflow.
+      - Public registry disclosure entry for transparency_validation_workflow.
+    success_criteria: Successfully validated transparency_validation_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in transparency_validation_workflow.
+      - Timeout in transparency_validation_workflow execution path.
+  transparency_assurance_workflow:
+    workflow_id: WF-TO-UNF-USER_N-07-16
+    workflow_owner: Disclosure_lead
+    workflow_objective: Operationalize and validate Transparency Assurance Workflow for User Notification Reporting operations.
+    trigger: Scheduled trigger or event detection for transparency_assurance_workflow.
+    inputs:
+      - user_notification_reporting_telemetry_log
+      - compliance_policy_spec
+      - system_state_record
+    activities:
+      - Extract transparency indicators from user_notification_reporting pipeline.
+      - Compare current status against regulatory baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is transparency compliance level above 96%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority governance alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Disclosure_lead Verification
+    outputs:
+      - transparency_assurance_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for transparency_assurance_workflow.
+    transparency_outputs:
+      - Standardized plain-language summary for transparency_assurance_workflow.
+      - Public registry disclosure entry for transparency_assurance_workflow.
+    success_criteria: Successfully validated transparency_assurance_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing explanation trace in transparency_assurance_workflow.
+      - Timeout in transparency_assurance_workflow execution path.
+transparency_obligations_framework:
+  governance_model:
+    description: Enforce Governance Model rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_model in deployment pipelines.
+  governance_principles:
+    description: Enforce Governance Principles rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_principles in deployment pipelines.
+  governance_authorities:
+    description: Enforce Governance Authorities rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_authorities in deployment pipelines.
+  governance_controls:
+    description: Enforce Governance Controls rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_controls in deployment pipelines.
+  transparency_accountability:
+    description: Enforce Transparency Accountability rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for transparency_accountability in deployment pipelines.
+  transparency_ownership:
+    description: Enforce Transparency Ownership rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for transparency_ownership in deployment pipelines.
+  governance_reviews:
+    description: Enforce Governance Reviews rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_reviews in deployment pipelines.
+  governance_assurance:
+    description: Enforce Governance Assurance rules under the transparency governance model.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for governance_assurance in deployment pipelines.
+regulatory_disclosure_framework:
+  disclosure_requirements:
+    description: Enforce Disclosure Requirements rules under regulatory disclosure guidelines.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for disclosure_requirements in disclosure pipelines.
+  disclosure_obligations:
+    description: Enforce Disclosure Obligations rules under regulatory disclosure guidelines.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for disclosure_obligations in disclosure pipelines.
+  disclosure_controls:
+    description: Enforce Disclosure Controls rules under regulatory disclosure guidelines.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for disclosure_controls in disclosure pipelines.
+  disclosure_channels:
+    description: Enforce Disclosure Channels rules under regulatory disclosure guidelines.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for disclosure_channels in disclosure pipelines.
+  disclosure_timing:
+    description: Enforce Disclosure Timing rules under regulatory disclosure guidelines.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for disclosure_timing in disclosure pipelines.
+  disclosure_validation:
+    description: Enforce Disclosure Validation rules under regulatory disclosure guidelines.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for disclosure_validation in disclosure pipelines.
+  disclosure_assurance:
+    description: Enforce Disclosure Assurance rules under regulatory disclosure guidelines.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checker for disclosure_assurance in disclosure pipelines.
+user_notification_framework:
+  notification_requirements:
+    description: Enforce Notification Requirements rules for user notifications.
+    owner: Transparency Governor
+    implementation_details: Deploy automated verifier for notification_requirements in notification conduits.
+  notification_triggers:
+    description: Enforce Notification Triggers rules for user notifications.
+    owner: Transparency Governor
+    implementation_details: Deploy automated verifier for notification_triggers in notification conduits.
+  notification_controls:
+    description: Enforce Notification Controls rules for user notifications.
+    owner: Transparency Governor
+    implementation_details: Deploy automated verifier for notification_controls in notification conduits.
+  notification_methods:
+    description: Enforce Notification Methods rules for user notifications.
+    owner: Transparency Governor
+    implementation_details: Deploy automated verifier for notification_methods in notification conduits.
+  notification_accessibility:
+    description: Enforce Notification Accessibility rules for user notifications.
+    owner: Transparency Governor
+    implementation_details: Deploy automated verifier for notification_accessibility in notification conduits.
+  notification_validation:
+    description: Enforce Notification Validation rules for user notifications.
+    owner: Transparency Governor
+    implementation_details: Deploy automated verifier for notification_validation in notification conduits.
+  notification_assurance:
+    description: Enforce Notification Assurance rules for user notifications.
+    owner: Transparency Governor
+    implementation_details: Deploy automated verifier for notification_assurance in notification conduits.
+ai_interaction_disclosure_framework:
+  ai_interaction_identification:
+    description: Enforce Ai Interaction Identification rules for AI system interfaces.
+    owner: Disclosure_lead
+    implementation_details: Deploy automated checks for ai_interaction_identification in system frontends.
+  ai_system_disclosure:
+    description: Enforce Ai System Disclosure rules for AI system interfaces.
+    owner: Disclosure_lead
+    implementation_details: Deploy automated checks for ai_system_disclosure in system frontends.
+  ai_role_disclosure:
+    description: Enforce Ai Role Disclosure rules for AI system interfaces.
+    owner: Disclosure_lead
+    implementation_details: Deploy automated checks for ai_role_disclosure in system frontends.
+  interaction_controls:
+    description: Enforce Interaction Controls rules for AI system interfaces.
+    owner: Disclosure_lead
+    implementation_details: Deploy automated checks for interaction_controls in system frontends.
+  interaction_notifications:
+    description: Enforce Interaction Notifications rules for AI system interfaces.
+    owner: Disclosure_lead
+    implementation_details: Deploy automated checks for interaction_notifications in system frontends.
+  validation_controls:
+    description: Enforce Validation Controls rules for AI system interfaces.
+    owner: Disclosure_lead
+    implementation_details: Deploy automated checks for validation_controls in system frontends.
+  assurance_controls:
+    description: Enforce Assurance Controls rules for AI system interfaces.
+    owner: Disclosure_lead
+    implementation_details: Deploy automated checks for assurance_controls in system frontends.
+content_disclosure_framework:
+  synthetic_content_disclosures:
+    description: Enforce Synthetic Content Disclosures rules for synthetic and manipulated media.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for synthetic_content_disclosures in content publishing engines.
+  generated_content_disclosures:
+    description: Enforce Generated Content Disclosures rules for synthetic and manipulated media.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for generated_content_disclosures in content publishing engines.
+  manipulated_content_disclosures:
+    description: Enforce Manipulated Content Disclosures rules for synthetic and manipulated media.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for manipulated_content_disclosures in content publishing engines.
+  watermark_disclosures:
+    description: Enforce Watermark Disclosures rules for synthetic and manipulated media.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for watermark_disclosures in content publishing engines.
+  provenance_disclosures:
+    description: Enforce Provenance Disclosures rules for synthetic and manipulated media.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for provenance_disclosures in content publishing engines.
+  validation_requirements:
+    description: Enforce Validation Requirements rules for synthetic and manipulated media.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for validation_requirements in content publishing engines.
+  assurance_requirements:
+    description: Enforce Assurance Requirements rules for synthetic and manipulated media.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for assurance_requirements in content publishing engines.
+stakeholder_information_framework:
+  user_information:
+    description: Enforce User Information rules for user/regulator/auditor information packages.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for user_information in information repositories.
+  regulator_information:
+    description: Enforce Regulator Information rules for user/regulator/auditor information packages.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for regulator_information in information repositories.
+  deployer_information:
+    description: Enforce Deployer Information rules for user/regulator/auditor information packages.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for deployer_information in information repositories.
+  operator_information:
+    description: Enforce Operator Information rules for user/regulator/auditor information packages.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for operator_information in information repositories.
+  auditor_information:
+    description: Enforce Auditor Information rules for user/regulator/auditor information packages.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for auditor_information in information repositories.
+  information_validation:
+    description: Enforce Information Validation rules for user/regulator/auditor information packages.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for information_validation in information repositories.
+  information_assurance:
+    description: Enforce Information Assurance rules for user/regulator/auditor information packages.
+    owner: Transparency Governor
+    implementation_details: Deploy automated checks for information_assurance in information repositories.
+transparency_compliance_framework:
+  compliance_requirements:
+    description: Enforce Compliance Requirements rules under transparency compliance procedures.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for compliance_requirements in GRC tracking modules.
+  compliance_controls:
+    description: Enforce Compliance Controls rules under transparency compliance procedures.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for compliance_controls in GRC tracking modules.
+  compliance_reviews:
+    description: Enforce Compliance Reviews rules under transparency compliance procedures.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for compliance_reviews in GRC tracking modules.
+  obligation_tracking:
+    description: Enforce Obligation Tracking rules under transparency compliance procedures.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for obligation_tracking in GRC tracking modules.
+  compliance_validation:
+    description: Enforce Compliance Validation rules under transparency compliance procedures.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for compliance_validation in GRC tracking modules.
+  compliance_assurance:
+    description: Enforce Compliance Assurance rules under transparency compliance procedures.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for compliance_assurance in GRC tracking modules.
+  compliance_reporting:
+    description: Enforce Compliance Reporting rules under transparency compliance procedures.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for compliance_reporting in GRC tracking modules.
+transparency_assurance_framework:
+  assurance_requirements:
+    - Cryptographic evidence attestation for all notice events
+  assurance_controls:
+    - Standardized notice template check
+  assurance_reviews:
+    - Quarterly regulatory package review
+  disclosure_reviews:
+    - Legibility and usability audit of notice banners
+  transparency_reviews:
+    - Legibility and user understanding reviews
+  assurance_validation:
+    - Independent fidelity validation pipeline
+  assurance_reporting:
+    - Publish transparency assurance dockets
+transparency_reporting_framework:
+  reporting_channels:
+    - internal_audit_dashboard
+  reporting_standards:
+    - ISO_42001_transparency_records
+  reporting_controls:
+    - Enforce automated reporting verifications
+transparency_intelligence_framework:
+  intelligence_sources:
+    - GRC incident register
+    - Stakeholder feedback channels
+  disclosure_gaps:
+    - Lack of automated user validation loops in production
+  transparency_gaps:
+    - High-latency in notice execution pipeline
+  stakeholder_feedback:
+    - UI alerts are too technical for non-specialist users
+  compliance_trends:
+    - Track increasing regulator demand for clear agent identification
+  intelligence_validation:
+    - Verification of feedback capture rates
+  intelligence_assurance:
+    - External audit of user understanding metrics
+monitoring_framework:
+  monitoring_mode: CONTINUOUS_TELEMETRY
+  metrics_scope:
+    - Explanation latency
+    - Notice presentation accuracy
+validation_framework:
+  validation_strategy: STOCHASTIC_VERIFICATION
+  test_suites:
+    - explanation_fidelity_checks
+    - notice_rendering_validation
+evidence_intelligence:
+  evidence_sources:
+    - decision_engine_traces
+    - UI_notice_telemetry
+  evidence_types:
+    - EXPLANATION_TRACE
+    - DISCLOSURE_RECORD
+  disclosure_evidence:
+    - Signed notice display logs
+  transparency_evidence:
+    - Signed notice display logs
+  evidence_integrity:
+    - SHA256 hashes registered in audit ledger
+  evidence_lineage:
+    - Training pipeline to inference trace mapping
+  evidence_provenance:
+    - Cryptographic model cards registry
+  evidence_validation:
+    - Public key validation checks
+  evidence_confidence:
+    - Confidence score based on signature verifications
+  evidence_retention:
+    - Store validation tokens for 10 years
+telemetry:
+  telemetry_service: transparency_telemetry_agent
+  telemetry_frequency: REAL_TIME
+transparency_obligations_telemetry:
+  disclosure_events:
+    event_id: EVT-TO-UNF-DISCLOSURE_E-09
+    event_source: user_notification_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  notification_events:
+    event_id: EVT-TO-UNF-NOTIFICATION-09
+    event_source: user_notification_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  interaction_events:
+    event_id: EVT-TO-UNF-INTERACTION_-09
+    event_source: user_notification_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  transparency_events:
+    event_id: EVT-TO-UNF-TRANSPARENCY-09
+    event_source: user_notification_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  compliance_events:
+    event_id: EVT-TO-UNF-COMPLIANCE_E-09
+    event_source: user_notification_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  validation_events:
+    event_id: EVT-TO-UNF-VALIDATION_E-09
+    event_source: user_notification_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  assurance_events:
+    event_id: EVT-TO-UNF-ASSURANCE_EV-09
+    event_source: user_notification_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  feedback_events:
+    event_id: EVT-TO-UNF-FEEDBACK_EVE-09
+    event_source: user_notification_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  governance_alerts:
+    event_id: EVT-TO-UNF-GOVERNANCE_A-09
+    event_source: user_notification_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  governance_indicators:
+    event_id: EVT-TO-UNF-GOVERNANCE_I-09
+    event_source: user_notification_reporting_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+metrics:
+  transparency_compliance_score:
+    metric_name: transparency_compliance_score
+    formula: sum(transparency_valid_events) / sum(transparency_total_events) * 98
+    target: '97%'
+    warning_threshold: '87%'
+    critical_threshold: '77%'
+    measurement_frequency: DAILY
+    owner: Disclosure_lead
+    data_source: user_notification_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for transparency_compliance_score
+  disclosure_completeness_rate:
+    metric_name: disclosure_completeness_rate
+    formula: sum(disclosure_c_valid_events) / sum(disclosure_c_total_events) * 97
+    target: '98%'
+    warning_threshold: '88%'
+    critical_threshold: '78%'
+    measurement_frequency: WEEKLY
+    owner: Transparency Governor
+    data_source: user_notification_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for disclosure_completeness_rate
+  user_notification_effectiveness:
+    metric_name: user_notification_effectiveness
+    formula: sum(user_notific_valid_events) / sum(user_notific_total_events) * 96
+    target: '99%'
+    warning_threshold: '89%'
+    critical_threshold: '79%'
+    measurement_frequency: DAILY
+    owner: Transparency Governor
+    data_source: user_notification_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for user_notification_effectiveness
+  article_50_compliance_rate:
+    metric_name: article_50_compliance_rate
+    formula: sum(article_50_c_valid_events) / sum(article_50_c_total_events) * 100
+    target: '90%'
+    warning_threshold: '80%'
+    critical_threshold: '70%'
+    measurement_frequency: WEEKLY
+    owner: Disclosure_lead
+    data_source: user_notification_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for article_50_compliance_rate
+  ai_interaction_disclosure_rate:
+    metric_name: ai_interaction_disclosure_rate
+    formula: sum(ai_interacti_valid_events) / sum(ai_interacti_total_events) * 99
+    target: '91%'
+    warning_threshold: '81%'
+    critical_threshold: '71%'
+    measurement_frequency: DAILY
+    owner: Transparency Governor
+    data_source: user_notification_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for ai_interaction_disclosure_rate
+  synthetic_media_disclosure_rate:
+    metric_name: synthetic_media_disclosure_rate
+    formula: sum(synthetic_me_valid_events) / sum(synthetic_me_total_events) * 98
+    target: '92%'
+    warning_threshold: '82%'
+    critical_threshold: '72%'
+    measurement_frequency: WEEKLY
+    owner: Transparency Governor
+    data_source: user_notification_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for synthetic_media_disclosure_rate
+  stakeholder_transparency_score:
+    metric_name: stakeholder_transparency_score
+    formula: sum(stakeholder__valid_events) / sum(stakeholder__total_events) * 97
+    target: '93%'
+    warning_threshold: '83%'
+    critical_threshold: '73%'
+    measurement_frequency: DAILY
+    owner: Disclosure_lead
+    data_source: user_notification_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for stakeholder_transparency_score
+  transparency_assurance_score:
+    metric_name: transparency_assurance_score
+    formula: sum(transparency_valid_events) / sum(transparency_total_events) * 96
+    target: '94%'
+    warning_threshold: '84%'
+    critical_threshold: '74%'
+    measurement_frequency: WEEKLY
+    owner: Transparency Governor
+    data_source: user_notification_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for transparency_assurance_score
+  disclosure_accuracy_score:
+    metric_name: disclosure_accuracy_score
+    formula: sum(disclosure_a_valid_events) / sum(disclosure_a_total_events) * 100
+    target: '95%'
+    warning_threshold: '85%'
+    critical_threshold: '75%'
+    measurement_frequency: DAILY
+    owner: Transparency Governor
+    data_source: user_notification_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for disclosure_accuracy_score
+  transparency_maturity_score:
+    metric_name: transparency_maturity_score
+    formula: sum(transparency_valid_events) / sum(transparency_total_events) * 99
+    target: '96%'
+    warning_threshold: '86%'
+    critical_threshold: '76%'
+    measurement_frequency: WEEKLY
+    owner: Disclosure_lead
+    data_source: user_notification_reporting_telemetry_stream
+    evidence_generated: Signed daily metric report for transparency_maturity_score
+kpis:
+  - transparency_compliance_score
+  - user_notification_effectiveness
+kris:
+  - low_fidelity_explanations_rate
+  - missed_notices_count
+thresholds:
+  transparency_compliance_score: 94%
+  user_notification_effectiveness: 87%
+relationships:
+  disclosure_links:
+    - source: technical_documentation/user_notification_reporting
+      target: transparency_obligations/user_notification_reporting
+      relationship_type: VERIFIES_DISCLOSURE_L
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for disclosure_links
+  notification_links:
+    - source: technical_documentation/user_notification_reporting
+      target: transparency_obligations/user_notification_reporting
+      relationship_type: VERIFIES_NOTIFICATION
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for notification_links
+  transparency_links:
+    - source: technical_documentation/user_notification_reporting
+      target: transparency_obligations/user_notification_reporting
+      relationship_type: VERIFIES_TRANSPARENCY
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for transparency_links
+  stakeholder_links:
+    - source: technical_documentation/user_notification_reporting
+      target: transparency_obligations/user_notification_reporting
+      relationship_type: VERIFIES_STAKEHOLDER_
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for stakeholder_links
+  evidence_links:
+    - source: technical_documentation/user_notification_reporting
+      target: transparency_obligations/user_notification_reporting
+      relationship_type: VERIFIES_EVIDENCE_LIN
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for evidence_links
+  workflow_links:
+    - source: technical_documentation/user_notification_reporting
+      target: transparency_obligations/user_notification_reporting
+      relationship_type: VERIFIES_WORKFLOW_LIN
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for workflow_links
+  governance_links:
+    - source: technical_documentation/user_notification_reporting
+      target: transparency_obligations/user_notification_reporting
+      relationship_type: VERIFIES_GOVERNANCE_L
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for governance_links
+  accountability_links:
+    - source: technical_documentation/user_notification_reporting
+      target: transparency_obligations/user_notification_reporting
+      relationship_type: VERIFIES_ACCOUNTABILI
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for accountability_links
+  assurance_links:
+    - source: technical_documentation/user_notification_reporting
+      target: transparency_obligations/user_notification_reporting
+      relationship_type: VERIFIES_ASSURANCE_LI
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for assurance_links
+  compliance_links:
+    - source: technical_documentation/user_notification_reporting
+      target: transparency_obligations/user_notification_reporting
+      relationship_type: VERIFIES_COMPLIANCE_L
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for compliance_links
+knowledge_graph:
+  nodes:
+    - id: user_notification_reporting_node
+      label: User Notification Reporting
+  edges:
+    - source: user_notification_reporting_node
+      target: transparency_node
+      label: GOVERNS
+crosswalks:
+  - standards: [ISO_42001, ISO_23894, NIST_AI_RMF]
+    mapping_status: COMPLIANT
+compliance_mapping:
+  eu_ai_act: Article 13, Article 50
+  gdpr: Articles 12-15
+integration_points:
+  transparency_and_explainability:
+    integration_path: d:\eu_ai_act\transparency_and_explainability\
+    sync_frequency: DAILY
+    validation_interface: verify_transparency_and_explainability_transparency_sync
+  synthetic_media:
+    integration_path: d:\eu_ai_act\synthetic_media\
+    sync_frequency: DAILY
+    validation_interface: verify_synthetic_media_transparency_sync
+  human_oversight:
+    integration_path: d:\eu_ai_act\human_oversight\
+    sync_frequency: DAILY
+    validation_interface: verify_human_oversight_transparency_sync
+  technical_documentation:
+    integration_path: d:\eu_ai_act\technical_documentation\
+    sync_frequency: DAILY
+    validation_interface: verify_technical_documentation_transparency_sync
+  provider_obligations:
+    integration_path: d:\eu_ai_act\provider_obligations\
+    sync_frequency: DAILY
+    validation_interface: verify_provider_obligations_transparency_sync
+  deployer_obligations:
+    integration_path: d:\eu_ai_act\deployer_obligations\
+    sync_frequency: DAILY
+    validation_interface: verify_deployer_obligations_transparency_sync
+  high_risk_ai_systems:
+    integration_path: d:\eu_ai_act\high_risk_ai_systems\
+    sync_frequency: DAILY
+    validation_interface: verify_high_risk_ai_systems_transparency_sync
+  foundation_models:
+    integration_path: d:\eu_ai_act\foundation_models\
+    sync_frequency: DAILY
+    validation_interface: verify_foundation_models_transparency_sync
+  general_purpose_ai:
+    integration_path: d:\eu_ai_act\general_purpose_ai\
+    sync_frequency: DAILY
+    validation_interface: verify_general_purpose_ai_transparency_sync
+  risk_management:
+    integration_path: d:\eu_ai_act\risk_management\
+    sync_frequency: DAILY
+    validation_interface: verify_risk_management_transparency_sync
+  privacy_and_fundamental_rights:
+    integration_path: d:\eu_ai_act\privacy_and_fundamental_rights\
+    sync_frequency: DAILY
+    validation_interface: verify_privacy_and_fundamental_rights_transparency_sync
+  audit_and_enforcement:
+    integration_path: d:\eu_ai_act\audit_and_enforcement\
+    sync_frequency: DAILY
+    validation_interface: verify_audit_and_enforcement_transparency_sync
+  audit_and_forensics:
+    integration_path: d:\eu_ai_act\audit_and_forensics\
+    sync_frequency: DAILY
+    validation_interface: verify_audit_and_forensics_transparency_sync
+  conformity_assessment:
+    integration_path: d:\eu_ai_act\conformity_assessment\
+    sync_frequency: DAILY
+    validation_interface: verify_conformity_assessment_transparency_sync
+  evidence_and_attestation:
+    integration_path: d:\eu_ai_act\evidence_and_attestation\
+    sync_frequency: DAILY
+    validation_interface: verify_evidence_and_attestation_transparency_sync
+  governance_reporting:
+    integration_path: d:\eu_ai_act\governance_reporting\
+    sync_frequency: DAILY
+    validation_interface: verify_governance_reporting_transparency_sync
+  operational_runtime_governance:
+    integration_path: d:\eu_ai_act\operational_runtime_governance\
+    sync_frequency: DAILY
+    validation_interface: verify_operational_runtime_governance_transparency_sync
+  core_governance:
+    integration_path: d:\eu_ai_act\core_governance\
+    sync_frequency: DAILY
+    validation_interface: verify_core_governance_transparency_sync
+dependencies:
+  - transparency_portal_v1
+  - decision_tracking_library_v2
+outputs:
+  - plain_language_notice_template
+  - article_50_disclosure_log
+artifacts:
+  - transparency_report_docket.yaml
+  - article_50_compliance_supplement.yaml
+records:
+  - user_consent_logs
+  - audit_trail_database
+continuous_improvement:
+  review_cycle: SEMI_ANNUAL
+  feedback_channels:
+    - user_interface_reports
+    - auditor_workshops
+exceptions:
+  - path: bypass_due_to_national_security
+    approved_by: Chief Compliance Officer
+escalation:
+  - alert_level: critical_transparency_gap
+    conduit: slack_compliance_channel
+versioning:
+  current_version: 1.0.0
+  revision_history:
+    - version: 1.0.0
+      date: '2026-06-13'
+      author: Governance Architect
+      changes: Initial production release of transparency obligations infrastructure.
+transparency_obligations_capabilities:
+  transparency_governance:
+    description: Manage and oversee Transparency Governance capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for transparency_governance.
+  disclosure_management:
+    description: Manage and oversee Disclosure Management capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for disclosure_management.
+  notification_management:
+    description: Manage and oversee Notification Management capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for notification_management.
+  transparency_assurance:
+    description: Manage and oversee Transparency Assurance capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for transparency_assurance.
+  transparency_monitoring:
+    description: Manage and oversee Transparency Monitoring capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for transparency_monitoring.
+  ai_interaction_disclosure:
+    description: Manage and oversee Ai Interaction Disclosure capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for ai_interaction_disclosure.
+  synthetic_content_disclosure:
+    description: Manage and oversee Synthetic Content Disclosure capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for synthetic_content_disclosure.
+  deepfake_disclosure:
+    description: Manage and oversee Deepfake Disclosure capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for deepfake_disclosure.
+  user_information_management:
+    description: Manage and oversee User Information Management capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for user_information_management.
+  stakeholder_transparency:
+    description: Manage and oversee Stakeholder Transparency capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for stakeholder_transparency.
+  consumer_transparency:
+    description: Manage and oversee Consumer Transparency capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for consumer_transparency.
+  regulator_transparency:
+    description: Manage and oversee Regulator Transparency capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for regulator_transparency.
+  auditor_transparency:
+    description: Manage and oversee Auditor Transparency capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for auditor_transparency.
+  accountability_disclosure:
+    description: Manage and oversee Accountability Disclosure capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for accountability_disclosure.
+  risk_disclosure:
+    description: Manage and oversee Risk Disclosure capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for risk_disclosure.
+  capability_disclosure:
+    description: Manage and oversee Capability Disclosure capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for capability_disclosure.
+  limitation_disclosure:
+    description: Manage and oversee Limitation Disclosure capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for limitation_disclosure.
+  communication_assurance:
+    description: Manage and oversee Communication Assurance capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for communication_assurance.
+  disclosure_validation:
+    description: Manage and oversee Disclosure Validation capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for disclosure_validation.
+  disclosure_traceability:
+    description: Manage and oversee Disclosure Traceability capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for disclosure_traceability.
+  disclosure_auditability:
+    description: Manage and oversee Disclosure Auditability capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for disclosure_auditability.
+  transparency_intelligence:
+    description: Manage and oversee Transparency Intelligence capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for transparency_intelligence.
+  transparency_reporting:
+    description: Manage and oversee Transparency Reporting capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for transparency_reporting.
+  transparency_maturity:
+    description: Manage and oversee Transparency Maturity capabilities under User Notification Reporting rules.
+    controls:
+      - CTRL-TO-UNF-USER_N-AID-09
+      - CTRL-TO-UNF-USER_N-UN-47
+    assessment_method: Verify trace logs and audit scores for transparency_maturity.
+altai_transparency_obligations:
+  autonomous_agent_disclosures:
+    agent_identity_disclosures: |
+      Establish and run transparency disclosures for Agent Identity Disclosures under User Notification Reporting deployment guidelines.
+    agent_role_disclosures: |
+      Establish and run transparency disclosures for Agent Role Disclosures under User Notification Reporting deployment guidelines.
+    agent_autonomy_disclosures: |
+      Establish and run transparency disclosures for Agent Autonomy Disclosures under User Notification Reporting deployment guidelines.
+    agent_accountability_disclosures: |
+      Establish and run transparency disclosures for Agent Accountability Disclosures under User Notification Reporting deployment guidelines.
+  multi_agent_disclosures:
+    swarm_disclosures: |
+      Establish and run transparency disclosures for Swarm Disclosures under User Notification Reporting deployment guidelines.
+    ecosystem_disclosures: |
+      Establish and run transparency disclosures for Ecosystem Disclosures under User Notification Reporting deployment guidelines.
+    coordination_disclosures: |
+      Establish and run transparency disclosures for Coordination Disclosures under User Notification Reporting deployment guidelines.
+    interaction_disclosures: |
+      Establish and run transparency disclosures for Interaction Disclosures under User Notification Reporting deployment guidelines.
+  reasoning_disclosures:
+    reasoning_capability_disclosures: |
+      Establish and run transparency disclosures for Reasoning Capability Disclosures under User Notification Reporting deployment guidelines.
+    reasoning_limitation_disclosures: |
+      Establish and run transparency disclosures for Reasoning Limitation Disclosures under User Notification Reporting deployment guidelines.
+    reasoning_traceability_disclosures: |
+      Establish and run transparency disclosures for Reasoning Traceability Disclosures under User Notification Reporting deployment guidelines.
+    accountability_disclosures: |
+      Establish and run transparency disclosures for Accountability Disclosures under User Notification Reporting deployment guidelines.
+  memory_disclosures:
+    memory_usage_disclosures: |
+      Establish and run transparency disclosures for Memory Usage Disclosures under User Notification Reporting deployment guidelines.
+    memory_source_disclosures: |
+      Establish and run transparency disclosures for Memory Source Disclosures under User Notification Reporting deployment guidelines.
+    memory_retention_disclosures: |
+      Establish and run transparency disclosures for Memory Retention Disclosures under User Notification Reporting deployment guidelines.
+    memory_accountability_disclosures: |
+      Establish and run transparency disclosures for Memory Accountability Disclosures under User Notification Reporting deployment guidelines.
+  tool_disclosures:
+    tool_usage_disclosures: |
+      Establish and run transparency disclosures for Tool Usage Disclosures under User Notification Reporting deployment guidelines.
+    tool_dependency_disclosures: |
+      Establish and run transparency disclosures for Tool Dependency Disclosures under User Notification Reporting deployment guidelines.
+    tool_accountability_disclosures: |
+      Establish and run transparency disclosures for Tool Accountability Disclosures under User Notification Reporting deployment guidelines.
+    tool_risk_disclosures: |
+      Establish and run transparency disclosures for Tool Risk Disclosures under User Notification Reporting deployment guidelines.
+  orchestration_disclosures:
+    workflow_disclosures: |
+      Establish and run transparency disclosures for Workflow Disclosures under User Notification Reporting deployment guidelines.
+    orchestration_disclosures: |
+      Establish and run transparency disclosures for Orchestration Disclosures under User Notification Reporting deployment guidelines.
+    automation_disclosures: |
+      Establish and run transparency disclosures for Automation Disclosures under User Notification Reporting deployment guidelines.
+    accountability_disclosures: |
+      Establish and run transparency disclosures for Accountability Disclosures under User Notification Reporting deployment guidelines.
+  foundation_model_disclosures:
+    capability_disclosures: |
+      Establish and run transparency disclosures for Capability Disclosures under User Notification Reporting deployment guidelines.
+    limitation_disclosures: |
+      Establish and run transparency disclosures for Limitation Disclosures under User Notification Reporting deployment guidelines.
+    systemic_risk_disclosures: |
+      Establish and run transparency disclosures for Systemic Risk Disclosures under User Notification Reporting deployment guidelines.
+    governance_disclosures: |
+      Establish and run transparency disclosures for Governance Disclosures under User Notification Reporting deployment guidelines.
+  gpai_disclosures:
+    ecosystem_disclosures: |
+      Establish and run transparency disclosures for Ecosystem Disclosures under User Notification Reporting deployment guidelines.
+    societal_impact_disclosures: |
+      Establish and run transparency disclosures for Societal Impact Disclosures under User Notification Reporting deployment guidelines.
+    systemic_risk_disclosures: |
+      Establish and run transparency disclosures for Systemic Risk Disclosures under User Notification Reporting deployment guidelines.
+    accountability_disclosures: |
+      Establish and run transparency disclosures for Accountability Disclosures under User Notification Reporting deployment guidelines.
+article_50_framework:
+  ai_interaction_disclosures:
+    description: Implement Article 50 disclosure verifications for Ai Interaction Disclosures.
+    owner: Transparency Governor
+    status: IMPLEMENTED
+  emotion_recognition_disclosures:
+    description: Implement Article 50 disclosure verifications for Emotion Recognition Disclosures.
+    owner: Transparency Governor
+    status: IMPLEMENTED
+  biometric_categorization_disclosures:
+    description: Implement Article 50 disclosure verifications for Biometric Categorization Disclosures.
+    owner: Transparency Governor
+    status: IMPLEMENTED
+  synthetic_media_disclosures:
+    description: Implement Article 50 disclosure verifications for Synthetic Media Disclosures.
+    owner: Transparency Governor
+    status: IMPLEMENTED
+  deepfake_disclosures:
+    description: Implement Article 50 disclosure verifications for Deepfake Disclosures.
+    owner: Transparency Governor
+    status: IMPLEMENTED
+  article_50_controls:
+    description: Implement Article 50 disclosure verifications for Article 50 Controls.
+    owner: Transparency Governor
+    status: IMPLEMENTED
+  article_50_assurance:
+    description: Implement Article 50 disclosure verifications for Article 50 Assurance.
+    owner: Transparency Governor
+    status: IMPLEMENTED
+disclosure_taxonomy:
+  user_disclosures:
+    definition: |
+      Definition of User Disclosures specifically for User Notification Reporting operations.
+    required_content:
+      - Enforce compliance content for user_disclosures
+    stakeholder_requirements:
+      - plain-text summary display for user_disclosures
+    validation_requirements:
+      - Run validator loop on user_disclosures
+    evidence_requirements:
+      - Attestation trace for user_disclosures
+  consumer_disclosures:
+    definition: |
+      Definition of Consumer Disclosures specifically for User Notification Reporting operations.
+    required_content:
+      - Enforce compliance content for consumer_disclosures
+    stakeholder_requirements:
+      - plain-text summary display for consumer_disclosures
+    validation_requirements:
+      - Run validator loop on consumer_disclosures
+    evidence_requirements:
+      - Attestation trace for consumer_disclosures
+  operator_disclosures:
+    definition: |
+      Definition of Operator Disclosures specifically for User Notification Reporting operations.
+    required_content:
+      - Enforce compliance content for operator_disclosures
+    stakeholder_requirements:
+      - plain-text summary display for operator_disclosures
+    validation_requirements:
+      - Run validator loop on operator_disclosures
+    evidence_requirements:
+      - Attestation trace for operator_disclosures
+  deployer_disclosures:
+    definition: |
+      Definition of Deployer Disclosures specifically for User Notification Reporting operations.
+    required_content:
+      - Enforce compliance content for deployer_disclosures
+    stakeholder_requirements:
+      - plain-text summary display for deployer_disclosures
+    validation_requirements:
+      - Run validator loop on deployer_disclosures
+    evidence_requirements:
+      - Attestation trace for deployer_disclosures
+  regulator_disclosures:
+    definition: |
+      Definition of Regulator Disclosures specifically for User Notification Reporting operations.
+    required_content:
+      - Enforce compliance content for regulator_disclosures
+    stakeholder_requirements:
+      - plain-text summary display for regulator_disclosures
+    validation_requirements:
+      - Run validator loop on regulator_disclosures
+    evidence_requirements:
+      - Attestation trace for regulator_disclosures
+  model_disclosures:
+    definition: |
+      Definition of Model Disclosures specifically for User Notification Reporting operations.
+    required_content:
+      - Enforce compliance content for model_disclosures
+    stakeholder_requirements:
+      - plain-text summary display for model_disclosures
+    validation_requirements:
+      - Run validator loop on model_disclosures
+    evidence_requirements:
+      - Attestation trace for model_disclosures
+  capability_disclosures:
+    definition: |
+      Definition of Capability Disclosures specifically for User Notification Reporting operations.
+    required_content:
+      - Enforce compliance content for capability_disclosures
+    stakeholder_requirements:
+      - plain-text summary display for capability_disclosures
+    validation_requirements:
+      - Run validator loop on capability_disclosures
+    evidence_requirements:
+      - Attestation trace for capability_disclosures
+  limitation_disclosures:
+    definition: |
+      Definition of Limitation Disclosures specifically for User Notification Reporting operations.
+    required_content:
+      - Enforce compliance content for limitation_disclosures
+    stakeholder_requirements:
+      - plain-text summary display for limitation_disclosures
+    validation_requirements:
+      - Run validator loop on limitation_disclosures
+    evidence_requirements:
+      - Attestation trace for limitation_disclosures
+  risk_disclosures:
+    definition: |
+      Definition of Risk Disclosures specifically for User Notification Reporting operations.
+    required_content:
+      - Enforce compliance content for risk_disclosures
+    stakeholder_requirements:
+      - plain-text summary display for risk_disclosures
+    validation_requirements:
+      - Run validator loop on risk_disclosures
+    evidence_requirements:
+      - Attestation trace for risk_disclosures
+  accountability_disclosures:
+    definition: |
+      Definition of Accountability Disclosures specifically for User Notification Reporting operations.
+    required_content:
+      - Enforce compliance content for accountability_disclosures
+    stakeholder_requirements:
+      - plain-text summary display for accountability_disclosures
+    validation_requirements:
+      - Run validator loop on accountability_disclosures
+    evidence_requirements:
+      - Attestation trace for accountability_disclosures
+transparency_communication_framework:
+  communication_channels: |
+    Establish Communication Channels mechanisms for communication.
+  communication_requirements: |
+    Establish Communication Requirements mechanisms for communication.
+  communication_controls: |
+    Establish Communication Controls mechanisms for communication.
+  accessibility_requirements: |
+    Establish Accessibility Requirements mechanisms for communication.
+  understandability_requirements: |
+    Establish Understandability Requirements mechanisms for communication.
+  validation_controls: |
+    Establish Validation Controls mechanisms for communication.
+  assurance_controls: |
+    Establish Assurance Controls mechanisms for communication.
+disclosure_traceability_framework:
+  disclosure_sources: |
+    Enforce validation procedures for Disclosure Sources.
+  disclosure_lineage: |
+    Enforce validation procedures for Disclosure Lineage.
+  disclosure_history: |
+    Enforce validation procedures for Disclosure History.
+  disclosure_updates: |
+    Enforce validation procedures for Disclosure Updates.
+  disclosure_versions: |
+    Enforce validation procedures for Disclosure Versions.
+  validation_requirements: |
+    Enforce validation procedures for Validation Requirements.
+  assurance_requirements: |
+    Enforce validation procedures for Assurance Requirements.
+transparency_obligations_maturity_model:
+  level_1_reactive:
+    capabilities:
+      - Verify basic User Notification Reporting transparency notices.
+      - Track User Notification Reporting explainability fidelity.
+    disclosure_capabilities:
+      - Display standardized notifications for User Notification Reporting.
+    notification_capabilities:
+      - Generate user notifications for User Notification Reporting.
+    assurance_capabilities:
+      - Assign system owners and log release sign-offs for User Notification Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 1).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 1).
+  level_2_repeatable:
+    capabilities:
+      - Verify basic User Notification Reporting transparency notices.
+      - Track User Notification Reporting explainability fidelity.
+    disclosure_capabilities:
+      - Display standardized notifications for User Notification Reporting.
+    notification_capabilities:
+      - Generate user notifications for User Notification Reporting.
+    assurance_capabilities:
+      - Assign system owners and log release sign-offs for User Notification Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 2).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 2).
+  level_3_defined:
+    capabilities:
+      - Verify basic User Notification Reporting transparency notices.
+      - Track User Notification Reporting explainability fidelity.
+    disclosure_capabilities:
+      - Display standardized notifications for User Notification Reporting.
+    notification_capabilities:
+      - Generate user notifications for User Notification Reporting.
+    assurance_capabilities:
+      - Assign system owners and log release sign-offs for User Notification Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 3).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 3).
+  level_4_managed:
+    capabilities:
+      - Verify basic User Notification Reporting transparency notices.
+      - Track User Notification Reporting explainability fidelity.
+    disclosure_capabilities:
+      - Display standardized notifications for User Notification Reporting.
+    notification_capabilities:
+      - Generate user notifications for User Notification Reporting.
+    assurance_capabilities:
+      - Assign system owners and log release sign-offs for User Notification Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 4).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 4).
+  level_5_optimized:
+    capabilities:
+      - Verify basic User Notification Reporting transparency notices.
+      - Track User Notification Reporting explainability fidelity.
+    disclosure_capabilities:
+      - Display standardized notifications for User Notification Reporting.
+    notification_capabilities:
+      - Generate user notifications for User Notification Reporting.
+    assurance_capabilities:
+      - Assign system owners and log release sign-offs for User Notification Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 5).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 5).
+  level_6_assured:
+    capabilities:
+      - Verify basic User Notification Reporting transparency notices.
+      - Track User Notification Reporting explainability fidelity.
+    disclosure_capabilities:
+      - Display standardized notifications for User Notification Reporting.
+    notification_capabilities:
+      - Generate user notifications for User Notification Reporting.
+    assurance_capabilities:
+      - Assign system owners and log release sign-offs for User Notification Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 6).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 6).
+  level_7_transparency_by_design:
+    capabilities:
+      - Verify basic User Notification Reporting transparency notices.
+      - Track User Notification Reporting explainability fidelity.
+    disclosure_capabilities:
+      - Display standardized notifications for User Notification Reporting.
+    notification_capabilities:
+      - Generate user notifications for User Notification Reporting.
+    assurance_capabilities:
+      - Assign system owners and log release sign-offs for User Notification Reporting.
+    evidence_requirements:
+      - Signed notice validation telemetry log (level 7).
+    validation_requirements:
+      - Verify DOM elements visibility for notices (level 7).
+eu_ai_act_transparency_obligations_mapping:
+  Article 13:
+    article: 'Article 13'
+    obligation: Enforce Article 13 compliance rules and disclosure procedures under User Notification Reporting.
+    implementation_method: Deploy automated validation checkers for User Notification Reporting workflows.
+    transparency_control: CTRL-TO-UNF-USER_N-AID-09
+    required_evidence: Signed daily compliance audit report mapping to Article 13.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Article 13 standards.
+  Article 50(1):
+    article: 'Article 50(1)'
+    obligation: Enforce Article 50(1) compliance rules and disclosure procedures under User Notification Reporting.
+    implementation_method: Deploy automated validation checkers for User Notification Reporting workflows.
+    transparency_control: CTRL-TO-UNF-USER_N-AID-09
+    required_evidence: Signed daily compliance audit report mapping to Article 50(1).
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Article 50(1) standards.
+  Article 50(2):
+    article: 'Article 50(2)'
+    obligation: Enforce Article 50(2) compliance rules and disclosure procedures under User Notification Reporting.
+    implementation_method: Deploy automated validation checkers for User Notification Reporting workflows.
+    transparency_control: CTRL-TO-UNF-USER_N-AID-09
+    required_evidence: Signed daily compliance audit report mapping to Article 50(2).
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Article 50(2) standards.
+  Article 50(3):
+    article: 'Article 50(3)'
+    obligation: Enforce Article 50(3) compliance rules and disclosure procedures under User Notification Reporting.
+    implementation_method: Deploy automated validation checkers for User Notification Reporting workflows.
+    transparency_control: CTRL-TO-UNF-USER_N-AID-09
+    required_evidence: Signed daily compliance audit report mapping to Article 50(3).
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Article 50(3) standards.
+  Article 50(4):
+    article: 'Article 50(4)'
+    obligation: Enforce Article 50(4) compliance rules and disclosure procedures under User Notification Reporting.
+    implementation_method: Deploy automated validation checkers for User Notification Reporting workflows.
+    transparency_control: CTRL-TO-UNF-USER_N-AID-09
+    required_evidence: Signed daily compliance audit report mapping to Article 50(4).
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Article 50(4) standards.
+  Article 50(5):
+    article: 'Article 50(5)'
+    obligation: Enforce Article 50(5) compliance rules and disclosure procedures under User Notification Reporting.
+    implementation_method: Deploy automated validation checkers for User Notification Reporting workflows.
+    transparency_control: CTRL-TO-UNF-USER_N-AID-09
+    required_evidence: Signed daily compliance audit report mapping to Article 50(5).
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Article 50(5) standards.
+  Transparency Obligations:
+    article: 'Transparency Obligations'
+    obligation: Enforce Transparency Obligations compliance rules and disclosure procedures under User Notification Reporting.
+    implementation_method: Deploy automated validation checkers for User Notification Reporting workflows.
+    transparency_control: CTRL-TO-UNF-USER_N-AID-09
+    required_evidence: Signed daily compliance audit report mapping to Transparency Obligations.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Transparency Obligations standards.
+  Disclosure Obligations:
+    article: 'Disclosure Obligations'
+    obligation: Enforce Disclosure Obligations compliance rules and disclosure procedures under User Notification Reporting.
+    implementation_method: Deploy automated validation checkers for User Notification Reporting workflows.
+    transparency_control: CTRL-TO-UNF-USER_N-AID-09
+    required_evidence: Signed daily compliance audit report mapping to Disclosure Obligations.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notice logs against Disclosure Obligations standards.

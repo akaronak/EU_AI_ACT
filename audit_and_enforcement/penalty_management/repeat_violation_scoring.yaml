@@ -1,0 +1,1961 @@
+metadata:
+  id: AAE-PM-REPVIO-001
+  name: repeat_violation_scoring
+  title: Repeat Violation Scoring
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: penalty_management
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - penalty_management
+    - repeat_violation_scoring
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Repeat Violation Scoring governance within
+    audit_and_enforcement/penalty_management, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for recidivism scoring and aggravated enforcement triggers, violation
+    typology analysis and severity classification. Integrates with the EU AI Act governance
+    ecosystem through machine-evaluable obligations, evidence preservation, and conformity-
+    assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Repeat Violation Scoring across enterprise
+    and cross-border operations within audit_and_enforcement/penalty_management.
+objectives:
+  - Operationalize Repeat Violation Scoring with regulator-defensible controls and evidence chains
+  - Enable automated validation of Repeat Violation Scoring conformance across penalty_management
+  - Preserve audit-grade and forensic-grade records for all Repeat Violation Scoring activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Repeat Violation Scoring with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Repeat Violation Scoring
+definitions:
+  repeat_violation_scoring_governance_domain:
+    >
+      The operational jurisdiction of Repeat Violation Scoring encompassing controlled audit,
+      enforcement, investigation, and evidence processes within penalty_management.
+  repeat_violation_scoring_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Repeat Violation Scoring control
+      effectiveness, process adherence, and regulatory conformity.
+  repeat_violation_scoring_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Repeat Violation Scoring decision logic.
+  repeat_violation_scoring_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Repeat Violation Scoring processes.
+  repeat_violation_scoring_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within Repeat
+      Violation Scoring operations.
+  repeat_violation_scoring_conformity_assertion:
+    >
+      Formal statement that Repeat Violation Scoring requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: repeat_violation_scoring_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  repeat_violation_scoring_artifact_type:
+    - repeat_violation_scoring_record
+    - repeat_violation_scoring_log
+    - repeat_violation_scoring_report
+    - repeat_violation_scoring_attestation
+    - repeat_violation_scoring_package
+  repeat_violation_scoring_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Repeat Violation Scoring Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: penalty_management
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - investigation_management
+    - enforcement_actions
+    - compliance_audits
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - remediation_tracking
+    - reporting
+    - enforcement_actions
+    - audit_and_enforcement/penalty_management/repeat_violation_scoring.yaml
+  related_domains:
+    - enforcement_actions
+    - investigation_management
+    - remediation_tracking
+  related_skills:
+    - sanction_management
+    - financial_penalty_tracking
+    - repeat_violation_scoring
+    - repeat_violation_scoring
+  parent_governance_objects:
+    - enforcement_framework
+  child_governance_objects:
+    - penalty_assessment
+    - sanction_order
+    - repeat_violation_scoring_governance_object
+  consumes_artifacts:
+    - investigation_report
+    - enforcement_decision
+    - liability_mapping
+    - repeat_violation_scoring_input_artifact
+  produces_artifacts:
+    - penalty_determination
+    - sanction_register_entry
+    - financial_penalty_ledger
+    - repeat_violation_scoring_record
+    - repeat_violation_scoring_report
+    - repeat_violation_scoring_attestation
+  consumes_evidence:
+    - violation_evidence_package
+    - repeat_violation_history
+    - repeat_violation_scoring_source_evidence
+  produces_evidence:
+    - penalty_calculation_workpaper
+    - sanction_attestation
+    - appeal_record
+    - repeat_violation_scoring_audit_evidence
+    - repeat_violation_scoring_validation_evidence
+    - repeat_violation_scoring_enforcement_evidence
+  governance_dependencies:
+    - ai_liability
+    - legal_interoperability
+  regulatory_dependencies:
+    - eu_ai_act_article_71
+    - eu_ai_act_article_99
+  risk_dependencies:
+    - ai_liability
+    - compliance_scoring
+  control_dependencies:
+    - investigation_management
+    - enforcement_actions
+    - repeat_violation_scoring_control_register
+roles_and_responsibilities:
+  repeat_violation_scoring_owner:
+    responsibilities:
+      - Accountable for Repeat Violation Scoring strategy, control design, and regulatory alignment
+  repeat_violation_scoring_operator:
+    responsibilities:
+      - Executes Repeat Violation Scoring workflows and maintains operational records
+  repeat_violation_scoring_auditor:
+    responsibilities:
+      - Independently validates Repeat Violation Scoring control effectiveness and evidence sufficiency
+  repeat_violation_scoring_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Repeat Violation Scoring investigations
+  repeat_violation_scoring_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Repeat Violation Scoring
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-013
+    name: Liability Attribution
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-014
+    name: Regulatory Accountability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-015
+    name: Regulatory Escalation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-026
+    name: Penalty Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-027
+    name: Sanction Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-028
+    name: Financial Penalty Tracking
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-029
+    name: Repeat Violation Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-030
+    name: Remediation Tracking
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-PEN-REPEAT_VIO-REPEATLIABI
+    control_name: repeat_liability_chain_mapper
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring liability chain mapper for Repeat Violation Scoring across
+        penalty_management.
+    governance_rationale:
+      >
+        repeat_liability_chain_mapper is required to govern Repeat Violation Scoring risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected penalty management
+        failures.
+    implementation_guidance:
+      >
+        Implement repeat_liability_chain_mapper as automated policy in repeat_violation_scoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: repeat_liability_chain_mapper_continuous_telemetry_dashboard
+    validation_method: repeat_liability_chain_mapper_quarterly_design_and_operating_effectiveness_test
+    testing_method: repeat_liability_chain_mapper_statistical_sampling_with_exception_tracking
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated: repeat_liability_chain_mapper_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify repeat_liability_chain_mapper design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        repeat_liability_chain_mapper outputs may trigger enforcement under repeat_violation_scoring
+        escalation rules.
+  - control_id: AAE-PEN-REPEAT_VIO-VIOLATIONPE
+    control_name: violation_penalty_calculation_engine
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring penalty calculation engine for Repeat Violation Scoring across
+        penalty_management.
+    governance_rationale:
+      >
+        violation_penalty_calculation_engine is required to govern Repeat Violation Scoring risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty management
+        failures.
+    implementation_guidance:
+      >
+        Implement violation_penalty_calculation_engine as automated policy in repeat_violation_scoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: violation_penalty_calculation_engine_continuous_telemetry_dashboard
+    validation_method:
+      violation_penalty_calculation_engine_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      violation_penalty_calculation_engine_statistical_sampling_with_exception_tracking
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated: violation_penalty_calculation_engine_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify violation_penalty_calculation_engine design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        violation_penalty_calculation_engine outputs may trigger enforcement under
+        repeat_violation_scoring escalation rules.
+  - control_id: AAE-PEN-REPEAT_VIO-SCORINGFINA
+    control_name: scoring_financial_penalty_ledger_guard
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring financial penalty ledger guard for Repeat Violation Scoring across
+        penalty_management.
+    governance_rationale:
+      >
+        scoring_financial_penalty_ledger_guard is required to govern Repeat Violation Scoring risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty
+        management failures.
+    implementation_guidance:
+      >
+        Implement scoring_financial_penalty_ledger_guard as automated policy in repeat_violation_scoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: scoring_financial_penalty_ledger_guard_continuous_telemetry_dashboard
+    validation_method:
+      scoring_financial_penalty_ledger_guard_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      scoring_financial_penalty_ledger_guard_statistical_sampling_with_exception_tracking
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated: scoring_financial_penalty_ledger_guard_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify scoring_financial_penalty_ledger_guard design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        scoring_financial_penalty_ledger_guard outputs may trigger enforcement under
+        repeat_violation_scoring escalation rules.
+  - control_id: AAE-PEN-REPEAT_VIO-REPEATVIOLA
+    control_name: repeat_violation_scoring_repeat_violation_scorer
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring repeat violation scorer for Repeat Violation Scoring across
+        penalty_management.
+    governance_rationale:
+      >
+        repeat_violation_scoring_repeat_violation_scorer is required to govern Repeat Violation Scoring
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        penalty management failures.
+    implementation_guidance:
+      >
+        Implement repeat_violation_scoring_repeat_violation_scorer as automated policy in
+        repeat_violation_scoring orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: repeat_violation_scoring_repeat_violation_scorer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        repeat_violation_scoring_repeat_violation_scorer_quarterly_design_and_operating_effectiveness_te
+        st
+    testing_method:
+      repeat_violation_scoring_repeat_violation_scorer_statistical_sampling_with_exception_tracking
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated: repeat_violation_scoring_repeat_violation_scorer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify repeat_violation_scoring_repeat_violation_scorer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        repeat_violation_scoring_repeat_violation_scorer outputs may trigger enforcement under
+        repeat_violation_scoring escalation rules.
+  - control_id: AAE-PEN-REPEAT_VIO-REPEATVIOLA
+    control_name: repeat_violation_scoring_corrective_obligation_register
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring corrective obligation register for Repeat Violation Scoring across
+        penalty_management.
+    governance_rationale:
+      >
+        repeat_violation_scoring_corrective_obligation_register is required to govern Repeat Violation
+        Scoring risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement repeat_violation_scoring_corrective_obligation_register as automated policy in
+        repeat_violation_scoring orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      repeat_violation_scoring_corrective_obligation_register_continuous_telemetry_dashboard
+    validation_method:
+      >
+        repeat_violation_scoring_corrective_obligation_register_quarterly_design_and_operating_effective
+        ness_test
+    testing_method:
+      >
+        repeat_violation_scoring_corrective_obligation_register_statistical_sampling_with_exception_trac
+        king
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated: repeat_violation_scoring_corrective_obligation_register_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify repeat_violation_scoring_corrective_obligation_register design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        repeat_violation_scoring_corrective_obligation_register outputs may trigger enforcement under
+        repeat_violation_scoring escalation rules.
+  - control_id: AAE-PEN-REPEAT_VIO-REPEATVIOLA
+    control_name: repeat_violation_scoring_regulatory_penalty_alignment_checker
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring regulatory penalty alignment checker for Repeat Violation Scoring
+        across penalty_management.
+    governance_rationale:
+      >
+        repeat_violation_scoring_regulatory_penalty_alignment_checker is required to govern Repeat
+        Violation Scoring risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement repeat_violation_scoring_regulatory_penalty_alignment_checker as automated policy in
+        repeat_violation_scoring orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      repeat_violation_scoring_regulatory_penalty_alignment_checker_continuous_telemetry_dashboard
+    validation_method:
+      >
+        repeat_violation_scoring_regulatory_penalty_alignment_checker_quarterly_design_and_operating_eff
+        ectiveness_test
+    testing_method:
+      >
+        repeat_violation_scoring_regulatory_penalty_alignment_checker_statistical_sampling_with_exceptio
+        n_tracking
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated:
+      repeat_violation_scoring_regulatory_penalty_alignment_checker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify repeat_violation_scoring_regulatory_penalty_alignment_checker design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        repeat_violation_scoring_regulatory_penalty_alignment_checker outputs may trigger enforcement
+        under repeat_violation_scoring escalation rules.
+  - control_id: AAE-PEN-REPEAT_VIO-REPEATVIOLA
+    control_name: repeat_violation_scoring_penalty_proportionality_reviewer
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring penalty proportionality reviewer for Repeat Violation Scoring
+        across penalty_management.
+    governance_rationale:
+      >
+        repeat_violation_scoring_penalty_proportionality_reviewer is required to govern Repeat Violation
+        Scoring risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement repeat_violation_scoring_penalty_proportionality_reviewer as automated policy in
+        repeat_violation_scoring orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      repeat_violation_scoring_penalty_proportionality_reviewer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        repeat_violation_scoring_penalty_proportionality_reviewer_quarterly_design_and_operating_effecti
+        veness_test
+    testing_method:
+      >
+        repeat_violation_scoring_penalty_proportionality_reviewer_statistical_sampling_with_exception_tr
+        acking
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated: repeat_violation_scoring_penalty_proportionality_reviewer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify repeat_violation_scoring_penalty_proportionality_reviewer design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        repeat_violation_scoring_penalty_proportionality_reviewer outputs may trigger enforcement under
+        repeat_violation_scoring escalation rules.
+  - control_id: AAE-PEN-REPEAT_VIO-REPEATVIOLA
+    control_name: repeat_violation_scoring_payment_compliance_tracker
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring payment compliance tracker for Repeat Violation Scoring across
+        penalty_management.
+    governance_rationale:
+      >
+        repeat_violation_scoring_payment_compliance_tracker is required to govern Repeat Violation
+        Scoring risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement repeat_violation_scoring_payment_compliance_tracker as automated policy in
+        repeat_violation_scoring orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      repeat_violation_scoring_payment_compliance_tracker_continuous_telemetry_dashboard
+    validation_method:
+      >
+        repeat_violation_scoring_payment_compliance_tracker_quarterly_design_and_operating_effectiveness
+        _test
+    testing_method:
+      repeat_violation_scoring_payment_compliance_tracker_statistical_sampling_with_exception_tracking
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated: repeat_violation_scoring_payment_compliance_tracker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify repeat_violation_scoring_payment_compliance_tracker design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        repeat_violation_scoring_payment_compliance_tracker outputs may trigger enforcement under
+        repeat_violation_scoring escalation rules.
+  - control_id: AAE-PEN-REPEAT_VIO-REPEATVIOLA
+    control_name: repeat_violation_scoring_penalty_appeal_processor
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring penalty appeal processor for Repeat Violation Scoring across
+        penalty_management.
+    governance_rationale:
+      >
+        repeat_violation_scoring_penalty_appeal_processor is required to govern Repeat Violation Scoring
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        penalty management failures.
+    implementation_guidance:
+      >
+        Implement repeat_violation_scoring_penalty_appeal_processor as automated policy in
+        repeat_violation_scoring orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: repeat_violation_scoring_penalty_appeal_processor_continuous_telemetry_dashboard
+    validation_method:
+      >
+        repeat_violation_scoring_penalty_appeal_processor_quarterly_design_and_operating_effectiveness_t
+        est
+    testing_method:
+      repeat_violation_scoring_penalty_appeal_processor_statistical_sampling_with_exception_tracking
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated: repeat_violation_scoring_penalty_appeal_processor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify repeat_violation_scoring_penalty_appeal_processor design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        repeat_violation_scoring_penalty_appeal_processor outputs may trigger enforcement under
+        repeat_violation_scoring escalation rules.
+  - control_id: AAE-PEN-REPEAT_VIO-REPEATVIOLA
+    control_name: repeat_violation_scoring_aggravating_factor_applier
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring aggravating factor applier for Repeat Violation Scoring across
+        penalty_management.
+    governance_rationale:
+      >
+        repeat_violation_scoring_aggravating_factor_applier is required to govern Repeat Violation
+        Scoring risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement repeat_violation_scoring_aggravating_factor_applier as automated policy in
+        repeat_violation_scoring orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      repeat_violation_scoring_aggravating_factor_applier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        repeat_violation_scoring_aggravating_factor_applier_quarterly_design_and_operating_effectiveness
+        _test
+    testing_method:
+      repeat_violation_scoring_aggravating_factor_applier_statistical_sampling_with_exception_tracking
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated: repeat_violation_scoring_aggravating_factor_applier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify repeat_violation_scoring_aggravating_factor_applier design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        repeat_violation_scoring_aggravating_factor_applier outputs may trigger enforcement under
+        repeat_violation_scoring escalation rules.
+  - control_id: AAE-PEN-REPEAT_VIO-REPEATVIOLA
+    control_name: repeat_violation_scoring_penalty_waiver_authorization_gate
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring penalty waiver authorization gate for Repeat Violation Scoring
+        across penalty_management.
+    governance_rationale:
+      >
+        repeat_violation_scoring_penalty_waiver_authorization_gate is required to govern Repeat
+        Violation Scoring risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement repeat_violation_scoring_penalty_waiver_authorization_gate as automated policy in
+        repeat_violation_scoring orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      repeat_violation_scoring_penalty_waiver_authorization_gate_continuous_telemetry_dashboard
+    validation_method:
+      >
+        repeat_violation_scoring_penalty_waiver_authorization_gate_quarterly_design_and_operating_effect
+        iveness_test
+    testing_method:
+      >
+        repeat_violation_scoring_penalty_waiver_authorization_gate_statistical_sampling_with_exception_t
+        racking
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated: repeat_violation_scoring_penalty_waiver_authorization_gate_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify repeat_violation_scoring_penalty_waiver_authorization_gate design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        repeat_violation_scoring_penalty_waiver_authorization_gate outputs may trigger enforcement under
+        repeat_violation_scoring escalation rules.
+  - control_id: AAE-PEN-REPEAT_VIO-REPEATVIOLA
+    control_name: repeat_violation_scoring_penalty_disclosure_registrar
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring penalty disclosure registrar for Repeat Violation Scoring across
+        penalty_management.
+    governance_rationale:
+      >
+        repeat_violation_scoring_penalty_disclosure_registrar is required to govern Repeat Violation
+        Scoring risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement repeat_violation_scoring_penalty_disclosure_registrar as automated policy in
+        repeat_violation_scoring orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      repeat_violation_scoring_penalty_disclosure_registrar_continuous_telemetry_dashboard
+    validation_method:
+      >
+        repeat_violation_scoring_penalty_disclosure_registrar_quarterly_design_and_operating_effectivene
+        ss_test
+    testing_method:
+      >
+        repeat_violation_scoring_penalty_disclosure_registrar_statistical_sampling_with_exception_tracki
+        ng
+    control_owner: repeat_violation_scoring_control_owner
+    evidence_generated: repeat_violation_scoring_penalty_disclosure_registrar_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify repeat_violation_scoring_penalty_disclosure_registrar design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        repeat_violation_scoring_penalty_disclosure_registrar outputs may trigger enforcement under
+        repeat_violation_scoring escalation rules.
+requirements:
+  legal:
+    >
+      Repeat Violation Scoring must satisfy legal requirements for recidivism scoring and aggravated
+      enforcement triggers, violation typology analysis and severity classification including
+      documented procedures, accountable roles, measurable SLAs, and evidence retention aligned with
+      EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Repeat Violation Scoring must satisfy regulatory requirements for recidivism scoring and
+      aggravated enforcement triggers, violation typology analysis and severity classification
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Repeat Violation Scoring must satisfy technical requirements for recidivism scoring and
+      aggravated enforcement triggers, violation typology analysis and severity classification
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Repeat Violation Scoring must satisfy operational requirements for recidivism scoring and
+      aggravated enforcement triggers, violation typology analysis and severity classification
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Repeat Violation Scoring must satisfy audit requirements for recidivism scoring and aggravated
+      enforcement triggers, violation typology analysis and severity classification including
+      documented procedures, accountable roles, measurable SLAs, and evidence retention aligned with
+      EU AI Act and ISO 19011.
+  forensic:
+    >
+      Repeat Violation Scoring must satisfy forensic requirements for recidivism scoring and
+      aggravated enforcement triggers, violation typology analysis and severity classification
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Repeat Violation Scoring must satisfy enforcement requirements for recidivism scoring and
+      aggravated enforcement triggers, violation typology analysis and severity classification
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Repeat Violation Scoring with stage gates, RACI assignments, and evidence
+      capture.
+  triage:
+    >
+      Triage process for Repeat Violation Scoring with stage gates, RACI assignments, and evidence
+      capture.
+  execution:
+    >
+      Execution process for Repeat Violation Scoring with stage gates, RACI assignments, and evidence
+      capture.
+  validation:
+    >
+      Validation process for Repeat Violation Scoring with stage gates, RACI assignments, and evidence
+      capture.
+  escalation:
+    >
+      Escalation process for Repeat Violation Scoring with stage gates, RACI assignments, and evidence
+      capture.
+  closure:
+    >
+      Closure process for Repeat Violation Scoring with stage gates, RACI assignments, and evidence
+      capture.
+  improvement:
+    >
+      Improvement process for Repeat Violation Scoring with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: repeat_violation_scoring_operational_lifecycle_workflow
+    workflow_trigger: repeat_violation_scoring_governance_event_detected
+    workflow_steps:
+      - repeat_violation_scoring_intake
+      - repeat_violation_scoring_triage
+      - repeat_violation_scoring_execution
+      - repeat_violation_scoring_validation
+      - repeat_violation_scoring_approval
+      - repeat_violation_scoring_closure
+    approval_points:
+      - repeat_violation_scoring_approval
+    escalation_points:
+      - repeat_violation_scoring_triage
+    generated_evidence:
+      - repeat_violation_scoring_workflow_log
+      - repeat_violation_scoring_closure_attestation
+    completion_requirements:
+      - repeat_violation_scoring_evidence_complete
+      - repeat_violation_scoring_approvals_recorded
+  - workflow_name: repeat_violation_scoring_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_repeat_violation_scoring
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - repeat_violation_scoring_regulatory_package
+      - repeat_violation_scoring_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - repeat_violation_scoring_governance_event_detected
+    - repeat_violation_scoring_regulatory_inquiry
+    - repeat_violation_scoring_integrity_breach
+    - repeat_violation_scoring_enforcement_authorization
+  required_inputs:
+    - repeat_violation_scoring_case_context
+    - repeat_violation_scoring_evidence_index
+    - repeat_violation_scoring_risk_assessment
+  workflow_steps:
+    - repeat_violation_scoring_intake
+    - repeat_violation_scoring_triage
+    - repeat_violation_scoring_execution
+    - repeat_violation_scoring_validation
+    - repeat_violation_scoring_approval
+    - repeat_violation_scoring_closure
+  validation_steps:
+    - repeat_violation_scoring_evidence_sufficiency_check
+    - repeat_violation_scoring_integrity_verification
+  approval_steps:
+    - repeat_violation_scoring_approval
+  control_checkpoints:
+    - repeat_violation_scoring_intake_gate
+    - repeat_violation_scoring_evidence_gate
+    - repeat_violation_scoring_decision_gate
+  evidence_generation:
+    - repeat_violation_scoring_workflow_log
+    - repeat_violation_scoring_closure_attestation
+  decision_points:
+    - repeat_violation_scoring_severity_classification
+    - repeat_violation_scoring_enforcement_authorization
+  escalation_points:
+    - repeat_violation_scoring_triage
+  completion_criteria:
+    - repeat_violation_scoring_evidence_complete
+    - repeat_violation_scoring_approvals_recorded
+  generated_outputs:
+    - repeat_violation_scoring_workflow_log
+    - repeat_violation_scoring_closure_attestation
+    - repeat_violation_scoring_final_disposition
+decision_logic:
+  decision_inputs:
+    - repeat_violation_scoring_severity_score
+    - repeat_violation_scoring_evidence_completeness
+    - repeat_violation_scoring_regulatory_context
+    - repeat_violation_scoring_risk_exposure_index
+  decision_conditions:
+    - repeat_violation_scoring_critical_threshold_breach
+    - repeat_violation_scoring_evidence_integrity_failure
+    - repeat_violation_scoring_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: repeat_violation_scoring_severity_score >= 90
+    high_severity: repeat_violation_scoring_severity_score >= 70
+    evidence_complete: repeat_violation_scoring_evidence_completeness >= 0.98
+  decision_rules:
+    repeat_violation_scoring_high_severity_violation:
+      condition: repeat_violation_scoring_severity_score >= 90
+      action: initiate_repeat_violation_scoring_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: repeat_violation_scoring_investigation_report
+    repeat_violation_scoring_evidence_compromise_detected:
+      condition: repeat_violation_scoring_integrity_status == compromised
+      action: activate_repeat_violation_scoring_forensic_lockdown
+      approval_required: repeat_violation_scoring_forensic_lead
+      evidence_required: repeat_violation_scoring_integrity_alert_record
+    repeat_violation_scoring_enforcement_authorization:
+      condition: repeat_violation_scoring_violation_confirmed == true AND repeat_violation_scoring_evidence_complete == true
+      action: issue_repeat_violation_scoring_enforcement_order
+      approval_required: repeat_violation_scoring_enforcement_officer
+      evidence_required: repeat_violation_scoring_violation_evidence_package
+    repeat_violation_scoring_regulator_inquiry_response:
+      condition: repeat_violation_scoring_regulator_request_received == true
+      action: compile_repeat_violation_scoring_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: repeat_violation_scoring_regulatory_evidence_index
+  decision_outputs:
+    - repeat_violation_scoring_enforcement_decision
+    - repeat_violation_scoring_escalation_notice
+    - repeat_violation_scoring_remediation_directive
+    - repeat_violation_scoring_audit_disposition
+  approval_requirements:
+    enforcement_actions: [repeat_violation_scoring_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - repeat_violation_scoring_severity_score >= 90
+    - repeat_violation_scoring_evidence_integrity_failure == true
+    - repeat_violation_scoring_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_repeat_violation_scoring_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: repeat_violation_scoring_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Repeat Violation Scoring may trigger EU AI Act Articles 71, 73 reporting, market
+      surveillance cooperation, and conformity assessment suspension; all outputs must be litigation-
+      defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Repeat Violation Scoring per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Repeat Violation Scoring per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Repeat Violation Scoring per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Repeat Violation Scoring per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+metrics:
+  - metric_name: repeat_operational_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure repeat operational rate for Repeat Violation Scoring operational and regulatory
+        assurance
+    formula: computed_repeat_operational_rate_from_repeat_violation_scoring_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: repeat_violation_scoring_metrics_owner
+    data_source: repeat_violation_scoring_metrics_warehouse
+    evidence_generated: repeat_operational_rate_measurement_record
+  - metric_name: violation_operational_rate
+    metric_category: risk
+    business_purpose:
+      >
+        Measure violation operational rate for Repeat Violation Scoring operational and regulatory
+        assurance
+    formula: computed_violation_operational_rate_from_repeat_violation_scoring_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: repeat_violation_scoring_metrics_owner
+    data_source: repeat_violation_scoring_metrics_warehouse
+    evidence_generated: violation_operational_rate_measurement_record
+  - metric_name: scoring_operational_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure scoring operational rate for Repeat Violation Scoring operational and regulatory
+        assurance
+    formula: computed_scoring_operational_rate_from_repeat_violation_scoring_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: repeat_violation_scoring_metrics_owner
+    data_source: repeat_violation_scoring_metrics_warehouse
+    evidence_generated: scoring_operational_rate_measurement_record
+  - metric_name: violation_assurance_score
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure violation assurance score for Repeat Violation Scoring operational and regulatory
+        assurance
+    formula: computed_violation_assurance_score_from_repeat_violation_scoring_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: repeat_violation_scoring_metrics_owner
+    data_source: repeat_violation_scoring_metrics_warehouse
+    evidence_generated: violation_assurance_score_measurement_record
+  - metric_name: scoring_assurance_score
+    metric_category: governance
+    business_purpose:
+      >
+        Measure scoring assurance score for Repeat Violation Scoring operational and regulatory
+        assurance
+    formula: computed_scoring_assurance_score_from_repeat_violation_scoring_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: repeat_violation_scoring_metrics_owner
+    data_source: repeat_violation_scoring_metrics_warehouse
+    evidence_generated: scoring_assurance_score_measurement_record
+  - metric_name: repeat_violation_scoring_escalation_frequency
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure repeat violation scoring escalation frequency for Repeat Violation Scoring operational
+        and regulatory assurance
+    formula:
+      computed_repeat_violation_scoring_escalation_frequency_from_repeat_violation_scoring_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: repeat_violation_scoring_metrics_owner
+    data_source: repeat_violation_scoring_metrics_warehouse
+    evidence_generated: repeat_violation_scoring_escalation_frequency_measurement_record
+kpis:
+  - metric_name: repeat_operational_rate
+    formula: computed_repeat_operational_rate_from_repeat_violation_scoring_telemetry
+    target: >= 95%
+  - metric_name: violation_operational_rate
+    formula: computed_violation_operational_rate_from_repeat_violation_scoring_telemetry
+    target: >= 95%
+  - metric_name: scoring_operational_rate
+    formula: computed_scoring_operational_rate_from_repeat_violation_scoring_telemetry
+    target: >= 95%
+  - metric_name: violation_assurance_score
+    formula: computed_violation_assurance_score_from_repeat_violation_scoring_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: violation_operational_rate
+    business_purpose: Measure violation operational rate for Repeat Violation Scoring operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+  - metric_name: violation_assurance_score
+    business_purpose: Measure violation assurance score for Repeat Violation Scoring operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+  - metric_name: repeat_violation_scoring_escalation_frequency
+    business_purpose: Measure repeat violation scoring escalation frequency for Repeat Violation Scoring operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: repeat_violation_scoring_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support repeat violation scoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_repeat_violation_scoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: repeat_violation_scoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: repeat_violation_scoring_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support repeat violation scoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_repeat_violation_scoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: repeat_violation_scoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: repeat_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support repeat violation scoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_repeat_violation_scoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: repeat_violation_scoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: violation_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support repeat violation scoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_repeat_violation_scoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: repeat_violation_scoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: scoring_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support repeat violation scoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_repeat_violation_scoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: repeat_violation_scoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: repeat_violation_scoring_status_dashboard
+    report_owner: repeat_violation_scoring_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: monthly
+    report_inputs:
+      - repeat_violation_scoring_telemetry
+      - repeat_violation_scoring_evidence_index
+    report_outputs:
+      - repeat_violation_scoring_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: repeat_violation_scoring_compliance_summary
+    report_owner: repeat_violation_scoring_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - repeat_violation_scoring_telemetry
+      - repeat_violation_scoring_evidence_index
+    report_outputs:
+      - repeat_violation_scoring_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: repeat_assurance_report
+    report_owner: repeat_violation_scoring_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - repeat_violation_scoring_telemetry
+      - repeat_violation_scoring_evidence_index
+    report_outputs:
+      - repeat_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: repeat_violation_scoring_executive_brief
+    report_owner: repeat_violation_scoring_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - repeat_violation_scoring_telemetry
+      - repeat_violation_scoring_evidence_index
+    report_outputs:
+      - repeat_violation_scoring_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: repeat_violation_scoring_audit_pack
+    report_owner: repeat_violation_scoring_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - repeat_violation_scoring_telemetry
+      - repeat_violation_scoring_evidence_index
+    report_outputs:
+      - repeat_violation_scoring_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Repeat Violation Scoring interfaces with autonomous agents, GPAI,
+      or tool-calling systems.
+  agent_governance:
+    agent_identity: repeat_violation_scoring_registered_agent_identity_schema
+    agent_role: repeat_violation_scoring_delegated_authority_role_matrix
+    agent_permissions: repeat_violation_scoring_least_privilege_permission_set
+    agent_constraints: repeat_violation_scoring_autonomy_and_tool_constraints
+    agent_accountability: repeat_violation_scoring_human_accountability_chain
+    agent_escalation_rules: repeat_violation_scoring_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - repeat_violation_scoring_policy_context
+      - repeat_violation_scoring_risk_score
+      - repeat_violation_scoring_human_intent
+    decision_outputs:
+      - repeat_violation_scoring_authorized_action
+      - repeat_violation_scoring_escalation_notice
+    decision_owners:
+      - repeat_violation_scoring_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: repeat_violation_scoring_high_risk_decision_mandatory_review
+    decision_accountability: repeat_violation_scoring_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: repeat_violation_scoring_approved_tool_allowlist
+    tool_execution_validation: repeat_violation_scoring_pre_execution_tool_risk_check
+    tool_risk_controls: repeat_violation_scoring_tool_side_effect_containment
+    tool_auditability: repeat_violation_scoring_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: repeat_violation_scoring_memory_segment_access_policy
+    memory_integrity_validation: repeat_violation_scoring_memory_tamper_detection
+    memory_retention_controls: repeat_violation_scoring_memory_retention_and_purge_rules
+    memory_auditability: repeat_violation_scoring_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: repeat_violation_scoring_chain_of_thought_capture
+    reasoning_validation: repeat_violation_scoring_reasoning_consistency_check
+    reasoning_risk_monitoring: repeat_violation_scoring_reasoning_hazard_detection
+    reasoning_accountability: repeat_violation_scoring_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - repeat_violation_scoring_audit_log
+  - repeat_violation_scoring_activity_log
+  - repeat_violation_scoring_decision_log
+  - repeat_violation_scoring_traceability_record
+  - repeat_violation_scoring_evidence_package
+  - repeat_violation_scoring_chain_of_custody_record
+  - repeat_violation_scoring_attestation
+required_evidence:
+  - repeat_violation_scoring_audit_log
+  - repeat_violation_scoring_activity_log
+  - repeat_violation_scoring_decision_log
+  - repeat_violation_scoring_traceability_record
+  - repeat_violation_scoring_evidence_package
+  - repeat_violation_scoring_chain_of_custody_record
+  - repeat_violation_scoring_attestation
+supporting_evidence:
+  - repeat_violation_scoring_audit_log
+  - repeat_violation_scoring_activity_log
+  - repeat_violation_scoring_decision_log
+  - repeat_violation_scoring_traceability_record
+  - repeat_violation_scoring_evidence_package
+audit_evidence:
+  - repeat_violation_scoring_audit_log
+  - repeat_violation_scoring_activity_log
+  - repeat_violation_scoring_decision_log
+  - repeat_violation_scoring_traceability_record
+  - repeat_violation_scoring_evidence_package
+  - repeat_violation_scoring_chain_of_custody_record
+  - repeat_violation_scoring_attestation
+forensic_evidence:
+  - repeat_violation_scoring_audit_log
+  - repeat_violation_scoring_activity_log
+  - repeat_violation_scoring_decision_log
+  - repeat_violation_scoring_traceability_record
+  - repeat_violation_scoring_evidence_package
+  - repeat_violation_scoring_chain_of_custody_record
+  - repeat_violation_scoring_attestation
+regulatory_evidence:
+  - repeat_violation_scoring_audit_log
+  - repeat_violation_scoring_activity_log
+  - repeat_violation_scoring_decision_log
+  - repeat_violation_scoring_traceability_record
+  - repeat_violation_scoring_evidence_package
+  - repeat_violation_scoring_chain_of_custody_record
+  - repeat_violation_scoring_attestation
+validation_evidence:
+  - repeat_violation_scoring_audit_log
+  - repeat_violation_scoring_activity_log
+  - repeat_violation_scoring_decision_log
+  - repeat_violation_scoring_traceability_record
+  - repeat_violation_scoring_evidence_package
+  - repeat_violation_scoring_chain_of_custody_record
+  - repeat_violation_scoring_attestation
+validation_rules:
+  - rule: repeat_violation_scoring_evidence_complete
+    condition: required_evidence_repeat_violation_scoring < threshold
+    action: BLOCK_SUBMISSION
+  - rule: repeat_violation_scoring_integrity_verified
+    condition: integrity_status_repeat_violation_scoring != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: repeat_violation_scoring_custody_intact
+    condition: custody_gap_repeat_violation_scoring == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Repeat Violation Scoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Repeat Violation Scoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Repeat Violation Scoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Repeat Violation Scoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Repeat Violation Scoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - repeat_violation_scoring_control_failure
+    - repeat_violation_scoring_evidence_compromise
+    - repeat_violation_scoring_regulatory_non_compliance
+    - repeat_violation_scoring_enforcement_delay
+  risk_events:
+    - repeat_violation_scoring_audit_finding_critical
+    - repeat_violation_scoring_investigation_escalation
+    - repeat_violation_scoring_sanction_exposure
+    - repeat_violation_scoring_market_surveillance_inquiry
+  risk_indicators:
+    - repeat_violation_scoring_control_effectiveness_degradation
+    - repeat_violation_scoring_evidence_gap_rate
+    - repeat_violation_scoring_sla_breach_count
+    - repeat_violation_scoring_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    repeat_violation_scoring_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: repeat_violation_scoring_forensic_lead
+    repeat_violation_scoring_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    repeat_violation_scoring_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: repeat_violation_scoring_enforcement_officer
+  risk_tolerance:
+    repeat_violation_scoring_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: repeat_violation_scoring_risk_score >= 60
+    critical: repeat_violation_scoring_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Repeat Violation Scoring controls documented in
+      repeat_violation_scoring_risk_register with quarterly review.
+  risk_treatment:
+    - repeat_violation_scoring_preventive_control_reinforcement
+    - repeat_violation_scoring_detective_monitoring_enhancement
+    - repeat_violation_scoring_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: repeat_violation_scoring_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Repeat Violation Scoring workflow events with provenance anchor and
+      repeat_violation_scoring_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via repeat_violation_scoring_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      repeat_violation_scoring_validation_engine
+  evidence_classification:
+    RESTRICTED/CONFIDENTIAL classification per repeat_violation_scoring_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in repeat_violation_scoring_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per repeat_violation_scoring_retention_schedule aligned with EU AI Act Article 18 and
+      legal hold
+  evidence_archival:
+    Long-term archival with repeat_violation_scoring_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via repeat_violation_scoring_retrieval_gateway with purpose logging
+  evidence_disposal:
+    Authorized disposition with repeat_violation_scoring_disposition_certificate and dual approval
+chain_of_custody:
+  custody_events:
+    - repeat_violation_scoring_capture_event
+    - repeat_violation_scoring_transfer_event
+    - repeat_violation_scoring_access_event
+    - repeat_violation_scoring_disposition_event
+  custody_owners:
+    primary: repeat_violation_scoring_evidence_custodian
+    secondary: repeat_violation_scoring_forensic_lead
+  custody_validation:
+    method: repeat_violation_scoring_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - repeat_violation_scoring_sha256_hash_chain
+    - repeat_violation_scoring_digital_signature
+    - repeat_violation_scoring_timestamp_authority
+  tamper_detection:
+    method: repeat_violation_scoring_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: repeat_violation_scoring_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_71:
+    article: Article 71
+    regulatory_text_summary:
+      Penalties.
+    obligation:
+      >
+        Administrative fines for infringements. Implemented through Repeat Violation Scoring in
+        penalty_management.
+    implementation_controls:
+      - repeat_violation_scoring_article_71_preventive_control
+      - repeat_violation_scoring_article_71_detective_control
+      - repeat_violation_scoring_article_71_evidence_control
+    implementation_processes:
+      - repeat_violation_scoring_article_71_workflow
+      - repeat_violation_scoring_article_71_validation_process
+      - repeat_violation_scoring_article_71_escalation_process
+    implementation_evidence:
+      - repeat_violation_scoring_article_71_compliance_record
+      - repeat_violation_scoring_article_71_audit_package
+      - repeat_violation_scoring_article_71_attestation
+    validation_method: repeat_violation_scoring_article_71_automated_and_manual_conformity_testing
+    audit_method: repeat_violation_scoring_article_71_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: repeat_violation_scoring_article_71_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Repeat Violation Scoring demonstrates Article 71 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_22:
+    article: Article 22
+    regulatory_text_summary:
+      Changes to high-risk AI systems.
+    obligation:
+      >
+        Notification of substantial modifications. Implemented through Repeat Violation Scoring in
+        penalty_management.
+    implementation_controls:
+      - repeat_violation_scoring_article_22_preventive_control
+      - repeat_violation_scoring_article_22_detective_control
+      - repeat_violation_scoring_article_22_evidence_control
+    implementation_processes:
+      - repeat_violation_scoring_article_22_workflow
+      - repeat_violation_scoring_article_22_validation_process
+      - repeat_violation_scoring_article_22_escalation_process
+    implementation_evidence:
+      - repeat_violation_scoring_article_22_compliance_record
+      - repeat_violation_scoring_article_22_audit_package
+      - repeat_violation_scoring_article_22_attestation
+    validation_method: repeat_violation_scoring_article_22_automated_and_manual_conformity_testing
+    audit_method: repeat_violation_scoring_article_22_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: repeat_violation_scoring_article_22_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Repeat Violation Scoring demonstrates Article 22 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Repeat Violation Scoring in penalty_management.
+    implementation_controls:
+      - repeat_violation_scoring_article_26_preventive_control
+      - repeat_violation_scoring_article_26_detective_control
+      - repeat_violation_scoring_article_26_evidence_control
+    implementation_processes:
+      - repeat_violation_scoring_article_26_workflow
+      - repeat_violation_scoring_article_26_validation_process
+      - repeat_violation_scoring_article_26_escalation_process
+    implementation_evidence:
+      - repeat_violation_scoring_article_26_compliance_record
+      - repeat_violation_scoring_article_26_audit_package
+      - repeat_violation_scoring_article_26_attestation
+    validation_method: repeat_violation_scoring_article_26_automated_and_manual_conformity_testing
+    audit_method: repeat_violation_scoring_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: repeat_violation_scoring_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Repeat Violation Scoring demonstrates Article 26 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_99:
+    article: Article 99
+    regulatory_text_summary:
+      Penalties for GPAI.
+    obligation:
+      >
+        Penalties specific to GPAI obligations. Implemented through Repeat Violation Scoring in
+        penalty_management.
+    implementation_controls:
+      - repeat_violation_scoring_article_99_preventive_control
+      - repeat_violation_scoring_article_99_detective_control
+      - repeat_violation_scoring_article_99_evidence_control
+    implementation_processes:
+      - repeat_violation_scoring_article_99_workflow
+      - repeat_violation_scoring_article_99_validation_process
+      - repeat_violation_scoring_article_99_escalation_process
+    implementation_evidence:
+      - repeat_violation_scoring_article_99_compliance_record
+      - repeat_violation_scoring_article_99_audit_package
+      - repeat_violation_scoring_article_99_attestation
+    validation_method: repeat_violation_scoring_article_99_automated_and_manual_conformity_testing
+    audit_method: repeat_violation_scoring_article_99_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: repeat_violation_scoring_article_99_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Repeat Violation Scoring demonstrates Article 99 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+crosswalks:
+  eu_ai_act:
+    article_71:
+      implementation: repeat_violation_scoring_eu_ai_act_article_71_control_set
+      process: repeat_violation_scoring_eu_ai_act_article_71_workflow
+      evidence: repeat_violation_scoring_eu_ai_act_article_71_attestation
+    article_22:
+      implementation: repeat_violation_scoring_eu_ai_act_article_22_control_set
+      process: repeat_violation_scoring_eu_ai_act_article_22_workflow
+      evidence: repeat_violation_scoring_eu_ai_act_article_22_attestation
+    article_26:
+      implementation: repeat_violation_scoring_eu_ai_act_article_26_control_set
+      process: repeat_violation_scoring_eu_ai_act_article_26_workflow
+      evidence: repeat_violation_scoring_eu_ai_act_article_26_attestation
+    article_99:
+      implementation: repeat_violation_scoring_eu_ai_act_article_99_control_set
+      process: repeat_violation_scoring_eu_ai_act_article_99_workflow
+      evidence: repeat_violation_scoring_eu_ai_act_article_99_attestation
+  gdpr:
+    article_5:
+      implementation: repeat_violation_scoring_gdpr_article_5_privacy_control
+      evidence: repeat_violation_scoring_gdpr_article_5_compliance_record
+    article_6:
+      implementation: repeat_violation_scoring_gdpr_article_6_privacy_control
+      evidence: repeat_violation_scoring_gdpr_article_6_compliance_record
+    article_22:
+      implementation: repeat_violation_scoring_gdpr_article_22_privacy_control
+      evidence: repeat_violation_scoring_gdpr_article_22_compliance_record
+    article_25:
+      implementation: repeat_violation_scoring_gdpr_article_25_privacy_control
+      evidence: repeat_violation_scoring_gdpr_article_25_compliance_record
+    article_32:
+      implementation: repeat_violation_scoring_gdpr_article_32_privacy_control
+      evidence: repeat_violation_scoring_gdpr_article_32_compliance_record
+    article_35:
+      implementation: repeat_violation_scoring_gdpr_article_35_privacy_control
+      evidence: repeat_violation_scoring_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: repeat_violation_scoring_iso42001_clause_4_1_aims_control
+      evidence: repeat_violation_scoring_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: repeat_violation_scoring_iso42001_clause_4_2_aims_control
+      evidence: repeat_violation_scoring_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: repeat_violation_scoring_iso42001_clause_5_1_aims_control
+      evidence: repeat_violation_scoring_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: repeat_violation_scoring_iso42001_clause_5_2_aims_control
+      evidence: repeat_violation_scoring_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: repeat_violation_scoring_iso42001_clause_6_1_aims_control
+      evidence: repeat_violation_scoring_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: repeat_violation_scoring_iso42001_clause_8_1_aims_control
+      evidence: repeat_violation_scoring_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: repeat_violation_scoring_iso42001_clause_9_1_aims_control
+      evidence: repeat_violation_scoring_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: repeat_violation_scoring_iso42001_clause_10_1_aims_control
+      evidence: repeat_violation_scoring_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: repeat_violation_scoring_iso23894_risk_identification_alignment
+      evidence: repeat_violation_scoring_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: repeat_violation_scoring_iso23894_risk_analysis_alignment
+      evidence: repeat_violation_scoring_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: repeat_violation_scoring_iso23894_risk_evaluation_alignment
+      evidence: repeat_violation_scoring_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: repeat_violation_scoring_iso23894_risk_treatment_alignment
+      evidence: repeat_violation_scoring_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: repeat_violation_scoring_iso23894_risk_monitoring_alignment
+      evidence: repeat_violation_scoring_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: repeat_violation_scoring_iso19011_audit_principles_procedure
+      evidence: repeat_violation_scoring_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: repeat_violation_scoring_iso19011_audit_programme_management_procedure
+      evidence: repeat_violation_scoring_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: repeat_violation_scoring_iso19011_audit_evidence_requirements_procedure
+      evidence: repeat_violation_scoring_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: repeat_violation_scoring_iso19011_audit_reporting_procedure
+      evidence: repeat_violation_scoring_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: repeat_violation_scoring_nist_rmf_govern_control_mapping
+      evidence: repeat_violation_scoring_nist_rmf_govern_assessment
+    map:
+      implementation: repeat_violation_scoring_nist_rmf_map_control_mapping
+      evidence: repeat_violation_scoring_nist_rmf_map_assessment
+    measure:
+      implementation: repeat_violation_scoring_nist_rmf_measure_control_mapping
+      evidence: repeat_violation_scoring_nist_rmf_measure_assessment
+    manage:
+      implementation: repeat_violation_scoring_nist_rmf_manage_control_mapping
+      evidence: repeat_violation_scoring_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: repeat_violation_scoring_nist_csf_identify_safeguard
+      evidence: repeat_violation_scoring_nist_csf_identify_log
+    protect:
+      implementation: repeat_violation_scoring_nist_csf_protect_safeguard
+      evidence: repeat_violation_scoring_nist_csf_protect_log
+    detect:
+      implementation: repeat_violation_scoring_nist_csf_detect_safeguard
+      evidence: repeat_violation_scoring_nist_csf_detect_log
+    respond:
+      implementation: repeat_violation_scoring_nist_csf_respond_safeguard
+      evidence: repeat_violation_scoring_nist_csf_respond_log
+    recover:
+      implementation: repeat_violation_scoring_nist_csf_recover_safeguard
+      evidence: repeat_violation_scoring_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: repeat_violation_scoring_oecd_accountability_governance_control
+      evidence: repeat_violation_scoring_oecd_accountability_attestation
+    transparency:
+      implementation: repeat_violation_scoring_oecd_transparency_governance_control
+      evidence: repeat_violation_scoring_oecd_transparency_attestation
+    robustness_security:
+      implementation: repeat_violation_scoring_oecd_robustness_security_governance_control
+      evidence: repeat_violation_scoring_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: repeat_violation_scoring_oecd_inclusive_growth_governance_control
+      evidence: repeat_violation_scoring_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: repeat_violation_scoring_unesco_human_rights_ethics_control
+      evidence: repeat_violation_scoring_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: repeat_violation_scoring_unesco_fairness_non_discrimination_ethics_control
+      evidence: repeat_violation_scoring_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: repeat_violation_scoring_unesco_transparency_explainability_ethics_control
+      evidence: repeat_violation_scoring_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: repeat_violation_scoring_unesco_accountability_ethics_control
+      evidence: repeat_violation_scoring_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Repeat Violation Scoring covering executive, board, regulatory, audit,
+      forensic, and attestation consumers.
+  report_types:
+    - repeat_violation_scoring_status_report
+    - repeat_violation_scoring_compliance_report
+    - repeat_violation_scoring_enforcement_report
+    - repeat_violation_scoring_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [repeat_violation_scoring_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_repeat_violation_scoring
+  - quarterly_control_testing_repeat_violation_scoring
+  - evidence_sampling_repeat_violation_scoring
+  - finding_remediation_tracking_repeat_violation_scoring
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Repeat Violation Scoring aligned with ISO/IEC 27037 and legal
+      admissibility standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Repeat Violation Scoring.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Repeat Violation Scoring.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Repeat Violation Scoring.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Repeat Violation Scoring.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Repeat Violation Scoring.
+enforcement_requirements:
+  enforcement_framework:
+    Enforcement Framework within Repeat Violation Scoring scope.
+  enforcement_decision_logic:
+    Enforcement Decision Logic within Repeat Violation Scoring scope.
+  sanction_management:
+    Sanction Management within Repeat Violation Scoring scope.
+  penalty_management:
+    Penalty Management within Repeat Violation Scoring scope.
+  post_enforcement_monitoring:
+    Post Enforcement Monitoring within Repeat Violation Scoring scope.
+integration_points:
+  upstream_systems:
+    - system: investigation_management
+      purpose: repeat_violation_scoring_to_investigation_management_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_investigation_management]
+      produced_artifacts: [repeat_violation_scoring_output_to_investigation_management]
+    - system: enforcement_actions
+      purpose: repeat_violation_scoring_to_enforcement_actions_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_enforcement_actions]
+      produced_artifacts: [repeat_violation_scoring_output_to_enforcement_actions]
+    - system: compliance_audits
+      purpose: repeat_violation_scoring_to_compliance_audits_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_compliance_audits]
+      produced_artifacts: [repeat_violation_scoring_output_to_compliance_audits]
+  downstream_systems:
+    - system: remediation_tracking
+      purpose: repeat_violation_scoring_to_remediation_tracking_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_remediation_tracking]
+      produced_artifacts: [repeat_violation_scoring_output_to_remediation_tracking]
+    - system: reporting
+      purpose: repeat_violation_scoring_to_reporting_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_reporting]
+      produced_artifacts: [repeat_violation_scoring_output_to_reporting]
+    - system: enforcement_actions
+      purpose: repeat_violation_scoring_to_enforcement_actions_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_enforcement_actions]
+      produced_artifacts: [repeat_violation_scoring_output_to_enforcement_actions]
+  governance_integrations:
+    - system: ai_liability
+      purpose: repeat_violation_scoring_to_ai_liability_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_ai_liability]
+      produced_artifacts: [repeat_violation_scoring_output_to_ai_liability]
+    - system: legal_interoperability
+      purpose: repeat_violation_scoring_to_legal_interoperability_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_legal_interoperability]
+      produced_artifacts: [repeat_violation_scoring_output_to_legal_interoperability]
+  risk_integrations:
+    - system: ai_liability
+      purpose: repeat_violation_scoring_to_ai_liability_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_ai_liability]
+      produced_artifacts: [repeat_violation_scoring_output_to_ai_liability]
+    - system: compliance_scoring
+      purpose: repeat_violation_scoring_to_compliance_scoring_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_compliance_scoring]
+      produced_artifacts: [repeat_violation_scoring_output_to_compliance_scoring]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: repeat_violation_scoring_to_compliance_audits_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_compliance_audits]
+      produced_artifacts: [repeat_violation_scoring_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: repeat_violation_scoring_to_internal_audit_system_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_internal_audit_system]
+      produced_artifacts: [repeat_violation_scoring_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: repeat_violation_scoring_to_governance_reporting_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_governance_reporting]
+      produced_artifacts: [repeat_violation_scoring_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: repeat_violation_scoring_to_executive_dashboard_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_executive_dashboard]
+      produced_artifacts: [repeat_violation_scoring_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: repeat_violation_scoring_to_enforcement_actions_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_enforcement_actions]
+      produced_artifacts: [repeat_violation_scoring_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: repeat_violation_scoring_to_policy_enforcement_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_policy_enforcement]
+      produced_artifacts: [repeat_violation_scoring_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: repeat_violation_scoring_to_remediation_tracking_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_remediation_tracking]
+      produced_artifacts: [repeat_violation_scoring_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: repeat_violation_scoring_to_remediation_engine_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_remediation_engine]
+      produced_artifacts: [repeat_violation_scoring_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: repeat_violation_scoring_to_evidence_preservation_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_evidence_preservation]
+      produced_artifacts: [repeat_violation_scoring_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: repeat_violation_scoring_to_technical_documentation_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_technical_documentation]
+      produced_artifacts: [repeat_violation_scoring_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: repeat_violation_scoring_to_post_market_monitoring_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_post_market_monitoring]
+      produced_artifacts: [repeat_violation_scoring_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: repeat_violation_scoring_to_incident_reporting_governance_sync
+      data_exchanged: [repeat_violation_scoring_events, repeat_violation_scoring_evidence_refs, repeat_violation_scoring_metrics]
+      trigger_conditions: [repeat_violation_scoring_state_change, repeat_violation_scoring_escalation, repeat_violation_scoring_closure]
+      consumed_artifacts: [repeat_violation_scoring_input_from_incident_reporting]
+      produced_artifacts: [repeat_violation_scoring_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Repeat Violation Scoring activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Repeat Violation Scoring procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - repeat_violation_scoring_procedure_checklist
+    required_evidence:
+      - repeat_violation_scoring_process_log
+    required_metrics:
+      - repeat_violation_scoring_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Repeat Violation Scoring enterprise-wide.
+    required_capabilities:
+      - repeat_violation_scoring_standard_control_set
+    required_controls:
+      - repeat_violation_scoring_control_register
+    required_evidence:
+      - repeat_violation_scoring_audit_evidence
+    required_metrics:
+      - repeat_violation_scoring_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Repeat Violation Scoring with KPI optimization.
+    required_capabilities:
+      - repeat_violation_scoring_automated_controls
+    required_controls:
+      - repeat_violation_scoring_telemetry_controls
+    required_evidence:
+      - repeat_violation_scoring_assurance_package
+    required_metrics:
+      - repeat_violation_scoring_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Repeat Violation Scoring with predictive analytics.
+    required_capabilities:
+      - repeat_violation_scoring_autonomous_governance
+    required_controls:
+      - repeat_violation_scoring_adaptive_controls
+    required_evidence:
+      - repeat_violation_scoring_regulator_ready_portfolio
+    required_metrics:
+      - repeat_violation_scoring_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - repeat_violation_scoring_report
+  - repeat_violation_scoring_evidence_package
+  - repeat_violation_scoring_attestation
+  - repeat_violation_scoring_enforcement_record
+artifacts:
+  - name: repeat_violation_scoring_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: repeat_violation_scoring_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: repeat_violation_scoring_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: repeat_violation_scoring_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - repeat_violation_scoring_case_record
+  - repeat_violation_scoring_audit_record
+  - repeat_violation_scoring_enforcement_record
+  - repeat_violation_scoring_remediation_record
+monitoring:
+  continuous:
+    - repeat_violation_scoring_control_telemetry
+    - repeat_violation_scoring_evidence_integrity_feed
+    - repeat_violation_scoring_escalation_queue
+  periodic:
+    - repeat_violation_scoring_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Repeat Violation Scoring effectiveness, regulatory change impact assessment,
+    and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: repeat_violation_scoring_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: repeat_violation_scoring_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: repeat_violation_scoring_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: repeat_violation_scoring_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Repeat Violation Scoring

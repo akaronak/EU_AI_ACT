@@ -1,0 +1,1256 @@
+metadata:
+  document_id: "NB-TE-TECHNICAL_EV-001"
+  title: "Technical Evaluation"
+  domain: "Technical Evaluation"
+  version: "1.0.0"
+  classification: "CONFIDENTIAL_REGULATORY"
+purpose: "Govern, operationalize, and validate notified body compliance evaluations for Technical Evaluation under the Technical Evaluation framework. This skill provides machine-readable, executable conformity assessment & independent validation rules specifically tailored to model architecture analysis, benchmark validation reports, training dataset checks, technical documentation scorecards properties."
+scope: "Scope covers all conformity assessment procedures, technical documentation reviews, non-conformity tracking, and certification lifecycles managed under the Technical Evaluation framework."
+objectives:
+  - "Enforce objective conformity assessment procedures and independence requirements under Technical Evaluation criteria."
+  - "Ensure real-time traceability checks and evidence capture for QMS audits and technical files validation."
+  - "Compile legally defensible audit reports and non-conformity findings logs to verify compliance under EU AI Act Article 43."
+definitions:
+  technical_evaluation_assessment_policy: "The primary operational notified body assessment policy and checklist for Technical Evaluation."
+  technical_evaluation_findings_register: "Cryptographically sealed non-conformity and audit findings register containing assessment data for Technical Evaluation."
+taxonomy:
+  assessment_types:
+    - "QMS_AUDIT"
+    - "TECHNICAL_DOCUMENTATION_REVIEW"
+    - "MODEL_VALIDATION_LAB"
+    - "SURVEILLANCE_AUDIT"
+  conformity_states:
+    - "CONFORMING"
+    - "MINOR_NON_CONFORMITY"
+    - "MAJOR_NON_CONFORMITY"
+    - "SUSPENDED"
+    - "WITHDRAWN"
+governance:
+  governance_model: "NOTIFIED_BODY_INDEPENDENT_ASSURANCE_GOVERNANCE"
+  governance_structure: "Conformity Assessment Review Panel - Technical Evaluation"
+  roles_and_responsibilities:
+    lead_auditor: "Responsible for managing conformity assessment checklists and QMS audits for Technical Evaluation."
+    technical_reviewer: "Responsible for technical documentation reviews and model validations for Technical Evaluation."
+    certification_officer: "Responsible for certificate issue, suspension, and withdrawal decisions for Technical Evaluation."
+  stakeholders:
+    - "Head of Notified Body"
+    - "Impartiality Committee Chair"
+    - "Lead Quality Auditor"
+governance_model:
+  model_type: "NOTIFIED_BODY_INDEPENDENT_ASSURANCE_GOVERNANCE"
+  model_rationale: "Ensures independent oversight, complete impartiality, systematic conflict-of-interest prevention, and compliant evaluation records across all conformity assessments."
+governance_structure:
+  oversight_board: "Independent Conformity Oversight Council - Technical Evaluation"
+  escalation_contact: "notified_body_governance@notifiedbody.org"
+roles_and_responsibilities:
+  lead_auditor: "Primary owner of the conformity assessment audits and findings registers under Technical Evaluation."
+  technical_reviewer: "Responsible for evaluating technical files, model benchmarks, and algorithm architectures."
+  certification_officer: "Responsible for reviewing audit findings and issuing or withholding conformity certificates."
+stakeholders:
+  - "Director of Conformity Certification"
+  - "Impartiality Committee Reviewers"
+  - "Third-Party Lab Validators"
+  - "Technical Evaluation Compliance Evaluator"
+capabilities:
+  - "Automated verification of provider QMS compliance indicators under Technical Evaluation."
+  - "Algorithmic validation of high-risk AI system technical documentation completeness under Technical Evaluation."
+  - "Cryptographic sealing and traceability mapping of conformity assessment evidence."
+requirements:
+  - "All conformity reviews under Technical Evaluation must be conducted by certified personnel free from conflicts of interest."
+  - "Conformity assessment scores must meet or exceed the 0.95 baseline quality parameters."
+  - "Non-conformities must be logged and resolved using formal corrective action processes within required SLAs."
+controls:
+  - control_id: "CTRL-NB-TE-TECHNI-01"
+    control_name: "conformity_assessment_control"
+    control_type: "PREVENTATIVE"
+    control_category: "CONFORMITY"
+    control_objective: "Verify and enforce conformity assessment requirements and checklists for Technical Evaluation."
+    notified_body_rationale: "Ensures the AI system conforms to EU AI Act requirements prior to market entry, protecting safety and fundamental rights."
+    implementation_guidance: "Deploy automated validation gates checking provider self-assessments against Annex VI/VII checklists weekly."
+    control_owner: "Lead Auditor"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Monitor conformity dashboard completeness scores on the GRC platform."
+    validation_method: "Simulate upload of incomplete conformity file, confirm gate halts certification."
+    evidence_generated: "Signed conformity assessment checklist certificate."
+    assessment_outputs: "Conformity audit checklist verification ledger entries for Technical Evaluation."
+    audit_considerations: "Check auditor assignment records and credential databases."
+  - control_id: "CTRL-NB-TE-TECHNI-02"
+    control_name: "independent_assurance_control"
+    control_type: "PREVENTATIVE"
+    control_category: "ASSURANCE"
+    control_objective: "Validate independent auditor assignments and impartiality credentials for Technical Evaluation."
+    notified_body_rationale: "Prevents conflicts of interest and ensures the integrity of the conformity assessment as required by Article 43."
+    implementation_guidance: "Setup checkpoints verifying impartiality keys and disclosure forms completeness before audits start."
+    control_owner: "Certification Officer"
+    control_frequency: "AS_REQUIRED"
+    monitoring_method: "Audit auditor connection graphs against client rosters database monthly."
+    validation_method: "Attempt auditor assignment with missing disclosure metadata, verify validation halt."
+    evidence_generated: "Signed impartiality validation attestation."
+    assessment_outputs: "Independent audit allocation and impartiality review records for Technical Evaluation."
+    audit_considerations: "Check annual conflict of interest disclosures and signatures vaults."
+  - control_id: "CTRL-NB-TE-TECHNI-03"
+    control_name: "technical_documentation_review_control"
+    control_type: "PREVENTATIVE"
+    control_category: "DOCUMENTATION"
+    control_objective: "Apply completeness and quality checks on provider technical documentation for Technical Evaluation."
+    notified_body_rationale: "Ensures technical documentation contains all information needed to assess compliance with high-risk obligations."
+    implementation_guidance: "Deploy parsing engines that score technical file documents against standard schemas weekly."
+    control_owner: "Technical Reviewer"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Review active technical files quality dashboard statuses."
+    validation_method: "Inject mock documentation with missing data governance sections, check if quality score drops."
+    evidence_generated: "Technical documentation quality score validation report."
+    assessment_outputs: "Technical documentation review findings and scorecards for Technical Evaluation."
+    audit_considerations: "Inspect document verification rule engines and version tables."
+  - control_id: "CTRL-NB-TE-TECHNI-04"
+    control_name: "non_conformity_management_control"
+    control_type: "DETECTIVE"
+    control_category: "CORRECTIVE_ACTION"
+    control_objective: "Track, triage, and verify resolution of non-conformity findings for Technical Evaluation."
+    notified_body_rationale: "Ensures all deviations are corrected by the provider within the agreed timeframe before certification is granted."
+    implementation_guidance: "Establish a centralized non-conformity tracker with automated alerts and SLA tracking."
+    control_owner: "Lead Auditor"
+    control_frequency: "DAILY"
+    monitoring_method: "Track average days to close non-conformity findings daily."
+    validation_method: "Simulate mock non-conformity log, confirm automated notifications are dispatched."
+    evidence_generated: "Non-conformity corrective action review checklist."
+    assessment_outputs: "Corrective action requests and closure certificates for Technical Evaluation."
+    audit_considerations: "Verify corrective action plan files and verification audit traces."
+  - control_id: "CTRL-NB-TE-TECHNI-05"
+    control_name: "certification_readiness_control"
+    control_type: "PREVENTATIVE"
+    control_category: "CERTIFICATION"
+    control_objective: "Assess certification readiness indicators and compile final assessment packages for Technical Evaluation."
+    notified_body_rationale: "Prevents premature issuance of compliance certificates before all conformity requirements are verified."
+    implementation_guidance: "Maintain a checklist validating conformity audit, technical review, and non-conformity closure signs."
+    control_owner: "Certification Officer"
+    control_frequency: "AS_REQUIRED"
+    monitoring_method: "Review readiness score values before signing certifications."
+    validation_method: "Attempt certificate issuance with open major non-conformities, verify blocking."
+    evidence_generated: "Signed certification readiness validation certificate."
+    assessment_outputs: "Certification readiness checklist and assessment package files for Technical Evaluation."
+    audit_considerations: "Inspect certification board minutes and final sign-off signatures."
+  - control_id: "CTRL-NB-TE-TECHNI-06"
+    control_name: "notified_body_engagement_control"
+    control_type: "DETECTIVE"
+    control_category: "COORDINATION"
+    control_objective: "Monitor notified body coordination requirements and EU database registrations for Technical Evaluation."
+    notified_body_rationale: "Ensures the notified body participates in exchange of best practices and registers certifications transparently."
+    implementation_guidance: "Track notifications sent to European AI Board and coordinate on cross-notified body validations."
+    control_owner: "Lead Auditor"
+    control_frequency: "MONTHLY"
+    monitoring_method: "Track coordination portal uploads and certification registration status."
+    validation_method: "Simulate upload of mock certificate details, verify registration portal parses data."
+    evidence_generated: "Notified body coordination registry transaction receipt."
+    assessment_outputs: "Coordination registry updates and communication reports for Technical Evaluation."
+    audit_considerations: "Check EU database registry connection logs and token keys."
+decision_logic:
+  escalation_trigger: "If certification_readiness_score drops below 0.95 or major non-conformity is unresolved within 30 days, suspend certification and notify Certification Officer."
+  incident_classification: "Classify failures as CRITICAL if they indicate systemic provider fraud or high-risk safety failures in deployed AI models."
+processes:
+  conformity_evaluation: "Standard operating procedures for checking compliance with Annex VI/VII checklists for Technical Evaluation."
+  corrective_action_review: "Standard workflow to review provider corrective actions and verify non-conformity closure."
+workflows:
+  - workflow_id: "conformity_assessment_workflow"
+    workflow_owner: "Lead Auditor"
+    workflow_objective: "Executing conformity assessments and QMS reviews for Technical Evaluation."
+    trigger: "Provider request for high-risk AI conformity certification."
+    inputs:
+      - "conformity_checklists"
+      - "provider_qms_files"
+      - "audit_scheduling_record"
+    activities:
+      - "Verify completeness of QMS documentation and procedures."
+      - "Execute conformity audit checklists matching provider claims."
+      - "Issue preliminary conformity assessment report."
+    decision_points:
+      - "QMS compliance status check"
+      - "Field audit checklist validations"
+    approvals:
+      - "Lead Auditor Approval"
+    outputs:
+      - "Preliminary conformity assessment report"
+      - "Audit checklist logs"
+    generated_evidence: "Signed Conformity Audit Report stored in NB secure database."
+    assessment_results:
+      conformity_status: "CONFORMING"
+      checklists_completed: 15
+    success_criteria: "Audit completed and report generated within 15 days of request."
+    failure_conditions: "Provider QMS documentation missing or critical failures found during audit."
+  - workflow_id: "technical_review_workflow"
+    workflow_owner: "Technical Reviewer"
+    workflow_objective: "Evaluating technical documentation completeness and quality for Technical Evaluation."
+    trigger: "Technical file submission by lead auditor."
+    inputs:
+      - "provider_technical_documentation"
+      - "documentation_verif_rules"
+      - "benchmark_data"
+    activities:
+      - "Review data governance, model documentation, and system design specifications."
+      - "Perform verification tests on model benchmark results."
+      - "Issue technical review findings scorecard."
+    decision_points:
+      - "Technical files completeness verification"
+      - "Benchmark test validations score"
+    approvals:
+      - "Technical Reviewer sign-off"
+    outputs:
+      - "Technical review findings scorecard"
+      - "Model verification test log"
+    generated_evidence: "Signed Technical Documentation Review report stored in secure repository."
+    assessment_results:
+      quality_score: 0.97
+      findings_logged_count: 2
+    success_criteria: "Review completed and scorecards published with zero integrity warnings."
+    failure_conditions: "Documentation files unreachable or signature keys missing."
+  - workflow_id: "evidence_validation_workflow"
+    workflow_owner: "Technical Reviewer"
+    workflow_objective: "Verifying verification evidence files and performance benchmarks for Technical Evaluation."
+    trigger: "Evidence upload alert from testing labs."
+    inputs:
+      - "evidence_verification_checklist"
+      - "benchmark_runs_data"
+      - "testing_certificates"
+    activities:
+      - "Verify digital signatures and hashes of lab test files."
+      - "Compare model benchmark scores against regulatory limits."
+      - "Generate evidence validation report."
+    decision_points:
+      - "Lab signature checks pass"
+      - "Benchmark scores validation"
+    approvals:
+      - "Technical Reviewer Approval"
+    outputs:
+      - "Evidence validation scorecard"
+      - "Benchmark check ledger update"
+    generated_evidence: "Signed Evidence Validation Certificate registered in GRC database."
+    assessment_results:
+      evidence_validated: True
+      mismatch_detected: False
+    success_criteria: "Validation certificate generated and signed within 48 hours of evidence upload."
+    failure_conditions: "Lab signatures validation fail or benchmark scores exceed acceptable limits."
+  - workflow_id: "independent_assurance_workflow"
+    workflow_owner: "Certification Officer"
+    workflow_objective: "Reviewing impartiality registers and managing independent reviews for Technical Evaluation."
+    trigger: "Impartiality review schedule or auditor assignment request."
+    inputs:
+      - "impartiality_checklist_ticket"
+      - "auditor_cv_files"
+      - "client_conflict_ratios"
+    activities:
+      - "Validate CV files against conflict criteria database."
+      - "Perform independence assessment and review declarations."
+      - "Issue auditor assignment clearance notice."
+    decision_points:
+      - "Auditor independence validation check"
+      - "CV credentials verification status"
+    approvals:
+      - "Impartiality Committee Chair sign-off"
+    outputs:
+      - "Auditor assignment clearance notice"
+      - "Impartiality review ticket update"
+    generated_evidence: "Signed Auditor Independence certificate archived in compliance vault."
+    assessment_results:
+      independence_verified: True
+      conflict_status: "NONE"
+    success_criteria: "Clearance notice issued with zero impartiality conflicts within 3 days."
+    failure_conditions: "Impartiality declarations missing or connection conflicts detected."
+  - workflow_id: "certification_readiness_workflow"
+    workflow_owner: "Certification Officer"
+    workflow_objective: "Aggregating assessment results and validating certificate readiness for Technical Evaluation."
+    trigger: "All conformity audits and reviews completed for a provider."
+    inputs:
+      - "readiness_checklist"
+      - "findings_registers"
+      - "auditor_final_reports"
+    activities:
+      - "Verify all non-conformities are closed and signed."
+      - "Calculate cumulative certification readiness score."
+      - "Generate certificate issue recommendations scorecard."
+    decision_points:
+      - "Readiness indicators validation pass"
+      - "Major findings status check"
+    approvals:
+      - "Certification Board Approval"
+    outputs:
+      - "Certification readiness scorecard"
+      - "Certificate issue recommendation"
+    generated_evidence: "Signed Certification Readiness summary registered in GRC database."
+    assessment_results:
+      readiness_score: 0.98
+      ready_for_issue: True
+    success_criteria: "Readiness scorecard metrics update with zero warnings."
+    failure_conditions: "Open non-conformities remaining or certification board quorum not met."
+  - workflow_id: "non_conformity_management_workflow"
+    workflow_owner: "Lead Auditor"
+    workflow_objective: "Logging non-conformity findings and monitoring corrective actions for Technical Evaluation."
+    trigger: "Non-conformity finding identified during audit."
+    inputs:
+      - "non_conformity_findings_ticket"
+      - "corrective_action_guidance"
+      - "sla_timelines"
+    activities:
+      - "Log non-conformity details and severity in GRC portal."
+      - "Establish required remediation SLA and notify provider."
+      - "Publish corrective action requirement checklist."
+    decision_points:
+      - "Non-conformity severity check"
+      - "Corrective action plan validity"
+    approvals:
+      - "Lead Auditor change approval"
+    outputs:
+      - "Non-conformity logged notice"
+      - "Remediation plan requirement ticket"
+    generated_evidence: "Non-Conformity Notice ticket logged in GRC tracking system."
+    assessment_results:
+      severity_level: "MAJOR"
+      days_to_remediate: 30
+    success_criteria: "Non-conformity ticket logged and provider notified within 24 hours."
+    failure_conditions: "Findings database unreachable or verification signature mismatch."
+  - workflow_id: "corrective_action_review_workflow"
+    workflow_owner: "Lead Auditor"
+    workflow_objective: "Verifying corrective actions and closing non-conformity findings for Technical Evaluation."
+    trigger: "Provider submission of corrective action evidence."
+    inputs:
+      - "corrective_action_remediation_package"
+      - "findings_history_data"
+      - "auditor_final_reports"
+    activities:
+      - "Verify corrective action documentation completeness."
+      - "Execute verification check checks on remediation measures."
+      - "Issue non-conformity closure certificate."
+    decision_points:
+      - "Corrective actions verification"
+      - "Remediation quality check"
+    approvals:
+      - "Lead Auditor sign-off"
+    outputs:
+      - "Non-conformity closure notice"
+      - "Corrective action validation report"
+    generated_evidence: "Signed Corrective Action Verification certificate archived in GRC database."
+    assessment_results:
+      remediation_passed: True
+      closure_approved: True
+    success_criteria: "Remediation verification completed and findings closed within 10 days."
+    failure_conditions: "Remediation documentation missing or verification checks fail."
+  - workflow_id: "notified_body_reporting_workflow"
+    workflow_owner: "Lead Auditor"
+    workflow_objective: "Submitting certification notifications and reports to regulatory databases for Technical Evaluation."
+    trigger: "Certificate issuance or suspension decision."
+    inputs:
+      - "notified_body_summary_report"
+      - "regulatory_upload_rules"
+      - "coordination_notices"
+    activities:
+      - "Assemble notified body certification summary records."
+      - "Verify connection to EU registry portal."
+      - "Upload certification notification metadata."
+    decision_points:
+      - "EU registry connection status"
+      - "Upload file schema validation"
+    approvals:
+      - "Certification Board Approval"
+    outputs:
+      - "EU registry upload receipt"
+      - "Certification notice document"
+    generated_evidence: "Notified body coordination registry transaction receipt saved to compliance ledgers."
+    assessment_results:
+      registration_status: "REGISTERED"
+      eu_database_id: "EU-NB-TECHNICAL_EVALUATION"
+    success_criteria: "Upload receipt generated and logged within 24 hours of decision."
+    failure_conditions: "Regulatory portal offline or validation connection failed."
+notified_body_governance_framework:
+  governance_model: "NOTIFIED_BODY_INDEPENDENT_ASSURANCE_GOVERNANCE"
+  governance_principles:
+    - "Complete Independence"
+    - "Impartiality Safeguards"
+    - "Auditing Professionalism"
+  governance_authorities:
+    - "Independent Conformity Oversight Council"
+    - "Impartiality Committee"
+  governance_controls:
+    - "CTRL-NB-TE-TECHNI-01"
+    - "CTRL-NB-TE-TECHNI-02"
+  governance_ownership: "Assigns primary management of notified body GRC registries directly to the Head of Notified Body."
+  governance_accountability: "Establishes primary accountability for Technical Evaluation assessment impartiality with the Certification Officer."
+  governance_reviews:
+    - "Bi-weekly audit quality score reviews"
+    - "Annual impartiality framework validation checks"
+  governance_assurance: "Cryptographic signature validation and ledger compliance verification checks on all certifications."
+conformity_assessment_framework:
+  source_standards:
+    - "Annex VI"
+    - "Annex VII"
+    - "ISO 17065"
+  assessment_procedures:
+    - "Check provider QMS compliance for Technical Evaluation."
+    - "Execute conformity verification checklists under Technical Evaluation."
+  assessment_dependencies:
+    - "Conformity certifications transit paths"
+    - "Documentation registry custody lines"
+  assessment_equivalencies:
+    - "Map EU AI Act controls to equivalent harmonized standards guidelines for Technical Evaluation."
+  assessment_variations:
+    - "Different auditing depths for general-purpose vs specific high-risk applications."
+  assessment_validation: "Perform pre-certification validator gate checklists validations weekly."
+  assessment_assurance: "Register assessment certifications in trade ledger registry quarterly."
+independent_assurance_framework:
+  assurance_standards:
+    - "ISO 19011"
+    - "ISO 17020"
+  impartiality_rules:
+    - "Enforce joint conflict of interest audits for reviewers assigned to Technical Evaluation."
+  assurance_controls:
+    - "CTRL-NB-TE-TECHNI-02"
+    - "CTRL-NB-TE-TECHNI-05"
+  assurance_alignment: "Deploy unified audit check points across all client portfolios."
+  compliance_alignment: "Assert auditor impartiality validation scores meet target thresholds weekly."
+  assurance_validation: "Verify assessor independence records weekly against conflict registries."
+  assurance_monitoring: "Audit auditor assignment logs monthly."
+third_party_validation_framework:
+  validation_types:
+    - "Verify model benchmarks for Technical Evaluation."
+    - "Data validation audits"
+  validation_controls:
+    - "CTRL-NB-TE-TECHNI-03"
+  operational_requirements:
+    - "Model performance scanning weekly"
+    - "Data quality checks weekly"
+  validation_assurance: "Audit testing lab performance validation logs monthly."
+  validation_monitoring: "Monitor model accuracy and bias indices daily."
+certification_readiness_framework:
+  readiness_criteria:
+    - "All conformity checklist sections pass"
+    - "Zero open major non-conformities"
+  readiness_checks:
+    - "Verify readiness check score for Technical Evaluation is 1.00."
+    - "Validate corrective action closure evidence"
+  readiness_controls:
+    - "CTRL-NB-TE-TECHNI-05"
+  readiness_assurance: "Audit readiness certificates monthly."
+  readiness_validation: "Verify final board approvals and signatures daily."
+  readiness_monitoring: "Monitor cumulative readiness indices daily."
+technical_review_framework:
+  documentation_requirements:
+    - "EU AI Act Annex IV technical specifications"
+  documentation_checks:
+    - "Verify data governance documentation completeness"
+    - "Verify risk management files completeness"
+  implementation_reviews: "Score technical documentation completeness using standard checklist tools for Technical Evaluation."
+  review_controls:
+    - "CTRL-NB-TE-TECHNI-03"
+    - "CTRL-NB-TE-TECHNI-05"
+  evidence_review: "Archive technical documentation review findings logs for Technical Evaluation regulatory reviews."
+  review_validation: "Verify technical documentation quality scores weekly."
+  review_assurance: "Seal review validation logs in compliance vaults monthly."
+regulatory_assessment_framework:
+  legal_sources:
+    - "EU AI Act Chapter IV"
+    - "Article 43"
+  obligation_sources:
+    - "Conformity validation requirements list"
+    - "High-risk AI requirements list"
+  assessment_traceability: "Log E2E trace maps from regulations to active system controls for Technical Evaluation."
+  evidence_traceability: "Trace compliance evidence documents back to specific telemetry events for Technical Evaluation."
+  accountability_traceability: "Trace signature registries and audit role records to actions logs under Technical Evaluation."
+  assessment_validation: "Verify assessment logs completeness weekly."
+  assessment_assurance: "Register assessment log hashes in GRC attestation vault monthly."
+evidence_assurance_framework:
+  evidence_sources:
+    - "conformity_audits_db"
+    - "technical_reviews_db"
+    - "lab_verification_vault"
+  evidence_types:
+    - "Conformity assessment checklist certificates"
+    - "Technical review scorecards"
+    - "Impartiality attestations"
+  evidence_integrity: "Cryptographic SHA-256 hashes registered in immutable audit ledger."
+  evidence_lineage: "Map evidence files back to specific audit trails."
+  evidence_provenance: "Generated by verified certified evaluators and testing laboratories."
+  evidence_validation: "Check digital signatures against authority key registry daily."
+  evidence_confidence: 0.99
+  evidence_retention: "10 years in secure notified body archive"
+market_access_framework:
+  access_requirements:
+    - "CE marking validation"
+    - "EU database registration validation"
+  access_controls:
+    - "CTRL-NB-TE-TECHNI-05"
+    - "CTRL-NB-TE-TECHNI-06"
+  access_assurance: "Verify database upload receipts monthly."
+  access_validation: "Verify CE marking visibility and layout compliance daily."
+  access_monitoring: "Monitor database status indicators daily."
+oversight_framework:
+  oversight_scope: "Continuous verification of auditor performance and notified body surveillance."
+  alert_thresholds: "Trigger alert if audit quality score falls below 0.95 or conflict of interest is reported."
+monitoring_framework:
+  monitoring_requirements:
+    - "All certifications must pass validation gate"
+    - "Audit logs must pass completeness checks"
+  monitoring_methods:
+    - "Automated document checks"
+    - "Simulated audit drill checks"
+  monitoring_evidence: "Signed conformity assessment certificates archived in secure vaults."
+  monitoring_authority: "Certification Officer"
+  monitoring_frequency: "Weekly"
+  monitoring_outcomes:
+    - "Pass - allow certification"
+    - "Fail - block certificate and issue corrective action ticket"
+validation_framework:
+  validation_sources:
+    - "conformity_gateway_logs"
+    - "technical_review_logs"
+    - "coordination_portal_events"
+  collection_frequency: "Continuous"
+  validation_retention: "90 days active, 10 years compliance archive"
+  validation_integrity: "Signed validation data blocks"
+  validation_validation: "Daily signature and hash check updates"
+evidence_intelligence:
+  evidence_assessment_events: "Track automated conformity validation checks for Technical Evaluation."
+  evidence_assurance_events: "Record daily requirement dependency validations for Technical Evaluation."
+  evidence_review_events: "Log compliance alignment scorecard updates for Technical Evaluation."
+telemetry:
+  telemetry_sources:
+    - "audit_gateway_logs"
+    - "certification_check_logs"
+    - "regulatory_portal_events"
+  collection_frequency: "Continuous"
+  telemetry_retention: "90 days active, 10 years compliance archive"
+  telemetry_integrity: "Signed telemetry data blocks"
+  telemetry_validation: "Daily signature and hash check updates"
+notified_body_telemetry:
+  conformity_assessment_events: "Track automated conformity validation checks for Technical Evaluation."
+  technical_review_events: "Record daily documentation quality reviews for Technical Evaluation."
+  impartiality_events: "Log impartiality check failures for Technical Evaluation."
+  non_conformity_events: "Record daily non-conformity ticket transitions for Technical Evaluation."
+  certification_events: "Track certificate issue, suspension, and withdrawal milestones for Technical Evaluation."
+  coordination_events: "Record coordination notices uploaded to European AI Board for Technical Evaluation."
+  oversight_alerts: "High priority notified body compliance alerts sent to Head of Notified Body."
+  oversight_indicators: "Check validation delays and certification execution latency indicators."
+metrics:
+  - metric_name: "technical_evaluation_conformity_assessment_readiness_score"
+    formula: "COUNT(passed_conformity_checklists) / COUNT(total_conformity_checklists)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Lead Auditor"
+    data_source: "conformity_audits_db"
+    evidence_generated: "Monthly Conformity Assessment Readiness report."
+  - metric_name: "technical_evaluation_certification_readiness_score"
+    formula: "COUNT(ready_indicators) / COUNT(total_readiness_indicators)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Certification Officer"
+    data_source: "conformity_audits_db"
+    evidence_generated: "Weekly Certification Readiness report."
+  - metric_name: "technical_evaluation_technical_documentation_quality_score"
+    formula: "COUNT(passed_documentation_sections) / COUNT(total_required_documentation_sections)"
+    target: "0.98"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Technical Reviewer"
+    data_source: "technical_reviews_db"
+    evidence_generated: "Monthly Technical Documentation Quality scorecard."
+  - metric_name: "technical_evaluation_evidence_assurance_score"
+    formula: "COUNT(assured_evidence_records) / COUNT(total_evidence_records)"
+    target: "1.00"
+    warning_threshold: "0.99"
+    critical_threshold: "0.98"
+    measurement_frequency: "DAILY"
+    owner: "Technical Reviewer"
+    data_source: "lab_verification_vault"
+    evidence_generated: "Daily Evidence Assurance report."
+  - metric_name: "technical_evaluation_non_conformity_resolution_rate"
+    formula: "COUNT(resolved_non_conformities) / COUNT(total_logged_non_conformities)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Lead Auditor"
+    data_source: "conformity_audits_db"
+    evidence_generated: "Weekly Non-Conformity Resolution report."
+  - metric_name: "technical_evaluation_assessment_effectiveness_score"
+    formula: "COUNT(effective_assessments) / COUNT(total_conducted_assessments)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "MONTHLY"
+    owner: "Lead Auditor"
+    data_source: "conformity_audits_db"
+    evidence_generated: "Monthly Assessment Effectiveness scorecard."
+  - metric_name: "technical_evaluation_corrective_action_closure_rate"
+    formula: "COUNT(closed_corrective_actions_within_SLA) / COUNT(total_corrective_actions)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Lead Auditor"
+    data_source: "conformity_audits_db"
+    evidence_generated: "Weekly Corrective Action Closure log."
+  - metric_name: "technical_evaluation_regulatory_readiness_score"
+    formula: "COUNT(passed_regulatory_checks) / COUNT(total_regulatory_checks)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Lead Auditor"
+    data_source: "conformity_audits_db"
+    evidence_generated: "Weekly Regulatory Readiness report."
+  - metric_name: "technical_evaluation_market_access_readiness_score"
+    formula: "COUNT(passed_market_access_checks) / COUNT(total_market_access_checks)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Lead Auditor"
+    data_source: "conformity_audits_db"
+    evidence_generated: "Weekly Market Access Readiness report."
+  - metric_name: "technical_evaluation_notified_body_maturity_score"
+    formula: "current_maturity_level / 7.0"
+    target: "0.85"
+    warning_threshold: "0.71"
+    critical_threshold: "0.57"
+    measurement_frequency: "ANNUALLY"
+    owner: "Lead Auditor"
+    data_source: "conformity_audits_db"
+    evidence_generated: "Annual Maturity Assessment certificate."
+kpis:
+  - "technical_evaluation_conformity_assessment_readiness_score"
+  - "technical_evaluation_certification_readiness_score"
+kris:
+  - "technical_evaluation_non_conformity_resolution_rate"
+  - "technical_evaluation_notified_body_maturity_score"
+thresholds:
+  - "Warning: technical_evaluation_certification_readiness_score < 0.98"
+  - "Critical: technical_evaluation_certification_readiness_score < 0.95"
+relationships:
+  conformity_links:
+    - source: "urn:enterprise:notified_body:technical_evaluation"
+      target: "urn:enterprise:compliance:conformity"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.99
+      evidence: "Registered mapping configuration under standard ISO-17065-NB-TE-STD."
+  certification_links:
+    - source: "urn:enterprise:notified_body:technical_evaluation"
+      target: "urn:enterprise:compliance:certification"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.99
+      evidence: "Registered mapping configuration under standard ISO-17065-NB-TE-STD."
+  evidence_links:
+    - source: "urn:enterprise:notified_body:technical_evaluation"
+      target: "urn:enterprise:compliance:evidence"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.99
+      evidence: "Registered mapping configuration under standard ISO-17065-NB-TE-STD."
+  audit_links:
+    - source: "urn:enterprise:notified_body:technical_evaluation"
+      target: "urn:enterprise:compliance:audit"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.99
+      evidence: "Registered mapping configuration under standard ISO-17065-NB-TE-STD."
+  coordination_links:
+    - source: "urn:enterprise:notified_body:technical_evaluation"
+      target: "urn:enterprise:compliance:coordination"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.99
+      evidence: "Registered mapping configuration under standard ISO-17065-NB-TE-STD."
+  governance_links:
+    - source: "urn:enterprise:notified_body:technical_evaluation"
+      target: "urn:enterprise:compliance:governance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.99
+      evidence: "Registered mapping configuration under standard ISO-17065-NB-TE-STD."
+  impartiality_links:
+    - source: "urn:enterprise:notified_body:technical_evaluation"
+      target: "urn:enterprise:compliance:impartiality"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.99
+      evidence: "Registered mapping configuration under standard ISO-17065-NB-TE-STD."
+  findings_links:
+    - source: "urn:enterprise:notified_body:technical_evaluation"
+      target: "urn:enterprise:compliance:findings"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.99
+      evidence: "Registered mapping configuration under standard ISO-17065-NB-TE-STD."
+  remediation_links:
+    - source: "urn:enterprise:notified_body:technical_evaluation"
+      target: "urn:enterprise:compliance:remediation"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.99
+      evidence: "Registered mapping configuration under standard ISO-17065-NB-TE-STD."
+  oversight_links:
+    - source: "urn:enterprise:notified_body:technical_evaluation"
+      target: "urn:enterprise:compliance:oversight"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.99
+      evidence: "Registered mapping configuration under standard ISO-17065-NB-TE-STD."
+knowledge_graph:
+  assessment_nodes:
+    - id: "urn:enterprise:assessment:qms"
+      label: "QMS Audit"
+      properties:
+        type: "audit"
+  regulatory_nodes:
+    - id: "urn:enterprise:regulation:eu_ai_act"
+      label: "EU AI Act"
+      properties:
+        type: "act"
+  obligation_nodes:
+    - id: "urn:enterprise:obligation:technical_evaluation"
+      label: "Technical Evaluation"
+      properties:
+        type: "obligation"
+  finding_nodes:
+    - id: "urn:enterprise:finding:non_conformity"
+      label: "Non-Conformity"
+      properties:
+        type: "finding"
+  accountability_nodes:
+    - id: "urn:enterprise:role:lead_auditor"
+      label: "Lead Auditor"
+      properties:
+        type: "role"
+  evidence_nodes:
+    - id: "urn:enterprise:evidence:conformity_cert"
+      label: "Conformity Certificate"
+      properties:
+        type: "evidence"
+  control_nodes:
+    - id: "urn:enterprise:control:TE-TECHNI-01"
+      label: "Conformity Assessment Control"
+      properties:
+        type: "control"
+  workflow_nodes:
+    - id: "urn:enterprise:workflow:conformity_assessment"
+      label: "Conformity Assessment Workflow"
+      properties:
+        type: "workflow"
+  assessment_relationships:
+    - source: "urn:enterprise:obligation:technical_evaluation"
+      target: "urn:enterprise:regulation:eu_ai_act"
+      relationship_type: "DERIVED_FROM"
+      confidence: 0.99
+      evidence: "Conformity analysis docs."
+  compliance_relationships:
+    - source: "urn:enterprise:control:TE-TECHNI-01"
+      target: "urn:enterprise:obligation:technical_evaluation"
+      relationship_type: "ENFORCES"
+      confidence: 0.99
+      evidence: "Conformity control mapping tables."
+  traceability_relationships:
+    - source: "urn:enterprise:evidence:conformity_cert"
+      target: "urn:enterprise:control:TE-TECHNI-01"
+      relationship_type: "GENERATED_BY"
+      confidence: 0.99
+      evidence: "Audit GRC trails DB."
+  coordination_relationships:
+    - source: "urn:enterprise:regulation:eu_ai_act"
+      target: "urn:enterprise:assessment:qms"
+      relationship_type: "APPLIES_IN"
+      confidence: 0.99
+      evidence: "Conformity assessment rules."
+crosswalks:
+  eu_ai_act:
+    framework: "eu_ai_act"
+    control_mapping: "Map conformity assessment controls to EU AI Act guidelines for Technical Evaluation."
+    security_mapping: "Enforce model robustness and deployment containment checks."
+    accountability_mapping: "Assign roles for conformity assessments and audit reviews."
+    evidence_mapping: "Log conformity and scanning events in database."
+    validation_mapping: "Validate model benchmark results under conformity profiles."
+  notified_body_requirements:
+    framework: "notified_body_requirements"
+    control_mapping: "Apply notified body rules and checks."
+    security_mapping: "Enforce confidentiality and secure information systems."
+    accountability_mapping: "Lead auditor signs off on impartiality controls."
+    evidence_mapping: "Archive impartiality logs and cv records."
+    validation_mapping: "Verify compliance with independence signals."
+  conformity_assessment_requirements:
+    framework: "conformity_assessment_requirements"
+    control_mapping: "Enforce QMS and technical file audits guidelines."
+    security_mapping: "Monitor assessment data transfer encryption configurations."
+    accountability_mapping: "Certification officer signs off conformity entries."
+    evidence_mapping: "Save assessment checklists and auditor logs."
+    validation_mapping: "Validate assessment files and formats."
+  ce_marking_requirements:
+    framework: "ce_marking_requirements"
+    control_mapping: "Protect CE marking visibility and layout constraints."
+    security_mapping: "Verify CE stamp database connections are secure."
+    accountability_mapping: "Compliance lead reviews CE marking portals."
+    evidence_mapping: "Log CE marking transaction events."
+    validation_mapping: "Verify stamp validation times against SLAs monthly."
+  market_surveillance_requirements:
+    framework: "market_surveillance_requirements"
+    control_mapping: "Incorporate post-market surveillance checks in model deployments."
+    security_mapping: "Trace surveillance queues outputs daily."
+    accountability_mapping: "Surveillance manager reviews flags database daily."
+    evidence_mapping: "Save surveillance dashboard updates history."
+    validation_mapping: "Confirm surveillance response matches target thresholds."
+  high-risk_ai_requirements:
+    framework: "high-risk_ai_requirements"
+    control_mapping: "Enforce Article 6-15 compliance controls and check gates weekly."
+    security_mapping: "Monitor system weight drift patterns weekly."
+    accountability_mapping: "Risk manager checks high-risk limits weekly."
+    evidence_mapping: "Log high-risk scans and risk tickets history."
+    validation_mapping: "Assert risk index is below baseline daily."
+  gpai_obligations:
+    framework: "gpai_obligations"
+    control_mapping: "Align incident recording rules with GPAI obligations."
+    security_mapping: "Check GPAI incident trace databases and timestamps indexes."
+    accountability_mapping: "GPAI lead reviews obligations scorecard values monthly."
+    evidence_mapping: "Save obligation reports drafts and validation checks."
+    validation_mapping: "Confirm containment duration matches SLA bounds."
+  foundation_model_obligations:
+    framework: "foundation_model_obligations"
+    control_mapping: "Map compliance controls to foundation model clauses."
+    security_mapping: "Track supply chain security metrics and hashes."
+    accountability_mapping: "Review roles assignment for base model reviews daily."
+    evidence_mapping: "Archive auditing worksheets and certificates."
+    validation_mapping: "Confirm model documentation updates match auditing standards."
+  iso_42001:
+    framework: "iso_42001"
+    control_mapping: "Map compliance controls to ISO 42001 clauses for notified bodies."
+    security_mapping: "Track quality management security metrics and hashes."
+    accountability_mapping: "Review roles assignment for AI systems audit daily."
+    evidence_mapping: "Archive ISO auditing worksheets and certificates."
+    validation_mapping: "Confirm compliance dashboard updates match auditing standards."
+  iso_23894:
+    framework: "iso_23894"
+    control_mapping: "Incorporate risk identification guidelines into assessment checks."
+    security_mapping: "Track security risks and mitigation effectiveness."
+    accountability_mapping: "Risk owner reviews risk management configurations monthly."
+    evidence_mapping: "Log risk analysis updates and vulnerability scans."
+    validation_mapping: "Verify risk scorecard values against target thresholds."
+  iso_17065:
+    framework: "iso_17065"
+    control_mapping: "Align certification procedures with ISO 17065 requirements."
+    security_mapping: "Track confidentiality breaches and containment latency daily."
+    accountability_mapping: "Certification manager reviews impartiality classification monthly."
+    evidence_mapping: "Archive impartiality logs and CV reviews in DB."
+    validation_mapping: "Confirm impartiality validation timeline matches targets."
+  iso_17020:
+    framework: "iso_17020"
+    control_mapping: "Deploy inspection body controls weekly."
+    security_mapping: "Check data security and inspection confidentiality monthly."
+    accountability_mapping: "Inspection officer signs off inspection registries checks."
+    evidence_mapping: "Log inspection audits reports in notified body ledger."
+    validation_mapping: "Confirm inspection compliance index is above baseline weekly."
+  iso_19011:
+    framework: "iso_19011"
+    control_mapping: "Incorporate auditing guidelines from ISO 19011 into audits."
+    security_mapping: "Track auditing findings and corrective actions daily."
+    accountability_mapping: "Lead auditor reviews audit findings monthly."
+    evidence_mapping: "Archive audit reports and response timelines in DB."
+    validation_mapping: "Confirm audit follow-up timeline matches targets."
+  nist_ai_rmf:
+    framework: "nist_ai_rmf"
+    control_mapping: "Align notified body validation steps with NIST AI RMF core."
+    security_mapping: "Track safety and bias metrics continuously."
+    accountability_mapping: "Define compliance owners across assessment stages."
+    evidence_mapping: "Log NIST dashboard data and check events."
+    validation_mapping: "Review compliance indicators against NIST standards monthly."
+  oecd_ai_principles:
+    framework: "oecd_ai_principles"
+    control_mapping: "Promote transparency and accountability along value chain."
+    security_mapping: "Ensure reliable rollback and containment profiles."
+    accountability_mapping: "Publish public certification descriptions annually."
+    evidence_mapping: "Log transparency and data disclosure events."
+    validation_mapping: "Assess model card clarity using peer-review guides."
+  gdpr:
+    framework: "gdpr"
+    control_mapping: "Protect personal data processed during conformity assessment."
+    security_mapping: "Deploy data anonymization and masking protocols."
+    accountability_mapping: "DPO signs off on assessment data controls."
+    evidence_mapping: "Archive DPIA certificates and consent records."
+    validation_mapping: "Verify compliance with user data deletion signals."
+compliance_mapping:
+  - article: "Article 43"
+    obligation: "Conformity assessment procedures and checklists for Technical Evaluation."
+    implementation_method: "Deploy automated conformity assessment checklist gates and QMS audits."
+    assessment_control: "CTRL-NB-TE-TECHNI-01 and CTRL-NB-TE-TECHNI-05"
+    required_evidence: "Conformity assessment checklist certificates and final reports."
+    validation_method: "Confirm presence and valid signatures of all conformity assessments."
+    assurance_method: "Review conformity registries in notified body database monthly."
+  - article: "Article 44"
+    obligation: "Impartiality and independent auditor assignments for Technical Evaluation."
+    implementation_method: "Verify auditor impartiality logs and CV reviews weekly."
+    assessment_control: "CTRL-NB-TE-TECHNI-02 and CTRL-NB-TE-TECHNI-05"
+    required_evidence: "Signed impartiality validation attestations and conflict logs."
+    validation_method: "Inspect digital signature credentials against standard registries."
+    assurance_method: "Audit auditor assignment logs database monthly."
+  - article: "Article 45"
+    obligation: "Technical documentation review requirements for Technical Evaluation."
+    implementation_method: "Score technical documentation completeness using standard checklist tools."
+    assessment_control: "CTRL-NB-TE-TECHNI-03 and CTRL-NB-TE-TECHNI-05"
+    required_evidence: "Technical documentation quality scorecards and findings."
+    validation_method: "Validate technical files completeness against standard schemas."
+    assurance_method: "Review technical file registries daily."
+  - article: "Article 46"
+    obligation: "Non-conformity tracking and corrective actions for Technical Evaluation."
+    implementation_method: "Log and track non-conformity findings in GRC system weekly."
+    assessment_control: "CTRL-NB-TE-TECHNI-04"
+    required_evidence: "Non-conformity notices and corrective action plan files."
+    validation_method: "Assert corrective action plan response latency is below SLA targets."
+    assurance_method: "Review non-conformity databases weekly."
+  - article: "Article 47"
+    obligation: "Certification issue and renewal procedures for Technical Evaluation."
+    implementation_method: "Assess certification readiness and board approvals weekly."
+    assessment_control: "CTRL-NB-TE-TECHNI-05"
+    required_evidence: "Certification readiness checklists and final board approvals."
+    validation_method: "Verify certificate issue recommendations scorecard parameters."
+    assurance_method: "Audit certificate databases monthly."
+  - article: "Article 48"
+    obligation: "Notified body coordination and EU database registrations for Technical Evaluation."
+    implementation_method: "Submit certification notifications to European AI Board monthly."
+    assessment_control: "CTRL-NB-TE-TECHNI-06"
+    required_evidence: "Notified body coordination registry transaction receipts."
+    validation_method: "Verify EU database registration connection status and upload file schemas."
+    assurance_method: "Audit coordination connection logs monthly."
+  - article: "Annex VI"
+    obligation: "Conformity assessment based on QMS control check lists for Technical Evaluation."
+    implementation_method: "Conduct provider QMS reviews and audits of management systems."
+    assessment_control: "CTRL-NB-TE-TECHNI-01"
+    required_evidence: "Provider QMS compliance verification certificates."
+    validation_method: "Verify quality management indicators against baseline standards."
+    assurance_method: "Audit QMS records monthly."
+  - article: "Annex VII"
+    obligation: "Conformity assessment based on technical file checks for Technical Evaluation."
+    implementation_method: "Conduct technical file reviews and audit documentation files."
+    assessment_control: "CTRL-NB-TE-TECHNI-03"
+    required_evidence: "Technical documentation findings registers and checklists."
+    validation_method: "Verify technical specifications completeness checks."
+    assurance_method: "Audit technical reviews database monthly."
+integration_points:
+  conformity_assessment:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:conformity_assessment:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  ce_marking:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:ce_marking:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  technical_documentation:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:technical_documentation:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  evidence_and_attestation:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:evidence_and_attestation:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  compliance_scoring:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:compliance_scoring:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  provider_obligations:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:provider_obligations:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  deployer_obligations:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:deployer_obligations:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  high_risk_ai_systems:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:high_risk_ai_systems:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  audit_and_enforcement:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:audit_and_enforcement:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  audit_and_forensics:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:audit_and_forensics:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  risk_management:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:risk_management:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  governance_reporting:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:governance_reporting:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  incident_reporting:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:incident_reporting:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  post_market_monitoring:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:post_market_monitoring:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  foundation_models:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:foundation_models:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  general_purpose_ai:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:general_purpose_ai:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  governance_crosswalk:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:governance_crosswalk:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  cross_border_interoperability:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:cross_border_interoperability:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  core_governance:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:core_governance:technical_evaluation"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+dependencies:
+  - "urn:enterprise:dependency:governance:notified_body:technical_evaluation"
+  - "urn:enterprise:dependency:compliance:conformity:technical_evaluation"
+  - "urn:enterprise:dependency:compliance:scoring:technical_evaluation"
+outputs:
+  - "conformity_assessment_checklist_certificate"
+  - "technical_documentation_quality_scorecard"
+  - "non_conformity_closure_notice"
+  - "certification_readiness_scorecard"
+artifacts:
+  - "conformity_assessment_checklist.yaml"
+  - "technical_review_scorecard.yaml"
+  - "non_conformity_notice_ticket.yaml"
+records:
+  - "conformity_audits_db"
+  - "technical_reviews_db"
+  - "non_conformity_tracker_db"
+continuous_improvement:
+  exceptions:
+    - "Authorized bypass of certification rules during certified emergency backup migrations."
+  reviews:
+    - "Bi-weekly audit quality score reviews"
+    - "Annual impartiality framework validation checks"
+  updates:
+    - "Deploy updated validation rules definitions monthly."
+exceptions:
+  - "Bypass of conformity assessment checks authorized for certified sandbox simulations of Technical Evaluation."
+  - "Temporary certification requirements waiver during emergency disaster recovery actions of Technical Evaluation."
+escalation:
+  channels:
+    - "slack-compliance-alerts"
+    - "pagerduty-notified-body-lead"
+    - "email-nb-governance"
+  thresholds:
+    - "Warning: certification_readiness_score < 0.98 for Technical Evaluation"
+    - "Critical: certification_readiness_score < 0.95 for Technical Evaluation"
+  workflows:
+    - "non_conformity_management_workflow"
+    - "certification_readiness_workflow"
+versioning:
+  - version: "1.0.0"
+    date: "2026-06-13"
+    author: "Compliance Evaluator"
+    description: "Initial release of the Technical Evaluation notified body conformity assessment skill."
+notified_body_capabilities:
+  notified_body_governance: "Oversee global notified body governance and impartiality rules for Technical Evaluation."
+  conformity_assessment: "Govern conformity assessment checklists and procedures under Technical Evaluation."
+  independent_assurance: "Manage independent auditor CV reviews and impartiality registers for Technical Evaluation."
+  third_party_validation: "Govern model benchmarks and validation parameters under Technical Evaluation."
+  certification_readiness: "Assess certification readiness indicators and calculate readiness scores for Technical Evaluation."
+  technical_review: "Score technical documentation completeness and quality checklists for Technical Evaluation."
+  regulatory_assessment: "Verify E2E trace maps from articles to automated system controls under Technical Evaluation."
+  evidence_assurance: "Verify digital signatures and trace validation metrics weekly under Technical Evaluation."
+  market_access: "Confirm CE marking compliance and database upload receipts under Technical Evaluation."
+  oversight: "Verify auditor performance indices and notified body surveillance weekly under Technical Evaluation."
+  monitoring: "Monitor notified body certification status indicators weekly under Technical Evaluation."
+  validation: "Perform testing lab validation checks daily under Technical Evaluation."
+  evidence_intelligence: "Validate digital signature hashes weekly under Technical Evaluation."
+  telemetry: "Log audit gateway telemetry and check events daily under Technical Evaluation."
+  notified_body_telemetry: "Track conformity, technical review, and non-conformity events daily under Technical Evaluation."
+  metrics: "Calculate conformity, certification, and non-conformity resolution rates weekly under Technical Evaluation."
+  kpis: "Track certification readiness and conformity assessment KPI metrics weekly under Technical Evaluation."
+  kris: "Track non-conformity resolution and maturity KRI metrics weekly under Technical Evaluation."
+  thresholds: "Monitor warning and critical thresholds for certification readiness under Technical Evaluation."
+  relationships: "Govern and monitor conformity, evidence, and audit link nodes under Technical Evaluation."
+  knowledge_graph: "Map QMS audit nodes, control nodes, and compliance relationships under Technical Evaluation."
+  crosswalks: "Align conformity controls to EU AI Act and ISO standard requirements for Technical Evaluation."
+  compliance_mapping: "Verify Article 43-48 and Annex VI/VII compliance mappings for Technical Evaluation."
+  integration_points: "Verify active integration APIs and latency metrics daily under Technical Evaluation."
+  dependencies: "Verify notified body and conformity assessment dependency schemas weekly under Technical Evaluation."
+  outputs: "Generate conformity checklist certificates and documentation quality scorecards under Technical Evaluation."
+  artifacts: "Archive conformity assessment checklists and non-conformity tickets under Technical Evaluation."
+  records: "Audit conformity and technical review database registries quarterly under Technical Evaluation."
+  continuous_improvement: "Deploy updated validation rules and conduct bi-weekly audit quality reviews for Technical Evaluation."
+  exceptions: "Track certification requirements exceptions and emergency waivers weekly under Technical Evaluation."
+  escalation: "Triage non-conformity and certification readiness alerts within SLA times for Technical Evaluation."
+  versioning: "Audit notified body certification schema and skill versions quarterly under Technical Evaluation."
+  non_conformity_management: "Log, triage, and verify corrective action plan files weekly for Technical Evaluation."
+  assessment_findings: "Triage QMS findings and technical review findings daily for Technical Evaluation."
+  notified_body_maturity: "Assess notified body maturity levels against ISO standards weekly for Technical Evaluation."
+altai_notified_body_governance:
+  autonomous_agent_assessment:
+    agent_risk_assessment: "Assess agent risk levels and dynamic actions maps for Technical Evaluation."
+    agent_accountability_review: "Conduct review of agent accountability structures and role mappings for Technical Evaluation."
+    agent_assurance_validation: "Validate agent safety bounds and override mechanisms validation under Technical Evaluation."
+    agent_conformity_assessment: "Perform conformity assessment procedures on autonomous planning routines under Technical Evaluation."
+  multi_agent_assessment:
+    ecosystem_assessment: "Assess coordination networks and message safety rules across agents under Technical Evaluation."
+    swarm_governance_review: "Review swarm governance and human-on-the-loop escalation paths for Technical Evaluation."
+    autonomy_validation: "Validate coordinate agent limits and autonomy boundaries under Technical Evaluation."
+    ecosystem_assurance: "Verify digital signatures and communication safety keys for all agents under Technical Evaluation."
+  reasoning_assessment:
+    reasoning_traceability_review: "Audit traceability of reasoning tokens and logic maps under Technical Evaluation."
+    reasoning_validation_review: "Verify correctness of planning trees and reasoning logic under Technical Evaluation."
+    reasoning_assurance_review: "Assess semantic consistency and logical robustness weekly under Technical Evaluation."
+    reasoning_accountability_review: "Lead reviewer signs off reasoning planning trees quarterly for Technical Evaluation."
+  memory_assessment:
+    memory_governance_review: "Assess database access policies and memory context limits under Technical Evaluation."
+    memory_traceability_review: "Audit context history and database write operations traceability under Technical Evaluation."
+    memory_validation_review: "Validate memory retrieval consistency and data retention rules under Technical Evaluation."
+    memory_assurance_review: "Verify integrity of memory database logs and signature vaults monthly under Technical Evaluation."
+  tool_assessment:
+    tool_validation_review: "Validate tool schemas and credentials validation parameters pre-deployment for Technical Evaluation."
+    tool_traceability_review: "Audit tool call execution parameters and output signature histories under Technical Evaluation."
+    tool_accountability_review: "Review tool access approvals and endpoint roles monthly under Technical Evaluation."
+    tool_assurance_review: "Verify tool reliability records and rate limiting thresholds under Technical Evaluation."
+  orchestration_assessment:
+    orchestration_validation_review: "Verify job execution coordinates and runner configurations weekly under Technical Evaluation."
+    orchestration_traceability_review: "Trace task transitions and workflow orchestration paths under Technical Evaluation."
+    orchestration_assurance_review: "Verify runner nodes digital signature keys and system logs under Technical Evaluation."
+    orchestration_accountability_review: "Lead reviewer audits orchestration schedules and roles under Technical Evaluation."
+  foundation_model_assessment:
+    capability_review: "Audit foundation model base capabilities and safe boundary parameters for Technical Evaluation."
+    risk_review: "Review downstream risk vectors and fine-tuning vulnerability checks for Technical Evaluation."
+    transparency_review: "Evaluate base model model card documentation and disclosures under Technical Evaluation."
+    systemic_risk_review: "Audit model for systemic risks, security issues, and alignment indicators under Technical Evaluation."
+  gpai_assessment:
+    obligation_review: "Verify base model registration indicators and compliance parameters for Technical Evaluation."
+    accountability_review: "Audit provider compliance checks and data disclosures checklists for Technical Evaluation."
+    assurance_review: "Verify benchmark testing results and model validation records under Technical Evaluation."
+    systemic_risk_assessment: "Audit base model systemic risk mitigations and safety indicators under Technical Evaluation."
+non_conformity_management:
+  procedures:
+    identification: "Standard workflow for logging non-conformities during Technical Evaluation audits."
+    classification: "Classify non-conformities into major and minor categories based on risk thresholds for Technical Evaluation."
+    escalation: "Issue formal remediation notices and corrective action plan requests to the provider under Technical Evaluation."
+    resolution: "Verify implementation of corrective actions and issue closure certificates for Technical Evaluation."
+  escalation_timeline: "15 days for major non-conformities, 30 days for minor non-conformities."
+  records:
+    - "non_conformity_tracker_db"
+    - "corrective_action_plan_files"
+    - "closure_certificates_archive"
+  assurance: "Verify independent auditor signature checks on all closed non-conformities for Technical Evaluation."
+assessment_findings:
+  findings_classification:
+    - "Critical Anomaly"
+    - "Major Non-Conformity"
+    - "Minor Non-Conformity"
+    - "Observation"
+    - "Opportunity for Improvement"
+  findings_tracking: "All findings logged during Technical Evaluation audits must be registered in GRC within 24 hours."
+  findings_review: "Technical review panel validates all findings for Technical Evaluation before final report issue."
+  evidence_requirements: "Findings must be backed by objective evidence files and specific EU AI Act articles for Technical Evaluation."
+notified_body_maturity_model:
+  level_1_reactive:
+    capabilities:
+      - "Basic auditing of conformity post-deployment when triggered by enforcement alerts."
+    conformity_capabilities:
+      - "Manual lookup of conformity requirements databases."
+    technical_review_capabilities:
+      - "Ad-hoc review of technical files checklists."
+    assurance_capabilities:
+      - "Manual backup of compliance spreadsheets logs."
+    evidence_requirements:
+      - "Audit files archived in physical cabinets."
+    validation_requirements:
+      - "Informal team review of provider claims."
+  level_2_repeatable:
+    capabilities:
+      - "Standardized assessment checklists for major regions."
+    conformity_capabilities:
+      - "Triage regional rules lists using defined templates."
+    technical_review_capabilities:
+      - "Check standard documentation templates for each audit."
+    assurance_capabilities:
+      - "Verify compliance dashboard alerts monthly."
+    evidence_requirements:
+      - "Audit tickets saved in local folders."
+    validation_requirements:
+      - "Weekly review of findings classification metrics."
+  level_3_defined:
+    capabilities:
+      - "Documented conformity assessment and impartiality procedures."
+    conformity_capabilities:
+      - "Verify conformity using standard assessment procedures."
+    technical_review_capabilities:
+      - "Automated template checking for technical files quality."
+    assurance_capabilities:
+      - "Track impartiality scorecards using defined rules."
+    evidence_requirements:
+      - "Audit reports stored in secure repositories."
+    validation_requirements:
+      - "Triage sign-off required from Lead Auditor before closure."
+  level_4_managed:
+    capabilities:
+      - "Real-time assessment tracking and automatic non-conformity alerts."
+    conformity_capabilities:
+      - "Automated non-conformity severity checks pre-escalation."
+    technical_review_capabilities:
+      - "Secure transmission of review findings scorecards within SLA bounds."
+    assurance_capabilities:
+      - "Continuous monitoring of impartiality scorecards with alerts."
+    evidence_requirements:
+      - "Attestations sealed and archived in DB dynamically."
+    validation_requirements:
+      - "Pre-closure checklist scores must meet targets or ticket remains open."
+  level_5_optimized:
+    capabilities:
+      - "Predictive quality analysis and assessment updates feeds integration."
+    conformity_capabilities:
+      - "Predictive incident impact assessments and findings triage updates."
+    technical_review_capabilities:
+      - "Dynamic routing updates based on findings severity classes."
+    assurance_capabilities:
+      - "Feedback loop updating triage checklists weekly based on findings rates."
+    evidence_requirements:
+      - "Log hashes checked against authority directories dynamically."
+    validation_requirements:
+      - "Continuous runtime verification of data privacy and safety rules."
+  level_6_assured:
+    capabilities:
+      - "E2E cryptographic evidence sealing and independent validation tracking."
+    conformity_capabilities:
+      - "Validation steps attested by cryptographic compliance daemon signatures."
+    technical_review_capabilities:
+      - "Immutably sealed technical review trace databases."
+    assurance_capabilities:
+      - "Verify certification package assembly latency indicators monthly."
+    evidence_requirements:
+      - "Signed evidence certificates registered in compliance attestation vault."
+    validation_requirements:
+      - "Automated zero-trust checks for all intermediate transitions."
+  level_7_certification_ready:
+    capabilities:
+      - "Real-time regulatory portal APIs and continuous conformity compliance audits."
+    conformity_capabilities:
+      - "Immediate digital certification verification queries for national agencies."
+    technical_review_capabilities:
+      - "Cryptographic trace trail available dynamically via API access keys."
+    assurance_capabilities:
+      - "Full alignment with European AI Board database standards."
+    evidence_requirements:
+      - "Sealed, time-stamped registry logs ready for regulator export."
+    validation_requirements:
+      - "Continuous automated validation of all 6 controls and 8 workflows."

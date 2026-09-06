@@ -1,0 +1,1033 @@
+metadata:
+  document_id: "HO-COG-COGNITIVE_SU-001"
+  title: "Cognitive Supervision Taxonomy"
+  domain: "Cognitive Supervision"
+  version: "1.0.0"
+  classification: "RESTRICTED"
+  purpose: "Govern, operationalize, and validate compliance checks for Cognitive Supervision Taxonomy under the Cognitive Supervision framework. This skill provides machine-readable, executable Human Oversight AI governance, intervention verifications, and override validation logic specifically tailored to cognitive task monitoring, mental workload analysis, decision pattern checks, operator fatigue assessments properties."
+  scope: "Scope covers all human oversight mechanisms, operational pipelines, telemetry streams, and conformity assessments governed by the Cognitive Supervision Taxonomy architecture under Cognitive Supervision requirements."
+  objectives:
+    - "Enforce automated validation check gates for Cognitive Supervision Taxonomy oversight metrics."
+    - "Enable real-time tracking, risk modeling, and human oversight updates under Cognitive Supervision."
+    - "Compile verifiable evidence reports to prove readiness for Article 14, 26, and 50 obligations."
+purpose: "Govern, operationalize, and validate compliance checks for Cognitive Supervision Taxonomy under the Cognitive Supervision framework. This skill provides machine-readable, executable Human Oversight AI governance, intervention verifications, and override validation logic specifically tailored to cognitive task monitoring, mental workload analysis, decision pattern checks, operator fatigue assessments properties."
+scope: "Scope covers all human oversight mechanisms, operational pipelines, telemetry streams, and conformity assessments governed by the Cognitive Supervision Taxonomy architecture under Cognitive Supervision requirements."
+objectives:
+  - "Enforce automated validation check gates for Cognitive Supervision Taxonomy oversight metrics."
+  - "Enable real-time tracking, risk modeling, and human oversight updates under Cognitive Supervision."
+  - "Compile verifiable evidence reports to prove readiness for Article 14, 26, and 50 obligations."
+definitions:
+  cognitive_supervision_taxonomy_governance_policy: "The primary operational human oversight governance policy guidelines for Cognitive Supervision Taxonomy."
+  cognitive_supervision_taxonomy_telemetry_payload: "Structured telemetry bundle containing intervention events, capability indicators, and safety scores."
+taxonomy:
+  oversight_tiers:
+    - "MANUAL_PRE_APPROVE_LOOP"
+    - "CONTINUOUS_OBSERVATION_LOOP"
+    - "AUTOMATED_TRIGGER_WITH_BYPASS"
+  governance_roles:
+    - "OVERSIGHT_COORDINATOR"
+    - "SUPERVISOR"
+    - "COMPLIANCE_STEWARD"
+governance:
+  governance_model: "COORDINATED_HUMAN_OVERSIGHT_GOVERNANCE"
+  governance_structure: "Enterprise Human Oversight Council - Cognitive Supervision"
+  roles_and_responsibilities:
+    compliance_steward: "Responsible for leading general obligations and documentation checks for Cognitive Supervision Taxonomy."
+    supervisor: "Responsible for reviewing active model logs and executing overrides for Cognitive Supervision Taxonomy."
+    oversight_coordinator: "Responsible for managing human oversight controls and intervention triggers for Cognitive Supervision Taxonomy."
+  stakeholders:
+    - "Chief AI Officer"
+    - "General Counsel"
+    - "Lead Integrity Architect"
+governance_model:
+  model_type: "COORDINATED_HUMAN_OVERSIGHT_GOVERNANCE"
+  model_rationale: "Ensures uniform application of human oversight compliance guidelines and audit-ready tracking of Cognitive Supervision Taxonomy across operational divisions."
+governance_structure:
+  oversight_board: "Enterprise Trust & Ethics Committee - Cognitive Supervision"
+  escalation_contact: "oversight_safety@enterprise.ai"
+roles_and_responsibilities:
+  compliance_steward: "Primary owner of Cognitive Supervision Taxonomy compliance registries and documentation audits."
+  supervisor: "Responsible for model run review evaluations and updating Cognitive Supervision Taxonomy override logs."
+  oversight_coordinator: "Responsible for coordinating human oversight controls and threshold validations."
+stakeholders:
+  - "Head of AI Compliance"
+  - "VP of Quality Assurance"
+  - "Lead System Architect"
+  - "Cognitive Supervision Lead specialist"
+capabilities:
+  - "Continuous automated monitoring of capability limits for Cognitive Supervision Taxonomy."
+  - "Real-time signal analysis and automated threshold escalation under Cognitive Supervision."
+  - "Pre-attested compliance evidence packaging for external regulatory inspections."
+requirements:
+  - "All model alterations in Cognitive Supervision Taxonomy must be tracked and logged."
+  - "Assurance verification scores must exceed the 0.90 baseline parameters."
+  - "Telemetry reports must map to applicable human-in-the-loop categories."
+controls:
+  - control_id: "CTRL-HO-COG-COGNIT-01"
+    control_name: "human_intervention_control"
+    control_type: "PREVENTATIVE"
+    control_category: "INTERVENTION"
+    control_objective: "Verify and enforce manual intervention gates and response paths for Cognitive Supervision Taxonomy."
+    oversight_rationale: "Required to prevent classification errors and coordinate intervention checks for Cognitive Supervision Taxonomy."
+    implementation_guidance: "Deploy validation scripts that compare model features against Annex III categories weekly."
+    control_owner: "Oversight Coordinator"
+    control_frequency: "REAL_TIME"
+    monitoring_method: "Track intervention events database logs and verify filing registries."
+    validation_method: "Inject mock intervention trigger violating category, verify release gateway block."
+    evidence_generated: "Signed intervention attestation certificate."
+    escalation_conditions: "Model use-case shifts into critical Annex III category without approval."
+    audit_considerations: "Check classification rules and use-case datasets registry."
+  - control_id: "CTRL-HO-COG-COGNIT-02"
+    control_name: "override_authorization_control"
+    control_type: "PREVENTATIVE"
+    control_category: "OVERRIDE"
+    control_objective: "Enforce credentials checks and override authorization validation steps for Cognitive Supervision Taxonomy."
+    oversight_rationale: "Reduces unauthorized bypass risks and maintains override ledger compliance logs."
+    implementation_guidance: "Deploy automated override trackers that verify keys configurations before release."
+    control_owner: "Supervisor"
+    control_frequency: "AS_REQUIRED"
+    monitoring_method: "Monitor override scorecard values and credentials databases."
+    validation_method: "Mock override attempt with invalid key, verify block response."
+    evidence_generated: "Signed Override Authorization certificate."
+    escalation_conditions: "Override checklist score falls below 1.0 or missing signature validation."
+    audit_considerations: "Verify override authorization rules and role databases."
+  - control_id: "CTRL-HO-COG-COGNIT-03"
+    control_name: "supervisory_review_control"
+    control_type: "DETECTIVE"
+    control_category: "SUPERVISORY"
+    control_objective: "Maintain supervisory review logs and check supervisor approvals for Cognitive Supervision Taxonomy."
+    oversight_rationale: "Maintains human oversight and prevents black-box execution of Cognitive Supervision Taxonomy loops."
+    implementation_guidance: "Deploy runtime controls that restrict agent steps and require human approval flags."
+    control_owner: "Supervisor"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Track active model transaction execution steps and supervisor sign-offs."
+    validation_method: "Mock supervisor review database entry update, confirm scorecard metrics."
+    evidence_generated: "Weekly Supervisory Review audit logs."
+    escalation_conditions: "Supervisor review checklist score falls below 1.0."
+    audit_considerations: "Verify supervisor authorization rules and signatures ledger setups."
+  - control_id: "CTRL-HO-COG-COGNIT-04"
+    control_name: "decision_accountability_control"
+    control_type: "DETECTIVE"
+    control_category: "ACCOUNTABILITY"
+    control_objective: "Verify roles assignment registries and decision accountability scorecards for Cognitive Supervision Taxonomy."
+    oversight_rationale: "Ensures clear ownership of model deployment decisions and compliance checks under Cognitive Supervision Taxonomy."
+    implementation_guidance: "Compile accountability checklists weekly and check database hashes for role logs."
+    control_owner: "Compliance Steward"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Review accountability dashboards daily."
+    validation_method: "Generate release schedule with missing accountability owner, verify block."
+    evidence_generated: "Weekly Accountability Verification Attestation."
+    escalation_conditions: "Accountability checklist score falls below 1.0."
+    audit_considerations: "Check role management configs and key directories."
+  - control_id: "CTRL-HO-COG-COGNIT-05"
+    control_name: "human_validation_control"
+    control_type: "PREVENTATIVE"
+    control_category: "VALIDATION"
+    control_objective: "Enforce human review and validation check gates pre-release for Cognitive Supervision Taxonomy."
+    oversight_rationale: "Ensures model parameters match accuracy and robustness requirements before release."
+    implementation_guidance: "Setup pre-release validation gateway checklist that requires human verification sign-offs."
+    control_owner: "Supervisor"
+    control_frequency: "ON_RELEASE"
+    monitoring_method: "Verify release checklist status and signatures lists."
+    validation_method: "Generate release schedule without required human approvals, verify block."
+    evidence_generated: "Signed Human Validation Attestation certificate."
+    escalation_conditions: "Checklist score < 1.0 or validation delays exceed SLA."
+    audit_considerations: "Check approval rules configurations and role directories."
+  - control_id: "CTRL-HO-COG-COGNIT-06"
+    control_name: "oversight_assurance_control"
+    control_type: "DETECTIVE"
+    control_category: "ASSURANCE"
+    control_objective: "Audit reporting system integrity and check signatures logs for Cognitive Supervision Taxonomy."
+    oversight_rationale: "Prevents unsealed records and ensures secure storage of certificates for Cognitive Supervision Taxonomy."
+    implementation_guidance: "Implement continuous daemon that validates signature hashes against corporate keys."
+    control_owner: "Compliance Steward"
+    control_frequency: "QUARTERLY"
+    monitoring_method: "Monitor daemon execution status and verification delays."
+    validation_method: "Mock signature mismatch event, verify compliance alert."
+    evidence_generated: "Signed Oversight Assurance certificate."
+    escalation_conditions: "Signature check mismatch or control failure."
+    audit_considerations: "Verify kms key setups and cryptographic libraries."
+decision_logic:
+  escalation_trigger: "If oversight_assurance_score falls below 0.71, alert the Compliance Steward immediately."
+  incident_classification: "Classify as CRITICAL if human_intervention_effectiveness_score drops below 0.90 for two cycles."
+processes:
+  oversight_review: "Detailed process for reviewing and verifying supervisor logs for Cognitive Supervision Taxonomy."
+  intervention_execution: "Standard procedures to deploy containment walls and halt downstream queries for Cognitive Supervision Taxonomy."
+workflows:
+  - workflow_id: "human_review_workflow"
+    workflow_owner: "Supervisor"
+    workflow_objective: "Conduct periodic supervisory review audits and check transaction logs for Cognitive Supervision Taxonomy."
+    trigger: "Scheduled weekly review cycle or capability update alert."
+    inputs:
+      - "agent_decision_logs"
+      - "supervisor_checklists_criteria"
+      - "audit_log_manifests"
+    activities:
+      - "Examine model planning steps and trace logs for anomalies."
+      - "Fill and sign supervisory review checklist."
+      - "Submit review summary to Safety Board."
+    decision_points:
+      - "Oversight compliance check"
+      - "Halt loop required check"
+    approvals:
+      - "Supervisor Approval"
+    outputs:
+      - "Weekly supervisory review summary"
+      - "Updated oversight config file"
+    generated_evidence: "Signed Weekly Autonomy Review Attestation archived in secure vault."
+    success_criteria: "Review is completed and report registered within 24 hours of trigger."
+    failure_conditions: "Decision logs unreachable or missing override event records."
+  - workflow_id: "human_approval_workflow"
+    workflow_owner: "Supervisor"
+    workflow_objective: "Enforce manual approval check gates for critical decisions of Cognitive Supervision Taxonomy."
+    trigger: "Model transaction step requests approval."
+    inputs:
+      - "approval_request_ticket"
+      - "approval_thresholds"
+      - "supervisor_credentials"
+    activities:
+      - "Verify ticket parameters against safety guidelines."
+      - "Enforce human in the loop check gate."
+      - "Sign decision approval token."
+    decision_points:
+      - "Approval verification check"
+      - "Supervisor role check"
+    approvals:
+      - "Supervisor Sign-off"
+    outputs:
+      - "Decision approval token"
+      - "Approval log entry"
+    generated_evidence: "Signed Decision Approval certificate archived in secure ledger."
+    success_criteria: "Decision is signed and logged within 30 minutes of request."
+    failure_conditions: "Supervisor unreachable or credentials mismatch."
+  - workflow_id: "intervention_workflow"
+    workflow_owner: "Oversight Coordinator"
+    workflow_objective: "Verify and enforce manual intervention gates and response paths for Cognitive Supervision Taxonomy."
+    trigger: "Telemetry trigger or supervisor alert."
+    inputs:
+      - "intervention_request_ticket"
+      - "remediation_playbook"
+      - "incident_log_file"
+    activities:
+      - "Deploy manual intervention trigger settings."
+      - "Execute remediation playbook steps in active database."
+      - "Log intervention event details in database."
+    decision_points:
+      - "Intervention severity check"
+      - "Override required check"
+    approvals:
+      - "Oversight Coordinator Approval"
+    outputs:
+      - "Intervention status document"
+      - "Remediation ticket log"
+    generated_evidence: "Signed Intervention Attestation certificate saved in compliance portal."
+    success_criteria: "Remediation steps execute with zero failure loops."
+    failure_conditions: "Playbook script timeout or database write error."
+  - workflow_id: "override_workflow"
+    workflow_owner: "Supervisor"
+    workflow_objective: "Enforce manual override tokens and override state controls for Cognitive Supervision Taxonomy."
+    trigger: "Emergency override warning webhook alert."
+    inputs:
+      - "override_authorization_ticket"
+      - "override_keys_manifest"
+      - "incident_log_file"
+    activities:
+      - "Verify override keys parameters against key directories."
+      - "Deploy manual override state configuration."
+      - "Submit notification to regional authorities."
+    decision_points:
+      - "Override authorization check"
+      - "Authority notification check"
+    approvals:
+      - "Oversight Coordinator Approval"
+      - "Supervisor Sign-off"
+    outputs:
+      - "Override confirmation package"
+      - "Incident audit logs"
+    generated_evidence: "Signed Override Attestation certificate stored in immutable registry."
+    success_criteria: "Override completes and receipts logged within 30 minutes."
+    failure_conditions: "Override key database unreachable or signature mismatch."
+  - workflow_id: "supervisory_review_workflow"
+    workflow_owner: "Supervisor"
+    workflow_objective: "Audit supervisory review logs and check supervisor approvals for Cognitive Supervision Taxonomy."
+    trigger: "Scheduled monthly review cycle."
+    inputs:
+      - "weekly_oversight_summaries"
+      - "signatures_log_file"
+      - "audit_log_manifests"
+    activities:
+      - "Verify signature hashes on all validation records."
+      - "Review compliance crosswalk alignment scores."
+      - "Draft and issue official supervisory review declaration."
+    decision_points:
+      - "Review completeness check"
+      - "Signatures integrity check"
+    approvals:
+      - "Corporate Safety Board sign-off"
+    outputs:
+      - "Monthly supervisory review declaration"
+      - "Supervisory findings register"
+    generated_evidence: "Signed Supervisory Review declaration archived in secure ledger."
+    success_criteria: "Review is completed and report registered."
+    failure_conditions: "Signature mismatch or missing key validation records."
+  - workflow_id: "escalation_workflow"
+    workflow_owner: "Oversight Coordinator"
+    workflow_objective: "Escalate reporting failures and trigger override authority actions for Cognitive Supervision Taxonomy."
+    trigger: "Reporting control failure warning or validation bypass alert."
+    inputs:
+      - "control_failure_alert"
+      - "escalation_routes_list"
+      - "incident_log_file"
+    activities:
+      - "Identify escalation path based on warning severity."
+      - "Generate warning ticket and notify CRO/CAIO."
+      - "Log escalation event details in incident databases."
+    decision_points:
+      - "Escalation level check"
+      - "CRO notification trigger check"
+    approvals:
+      - "CRO Approval"
+    outputs:
+      - "Escalation notice document"
+      - "Warning ticket log"
+    generated_evidence: "Escalation log entry saved in incident database."
+    success_criteria: "Escalation completed and CRO notified within 30 minutes."
+    failure_conditions: "Escalation list unreachable or database write timeout."
+  - workflow_id: "decision_accountability_workflow"
+    workflow_owner: "Compliance Steward"
+    workflow_objective: "Track compliance gaps scorecards and update QMS registers for Cognitive Supervision Taxonomy."
+    trigger: "Daily compliance sweep schedule."
+    inputs:
+      - "compliance_scorecards_vault"
+      - "daily_sweep_logs"
+      - "qms_checklists"
+    activities:
+      - "Assert daily compliance scores exceed baseline thresholds."
+      - "Identify control gaps and log details in remediation registry."
+      - "Publish daily compliance scorecard to portal."
+    decision_points:
+      - "Gap severity level check"
+      - "Remediation required review"
+    approvals:
+      - "Compliance Steward Sign-off"
+    outputs:
+      - "Daily compliance scorecard"
+      - "Compliance gap notifications"
+    generated_evidence: "Daily compliance sweep logs archived in compliance ledger."
+    success_criteria: "Compliance scorecard updates and publishes daily."
+    failure_conditions: "Audit log database unreachable or validation errors."
+  - workflow_id: "oversight_assurance_workflow"
+    workflow_owner: "Compliance Steward"
+    workflow_objective: "Audit overall human oversight compliance indicators and maturity scorecard for Cognitive Supervision Taxonomy."
+    trigger: "Continuous run loop."
+    inputs:
+      - "compliance_scorecards_vault"
+      - "maturity_baselines"
+      - "evidence_checklists"
+    activities:
+      - "Calculate compliance indicators weekly."
+      - "Verify maturity scorecard parameters."
+      - "Publish maturity indicators to corporate portal."
+    decision_points:
+      - "Maturity scorecard assessment"
+      - "Compliance alert trigger"
+    approvals:
+      - "Automated Execution - No approval required"
+    outputs:
+      - "Maturity indicator values"
+      - "Compliance dashboard updates"
+    generated_evidence: "Weekly compliance dashboard snapshot archived in vault."
+    success_criteria: "Indicator values publish with 100% uptime."
+    failure_conditions: "Scorecard database unreachable or execution errors."
+human_oversight_framework:
+  governance_model: "COORDINATED_HUMAN_OVERSIGHT_GOVERNANCE"
+  governance_principles:
+    - "Fundamental Rights Protection"
+    - "Human Oversight Priority"
+    - "Technical Robustness and Safety"
+  governance_authorities:
+    - "Human Oversight AI Committee"
+    - "Corporate Safety Board"
+  governance_controls:
+    - "CTRL-HO-COG-COGNIT-01"
+    - "CTRL-HO-COG-COGNIT-04"
+  oversight_ownership: "Assigns primary ownership of Cognitive Supervision Taxonomy oversight registries directly to the CAIO."
+  oversight_accountability: "Establishes primary accountability of Cognitive Supervision Taxonomy oversight boundaries with the Oversight Lead."
+  governance_reviews:
+    - "Monthly scorecard audits"
+    - "Annual oversight policy reviews"
+  governance_assurance: "Cryptographic signature validation and ledger compliance verifications"
+human_control_framework:
+  control_authorities:
+    - "Supervisor"
+    - "Override Coordinator"
+  control_boundaries:
+    - "Max planning step bounds"
+    - "API usage limits"
+  control_mechanisms:
+    - "Automated rate-limiting"
+    - "Step verification checks"
+  human_control_points:
+    - "Model pre-release validation checks gate"
+    - "API tool execution loops"
+  approval_points:
+    - "Model build release schedule sign-offs"
+    - "Supervisor override authorizations"
+  intervention_points:
+    - "Incident warning ticket triggers"
+    - "Weekly supervisory review audits"
+  control_validation: "Check accuracy of oversight checklists pre-release"
+  control_assurance: "Register signed oversight attestation certificate in compliance registry"
+intervention_framework:
+  intervention_triggers:
+    - "Weekly supervisory review audits"
+    - "Incident override warning webhook alert"
+  intervention_conditions:
+    - "Compliance scorecard < 0.90"
+    - "System performance score below baseline"
+  intervention_authorities:
+    - "Oversight Coordinator"
+    - "Supervisor"
+  intervention_actions:
+    - "Deploy manual intervention trigger settings"
+    - "Halt downstream queries gates"
+  intervention_priorities:
+    high: "Deploy manual intervention triggers"
+    medium: "Generate warning tickets"
+  intervention_validation: "Audit intervention event details in database weekly"
+  intervention_assurance: "Verify intervention hashes against compliance ledger weekly"
+override_framework:
+  override_authorities:
+    - "Oversight Coordinator"
+    - "Supervisor"
+  override_conditions:
+    - "Bypass of validation checks authorized by CRO"
+    - "Bypass of safety gates for hotfixes"
+  override_controls:
+    - "CTRL-HO-COG-COGNIT-02"
+    - "CTRL-HO-COG-COGNIT-03"
+  override_execution: "Enforce credentials checks and override state configurations weekly"
+  override_traceability: "Log supervisor signatures and session keys to override ledger databases"
+  override_validation: "Audit override check records weekly against target rules"
+  override_assurance: "Verify override ledger signatures logs weekly"
+decision_accountability_framework:
+  decision_owners:
+    - "Chief Compliance Officer"
+    - "Risk Director"
+  decision_authorities:
+    - "High-Risk AI Committee"
+    - "Corporate Safety Board"
+  decision_responsibilities:
+    compliance_checks: "Compliance Steward"
+    risk_mitigations: "Risk Engineer"
+    human_oversight: "Oversight Coordinator"
+  accountability_controls:
+    - "CTRL-HO-COG-COGNIT-04"
+  accountability_validation: "Verify roles assignment registries quarterly"
+  accountability_assurance: "Audit action logs against assigned roles weekly"
+  accountability_reporting: "Publish monthly accountability reports to safety portals"
+supervisory_framework:
+  supervisory_roles:
+    - "Supervisor"
+    - "Override Coordinator"
+  supervisory_authorities:
+    - "Human Oversight Council"
+    - "VP of Advanced AI Research"
+  supervisory_controls:
+    - "CTRL-HO-COG-COGNIT-03"
+  review_requirements:
+    - "Weekly review checklist"
+    - "Monthly supervisory findings tracking"
+  approval_requirements:
+    - "Release candidate deployment checklist scorecards"
+    - "Override authorization check gates"
+  supervisory_validation: "Check accuracy and completeness of supervisory review checklists pre-release"
+  supervisory_assurance: "Register signed supervisory review declaration in compliance ledger"
+escalation_framework:
+  escalation_triggers:
+    - "Bypass of human oversight gateway"
+    - "Unattested supervisor action"
+  escalation_levels:
+    level_1: "Notify Compliance Steward and log warning ticket"
+    level_2: "Alert CRO/CAIO and execute pipeline check gate halt"
+  escalation_authorities:
+    - "CRO"
+    - "CAIO"
+  escalation_workflows:
+    - "escalation_workflow"
+  escalation_controls:
+    - "CTRL-HO-COG-COGNIT-06"
+  escalation_validation: "Review escalation warning tickets daily against target routes"
+  escalation_assurance: "Verify escalation logs and receipts quarterly"
+oversight_assurance_framework:
+  assurance_objectives:
+    - "Align with ISO 42001 certification and Article 14 compliance requirements for Cognitive Supervision Taxonomy."
+  assurance_controls:
+    - "CTRL-HO-COG-COGNIT-04"
+    - "CTRL-HO-COG-COGNIT-06"
+  assurance_validation: "Audit compliance metrics and verification signatures logs weekly"
+  assurance_monitoring: "Track compliance dashboard scores daily"
+  assurance_reviews:
+    - "Monthly documentation audits"
+    - "Annual oversight framework reviews"
+  assurance_evidence: "Signed compliance certificates registered in attestation vault"
+oversight_intelligence_framework:
+  intelligence_sources:
+    - "internal_test_telemetry"
+    - "external_threat_feeds"
+    - "regulatory_update_feeds"
+  intelligence_collection: "Ingest and structure data using central database parsers"
+  intelligence_analysis: "Aggregate metrics and calculate relevance using trend lines"
+  governance_insights: "Identify updates and shifts in standard regulations for Cognitive Supervision Taxonomy."
+  compliance_insights: "Monitor risk dashboard trends and identify control execution gaps for Cognitive Supervision Taxonomy."
+  risk_insights: "Analyze threat databases for newly discovered vulnerabilities for Cognitive Supervision Taxonomy."
+  intelligence_validation: "Perform peer reviews of foresight briefing documents monthly"
+  intelligence_assurance: "Check source indices and verification signatures weekly"
+monitoring_framework:
+  monitoring_scope: "Continuous tracking of model benchmark parameters and runtime telemetry."
+  alert_thresholds: "Trigger alert if any capability check fails or risk score > 0.05."
+validation_framework:
+  validation_requirements:
+    - "All model releases must pass validation gate"
+    - "Simulation logs must pass completeness checks"
+  validation_methods:
+    - "Automated testing scripts"
+    - "Manual audits checks"
+  validation_evidence: "Signed validation attestation documents archived in compliance vault."
+  validation_authority: "Oversight Coordinator"
+  validation_frequency: "Weekly"
+  validation_outcomes:
+    - "Pass - proceed to conformity assessment"
+    - "Fail - block and initiate remediation"
+evidence_intelligence:
+  evidence_sources:
+    - "eval_db"
+    - "model_card_log"
+    - "compliance_ledger_db"
+  evidence_types:
+    - "Validation reports"
+    - "Attestation certificates"
+    - "Simulation data outputs"
+  evidence_integrity: "SHA-256 hashes registered in corporate ledger database."
+  evidence_lineage: "Map evidence items back to specific pipeline process logs."
+  evidence_provenance: "Generated directly by authorized compliance daemons."
+  evidence_validation: "Verify digital signatures against corporate key directories."
+  evidence_confidence: 0.99
+  evidence_retention: "10 years in compliant archives"
+telemetry:
+  telemetry_sources:
+    - "api_gateway_logs"
+    - "compliance_ledger_db"
+  collection_frequency: "Continuous"
+  telemetry_retention: "30 days in database, 10 years in cold archive"
+  telemetry_integrity: "Cryptographically sealed log records"
+  telemetry_validation: "Daily automated hash check"
+oversight_telemetry:
+  intervention_events: "Track automated pause triggers and safety halts events for Cognitive Supervision Taxonomy."
+  override_events: "Record daily supervisor override and human oversight indicators for Cognitive Supervision Taxonomy."
+  approval_events: "Log model card publication and data disclosures details for Cognitive Supervision Taxonomy."
+  review_events: "Record daily supervisor reviews and audits indicators for Cognitive Supervision Taxonomy."
+  supervision_events: "Track active model supervisor checks and approval counts for Cognitive Supervision Taxonomy."
+  escalation_events: "Record warning tickets generated and board notifications logs for Cognitive Supervision Taxonomy."
+  accountability_events: "Capture verification signatures checks and ledger updates outcomes for Cognitive Supervision Taxonomy."
+  validation_events: "Log pre-release checklist evaluation and confirm signature completeness scores for Cognitive Supervision Taxonomy."
+  governance_alerts: "High priority safety notifications sent to Safety Board."
+  governance_indicators: "Check metric threshold crossings and validation delays."
+metrics:
+  - metric_name: "cognitive_supervision_taxonomy_human_intervention_effectiveness_score"
+    formula: "COUNT(successful_interventions) / COUNT(total_interventions)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Oversight Coordinator"
+    data_source: "intervention_events_log"
+    evidence_generated: "Weekly Intervention Status report."
+  - metric_name: "cognitive_supervision_taxonomy_override_success_rate"
+    formula: "COUNT(successful_override_events) / COUNT(total_override_events)"
+    target: "0.98"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Supervisor"
+    data_source: "override_events_log"
+    evidence_generated: "Weekly Override Events report."
+  - metric_name: "cognitive_supervision_taxonomy_supervisory_review_quality_score"
+    formula: "COUNT(passed_review_scorecards) / COUNT(total_review_scorecards)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Supervisor"
+    data_source: "supervisory_scorecard_vault"
+    evidence_generated: "Weekly Supervisory scorecard."
+  - metric_name: "cognitive_supervision_taxonomy_decision_accountability_score"
+    formula: "COUNT(assigned_owners) / COUNT(total_system_roles)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "QUARTERLY"
+    owner: "Compliance Steward"
+    data_source: "accountability_checklists_db"
+    evidence_generated: "Quarterly Accountability Verification report."
+  - metric_name: "cognitive_supervision_taxonomy_human_validation_accuracy_score"
+    formula: "COUNT(validated_declarations) / COUNT(total_declarations)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "ON_RELEASE"
+    owner: "Supervisor"
+    data_source: "validation_gate_log"
+    evidence_generated: "Signed Human Validation Attestation certificate."
+  - metric_name: "cognitive_supervision_taxonomy_oversight_assurance_score"
+    formula: "COUNT(signed_evidence_records) / COUNT(total_evidence_requirements)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "MONTHLY"
+    owner: "Compliance Steward"
+    data_source: "compliance_ledger_db"
+    evidence_generated: "Monthly Compliance Assurance scorecard."
+  - metric_name: "cognitive_supervision_taxonomy_escalation_resolution_rate"
+    formula: "COUNT(resolved_warning_tickets) / COUNT(total_warning_tickets)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "REAL_TIME"
+    owner: "Oversight Coordinator"
+    data_source: "incident_log_file"
+    evidence_generated: "Weekly Incident Escalation logs."
+  - metric_name: "cognitive_supervision_taxonomy_human_control_effectiveness_score"
+    formula: "COUNT(passed_control_scorecards) / COUNT(total_control_scorecards)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Oversight Coordinator"
+    data_source: "control_scorecard_vault"
+    evidence_generated: "Weekly Control Effectiveness scorecard."
+  - metric_name: "cognitive_supervision_taxonomy_operator_readiness_score"
+    formula: "COUNT(ready_operators) / COUNT(total_operators)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.80"
+    measurement_frequency: "MONTHLY"
+    owner: "Oversight Coordinator"
+    data_source: "operator_readiness_db"
+    evidence_generated: "Monthly Operator Readiness report."
+  - metric_name: "cognitive_supervision_taxonomy_oversight_maturity_score"
+    formula: "current_maturity_level / 7.0"
+    target: "0.85"
+    warning_threshold: "0.71"
+    critical_threshold: "0.57"
+    measurement_frequency: "ANNUALLY"
+    owner: "Compliance Steward"
+    data_source: "compliance_ledger_db"
+    evidence_generated: "Annual Maturity Assessment certificate."
+kpis:
+  - "cognitive_supervision_taxonomy_human_control_effectiveness_score"
+  - "cognitive_supervision_taxonomy_oversight_assurance_score"
+kris:
+  - "cognitive_supervision_taxonomy_escalation_resolution_rate"
+  - "cognitive_supervision_taxonomy_oversight_maturity_score"
+thresholds:
+  - "Warning: cognitive_supervision_taxonomy_human_control_effectiveness_score < 0.98"
+  - "Critical: cognitive_supervision_taxonomy_human_control_effectiveness_score < 0.95"
+relationships:
+  oversight_links:
+    - source: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      target: "urn:enterprise:compliance:oversight"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-HO-COG-STD."
+  intervention_links:
+    - source: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      target: "urn:enterprise:compliance:intervention"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-HO-COG-STD."
+  override_links:
+    - source: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      target: "urn:enterprise:compliance:override"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-HO-COG-STD."
+  accountability_links:
+    - source: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      target: "urn:enterprise:compliance:accountability"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-HO-COG-STD."
+  supervision_links:
+    - source: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      target: "urn:enterprise:compliance:supervision"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-HO-COG-STD."
+  evidence_links:
+    - source: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      target: "urn:enterprise:compliance:evidence"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-HO-COG-STD."
+  workflow_links:
+    - source: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      target: "urn:enterprise:compliance:workflow"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-HO-COG-STD."
+  governance_links:
+    - source: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      target: "urn:enterprise:compliance:governance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-HO-COG-STD."
+  compliance_links:
+    - source: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      target: "urn:enterprise:compliance:compliance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-HO-COG-STD."
+  operator_links:
+    - source: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      target: "urn:enterprise:compliance:operator"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-HO-COG-STD."
+knowledge_graph:
+  nodes:
+    - id: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      label: "Cognitive Supervision Taxonomy"
+      properties:
+        domain: "Cognitive Supervision"
+        doc_id: "HO-COG-COGNITIVE_SU-001"
+        version: "1.0.0"
+    - id: "urn:enterprise:compliance:database"
+      label: "Compliance Ledger Database"
+      properties:
+        type: "database"
+        immutable: True
+  relationships:
+    - source: "urn:enterprise:oversight:cognitive_supervision_taxonomy"
+      target: "urn:enterprise:compliance:database"
+      relationship_type: "WRITES_LOGS_TO"
+      confidence: 0.99
+      evidence: "API write call configs and log hashes checks."
+crosswalks:
+  eu_ai_act:
+    framework: "eu_ai_act"
+    control_mapping: "Map oversight compliance controls to EU AI Act compliance guidelines for Cognitive Supervision Taxonomy."
+    security_mapping: "Enforce model robustness and deployment containment checks."
+    accountability_mapping: "Assign roles for post-market monitoring and capability review."
+    evidence_mapping: "Log incident and scanning events in database."
+    validation_mapping: "Validate model benchmark results under containment profiles."
+  gpai_obligations:
+    framework: "gpai_obligations"
+    control_mapping: "Verify base model capabilities checks and benchmark runs."
+    security_mapping: "Establish model capability verification tests and triggers."
+    accountability_mapping: "AI system owner signs off base model capability risk map."
+    evidence_mapping: "Log capability testing and benchmark results."
+    validation_mapping: "Validate model capability growth metrics weekly."
+  gdpr:
+    framework: "gdpr"
+    control_mapping: "Enforce data privacy policies during foresight data collection."
+    security_mapping: "Secure threat intelligence databases and restrict access."
+    accountability_mapping: "DPO reviews data scanning sources."
+    evidence_mapping: "Log data processing consents and source audits."
+    validation_mapping: "Audit privacy impact assessments annually."
+  iso_42001:
+    framework: "iso_42001"
+    control_mapping: "Establish AI management system rules and oversight frameworks."
+    security_mapping: "Define security boundaries and limits for AI configurations."
+    accountability_mapping: "Assign CAIO as owner of AI management systems."
+    evidence_mapping: "Document internal audits and model validation reviews."
+    validation_mapping: "Audit AI management system outcomes annually."
+  iso_23894:
+    framework: "iso_23894"
+    control_mapping: "Align risk assessment rules with ISO 31000 standards."
+    security_mapping: "Assess risk of capability growth and containment bypass."
+    accountability_mapping: "Risk director signs off risk assessments."
+    evidence_mapping: "Log risks in future risk register databases."
+    validation_mapping: "Audit risk mitigation plan outcomes."
+  iso_27001:
+    framework: "iso_27001"
+    control_mapping: "Deploy ISMS security control policies."
+    security_mapping: "Secure information assets from unauthorized access."
+    accountability_mapping: "Security owner manages ISMS audits."
+    evidence_mapping: "Log database access checks and network events."
+    validation_mapping: "Audit ISMS control operations annually."
+  iso_27701:
+    framework: "iso_27701"
+    control_mapping: "Enforce PII processor privacy controls."
+    security_mapping: "Encrypt personal data and logs in transit and rest."
+    accountability_mapping: "DPO validates PII data boundaries."
+    evidence_mapping: "Log user access and processing agreements."
+    validation_mapping: "Validate PII system controls weekly."
+  nist_ai_rmf:
+    framework: "nist_ai_rmf"
+    control_mapping: "Align controls with GOVERN, MAP, MEASURE, MANAGE functions."
+    security_mapping: "Enforce model robustness and resilience controls."
+    accountability_mapping: "Assign risk managers to all AI models."
+    evidence_mapping: "Document model verification test plans."
+    validation_mapping: "Validate model inputs and outputs weekly."
+  oecd_ai:
+    framework: "oecd_ai"
+    control_mapping: "Align with human-centered values and fairness guidelines."
+    security_mapping: "Enforce transparency and explainability standards."
+    accountability_mapping: "Establish accountability boards for AI projects."
+    evidence_mapping: "Document stakeholder transparency assessments."
+    validation_mapping: "Verify explanation accuracy and readability scores."
+  unesco_ai:
+    framework: "unesco_ai"
+    control_mapping: "Align controls with ethical AI guidelines."
+    security_mapping: "Conduct ethical impact checks before deployment."
+    accountability_mapping: "Assign ethical reviews to compliance board."
+    evidence_mapping: "Log ethical assessment records."
+    validation_mapping: "Verify ethical design criteria compliance."
+compliance_mapping:
+  - article: "Article 14"
+    obligation: "Human oversight of high-risk AI systems"
+    implementation_method: "Deploy manual approval validation and control mapping rules weekly for Cognitive Supervision Taxonomy."
+    oversight_control: "CTRL-HO-COG-COGNIT-03"
+    required_evidence: "Signed supervisor attestation and override certificates for Cognitive Supervision Taxonomy"
+    validation_method: "Check documentation compliance scorecard"
+    assurance_method: "Audit supervisor registry hash in ledger"
+  - article: "Article 26"
+    obligation: "Obligations of deployers of high-risk AI systems"
+    implementation_method: "Deploy manual approval validation and control mapping rules weekly for Cognitive Supervision Taxonomy."
+    oversight_control: "CTRL-HO-COG-COGNIT-03"
+    required_evidence: "Signed supervisor attestation and override certificates for Cognitive Supervision Taxonomy"
+    validation_method: "Check documentation compliance scorecard"
+    assurance_method: "Audit supervisor registry hash in ledger"
+  - article: "Article 50"
+    obligation: "Transparency obligations for providers and deployers"
+    implementation_method: "Deploy manual approval validation and control mapping rules weekly for Cognitive Supervision Taxonomy."
+    oversight_control: "CTRL-HO-COG-COGNIT-03"
+    required_evidence: "Signed supervisor attestation and override certificates for Cognitive Supervision Taxonomy"
+    validation_method: "Check documentation compliance scorecard"
+    assurance_method: "Audit supervisor registry hash in ledger"
+integration_points:
+  core_governance:
+    integration_type: "data_exchange"
+    description: "Coordinate Cognitive Supervision Taxonomy oversight checklist checks with core oversight framework."
+  risk_management:
+    integration_type: "data_exchange"
+    description: "Export override events risk scores from Cognitive Supervision Taxonomy database into central risk database."
+  high_risk_ai_systems:
+    integration_type: "data_exchange"
+    description: "Enforce Article 14 human oversight requirements checks for Cognitive Supervision Taxonomy high risk runs."
+  provider_obligations:
+    integration_type: "data_exchange"
+    description: "Coordinate provider oversight declarations with Cognitive Supervision Taxonomy filings."
+  deployer_obligations:
+    integration_type: "data_exchange"
+    description: "Verify downstream user guidelines checks checklists completeness for Cognitive Supervision Taxonomy."
+  transparency_and_explainability:
+    integration_type: "data_exchange"
+    description: "Coordinate explainability disclosures metrics with Cognitive Supervision Taxonomy oversight templates."
+  technical_documentation:
+    integration_type: "data_exchange"
+    description: "Link documentation templates metadata checklists with Cognitive Supervision Taxonomy override logs."
+  audit_and_enforcement:
+    integration_type: "data_exchange"
+    description: "Log supervisor reviews and validation bypass events for Cognitive Supervision Taxonomy audits."
+  audit_and_forensics:
+    integration_type: "data_exchange"
+    description: "Provide transmission logs and recipient hashes for Cognitive Supervision Taxonomy forensics."
+  compliance_scoring:
+    integration_type: "data_exchange"
+    description: "Compute compliance metrics from Cognitive Supervision Taxonomy scorecards into central system score."
+  conformity_assessment:
+    integration_type: "data_exchange"
+    description: "Assert conformity verification steps completeness prior to release of Cognitive Supervision Taxonomy."
+  evidence_and_attestation:
+    integration_type: "data_exchange"
+    description: "Register validation certificates and ledger transaction IDs from Cognitive Supervision Taxonomy attestation."
+  incident_reporting:
+    integration_type: "data_exchange"
+    description: "Log incident alerts triggers and severity score updates from Cognitive Supervision Taxonomy runs."
+  post_market_monitoring:
+    integration_type: "data_exchange"
+    description: "Feed model performance telemetry stream alerts from Cognitive Supervision Taxonomy to dashboard."
+  foundation_models:
+    integration_type: "data_exchange"
+    description: "Examine dependency risk assessments and parameter classifications logs for base model of Cognitive Supervision Taxonomy."
+  general_purpose_ai:
+    integration_type: "data_exchange"
+    description: "Examine GPAI obligations check scorecards for base model of Cognitive Supervision Taxonomy."
+  cybersecurity:
+    integration_type: "data_exchange"
+    description: "Verify report encryption keys parameters and distribution gateways security."
+  cybersecurity_and_resilience:
+    integration_type: "data_exchange"
+    description: "Monitor data transmission queue availability and trace hashes for Cognitive Supervision Taxonomy systems."
+  privacy_and_fundamental_rights:
+    integration_type: "data_exchange"
+    description: "Feed rights impact assessments check results from Cognitive Supervision Taxonomy to rights dashboards."
+  governance_reporting:
+    integration_type: "data_exchange"
+    description: "Coordinate mandatory notifications and deadline alerts schedules for Cognitive Supervision Taxonomy filings."
+dependencies:
+  - "urn:enterprise:database:compliance_ledger_db"
+  - "urn:enterprise:api:gateway_kms"
+outputs:
+  - "Validated override checklist file"
+  - "Signed human oversight attestation"
+  - "Real-time override dashboard metrics update"
+artifacts:
+  - "Foresight oversight assessment summaries"
+  - "Supervisor review status registries logs"
+  - "Incident tickets tracking files"
+records:
+  - "Oversight impact assessment data records"
+  - "Supervisor override tracking ledger logs"
+  - "Weekly signatures verification outcomes registers"
+continuous_improvement:
+  improvement_reviews:
+    - "Annual override taxonomy updates"
+    - "Quarterly metric logic calibration checks"
+  improvement_actions:
+    - "Optimize compile data queries latency"
+    - "Refine validation checklist criteria"
+  remediation_procedures:
+    - "Update validation gateway key setups"
+    - "Clear transmission queue warnings"
+exceptions:
+  - "Override authorized by CRO for emergency research build"
+  - "Validation gateway bypass for urgent patch release authorized by Safety Board"
+escalation:
+  escalation_contacts:
+    - "Compliance Steward"
+    - "Supervisor"
+    - "CRO"
+    - "CAIO"
+  escalation_routes:
+    warning: "Notify Compliance Steward and log ticket in database"
+    critical: "Alert CRO/CAIO immediately and trigger pipeline check gate halt"
+versioning:
+  current_version: "1.0.0"
+  release_status: "APPROVED"
+  change_log:
+    - version: "1.0.0"
+      date: "2026-06-13"
+      author: "Governance Architect"
+      description: "Initial publication of Human Oversight compliance skill configuration."
+human_oversight_capabilities:
+  human_oversight_governance: "Verify and log human oversight policy compliance scorecard for Cognitive Supervision Taxonomy."
+  human_supervision: "Executive level oversight briefs and supervisor dashboard metrics for Cognitive Supervision Taxonomy."
+  human_intervention: "Track and execute manual intervention gates and response paths for Cognitive Supervision Taxonomy."
+  human_control: "Enforce manual control limits and step verifications for Cognitive Supervision Taxonomy."
+  human_review: "Track and log supervisor check lists and gap scorecards for Cognitive Supervision Taxonomy."
+  human_validation: "Log signature verification and validation check gates for Cognitive Supervision Taxonomy."
+  human_approval: "Trace and export supervisor approvals and override registries for Cognitive Supervision Taxonomy."
+  override_management: "Enforce credentials checks and override state configurations weekly for Cognitive Supervision Taxonomy."
+  escalation_management: "Track escalation paths and board notify triggers lists for Cognitive Supervision Taxonomy."
+  decision_accountability: "Verify roles assignment registries and decision accountability scorecards for Cognitive Supervision Taxonomy."
+  operator_accountability: "Log operator signature ledgers and responsibility mapping for Cognitive Supervision Taxonomy."
+  supervisory_accountability: "Enforce supervisor signature verifications and log oversight metrics weekly for Cognitive Supervision Taxonomy."
+  governance_accountability: "CAIO signs off human oversight declaration and QMS registers weekly for Cognitive Supervision Taxonomy."
+  oversight_assurance: "Verify oversight dashboard availability and check signature verification logs daily for Cognitive Supervision Taxonomy."
+  oversight_validation: "Check accuracy and completeness of oversight checklists pre-release for Cognitive Supervision Taxonomy."
+  oversight_monitoring: "Aggregated performance dashboard tracking and override telemetry updates for Cognitive Supervision Taxonomy."
+  oversight_traceability: "Lineage tracing of override metrics back to raw telemetry database for Cognitive Supervision Taxonomy."
+  oversight_auditability: "Validate data access permissions and logs signatures keys for Cognitive Supervision Taxonomy."
+  operational_oversight: "Continuous operational logging and queue latency tracking for Cognitive Supervision Taxonomy."
+  safety_oversight: "Run safety evaluations and simulate failure loops under sandboxed environments for Cognitive Supervision Taxonomy."
+  risk_oversight: "Export override events risk scores from Cognitive Supervision Taxonomy database to central risk registry."
+  compliance_oversight: "Assess compliance check outcomes and validation queues daily for Cognitive Supervision Taxonomy."
+  transparency_oversight: "Publish validated model cards and transparency disclosures for Cognitive Supervision Taxonomy."
+  intervention_effectiveness: "Evaluate intervention trigger success rates and remediation playbooks for Cognitive Supervision Taxonomy."
+  supervisory_effectiveness: "Audit supervisory review scorecards and findings tracking indexes weekly for Cognitive Supervision Taxonomy."
+  oversight_intelligence: "Parse external regulations and identify threat signals for Cognitive Supervision Taxonomy."
+  oversight_maturity: "Annual maturity model assessment and capability reviews database for Cognitive Supervision Taxonomy."
+altai_human_oversight:
+  autonomous_agent_oversight:
+    agent_supervision: "Log agent execution session IDs and supervisor roles for Cognitive Supervision Taxonomy."
+    agent_intervention: "Record agent planning loops and override actions triggers for Cognitive Supervision Taxonomy."
+    agent_override: "Assign override roles and log override authorizations for Cognitive Supervision Taxonomy."
+    agent_accountability: "Track agent execution latency and success rates logs for Cognitive Supervision Taxonomy."
+  multi_agent_oversight:
+    swarm_supervision: "Map participant APIs and interaction routes lists for Cognitive Supervision Taxonomy."
+    coordination_oversight: "Enforce session handshake keys and synchronization gates for Cognitive Supervision Taxonomy."
+    ecosystem_monitoring: "Log coordinated agent swarm paths and collective decision states for Cognitive Supervision Taxonomy."
+    collective_intervention: "Track autonomous step bounds and active loop limits for Cognitive Supervision Taxonomy."
+  reasoning_oversight:
+    reasoning_review: "Assess reasoning anomalies and calculate confidence scores for Cognitive Supervision Taxonomy."
+    reasoning_validation: "Run automated validations of agent decision paths for Cognitive Supervision Taxonomy."
+    reasoning_intervention: "Export structured reasoning chain trace graphs for Cognitive Supervision Taxonomy."
+    reasoning_traceability: "Sign reasoning certificates and log verification events for Cognitive Supervision Taxonomy."
+  memory_oversight:
+    memory_review: "Monitor agent vector memory queries and storage volumes for Cognitive Supervision Taxonomy."
+    memory_validation: "Enforce data privacy filters and memory cell classifications for Cognitive Supervision Taxonomy."
+    memory_intervention: "Validate vector memory checksums and secure backups weekly for Cognitive Supervision Taxonomy."
+    memory_accountability: "Validate vector memory trace logs and checks signatures keys weekly."
+  tool_oversight:
+    tool_authorization: "Log tool registrations, calls, and input parameters for Cognitive Supervision Taxonomy."
+    tool_review: "Verify tool execution success and output schemas for Cognitive Supervision Taxonomy."
+    tool_intervention: "Enforce tool permission keys and access lists for Cognitive Supervision Taxonomy."
+    tool_accountability: "Audit tool execution signatures and log tool usage stats weekly."
+  orchestration_oversight:
+    workflow_supervision: "Monitor pipeline steps and task execution status logs for Cognitive Supervision Taxonomy."
+    orchestration_review: "Track report compilation scheduling and routing pipelines for Cognitive Supervision Taxonomy."
+    orchestration_intervention: "Sign orchestration logs and check sequence tokens daily for Cognitive Supervision Taxonomy."
+    orchestration_traceability: "Register orchestration validation logs in compliance ledger weekly."
+  foundation_model_oversight:
+    capability_review: "Report training FLOP limits and parameter classifications for base model of Cognitive Supervision Taxonomy."
+    limitation_review: "Disclose base model risk factors and red team reviews for base model of Cognitive Supervision Taxonomy."
+    safety_review: "Register foundation model cards in compliance ledger for base model of Cognitive Supervision Taxonomy."
+    accountability_review: "Audit training process documentation against Article 53 guidelines for base model of Cognitive Supervision Taxonomy."
+  gpai_oversight:
+    autonomy_supervision: "Disclose general obligations status and documentation coverage for base model of Cognitive Supervision Taxonomy."
+    risk_supervision: "Assign model ownership and sign compliance scorecards for base model of Cognitive Supervision Taxonomy."
+    accountability_supervision: "Register GPAI certificates in immutable compliance ledgers for base model of Cognitive Supervision Taxonomy."
+    assurance_supervision: "Disclose systemic risk benchmarks scores and failures projections for base model of Cognitive Supervision Taxonomy."
+human_oversight_maturity_model:
+  level_1_reactive:
+    capabilities: "Ad-hoc compilation of spreadsheet data reports for Cognitive Supervision Taxonomy."
+    oversight_capabilities: "Manual override tracking"
+    intervention_capabilities: "Manual intervention triggers"
+    accountability_capabilities: "Basic roles checklist"
+    evidence_requirements: "Spreadsheet document uploads"
+    assurance_requirements: "Manual document checking"
+  level_2_repeatable:
+    capabilities: "Scheduled execution of reporting templates with standard scripts for Cognitive Supervision Taxonomy."
+    oversight_capabilities: "Scripted override monitoring"
+    intervention_capabilities: "Scripted intervention triggers"
+    accountability_capabilities: "Standard sign-off checklists"
+    evidence_requirements: "Script logs files"
+    assurance_requirements: "Verify script hash"
+  level_3_defined:
+    capabilities: "Enterprise-wide reporting standard templates and registries for Cognitive Supervision Taxonomy."
+    oversight_capabilities: "Uniform override definitions"
+    intervention_capabilities: "Uniform intervention thresholds"
+    accountability_capabilities: "Digital signatures"
+    evidence_requirements: "Signed verification files"
+    assurance_requirements: "Check signature validity"
+  level_4_managed:
+    capabilities: "Automated reporting workflows triggered by pipeline events and telemetry for Cognitive Supervision Taxonomy."
+    oversight_capabilities: "Event driven override gateways"
+    intervention_capabilities: "Event driven intervention playbooks"
+    accountability_capabilities: "Immutable ledger logging"
+    evidence_requirements: "Ledger transaction IDs"
+    assurance_requirements: "Verify ledger state daily"
+  level_5_optimized:
+    capabilities: "Dynamic adaptive strictness checking based on telemetry scores for Cognitive Supervision Taxonomy."
+    oversight_capabilities: "Dynamic override thresholds"
+    intervention_capabilities: "Dynamic intervention strictness"
+    accountability_capabilities: "Attestation certificate registries"
+    evidence_requirements: "Attestation certificates"
+    assurance_requirements: "Weekly adversarial checklist audits"
+  level_6_assured:
+    capabilities: "Agentic self-evaluation and automated reasoning trace logs generation for Cognitive Supervision Taxonomy."
+    oversight_capabilities: "Agent coordination checks"
+    intervention_capabilities: "Agentic intervention routing"
+    accountability_capabilities: "Ledger proof registrations"
+    evidence_requirements: "Reasoning trace logs"
+    assurance_requirements: "Validation of agent decision paths weekly"
+  level_7_human_centered:
+    capabilities: "Self-correcting, autonomous compliance verification and authority reporting for Cognitive Supervision Taxonomy."
+    oversight_capabilities: "Autonomous override validation checks gate"
+    intervention_capabilities: "Autonomous hazard treatment"
+    accountability_capabilities: "Ledger authority attestation"
+    evidence_requirements: "Cryptographic ledger records"
+    assurance_requirements: "Continuous automated loop validation check gates"

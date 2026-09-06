@@ -1,0 +1,1868 @@
+metadata:
+  id: AAE-AC-ADABEH-001
+  name: adaptive_behavior_monitoring
+  title: Adaptive Behavior Monitoring
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: cognitive_auditability
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - adaptive_cognition
+    - adaptive_behavior_monitoring
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Adaptive Behavior Monitoring governance within
+    audit_and_enforcement/adaptive_cognition, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for continuous surveillance with threshold-based escalation, adaptive
+    system behavior monitoring under governance constraints. Integrates with the EU AI Act
+    governance ecosystem through machine-evaluable obligations, evidence preservation, and
+    conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Adaptive Behavior Monitoring across
+    enterprise and cross-border operations within audit_and_enforcement/adaptive_cognition.
+objectives:
+  - Operationalize Adaptive Behavior Monitoring with regulator-defensible controls and evidence chains
+  - Enable automated validation of Adaptive Behavior Monitoring conformance across adaptive_cognition
+  - Preserve audit-grade and forensic-grade records for all Adaptive Behavior Monitoring activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Adaptive Behavior Monitoring with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Adaptive Behavior Monitoring
+definitions:
+  adaptive_behavior_monitoring_governance_domain:
+    >
+      The operational jurisdiction of Adaptive Behavior Monitoring encompassing controlled audit,
+      enforcement, investigation, and evidence processes within adaptive_cognition.
+  adaptive_behavior_monitoring_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Adaptive Behavior Monitoring control
+      effectiveness, process adherence, and regulatory conformity.
+  adaptive_behavior_monitoring_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Adaptive Behavior Monitoring decision logic.
+  adaptive_behavior_monitoring_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Adaptive Behavior Monitoring processes.
+  adaptive_behavior_monitoring_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within Adaptive
+      Behavior Monitoring operations.
+  adaptive_behavior_monitoring_conformity_assertion:
+    >
+      Formal statement that Adaptive Behavior Monitoring requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: adaptive_behavior_monitoring_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  adaptive_behavior_monitoring_artifact_type:
+    - adaptive_behavior_monitoring_record
+    - adaptive_behavior_monitoring_log
+    - adaptive_behavior_monitoring_report
+    - adaptive_behavior_monitoring_attestation
+    - adaptive_behavior_monitoring_package
+  adaptive_behavior_monitoring_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Adaptive Behavior Monitoring Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: adaptive_cognition
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - risk_management
+    - technical_documentation
+    - human_oversight
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - audit_traceability
+    - governance_forensics
+    - reporting
+    - audit_and_enforcement/adaptive_cognition/adaptive_behavior_monitoring.yaml
+  related_domains:
+    - audit_traceability
+    - governance_forensics
+    - compliance_audits
+  related_skills:
+    - cognitive_auditability
+    - reasoning_traceability
+    - epistemic_integrity_validation
+    - adaptive_behavior_monitoring
+  parent_governance_objects:
+    - enforcement_framework
+    - audit_taxonomy
+  child_governance_objects:
+    - reasoning_trace_record
+    - epistemic_validation_report
+    - adaptive_behavior_monitoring_governance_object
+  consumes_artifacts:
+    - model_documentation
+    - risk_assessment_record
+    - oversight_log
+    - adaptive_behavior_monitoring_input_artifact
+  produces_artifacts:
+    - cognitive_audit_report
+    - alignment_stability_assessment
+    - uncertainty_disclosure_record
+    - adaptive_behavior_monitoring_record
+    - adaptive_behavior_monitoring_report
+    - adaptive_behavior_monitoring_attestation
+  consumes_evidence:
+    - model_activity_log
+    - decision_trace
+    - runtime_telemetry
+    - adaptive_behavior_monitoring_source_evidence
+  produces_evidence:
+    - reasoning_audit_trail
+    - epistemic_integrity_attestation
+    - adaptive_behavior_monitoring_audit_evidence
+    - adaptive_behavior_monitoring_validation_evidence
+    - adaptive_behavior_monitoring_enforcement_evidence
+  governance_dependencies:
+    - core_governance
+    - policy_enforcement
+  regulatory_dependencies:
+    - eu_ai_act_article_9
+    - eu_ai_act_article_14
+  risk_dependencies:
+    - risk_management
+    - systemic_risk_models
+  control_dependencies:
+    - audit_traceability
+    - compliance_audits
+    - adaptive_behavior_monitoring_control_register
+roles_and_responsibilities:
+  adaptive_behavior_monitoring_owner:
+    responsibilities:
+      - Accountable for Adaptive Behavior Monitoring strategy, control design, and regulatory alignment
+  adaptive_behavior_monitoring_operator:
+    responsibilities:
+      - Executes Adaptive Behavior Monitoring workflows and maintains operational records
+  adaptive_behavior_monitoring_auditor:
+    responsibilities:
+      - Independently validates Adaptive Behavior Monitoring control effectiveness and evidence sufficiency
+  adaptive_behavior_monitoring_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Adaptive Behavior Monitoring investigations
+  adaptive_behavior_monitoring_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Adaptive Behavior Monitoring
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-041
+    name: Decision Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-042
+    name: Model Activity Logging
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-043
+    name: Cross-System Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-044
+    name: Regulatory Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-045
+    name: Executive Audit Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-046
+    name: Enforcement Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-047
+    name: Forensic Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-048
+    name: Compliance Attestation Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-049
+    name: Market Surveillance Support
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-050
+    name: Post-Enforcement Monitoring
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-ADA-ADAPTIVE_B-BEHAVIORDRI
+    control_name: behavior_drift_monitoring
+    control_category: detective
+    control_objective:
+      Detect deviation from approved behavioral baselines for adaptive agents and multi-agent systems
+    governance_rationale:
+      >
+        behavior_drift_monitoring is required to govern Adaptive Behavior Monitoring risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement behavior_drift_monitoring as automated policy in adaptive_behavior_monitoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: behavior_drift_monitoring_continuous_telemetry_dashboard
+    validation_method: behavior_drift_monitoring_quarterly_design_and_operating_effectiveness_test
+    testing_method: behavior_drift_monitoring_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: behavior_drift_monitoring_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify behavior_drift_monitoring design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        behavior_drift_monitoring outputs may trigger enforcement under adaptive_behavior_monitoring
+        escalation rules.
+  - control_id: AAE-ADA-ADAPTIVE_B-ADAPTIVEDEC
+    control_name: adaptive_decision_validation
+    control_category: preventive
+    control_objective:
+      Validate adaptive agent decisions against governance policy before autonomous execution
+    governance_rationale:
+      >
+        adaptive_decision_validation is required to govern Adaptive Behavior Monitoring risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement adaptive_decision_validation as automated policy in adaptive_behavior_monitoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: adaptive_decision_validation_continuous_telemetry_dashboard
+    validation_method: adaptive_decision_validation_quarterly_design_and_operating_effectiveness_test
+    testing_method: adaptive_decision_validation_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: adaptive_decision_validation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify adaptive_decision_validation design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        adaptive_decision_validation outputs may trigger enforcement under adaptive_behavior_monitoring
+        escalation rules.
+  - control_id: AAE-ADA-ADAPTIVE_B-GOALEVOLUTI
+    control_name: goal_evolution_monitoring
+    control_category: detective
+    control_objective:
+      Track and alert on unauthorized goal evolution or objective drift in planning systems
+    governance_rationale:
+      >
+        goal_evolution_monitoring is required to govern Adaptive Behavior Monitoring risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement goal_evolution_monitoring as automated policy in adaptive_behavior_monitoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: goal_evolution_monitoring_continuous_telemetry_dashboard
+    validation_method: goal_evolution_monitoring_quarterly_design_and_operating_effectiveness_test
+    testing_method: goal_evolution_monitoring_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: goal_evolution_monitoring_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify goal_evolution_monitoring design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        goal_evolution_monitoring outputs may trigger enforcement under adaptive_behavior_monitoring
+        escalation rules.
+  - control_id: AAE-ADA-ADAPTIVE_B-AUTONOMYBOU
+    control_name: autonomy_boundary_enforcement
+    control_category: preventive
+    control_objective:
+      Enforce hard autonomy boundaries preventing agents from exceeding delegated authority
+    governance_rationale:
+      >
+        autonomy_boundary_enforcement is required to govern Adaptive Behavior Monitoring risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement autonomy_boundary_enforcement as automated policy in adaptive_behavior_monitoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: autonomy_boundary_enforcement_continuous_telemetry_dashboard
+    validation_method: autonomy_boundary_enforcement_quarterly_design_and_operating_effectiveness_test
+    testing_method: autonomy_boundary_enforcement_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: autonomy_boundary_enforcement_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify autonomy_boundary_enforcement design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        autonomy_boundary_enforcement outputs may trigger enforcement under adaptive_behavior_monitoring
+        escalation rules.
+  - control_id: AAE-ADA-ADAPTIVE_B-BEHAVIORALA
+    control_name: behavioral_anomaly_detection
+    control_category: detective
+    control_objective:
+      Identify statistical and semantic behavioral anomalies in runtime agent telemetry
+    governance_rationale:
+      >
+        behavioral_anomaly_detection is required to govern Adaptive Behavior Monitoring risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement behavioral_anomaly_detection as automated policy in adaptive_behavior_monitoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: behavioral_anomaly_detection_continuous_telemetry_dashboard
+    validation_method: behavioral_anomaly_detection_quarterly_design_and_operating_effectiveness_test
+    testing_method: behavioral_anomaly_detection_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: behavioral_anomaly_detection_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify behavioral_anomaly_detection design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        behavioral_anomaly_detection outputs may trigger enforcement under adaptive_behavior_monitoring
+        escalation rules.
+  - control_id: AAE-ADA-ADAPTIVE_B-POLICYDEVIA
+    control_name: policy_deviation_monitoring
+    control_category: detective
+    control_objective: Monitor agent actions for deviation from organizational AI policy constraints
+    governance_rationale:
+      >
+        policy_deviation_monitoring is required to govern Adaptive Behavior Monitoring risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement policy_deviation_monitoring as automated policy in adaptive_behavior_monitoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: policy_deviation_monitoring_continuous_telemetry_dashboard
+    validation_method: policy_deviation_monitoring_quarterly_design_and_operating_effectiveness_test
+    testing_method: policy_deviation_monitoring_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: policy_deviation_monitoring_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify policy_deviation_monitoring design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        policy_deviation_monitoring outputs may trigger enforcement under adaptive_behavior_monitoring
+        escalation rules.
+  - control_id: AAE-ADA-ADAPTIVE_B-RUNTIMEBEHA
+    control_name: runtime_behavior_constraint_validation
+    control_category: preventive
+    control_objective: Validate runtime behavior against constraint models before state persistence
+    governance_rationale:
+      >
+        runtime_behavior_constraint_validation is required to govern Adaptive Behavior Monitoring risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive
+        cognition failures.
+    implementation_guidance:
+      >
+        Implement runtime_behavior_constraint_validation as automated policy in
+        adaptive_behavior_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: runtime_behavior_constraint_validation_continuous_telemetry_dashboard
+    validation_method:
+      runtime_behavior_constraint_validation_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      runtime_behavior_constraint_validation_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: runtime_behavior_constraint_validation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify runtime_behavior_constraint_validation design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        runtime_behavior_constraint_validation outputs may trigger enforcement under
+        adaptive_behavior_monitoring escalation rules.
+  - control_id: AAE-ADA-ADAPTIVE_B-EMERGENTBEH
+    control_name: emergent_behavior_escalation_management
+    control_category: corrective
+    control_objective: Escalate emergent multi-agent behaviors exceeding risk tolerance thresholds
+    governance_rationale:
+      >
+        emergent_behavior_escalation_management is required to govern Adaptive Behavior Monitoring risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive
+        cognition failures.
+    implementation_guidance:
+      >
+        Implement emergent_behavior_escalation_management as automated policy in
+        adaptive_behavior_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: emergent_behavior_escalation_management_continuous_telemetry_dashboard
+    validation_method:
+      emergent_behavior_escalation_management_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      emergent_behavior_escalation_management_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: emergent_behavior_escalation_management_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify emergent_behavior_escalation_management design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        emergent_behavior_escalation_management outputs may trigger enforcement under
+        adaptive_behavior_monitoring escalation rules.
+  - control_id: AAE-ADA-ADAPTIVE_B-ADAPTIVEPOL
+    control_name: adaptive_policy_drift_detection
+    control_category: detective
+    control_objective:
+      Detect drift between deployed agent policies and approved governance policy versions
+    governance_rationale:
+      >
+        adaptive_policy_drift_detection is required to govern Adaptive Behavior Monitoring risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement adaptive_policy_drift_detection as automated policy in adaptive_behavior_monitoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: adaptive_policy_drift_detection_continuous_telemetry_dashboard
+    validation_method:
+      adaptive_policy_drift_detection_quarterly_design_and_operating_effectiveness_test
+    testing_method: adaptive_policy_drift_detection_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: adaptive_policy_drift_detection_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify adaptive_policy_drift_detection design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        adaptive_policy_drift_detection outputs may trigger enforcement under
+        adaptive_behavior_monitoring escalation rules.
+  - control_id: AAE-ADA-ADAPTIVE_B-AGENTGOALA
+    control_name: agent_goal_alignment_assurance
+    control_category: preventive
+    control_objective:
+      Assure agent goals remain aligned with human-specified intent and EU AI Act obligations
+    governance_rationale:
+      >
+        agent_goal_alignment_assurance is required to govern Adaptive Behavior Monitoring risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement agent_goal_alignment_assurance as automated policy in adaptive_behavior_monitoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: agent_goal_alignment_assurance_continuous_telemetry_dashboard
+    validation_method: agent_goal_alignment_assurance_quarterly_design_and_operating_effectiveness_test
+    testing_method: agent_goal_alignment_assurance_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: agent_goal_alignment_assurance_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify agent_goal_alignment_assurance design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        agent_goal_alignment_assurance outputs may trigger enforcement under
+        adaptive_behavior_monitoring escalation rules.
+  - control_id: AAE-ADA-ADAPTIVE_B-BEHAVIORBAS
+    control_name: behavior_baseline_recalibration
+    control_category: corrective
+    control_objective:
+      Recalibrate behavior baselines after approved model or policy updates with audit trail
+    governance_rationale:
+      >
+        behavior_baseline_recalibration is required to govern Adaptive Behavior Monitoring risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement behavior_baseline_recalibration as automated policy in adaptive_behavior_monitoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: behavior_baseline_recalibration_continuous_telemetry_dashboard
+    validation_method:
+      behavior_baseline_recalibration_quarterly_design_and_operating_effectiveness_test
+    testing_method: behavior_baseline_recalibration_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: behavior_baseline_recalibration_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify behavior_baseline_recalibration design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        behavior_baseline_recalibration outputs may trigger enforcement under
+        adaptive_behavior_monitoring escalation rules.
+  - control_id: AAE-ADA-ADAPTIVE_B-MONITORINGT
+    control_name: monitoring_telemetry_integrity_sealing
+    control_category: evidence
+    control_objective: Cryptographically seal behavior monitoring telemetry for forensic admissibility
+    governance_rationale:
+      >
+        monitoring_telemetry_integrity_sealing is required to govern Adaptive Behavior Monitoring risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive
+        cognition failures.
+    implementation_guidance:
+      >
+        Implement monitoring_telemetry_integrity_sealing as automated policy in
+        adaptive_behavior_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: monitoring_telemetry_integrity_sealing_continuous_telemetry_dashboard
+    validation_method:
+      monitoring_telemetry_integrity_sealing_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      monitoring_telemetry_integrity_sealing_statistical_sampling_with_exception_tracking
+    control_owner: adaptive_behavior_monitoring_control_owner
+    evidence_generated: monitoring_telemetry_integrity_sealing_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify monitoring_telemetry_integrity_sealing design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        monitoring_telemetry_integrity_sealing outputs may trigger enforcement under
+        adaptive_behavior_monitoring escalation rules.
+requirements:
+  legal:
+    >
+      Adaptive Behavior Monitoring must satisfy legal requirements for continuous surveillance with
+      threshold-based escalation, adaptive system behavior monitoring under governance constraints
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Adaptive Behavior Monitoring must satisfy regulatory requirements for continuous surveillance
+      with threshold-based escalation, adaptive system behavior monitoring under governance
+      constraints including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Adaptive Behavior Monitoring must satisfy technical requirements for continuous surveillance
+      with threshold-based escalation, adaptive system behavior monitoring under governance
+      constraints including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Adaptive Behavior Monitoring must satisfy operational requirements for continuous surveillance
+      with threshold-based escalation, adaptive system behavior monitoring under governance
+      constraints including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Adaptive Behavior Monitoring must satisfy audit requirements for continuous surveillance with
+      threshold-based escalation, adaptive system behavior monitoring under governance constraints
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Adaptive Behavior Monitoring must satisfy forensic requirements for continuous surveillance with
+      threshold-based escalation, adaptive system behavior monitoring under governance constraints
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Adaptive Behavior Monitoring must satisfy enforcement requirements for continuous surveillance
+      with threshold-based escalation, adaptive system behavior monitoring under governance
+      constraints including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Adaptive Behavior Monitoring with stage gates, RACI assignments, and evidence
+      capture.
+  triage:
+    >
+      Triage process for Adaptive Behavior Monitoring with stage gates, RACI assignments, and evidence
+      capture.
+  execution:
+    >
+      Execution process for Adaptive Behavior Monitoring with stage gates, RACI assignments, and
+      evidence capture.
+  validation:
+    >
+      Validation process for Adaptive Behavior Monitoring with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Adaptive Behavior Monitoring with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Adaptive Behavior Monitoring with stage gates, RACI assignments, and
+      evidence capture.
+  improvement:
+    >
+      Improvement process for Adaptive Behavior Monitoring with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: behavioral_anomaly_escalation_workflow
+    workflow_trigger: runtime_behavior_deviation
+    workflow_steps:
+      - anomaly_detection
+      - risk_scoring
+      - evidence_collection
+      - governance_review
+      - enforcement_decision
+      - remediation_assignment
+      - closure_validation
+    approval_points:
+      - governance_review
+      - enforcement_decision
+    escalation_points:
+      - risk_scoring
+      - governance_review
+    generated_evidence:
+      - behavior_drift_report
+      - anomaly_detection_record
+      - governance_review_minutes
+      - escalation_record
+    completion_requirements:
+      - anomaly_resolved_or_escalated
+      - evidence_index_complete
+      - closure_attestation_signed
+  - workflow_name: goal_evolution_review_workflow
+    workflow_trigger: goal_change_frequency_threshold_exceeded
+    workflow_steps:
+      - goal_delta_capture
+      - alignment_assessment
+      - human_approval_gate
+      - baseline_update
+      - monitoring_recalibration
+      - attestation_publication
+    approval_points:
+      - human_approval_gate
+    escalation_points:
+      - alignment_assessment
+    generated_evidence:
+      - goal_change_log
+      - alignment_assessment_report
+      - baseline_update_record
+    completion_requirements:
+      - approved_goal_state_documented
+      - monitoring_baselines_updated
+workflow_execution_model:
+  trigger_events:
+    - runtime_behavior_deviation
+    - adaptive_behavior_monitoring_regulatory_inquiry
+    - adaptive_behavior_monitoring_integrity_breach
+    - adaptive_behavior_monitoring_enforcement_authorization
+  required_inputs:
+    - adaptive_behavior_monitoring_case_context
+    - adaptive_behavior_monitoring_evidence_index
+    - adaptive_behavior_monitoring_risk_assessment
+  workflow_steps:
+    - anomaly_detection
+    - risk_scoring
+    - evidence_collection
+    - governance_review
+    - enforcement_decision
+    - remediation_assignment
+    - closure_validation
+  validation_steps:
+    - adaptive_behavior_monitoring_evidence_sufficiency_check
+    - adaptive_behavior_monitoring_integrity_verification
+  approval_steps:
+    - governance_review
+    - enforcement_decision
+  control_checkpoints:
+    - adaptive_behavior_monitoring_intake_gate
+    - adaptive_behavior_monitoring_evidence_gate
+    - adaptive_behavior_monitoring_decision_gate
+  evidence_generation:
+    - behavior_drift_report
+    - anomaly_detection_record
+    - governance_review_minutes
+    - escalation_record
+  decision_points:
+    - adaptive_behavior_monitoring_severity_classification
+    - adaptive_behavior_monitoring_enforcement_authorization
+  escalation_points:
+    - risk_scoring
+    - governance_review
+  completion_criteria:
+    - anomaly_resolved_or_escalated
+    - evidence_index_complete
+    - closure_attestation_signed
+  generated_outputs:
+    - behavior_drift_report
+    - anomaly_detection_record
+    - governance_review_minutes
+    - escalation_record
+    - adaptive_behavior_monitoring_final_disposition
+decision_logic:
+  decision_inputs:
+    - adaptive_behavior_monitoring_severity_score
+    - adaptive_behavior_monitoring_evidence_completeness
+    - adaptive_behavior_monitoring_regulatory_context
+    - adaptive_behavior_monitoring_risk_exposure_index
+  decision_conditions:
+    - adaptive_behavior_monitoring_critical_threshold_breach
+    - adaptive_behavior_monitoring_evidence_integrity_failure
+    - adaptive_behavior_monitoring_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: adaptive_behavior_monitoring_severity_score >= 90
+    high_severity: adaptive_behavior_monitoring_severity_score >= 70
+    evidence_complete: adaptive_behavior_monitoring_evidence_completeness >= 0.98
+  decision_rules:
+    adaptive_behavior_monitoring_high_severity_violation:
+      condition: adaptive_behavior_monitoring_severity_score >= 90
+      action: initiate_adaptive_behavior_monitoring_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: adaptive_behavior_monitoring_investigation_report
+    adaptive_behavior_monitoring_evidence_compromise_detected:
+      condition: adaptive_behavior_monitoring_integrity_status == compromised
+      action: activate_adaptive_behavior_monitoring_forensic_lockdown
+      approval_required: adaptive_behavior_monitoring_forensic_lead
+      evidence_required: adaptive_behavior_monitoring_integrity_alert_record
+    adaptive_behavior_monitoring_enforcement_authorization:
+      condition: adaptive_behavior_monitoring_violation_confirmed == true AND adaptive_behavior_monitoring_evidence_complete == true
+      action: issue_adaptive_behavior_monitoring_enforcement_order
+      approval_required: adaptive_behavior_monitoring_enforcement_officer
+      evidence_required: adaptive_behavior_monitoring_violation_evidence_package
+    adaptive_behavior_monitoring_regulator_inquiry_response:
+      condition: adaptive_behavior_monitoring_regulator_request_received == true
+      action: compile_adaptive_behavior_monitoring_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: adaptive_behavior_monitoring_regulatory_evidence_index
+  decision_outputs:
+    - adaptive_behavior_monitoring_enforcement_decision
+    - adaptive_behavior_monitoring_escalation_notice
+    - adaptive_behavior_monitoring_remediation_directive
+    - adaptive_behavior_monitoring_audit_disposition
+  approval_requirements:
+    enforcement_actions: [adaptive_behavior_monitoring_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - adaptive_behavior_monitoring_severity_score >= 90
+    - adaptive_behavior_monitoring_evidence_integrity_failure == true
+    - adaptive_behavior_monitoring_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_adaptive_behavior_monitoring_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: adaptive_behavior_monitoring_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Adaptive Behavior Monitoring may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Adaptive Behavior Monitoring per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Adaptive Behavior Monitoring per ISO 19011
+      and EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Adaptive Behavior Monitoring per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Adaptive Behavior Monitoring per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: behavior_drift_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure behavior drift rate for Adaptive Behavior Monitoring operational and regulatory
+        assurance
+    formula: computed_behavior_drift_rate_from_adaptive_behavior_monitoring_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: adaptive_behavior_monitoring_metrics_owner
+    data_source: adaptive_behavior_monitoring_metrics_warehouse
+    evidence_generated: behavior_drift_rate_measurement_record
+  - metric_name: goal_change_frequency
+    metric_category: risk
+    business_purpose:
+      >
+        Measure goal change frequency for Adaptive Behavior Monitoring operational and regulatory
+        assurance
+    formula: computed_goal_change_frequency_from_adaptive_behavior_monitoring_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: adaptive_behavior_monitoring_metrics_owner
+    data_source: adaptive_behavior_monitoring_metrics_warehouse
+    evidence_generated: goal_change_frequency_measurement_record
+  - metric_name: autonomy_override_frequency
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure autonomy override frequency for Adaptive Behavior Monitoring operational and regulatory
+        assurance
+    formula: computed_autonomy_override_frequency_from_adaptive_behavior_monitoring_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: adaptive_behavior_monitoring_metrics_owner
+    data_source: adaptive_behavior_monitoring_metrics_warehouse
+    evidence_generated: autonomy_override_frequency_measurement_record
+  - metric_name: policy_violation_rate
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure policy violation rate for Adaptive Behavior Monitoring operational and regulatory
+        assurance
+    formula: computed_policy_violation_rate_from_adaptive_behavior_monitoring_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: adaptive_behavior_monitoring_metrics_owner
+    data_source: adaptive_behavior_monitoring_metrics_warehouse
+    evidence_generated: policy_violation_rate_measurement_record
+  - metric_name: behavioral_anomaly_rate
+    metric_category: governance
+    business_purpose:
+      >
+        Measure behavioral anomaly rate for Adaptive Behavior Monitoring operational and regulatory
+        assurance
+    formula: computed_behavioral_anomaly_rate_from_adaptive_behavior_monitoring_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: adaptive_behavior_monitoring_metrics_owner
+    data_source: adaptive_behavior_monitoring_metrics_warehouse
+    evidence_generated: behavioral_anomaly_rate_measurement_record
+  - metric_name: escalation_trigger_frequency
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure escalation trigger frequency for Adaptive Behavior Monitoring operational and regulatory
+        assurance
+    formula:
+      computed_escalation_trigger_frequency_from_adaptive_behavior_monitoring_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: adaptive_behavior_monitoring_metrics_owner
+    data_source: adaptive_behavior_monitoring_metrics_warehouse
+    evidence_generated: escalation_trigger_frequency_measurement_record
+kpis:
+  - metric_name: behavior_drift_rate
+    formula: computed_behavior_drift_rate_from_adaptive_behavior_monitoring_telemetry
+    target: >= 95%
+  - metric_name: goal_change_frequency
+    formula: computed_goal_change_frequency_from_adaptive_behavior_monitoring_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: autonomy_override_frequency
+    formula: computed_autonomy_override_frequency_from_adaptive_behavior_monitoring_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: policy_violation_rate
+    formula: computed_policy_violation_rate_from_adaptive_behavior_monitoring_telemetry
+    target: >= 95%
+kris:
+  - metric_name: policy_violation_rate
+    business_purpose: Measure policy violation rate for Adaptive Behavior Monitoring operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+  - metric_name: behavioral_anomaly_rate
+    business_purpose: Measure behavioral anomaly rate for Adaptive Behavior Monitoring operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+  - metric_name: escalation_trigger_frequency
+    business_purpose: Measure escalation trigger frequency for Adaptive Behavior Monitoring operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: behavior_monitoring_logs
+    evidence_type: primary
+    business_purpose:
+      Support adaptive behavior monitoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_adaptive_behavior_monitoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: adaptive_behavior_monitoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: behavior_drift_reports
+    evidence_type: corroborating
+    business_purpose:
+      Support adaptive behavior monitoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_adaptive_behavior_monitoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: adaptive_behavior_monitoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: policy_violation_reports
+    evidence_type: attestation
+    business_purpose:
+      Support adaptive behavior monitoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_adaptive_behavior_monitoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: adaptive_behavior_monitoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: anomaly_detection_records
+    evidence_type: derivative
+    business_purpose:
+      Support adaptive behavior monitoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_adaptive_behavior_monitoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: adaptive_behavior_monitoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: escalation_records
+    evidence_type: audit
+    business_purpose:
+      Support adaptive behavior monitoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_adaptive_behavior_monitoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: adaptive_behavior_monitoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: governance_review_reports
+    evidence_type: regulatory
+    business_purpose:
+      Support adaptive behavior monitoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_adaptive_behavior_monitoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: adaptive_behavior_monitoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: behavior_drift_dashboard
+    report_owner: adaptive_behavior_monitoring_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: monthly
+    report_inputs:
+      - adaptive_behavior_monitoring_telemetry
+      - adaptive_behavior_monitoring_evidence_index
+    report_outputs:
+      - behavior_drift_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: autonomy_risk_report
+    report_owner: adaptive_behavior_monitoring_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - adaptive_behavior_monitoring_telemetry
+      - adaptive_behavior_monitoring_evidence_index
+    report_outputs:
+      - autonomy_risk_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: behavioral_anomaly_summary
+    report_owner: adaptive_behavior_monitoring_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - adaptive_behavior_monitoring_telemetry
+      - adaptive_behavior_monitoring_evidence_index
+    report_outputs:
+      - behavioral_anomaly_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: agent_behavior_assurance_report
+    report_owner: adaptive_behavior_monitoring_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - adaptive_behavior_monitoring_telemetry
+      - adaptive_behavior_monitoring_evidence_index
+    report_outputs:
+      - agent_behavior_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: executive_behavior_governance_report
+    report_owner: adaptive_behavior_monitoring_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - adaptive_behavior_monitoring_telemetry
+      - adaptive_behavior_monitoring_evidence_index
+    report_outputs:
+      - executive_behavior_governance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  agent_governance:
+    agent_identity: adaptive_behavior_monitoring_registered_agent_identity_schema
+    agent_role: adaptive_behavior_monitoring_delegated_authority_role_matrix
+    agent_permissions: adaptive_behavior_monitoring_least_privilege_permission_set
+    agent_constraints: adaptive_behavior_monitoring_autonomy_and_tool_constraints
+    agent_accountability: adaptive_behavior_monitoring_human_accountability_chain
+    agent_escalation_rules: adaptive_behavior_monitoring_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - adaptive_behavior_monitoring_policy_context
+      - adaptive_behavior_monitoring_risk_score
+      - adaptive_behavior_monitoring_human_intent
+    decision_outputs:
+      - adaptive_behavior_monitoring_authorized_action
+      - adaptive_behavior_monitoring_escalation_notice
+    decision_owners:
+      - adaptive_behavior_monitoring_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: adaptive_behavior_monitoring_high_risk_decision_mandatory_review
+    decision_accountability: adaptive_behavior_monitoring_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: adaptive_behavior_monitoring_approved_tool_allowlist
+    tool_execution_validation: adaptive_behavior_monitoring_pre_execution_tool_risk_check
+    tool_risk_controls: adaptive_behavior_monitoring_tool_side_effect_containment
+    tool_auditability: adaptive_behavior_monitoring_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: adaptive_behavior_monitoring_memory_segment_access_policy
+    memory_integrity_validation: adaptive_behavior_monitoring_memory_tamper_detection
+    memory_retention_controls: adaptive_behavior_monitoring_memory_retention_and_purge_rules
+    memory_auditability: adaptive_behavior_monitoring_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: adaptive_behavior_monitoring_chain_of_thought_capture
+    reasoning_validation: adaptive_behavior_monitoring_reasoning_consistency_check
+    reasoning_risk_monitoring: adaptive_behavior_monitoring_reasoning_hazard_detection
+    reasoning_accountability: adaptive_behavior_monitoring_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - adaptive_behavior_monitoring_audit_log
+  - adaptive_behavior_monitoring_activity_log
+  - adaptive_behavior_monitoring_decision_log
+  - adaptive_behavior_monitoring_traceability_record
+  - adaptive_behavior_monitoring_evidence_package
+  - adaptive_behavior_monitoring_chain_of_custody_record
+  - adaptive_behavior_monitoring_attestation
+required_evidence:
+  - adaptive_behavior_monitoring_audit_log
+  - adaptive_behavior_monitoring_activity_log
+  - adaptive_behavior_monitoring_decision_log
+  - adaptive_behavior_monitoring_traceability_record
+  - adaptive_behavior_monitoring_evidence_package
+  - adaptive_behavior_monitoring_chain_of_custody_record
+  - adaptive_behavior_monitoring_attestation
+supporting_evidence:
+  - adaptive_behavior_monitoring_audit_log
+  - adaptive_behavior_monitoring_activity_log
+  - adaptive_behavior_monitoring_decision_log
+  - adaptive_behavior_monitoring_traceability_record
+  - adaptive_behavior_monitoring_evidence_package
+audit_evidence:
+  - adaptive_behavior_monitoring_audit_log
+  - adaptive_behavior_monitoring_activity_log
+  - adaptive_behavior_monitoring_decision_log
+  - adaptive_behavior_monitoring_traceability_record
+  - adaptive_behavior_monitoring_evidence_package
+  - adaptive_behavior_monitoring_chain_of_custody_record
+  - adaptive_behavior_monitoring_attestation
+forensic_evidence:
+  - adaptive_behavior_monitoring_audit_log
+  - adaptive_behavior_monitoring_activity_log
+  - adaptive_behavior_monitoring_decision_log
+  - adaptive_behavior_monitoring_traceability_record
+  - adaptive_behavior_monitoring_evidence_package
+  - adaptive_behavior_monitoring_chain_of_custody_record
+  - adaptive_behavior_monitoring_attestation
+regulatory_evidence:
+  - adaptive_behavior_monitoring_audit_log
+  - adaptive_behavior_monitoring_activity_log
+  - adaptive_behavior_monitoring_decision_log
+  - adaptive_behavior_monitoring_traceability_record
+  - adaptive_behavior_monitoring_evidence_package
+  - adaptive_behavior_monitoring_chain_of_custody_record
+  - adaptive_behavior_monitoring_attestation
+validation_evidence:
+  - adaptive_behavior_monitoring_audit_log
+  - adaptive_behavior_monitoring_activity_log
+  - adaptive_behavior_monitoring_decision_log
+  - adaptive_behavior_monitoring_traceability_record
+  - adaptive_behavior_monitoring_evidence_package
+  - adaptive_behavior_monitoring_chain_of_custody_record
+  - adaptive_behavior_monitoring_attestation
+validation_rules:
+  - rule: adaptive_behavior_monitoring_evidence_complete
+    condition: required_evidence_adaptive_behavior_monitoring < threshold
+    action: BLOCK_SUBMISSION
+  - rule: adaptive_behavior_monitoring_integrity_verified
+    condition: integrity_status_adaptive_behavior_monitoring != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: adaptive_behavior_monitoring_custody_intact
+    condition: custody_gap_adaptive_behavior_monitoring == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Adaptive Behavior Monitoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Adaptive Behavior Monitoring controls fail; mitigated
+      through preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Adaptive Behavior Monitoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Adaptive Behavior Monitoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Adaptive Behavior Monitoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - adaptive_behavior_monitoring_control_failure
+    - adaptive_behavior_monitoring_evidence_compromise
+    - adaptive_behavior_monitoring_regulatory_non_compliance
+    - adaptive_behavior_monitoring_enforcement_delay
+  risk_events:
+    - adaptive_behavior_monitoring_audit_finding_critical
+    - adaptive_behavior_monitoring_investigation_escalation
+    - adaptive_behavior_monitoring_sanction_exposure
+    - adaptive_behavior_monitoring_market_surveillance_inquiry
+  risk_indicators:
+    - adaptive_behavior_monitoring_control_effectiveness_degradation
+    - adaptive_behavior_monitoring_evidence_gap_rate
+    - adaptive_behavior_monitoring_sla_breach_count
+    - adaptive_behavior_monitoring_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    adaptive_behavior_monitoring_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: adaptive_behavior_monitoring_forensic_lead
+    adaptive_behavior_monitoring_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    adaptive_behavior_monitoring_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: adaptive_behavior_monitoring_enforcement_officer
+  risk_tolerance:
+    adaptive_behavior_monitoring_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: adaptive_behavior_monitoring_risk_score >= 60
+    critical: adaptive_behavior_monitoring_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Adaptive Behavior Monitoring controls documented in
+      adaptive_behavior_monitoring_risk_register with quarterly review.
+  risk_treatment:
+    - adaptive_behavior_monitoring_preventive_control_reinforcement
+    - adaptive_behavior_monitoring_detective_monitoring_enhancement
+    - adaptive_behavior_monitoring_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: adaptive_behavior_monitoring_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Adaptive Behavior Monitoring workflow events with provenance anchor and
+      adaptive_behavior_monitoring_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via adaptive_behavior_monitoring_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      adaptive_behavior_monitoring_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      adaptive_behavior_monitoring_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in adaptive_behavior_monitoring_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per adaptive_behavior_monitoring_retention_schedule aligned with EU AI Act Article 18
+      and legal hold
+  evidence_archival:
+    Long-term archival with adaptive_behavior_monitoring_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via adaptive_behavior_monitoring_retrieval_gateway with purpose logging
+  evidence_disposal:
+    >
+      Authorized disposition with adaptive_behavior_monitoring_disposition_certificate and dual
+      approval
+compliance_mapping:
+  article_9:
+    article: Article 9
+    regulatory_text_summary:
+      Risk management system for high-risk AI systems.
+    obligation:
+      >
+        Continuous risk identification, analysis, evaluation, and treatment. Implemented through
+        Adaptive Behavior Monitoring in adaptive_cognition.
+    implementation_controls:
+      - adaptive_behavior_monitoring_article_9_preventive_control
+      - adaptive_behavior_monitoring_article_9_detective_control
+      - adaptive_behavior_monitoring_article_9_evidence_control
+    implementation_processes:
+      - adaptive_behavior_monitoring_article_9_workflow
+      - adaptive_behavior_monitoring_article_9_validation_process
+      - adaptive_behavior_monitoring_article_9_escalation_process
+    implementation_evidence:
+      - adaptive_behavior_monitoring_article_9_compliance_record
+      - adaptive_behavior_monitoring_article_9_audit_package
+      - adaptive_behavior_monitoring_article_9_attestation
+    validation_method: adaptive_behavior_monitoring_article_9_automated_and_manual_conformity_testing
+    audit_method: adaptive_behavior_monitoring_article_9_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: adaptive_behavior_monitoring_article_9_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Adaptive Behavior Monitoring demonstrates Article 9 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_12:
+    article: Article 12
+    regulatory_text_summary:
+      Record-keeping and automatic logging.
+    obligation:
+      >
+        Logging capabilities enabling traceability throughout system lifetime. Implemented through
+        Adaptive Behavior Monitoring in adaptive_cognition.
+    implementation_controls:
+      - adaptive_behavior_monitoring_article_12_preventive_control
+      - adaptive_behavior_monitoring_article_12_detective_control
+      - adaptive_behavior_monitoring_article_12_evidence_control
+    implementation_processes:
+      - adaptive_behavior_monitoring_article_12_workflow
+      - adaptive_behavior_monitoring_article_12_validation_process
+      - adaptive_behavior_monitoring_article_12_escalation_process
+    implementation_evidence:
+      - adaptive_behavior_monitoring_article_12_compliance_record
+      - adaptive_behavior_monitoring_article_12_audit_package
+      - adaptive_behavior_monitoring_article_12_attestation
+    validation_method: adaptive_behavior_monitoring_article_12_automated_and_manual_conformity_testing
+    audit_method: adaptive_behavior_monitoring_article_12_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: adaptive_behavior_monitoring_article_12_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Adaptive Behavior Monitoring demonstrates Article 12 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_14:
+    article: Article 14
+    regulatory_text_summary:
+      Human oversight.
+    obligation:
+      >
+        Effective human oversight measures during system use. Implemented through Adaptive Behavior
+        Monitoring in adaptive_cognition.
+    implementation_controls:
+      - adaptive_behavior_monitoring_article_14_preventive_control
+      - adaptive_behavior_monitoring_article_14_detective_control
+      - adaptive_behavior_monitoring_article_14_evidence_control
+    implementation_processes:
+      - adaptive_behavior_monitoring_article_14_workflow
+      - adaptive_behavior_monitoring_article_14_validation_process
+      - adaptive_behavior_monitoring_article_14_escalation_process
+    implementation_evidence:
+      - adaptive_behavior_monitoring_article_14_compliance_record
+      - adaptive_behavior_monitoring_article_14_audit_package
+      - adaptive_behavior_monitoring_article_14_attestation
+    validation_method: adaptive_behavior_monitoring_article_14_automated_and_manual_conformity_testing
+    audit_method: adaptive_behavior_monitoring_article_14_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: adaptive_behavior_monitoring_article_14_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Adaptive Behavior Monitoring demonstrates Article 14 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_15:
+    article: Article 15
+    regulatory_text_summary:
+      Accuracy, robustness and cybersecurity.
+    obligation:
+      >
+        Appropriate levels of accuracy, robustness, and cybersecurity. Implemented through Adaptive
+        Behavior Monitoring in adaptive_cognition.
+    implementation_controls:
+      - adaptive_behavior_monitoring_article_15_preventive_control
+      - adaptive_behavior_monitoring_article_15_detective_control
+      - adaptive_behavior_monitoring_article_15_evidence_control
+    implementation_processes:
+      - adaptive_behavior_monitoring_article_15_workflow
+      - adaptive_behavior_monitoring_article_15_validation_process
+      - adaptive_behavior_monitoring_article_15_escalation_process
+    implementation_evidence:
+      - adaptive_behavior_monitoring_article_15_compliance_record
+      - adaptive_behavior_monitoring_article_15_audit_package
+      - adaptive_behavior_monitoring_article_15_attestation
+    validation_method: adaptive_behavior_monitoring_article_15_automated_and_manual_conformity_testing
+    audit_method: adaptive_behavior_monitoring_article_15_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: adaptive_behavior_monitoring_article_15_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Adaptive Behavior Monitoring demonstrates Article 15 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_9:
+      implementation: adaptive_behavior_monitoring_eu_ai_act_article_9_control_set
+      process: adaptive_behavior_monitoring_eu_ai_act_article_9_workflow
+      evidence: adaptive_behavior_monitoring_eu_ai_act_article_9_attestation
+    article_12:
+      implementation: adaptive_behavior_monitoring_eu_ai_act_article_12_control_set
+      process: adaptive_behavior_monitoring_eu_ai_act_article_12_workflow
+      evidence: adaptive_behavior_monitoring_eu_ai_act_article_12_attestation
+    article_14:
+      implementation: adaptive_behavior_monitoring_eu_ai_act_article_14_control_set
+      process: adaptive_behavior_monitoring_eu_ai_act_article_14_workflow
+      evidence: adaptive_behavior_monitoring_eu_ai_act_article_14_attestation
+    article_15:
+      implementation: adaptive_behavior_monitoring_eu_ai_act_article_15_control_set
+      process: adaptive_behavior_monitoring_eu_ai_act_article_15_workflow
+      evidence: adaptive_behavior_monitoring_eu_ai_act_article_15_attestation
+  gdpr:
+    article_5:
+      implementation: adaptive_behavior_monitoring_gdpr_article_5_privacy_control
+      evidence: adaptive_behavior_monitoring_gdpr_article_5_compliance_record
+    article_6:
+      implementation: adaptive_behavior_monitoring_gdpr_article_6_privacy_control
+      evidence: adaptive_behavior_monitoring_gdpr_article_6_compliance_record
+    article_22:
+      implementation: adaptive_behavior_monitoring_gdpr_article_22_privacy_control
+      evidence: adaptive_behavior_monitoring_gdpr_article_22_compliance_record
+    article_25:
+      implementation: adaptive_behavior_monitoring_gdpr_article_25_privacy_control
+      evidence: adaptive_behavior_monitoring_gdpr_article_25_compliance_record
+    article_32:
+      implementation: adaptive_behavior_monitoring_gdpr_article_32_privacy_control
+      evidence: adaptive_behavior_monitoring_gdpr_article_32_compliance_record
+    article_35:
+      implementation: adaptive_behavior_monitoring_gdpr_article_35_privacy_control
+      evidence: adaptive_behavior_monitoring_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: adaptive_behavior_monitoring_iso42001_clause_4_1_aims_control
+      evidence: adaptive_behavior_monitoring_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: adaptive_behavior_monitoring_iso42001_clause_4_2_aims_control
+      evidence: adaptive_behavior_monitoring_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: adaptive_behavior_monitoring_iso42001_clause_5_1_aims_control
+      evidence: adaptive_behavior_monitoring_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: adaptive_behavior_monitoring_iso42001_clause_5_2_aims_control
+      evidence: adaptive_behavior_monitoring_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: adaptive_behavior_monitoring_iso42001_clause_6_1_aims_control
+      evidence: adaptive_behavior_monitoring_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: adaptive_behavior_monitoring_iso42001_clause_8_1_aims_control
+      evidence: adaptive_behavior_monitoring_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: adaptive_behavior_monitoring_iso42001_clause_9_1_aims_control
+      evidence: adaptive_behavior_monitoring_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: adaptive_behavior_monitoring_iso42001_clause_10_1_aims_control
+      evidence: adaptive_behavior_monitoring_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: adaptive_behavior_monitoring_iso23894_risk_identification_alignment
+      evidence: adaptive_behavior_monitoring_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: adaptive_behavior_monitoring_iso23894_risk_analysis_alignment
+      evidence: adaptive_behavior_monitoring_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: adaptive_behavior_monitoring_iso23894_risk_evaluation_alignment
+      evidence: adaptive_behavior_monitoring_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: adaptive_behavior_monitoring_iso23894_risk_treatment_alignment
+      evidence: adaptive_behavior_monitoring_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: adaptive_behavior_monitoring_iso23894_risk_monitoring_alignment
+      evidence: adaptive_behavior_monitoring_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: adaptive_behavior_monitoring_iso19011_audit_principles_procedure
+      evidence: adaptive_behavior_monitoring_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: adaptive_behavior_monitoring_iso19011_audit_programme_management_procedure
+      evidence: adaptive_behavior_monitoring_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: adaptive_behavior_monitoring_iso19011_audit_evidence_requirements_procedure
+      evidence: adaptive_behavior_monitoring_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: adaptive_behavior_monitoring_iso19011_audit_reporting_procedure
+      evidence: adaptive_behavior_monitoring_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: adaptive_behavior_monitoring_nist_rmf_govern_control_mapping
+      evidence: adaptive_behavior_monitoring_nist_rmf_govern_assessment
+    map:
+      implementation: adaptive_behavior_monitoring_nist_rmf_map_control_mapping
+      evidence: adaptive_behavior_monitoring_nist_rmf_map_assessment
+    measure:
+      implementation: adaptive_behavior_monitoring_nist_rmf_measure_control_mapping
+      evidence: adaptive_behavior_monitoring_nist_rmf_measure_assessment
+    manage:
+      implementation: adaptive_behavior_monitoring_nist_rmf_manage_control_mapping
+      evidence: adaptive_behavior_monitoring_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: adaptive_behavior_monitoring_nist_csf_identify_safeguard
+      evidence: adaptive_behavior_monitoring_nist_csf_identify_log
+    protect:
+      implementation: adaptive_behavior_monitoring_nist_csf_protect_safeguard
+      evidence: adaptive_behavior_monitoring_nist_csf_protect_log
+    detect:
+      implementation: adaptive_behavior_monitoring_nist_csf_detect_safeguard
+      evidence: adaptive_behavior_monitoring_nist_csf_detect_log
+    respond:
+      implementation: adaptive_behavior_monitoring_nist_csf_respond_safeguard
+      evidence: adaptive_behavior_monitoring_nist_csf_respond_log
+    recover:
+      implementation: adaptive_behavior_monitoring_nist_csf_recover_safeguard
+      evidence: adaptive_behavior_monitoring_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: adaptive_behavior_monitoring_oecd_accountability_governance_control
+      evidence: adaptive_behavior_monitoring_oecd_accountability_attestation
+    transparency:
+      implementation: adaptive_behavior_monitoring_oecd_transparency_governance_control
+      evidence: adaptive_behavior_monitoring_oecd_transparency_attestation
+    robustness_security:
+      implementation: adaptive_behavior_monitoring_oecd_robustness_security_governance_control
+      evidence: adaptive_behavior_monitoring_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: adaptive_behavior_monitoring_oecd_inclusive_growth_governance_control
+      evidence: adaptive_behavior_monitoring_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: adaptive_behavior_monitoring_unesco_human_rights_ethics_control
+      evidence: adaptive_behavior_monitoring_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: adaptive_behavior_monitoring_unesco_fairness_non_discrimination_ethics_control
+      evidence: adaptive_behavior_monitoring_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: adaptive_behavior_monitoring_unesco_transparency_explainability_ethics_control
+      evidence: adaptive_behavior_monitoring_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: adaptive_behavior_monitoring_unesco_accountability_ethics_control
+      evidence: adaptive_behavior_monitoring_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Adaptive Behavior Monitoring covering executive, board, regulatory,
+      audit, forensic, and attestation consumers.
+  report_types:
+    - adaptive_behavior_monitoring_status_report
+    - adaptive_behavior_monitoring_compliance_report
+    - adaptive_behavior_monitoring_enforcement_report
+    - adaptive_behavior_monitoring_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [adaptive_behavior_monitoring_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_adaptive_behavior_monitoring
+  - quarterly_control_testing_adaptive_behavior_monitoring
+  - evidence_sampling_adaptive_behavior_monitoring
+  - finding_remediation_tracking_adaptive_behavior_monitoring
+integration_points:
+  upstream_systems:
+    - system: risk_management
+      purpose: adaptive_behavior_monitoring_to_risk_management_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_risk_management]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_risk_management]
+    - system: technical_documentation
+      purpose: adaptive_behavior_monitoring_to_technical_documentation_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_technical_documentation]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_technical_documentation]
+    - system: human_oversight
+      purpose: adaptive_behavior_monitoring_to_human_oversight_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_human_oversight]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_human_oversight]
+  downstream_systems:
+    - system: audit_traceability
+      purpose: adaptive_behavior_monitoring_to_audit_traceability_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_audit_traceability]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_audit_traceability]
+    - system: governance_forensics
+      purpose: adaptive_behavior_monitoring_to_governance_forensics_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_governance_forensics]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_governance_forensics]
+    - system: reporting
+      purpose: adaptive_behavior_monitoring_to_reporting_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_reporting]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_reporting]
+  governance_integrations:
+    - system: core_governance
+      purpose: adaptive_behavior_monitoring_to_core_governance_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_core_governance]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_core_governance]
+    - system: policy_enforcement
+      purpose: adaptive_behavior_monitoring_to_policy_enforcement_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_policy_enforcement]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_policy_enforcement]
+  risk_integrations:
+    - system: risk_management
+      purpose: adaptive_behavior_monitoring_to_risk_management_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_risk_management]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_risk_management]
+    - system: systemic_risk_models
+      purpose: adaptive_behavior_monitoring_to_systemic_risk_models_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_systemic_risk_models]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_systemic_risk_models]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: adaptive_behavior_monitoring_to_compliance_audits_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_compliance_audits]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: adaptive_behavior_monitoring_to_internal_audit_system_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_internal_audit_system]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: adaptive_behavior_monitoring_to_governance_reporting_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_governance_reporting]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: adaptive_behavior_monitoring_to_executive_dashboard_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_executive_dashboard]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: adaptive_behavior_monitoring_to_enforcement_actions_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_enforcement_actions]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: adaptive_behavior_monitoring_to_policy_enforcement_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_policy_enforcement]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: adaptive_behavior_monitoring_to_remediation_tracking_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_remediation_tracking]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: adaptive_behavior_monitoring_to_remediation_engine_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_remediation_engine]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: adaptive_behavior_monitoring_to_evidence_preservation_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_evidence_preservation]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: adaptive_behavior_monitoring_to_technical_documentation_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_technical_documentation]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: adaptive_behavior_monitoring_to_post_market_monitoring_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_post_market_monitoring]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: adaptive_behavior_monitoring_to_incident_reporting_governance_sync
+      data_exchanged: [adaptive_behavior_monitoring_events, adaptive_behavior_monitoring_evidence_refs, adaptive_behavior_monitoring_metrics]
+      trigger_conditions: [adaptive_behavior_monitoring_state_change, adaptive_behavior_monitoring_escalation, adaptive_behavior_monitoring_closure]
+      consumed_artifacts: [adaptive_behavior_monitoring_input_from_incident_reporting]
+      produced_artifacts: [adaptive_behavior_monitoring_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Adaptive Behavior Monitoring activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Adaptive Behavior Monitoring procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - adaptive_behavior_monitoring_procedure_checklist
+    required_evidence:
+      - adaptive_behavior_monitoring_process_log
+    required_metrics:
+      - adaptive_behavior_monitoring_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Adaptive Behavior Monitoring enterprise-wide.
+    required_capabilities:
+      - adaptive_behavior_monitoring_standard_control_set
+    required_controls:
+      - adaptive_behavior_monitoring_control_register
+    required_evidence:
+      - adaptive_behavior_monitoring_audit_evidence
+    required_metrics:
+      - adaptive_behavior_monitoring_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Adaptive Behavior Monitoring with KPI optimization.
+    required_capabilities:
+      - adaptive_behavior_monitoring_automated_controls
+    required_controls:
+      - adaptive_behavior_monitoring_telemetry_controls
+    required_evidence:
+      - adaptive_behavior_monitoring_assurance_package
+    required_metrics:
+      - adaptive_behavior_monitoring_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Adaptive Behavior Monitoring with predictive analytics.
+    required_capabilities:
+      - adaptive_behavior_monitoring_autonomous_governance
+    required_controls:
+      - adaptive_behavior_monitoring_adaptive_controls
+    required_evidence:
+      - adaptive_behavior_monitoring_regulator_ready_portfolio
+    required_metrics:
+      - adaptive_behavior_monitoring_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - adaptive_behavior_monitoring_report
+  - adaptive_behavior_monitoring_evidence_package
+  - adaptive_behavior_monitoring_attestation
+  - adaptive_behavior_monitoring_enforcement_record
+artifacts:
+  - name: adaptive_behavior_monitoring_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: adaptive_behavior_monitoring_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: adaptive_behavior_monitoring_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: adaptive_behavior_monitoring_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - adaptive_behavior_monitoring_case_record
+  - adaptive_behavior_monitoring_audit_record
+  - adaptive_behavior_monitoring_enforcement_record
+  - adaptive_behavior_monitoring_remediation_record
+monitoring:
+  continuous:
+    - adaptive_behavior_monitoring_control_telemetry
+    - adaptive_behavior_monitoring_evidence_integrity_feed
+    - adaptive_behavior_monitoring_escalation_queue
+  periodic:
+    - adaptive_behavior_monitoring_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Adaptive Behavior Monitoring effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: adaptive_behavior_monitoring_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: adaptive_behavior_monitoring_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: adaptive_behavior_monitoring_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: adaptive_behavior_monitoring_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Adaptive Behavior Monitoring

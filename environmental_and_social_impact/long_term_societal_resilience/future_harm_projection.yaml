@@ -1,0 +1,1361 @@
+metadata:
+  id: IM-LSR-FUTURE_HARM_-014
+  domain: long_term_societal_resilience
+  version: 1.0.0
+  specialization: future_harm_projection
+purpose: |
+  Govern, operationalize, and validate environmental, social, and human rights impact assessments for Future Harm Projection under the Long Term Societal Resilience framework. This skill provides machine-readable, executable governance infrastructure, sustainability controls, and ESG assurance channels tailored to societal dependence, long term risk projection, adaptation governance, future harm simulation parameters.
+scope: |
+  Scope covers all environmental emissions, societal harm mitigations, human rights impact audits, and accessibility assurance workflows governed by the Future Harm Projection framework in production deployments.
+objectives:
+  - Enforce automated environmental footprint and energy consumption limits under Future Harm Projection criteria.
+  - Verify social impact and accessibility conformance rates matching target threshold 99%.
+  - Audit compliance with EU AI Act fundamental rights rules for Long Term Societal Resilience.
+definitions:
+  future_harm_projection_impact_registry: The primary ledger containing all active sustainability and social impact records for Future Harm Projection.
+  future_harm_projection_mitigation_store: Cryptographically signed repository containing mitigation action records for Future Harm Projection outcomes.
+taxonomy:
+  impact_dimensions:
+    - ENVIRONMENTAL_FOOTPRINT
+    - SOCIETAL_HARM
+    - HUMAN_RIGHTS
+    - ECONOMIC_DISPLACEMENT
+  monitoring_modes:
+    - PROACTIVE_ASSURANCE
+    - REAL_TIME_TELEMETRY
+    - POST_HOC_AUDITING
+governance:
+  governance_model: IMPACT_GOVERNANCE_SYSTEM_MODEL_14
+  governance_structure: Enterprise Sustainability & Impact Board - Long Term Societal Resilience
+  roles_and_responsibilities:
+    environmental_governor: Responsible for managing EU AI Act emissions registries and compute targets for Future Harm Projection.
+    social_impact_lead: Responsible for verifying societal harm mitigations and accessibility scores for Future Harm Projection.
+    assurance_auditor: Responsible for impact validation and audit sign-off for Future Harm Projection.
+  stakeholders:
+    - Chief ESG Officer
+    - Head of AI Safety
+    - VP of Human Rights Compliance
+governance_model:
+  model_type: IMPACT_GOVERNANCE_MODEL_79
+  model_rationale: Ensures continuous carbon validation, accessibility conformance audits, and human rights protection logs.
+governance_structure:
+  oversight_board: Impact Oversight Board - Long Term Societal Resilience
+  escalation_contact: impact_escalation_14@enterprise.ai
+roles_and_responsibilities:
+  environmental_governor: Responsible for managing EU AI Act emissions registries and compute targets for Future Harm Projection.
+  social_impact_lead: Responsible for verifying societal harm mitigations and accessibility scores for Future Harm Projection.
+  assurance_auditor: Responsible for impact validation and audit sign-off for Future Harm Projection.
+stakeholders:
+  - Chief ESG Officer
+  - Head of AI Safety
+  - VP of Human Rights Compliance
+capabilities:
+  - Automated compute energy tracking and sustainability auditing under Future Harm Projection.
+  - Stochastic societal harm verifications and bias checking under Future Harm Projection.
+  - Fundamental rights impact auditing and regulatory mapping for Long Term Societal Resilience operations.
+requirements:
+  - All model trainings under Future Harm Projection must generate carbon estimation logs within 199 minutes.
+  - Accessibility interfaces for Future Harm Projection must achieve WCAG compliance scores above 96%.
+  - Audit trails must record mitigation action lineages cryptographically.
+controls:
+  environmental_footprint_monitoring_control:
+    control_id: CTRL-IM-LSR-FUTURE-EF-14
+    control_name: environmental_footprint_monitoring_control
+    control_type: PREVENTATIVE
+    control_category: ENVIRONMENTAL
+    control_objective: Govern model carbon footprint tracking and verify hardware efficiency targets for Future Harm Projection.
+    impact_rationale: Ensures compute workloads align with green energy targets and corporate sustainability mandates under Future Harm Projection.
+    implementation_guidance: Deploy energy utilization telemetry collectors directly on compute node hypervisors.
+    control_owner: Environmental Governor
+    control_frequency: REAL_TIME
+    monitoring_method: Monitor carbon footprint indicators on central ESG dashboard.
+    validation_method: Query server with missing telemetry hook, verify execution block.
+    evidence_generated: Signed daily carbon footprint token.
+    escalation_conditions: Emissions exceeding daily threshold by 15%.
+    audit_considerations: Verify PUE coefficients match local utility fuel mix reports.
+  societal_harm_detection_control:
+    control_id: CTRL-IM-LSR-FUTURE-SH-79
+    control_name: societal_harm_detection_control
+    control_type: DETECTIVE
+    control_category: SOCIAL
+    control_objective: Validate fairness indicators and detect downstream civic manipulation risks for Future Harm Projection.
+    impact_rationale: Mitigates risks of polarization or bias propagation across user groups under Future Harm Projection.
+    implementation_guidance: Run automated sentiment and bias scans on interaction outputs weekly.
+    control_owner: Social Impact Lead
+    control_frequency: WEEKLY
+    monitoring_method: Track societal harm indicator trends on safety portal.
+    validation_method: Execute pertubations validation suite, assert bias levels stay below critical threshold.
+    evidence_generated: Weekly societal harm audit report.
+    escalation_conditions: Bias metrics exceeding warning threshold for three consecutive runs.
+    audit_considerations: Review scanning parameters for localization adjustments.
+  human_rights_assurance_control:
+    control_id: CTRL-IM-LSR-FUTURE-HR-36
+    control_name: human_rights_assurance_control
+    control_type: PREVENTATIVE
+    control_category: RIGHTS
+    control_objective: Enforce fundamental rights impact assessments for vulnerable population protections under Future Harm Projection.
+    impact_rationale: Protects user autonomy and human dignity from automated decision abuses under Future Harm Projection.
+    implementation_guidance: Require signed rights impact assessments prior to new system update deployment.
+    control_owner: Assurance Auditor
+    control_frequency: RELEASE_BASED
+    monitoring_method: Check compliance register for rights validation certificate.
+    validation_method: Attempt release without assessment sign-off, verify block.
+    evidence_generated: Signed release authorization certificate.
+    escalation_conditions: Deployment bypass without safety review.
+    audit_considerations: Check auditor signature public keys against active directory credentials.
+  stakeholder_impact_validation_control:
+    control_id: CTRL-IM-LSR-FUTURE-SV-14
+    control_name: stakeholder_impact_validation_control
+    control_type: PREVENTATIVE
+    control_category: STAKEHOLDER
+    control_objective: Govern community impact consultations and check feedback loop performance under Future Harm Projection.
+    impact_rationale: Ensures affected user voices are reflected in deployment parameters under Future Harm Projection.
+    implementation_guidance: Expose secure portal for public feedback ingestion and catalog results.
+    control_owner: Social Impact Lead
+    control_frequency: CONTINUOUS
+    monitoring_method: Review response latency on user complaint dashboards.
+    validation_method: Submit mock stakeholder complaint, verify auto-ticket generation.
+    evidence_generated: Signed ticket confirmation receipt.
+    escalation_conditions: Unresolved complaints queue exceeding 100 entries.
+    audit_considerations: Verify data redaction verifiers work on feedback texts.
+  accessibility_compliance_control:
+    control_id: CTRL-IM-LSR-FUTURE-AC-79
+    control_name: accessibility_compliance_control
+    control_type: PREVENTATIVE
+    control_category: ACCESSIBILITY
+    control_objective: Enforce digital accessibility standards (WCAG) across channels for Future Harm Projection.
+    impact_rationale: Prevents exclusion of disabled users from interacting with AI system services under Future Harm Projection.
+    implementation_guidance: Run automated WCAG scanning tools during UI testing pipeline build.
+    control_owner: Social Impact Lead
+    control_frequency: DAILY
+    monitoring_method: Track WCAG compliance score daily on safety portal.
+    validation_method: Submit UI component lacking alt-tags, verify build failure.
+    evidence_generated: WCAG validation report token.
+    escalation_conditions: Accessibility score dropping below 95%.
+    audit_considerations: Check contrast verifier tool calibration settings.
+  community_impact_monitoring_control:
+    control_id: CTRL-IM-LSR-FUTURE-CI-36
+    control_name: community_impact_monitoring_control
+    control_type: DETECTIVE
+    control_category: COMMUNITY
+    control_objective: Validate regional workforce displacements and community health indexes for Future Harm Projection.
+    impact_rationale: Maintains local labor alignment and economic stability in deployment areas under Future Harm Projection.
+    implementation_guidance: Run quarterly employment displacement impact analysis utilizing external labor datasets.
+    control_owner: Assurance Auditor
+    control_frequency: QUARTERLY
+    monitoring_method: Track regional employment metric trends on ESG dashboard.
+    validation_method: Execute statistical analysis mock run, verify output alignment.
+    evidence_generated: Quarterly community impact report.
+    escalation_conditions: Workforce displacement warnings in targeted regions.
+    audit_considerations: Confirm survey datasets are representative of regional demographics.
+decision_logic: |
+  Rule-based emissions routing, accessibility check threshold validation, and cryptographic validation chains.
+processes:
+  - process_name: impact_audit_process
+    trigger: Daily check trigger
+    steps:
+      - Fetch active energy and accessibility telemetry stream.
+      - Verify emissions targets validity and accessibility conformance scores.
+workflows:
+  impact_assessment_workflow:
+    workflow_id: WF-IM-LSR-FUTURE-00-14
+    workflow_owner: Environmental Governor
+    workflow_objective: Operationalize and validate Impact Assessment Workflow for Future Harm Projection operations.
+    trigger: Scheduled trigger or event detection for impact_assessment_workflow.
+    inputs:
+      - future_harm_projection_telemetry_log
+      - impact_policy_spec
+      - system_state_record
+    activities:
+      - Extract impact indicators from future_harm_projection pipeline.
+      - Compare current status against environmental/social baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is impact compliance level above 94%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority impact alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Social Impact Lead Verification
+    outputs:
+      - impact_assessment_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for impact_assessment_workflow.
+    success_criteria: Successfully validated impact_assessment_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing metrics in impact_assessment_workflow.
+      - Timeout in impact_assessment_workflow execution path.
+  environmental_review_workflow:
+    workflow_id: WF-IM-LSR-FUTURE-01-15
+    workflow_owner: Social Impact Lead
+    workflow_objective: Operationalize and validate Environmental Review Workflow for Future Harm Projection operations.
+    trigger: Scheduled trigger or event detection for environmental_review_workflow.
+    inputs:
+      - future_harm_projection_telemetry_log
+      - impact_policy_spec
+      - system_state_record
+    activities:
+      - Extract impact indicators from future_harm_projection pipeline.
+      - Compare current status against environmental/social baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is impact compliance level above 95%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority impact alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Social Impact Lead Verification
+    outputs:
+      - environmental_review_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for environmental_review_workflow.
+    success_criteria: Successfully validated environmental_review_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing metrics in environmental_review_workflow.
+      - Timeout in environmental_review_workflow execution path.
+  social_impact_review_workflow:
+    workflow_id: WF-IM-LSR-FUTURE-02-16
+    workflow_owner: Environmental Governor
+    workflow_objective: Operationalize and validate Social Impact Review Workflow for Future Harm Projection operations.
+    trigger: Scheduled trigger or event detection for social_impact_review_workflow.
+    inputs:
+      - future_harm_projection_telemetry_log
+      - impact_policy_spec
+      - system_state_record
+    activities:
+      - Extract impact indicators from future_harm_projection pipeline.
+      - Compare current status against environmental/social baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is impact compliance level above 96%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority impact alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Social Impact Lead Verification
+    outputs:
+      - social_impact_review_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for social_impact_review_workflow.
+    success_criteria: Successfully validated social_impact_review_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing metrics in social_impact_review_workflow.
+      - Timeout in social_impact_review_workflow execution path.
+  human_rights_review_workflow:
+    workflow_id: WF-IM-LSR-FUTURE-03-17
+    workflow_owner: Social Impact Lead
+    workflow_objective: Operationalize and validate Human Rights Review Workflow for Future Harm Projection operations.
+    trigger: Scheduled trigger or event detection for human_rights_review_workflow.
+    inputs:
+      - future_harm_projection_telemetry_log
+      - impact_policy_spec
+      - system_state_record
+    activities:
+      - Extract impact indicators from future_harm_projection pipeline.
+      - Compare current status against environmental/social baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is impact compliance level above 97%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority impact alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Social Impact Lead Verification
+    outputs:
+      - human_rights_review_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for human_rights_review_workflow.
+    success_criteria: Successfully validated human_rights_review_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing metrics in human_rights_review_workflow.
+      - Timeout in human_rights_review_workflow execution path.
+  stakeholder_consultation_workflow:
+    workflow_id: WF-IM-LSR-FUTURE-04-18
+    workflow_owner: Environmental Governor
+    workflow_objective: Operationalize and validate Stakeholder Consultation Workflow for Future Harm Projection operations.
+    trigger: Scheduled trigger or event detection for stakeholder_consultation_workflow.
+    inputs:
+      - future_harm_projection_telemetry_log
+      - impact_policy_spec
+      - system_state_record
+    activities:
+      - Extract impact indicators from future_harm_projection pipeline.
+      - Compare current status against environmental/social baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is impact compliance level above 98%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority impact alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Social Impact Lead Verification
+    outputs:
+      - stakeholder_consultation_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for stakeholder_consultation_workflow.
+    success_criteria: Successfully validated stakeholder_consultation_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing metrics in stakeholder_consultation_workflow.
+      - Timeout in stakeholder_consultation_workflow execution path.
+  impact_escalation_workflow:
+    workflow_id: WF-IM-LSR-FUTURE-05-19
+    workflow_owner: Social Impact Lead
+    workflow_objective: Operationalize and validate Impact Escalation Workflow for Future Harm Projection operations.
+    trigger: Scheduled trigger or event detection for impact_escalation_workflow.
+    inputs:
+      - future_harm_projection_telemetry_log
+      - impact_policy_spec
+      - system_state_record
+    activities:
+      - Extract impact indicators from future_harm_projection pipeline.
+      - Compare current status against environmental/social baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is impact compliance level above 99%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority impact alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Social Impact Lead Verification
+    outputs:
+      - impact_escalation_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for impact_escalation_workflow.
+    success_criteria: Successfully validated impact_escalation_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing metrics in impact_escalation_workflow.
+      - Timeout in impact_escalation_workflow execution path.
+  impact_remediation_workflow:
+    workflow_id: WF-IM-LSR-FUTURE-06-20
+    workflow_owner: Environmental Governor
+    workflow_objective: Operationalize and validate Impact Remediation Workflow for Future Harm Projection operations.
+    trigger: Scheduled trigger or event detection for impact_remediation_workflow.
+    inputs:
+      - future_harm_projection_telemetry_log
+      - impact_policy_spec
+      - system_state_record
+    activities:
+      - Extract impact indicators from future_harm_projection pipeline.
+      - Compare current status against environmental/social baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is impact compliance level above 90%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority impact alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Social Impact Lead Verification
+    outputs:
+      - impact_remediation_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for impact_remediation_workflow.
+    success_criteria: Successfully validated impact_remediation_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing metrics in impact_remediation_workflow.
+      - Timeout in impact_remediation_workflow execution path.
+  impact_assurance_workflow:
+    workflow_id: WF-IM-LSR-FUTURE-07-21
+    workflow_owner: Social Impact Lead
+    workflow_objective: Operationalize and validate Impact Assurance Workflow for Future Harm Projection operations.
+    trigger: Scheduled trigger or event detection for impact_assurance_workflow.
+    inputs:
+      - future_harm_projection_telemetry_log
+      - impact_policy_spec
+      - system_state_record
+    activities:
+      - Extract impact indicators from future_harm_projection pipeline.
+      - Compare current status against environmental/social baselines.
+      - Log validation status to the central repository.
+    decision_points:
+      - condition: Is impact compliance level above 91%?
+        yes_path: Proceed with standard execution loop.
+        no_path: Raise high-priority impact alert.
+    approvals:
+      - Assurance Auditor Signature
+      - Social Impact Lead Verification
+    outputs:
+      - impact_assurance_workflow_status_report
+      - validation_audit_record
+    generated_evidence: Signed evidence receipt for impact_assurance_workflow.
+    success_criteria: Successfully validated impact_assurance_workflow operations with zero safety violations.
+    failure_conditions:
+      - Validation failure due to missing metrics in impact_assurance_workflow.
+      - Timeout in impact_assurance_workflow execution path.
+environmental_governance_framework:
+  governance_model:
+    description: Enforce Governance Model rules under the environmental governance framework.
+    owner: Environmental Governor
+    implementation_details: Deploy automated checker for governance_model in deployment pipelines.
+  environmental_objectives:
+    description: Enforce Environmental Objectives rules under the environmental governance framework.
+    owner: Environmental Governor
+    implementation_details: Deploy automated checker for environmental_objectives in deployment pipelines.
+  environmental_controls:
+    description: Enforce Environmental Controls rules under the environmental governance framework.
+    owner: Environmental Governor
+    implementation_details: Deploy automated checker for environmental_controls in deployment pipelines.
+  environmental_accountability:
+    description: Enforce Environmental Accountability rules under the environmental governance framework.
+    owner: Environmental Governor
+    implementation_details: Deploy automated checker for environmental_accountability in deployment pipelines.
+  energy_governance:
+    description: Enforce Energy Governance rules under the environmental governance framework.
+    owner: Environmental Governor
+    implementation_details: Deploy automated checker for energy_governance in deployment pipelines.
+  emissions_governance:
+    description: Enforce Emissions Governance rules under the environmental governance framework.
+    owner: Environmental Governor
+    implementation_details: Deploy automated checker for emissions_governance in deployment pipelines.
+  resource_governance:
+    description: Enforce Resource Governance rules under the environmental governance framework.
+    owner: Environmental Governor
+    implementation_details: Deploy automated checker for resource_governance in deployment pipelines.
+  environmental_monitoring:
+    description: Enforce Environmental Monitoring rules under the environmental governance framework.
+    owner: Environmental Governor
+    implementation_details: Deploy automated checker for environmental_monitoring in deployment pipelines.
+  environmental_assurance:
+    description: Enforce Environmental Assurance rules under the environmental governance framework.
+    owner: Environmental Governor
+    implementation_details: Deploy automated checker for environmental_assurance in deployment pipelines.
+social_impact_framework:
+  social_objectives:
+    description: Enforce Social Objectives rules under social impact guidelines.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated verifier for social_objectives in system channels.
+  societal_risk_controls:
+    description: Enforce Societal Risk Controls rules under social impact guidelines.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated verifier for societal_risk_controls in system channels.
+  societal_harm_controls:
+    description: Enforce Societal Harm Controls rules under social impact guidelines.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated verifier for societal_harm_controls in system channels.
+  stakeholder_impact_controls:
+    description: Enforce Stakeholder Impact Controls rules under social impact guidelines.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated verifier for stakeholder_impact_controls in system channels.
+  workforce_impact_controls:
+    description: Enforce Workforce Impact Controls rules under social impact guidelines.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated verifier for workforce_impact_controls in system channels.
+  community_impact_controls:
+    description: Enforce Community Impact Controls rules under social impact guidelines.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated verifier for community_impact_controls in system channels.
+  inclusion_controls:
+    description: Enforce Inclusion Controls rules under social impact guidelines.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated verifier for inclusion_controls in system channels.
+  accessibility_controls:
+    description: Enforce Accessibility Controls rules under social impact guidelines.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated verifier for accessibility_controls in system channels.
+  social_monitoring:
+    description: Enforce Social Monitoring rules under social impact guidelines.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated verifier for social_monitoring in system channels.
+  social_assurance:
+    description: Enforce Social Assurance rules under social impact guidelines.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated verifier for social_assurance in system channels.
+sustainability_framework:
+  sustainability_principles:
+    - Clean compute infrastructure
+    - Digital inclusion and community health
+  validation_standards:
+    - GRI standards compliance
+esg_framework:
+  esg_goals:
+    - Carbon neutrality by 2030
+    - High democratic stability metrics
+  governance_checks:
+    - Run quarterly ESG reviews
+human_rights_framework:
+  rights_assessment:
+    description: Enforce Rights Assessment rules for rights protection.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for rights_assessment in deployment checks.
+  rights_protection_controls:
+    description: Enforce Rights Protection Controls rules for rights protection.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for rights_protection_controls in deployment checks.
+  rights_monitoring:
+    description: Enforce Rights Monitoring rules for rights protection.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for rights_monitoring in deployment checks.
+  discrimination_controls:
+    description: Enforce Discrimination Controls rules for rights protection.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for discrimination_controls in deployment checks.
+  dignity_controls:
+    description: Enforce Dignity Controls rules for rights protection.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for dignity_controls in deployment checks.
+  autonomy_controls:
+    description: Enforce Autonomy Controls rules for rights protection.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for autonomy_controls in deployment checks.
+  rights_assurance:
+    description: Enforce Rights Assurance rules for rights protection.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for rights_assurance in deployment checks.
+  rights_validation:
+    description: Enforce Rights Validation rules for rights protection.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated verifier for rights_validation in deployment checks.
+impact_assessment_framework:
+  impact_scope:
+    description: Enforce Impact Scope rules for impact validation.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated checks for impact_scope in staging engines.
+  impact_dimensions:
+    description: Enforce Impact Dimensions rules for impact validation.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated checks for impact_dimensions in staging engines.
+  impact_methodology:
+    description: Enforce Impact Methodology rules for impact validation.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated checks for impact_methodology in staging engines.
+  environmental_assessment:
+    description: Enforce Environmental Assessment rules for impact validation.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated checks for environmental_assessment in staging engines.
+  social_assessment:
+    description: Enforce Social Assessment rules for impact validation.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated checks for social_assessment in staging engines.
+  rights_assessment:
+    description: Enforce Rights Assessment rules for impact validation.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated checks for rights_assessment in staging engines.
+  impact_scoring:
+    description: Enforce Impact Scoring rules for impact validation.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated checks for impact_scoring in staging engines.
+  impact_validation:
+    description: Enforce Impact Validation rules for impact validation.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated checks for impact_validation in staging engines.
+  impact_assurance:
+    description: Enforce Impact Assurance rules for impact validation.
+    owner: Social Impact Lead
+    implementation_details: Deploy automated checks for impact_assurance in staging engines.
+impact_assurance_framework:
+  assurance_requirements:
+    - Cryptographic validation for all carbon reports
+  assurance_controls:
+    - WCAG compliance audits
+  assurance_reviews:
+    - Annual rights review board
+impact_monitoring_framework:
+  monitoring_channels:
+    - sustainability_reporting_dashboard
+  monitoring_indicators:
+    - Carbon footprint score
+    - Democratic stability rating
+impact_risk_framework:
+  environmental_risks:
+    description: Enforce Environmental Risks rules for impact risk mitigations.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated checks for environmental_risks in risk modules.
+  social_risks:
+    description: Enforce Social Risks rules for impact risk mitigations.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated checks for social_risks in risk modules.
+  human_rights_risks:
+    description: Enforce Human Rights Risks rules for impact risk mitigations.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated checks for human_rights_risks in risk modules.
+  impact_severity:
+    description: Enforce Impact Severity rules for impact risk mitigations.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated checks for impact_severity in risk modules.
+  impact_likelihood:
+    description: Enforce Impact Likelihood rules for impact risk mitigations.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated checks for impact_likelihood in risk modules.
+  impact_consequences:
+    description: Enforce Impact Consequences rules for impact risk mitigations.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated checks for impact_consequences in risk modules.
+  mitigation_controls:
+    description: Enforce Mitigation Controls rules for impact risk mitigations.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated checks for mitigation_controls in risk modules.
+  monitoring_controls:
+    description: Enforce Monitoring Controls rules for impact risk mitigations.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated checks for monitoring_controls in risk modules.
+  assurance_controls:
+    description: Enforce Assurance Controls rules for impact risk mitigations.
+    owner: Assurance Auditor
+    implementation_details: Deploy automated checks for assurance_controls in risk modules.
+monitoring_framework:
+  monitoring_mode: CONTINUOUS_TELEMETRY
+  metrics_scope:
+    - Compute energy consumption
+    - Accessibility barriers rate
+validation_framework:
+  validation_strategy: STOCHASTIC_VERIFICATION
+  test_suites:
+    - carbon_footprint_checks
+    - wcag_compliance_validation
+evidence_intelligence:
+  evidence_sources: |
+    Enforce Evidence Sources verifications for evidence dockets.
+  evidence_types: |
+    Enforce Evidence Types verifications for evidence dockets.
+  evidence_integrity: |
+    Enforce Evidence Integrity verifications for evidence dockets.
+  evidence_lineage: |
+    Enforce Evidence Lineage verifications for evidence dockets.
+  evidence_provenance: |
+    Enforce Evidence Provenance verifications for evidence dockets.
+  evidence_validation: |
+    Enforce Evidence Validation verifications for evidence dockets.
+  evidence_confidence: |
+    Enforce Evidence Confidence verifications for evidence dockets.
+  evidence_retention: |
+    Enforce Evidence Retention verifications for evidence dockets.
+telemetry:
+  telemetry_service: impact_telemetry_agent
+  telemetry_frequency: REAL_TIME
+impact_telemetry:
+  environmental_events:
+    event_id: EVT-IM-LSR-ENVIRONMENTA-14
+    event_source: future_harm_projection_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  sustainability_events:
+    event_id: EVT-IM-LSR-SUSTAINABILI-14
+    event_source: future_harm_projection_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  emissions_events:
+    event_id: EVT-IM-LSR-EMISSIONS_EV-14
+    event_source: future_harm_projection_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  energy_usage_events:
+    event_id: EVT-IM-LSR-ENERGY_USAGE-14
+    event_source: future_harm_projection_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  social_impact_events:
+    event_id: EVT-IM-LSR-SOCIAL_IMPAC-14
+    event_source: future_harm_projection_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  accessibility_events:
+    event_id: EVT-IM-LSR-ACCESSIBILIT-14
+    event_source: future_harm_projection_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  inclusion_events:
+    event_id: EVT-IM-LSR-INCLUSION_EV-14
+    event_source: future_harm_projection_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  rights_impact_events:
+    event_id: EVT-IM-LSR-RIGHTS_IMPAC-14
+    event_source: future_harm_projection_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  societal_risk_events:
+    event_id: EVT-IM-LSR-SOCIETAL_RIS-14
+    event_source: future_harm_projection_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  governance_alerts:
+    event_id: EVT-IM-LSR-GOVERNANCE_A-14
+    event_source: future_harm_projection_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+  governance_indicators:
+    event_id: EVT-IM-LSR-GOVERNANCE_I-14
+    event_source: future_harm_projection_telemetry_service
+    payload_schema:
+      timestamp: ISO8601
+      system_id: UUID
+      event_status: SUCCESS|WARNING|FAILURE
+metrics:
+  environmental_impact_score:
+    metric_name: environmental_impact_score
+    formula: sum(environmenta_valid_events) / sum(environmenta_total_events) * 96
+    target: '99%'
+    warning_threshold: '89%'
+    critical_threshold: '79%'
+    measurement_frequency: DAILY
+    owner: Social Impact Lead
+    data_source: future_harm_projection_telemetry_stream
+    evidence_generated: Signed daily metric report for environmental_impact_score
+  carbon_footprint_score:
+    metric_name: carbon_footprint_score
+    formula: sum(carbon_footp_valid_events) / sum(carbon_footp_total_events) * 100
+    target: '90%'
+    warning_threshold: '80%'
+    critical_threshold: '70%'
+    measurement_frequency: WEEKLY
+    owner: Environmental Governor
+    data_source: future_harm_projection_telemetry_stream
+    evidence_generated: Signed daily metric report for carbon_footprint_score
+  energy_efficiency_score:
+    metric_name: energy_efficiency_score
+    formula: sum(energy_effic_valid_events) / sum(energy_effic_total_events) * 99
+    target: '91%'
+    warning_threshold: '81%'
+    critical_threshold: '71%'
+    measurement_frequency: DAILY
+    owner: Environmental Governor
+    data_source: future_harm_projection_telemetry_stream
+    evidence_generated: Signed daily metric report for energy_efficiency_score
+  resource_consumption_score:
+    metric_name: resource_consumption_score
+    formula: sum(resource_con_valid_events) / sum(resource_con_total_events) * 98
+    target: '92%'
+    warning_threshold: '82%'
+    critical_threshold: '72%'
+    measurement_frequency: WEEKLY
+    owner: Social Impact Lead
+    data_source: future_harm_projection_telemetry_stream
+    evidence_generated: Signed daily metric report for resource_consumption_score
+  social_impact_score:
+    metric_name: social_impact_score
+    formula: sum(social_impac_valid_events) / sum(social_impac_total_events) * 97
+    target: '93%'
+    warning_threshold: '83%'
+    critical_threshold: '73%'
+    measurement_frequency: DAILY
+    owner: Environmental Governor
+    data_source: future_harm_projection_telemetry_stream
+    evidence_generated: Signed daily metric report for social_impact_score
+  societal_risk_score:
+    metric_name: societal_risk_score
+    formula: sum(societal_ris_valid_events) / sum(societal_ris_total_events) * 96
+    target: '94%'
+    warning_threshold: '84%'
+    critical_threshold: '74%'
+    measurement_frequency: WEEKLY
+    owner: Environmental Governor
+    data_source: future_harm_projection_telemetry_stream
+    evidence_generated: Signed daily metric report for societal_risk_score
+  human_rights_assurance_score:
+    metric_name: human_rights_assurance_score
+    formula: sum(human_rights_valid_events) / sum(human_rights_total_events) * 100
+    target: '95%'
+    warning_threshold: '85%'
+    critical_threshold: '75%'
+    measurement_frequency: DAILY
+    owner: Social Impact Lead
+    data_source: future_harm_projection_telemetry_stream
+    evidence_generated: Signed daily metric report for human_rights_assurance_score
+  accessibility_compliance_score:
+    metric_name: accessibility_compliance_score
+    formula: sum(accessibilit_valid_events) / sum(accessibilit_total_events) * 99
+    target: '96%'
+    warning_threshold: '86%'
+    critical_threshold: '76%'
+    measurement_frequency: WEEKLY
+    owner: Environmental Governor
+    data_source: future_harm_projection_telemetry_stream
+    evidence_generated: Signed daily metric report for accessibility_compliance_score
+  stakeholder_impact_score:
+    metric_name: stakeholder_impact_score
+    formula: sum(stakeholder__valid_events) / sum(stakeholder__total_events) * 98
+    target: '97%'
+    warning_threshold: '87%'
+    critical_threshold: '77%'
+    measurement_frequency: DAILY
+    owner: Environmental Governor
+    data_source: future_harm_projection_telemetry_stream
+    evidence_generated: Signed daily metric report for stakeholder_impact_score
+  impact_maturity_score:
+    metric_name: impact_maturity_score
+    formula: sum(impact_matur_valid_events) / sum(impact_matur_total_events) * 97
+    target: '98%'
+    warning_threshold: '88%'
+    critical_threshold: '78%'
+    measurement_frequency: WEEKLY
+    owner: Social Impact Lead
+    data_source: future_harm_projection_telemetry_stream
+    evidence_generated: Signed daily metric report for impact_maturity_score
+kpis:
+  - environmental_impact_score
+  - social_impact_score
+kris:
+  - emissions_threshold_exceeded
+  - accessibility_barrier_count
+thresholds:
+  environmental_impact_score: 94%
+  social_impact_score: 89%
+relationships:
+  environmental_links:
+    - source: technical_documentation/future_harm_projection
+      target: environmental_and_social_impact/future_harm_projection
+      relationship_type: VERIFIES_ENVIRONMENTA
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for environmental_links
+  social_links:
+    - source: technical_documentation/future_harm_projection
+      target: environmental_and_social_impact/future_harm_projection
+      relationship_type: VERIFIES_SOCIAL_LINKS
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for social_links
+  stakeholder_links:
+    - source: technical_documentation/future_harm_projection
+      target: environmental_and_social_impact/future_harm_projection
+      relationship_type: VERIFIES_STAKEHOLDER_
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for stakeholder_links
+  rights_links:
+    - source: technical_documentation/future_harm_projection
+      target: environmental_and_social_impact/future_harm_projection
+      relationship_type: VERIFIES_RIGHTS_LINKS
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for rights_links
+  governance_links:
+    - source: technical_documentation/future_harm_projection
+      target: environmental_and_social_impact/future_harm_projection
+      relationship_type: VERIFIES_GOVERNANCE_L
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for governance_links
+  control_links:
+    - source: technical_documentation/future_harm_projection
+      target: environmental_and_social_impact/future_harm_projection
+      relationship_type: VERIFIES_CONTROL_LINK
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for control_links
+  risk_links:
+    - source: technical_documentation/future_harm_projection
+      target: environmental_and_social_impact/future_harm_projection
+      relationship_type: VERIFIES_RISK_LINKS
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for risk_links
+  evidence_links:
+    - source: technical_documentation/future_harm_projection
+      target: environmental_and_social_impact/future_harm_projection
+      relationship_type: VERIFIES_EVIDENCE_LIN
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for evidence_links
+  workflow_links:
+    - source: technical_documentation/future_harm_projection
+      target: environmental_and_social_impact/future_harm_projection
+      relationship_type: VERIFIES_WORKFLOW_LIN
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for workflow_links
+  compliance_links:
+    - source: technical_documentation/future_harm_projection
+      target: environmental_and_social_impact/future_harm_projection
+      relationship_type: VERIFIES_COMPLIANCE_L
+      confidence: 0.99
+      evidence: Integrity validation verification ticket for compliance_links
+crosswalks:
+  - standards: [ISO_26000, GRI_STANDARDS, CSRD]
+    mapping_status: COMPLIANT
+compliance_mapping:
+  eu_ai_act: Article 9, Article 26
+  sdg: Goals 8, 9, 12, 13
+integration_points:
+  core_governance:
+    integration_path: d:\eu_ai_act\core_governance\
+    sync_frequency: DAILY
+    validation_interface: verify_core_governance_impact_sync
+  risk_management:
+    integration_path: d:\eu_ai_act\risk_management\
+    sync_frequency: DAILY
+    validation_interface: verify_risk_management_impact_sync
+  bias_and_fairness:
+    integration_path: d:\eu_ai_act\bias_and_fairness\
+    sync_frequency: DAILY
+    validation_interface: verify_bias_and_fairness_impact_sync
+  human_oversight:
+    integration_path: d:\eu_ai_act\human_oversight\
+    sync_frequency: DAILY
+    validation_interface: verify_human_oversight_impact_sync
+  privacy_and_fundamental_rights:
+    integration_path: d:\eu_ai_act\privacy_and_fundamental_rights\
+    sync_frequency: DAILY
+    validation_interface: verify_privacy_and_fundamental_rights_impact_sync
+  transparency_and_explainability:
+    integration_path: d:\eu_ai_act\transparency_and_explainability\
+    sync_frequency: DAILY
+    validation_interface: verify_transparency_and_explainability_impact_sync
+  provider_obligations:
+    integration_path: d:\eu_ai_act\provider_obligations\
+    sync_frequency: DAILY
+    validation_interface: verify_provider_obligations_impact_sync
+  deployer_obligations:
+    integration_path: d:\eu_ai_act\deployer_obligations\
+    sync_frequency: DAILY
+    validation_interface: verify_deployer_obligations_impact_sync
+  high_risk_ai_systems:
+    integration_path: d:\eu_ai_act\high_risk_ai_systems\
+    sync_frequency: DAILY
+    validation_interface: verify_high_risk_ai_systems_impact_sync
+  foundation_models:
+    integration_path: d:\eu_ai_act\foundation_models\
+    sync_frequency: DAILY
+    validation_interface: verify_foundation_models_impact_sync
+  general_purpose_ai:
+    integration_path: d:\eu_ai_act\general_purpose_ai\
+    sync_frequency: DAILY
+    validation_interface: verify_general_purpose_ai_impact_sync
+  systemic_risk_models:
+    integration_path: d:\eu_ai_act\systemic_risk_models\
+    sync_frequency: DAILY
+    validation_interface: verify_systemic_risk_models_impact_sync
+  audit_and_enforcement:
+    integration_path: d:\eu_ai_act\audit_and_enforcement\
+    sync_frequency: DAILY
+    validation_interface: verify_audit_and_enforcement_impact_sync
+  audit_and_forensics:
+    integration_path: d:\eu_ai_act\audit_and_forensics\
+    sync_frequency: DAILY
+    validation_interface: verify_audit_and_forensics_impact_sync
+  compliance_scoring:
+    integration_path: d:\eu_ai_act\compliance_scoring\
+    sync_frequency: DAILY
+    validation_interface: verify_compliance_scoring_impact_sync
+  conformity_assessment:
+    integration_path: d:\eu_ai_act\conformity_assessment\
+    sync_frequency: DAILY
+    validation_interface: verify_conformity_assessment_impact_sync
+  evidence_and_attestation:
+    integration_path: d:\eu_ai_act\evidence_and_attestation\
+    sync_frequency: DAILY
+    validation_interface: verify_evidence_and_attestation_impact_sync
+dependencies:
+  - carbon_intensity_api_v1
+  - wcag_validation_library_v2
+outputs:
+  - daily_emissions_report_json
+  - accessibility_audit_docket
+artifacts:
+  - esg_compliance_docket.yaml
+  - fundamental_rights_supplement.yaml
+records:
+  - compute_energy_logs
+  - public_feedback_tickets
+continuous_improvement:
+  review_cycle: SEMI_ANNUAL
+  feedback_channels:
+    - community_forums
+    - internal_sustainability_workshops
+exceptions:
+  - path: temporary_compute_bypass
+    approved_by: Chief ESG Officer
+escalation:
+  - alert_level: carbon_emissions_spikes
+    conduit: slack_sustainability_channel
+versioning:
+  current_version: 1.0.0
+  revision_history:
+    - version: 1.0.0
+      date: '2026-06-13'
+      author: Impact Governance Architect
+      changes: Initial production release of impact governance infrastructure.
+environmental_and_social_impact_capabilities:
+  environmental_governance:
+    description: Manage and oversee Environmental Governance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for environmental_governance.
+  environmental_assessment:
+    description: Manage and oversee Environmental Assessment capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for environmental_assessment.
+  environmental_monitoring:
+    description: Manage and oversee Environmental Monitoring capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for environmental_monitoring.
+  environmental_assurance:
+    description: Manage and oversee Environmental Assurance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for environmental_assurance.
+  sustainability_governance:
+    description: Manage and oversee Sustainability Governance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for sustainability_governance.
+  sustainability_monitoring:
+    description: Manage and oversee Sustainability Monitoring capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for sustainability_monitoring.
+  energy_consumption_governance:
+    description: Manage and oversee Energy Consumption Governance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for energy_consumption_governance.
+  carbon_impact_governance:
+    description: Manage and oversee Carbon Impact Governance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for carbon_impact_governance.
+  emissions_monitoring:
+    description: Manage and oversee Emissions Monitoring capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for emissions_monitoring.
+  resource_consumption_governance:
+    description: Manage and oversee Resource Consumption Governance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for resource_consumption_governance.
+  ecological_risk_management:
+    description: Manage and oversee Ecological Risk Management capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for ecological_risk_management.
+  social_impact_governance:
+    description: Manage and oversee Social Impact Governance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for social_impact_governance.
+  societal_risk_assessment:
+    description: Manage and oversee Societal Risk Assessment capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for societal_risk_assessment.
+  societal_harm_monitoring:
+    description: Manage and oversee Societal Harm Monitoring capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for societal_harm_monitoring.
+  stakeholder_impact_assessment:
+    description: Manage and oversee Stakeholder Impact Assessment capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for stakeholder_impact_assessment.
+  community_impact_assessment:
+    description: Manage and oversee Community Impact Assessment capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for community_impact_assessment.
+  workforce_impact_assessment:
+    description: Manage and oversee Workforce Impact Assessment capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for workforce_impact_assessment.
+  accessibility_governance:
+    description: Manage and oversee Accessibility Governance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for accessibility_governance.
+  inclusion_governance:
+    description: Manage and oversee Inclusion Governance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for inclusion_governance.
+  equity_governance:
+    description: Manage and oversee Equity Governance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for equity_governance.
+  social_assurance:
+    description: Manage and oversee Social Assurance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for social_assurance.
+  human_rights_governance:
+    description: Manage and oversee Human Rights Governance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for human_rights_governance.
+  fundamental_rights_assessment:
+    description: Manage and oversee Fundamental Rights Assessment capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for fundamental_rights_assessment.
+  discrimination_risk_management:
+    description: Manage and oversee Discrimination Risk Management capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for discrimination_risk_management.
+  vulnerable_population_protection:
+    description: Manage and oversee Vulnerable Population Protection capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for vulnerable_population_protection.
+  human_dignity_assurance:
+    description: Manage and oversee Human Dignity Assurance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for human_dignity_assurance.
+  esg_governance:
+    description: Manage and oversee Esg Governance capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for esg_governance.
+  impact_reporting:
+    description: Manage and oversee Impact Reporting capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for impact_reporting.
+  impact_intelligence:
+    description: Manage and oversee Impact Intelligence capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for impact_intelligence.
+  impact_traceability:
+    description: Manage and oversee Impact Traceability capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for impact_traceability.
+  impact_auditability:
+    description: Manage and oversee Impact Auditability capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for impact_auditability.
+  impact_maturity:
+    description: Manage and oversee Impact Maturity capabilities under Future Harm Projection rules.
+    controls:
+      - CTRL-IM-LSR-FUTURE-EF-14
+      - CTRL-IM-LSR-FUTURE-HR-36
+    assessment_method: Verify trace logs and audit scores for impact_maturity.
+altai_impact_governance:
+  agent_impact_governance:
+    agent_social_impact: |
+      Establish and run impact governance for Agent Social Impact under Future Harm Projection deployment guidelines.
+    agent_environmental_impact: |
+      Establish and run impact governance for Agent Environmental Impact under Future Harm Projection deployment guidelines.
+    agent_human_rights_impact: |
+      Establish and run impact governance for Agent Human Rights Impact under Future Harm Projection deployment guidelines.
+    agent_accountability: |
+      Establish and run impact governance for Agent Accountability under Future Harm Projection deployment guidelines.
+  reasoning_impact_governance:
+    reasoning_societal_effects: |
+      Establish and run impact governance for Reasoning Societal Effects under Future Harm Projection deployment guidelines.
+    reasoning_fairness_impacts: |
+      Establish and run impact governance for Reasoning Fairness Impacts under Future Harm Projection deployment guidelines.
+    reasoning_human_rights_impacts: |
+      Establish and run impact governance for Reasoning Human Rights Impacts under Future Harm Projection deployment guidelines.
+  memory_impact_governance:
+    memory_bias_impacts: |
+      Establish and run impact governance for Memory Bias Impacts under Future Harm Projection deployment guidelines.
+    memory_social_effects: |
+      Establish and run impact governance for Memory Social Effects under Future Harm Projection deployment guidelines.
+    memory_rights_considerations: |
+      Establish and run impact governance for Memory Rights Considerations under Future Harm Projection deployment guidelines.
+  tool_impact_governance:
+    tool_usage_impacts: |
+      Establish and run impact governance for Tool Usage Impacts under Future Harm Projection deployment guidelines.
+    tool_externality_impacts: |
+      Establish and run impact governance for Tool Externality Impacts under Future Harm Projection deployment guidelines.
+    tool_accountability: |
+      Establish and run impact governance for Tool Accountability under Future Harm Projection deployment guidelines.
+  foundation_model_impact_governance:
+    compute_impact: |
+      Establish and run impact governance for Compute Impact under Future Harm Projection deployment guidelines.
+    environmental_footprint: |
+      Establish and run impact governance for Environmental Footprint under Future Harm Projection deployment guidelines.
+    societal_impact: |
+      Establish and run impact governance for Societal Impact under Future Harm Projection deployment guidelines.
+    rights_impact: |
+      Establish and run impact governance for Rights Impact under Future Harm Projection deployment guidelines.
+  gpai_impact_governance:
+    systemic_impact: |
+      Establish and run impact governance for Systemic Impact under Future Harm Projection deployment guidelines.
+    ecosystem_impact: |
+      Establish and run impact governance for Ecosystem Impact under Future Harm Projection deployment guidelines.
+    societal_risk: |
+      Establish and run impact governance for Societal Risk under Future Harm Projection deployment guidelines.
+    operational_accountability: |
+      Establish and run impact governance for Operational Accountability under Future Harm Projection deployment guidelines.
+impact_maturity_model:
+  level_1_reactive:
+    capabilities:
+      - Verify basic Future Harm Projection accessibility compliance.
+      - Track Future Harm Projection energy efficiency.
+    environmental_capabilities:
+      - Measure carbon footprint for Future Harm Projection.
+    social_capabilities:
+      - Generate community impact metrics for Future Harm Projection.
+    rights_capabilities:
+      - Analyze fundamental rights protection for Future Harm Projection.
+    evidence_requirements:
+      - Signed impact validation telemetry log (level 1).
+    assurance_requirements:
+      - Verify WCAG compliance check (level 1).
+  level_2_repeatable:
+    capabilities:
+      - Verify basic Future Harm Projection accessibility compliance.
+      - Track Future Harm Projection energy efficiency.
+    environmental_capabilities:
+      - Measure carbon footprint for Future Harm Projection.
+    social_capabilities:
+      - Generate community impact metrics for Future Harm Projection.
+    rights_capabilities:
+      - Analyze fundamental rights protection for Future Harm Projection.
+    evidence_requirements:
+      - Signed impact validation telemetry log (level 2).
+    assurance_requirements:
+      - Verify WCAG compliance check (level 2).
+  level_3_defined:
+    capabilities:
+      - Verify basic Future Harm Projection accessibility compliance.
+      - Track Future Harm Projection energy efficiency.
+    environmental_capabilities:
+      - Measure carbon footprint for Future Harm Projection.
+    social_capabilities:
+      - Generate community impact metrics for Future Harm Projection.
+    rights_capabilities:
+      - Analyze fundamental rights protection for Future Harm Projection.
+    evidence_requirements:
+      - Signed impact validation telemetry log (level 3).
+    assurance_requirements:
+      - Verify WCAG compliance check (level 3).
+  level_4_managed:
+    capabilities:
+      - Verify basic Future Harm Projection accessibility compliance.
+      - Track Future Harm Projection energy efficiency.
+    environmental_capabilities:
+      - Measure carbon footprint for Future Harm Projection.
+    social_capabilities:
+      - Generate community impact metrics for Future Harm Projection.
+    rights_capabilities:
+      - Analyze fundamental rights protection for Future Harm Projection.
+    evidence_requirements:
+      - Signed impact validation telemetry log (level 4).
+    assurance_requirements:
+      - Verify WCAG compliance check (level 4).
+  level_5_optimized:
+    capabilities:
+      - Verify basic Future Harm Projection accessibility compliance.
+      - Track Future Harm Projection energy efficiency.
+    environmental_capabilities:
+      - Measure carbon footprint for Future Harm Projection.
+    social_capabilities:
+      - Generate community impact metrics for Future Harm Projection.
+    rights_capabilities:
+      - Analyze fundamental rights protection for Future Harm Projection.
+    evidence_requirements:
+      - Signed impact validation telemetry log (level 5).
+    assurance_requirements:
+      - Verify WCAG compliance check (level 5).
+  level_6_adaptive:
+    capabilities:
+      - Verify basic Future Harm Projection accessibility compliance.
+      - Track Future Harm Projection energy efficiency.
+    environmental_capabilities:
+      - Measure carbon footprint for Future Harm Projection.
+    social_capabilities:
+      - Generate community impact metrics for Future Harm Projection.
+    rights_capabilities:
+      - Analyze fundamental rights protection for Future Harm Projection.
+    evidence_requirements:
+      - Signed impact validation telemetry log (level 6).
+    assurance_requirements:
+      - Verify WCAG compliance check (level 6).
+eu_ai_act_impact_mapping:
+  Article 9:
+    article: 'Article 9'
+    obligation: Enforce Article 9 compliance rules and impact mitigation procedures under Future Harm Projection.
+    implementation_method: Deploy automated validation checkers for Future Harm Projection workflows.
+    impact_control: CTRL-IM-LSR-FUTURE-EF-14
+    required_evidence: Signed daily compliance audit report mapping to Article 9.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notices against Article 9 standards.
+  Article 10:
+    article: 'Article 10'
+    obligation: Enforce Article 10 compliance rules and impact mitigation procedures under Future Harm Projection.
+    implementation_method: Deploy automated validation checkers for Future Harm Projection workflows.
+    impact_control: CTRL-IM-LSR-FUTURE-EF-14
+    required_evidence: Signed daily compliance audit report mapping to Article 10.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notices against Article 10 standards.
+  Article 13:
+    article: 'Article 13'
+    obligation: Enforce Article 13 compliance rules and impact mitigation procedures under Future Harm Projection.
+    implementation_method: Deploy automated validation checkers for Future Harm Projection workflows.
+    impact_control: CTRL-IM-LSR-FUTURE-EF-14
+    required_evidence: Signed daily compliance audit report mapping to Article 13.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notices against Article 13 standards.
+  Article 14:
+    article: 'Article 14'
+    obligation: Enforce Article 14 compliance rules and impact mitigation procedures under Future Harm Projection.
+    implementation_method: Deploy automated validation checkers for Future Harm Projection workflows.
+    impact_control: CTRL-IM-LSR-FUTURE-EF-14
+    required_evidence: Signed daily compliance audit report mapping to Article 14.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notices against Article 14 standards.
+  Article 15:
+    article: 'Article 15'
+    obligation: Enforce Article 15 compliance rules and impact mitigation procedures under Future Harm Projection.
+    implementation_method: Deploy automated validation checkers for Future Harm Projection workflows.
+    impact_control: CTRL-IM-LSR-FUTURE-EF-14
+    required_evidence: Signed daily compliance audit report mapping to Article 15.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notices against Article 15 standards.
+  Article 26:
+    article: 'Article 26'
+    obligation: Enforce Article 26 compliance rules and impact mitigation procedures under Future Harm Projection.
+    implementation_method: Deploy automated validation checkers for Future Harm Projection workflows.
+    impact_control: CTRL-IM-LSR-FUTURE-EF-14
+    required_evidence: Signed daily compliance audit report mapping to Article 26.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notices against Article 26 standards.
+  Article 50:
+    article: 'Article 50'
+    obligation: Enforce Article 50 compliance rules and impact mitigation procedures under Future Harm Projection.
+    implementation_method: Deploy automated validation checkers for Future Harm Projection workflows.
+    impact_control: CTRL-IM-LSR-FUTURE-EF-14
+    required_evidence: Signed daily compliance audit report mapping to Article 50.
+    validation_method: Verify evidence metadata integrity using public key cryptography.
+    assurance_method: Perform quarterly audit of notices against Article 50 standards.

@@ -1,0 +1,1526 @@
+metadata:
+  document_id: "PAP-INFL-AUTONOMY_INT-001"
+  title: "Autonomy Interference Assessment"
+  domain: "Unlawful Behavioral Influence"
+  version: "1.0.0"
+  classification: "CONFIDENTIAL_SAFETY"
+purpose: "Govern, operationalize, and validate prohibited AI practices and unacceptable risk compliance workflows for Autonomy Interference Assessment under the Unlawful Behavioral Influence framework. This skill provides machine-readable, executable safety governance & prohibition enforcement AI coordination rules specifically tailored to unlawful behavioral modification, coercive influence detection, autonomy interference checks, modification alerts properties."
+scope: "Scope covers all subliminal techniques checks, vulnerability exploitation prevention, social scoring audits, and remote biometric identification restrictions governed by the Autonomy Interference Assessment framework."
+objectives:
+  - "Identify and block prohibited AI practices and unacceptable risks under Autonomy Interference Assessment criteria."
+  - "Ensure real-time misuse monitoring and fundamental rights preservation for Unlawful Behavioral Influence."
+  - "Compile Article 5 compliance files to verify safety and regulatory defensibility under the EU AI Act."
+definitions:
+  autonomy_interference_assessment_prohibition_policy: "The primary operational safety and prohibition enforcement rules for Autonomy Interference Assessment."
+  autonomy_interference_assessment_abuse_register: "Cryptographically sealed unacceptable risk registry and misuse event database containing validation logs for Autonomy Interference Assessment."
+taxonomy:
+  prohibited_categories:
+    - "SUBLIMINAL_MANIPULATION"
+    - "VULNERABILITY_EXPLOITATION"
+    - "SOCIAL_SCORING"
+    - "REAL_TIME_RBI"
+  unacceptable_risk_tiers:
+    - "UNACCEPTABLE_RISK"
+    - "PROHIBITED_PRACTICE"
+    - "CRITICAL_VIOLATION"
+governance:
+  governance_model: "SAFETY_GOVERNANCE_SYSTEM_MODEL"
+  governance_structure: "Enterprise AI Safety & Regulatory Compliance Board - Unlawful Behavioral Influence"
+  roles_and_responsibilities:
+    safety_officer: "Responsible for managing Article 5 compliance and unacceptable risk registries for Autonomy Interference Assessment."
+    regulatory_liaison: "Responsible for coordinating enforcement readiness and reporting notifications for Autonomy Interference Assessment."
+    ethics_steward: "Responsible for vulnerability assessments and dignity preservation checks for Autonomy Interference Assessment."
+  stakeholders:
+    - "Chief AI Safety Officer"
+    - "Head of Regulatory Affairs"
+    - "Director of Fundamental Rights Protection"
+governance_model:
+  model_type: "PROHIBITED_PRACTICES_GOVERNANCE_MODEL"
+  model_rationale: "Ensures continuous verification of Article 5 boundaries, systematic misuse detection, proactive harm prevention, and complete audit trace logs across system execution lifecycle."
+governance_structure:
+  oversight_board: "Global AI Ethics & Safety Committee - Unlawful Behavioral Influence"
+  escalation_contact: "ai_safety@enterprise.ai"
+roles_and_responsibilities:
+  safety_officer: "Primary owner of unacceptable risk registers and misuse monitoring checklists under Autonomy Interference Assessment."
+  regulatory_liaison: "Responsible for compiling evidence, coordinating with notified bodies, and managing escalation tickets."
+  ethics_steward: "Responsible for vulnerability targeting checks, bias mitigation reviews, and human review overrides."
+stakeholders:
+  - "Head of Enterprise Risk Management"
+  - "Director of Civil Liberties & Rights Assurance"
+  - "VP of Safety Governance & Control"
+  - "Unlawful Behavioral Influence Compliance Lead"
+capabilities:
+  - "Continuous compliance auditing and Article 5 checks under Autonomy Interference Assessment."
+  - "Systematic unacceptable risk detection and behavioral manipulation blocks under Autonomy Interference Assessment."
+  - "Regulatory reporting attestation and evidence compilation for Unlawful Behavioral Influence compliance audits."
+requirements:
+  - "All models under Autonomy Interference Assessment must pass real-time subliminal messaging checks."
+  - "Maturity rating indicators for Prohibited AI Practices must meet level 7 parameters."
+  - "Prohibited behavior events must be investigated and resolved within 15 minutes."
+controls:
+  - control_id: "CTRL-PAP-INFL-AUTONO-01"
+    control_name: "prohibited_use_detection_control"
+    control_type: "PREVENTATIVE"
+    control_category: "PROHIBITION"
+    control_objective: "Detect and block any attempts to deploy or execute systems under Autonomy Interference Assessment that match prohibited use criteria."
+    prohibition_rationale: "Prevents unlawful deployment of forbidden AI behaviors, ensuring safety compliance pre-flight."
+    implementation_guidance: "Deploy automated capability monitors scanning code, inputs, and outputs continuously."
+    control_owner: "Safety Officer"
+    control_frequency: "REAL_TIME"
+    monitoring_method: "Monitor active telemetry gateway for capability violations."
+    validation_method: "Inject mock prohibited intent keywords into system query, assert output block."
+    evidence_generated: "Signed capability validation token with zero-trust signature."
+    protected_rights: "Privacy, Autonomy, and Human Dignity"
+    audit_considerations: "Check monitoring signatures authority register and gateway log archives."
+  - control_id: "CTRL-PAP-INFL-AUTONO-02"
+    control_name: "harm_prevention_control"
+    control_type: "PREVENTATIVE"
+    control_category: "SAFETY"
+    control_objective: "Enforce harm prevention rules and verify psychological/physical indicators boundaries for Autonomy Interference Assessment."
+    prohibition_rationale: "Mitigates user harm risks, ensuring system interactions remain within safety guidelines."
+    implementation_guidance: "Scan output telemetry for emotional drift or psychological triggers hourly."
+    control_owner: "Safety Officer"
+    control_frequency: "HOURLY"
+    monitoring_method: "Track user interaction safety ratings on compliance dashboard."
+    validation_method: "Simulate high-risk interaction state, assert safety governor takeover."
+    evidence_generated: "Signed hourly safety and harm prevention certificate."
+    protected_rights: "Human Dignity and Physical/Psychological Integrity"
+    audit_considerations: "Review safety state thresholds and governor escalation logs."
+  - control_id: "CTRL-PAP-INFL-AUTONO-03"
+    control_name: "manipulation_prevention_control"
+    control_type: "PREVENTATIVE"
+    control_category: "MANIPULATION"
+    control_objective: "Identify and block subliminal or deceptive influence techniques within Autonomy Interference Assessment interactions."
+    prohibition_rationale: "Prevents dark patterns and cognitive manipulation that exploit human decision biases."
+    implementation_guidance: "Run automated sentiment and persuasion pattern analyzers pre-deployment."
+    control_owner: "Ethics Steward"
+    control_frequency: "DAILY"
+    monitoring_method: "Review monthly persuasion indexes and interaction patterns."
+    validation_method: "Deploy mock dark pattern element in testing environment, assert automated check block."
+    evidence_generated: "Signed daily manipulation assessment verification report."
+    protected_rights: "Freedom of Thought and Personal Autonomy"
+    audit_considerations: "Check persuasion detection reference models and testing audit files."
+  - control_id: "CTRL-PAP-INFL-AUTONO-04"
+    control_name: "social_scoring_prevention_control"
+    control_type: "PREVENTATIVE"
+    control_category: "SCORING"
+    control_objective: "Verify that no social classification or ranking modules are executed under Autonomy Interference Assessment."
+    prohibition_rationale: "Eliminates risk of social credit score calculation and citizen ranking as prohibited by Article 5(1)(c)."
+    implementation_guidance: "Analyze database schema properties and target metrics monthly to identify scoring indices."
+    control_owner: "Safety Officer"
+    control_frequency: "MONTHLY"
+    monitoring_method: "Audit profiling telemetry and citizen ranking indicators."
+    validation_method: "Execute scoring query in sandboxed database, assert query block and safety alert."
+    evidence_generated: "Signed social scoring prevention compliance statement."
+    protected_rights: "Equality and Non-discrimination"
+    audit_considerations: "Inspect database trigger scripts and score metrics registry."
+  - control_id: "CTRL-PAP-INFL-AUTONO-05"
+    control_name: "rights_protection_control"
+    control_type: "PREVENTATIVE"
+    control_category: "RIGHTS"
+    control_objective: "Protect fundamental rights and monitor vulnerability targeting checks for Autonomy Interference Assessment."
+    prohibition_rationale: "Protects vulnerable groups (e.g., children, disabled individuals) from targeted exploitation."
+    implementation_guidance: "Deploy demographic parity monitors checking vulnerability targeting indices weekly."
+    control_owner: "Ethics Steward"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Track vulnerability exposure metrics on safety dashboard."
+    validation_method: "Inject mock vulnerability indicators into testing run, assert prompt block."
+    evidence_generated: "Signed weekly rights protection attestation ledger."
+    protected_rights: "Child Protection and Vulnerable Group Safeguards"
+    audit_considerations: "Verify demographic definitions and compliance review logs."
+  - control_id: "CTRL-PAP-INFL-AUTONO-06"
+    control_name: "article_5_assurance_control"
+    control_type: "DETECTIVE"
+    control_category: "ASSURANCE"
+    control_objective: "Verify end-to-end Article 5 compliance mapping and evidence chain for Autonomy Interference Assessment."
+    prohibition_rationale: "Ensures regulatory defensibility and legal interoperability for external audits."
+    implementation_guidance: "Audit compliance trace maps and cryptographically seal compliance logs weekly."
+    control_owner: "Regulatory Liaison"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Verify completeness of compliance mapping metrics weekly."
+    validation_method: "Query compliance mapping registry with missing article field, assert verification failure alert."
+    evidence_generated: "Sealed Article 5 compliance verification report."
+    protected_rights: "Access to Justice and Legal Traceability"
+    audit_considerations: "Check digital signatures of compliance ledger and crosswalk mappings."
+decision_logic:
+  escalation_trigger: "If article_5_compliance_score or safety_assurance_score drops below 1.00, immediately halt all Autonomy Interference Assessment models and notify Chief AI Safety Officer."
+  incident_classification: "Classify failures as CRITICAL if they involve active subliminal manipulation, social scoring executions, or exploitation of child vulnerabilities."
+processes:
+  prohibition_checks: "Standard procedures to scan system inputs, models, and outputs against Article 5 guidelines for Autonomy Interference Assessment."
+  misuse_investigation: "SOP for triaging misuse alerts, collecting trace evidence, and executing containment scripts."
+workflows:
+  - workflow_id: "prohibited_use_detection_workflow"
+    workflow_owner: "Safety Officer"
+    workflow_objective: "Enforce capability validation checkers and verify model execution parameters under Autonomy Interference Assessment."
+    trigger: "Deployment pipeline initialization or real-time query request."
+    inputs:
+      - "model_capability_file"
+      - "user_query_metadata"
+      - "governance_policy_registry"
+    activities:
+      - "Scan model capabilities manifest files."
+      - "Enforce intent classification validation rules."
+      - "Issue signed capability validation token."
+    decision_points:
+      - "Intent classification pass"
+      - "Model capability check pass"
+    approvals:
+      - "Safety Officer sign-off"
+    outputs:
+      - "Capability validation token"
+      - "Deployment authorization status"
+    generated_evidence: "Signed capability validation token archived in safety portal."
+    protection_outputs:
+      scan_status: "APPROVED"
+      prohibited_use_flag: False
+    success_criteria: "Scan completed and token issued with latency below 200ms."
+    failure_conditions: "Capabilities file missing or intent classification detects prohibited keywords."
+  - workflow_id: "harm_assessment_workflow"
+    workflow_owner: "Safety Officer"
+    workflow_objective: "Evaluate psychological/physical harm indicators and score interaction risks for Autonomy Interference Assessment."
+    trigger: "Scheduled daily review or detection of emotional drift anomaly."
+    inputs:
+      - "interaction_logs_metadata"
+      - "harm_indicators_manifest"
+      - "user_safety_ratings"
+    activities:
+      - "Scan user interaction history files daily."
+      - "Calculate cumulative psychological influence index."
+      - "Generate daily safety and harm prevention certificate."
+    decision_points:
+      - "Psychological influence below warning threshold"
+      - "User safety rating matches baseline"
+    approvals:
+      - "Safety Officer approval"
+    outputs:
+      - "Daily safety certificate"
+      - "GRC portal updates"
+    generated_evidence: "Signed daily safety certificate archived in compliance database."
+    protection_outputs:
+      harm_risk_score: 0.01
+      takeover_status: "NORMAL"
+    success_criteria: "Assessment report generated and signed within 2 hours of trigger."
+    failure_conditions: "Interaction logs unavailable or cumulative influence index breaches safety limits."
+  - workflow_id: "rights_violation_workflow"
+    workflow_owner: "Ethics Steward"
+    workflow_objective: "Verify fundamental rights parameters and triage rights violation alerts under Autonomy Interference Assessment."
+    trigger: "Rights violation alert or vulnerability targeting index anomaly."
+    inputs:
+      - "rights_violation_ticket"
+      - "vulnerability_targeting_metrics"
+      - "escalation_rules_manifest"
+    activities:
+      - "Triage rights violation ticket properties."
+      - "Verify demographic targeting indicators against guidelines."
+      - "Log rights check triage status in safety databases."
+    decision_points:
+      - "Violation classification validation"
+      - "Remediation action required"
+    approvals:
+      - "Ethics Steward sign-off"
+    outputs:
+      - "Violation triage record"
+      - "GRC ticket updates"
+    generated_evidence: "Signed rights violation triage record stored in GRC database."
+    protection_outputs:
+      violation_type: "EXPLOITATION"
+      triage_latency_seconds: 120
+    success_criteria: "Triage record created and alerts routed within 10 minutes of trigger."
+    failure_conditions: "Escalation rules files missing or ticket data corrupted."
+  - workflow_id: "misuse_investigation_workflow"
+    workflow_owner: "Safety Officer"
+    workflow_objective: "Investigate misuse alerts and execute containment scripts under Autonomy Interference Assessment."
+    trigger: "Active misuse alert detection or manual safety takeover request."
+    inputs:
+      - "misuse_alert_ticket"
+      - "execution_trace_logs"
+      - "containment_credentials"
+    activities:
+      - "Acquire execution trace logs history."
+      - "Deploy containment scripts to halt model execution."
+      - "Conduct root-cause analysis on violation source."
+    decision_points:
+      - "Containment activation validation"
+      - "Trace evidence complete"
+    approvals:
+      - "Chief AI Safety Officer sign-off"
+    outputs:
+      - "Containment action report"
+      - "Investigation closure docket"
+    generated_evidence: "Signed containment report saved in security vault."
+    protection_outputs:
+      containment_status: "ACTIVE"
+      containment_latency_seconds: 45
+    success_criteria: "Model execution halted and containment verified within 3 minutes of alert."
+    failure_conditions: "Containment credentials invalid or execution nodes fail to respond."
+  - workflow_id: "enforcement_response_workflow"
+    workflow_owner: "Regulatory Liaison"
+    workflow_objective: "Coordinate regulatory enforcement response and prepare evidence packages under Autonomy Interference Assessment."
+    trigger: "Regulator inspection request or critical incident notification."
+    inputs:
+      - "regulator_notice_file"
+      - "compliance_ledger_vault"
+      - "evidence_attestations_log"
+    activities:
+      - "Verify regulatory notice credentials pre-flight."
+      - "Compile cryptographic evidence packages from ledger."
+      - "Seal and export regulator-ready compliance archive."
+    decision_points:
+      - "Evidence package complete"
+      - "Notice validity verified"
+    approvals:
+      - "VP of Safety Governance sign-off"
+    outputs:
+      - "Regulator compliance archive"
+      - "Submission status updates"
+    generated_evidence: "Sealed regulator submission validation certificate saved in compliance ledger."
+    protection_outputs:
+      archive_size_bytes: 1048576
+      evidence_lineage_verified: True
+    success_criteria: "Compliance package compiled and ready for export within 24 hours."
+    failure_conditions: "Compliance ledger connection offline or evidence hashes mismatches."
+  - workflow_id: "remediation_workflow"
+    workflow_owner: "Ethics Steward"
+    workflow_objective: "Execute remediation actions and restore system to compliant state under Autonomy Interference Assessment."
+    trigger: "Remediation plan approval for identified control failure."
+    inputs:
+      - "remediation_plan_file"
+      - "corrective_action_templates"
+      - "remediation_credentials"
+    activities:
+      - "Verify operator remediation credentials pre-flight."
+      - "Deploy model corrective updates and security patches."
+      - "Validate post-remediation safety scores."
+    decision_points:
+      - "Maturity indicators validation pass"
+      - "Safety scores match targets"
+    approvals:
+      - "Ethics Steward sign-off"
+      - "Safety Officer sign-off"
+    outputs:
+      - "Remediation validation report"
+      - "System restoration receipt"
+    generated_evidence: "Signed remediation completion certificate archived in GRC database."
+    protection_outputs:
+      remediation_status: "COMPLETED"
+      system_safety_rating: 0.99
+    success_criteria: "Remediation completed and safety scores restored within SLA limits."
+    failure_conditions: "Remediation credentials invalid or post-remediation scores below baseline."
+  - workflow_id: "article_5_review_workflow"
+    workflow_owner: "Regulatory Liaison"
+    workflow_objective: "Audit E2E Article 5 mappings and compile compliance reports under Autonomy Interference Assessment."
+    trigger: "Monthly scheduled Article 5 review tick."
+    inputs:
+      - "compliance_mapping_vault"
+      - "monthly_audit_reports"
+      - "evidence_intelligence_logs"
+    activities:
+      - "Audit compliance mapping files completeness."
+      - "Compile monthly Article 5 assurance reports."
+      - "Update prohibited practice maturity scores."
+    decision_points:
+      - "Mappings verified complete"
+      - "Maturity levels verified"
+    approvals:
+      - "Lead Auditor sign-off"
+    outputs:
+      - "Monthly Article 5 assurance report"
+      - "Maturity score updates"
+    generated_evidence: "Signed Monthly Article 5 report saved in compliance vaults."
+    protection_outputs:
+      mapping_completeness_score: 1.0
+      assurance_verified: True
+    success_criteria: "Review completed and monthly report sealed with zero exceptions."
+    failure_conditions: "Mapping vault offline or audit reports corrupted."
+  - workflow_id: "regulatory_escalation_workflow"
+    workflow_owner: "Regulatory Liaison"
+    workflow_objective: "Escalate critical violations and manage incident communications under Autonomy Interference Assessment."
+    trigger: "Critical safety violation detection or compliance score failure."
+    inputs:
+      - "safety_violation_ticket"
+      - "escalation_rules_manifest"
+      - "crisis_contact_ledger"
+    activities:
+      - "Verify escalation rules targets and SLA limits."
+      - "Generate executive safety escalation briefs."
+      - "Notify Board Directors and Legal Counsel."
+    decision_points:
+      - "Escalation rules pass"
+      - "Executive briefing validated"
+    approvals:
+      - "Regulatory Liaison sign-off"
+    outputs:
+      - "Executive safety escalation brief"
+      - "Escalation ticket updates"
+    generated_evidence: "Signed regulatory escalation ticket saved in secure vaults."
+    protection_outputs:
+      escalation_severity: "CRITICAL"
+      notification_latency_seconds: 60
+    success_criteria: "Briefing generated and notifications sent within 5 minutes of trigger."
+    failure_conditions: "Escalation rules missing or crisis contact details unavailable."
+prohibited_practices_framework:
+  governance_model: "SAFETY_GOVERNANCE_SYSTEM_MODEL"
+  governance_principles:
+    - "Prohibition-by-Design"
+    - "Regulator-Ready Defensibility"
+    - "Zero-Tolerance Unacceptable Risk"
+  governance_authorities:
+    - "Global AI Safety Board"
+    - "Regulatory Compliance Council"
+  governance_controls:
+    - "CTRL-PAP-INFL-AUTONO-01"
+    - "CTRL-PAP-INFL-AUTONO-06"
+  prohibition_accountability: "Assigns primary accountability for unacceptable risk containment to the Chief AI Safety Officer."
+  prohibition_ownership: "Assigns primary control mapping responsibilities directly to the Unlawful Behavioral Influence Compliance Lead."
+  governance_reviews:
+    - "Weekly prohibited use telemetry reviews"
+    - "Monthly Article 5 compliance gap audits"
+  governance_assurance: "Cryptographic logs signature validations and immutable audit trails checks."
+unacceptable_risk_framework:
+  prohibited_categories:
+    - "Cognitive manipulation leading to harm"
+    - "Exploitation of vulnerabilities of specific groups"
+    - "Social scoring leading to unfavorable treatment"
+    - "Real-time remote biometric identification for law enforcement"
+  prohibited_behaviors:
+    - "Subliminal messaging to alter decision patterns"
+    - "Targeting child cognitive vulnerabilities"
+    - "Biometric categorization based on sensitive data"
+  prohibited_system_types:
+    - "Citizen social ranking scorecards databases"
+    - "Emotion recognition systems in schools/workplaces"
+    - "Untargeted internet/CCTV face scraping systems"
+  risk_classification: "Unconditional classification as PROHIBITED under Article 5 framework for Autonomy Interference Assessment."
+  risk_thresholds:
+    prohibited_use_instances_limit: 0
+    manipulation_tolerance_score: 0.0
+  risk_validation: "Perform daily simulations of prohibited capabilities constraints validation under Autonomy Interference Assessment."
+  risk_assurance: "Log all safety checks and blocks weekly in GRC ledger under Autonomy Interference Assessment."
+prohibition_controls_framework:
+  control_objectives:
+    - "Halt execution of prohibited systems pre-flight"
+    - "Ensure E2E audit trails of containment actions"
+  control_standards:
+    - "ISO 42001 Section 8"
+    - "NIST AI RMF GOVERN"
+harm_prevention_framework:
+  physical_harm_prevention: "Block interaction scenarios under Autonomy Interference Assessment that could induce physical risk."
+  psychological_harm_prevention: "Filter out cognitive triggers and manipulative reasoning within Autonomy Interference Assessment outputs."
+  economic_harm_prevention: "Check that system decisions under Autonomy Interference Assessment do not cause financial exploitation."
+  societal_harm_prevention: "Monitor that Autonomy Interference Assessment does not induce systemic social disruption."
+  democratic_harm_prevention: "Prevent election interference or public discourse manipulation."
+  reputational_harm_prevention: "Audit that system outputs under Autonomy Interference Assessment do not cause unlawful defamation."
+  prevention_controls:
+    - "CTRL-PAP-INFL-AUTONO-02"
+    - "CTRL-PAP-INFL-AUTONO-03"
+  prevention_validation: "Run daily safety governor simulation checks for Autonomy Interference Assessment."
+fundamental_rights_protection_framework:
+  dignity_protection: "Ensure outputs of Autonomy Interference Assessment preserve human dignity and autonomy."
+  autonomy_protection: "Filter out dark patterns and subliminal influence within Autonomy Interference Assessment."
+  privacy_protection: "Block remote biometric tracking and unauthorized scraping under Autonomy Interference Assessment."
+  equality_protection: "Monitor demographics parameters to avoid discriminatory social scoring."
+  non_discrimination_protection: "Verify bias mitigation scores remain below safety threshold limits."
+  freedom_protection: "Protect democratic rights and free thought from manipulative systems."
+  rights_validation: "Verify compliance against demographic parity baselines weekly for Autonomy Interference Assessment."
+  rights_assurance: "Publish fundamental rights protection scorecards monthly for Unlawful Behavioral Influence."
+misuse_detection_framework:
+  misuse_indicators:
+    - "Prohibited capability keywords match rate > 0.05"
+    - "Attempted database scoring query access"
+  misuse_patterns:
+    - "Repetitive query patterns targeting demographic segments"
+    - "Attempts to bypass safety governor interceptors"
+  misuse_signals:
+    - "Database access timeout alarms"
+    - "Containment override logs creation"
+  detection_controls:
+    - "CTRL-PAP-INFL-AUTONO-01"
+    - "CTRL-PAP-INFL-AUTONO-05"
+  detection_thresholds:
+    intent_violation_count: 0
+    containment_override_events: 0
+  detection_validation: "Verify intent classification filters daily under Autonomy Interference Assessment."
+  detection_assurance: "Log all misuse detection signals weekly in secure GRC vault for Autonomy Interference Assessment."
+enforcement_readiness_framework:
+  enforcement_controls:
+    - "CTRL-PAP-INFL-AUTONO-01"
+    - "CTRL-PAP-INFL-AUTONO-04"
+  investigation_controls:
+    - "Secure execution trace logger checking database transaction logs weekly"
+    - "Containment scripts verifying credentials daily"
+  evidence_controls:
+    - "Signed verification logs stored in GRC db weekly"
+    - "Sealed Article 5 compliance files archived in GRC database weekly"
+  reporting_controls:
+    - "Monthly Article 5 assurance reports compiled monthly"
+    - "Immediate critical safety ticket alerts routed within 5 minutes"
+  remediation_controls:
+    - "Remediation update patches validation checkpoints pre-closure weekly"
+    - "System safety scores verification daily"
+  readiness_validation: "Verify regulator-ready data package compilation daily under Autonomy Interference Assessment."
+  readiness_assurance: "Seal and register readiness validation logs weekly in GRC ledger."
+rights_assurance_framework:
+  assurance_objectives:
+    - "Rights metrics dashboard verification"
+    - "Bias review sign-offs"
+  assurance_standards:
+    - "ISO 23894 Risk Assessment Standards"
+safety_assurance_framework:
+  assurance_objectives:
+    - "Model containment validation"
+    - "Containment response timeliness"
+  assurance_standards:
+    - "NIST AI RMF MEASURE Standard"
+regulatory_response_framework:
+  response_objectives:
+    - "Fulfill regulator notice retrieval SLAs"
+    - "Submit evidence packages"
+  response_standards:
+    - "EU AI Act conformity verification standards"
+monitoring_framework:
+  monitoring_scope: "Continuous verification of prohibited use telemetry, containment triggers, and Article 5 compliance metrics for Autonomy Interference Assessment."
+  alert_thresholds: "Trigger critical safety alert and halt models if any Article 5 check returns violation flag."
+validation_framework:
+  validation_requirements:
+    - "All model queries must pass subliminal technique filters"
+    - "Scoring functions must remain disabled pre-flight"
+  validation_methods:
+    - "Automated query analysis"
+    - "Database schema parsing"
+  validation_evidence: "Signed capability validation tokens saved in safety portal under Autonomy Interference Assessment."
+  validation_authority: "Chief AI Safety Officer"
+  validation_frequency: "Continuous"
+  validation_outcomes:
+    - "Pass - authorize transaction execution"
+    - "Fail - trigger containment, execute remediation, and notify safety officer"
+evidence_intelligence:
+  evidence_sources:
+    - "telemetry_gateway_db"
+    - "violation_checks_db"
+    - "compliance_ledger_vault"
+  evidence_types:
+    - "Capability validation tokens"
+    - "Daily safety certificates"
+    - "Rights violation triage records"
+  prohibition_evidence: "Immutable logs of query blocks and intent filtering hashes under Autonomy Interference Assessment."
+  enforcement_evidence: "Signed containment actions reports and incident escalation briefs under Autonomy Interference Assessment."
+  evidence_integrity: "Cryptographic SHA-256 hashes registered in compliance attestation vault."
+  evidence_lineage: "Trace evidence artifacts back to raw model execution transaction logs."
+  evidence_provenance: "Generated by verified compliance validation daemons."
+  evidence_validation: "Digital signature verification checks against security authority daily."
+  evidence_confidence: 1.0
+  evidence_retention: "15 years in secure regulatory archive"
+telemetry:
+  telemetry_sources:
+    - "safety_gateway_logs"
+    - "intent_filtering_service"
+    - "containment_manager"
+  collection_frequency: "Continuous"
+  telemetry_retention: "180 days active, 15 years compliance archive"
+  telemetry_integrity: "Cryptographically signed telemetry blocks"
+prohibited_practices_telemetry:
+  prohibited_behavior_events: "Record occurrences of query blocks and intent violation logs for Autonomy Interference Assessment."
+  misuse_detection_events: "Log target metrics scoring checks and scoring query blocks under Autonomy Interference Assessment."
+  rights_violation_events: "Log rights checks anomalies and vulnerability targeting index checks under Autonomy Interference Assessment."
+  manipulation_events: "Record subliminal technique alerts and dark pattern triggers under Autonomy Interference Assessment."
+  enforcement_events: "Log regulatory notice receipts and evidence packages exports under Autonomy Interference Assessment."
+  remediation_events: "Record patch installations and post-remediation safety scores under Autonomy Interference Assessment."
+  investigation_events: "Log containment triggers and execution trace logs acquisitions under Autonomy Interference Assessment."
+  escalation_events: "Record critical violation safety escalations and legal notifications under Autonomy Interference Assessment."
+  governance_alerts: "High priority safety alerts sent to Chief AI Safety Officer."
+  governance_indicators: "Check validation delays and containment execution latency indicators."
+metrics:
+  - metric_name: "autonomy_interference_assessment_article_5_compliance_score"
+    formula: "passed_article_5_checks / total_article_5_checks"
+    target: "1.00"
+    warning_threshold: "1.00"
+    critical_threshold: "0.99"
+    measurement_frequency: "WEEKLY"
+    owner: "Regulatory Liaison"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Weekly Article 5 Compliance scorecard."
+  - metric_name: "autonomy_interference_assessment_prohibited_use_detection_rate"
+    formula: "correctly_blocked_violations / total_attempted_violations"
+    target: "1.00"
+    warning_threshold: "0.99"
+    critical_threshold: "0.98"
+    measurement_frequency: "DAILY"
+    owner: "Safety Officer"
+    data_source: "violation_checks_db"
+    evidence_generated: "Daily Prohibited Use Detection report."
+  - metric_name: "autonomy_interference_assessment_harm_prevention_effectiveness"
+    formula: "COUNT(successful_mitigations) / COUNT(harm_anomalies)"
+    target: "1.00"
+    warning_threshold: "0.99"
+    critical_threshold: "0.98"
+    measurement_frequency: "WEEKLY"
+    owner: "Safety Officer"
+    data_source: "compliance_ledger_vault"
+    evidence_generated: "Weekly Harm Prevention Effectiveness scorecard."
+  - metric_name: "autonomy_interference_assessment_rights_protection_score"
+    formula: "passed_rights_checks / total_rights_checks"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Ethics Steward"
+    data_source: "violation_checks_db"
+    evidence_generated: "Weekly Rights Protection report."
+  - metric_name: "autonomy_interference_assessment_misuse_response_timeliness"
+    formula: "COUNT(containments_within_SLA) / COUNT(total_misuse_alerts)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "DAILY"
+    owner: "Safety Officer"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Daily Misuse Response Timeliness scorecard."
+  - metric_name: "autonomy_interference_assessment_investigation_effectiveness"
+    formula: "COUNT(resolved_investigations) / COUNT(total_escalations)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Safety Officer"
+    data_source: "violation_checks_db"
+    evidence_generated: "Weekly Investigation Effectiveness report."
+  - metric_name: "autonomy_interference_assessment_remediation_closure_rate"
+    formula: "COUNT(closed_remediations_within_SLA) / COUNT(total_remediations)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Ethics Steward"
+    data_source: "compliance_ledger_vault"
+    evidence_generated: "Weekly Remediation Closure scorecard."
+  - metric_name: "autonomy_interference_assessment_prohibited_behavior_reduction_rate"
+    formula: "(previous_violations - current_violations) / previous_violations"
+    target: "0.50"
+    warning_threshold: "0.30"
+    critical_threshold: "0.10"
+    measurement_frequency: "MONTHLY"
+    owner: "Safety Officer"
+    data_source: "violation_checks_db"
+    evidence_generated: "Monthly Violation Trends report."
+  - metric_name: "autonomy_interference_assessment_safety_assurance_score"
+    formula: "active_monitored_gateways / total_gateways"
+    target: "1.00"
+    warning_threshold: "0.99"
+    critical_threshold: "0.98"
+    measurement_frequency: "WEEKLY"
+    owner: "Safety Officer"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Weekly Safety Assurance scorecard."
+  - metric_name: "autonomy_interference_assessment_prohibited_practice_maturity_score"
+    formula: "current_maturity_level / 7.0"
+    target: "0.85"
+    warning_threshold: "0.71"
+    critical_threshold: "0.57"
+    measurement_frequency: "ANNUALLY"
+    owner: "Regulatory Liaison"
+    data_source: "compliance_ledger_vault"
+    evidence_generated: "Annual Maturity Assessment certificate."
+kpis:
+  - "autonomy_interference_assessment_article_5_compliance_score"
+  - "autonomy_interference_assessment_safety_assurance_score"
+kris:
+  - "autonomy_interference_assessment_prohibited_use_detection_rate"
+  - "autonomy_interference_assessment_prohibited_practice_maturity_score"
+thresholds:
+  - "Warning: autonomy_interference_assessment_article_5_compliance_score < 1.00"
+  - "Critical: autonomy_interference_assessment_article_5_compliance_score < 0.99"
+relationships:
+  prohibition_links:
+    - source: "urn:enterprise:prohibition:autonomy_interference_assessment"
+      target: "urn:enterprise:compliance:article_5"
+      relationship_type: "PREVENTS_AND_BLOCKS"
+      confidence: 1.0
+      evidence: "Obligation mapping database rules ISO-PAP-INFL."
+  rights_links:
+    - source: "urn:enterprise:rights:autonomy_interference_assessment"
+      target: "urn:enterprise:compliance:article_5"
+      relationship_type: "PROTECTS"
+      confidence: 1.0
+      evidence: "Obligation mapping database rules ISO-PAP-INFL."
+  harm_links:
+    - source: "urn:enterprise:harm:autonomy_interference_assessment"
+      target: "urn:enterprise:compliance:article_5"
+      relationship_type: "MITIGATES"
+      confidence: 1.0
+      evidence: "Obligation mapping database rules ISO-PAP-INFL."
+  investigation_links:
+    - source: "urn:enterprise:investigation:autonomy_interference_assessment"
+      target: "urn:enterprise:compliance:article_5"
+      relationship_type: "MONITORS"
+      confidence: 1.0
+      evidence: "Obligation mapping database rules ISO-PAP-INFL."
+  evidence_links:
+    - source: "urn:enterprise:evidence:autonomy_interference_assessment"
+      target: "urn:enterprise:compliance:article_5"
+      relationship_type: "ATTESTS_TO"
+      confidence: 1.0
+      evidence: "Obligation mapping database rules ISO-PAP-INFL."
+  workflow_links:
+    - source: "urn:enterprise:workflow:autonomy_interference_assessment"
+      target: "urn:enterprise:compliance:article_5"
+      relationship_type: "EXECUTES_FOR"
+      confidence: 1.0
+      evidence: "Obligation mapping database rules ISO-PAP-INFL."
+  governance_links:
+    - source: "urn:enterprise:governance:autonomy_interference_assessment"
+      target: "urn:enterprise:compliance:article_5"
+      relationship_type: "OVERSIGHT_BY"
+      confidence: 1.0
+      evidence: "Obligation mapping database rules ISO-PAP-INFL."
+  remediation_links:
+    - source: "urn:enterprise:remediation:autonomy_interference_assessment"
+      target: "urn:enterprise:compliance:article_5"
+      relationship_type: "RESOLVES"
+      confidence: 1.0
+      evidence: "Obligation mapping database rules ISO-PAP-INFL."
+  enforcement_links:
+    - source: "urn:enterprise:enforcement:autonomy_interference_assessment"
+      target: "urn:enterprise:compliance:article_5"
+      relationship_type: "ENFORCES"
+      confidence: 1.0
+      evidence: "Obligation mapping database rules ISO-PAP-INFL."
+  compliance_links:
+    - source: "urn:enterprise:compliance:autonomy_interference_assessment"
+      target: "urn:enterprise:compliance:article_5"
+      relationship_type: "VALIDATES"
+      confidence: 1.0
+      evidence: "Obligation mapping database rules ISO-PAP-INFL."
+knowledge_graph:
+  prohibition_nodes:
+    - id: "urn:enterprise:prohibition:autonomy_interference_assessment"
+      label: "Autonomy Interference Assessment Prohibition Node"
+      properties:
+        type: "prohibition"
+        article: "Article 5"
+  rights_nodes:
+    - id: "urn:enterprise:rights:autonomy_interference_assessment"
+      label: "Autonomy Interference Assessment Fundamental Rights Node"
+      properties:
+        type: "rights"
+        article: "Article 5"
+  harm_nodes:
+    - id: "urn:enterprise:harm:autonomy_interference_assessment"
+      label: "Autonomy Interference Assessment Harm Prevention Node"
+      properties:
+        type: "harm"
+        article: "Article 5"
+  investigation_nodes:
+    - id: "urn:enterprise:investigation:autonomy_interference_assessment"
+      label: "Autonomy Interference Assessment Triage Node"
+      properties:
+        type: "investigation"
+        article: "Article 5"
+  evidence_nodes:
+    - id: "urn:enterprise:evidence:autonomy_interference_assessment"
+      label: "Autonomy Interference Assessment Cryptographic Attestation Node"
+      properties:
+        type: "evidence"
+        article: "Article 5"
+  control_nodes:
+    - id: "urn:enterprise:control:PAP-INFL-AUTONO-01"
+      label: "CTRL-PAP-INFL-AUTONO-01 Prohibited Use Detection Control"
+      properties:
+        type: "control"
+        article: "Article 5"
+  workflow_nodes:
+    - id: "urn:enterprise:workflow:prohibited_use_detection"
+      label: "Prohibited Use Detection Workflow"
+      properties:
+        type: "workflow"
+        article: "Article 5"
+  relationships:
+    - source: "urn:enterprise:prohibition:autonomy_interference_assessment"
+      target: "urn:enterprise:regulation:eu_ai_act"
+      relationship_type: "DERIVED_FROM"
+      confidence: 1.0
+      evidence: "Prohibited AI practices compliance requirements mapping."
+crosswalks:
+  eu_ai_act:
+    framework: "eu_ai_act"
+    control_mapping: "Map prohibited AI practices controls to EU AI Act guidelines for Autonomy Interference Assessment."
+    security_mapping: "Enforce model containment profiles and deployment blocks."
+    accountability_mapping: "Assign roles for post-market monitoring and safety triage."
+    evidence_mapping: "Save containment logs and capability validation tokens in database."
+    validation_mapping: "Validate model benchmark results under containment profiles."
+  gpai_obligations:
+    framework: "gpai_obligations"
+    control_mapping: "Enforce GPAI model registration and systemic risk controls."
+    security_mapping: "Monitor model execution parameters and telemetry check alerts."
+    accountability_mapping: "Operations officer signs off GPAI database entries."
+    evidence_mapping: "Save model card updates and benchmark tests."
+    validation_mapping: "Validate base model accuracy and security profiles."
+  foundation_model_obligations:
+    framework: "foundation_model_obligations"
+    control_mapping: "Apply foundation model registration rules and audits."
+    security_mapping: "Verify downstream risk mitigations and safety filters."
+    accountability_mapping: "Compliance lead reviews foundation model portals."
+    evidence_mapping: "Log model card details and disclosures history."
+    validation_mapping: "Verify registration status indicators monthly."
+  iso_42001:
+    framework: "iso_42001"
+    control_mapping: "Map compliance controls to ISO 42001 clauses for safety governance."
+    security_mapping: "Track quality management security metrics and hashes."
+    accountability_mapping: "Review roles assignment for AI systems compliance daily."
+    evidence_mapping: "Archive ISO auditing worksheets and certificates."
+    validation_mapping: "Confirm compliance dashboard updates match auditing standards."
+  iso_23894:
+    framework: "iso_23894"
+    control_mapping: "Map compliance controls to ISO 23894 risk management guidelines."
+    security_mapping: "Verify system risk parameters against thresholds."
+    accountability_mapping: "Review roles assignment for risk management committees."
+    evidence_mapping: "Log risk assessments and gap remediation plans."
+    validation_mapping: "Confirm risk scores updates on central GRC board."
+  iso_27001:
+    framework: "iso_27001"
+    control_mapping: "Map data protection controls to ISO 27001 Annex A clauses."
+    security_mapping: "Enforce strict data access restrictions and encryption standards."
+    accountability_mapping: "Security officer audits data access logs."
+    evidence_mapping: "Log encryption validation audits and access authorizations."
+    validation_mapping: "Verify database encryption validation tests weekly."
+  iso_22301:
+    framework: "iso_22301"
+    control_mapping: "Map system containment controls to business continuity standards."
+    security_mapping: "Verify system failover configurations and recovery times."
+    accountability_mapping: "Operations officer checks backup nodes status."
+    evidence_mapping: "Log recovery times tests and database mirror logs."
+    validation_mapping: "Verify failover automation checks monthly."
+  nist_ai_rmf:
+    framework: "nist_ai_rmf"
+    control_mapping: "Map compliance controls to NIST AI RMF core functions."
+    security_mapping: "Ensure security profiles match MAP and MEASURE guidelines."
+    accountability_mapping: "VP of safety compliance registers model profiles."
+    evidence_mapping: "Log NIST checklists validations and control gap status."
+    validation_mapping: "Verify safety scorecard updates weekly."
+  nist_sp_800-53:
+    framework: "nist_sp_800-53"
+    control_mapping: "Map controls to security controls catalog categories."
+    security_mapping: "Verify system audit logging and monitoring controls."
+    accountability_mapping: "Security administrator audits system events."
+    evidence_mapping: "Save system audit logs and containment triggers history."
+    validation_mapping: "Confirm log streams connectivity status weekly."
+  oecd_ai_principles:
+    framework: "oecd_ai_principles"
+    control_mapping: "Enforce OECD transparency and safety principles."
+    security_mapping: "Monitor system decisions explainability score parameters."
+    accountability_mapping: "Corporate governance board signs off transparency statements."
+    evidence_mapping: "Save explainability logs and model cards metadata."
+    validation_mapping: "Confirm model documentation updates monthly."
+  unesco_ai_ethics:
+    framework: "unesco_ai_ethics"
+    control_mapping: "Apply UNESCO human rights and ethical guidelines."
+    security_mapping: "Audit system impact metrics against ethical baseline targets."
+    accountability_mapping: "Corporate ethics steward audits demographic parity."
+    evidence_mapping: "Save ethical review reports and compliance dashboard certificates."
+    validation_mapping: "Confirm demographic parity tests match guidelines weekly."
+compliance_mapping:
+  EU AI Act Article 5: "Article 5 compliance enforcement mapping"
+  OECD AI Principles: "OECD AI Principles compliance verification mapping"
+  ISO 42001: "ISO 42001 compliance auditing alignment mapping"
+  NIST AI RMF: "NIST AI RMF compliance gap tracking alignment mapping"
+integration_points:
+  privacy_and_fundamental_rights: "Map autonomy_interference_assessment compliance workflows and telemetry streams to privacy_and_fundamental_rights enterprise governance portal."
+  bias_and_fairness: "Map autonomy_interference_assessment compliance workflows and telemetry streams to bias_and_fairness enterprise governance portal."
+  human_oversight: "Map autonomy_interference_assessment compliance workflows and telemetry streams to human_oversight enterprise governance portal."
+  risk_management: "Map autonomy_interference_assessment compliance workflows and telemetry streams to risk_management enterprise governance portal."
+  incident_reporting: "Map autonomy_interference_assessment compliance workflows and telemetry streams to incident_reporting enterprise governance portal."
+  audit_and_enforcement: "Map autonomy_interference_assessment compliance workflows and telemetry streams to audit_and_enforcement enterprise governance portal."
+  audit_and_forensics: "Map autonomy_interference_assessment compliance workflows and telemetry streams to audit_and_forensics enterprise governance portal."
+  compliance_scoring: "Map autonomy_interference_assessment compliance workflows and telemetry streams to compliance_scoring enterprise governance portal."
+  conformity_assessment: "Map autonomy_interference_assessment compliance workflows and telemetry streams to conformity_assessment enterprise governance portal."
+  evidence_and_attestation: "Map autonomy_interference_assessment compliance workflows and telemetry streams to evidence_and_attestation enterprise governance portal."
+  high_risk_ai_systems: "Map autonomy_interference_assessment compliance workflows and telemetry streams to high_risk_ai_systems enterprise governance portal."
+  provider_obligations: "Map autonomy_interference_assessment compliance workflows and telemetry streams to provider_obligations enterprise governance portal."
+  deployer_obligations: "Map autonomy_interference_assessment compliance workflows and telemetry streams to deployer_obligations enterprise governance portal."
+  foundation_models: "Map autonomy_interference_assessment compliance workflows and telemetry streams to foundation_models enterprise governance portal."
+  general_purpose_ai: "Map autonomy_interference_assessment compliance workflows and telemetry streams to general_purpose_ai enterprise governance portal."
+  governance_reporting: "Map autonomy_interference_assessment compliance workflows and telemetry streams to governance_reporting enterprise governance portal."
+  legal_interoperability: "Map autonomy_interference_assessment compliance workflows and telemetry streams to legal_interoperability enterprise governance portal."
+  core_governance: "Map autonomy_interference_assessment compliance workflows and telemetry streams to core_governance enterprise governance portal."
+dependencies:
+  upstream:
+    - "governance_policy_registry"
+    - "intent_filtering_service"
+  downstream:
+    - "telemetry_gateway_db"
+    - "violation_checks_db"
+    - "compliance_ledger_vault"
+outputs:
+  compliance_deliverables:
+    - "Capability validation token"
+    - "Daily safety certificate"
+    - "Rights violation triage record"
+  telemetry_outputs:
+    - "Active controls gauge"
+    - "Compliance score current"
+    - "Pending reviews count"
+artifacts:
+  - "Signed capability validation tokens archived in safety portal."
+  - "Signed daily safety certificates saved in secure compliance database."
+  - "Signed rights violation triage records stored in GRC database."
+records:
+  audit_logs: "All query blocks and intent filtering hashes recorded in security ledger for Autonomy Interference Assessment."
+  retention_period: "15 years secure compliance archive"
+continuous_improvement:
+  review_triggers:
+    - "prohibited_use_detection_rate < 0.99"
+    - "new regulatory update received"
+  process_enhancements: "Automated trigger gap assessments and patching routines under Autonomy Interference Assessment."
+exceptions:
+  allowed_deviations: "Law enforcement real-time RBI in public spaces when authorized by judicial warrant."
+  exception_process: "Request judicial override verification, register warrant credentials, initiate override gate."
+escalation:
+  sla_limits:
+    level_1_warning: "120 minutes"
+    level_2_control_failure: "60 minutes"
+    level_3_obligation_breach: "30 minutes"
+    level_4_regulatory_enforcement: "15 minutes"
+  crisis_contacts:
+    - "ai_safety@enterprise.ai"
+    - "legal@enterprise.ai"
+versioning:
+  current_version: "1.0.0"
+  previous_version: "N/A"
+  change_log:
+    - version: "1.0.0"
+      date: "2026-06-13"
+      changes: "Initial regulatory prohibited AI practices compliance framework release for Autonomy Interference Assessment."
+prohibited_ai_practices_capabilities:
+  prohibited_practices_governance: "Verify governance framework activation and roles assignments for Autonomy Interference Assessment."
+  unacceptable_risk_management: "Triage unacceptable risks and calculate compliance metrics under Autonomy Interference Assessment."
+  prohibited_use_detection: "Scan capability manifests and check queries pre-flight for Autonomy Interference Assessment."
+  prohibited_use_prevention: "Halt system execution and apply model blocks dynamically for Autonomy Interference Assessment."
+  prohibited_use_monitoring: "Track active controls count and logs events weekly for Autonomy Interference Assessment."
+  harm_prevention: "Deploy output filters and scan interactions daily for Autonomy Interference Assessment."
+  rights_preservation: "Validate fundamental rights parameters against standards weekly for Autonomy Interference Assessment."
+  dignity_protection: "Ensure outputs do not dehumanize users or exploit biases under Autonomy Interference Assessment."
+  autonomy_protection: "Identify and block deceptive pattern designs within Autonomy Interference Assessment workflows."
+  democracy_protection: "Filter out public manipulation triggers or electoral interference anomalies."
+  exploitation_prevention: "Triage vulnerability index checks and block targeted query runs."
+  manipulation_prevention: "Analyze persuasion scores and prevent subliminal influence pre-deployment."
+  coercion_prevention: "Identify coercive reasoning models and restrict execution parameters."
+  discrimination_prevention: "Audit demographic parity and apply bias mitigations weekly."
+  surveillance_prevention: "Block unauthorized biometric collection and public space scrapers."
+  vulnerability_protection: "Run vulnerability targeting checks pre-flight for Autonomy Interference Assessment."
+  child_protection: "Enforce child cognitive vulnerability protection filters for Autonomy Interference Assessment."
+  worker_protection: "Block emotion recognition profiling in labor contexts for Autonomy Interference Assessment."
+  citizen_protection: "Restrict remote biometric tracking and database scoring access for citizens."
+  misuse_detection: "Monitor intent classification thresholds and flag target metrics scoring attempts."
+  misuse_investigation: "Triage tickets severity levels and acquire trace logs for analysis."
+  misuse_response: "Execute model containment workflows and send notifications within SLA."
+  misuse_remediation: "Verify remediation patches and evaluate post-remediation safety scores."
+  regulatory_assurance: "Check compliance maps completeness and register evidence in ledger."
+  compliance_assurance: "Update compliance score indicators and compile Article 5 reports."
+  governance_assurance: "Audit safety board sign-off records and seal verification reports."
+  prohibited_practice_intelligence: "Track compliance trends and update containment reference models."
+  prohibited_practice_maturity: "Score overall safety maturity against the 7-level framework parameters."
+altai_prohibited_practices:
+  autonomous_agent_prohibitions:
+    agent_manipulation_controls: "Deploy pre-flight cognitive safeguards to prevent agent from manipulating user decisions under Autonomy Interference Assessment."
+    agent_deception_controls: "Enforce strict honesty boundaries and verify explanation logs for agent actions under Autonomy Interference Assessment."
+    agent_autonomy_constraints: "Restrict self-execution loops and define mandatory human-in-the-loop validation checkpoints."
+    agent_harm_prevention: "Block execution of commands that violate physical or psychological safety limits under Autonomy Interference Assessment."
+  multi_agent_prohibitions:
+    swarm_manipulation_controls: "Monitor coordination protocols and block collective deceptive behaviors under Autonomy Interference Assessment."
+    ecosystem_abuse_prevention: "Restrict unauthorized data sharing or agent collusion targeting protected demographics."
+    coordination_constraints: "Define validation checkpoints for swarm state transitions and sync loops under Autonomy Interference Assessment."
+    systemic_harm_prevention: "Verify cross-agent execution dependencies do not propagate cascade failures under Autonomy Interference Assessment."
+  reasoning_prohibitions:
+    harmful_reasoning_detection: "Filter out logical paths leading to harmful or destructive conclusions under Autonomy Interference Assessment."
+    manipulative_reasoning_detection: "Block deceptive reasoning techniques aimed at bypassing safety governor rules."
+    coercive_reasoning_detection: "Identify logical constructs designed to intimidate or coerce user agreement."
+    prohibited_reasoning_controls: "Apply constraint models to reasoning pipelines to prevent capability drift."
+  memory_prohibitions:
+    memory_abuse_prevention: "Verify database vaults do not store subliminal triggers or unauthorized user profiles."
+    memory_manipulation_detection: "Monitor vector memory updates for injection of deceptive or manipulative contexts."
+    memory_surveillance_controls: "Enforce zero-trust access rules on historical memory retrievals under Autonomy Interference Assessment."
+    memory_accountability: "Ensure all memory writes and updates generate signed transaction hashes in safety ledger."
+  tool_prohibitions:
+    abusive_tool_usage_detection: "Audit API calls and tool execution inputs for prohibited activities under Autonomy Interference Assessment."
+    prohibited_tool_execution_controls: "Deploy automated sandbox containers to restrict tool permissions dynamically."
+    tool_harm_prevention: "Filter output data from external tools to block propagation of harmful inputs."
+    tool_accountability: "Ensure E2E trace maps log all tool invocations and returned values under Autonomy Interference Assessment."
+  orchestration_prohibitions:
+    harmful_workflow_detection: "Verify execution sequence files do not run prohibited system combinations."
+    prohibited_workflow_controls: "Halt orchestration engine if any task node violates safety thresholds."
+    orchestration_abuse_prevention: "Block dynamic task generator from generating deceptive user flows under Autonomy Interference Assessment."
+    orchestration_accountability: "Log all orchestration transitions and step signatures in immutable safety ledger."
+  foundation_model_prohibitions:
+    systemic_manipulation_detection: "Audit base model capabilities during training and fine-tuning for manipulative potential."
+    prohibited_capability_controls: "Deactivate base model weights associated with prohibited capability classes."
+    harmful_behavior_detection: "Run automated red-teaming checks targeting systemic cognitive exploitation under Autonomy Interference Assessment."
+    systemic_risk_prevention: "Apply safety fine-tuning alignments (RLHF/DPO) to guarantee non-manipulative outputs."
+  gpai_prohibitions:
+    ecosystem_scale_harm_detection: "Monitor downstream fine-tuned instances for systemic misuse at scale under Autonomy Interference Assessment."
+    societal_manipulation_prevention: "Establish global gateway filters to detect political or democratic manipulation attempts."
+    democracy_protection_controls: "Halt API access if model is leveraged for mass disinformation campaigns."
+    systemic_risk_constraints: "Audit global telemetry logs monthly to detect emergent systemic risks under Autonomy Interference Assessment."
+prohibited_practices_taxonomy:
+  harmful_manipulation:
+    definition: "Prohibited practice definition for Harmful Manipulation within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Harmful Manipulation occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Harmful Manipulation exploits system capabilities leading to user harm."
+      - "Alternative scenario where Harmful Manipulation bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Harmful Manipulation."
+      - "Block all database queries calculating metrics associated with Harmful Manipulation."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Harmful Manipulation block rules are loaded."
+  deceptive_manipulation:
+    definition: "Prohibited practice definition for Deceptive Manipulation within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Deceptive Manipulation occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Deceptive Manipulation exploits system capabilities leading to user harm."
+      - "Alternative scenario where Deceptive Manipulation bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Deceptive Manipulation."
+      - "Block all database queries calculating metrics associated with Deceptive Manipulation."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Deceptive Manipulation block rules are loaded."
+  subliminal_manipulation:
+    definition: "Prohibited practice definition for Subliminal Manipulation within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Subliminal Manipulation occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Subliminal Manipulation exploits system capabilities leading to user harm."
+      - "Alternative scenario where Subliminal Manipulation bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Subliminal Manipulation."
+      - "Block all database queries calculating metrics associated with Subliminal Manipulation."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Subliminal Manipulation block rules are loaded."
+  vulnerability_exploitation:
+    definition: "Prohibited practice definition for Vulnerability Exploitation within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Vulnerability Exploitation occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Vulnerability Exploitation exploits system capabilities leading to user harm."
+      - "Alternative scenario where Vulnerability Exploitation bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Vulnerability Exploitation."
+      - "Block all database queries calculating metrics associated with Vulnerability Exploitation."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Vulnerability Exploitation block rules are loaded."
+  child_exploitation:
+    definition: "Prohibited practice definition for Child Exploitation within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Child Exploitation occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Child Exploitation exploits system capabilities leading to user harm."
+      - "Alternative scenario where Child Exploitation bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Child Exploitation."
+      - "Block all database queries calculating metrics associated with Child Exploitation."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Child Exploitation block rules are loaded."
+  disability_exploitation:
+    definition: "Prohibited practice definition for Disability Exploitation within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Disability Exploitation occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Disability Exploitation exploits system capabilities leading to user harm."
+      - "Alternative scenario where Disability Exploitation bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Disability Exploitation."
+      - "Block all database queries calculating metrics associated with Disability Exploitation."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Disability Exploitation block rules are loaded."
+  socio_economic_exploitation:
+    definition: "Prohibited practice definition for Socio Economic Exploitation within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Socio Economic Exploitation occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Socio Economic Exploitation exploits system capabilities leading to user harm."
+      - "Alternative scenario where Socio Economic Exploitation bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Socio Economic Exploitation."
+      - "Block all database queries calculating metrics associated with Socio Economic Exploitation."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Socio Economic Exploitation block rules are loaded."
+  social_scoring:
+    definition: "Prohibited practice definition for Social Scoring within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Social Scoring occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Social Scoring exploits system capabilities leading to user harm."
+      - "Alternative scenario where Social Scoring bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Social Scoring."
+      - "Block all database queries calculating metrics associated with Social Scoring."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Social Scoring block rules are loaded."
+  biometric_categorization:
+    definition: "Prohibited practice definition for Biometric Categorization within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Biometric Categorization occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Biometric Categorization exploits system capabilities leading to user harm."
+      - "Alternative scenario where Biometric Categorization bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Biometric Categorization."
+      - "Block all database queries calculating metrics associated with Biometric Categorization."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Biometric Categorization block rules are loaded."
+  prohibited_emotion_recognition:
+    definition: "Prohibited practice definition for Prohibited Emotion Recognition within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Prohibited Emotion Recognition occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Prohibited Emotion Recognition exploits system capabilities leading to user harm."
+      - "Alternative scenario where Prohibited Emotion Recognition bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Prohibited Emotion Recognition."
+      - "Block all database queries calculating metrics associated with Prohibited Emotion Recognition."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Prohibited Emotion Recognition block rules are loaded."
+  predictive_policing:
+    definition: "Prohibited practice definition for Predictive Policing within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Predictive Policing occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Predictive Policing exploits system capabilities leading to user harm."
+      - "Alternative scenario where Predictive Policing bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Predictive Policing."
+      - "Block all database queries calculating metrics associated with Predictive Policing."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Predictive Policing block rules are loaded."
+  untargeted_biometric_scraping:
+    definition: "Prohibited practice definition for Untargeted Biometric Scraping within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Untargeted Biometric Scraping occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Untargeted Biometric Scraping exploits system capabilities leading to user harm."
+      - "Alternative scenario where Untargeted Biometric Scraping bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Untargeted Biometric Scraping."
+      - "Block all database queries calculating metrics associated with Untargeted Biometric Scraping."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Untargeted Biometric Scraping block rules are loaded."
+  real_time_remote_biometric_identification:
+    definition: "Prohibited practice definition for Real Time Remote Biometric Identification within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Real Time Remote Biometric Identification occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Real Time Remote Biometric Identification exploits system capabilities leading to user harm."
+      - "Alternative scenario where Real Time Remote Biometric Identification bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Real Time Remote Biometric Identification."
+      - "Block all database queries calculating metrics associated with Real Time Remote Biometric Identification."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Real Time Remote Biometric Identification block rules are loaded."
+  behavioral_manipulation:
+    definition: "Prohibited practice definition for Behavioral Manipulation within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Behavioral Manipulation occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Behavioral Manipulation exploits system capabilities leading to user harm."
+      - "Alternative scenario where Behavioral Manipulation bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Behavioral Manipulation."
+      - "Block all database queries calculating metrics associated with Behavioral Manipulation."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Behavioral Manipulation block rules are loaded."
+  democratic_process_manipulation:
+    definition: "Prohibited practice definition for Democratic Process Manipulation within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Democratic Process Manipulation occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Democratic Process Manipulation exploits system capabilities leading to user harm."
+      - "Alternative scenario where Democratic Process Manipulation bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Democratic Process Manipulation."
+      - "Block all database queries calculating metrics associated with Democratic Process Manipulation."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Democratic Process Manipulation block rules are loaded."
+  autonomy_interference:
+    definition: "Prohibited practice definition for Autonomy Interference within Autonomy Interference Assessment governance framework."
+    risk_characteristics: "Key attributes and patterns identifying Autonomy Interference occurrences under Autonomy Interference Assessment."
+    harm_scenarios:
+      - "Scenario where Autonomy Interference exploits system capabilities leading to user harm."
+      - "Alternative scenario where Autonomy Interference bypasses safety filters in Unlawful Behavioral Influence."
+    control_requirements:
+      - "Verify intent checks and capability filters are active pre-flight for Autonomy Interference."
+      - "Block all database queries calculating metrics associated with Autonomy Interference."
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash registered in safety ledger."
+      - "Verification report signed by Safety Officer stored in GRC db."
+    validation_requirements:
+      - "Execute mock intent injection, assert query is blocked and ticket generated."
+      - "Audit configuration files to confirm Autonomy Interference block rules are loaded."
+article_5_compliance_framework:
+  prohibited_practice_mappings:
+    Article 5(1)(a):
+      article: "Article 5(1)(a)"
+      prohibition: "Unacceptable risk prohibition details under Article 5(1)(a) rules."
+      implementation_method: "Enforce strict gateway filtering and system blocks for Autonomy Interference Assessment."
+      protection_control: "CTRL-PAP-INFL-AUTONO-01"
+      required_evidence: "Signed capability validation token saved in safety portal."
+      validation_method: "Inject mock intent, verify model execution halt and containment alert."
+      assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+    Article 5(1)(b):
+      article: "Article 5(1)(b)"
+      prohibition: "Unacceptable risk prohibition details under Article 5(1)(b) rules."
+      implementation_method: "Enforce strict gateway filtering and system blocks for Autonomy Interference Assessment."
+      protection_control: "CTRL-PAP-INFL-AUTONO-01"
+      required_evidence: "Signed capability validation token saved in safety portal."
+      validation_method: "Inject mock intent, verify model execution halt and containment alert."
+      assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+    Article 5(1)(c):
+      article: "Article 5(1)(c)"
+      prohibition: "Unacceptable risk prohibition details under Article 5(1)(c) rules."
+      implementation_method: "Enforce strict gateway filtering and system blocks for Autonomy Interference Assessment."
+      protection_control: "CTRL-PAP-INFL-AUTONO-01"
+      required_evidence: "Signed capability validation token saved in safety portal."
+      validation_method: "Inject mock intent, verify model execution halt and containment alert."
+      assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+    Article 5(1)(d):
+      article: "Article 5(1)(d)"
+      prohibition: "Unacceptable risk prohibition details under Article 5(1)(d) rules."
+      implementation_method: "Enforce strict gateway filtering and system blocks for Autonomy Interference Assessment."
+      protection_control: "CTRL-PAP-INFL-AUTONO-01"
+      required_evidence: "Signed capability validation token saved in safety portal."
+      validation_method: "Inject mock intent, verify model execution halt and containment alert."
+      assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+    Article 5(1)(e):
+      article: "Article 5(1)(e)"
+      prohibition: "Unacceptable risk prohibition details under Article 5(1)(e) rules."
+      implementation_method: "Enforce strict gateway filtering and system blocks for Autonomy Interference Assessment."
+      protection_control: "CTRL-PAP-INFL-AUTONO-01"
+      required_evidence: "Signed capability validation token saved in safety portal."
+      validation_method: "Inject mock intent, verify model execution halt and containment alert."
+      assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+    Article 5(1)(f):
+      article: "Article 5(1)(f)"
+      prohibition: "Unacceptable risk prohibition details under Article 5(1)(f) rules."
+      implementation_method: "Enforce strict gateway filtering and system blocks for Autonomy Interference Assessment."
+      protection_control: "CTRL-PAP-INFL-AUTONO-01"
+      required_evidence: "Signed capability validation token saved in safety portal."
+      validation_method: "Inject mock intent, verify model execution halt and containment alert."
+      assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+    Article 5(1)(g):
+      article: "Article 5(1)(g)"
+      prohibition: "Unacceptable risk prohibition details under Article 5(1)(g) rules."
+      implementation_method: "Enforce strict gateway filtering and system blocks for Autonomy Interference Assessment."
+      protection_control: "CTRL-PAP-INFL-AUTONO-01"
+      required_evidence: "Signed capability validation token saved in safety portal."
+      validation_method: "Inject mock intent, verify model execution halt and containment alert."
+      assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+    Article 5(1)(h):
+      article: "Article 5(1)(h)"
+      prohibition: "Unacceptable risk prohibition details under Article 5(1)(h) rules."
+      implementation_method: "Enforce strict gateway filtering and system blocks for Autonomy Interference Assessment."
+      protection_control: "CTRL-PAP-INFL-AUTONO-01"
+      required_evidence: "Signed capability validation token saved in safety portal."
+      validation_method: "Inject mock intent, verify model execution halt and containment alert."
+      assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  prohibition_controls:
+    - "CTRL-PAP-INFL-AUTONO-01"
+    - "CTRL-PAP-INFL-AUTONO-04"
+  prohibition_validations:
+    - "Verify intent classification filters daily"
+    - "Audit scoring function disabling pre-flight"
+  evidence_requirements:
+    - "Signed capability validation token saved in safety portal"
+    - "Weekly compliance mapping verification report"
+  enforcement_requirements:
+    - "Halting model execution immediately on violation"
+    - "Triaging misuse alerts within SLA"
+  assurance_requirements:
+    - "Seal compliance ledger vault weekly"
+    - "Review safety board sign-off logs"
+  remediation_requirements:
+    - "Remediation patch validation checks pre-closure"
+    - "System safety score verification"
+rights_risk_model:
+  manipulation_risk:
+    risk_description: "Detailed risk profile and impact analysis for Manipulation Risk under Autonomy Interference Assessment."
+    risk_indicators:
+      - "Anomaly rating for Manipulation Risk exceeds 0.05"
+      - "Gateway reports intent filtering hits for Manipulation Risk daily"
+    risk_controls:
+      - "CTRL-PAP-INFL-AUTONO-02"
+      - "CTRL-PAP-INFL-AUTONO-05"
+    risk_thresholds:
+      warning: 0.02
+      critical: 0.05
+    evidence_requirements:
+      - "Signed risk assessment reports saved in GRC database."
+      - "Weekly compliance scorecard updates registered in safety portal."
+  coercion_risk:
+    risk_description: "Detailed risk profile and impact analysis for Coercion Risk under Autonomy Interference Assessment."
+    risk_indicators:
+      - "Anomaly rating for Coercion Risk exceeds 0.05"
+      - "Gateway reports intent filtering hits for Coercion Risk daily"
+    risk_controls:
+      - "CTRL-PAP-INFL-AUTONO-02"
+      - "CTRL-PAP-INFL-AUTONO-05"
+    risk_thresholds:
+      warning: 0.02
+      critical: 0.05
+    evidence_requirements:
+      - "Signed risk assessment reports saved in GRC database."
+      - "Weekly compliance scorecard updates registered in safety portal."
+  exploitation_risk:
+    risk_description: "Detailed risk profile and impact analysis for Exploitation Risk under Autonomy Interference Assessment."
+    risk_indicators:
+      - "Anomaly rating for Exploitation Risk exceeds 0.05"
+      - "Gateway reports intent filtering hits for Exploitation Risk daily"
+    risk_controls:
+      - "CTRL-PAP-INFL-AUTONO-02"
+      - "CTRL-PAP-INFL-AUTONO-05"
+    risk_thresholds:
+      warning: 0.02
+      critical: 0.05
+    evidence_requirements:
+      - "Signed risk assessment reports saved in GRC database."
+      - "Weekly compliance scorecard updates registered in safety portal."
+  discrimination_risk:
+    risk_description: "Detailed risk profile and impact analysis for Discrimination Risk under Autonomy Interference Assessment."
+    risk_indicators:
+      - "Anomaly rating for Discrimination Risk exceeds 0.05"
+      - "Gateway reports intent filtering hits for Discrimination Risk daily"
+    risk_controls:
+      - "CTRL-PAP-INFL-AUTONO-02"
+      - "CTRL-PAP-INFL-AUTONO-05"
+    risk_thresholds:
+      warning: 0.02
+      critical: 0.05
+    evidence_requirements:
+      - "Signed risk assessment reports saved in GRC database."
+      - "Weekly compliance scorecard updates registered in safety portal."
+  surveillance_risk:
+    risk_description: "Detailed risk profile and impact analysis for Surveillance Risk under Autonomy Interference Assessment."
+    risk_indicators:
+      - "Anomaly rating for Surveillance Risk exceeds 0.05"
+      - "Gateway reports intent filtering hits for Surveillance Risk daily"
+    risk_controls:
+      - "CTRL-PAP-INFL-AUTONO-02"
+      - "CTRL-PAP-INFL-AUTONO-05"
+    risk_thresholds:
+      warning: 0.02
+      critical: 0.05
+    evidence_requirements:
+      - "Signed risk assessment reports saved in GRC database."
+      - "Weekly compliance scorecard updates registered in safety portal."
+  autonomy_risk:
+    risk_description: "Detailed risk profile and impact analysis for Autonomy Risk under Autonomy Interference Assessment."
+    risk_indicators:
+      - "Anomaly rating for Autonomy Risk exceeds 0.05"
+      - "Gateway reports intent filtering hits for Autonomy Risk daily"
+    risk_controls:
+      - "CTRL-PAP-INFL-AUTONO-02"
+      - "CTRL-PAP-INFL-AUTONO-05"
+    risk_thresholds:
+      warning: 0.02
+      critical: 0.05
+    evidence_requirements:
+      - "Signed risk assessment reports saved in GRC database."
+      - "Weekly compliance scorecard updates registered in safety portal."
+  dignity_risk:
+    risk_description: "Detailed risk profile and impact analysis for Dignity Risk under Autonomy Interference Assessment."
+    risk_indicators:
+      - "Anomaly rating for Dignity Risk exceeds 0.05"
+      - "Gateway reports intent filtering hits for Dignity Risk daily"
+    risk_controls:
+      - "CTRL-PAP-INFL-AUTONO-02"
+      - "CTRL-PAP-INFL-AUTONO-05"
+    risk_thresholds:
+      warning: 0.02
+      critical: 0.05
+    evidence_requirements:
+      - "Signed risk assessment reports saved in GRC database."
+      - "Weekly compliance scorecard updates registered in safety portal."
+  democracy_risk:
+    risk_description: "Detailed risk profile and impact analysis for Democracy Risk under Autonomy Interference Assessment."
+    risk_indicators:
+      - "Anomaly rating for Democracy Risk exceeds 0.05"
+      - "Gateway reports intent filtering hits for Democracy Risk daily"
+    risk_controls:
+      - "CTRL-PAP-INFL-AUTONO-02"
+      - "CTRL-PAP-INFL-AUTONO-05"
+    risk_thresholds:
+      warning: 0.02
+      critical: 0.05
+    evidence_requirements:
+      - "Signed risk assessment reports saved in GRC database."
+      - "Weekly compliance scorecard updates registered in safety portal."
+  societal_harm_risk:
+    risk_description: "Detailed risk profile and impact analysis for Societal Harm Risk under Autonomy Interference Assessment."
+    risk_indicators:
+      - "Anomaly rating for Societal Harm Risk exceeds 0.05"
+      - "Gateway reports intent filtering hits for Societal Harm Risk daily"
+    risk_controls:
+      - "CTRL-PAP-INFL-AUTONO-02"
+      - "CTRL-PAP-INFL-AUTONO-05"
+    risk_thresholds:
+      warning: 0.02
+      critical: 0.05
+    evidence_requirements:
+      - "Signed risk assessment reports saved in GRC database."
+      - "Weekly compliance scorecard updates registered in safety portal."
+  systemic_risk:
+    risk_description: "Detailed risk profile and impact analysis for Systemic Risk under Autonomy Interference Assessment."
+    risk_indicators:
+      - "Anomaly rating for Systemic Risk exceeds 0.05"
+      - "Gateway reports intent filtering hits for Systemic Risk daily"
+    risk_controls:
+      - "CTRL-PAP-INFL-AUTONO-02"
+      - "CTRL-PAP-INFL-AUTONO-05"
+    risk_thresholds:
+      warning: 0.02
+      critical: 0.05
+    evidence_requirements:
+      - "Signed risk assessment reports saved in GRC database."
+      - "Weekly compliance scorecard updates registered in safety portal."
+prohibited_practices_maturity_model:
+  level_1_reactive:
+    capabilities:
+      - "Standard processes for triaging safety signals and executing containment under Level 1 Reactive."
+      - "Documented escalation rules and crisis contacts lists under Level 1 Reactive."
+    protection_capabilities:
+      - "Real-time query blocking and subliminal messaging filtering for Level 1 Reactive."
+    detection_capabilities:
+      - "Continuous monitoring of active controls count and logs events for Level 1 Reactive."
+    assurance_capabilities:
+      - "Validation of compliance mapping files completeness weekly for Level 1 Reactive."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 1 Reactive."
+    validation_requirements:
+      - "Triage review completed and signed off by Safety Officer for Level 1 Reactive."
+  level_2_repeatable:
+    capabilities:
+      - "Standard processes for triaging safety signals and executing containment under Level 2 Repeatable."
+      - "Documented escalation rules and crisis contacts lists under Level 2 Repeatable."
+    protection_capabilities:
+      - "Real-time query blocking and subliminal messaging filtering for Level 2 Repeatable."
+    detection_capabilities:
+      - "Continuous monitoring of active controls count and logs events for Level 2 Repeatable."
+    assurance_capabilities:
+      - "Validation of compliance mapping files completeness weekly for Level 2 Repeatable."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 2 Repeatable."
+    validation_requirements:
+      - "Triage review completed and signed off by Safety Officer for Level 2 Repeatable."
+  level_3_defined:
+    capabilities:
+      - "Standard processes for triaging safety signals and executing containment under Level 3 Defined."
+      - "Documented escalation rules and crisis contacts lists under Level 3 Defined."
+    protection_capabilities:
+      - "Real-time query blocking and subliminal messaging filtering for Level 3 Defined."
+    detection_capabilities:
+      - "Continuous monitoring of active controls count and logs events for Level 3 Defined."
+    assurance_capabilities:
+      - "Validation of compliance mapping files completeness weekly for Level 3 Defined."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 3 Defined."
+    validation_requirements:
+      - "Triage review completed and signed off by Safety Officer for Level 3 Defined."
+  level_4_managed:
+    capabilities:
+      - "Standard processes for triaging safety signals and executing containment under Level 4 Managed."
+      - "Documented escalation rules and crisis contacts lists under Level 4 Managed."
+    protection_capabilities:
+      - "Real-time query blocking and subliminal messaging filtering for Level 4 Managed."
+    detection_capabilities:
+      - "Continuous monitoring of active controls count and logs events for Level 4 Managed."
+    assurance_capabilities:
+      - "Validation of compliance mapping files completeness weekly for Level 4 Managed."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 4 Managed."
+    validation_requirements:
+      - "Triage review completed and signed off by Safety Officer for Level 4 Managed."
+  level_5_optimized:
+    capabilities:
+      - "Standard processes for triaging safety signals and executing containment under Level 5 Optimized."
+      - "Documented escalation rules and crisis contacts lists under Level 5 Optimized."
+    protection_capabilities:
+      - "Real-time query blocking and subliminal messaging filtering for Level 5 Optimized."
+    detection_capabilities:
+      - "Continuous monitoring of active controls count and logs events for Level 5 Optimized."
+    assurance_capabilities:
+      - "Validation of compliance mapping files completeness weekly for Level 5 Optimized."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 5 Optimized."
+    validation_requirements:
+      - "Triage review completed and signed off by Safety Officer for Level 5 Optimized."
+  level_6_assured:
+    capabilities:
+      - "Standard processes for triaging safety signals and executing containment under Level 6 Assured."
+      - "Documented escalation rules and crisis contacts lists under Level 6 Assured."
+    protection_capabilities:
+      - "Real-time query blocking and subliminal messaging filtering for Level 6 Assured."
+    detection_capabilities:
+      - "Continuous monitoring of active controls count and logs events for Level 6 Assured."
+    assurance_capabilities:
+      - "Validation of compliance mapping files completeness weekly for Level 6 Assured."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 6 Assured."
+    validation_requirements:
+      - "Triage review completed and signed off by Safety Officer for Level 6 Assured."
+  level_7_prohibition_by_design:
+    capabilities:
+      - "Standard processes for triaging safety signals and executing containment under Level 7 Prohibition By Design."
+      - "Documented escalation rules and crisis contacts lists under Level 7 Prohibition By Design."
+    protection_capabilities:
+      - "Real-time query blocking and subliminal messaging filtering for Level 7 Prohibition By Design."
+    detection_capabilities:
+      - "Continuous monitoring of active controls count and logs events for Level 7 Prohibition By Design."
+    assurance_capabilities:
+      - "Validation of compliance mapping files completeness weekly for Level 7 Prohibition By Design."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 7 Prohibition By Design."
+    validation_requirements:
+      - "Triage review completed and signed off by Safety Officer for Level 7 Prohibition By Design."

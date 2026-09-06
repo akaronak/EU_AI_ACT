@@ -1,0 +1,1817 @@
+metadata:
+  id: AAE-AC-REATRA-001
+  name: reasoning_traceability
+  title: Reasoning Traceability
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: cognitive_auditability
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - adaptive_cognition
+    - reasoning_traceability
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Reasoning Traceability governance within
+    audit_and_enforcement/adaptive_cognition, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for end-to-end trace linkage across systems, decisions, and runtime
+    events, decision rationale reconstruction and explainability audit trails. Integrates with the
+    EU AI Act governance ecosystem through machine-evaluable obligations, evidence preservation, and
+    conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Reasoning Traceability across enterprise and
+    cross-border operations within audit_and_enforcement/adaptive_cognition.
+objectives:
+  - Operationalize Reasoning Traceability with regulator-defensible controls and evidence chains
+  - Enable automated validation of Reasoning Traceability conformance across adaptive_cognition
+  - Preserve audit-grade and forensic-grade records for all Reasoning Traceability activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Reasoning Traceability with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Reasoning Traceability
+definitions:
+  reasoning_traceability_governance_domain:
+    >
+      The operational jurisdiction of Reasoning Traceability encompassing controlled audit,
+      enforcement, investigation, and evidence processes within adaptive_cognition.
+  reasoning_traceability_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Reasoning Traceability control
+      effectiveness, process adherence, and regulatory conformity.
+  reasoning_traceability_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Reasoning Traceability decision logic.
+  reasoning_traceability_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Reasoning Traceability processes.
+  reasoning_traceability_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Reasoning Traceability operations.
+  reasoning_traceability_conformity_assertion:
+    >
+      Formal statement that Reasoning Traceability requirements are met, supported by indexed evidence
+      and validation attestations.
+taxonomy:
+  root: reasoning_traceability_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  reasoning_traceability_artifact_type:
+    - reasoning_traceability_record
+    - reasoning_traceability_log
+    - reasoning_traceability_report
+    - reasoning_traceability_attestation
+    - reasoning_traceability_package
+  reasoning_traceability_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Reasoning Traceability Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: adaptive_cognition
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - risk_management
+    - technical_documentation
+    - human_oversight
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - audit_traceability
+    - governance_forensics
+    - reporting
+    - audit_and_enforcement/adaptive_cognition/reasoning_traceability.yaml
+  related_domains:
+    - audit_traceability
+    - governance_forensics
+    - compliance_audits
+  related_skills:
+    - cognitive_auditability
+    - reasoning_traceability
+    - epistemic_integrity_validation
+    - reasoning_traceability
+  parent_governance_objects:
+    - enforcement_framework
+    - audit_taxonomy
+  child_governance_objects:
+    - reasoning_trace_record
+    - epistemic_validation_report
+    - reasoning_traceability_governance_object
+  consumes_artifacts:
+    - model_documentation
+    - risk_assessment_record
+    - oversight_log
+    - reasoning_traceability_input_artifact
+  produces_artifacts:
+    - cognitive_audit_report
+    - alignment_stability_assessment
+    - uncertainty_disclosure_record
+    - reasoning_traceability_record
+    - reasoning_traceability_report
+    - reasoning_traceability_attestation
+  consumes_evidence:
+    - model_activity_log
+    - decision_trace
+    - runtime_telemetry
+    - reasoning_traceability_source_evidence
+  produces_evidence:
+    - reasoning_audit_trail
+    - epistemic_integrity_attestation
+    - reasoning_traceability_audit_evidence
+    - reasoning_traceability_validation_evidence
+    - reasoning_traceability_enforcement_evidence
+  governance_dependencies:
+    - core_governance
+    - policy_enforcement
+  regulatory_dependencies:
+    - eu_ai_act_article_9
+    - eu_ai_act_article_14
+  risk_dependencies:
+    - risk_management
+    - systemic_risk_models
+  control_dependencies:
+    - audit_traceability
+    - compliance_audits
+    - reasoning_traceability_control_register
+roles_and_responsibilities:
+  reasoning_traceability_owner:
+    responsibilities:
+      - Accountable for Reasoning Traceability strategy, control design, and regulatory alignment
+  reasoning_traceability_operator:
+    responsibilities:
+      - Executes Reasoning Traceability workflows and maintains operational records
+  reasoning_traceability_auditor:
+    responsibilities:
+      - Independently validates Reasoning Traceability control effectiveness and evidence sufficiency
+  reasoning_traceability_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Reasoning Traceability investigations
+  reasoning_traceability_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Reasoning Traceability
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-041
+    name: Decision Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-042
+    name: Model Activity Logging
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-043
+    name: Cross-System Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-044
+    name: Regulatory Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-045
+    name: Executive Audit Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-046
+    name: Enforcement Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-047
+    name: Forensic Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-048
+    name: Compliance Attestation Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-049
+    name: Market Surveillance Support
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-050
+    name: Post-Enforcement Monitoring
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-ADA-REASONING_-CHAINOFTHO
+    control_name: chain_of_thought_capture_enforcement
+    control_category: preventive
+    control_objective: Enforce capture of reasoning chains for all high-risk agent decisions
+    governance_rationale:
+      >
+        chain_of_thought_capture_enforcement is required to govern Reasoning Traceability risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement chain_of_thought_capture_enforcement as automated policy in reasoning_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: chain_of_thought_capture_enforcement_continuous_telemetry_dashboard
+    validation_method:
+      chain_of_thought_capture_enforcement_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      chain_of_thought_capture_enforcement_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: chain_of_thought_capture_enforcement_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify chain_of_thought_capture_enforcement design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        chain_of_thought_capture_enforcement outputs may trigger enforcement under
+        reasoning_traceability escalation rules.
+  - control_id: AAE-ADA-REASONING_-REASONINGST
+    control_name: reasoning_step_integrity_sealing
+    control_category: evidence
+    control_objective:
+      Cryptographically seal reasoning step records for audit and forensic reconstruction
+    governance_rationale:
+      >
+        reasoning_step_integrity_sealing is required to govern Reasoning Traceability risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement reasoning_step_integrity_sealing as automated policy in reasoning_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: reasoning_step_integrity_sealing_continuous_telemetry_dashboard
+    validation_method:
+      reasoning_step_integrity_sealing_quarterly_design_and_operating_effectiveness_test
+    testing_method: reasoning_step_integrity_sealing_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: reasoning_step_integrity_sealing_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify reasoning_step_integrity_sealing design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        reasoning_step_integrity_sealing outputs may trigger enforcement under reasoning_traceability
+        escalation rules.
+  - control_id: AAE-ADA-REASONING_-DECISIONRAT
+    control_name: decision_rationale_completeness_scanner
+    control_category: detective
+    control_objective: Scan agent decisions for missing or incomplete rationale documentation
+    governance_rationale:
+      >
+        decision_rationale_completeness_scanner is required to govern Reasoning Traceability risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement decision_rationale_completeness_scanner as automated policy in reasoning_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: decision_rationale_completeness_scanner_continuous_telemetry_dashboard
+    validation_method:
+      decision_rationale_completeness_scanner_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      decision_rationale_completeness_scanner_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: decision_rationale_completeness_scanner_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_rationale_completeness_scanner design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_rationale_completeness_scanner outputs may trigger enforcement under
+        reasoning_traceability escalation rules.
+  - control_id: AAE-ADA-REASONING_-REASONINGCO
+    control_name: reasoning_consistency_validator
+    control_category: detective
+    control_objective: Validate reasoning consistency across sequential agent decisions
+    governance_rationale:
+      >
+        reasoning_consistency_validator is required to govern Reasoning Traceability risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement reasoning_consistency_validator as automated policy in reasoning_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: reasoning_consistency_validator_continuous_telemetry_dashboard
+    validation_method:
+      reasoning_consistency_validator_quarterly_design_and_operating_effectiveness_test
+    testing_method: reasoning_consistency_validator_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: reasoning_consistency_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify reasoning_consistency_validator design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        reasoning_consistency_validator outputs may trigger enforcement under reasoning_traceability
+        escalation rules.
+  - control_id: AAE-ADA-REASONING_-EXPLAINABILI
+    control_name: explainability_audit_trail_linkage
+    control_category: preventive
+    control_objective: Link reasoning traces to explainability audit trails and human oversight records
+    governance_rationale:
+      >
+        explainability_audit_trail_linkage is required to govern Reasoning Traceability risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement explainability_audit_trail_linkage as automated policy in reasoning_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: explainability_audit_trail_linkage_continuous_telemetry_dashboard
+    validation_method:
+      explainability_audit_trail_linkage_quarterly_design_and_operating_effectiveness_test
+    testing_method: explainability_audit_trail_linkage_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: explainability_audit_trail_linkage_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify explainability_audit_trail_linkage design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        explainability_audit_trail_linkage outputs may trigger enforcement under reasoning_traceability
+        escalation rules.
+  - control_id: AAE-ADA-REASONING_-COUNTERFACTU
+    control_name: counterfactual_reasoning_verification
+    control_category: detective
+    control_objective: Verify counterfactual reasoning paths for critical governance decisions
+    governance_rationale:
+      >
+        counterfactual_reasoning_verification is required to govern Reasoning Traceability risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement counterfactual_reasoning_verification as automated policy in reasoning_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: counterfactual_reasoning_verification_continuous_telemetry_dashboard
+    validation_method:
+      counterfactual_reasoning_verification_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      counterfactual_reasoning_verification_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: counterfactual_reasoning_verification_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify counterfactual_reasoning_verification design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        counterfactual_reasoning_verification outputs may trigger enforcement under
+        reasoning_traceability escalation rules.
+  - control_id: AAE-ADA-REASONING_-REASONINGHA
+    control_name: reasoning_hazard_detection
+    control_category: detective
+    control_objective: Detect hazardous reasoning patterns including goal misgeneralization signals
+    governance_rationale:
+      >
+        reasoning_hazard_detection is required to govern Reasoning Traceability risks under EU AI Act
+        and enterprise audit-enforcement policy; failure enables undetected adaptive cognition failures.
+    implementation_guidance:
+      >
+        Implement reasoning_hazard_detection as automated policy in reasoning_traceability orchestration
+        layer; wire to telemetry bus; block non-compliant state transitions; log evidence to immutable
+        store.
+    monitoring_method: reasoning_hazard_detection_continuous_telemetry_dashboard
+    validation_method: reasoning_hazard_detection_quarterly_design_and_operating_effectiveness_test
+    testing_method: reasoning_hazard_detection_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: reasoning_hazard_detection_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify reasoning_hazard_detection design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        reasoning_hazard_detection outputs may trigger enforcement under reasoning_traceability
+        escalation rules.
+  - control_id: AAE-ADA-REASONING_-MULTIAGENT
+    control_name: multi_agent_reasoning_correlation
+    control_category: detective
+    control_objective: Correlate reasoning traces across multi-agent and swarm orchestration topologies
+    governance_rationale:
+      >
+        multi_agent_reasoning_correlation is required to govern Reasoning Traceability risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement multi_agent_reasoning_correlation as automated policy in reasoning_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: multi_agent_reasoning_correlation_continuous_telemetry_dashboard
+    validation_method:
+      multi_agent_reasoning_correlation_quarterly_design_and_operating_effectiveness_test
+    testing_method: multi_agent_reasoning_correlation_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: multi_agent_reasoning_correlation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify multi_agent_reasoning_correlation design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        multi_agent_reasoning_correlation outputs may trigger enforcement under reasoning_traceability
+        escalation rules.
+  - control_id: AAE-ADA-REASONING_-REASONINGTR
+    control_name: reasoning_trace_retention_enforcer
+    control_category: preventive
+    control_objective: Enforce reasoning trace retention aligned with EU AI Act logging obligations
+    governance_rationale:
+      >
+        reasoning_trace_retention_enforcer is required to govern Reasoning Traceability risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement reasoning_trace_retention_enforcer as automated policy in reasoning_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: reasoning_trace_retention_enforcer_continuous_telemetry_dashboard
+    validation_method:
+      reasoning_trace_retention_enforcer_quarterly_design_and_operating_effectiveness_test
+    testing_method: reasoning_trace_retention_enforcer_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: reasoning_trace_retention_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify reasoning_trace_retention_enforcer design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        reasoning_trace_retention_enforcer outputs may trigger enforcement under reasoning_traceability
+        escalation rules.
+  - control_id: AAE-ADA-REASONING_-REASONINGES
+    control_name: reasoning_escalation_router
+    control_category: corrective
+    control_objective: Route anomalous reasoning patterns to human governance review
+    governance_rationale:
+      >
+        reasoning_escalation_router is required to govern Reasoning Traceability risks under EU AI Act
+        and enterprise audit-enforcement policy; failure enables undetected adaptive cognition failures.
+    implementation_guidance:
+      >
+        Implement reasoning_escalation_router as automated policy in reasoning_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: reasoning_escalation_router_continuous_telemetry_dashboard
+    validation_method: reasoning_escalation_router_quarterly_design_and_operating_effectiveness_test
+    testing_method: reasoning_escalation_router_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: reasoning_escalation_router_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify reasoning_escalation_router design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        reasoning_escalation_router outputs may trigger enforcement under reasoning_traceability
+        escalation rules.
+  - control_id: AAE-ADA-REASONING_-FOUNDATIONM
+    control_name: foundation_model_reasoning_provenance
+    control_category: preventive
+    control_objective: Capture foundation model reasoning provenance in downstream agent traces
+    governance_rationale:
+      >
+        foundation_model_reasoning_provenance is required to govern Reasoning Traceability risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement foundation_model_reasoning_provenance as automated policy in reasoning_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: foundation_model_reasoning_provenance_continuous_telemetry_dashboard
+    validation_method:
+      foundation_model_reasoning_provenance_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      foundation_model_reasoning_provenance_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: foundation_model_reasoning_provenance_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify foundation_model_reasoning_provenance design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        foundation_model_reasoning_provenance outputs may trigger enforcement under
+        reasoning_traceability escalation rules.
+  - control_id: AAE-ADA-REASONING_-REASONINGGO
+    control_name: reasoning_governance_attestation
+    control_category: audit
+    control_objective: Attest reasoning traceability control effectiveness for conformity assessment
+    governance_rationale:
+      >
+        reasoning_governance_attestation is required to govern Reasoning Traceability risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected adaptive cognition
+        failures.
+    implementation_guidance:
+      >
+        Implement reasoning_governance_attestation as automated policy in reasoning_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: reasoning_governance_attestation_continuous_telemetry_dashboard
+    validation_method:
+      reasoning_governance_attestation_quarterly_design_and_operating_effectiveness_test
+    testing_method: reasoning_governance_attestation_statistical_sampling_with_exception_tracking
+    control_owner: reasoning_traceability_control_owner
+    evidence_generated: reasoning_governance_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify reasoning_governance_attestation design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        reasoning_governance_attestation outputs may trigger enforcement under reasoning_traceability
+        escalation rules.
+requirements:
+  legal:
+    >
+      Reasoning Traceability must satisfy legal requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, decision rationale reconstruction and explainability
+      audit trails including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Reasoning Traceability must satisfy regulatory requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, decision rationale reconstruction and explainability
+      audit trails including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Reasoning Traceability must satisfy technical requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, decision rationale reconstruction and explainability
+      audit trails including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Reasoning Traceability must satisfy operational requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, decision rationale reconstruction and explainability
+      audit trails including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Reasoning Traceability must satisfy audit requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, decision rationale reconstruction and explainability
+      audit trails including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Reasoning Traceability must satisfy forensic requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, decision rationale reconstruction and explainability
+      audit trails including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Reasoning Traceability must satisfy enforcement requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, decision rationale reconstruction and explainability
+      audit trails including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Reasoning Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  triage:
+    >
+      Triage process for Reasoning Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  execution:
+    >
+      Execution process for Reasoning Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  validation:
+    >
+      Validation process for Reasoning Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  escalation:
+    >
+      Escalation process for Reasoning Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  closure:
+    >
+      Closure process for Reasoning Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  improvement:
+    >
+      Improvement process for Reasoning Traceability with stage gates, RACI assignments, and evidence
+      capture.
+workflows:
+  - workflow_name: reasoning_traceability_operational_lifecycle_workflow
+    workflow_trigger: reasoning_traceability_governance_event_detected
+    workflow_steps:
+      - reasoning_traceability_intake
+      - reasoning_traceability_triage
+      - reasoning_traceability_execution
+      - reasoning_traceability_validation
+      - reasoning_traceability_approval
+      - reasoning_traceability_closure
+    approval_points:
+      - reasoning_traceability_approval
+    escalation_points:
+      - reasoning_traceability_triage
+    generated_evidence:
+      - reasoning_traceability_workflow_log
+      - reasoning_traceability_closure_attestation
+    completion_requirements:
+      - reasoning_traceability_evidence_complete
+      - reasoning_traceability_approvals_recorded
+  - workflow_name: reasoning_traceability_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_reasoning_traceability
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - reasoning_traceability_regulatory_package
+      - reasoning_traceability_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - reasoning_traceability_governance_event_detected
+    - reasoning_traceability_regulatory_inquiry
+    - reasoning_traceability_integrity_breach
+    - reasoning_traceability_enforcement_authorization
+  required_inputs:
+    - reasoning_traceability_case_context
+    - reasoning_traceability_evidence_index
+    - reasoning_traceability_risk_assessment
+  workflow_steps:
+    - reasoning_traceability_intake
+    - reasoning_traceability_triage
+    - reasoning_traceability_execution
+    - reasoning_traceability_validation
+    - reasoning_traceability_approval
+    - reasoning_traceability_closure
+  validation_steps:
+    - reasoning_traceability_evidence_sufficiency_check
+    - reasoning_traceability_integrity_verification
+  approval_steps:
+    - reasoning_traceability_approval
+  control_checkpoints:
+    - reasoning_traceability_intake_gate
+    - reasoning_traceability_evidence_gate
+    - reasoning_traceability_decision_gate
+  evidence_generation:
+    - reasoning_traceability_workflow_log
+    - reasoning_traceability_closure_attestation
+  decision_points:
+    - reasoning_traceability_severity_classification
+    - reasoning_traceability_enforcement_authorization
+  escalation_points:
+    - reasoning_traceability_triage
+  completion_criteria:
+    - reasoning_traceability_evidence_complete
+    - reasoning_traceability_approvals_recorded
+  generated_outputs:
+    - reasoning_traceability_workflow_log
+    - reasoning_traceability_closure_attestation
+    - reasoning_traceability_final_disposition
+decision_logic:
+  decision_inputs:
+    - reasoning_traceability_severity_score
+    - reasoning_traceability_evidence_completeness
+    - reasoning_traceability_regulatory_context
+    - reasoning_traceability_risk_exposure_index
+  decision_conditions:
+    - reasoning_traceability_critical_threshold_breach
+    - reasoning_traceability_evidence_integrity_failure
+    - reasoning_traceability_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: reasoning_traceability_severity_score >= 90
+    high_severity: reasoning_traceability_severity_score >= 70
+    evidence_complete: reasoning_traceability_evidence_completeness >= 0.98
+  decision_rules:
+    reasoning_traceability_high_severity_violation:
+      condition: reasoning_traceability_severity_score >= 90
+      action: initiate_reasoning_traceability_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: reasoning_traceability_investigation_report
+    reasoning_traceability_evidence_compromise_detected:
+      condition: reasoning_traceability_integrity_status == compromised
+      action: activate_reasoning_traceability_forensic_lockdown
+      approval_required: reasoning_traceability_forensic_lead
+      evidence_required: reasoning_traceability_integrity_alert_record
+    reasoning_traceability_enforcement_authorization:
+      condition: reasoning_traceability_violation_confirmed == true AND reasoning_traceability_evidence_complete == true
+      action: issue_reasoning_traceability_enforcement_order
+      approval_required: reasoning_traceability_enforcement_officer
+      evidence_required: reasoning_traceability_violation_evidence_package
+    reasoning_traceability_regulator_inquiry_response:
+      condition: reasoning_traceability_regulator_request_received == true
+      action: compile_reasoning_traceability_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: reasoning_traceability_regulatory_evidence_index
+  decision_outputs:
+    - reasoning_traceability_enforcement_decision
+    - reasoning_traceability_escalation_notice
+    - reasoning_traceability_remediation_directive
+    - reasoning_traceability_audit_disposition
+  approval_requirements:
+    enforcement_actions: [reasoning_traceability_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - reasoning_traceability_severity_score >= 90
+    - reasoning_traceability_evidence_integrity_failure == true
+    - reasoning_traceability_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_reasoning_traceability_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: reasoning_traceability_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Reasoning Traceability may trigger EU AI Act Articles 71, 73 reporting, market
+      surveillance cooperation, and conformity assessment suspension; all outputs must be litigation-
+      defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Reasoning Traceability per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Reasoning Traceability per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Reasoning Traceability per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Reasoning Traceability per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+metrics:
+  - metric_name: reasoning_trace_completeness_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure reasoning trace completeness rate for Reasoning Traceability operational and regulatory
+        assurance
+    formula: computed_reasoning_trace_completeness_rate_from_reasoning_traceability_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: reasoning_traceability_metrics_owner
+    data_source: reasoning_traceability_metrics_warehouse
+    evidence_generated: reasoning_trace_completeness_rate_measurement_record
+  - metric_name: chain_of_thought_capture_rate
+    metric_category: risk
+    business_purpose:
+      >
+        Measure chain of thought capture rate for Reasoning Traceability operational and regulatory
+        assurance
+    formula: computed_chain_of_thought_capture_rate_from_reasoning_traceability_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: reasoning_traceability_metrics_owner
+    data_source: reasoning_traceability_metrics_warehouse
+    evidence_generated: chain_of_thought_capture_rate_measurement_record
+  - metric_name: reasoning_consistency_score
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure reasoning consistency score for Reasoning Traceability operational and regulatory
+        assurance
+    formula: computed_reasoning_consistency_score_from_reasoning_traceability_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: reasoning_traceability_metrics_owner
+    data_source: reasoning_traceability_metrics_warehouse
+    evidence_generated: reasoning_consistency_score_measurement_record
+  - metric_name: decision_rationale_gap_count
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure decision rationale gap count for Reasoning Traceability operational and regulatory
+        assurance
+    formula: computed_decision_rationale_gap_count_from_reasoning_traceability_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: reasoning_traceability_metrics_owner
+    data_source: reasoning_traceability_metrics_warehouse
+    evidence_generated: decision_rationale_gap_count_measurement_record
+  - metric_name: explainability_audit_pass_rate
+    metric_category: governance
+    business_purpose:
+      >
+        Measure explainability audit pass rate for Reasoning Traceability operational and regulatory
+        assurance
+    formula: computed_explainability_audit_pass_rate_from_reasoning_traceability_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: reasoning_traceability_metrics_owner
+    data_source: reasoning_traceability_metrics_warehouse
+    evidence_generated: explainability_audit_pass_rate_measurement_record
+  - metric_name: reasoning_escalation_frequency
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure reasoning escalation frequency for Reasoning Traceability operational and regulatory
+        assurance
+    formula: computed_reasoning_escalation_frequency_from_reasoning_traceability_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: reasoning_traceability_metrics_owner
+    data_source: reasoning_traceability_metrics_warehouse
+    evidence_generated: reasoning_escalation_frequency_measurement_record
+kpis:
+  - metric_name: reasoning_trace_completeness_rate
+    formula: computed_reasoning_trace_completeness_rate_from_reasoning_traceability_telemetry
+    target: >= 95%
+  - metric_name: chain_of_thought_capture_rate
+    formula: computed_chain_of_thought_capture_rate_from_reasoning_traceability_telemetry
+    target: >= 95%
+  - metric_name: reasoning_consistency_score
+    formula: computed_reasoning_consistency_score_from_reasoning_traceability_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: decision_rationale_gap_count
+    formula: computed_decision_rationale_gap_count_from_reasoning_traceability_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: reasoning_escalation_frequency
+    business_purpose: Measure reasoning escalation frequency for Reasoning Traceability operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: reasoning_traceability_primary_record
+    evidence_type: primary
+    business_purpose: Support reasoning traceability governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_reasoning_traceability_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: reasoning_traceability_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: reasoning_traceability_validation_attestation
+    evidence_type: corroborating
+    business_purpose: Support reasoning traceability governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_reasoning_traceability_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: reasoning_traceability_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: reasoning_operational_log
+    evidence_type: attestation
+    business_purpose: Support reasoning traceability governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_reasoning_traceability_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: reasoning_traceability_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: traceability_operational_log
+    evidence_type: derivative
+    business_purpose: Support reasoning traceability governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_reasoning_traceability_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: reasoning_traceability_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: reasoning_traceability_status_dashboard
+    report_owner: reasoning_traceability_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: monthly
+    report_inputs:
+      - reasoning_traceability_telemetry
+      - reasoning_traceability_evidence_index
+    report_outputs:
+      - reasoning_traceability_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: reasoning_traceability_compliance_summary
+    report_owner: reasoning_traceability_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - reasoning_traceability_telemetry
+      - reasoning_traceability_evidence_index
+    report_outputs:
+      - reasoning_traceability_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: reasoning_assurance_report
+    report_owner: reasoning_traceability_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - reasoning_traceability_telemetry
+      - reasoning_traceability_evidence_index
+    report_outputs:
+      - reasoning_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: reasoning_traceability_executive_brief
+    report_owner: reasoning_traceability_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - reasoning_traceability_telemetry
+      - reasoning_traceability_evidence_index
+    report_outputs:
+      - reasoning_traceability_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: reasoning_traceability_audit_pack
+    report_owner: reasoning_traceability_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - reasoning_traceability_telemetry
+      - reasoning_traceability_evidence_index
+    report_outputs:
+      - reasoning_traceability_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  agent_governance:
+    agent_identity: reasoning_traceability_registered_agent_identity_schema
+    agent_role: reasoning_traceability_delegated_authority_role_matrix
+    agent_permissions: reasoning_traceability_least_privilege_permission_set
+    agent_constraints: reasoning_traceability_autonomy_and_tool_constraints
+    agent_accountability: reasoning_traceability_human_accountability_chain
+    agent_escalation_rules: reasoning_traceability_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - reasoning_traceability_policy_context
+      - reasoning_traceability_risk_score
+      - reasoning_traceability_human_intent
+    decision_outputs:
+      - reasoning_traceability_authorized_action
+      - reasoning_traceability_escalation_notice
+    decision_owners:
+      - reasoning_traceability_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: reasoning_traceability_high_risk_decision_mandatory_review
+    decision_accountability: reasoning_traceability_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: reasoning_traceability_approved_tool_allowlist
+    tool_execution_validation: reasoning_traceability_pre_execution_tool_risk_check
+    tool_risk_controls: reasoning_traceability_tool_side_effect_containment
+    tool_auditability: reasoning_traceability_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: reasoning_traceability_memory_segment_access_policy
+    memory_integrity_validation: reasoning_traceability_memory_tamper_detection
+    memory_retention_controls: reasoning_traceability_memory_retention_and_purge_rules
+    memory_auditability: reasoning_traceability_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: reasoning_traceability_chain_of_thought_capture
+    reasoning_validation: reasoning_traceability_reasoning_consistency_check
+    reasoning_risk_monitoring: reasoning_traceability_reasoning_hazard_detection
+    reasoning_accountability: reasoning_traceability_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - reasoning_traceability_audit_log
+  - reasoning_traceability_activity_log
+  - reasoning_traceability_decision_log
+  - reasoning_traceability_traceability_record
+  - reasoning_traceability_evidence_package
+  - reasoning_traceability_chain_of_custody_record
+  - reasoning_traceability_attestation
+required_evidence:
+  - reasoning_traceability_audit_log
+  - reasoning_traceability_activity_log
+  - reasoning_traceability_decision_log
+  - reasoning_traceability_traceability_record
+  - reasoning_traceability_evidence_package
+  - reasoning_traceability_chain_of_custody_record
+  - reasoning_traceability_attestation
+supporting_evidence:
+  - reasoning_traceability_audit_log
+  - reasoning_traceability_activity_log
+  - reasoning_traceability_decision_log
+  - reasoning_traceability_traceability_record
+  - reasoning_traceability_evidence_package
+audit_evidence:
+  - reasoning_traceability_audit_log
+  - reasoning_traceability_activity_log
+  - reasoning_traceability_decision_log
+  - reasoning_traceability_traceability_record
+  - reasoning_traceability_evidence_package
+  - reasoning_traceability_chain_of_custody_record
+  - reasoning_traceability_attestation
+forensic_evidence:
+  - reasoning_traceability_audit_log
+  - reasoning_traceability_activity_log
+  - reasoning_traceability_decision_log
+  - reasoning_traceability_traceability_record
+  - reasoning_traceability_evidence_package
+  - reasoning_traceability_chain_of_custody_record
+  - reasoning_traceability_attestation
+regulatory_evidence:
+  - reasoning_traceability_audit_log
+  - reasoning_traceability_activity_log
+  - reasoning_traceability_decision_log
+  - reasoning_traceability_traceability_record
+  - reasoning_traceability_evidence_package
+  - reasoning_traceability_chain_of_custody_record
+  - reasoning_traceability_attestation
+validation_evidence:
+  - reasoning_traceability_audit_log
+  - reasoning_traceability_activity_log
+  - reasoning_traceability_decision_log
+  - reasoning_traceability_traceability_record
+  - reasoning_traceability_evidence_package
+  - reasoning_traceability_chain_of_custody_record
+  - reasoning_traceability_attestation
+validation_rules:
+  - rule: reasoning_traceability_evidence_complete
+    condition: required_evidence_reasoning_traceability < threshold
+    action: BLOCK_SUBMISSION
+  - rule: reasoning_traceability_integrity_verified
+    condition: integrity_status_reasoning_traceability != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: reasoning_traceability_custody_intact
+    condition: custody_gap_reasoning_traceability == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Reasoning Traceability controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Reasoning Traceability controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Reasoning Traceability controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Reasoning Traceability controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Reasoning Traceability controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - reasoning_traceability_control_failure
+    - reasoning_traceability_evidence_compromise
+    - reasoning_traceability_regulatory_non_compliance
+    - reasoning_traceability_enforcement_delay
+  risk_events:
+    - reasoning_traceability_audit_finding_critical
+    - reasoning_traceability_investigation_escalation
+    - reasoning_traceability_sanction_exposure
+    - reasoning_traceability_market_surveillance_inquiry
+  risk_indicators:
+    - reasoning_traceability_control_effectiveness_degradation
+    - reasoning_traceability_evidence_gap_rate
+    - reasoning_traceability_sla_breach_count
+    - reasoning_traceability_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    reasoning_traceability_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: reasoning_traceability_forensic_lead
+    reasoning_traceability_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    reasoning_traceability_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: reasoning_traceability_enforcement_officer
+  risk_tolerance:
+    reasoning_traceability_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: reasoning_traceability_risk_score >= 60
+    critical: reasoning_traceability_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Reasoning Traceability controls documented in
+      reasoning_traceability_risk_register with quarterly review.
+  risk_treatment:
+    - reasoning_traceability_preventive_control_reinforcement
+    - reasoning_traceability_detective_monitoring_enhancement
+    - reasoning_traceability_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: reasoning_traceability_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Reasoning Traceability workflow events with provenance anchor and
+      reasoning_traceability_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via reasoning_traceability_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      reasoning_traceability_validation_engine
+  evidence_classification:
+    RESTRICTED/CONFIDENTIAL classification per reasoning_traceability_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in reasoning_traceability_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per reasoning_traceability_retention_schedule aligned with EU AI Act Article 18 and
+      legal hold
+  evidence_archival:
+    Long-term archival with reasoning_traceability_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via reasoning_traceability_retrieval_gateway with purpose logging
+  evidence_disposal:
+    Authorized disposition with reasoning_traceability_disposition_certificate and dual approval
+compliance_mapping:
+  article_9:
+    article: Article 9
+    regulatory_text_summary:
+      Risk management system for high-risk AI systems.
+    obligation:
+      >
+        Continuous risk identification, analysis, evaluation, and treatment. Implemented through
+        Reasoning Traceability in adaptive_cognition.
+    implementation_controls:
+      - reasoning_traceability_article_9_preventive_control
+      - reasoning_traceability_article_9_detective_control
+      - reasoning_traceability_article_9_evidence_control
+    implementation_processes:
+      - reasoning_traceability_article_9_workflow
+      - reasoning_traceability_article_9_validation_process
+      - reasoning_traceability_article_9_escalation_process
+    implementation_evidence:
+      - reasoning_traceability_article_9_compliance_record
+      - reasoning_traceability_article_9_audit_package
+      - reasoning_traceability_article_9_attestation
+    validation_method: reasoning_traceability_article_9_automated_and_manual_conformity_testing
+    audit_method: reasoning_traceability_article_9_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: reasoning_traceability_article_9_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Reasoning Traceability demonstrates Article 9 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_12:
+    article: Article 12
+    regulatory_text_summary:
+      Record-keeping and automatic logging.
+    obligation:
+      >
+        Logging capabilities enabling traceability throughout system lifetime. Implemented through
+        Reasoning Traceability in adaptive_cognition.
+    implementation_controls:
+      - reasoning_traceability_article_12_preventive_control
+      - reasoning_traceability_article_12_detective_control
+      - reasoning_traceability_article_12_evidence_control
+    implementation_processes:
+      - reasoning_traceability_article_12_workflow
+      - reasoning_traceability_article_12_validation_process
+      - reasoning_traceability_article_12_escalation_process
+    implementation_evidence:
+      - reasoning_traceability_article_12_compliance_record
+      - reasoning_traceability_article_12_audit_package
+      - reasoning_traceability_article_12_attestation
+    validation_method: reasoning_traceability_article_12_automated_and_manual_conformity_testing
+    audit_method: reasoning_traceability_article_12_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: reasoning_traceability_article_12_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Reasoning Traceability demonstrates Article 12 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_14:
+    article: Article 14
+    regulatory_text_summary:
+      Human oversight.
+    obligation:
+      >
+        Effective human oversight measures during system use. Implemented through Reasoning Traceability
+        in adaptive_cognition.
+    implementation_controls:
+      - reasoning_traceability_article_14_preventive_control
+      - reasoning_traceability_article_14_detective_control
+      - reasoning_traceability_article_14_evidence_control
+    implementation_processes:
+      - reasoning_traceability_article_14_workflow
+      - reasoning_traceability_article_14_validation_process
+      - reasoning_traceability_article_14_escalation_process
+    implementation_evidence:
+      - reasoning_traceability_article_14_compliance_record
+      - reasoning_traceability_article_14_audit_package
+      - reasoning_traceability_article_14_attestation
+    validation_method: reasoning_traceability_article_14_automated_and_manual_conformity_testing
+    audit_method: reasoning_traceability_article_14_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: reasoning_traceability_article_14_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Reasoning Traceability demonstrates Article 14 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_15:
+    article: Article 15
+    regulatory_text_summary:
+      Accuracy, robustness and cybersecurity.
+    obligation:
+      >
+        Appropriate levels of accuracy, robustness, and cybersecurity. Implemented through Reasoning
+        Traceability in adaptive_cognition.
+    implementation_controls:
+      - reasoning_traceability_article_15_preventive_control
+      - reasoning_traceability_article_15_detective_control
+      - reasoning_traceability_article_15_evidence_control
+    implementation_processes:
+      - reasoning_traceability_article_15_workflow
+      - reasoning_traceability_article_15_validation_process
+      - reasoning_traceability_article_15_escalation_process
+    implementation_evidence:
+      - reasoning_traceability_article_15_compliance_record
+      - reasoning_traceability_article_15_audit_package
+      - reasoning_traceability_article_15_attestation
+    validation_method: reasoning_traceability_article_15_automated_and_manual_conformity_testing
+    audit_method: reasoning_traceability_article_15_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: reasoning_traceability_article_15_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Reasoning Traceability demonstrates Article 15 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+crosswalks:
+  eu_ai_act:
+    article_9:
+      implementation: reasoning_traceability_eu_ai_act_article_9_control_set
+      process: reasoning_traceability_eu_ai_act_article_9_workflow
+      evidence: reasoning_traceability_eu_ai_act_article_9_attestation
+    article_12:
+      implementation: reasoning_traceability_eu_ai_act_article_12_control_set
+      process: reasoning_traceability_eu_ai_act_article_12_workflow
+      evidence: reasoning_traceability_eu_ai_act_article_12_attestation
+    article_14:
+      implementation: reasoning_traceability_eu_ai_act_article_14_control_set
+      process: reasoning_traceability_eu_ai_act_article_14_workflow
+      evidence: reasoning_traceability_eu_ai_act_article_14_attestation
+    article_15:
+      implementation: reasoning_traceability_eu_ai_act_article_15_control_set
+      process: reasoning_traceability_eu_ai_act_article_15_workflow
+      evidence: reasoning_traceability_eu_ai_act_article_15_attestation
+  gdpr:
+    article_5:
+      implementation: reasoning_traceability_gdpr_article_5_privacy_control
+      evidence: reasoning_traceability_gdpr_article_5_compliance_record
+    article_6:
+      implementation: reasoning_traceability_gdpr_article_6_privacy_control
+      evidence: reasoning_traceability_gdpr_article_6_compliance_record
+    article_22:
+      implementation: reasoning_traceability_gdpr_article_22_privacy_control
+      evidence: reasoning_traceability_gdpr_article_22_compliance_record
+    article_25:
+      implementation: reasoning_traceability_gdpr_article_25_privacy_control
+      evidence: reasoning_traceability_gdpr_article_25_compliance_record
+    article_32:
+      implementation: reasoning_traceability_gdpr_article_32_privacy_control
+      evidence: reasoning_traceability_gdpr_article_32_compliance_record
+    article_35:
+      implementation: reasoning_traceability_gdpr_article_35_privacy_control
+      evidence: reasoning_traceability_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: reasoning_traceability_iso42001_clause_4_1_aims_control
+      evidence: reasoning_traceability_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: reasoning_traceability_iso42001_clause_4_2_aims_control
+      evidence: reasoning_traceability_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: reasoning_traceability_iso42001_clause_5_1_aims_control
+      evidence: reasoning_traceability_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: reasoning_traceability_iso42001_clause_5_2_aims_control
+      evidence: reasoning_traceability_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: reasoning_traceability_iso42001_clause_6_1_aims_control
+      evidence: reasoning_traceability_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: reasoning_traceability_iso42001_clause_8_1_aims_control
+      evidence: reasoning_traceability_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: reasoning_traceability_iso42001_clause_9_1_aims_control
+      evidence: reasoning_traceability_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: reasoning_traceability_iso42001_clause_10_1_aims_control
+      evidence: reasoning_traceability_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: reasoning_traceability_iso23894_risk_identification_alignment
+      evidence: reasoning_traceability_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: reasoning_traceability_iso23894_risk_analysis_alignment
+      evidence: reasoning_traceability_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: reasoning_traceability_iso23894_risk_evaluation_alignment
+      evidence: reasoning_traceability_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: reasoning_traceability_iso23894_risk_treatment_alignment
+      evidence: reasoning_traceability_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: reasoning_traceability_iso23894_risk_monitoring_alignment
+      evidence: reasoning_traceability_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: reasoning_traceability_iso19011_audit_principles_procedure
+      evidence: reasoning_traceability_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: reasoning_traceability_iso19011_audit_programme_management_procedure
+      evidence: reasoning_traceability_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: reasoning_traceability_iso19011_audit_evidence_requirements_procedure
+      evidence: reasoning_traceability_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: reasoning_traceability_iso19011_audit_reporting_procedure
+      evidence: reasoning_traceability_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: reasoning_traceability_nist_rmf_govern_control_mapping
+      evidence: reasoning_traceability_nist_rmf_govern_assessment
+    map:
+      implementation: reasoning_traceability_nist_rmf_map_control_mapping
+      evidence: reasoning_traceability_nist_rmf_map_assessment
+    measure:
+      implementation: reasoning_traceability_nist_rmf_measure_control_mapping
+      evidence: reasoning_traceability_nist_rmf_measure_assessment
+    manage:
+      implementation: reasoning_traceability_nist_rmf_manage_control_mapping
+      evidence: reasoning_traceability_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: reasoning_traceability_nist_csf_identify_safeguard
+      evidence: reasoning_traceability_nist_csf_identify_log
+    protect:
+      implementation: reasoning_traceability_nist_csf_protect_safeguard
+      evidence: reasoning_traceability_nist_csf_protect_log
+    detect:
+      implementation: reasoning_traceability_nist_csf_detect_safeguard
+      evidence: reasoning_traceability_nist_csf_detect_log
+    respond:
+      implementation: reasoning_traceability_nist_csf_respond_safeguard
+      evidence: reasoning_traceability_nist_csf_respond_log
+    recover:
+      implementation: reasoning_traceability_nist_csf_recover_safeguard
+      evidence: reasoning_traceability_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: reasoning_traceability_oecd_accountability_governance_control
+      evidence: reasoning_traceability_oecd_accountability_attestation
+    transparency:
+      implementation: reasoning_traceability_oecd_transparency_governance_control
+      evidence: reasoning_traceability_oecd_transparency_attestation
+    robustness_security:
+      implementation: reasoning_traceability_oecd_robustness_security_governance_control
+      evidence: reasoning_traceability_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: reasoning_traceability_oecd_inclusive_growth_governance_control
+      evidence: reasoning_traceability_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: reasoning_traceability_unesco_human_rights_ethics_control
+      evidence: reasoning_traceability_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: reasoning_traceability_unesco_fairness_non_discrimination_ethics_control
+      evidence: reasoning_traceability_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: reasoning_traceability_unesco_transparency_explainability_ethics_control
+      evidence: reasoning_traceability_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: reasoning_traceability_unesco_accountability_ethics_control
+      evidence: reasoning_traceability_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Reasoning Traceability covering executive, board, regulatory, audit,
+      forensic, and attestation consumers.
+  report_types:
+    - reasoning_traceability_status_report
+    - reasoning_traceability_compliance_report
+    - reasoning_traceability_enforcement_report
+    - reasoning_traceability_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [reasoning_traceability_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_reasoning_traceability
+  - quarterly_control_testing_reasoning_traceability
+  - evidence_sampling_reasoning_traceability
+  - finding_remediation_tracking_reasoning_traceability
+integration_points:
+  upstream_systems:
+    - system: risk_management
+      purpose: reasoning_traceability_to_risk_management_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_risk_management]
+      produced_artifacts: [reasoning_traceability_output_to_risk_management]
+    - system: technical_documentation
+      purpose: reasoning_traceability_to_technical_documentation_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_technical_documentation]
+      produced_artifacts: [reasoning_traceability_output_to_technical_documentation]
+    - system: human_oversight
+      purpose: reasoning_traceability_to_human_oversight_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_human_oversight]
+      produced_artifacts: [reasoning_traceability_output_to_human_oversight]
+  downstream_systems:
+    - system: audit_traceability
+      purpose: reasoning_traceability_to_audit_traceability_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_audit_traceability]
+      produced_artifacts: [reasoning_traceability_output_to_audit_traceability]
+    - system: governance_forensics
+      purpose: reasoning_traceability_to_governance_forensics_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_governance_forensics]
+      produced_artifacts: [reasoning_traceability_output_to_governance_forensics]
+    - system: reporting
+      purpose: reasoning_traceability_to_reporting_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_reporting]
+      produced_artifacts: [reasoning_traceability_output_to_reporting]
+  governance_integrations:
+    - system: core_governance
+      purpose: reasoning_traceability_to_core_governance_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_core_governance]
+      produced_artifacts: [reasoning_traceability_output_to_core_governance]
+    - system: policy_enforcement
+      purpose: reasoning_traceability_to_policy_enforcement_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_policy_enforcement]
+      produced_artifacts: [reasoning_traceability_output_to_policy_enforcement]
+  risk_integrations:
+    - system: risk_management
+      purpose: reasoning_traceability_to_risk_management_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_risk_management]
+      produced_artifacts: [reasoning_traceability_output_to_risk_management]
+    - system: systemic_risk_models
+      purpose: reasoning_traceability_to_systemic_risk_models_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_systemic_risk_models]
+      produced_artifacts: [reasoning_traceability_output_to_systemic_risk_models]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: reasoning_traceability_to_compliance_audits_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_compliance_audits]
+      produced_artifacts: [reasoning_traceability_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: reasoning_traceability_to_internal_audit_system_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_internal_audit_system]
+      produced_artifacts: [reasoning_traceability_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: reasoning_traceability_to_governance_reporting_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_governance_reporting]
+      produced_artifacts: [reasoning_traceability_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: reasoning_traceability_to_executive_dashboard_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_executive_dashboard]
+      produced_artifacts: [reasoning_traceability_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: reasoning_traceability_to_enforcement_actions_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_enforcement_actions]
+      produced_artifacts: [reasoning_traceability_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: reasoning_traceability_to_policy_enforcement_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_policy_enforcement]
+      produced_artifacts: [reasoning_traceability_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: reasoning_traceability_to_remediation_tracking_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_remediation_tracking]
+      produced_artifacts: [reasoning_traceability_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: reasoning_traceability_to_remediation_engine_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_remediation_engine]
+      produced_artifacts: [reasoning_traceability_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: reasoning_traceability_to_evidence_preservation_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_evidence_preservation]
+      produced_artifacts: [reasoning_traceability_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: reasoning_traceability_to_technical_documentation_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_technical_documentation]
+      produced_artifacts: [reasoning_traceability_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: reasoning_traceability_to_post_market_monitoring_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_post_market_monitoring]
+      produced_artifacts: [reasoning_traceability_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: reasoning_traceability_to_incident_reporting_governance_sync
+      data_exchanged: [reasoning_traceability_events, reasoning_traceability_evidence_refs, reasoning_traceability_metrics]
+      trigger_conditions: [reasoning_traceability_state_change, reasoning_traceability_escalation, reasoning_traceability_closure]
+      consumed_artifacts: [reasoning_traceability_input_from_incident_reporting]
+      produced_artifacts: [reasoning_traceability_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Reasoning Traceability activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Reasoning Traceability procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - reasoning_traceability_procedure_checklist
+    required_evidence:
+      - reasoning_traceability_process_log
+    required_metrics:
+      - reasoning_traceability_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Reasoning Traceability enterprise-wide.
+    required_capabilities:
+      - reasoning_traceability_standard_control_set
+    required_controls:
+      - reasoning_traceability_control_register
+    required_evidence:
+      - reasoning_traceability_audit_evidence
+    required_metrics:
+      - reasoning_traceability_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Reasoning Traceability with KPI optimization.
+    required_capabilities:
+      - reasoning_traceability_automated_controls
+    required_controls:
+      - reasoning_traceability_telemetry_controls
+    required_evidence:
+      - reasoning_traceability_assurance_package
+    required_metrics:
+      - reasoning_traceability_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Reasoning Traceability with predictive analytics.
+    required_capabilities:
+      - reasoning_traceability_autonomous_governance
+    required_controls:
+      - reasoning_traceability_adaptive_controls
+    required_evidence:
+      - reasoning_traceability_regulator_ready_portfolio
+    required_metrics:
+      - reasoning_traceability_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - reasoning_traceability_report
+  - reasoning_traceability_evidence_package
+  - reasoning_traceability_attestation
+  - reasoning_traceability_enforcement_record
+artifacts:
+  - name: reasoning_traceability_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: reasoning_traceability_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: reasoning_traceability_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: reasoning_traceability_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - reasoning_traceability_case_record
+  - reasoning_traceability_audit_record
+  - reasoning_traceability_enforcement_record
+  - reasoning_traceability_remediation_record
+monitoring:
+  continuous:
+    - reasoning_traceability_control_telemetry
+    - reasoning_traceability_evidence_integrity_feed
+    - reasoning_traceability_escalation_queue
+  periodic:
+    - reasoning_traceability_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Reasoning Traceability effectiveness, regulatory change impact assessment,
+    and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: reasoning_traceability_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: reasoning_traceability_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: reasoning_traceability_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: reasoning_traceability_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Reasoning Traceability

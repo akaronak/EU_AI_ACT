@@ -1,0 +1,674 @@
+metadata:
+  id: CE-DO-DECTAX-001
+  name: declaration_taxonomy
+  title: Declaration Taxonomy
+  version: 1.0.0
+  status: production
+  owner: CE Marking and Conformity Office
+  maintainers:
+    - ce_conformity
+    - regulatory_affairs
+    - notified_body_liaison
+  created_date: 2026-06-12
+  last_updated: 2026-06-12
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: ce_marketing
+  skill_type: declaration_of_conformity
+  lifecycle_phase: operate
+  jurisdiction: EU_EEA
+  language: en
+  tags:
+    - declaration_of_conformity
+    - declaration_taxonomy
+    - ce_marking
+    - conformity
+    - eu_ai_act
+    - notified_body
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GPAI Obligations
+    - ISO 42001
+    - ISO 23894
+    - ISO 27001
+    - ISO 9001
+    - NIST AI RMF
+    - GDPR
+    - CE Marking Framework
+  skill_functions:
+    - governance_skill
+    - conformity_skill
+    - certification_skill
+    - compliance_skill
+    - evidence_skill
+    - assessment_skill
+    - regulatory_skill
+    - market_access_skill
+    - monitoring_skill
+    - orchestration_skill
+purpose:
+  >
+    Executable CE Marking skill for Declaration Taxonomy within
+    ce_marketing/declaration_of_conformity. Delivers conformity-assessment-ready, notified-body-
+    ready, market-access-ready operations for declaration lifecycle, governance, approval,
+    validation, maintenance. Functions as governance, conformity, certification, compliance,
+    evidence, assessment, regulatory, market-access, monitoring, and orchestration skill.
+scope:
+  >
+    All AI systems, technical documentation, conformity assessments, declarations of conformity,
+    notified body interactions, and market authorization activities governed by Declaration
+    Taxonomy.
+objectives:
+  - Operationalize Declaration Taxonomy as executable CE marking conformity skill
+  - Enable notified-body-ready conformity validation for Declaration Taxonomy
+  - Maintain market-access-ready evidence for Declaration Taxonomy
+  - Integrate Declaration Taxonomy with declaration and market authorization lifecycle
+  - Support post-certification monitoring and recertification for Declaration Taxonomy
+definitions:
+  declaration_taxonomy_conformity_assertion:
+    Formal conformity statement for Declaration Taxonomy supported by indexed evidence.
+  declaration_taxonomy_notified_body_evidence:
+    Evidence package suitable for notified body conformity assessment review.
+  declaration_taxonomy_market_access_record:
+    Record demonstrating market authorization readiness for Declaration Taxonomy.
+taxonomy:
+  root: declaration_taxonomy_taxonomy
+  conformity_phase:
+    - preparation
+    - assessment
+    - declaration
+    - market_placement
+    - surveillance
+  declaration_taxonomy_status:
+    - draft
+    - validated
+    - approved
+    - published
+    - suspended
+governance:
+  policy_owner: Declaration Taxonomy Conformity Lead
+  oversight_body: CE Marking Governance Committee
+  domain: declaration_of_conformity
+roles_and_responsibilities:
+  declaration_taxonomy_conformity_officer:
+    responsibilities:
+      - Accountable for Declaration Taxonomy conformity outcomes
+  declaration_taxonomy_technical_documentation_lead:
+    responsibilities:
+      - Maintains Article 11 technical file for Declaration Taxonomy
+  notified_body_liaison:
+    responsibilities:
+      - Coordinates notified body assessment activities
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Conformity Assessment Director
+    - Regulatory Affairs
+    - Notified Body Liaison
+capabilities:
+  - id: CE-CAP-001
+    name: CE Marking Governance
+    status: production
+  - id: CE-CAP-002
+    name: Conformity Assessment
+    status: production
+  - id: CE-CAP-003
+    name: Conformity Validation
+    status: production
+  - id: CE-CAP-004
+    name: Technical Documentation Governance
+    status: production
+  - id: CE-CAP-005
+    name: Declaration of Conformity Governance
+    status: production
+  - id: CE-CAP-006
+    name: Notified Body Coordination
+    status: production
+  - id: CE-CAP-007
+    name: Market Authorization Readiness
+    status: production
+  - id: CE-CAP-008
+    name: Post-Certification Monitoring
+    status: production
+controls:
+  - control_id: CE-DECL-DECLARAT-DECLARATIO
+    control_name: declaration_taxonomy_declaration_content_completeness_validator
+    control_category: preventive
+    control_objective: Validate EU declaration of conformity content completeness per Annex V
+    regulatory_rationale: declaration_taxonomy_declaration_content_completeness_validator implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy declaration_taxonomy_declaration_content_completeness_validator in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: declaration_taxonomy_declaration_content_completeness_validator_telemetry_stream
+    validation_method: declaration_taxonomy_declaration_content_completeness_validator_conformity_test
+    testing_method: declaration_taxonomy_declaration_content_completeness_validator_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: declaration_taxonomy_declaration_content_completeness_validator_execution_record
+    audit_considerations: Notified body may sample declaration_taxonomy_declaration_content_completeness_validator during conformity assessment.
+  - control_id: CE-DECL-DECLARAT-TAXONOMYD
+    control_name: taxonomy_declaration_signatory_authority_verifier
+    control_category: preventive
+    control_objective: Verify signatory authority for declaration signing
+    regulatory_rationale: taxonomy_declaration_signatory_authority_verifier implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy taxonomy_declaration_signatory_authority_verifier in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: taxonomy_declaration_signatory_authority_verifier_telemetry_stream
+    validation_method: taxonomy_declaration_signatory_authority_verifier_conformity_test
+    testing_method: taxonomy_declaration_signatory_authority_verifier_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: taxonomy_declaration_signatory_authority_verifier_execution_record
+    audit_considerations: Notified body may sample taxonomy_declaration_signatory_authority_verifier during conformity assessment.
+  - control_id: CE-DECL-DECLARAT-DECLARATIO
+    control_name: declaration_version_control_enforcer
+    control_category: preventive
+    control_objective: Enforce declaration versioning on system changes
+    regulatory_rationale: declaration_version_control_enforcer implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy declaration_version_control_enforcer in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: declaration_version_control_enforcer_telemetry_stream
+    validation_method: declaration_version_control_enforcer_conformity_test
+    testing_method: declaration_version_control_enforcer_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: declaration_version_control_enforcer_execution_record
+    audit_considerations: Notified body may sample declaration_version_control_enforcer during conformity assessment.
+  - control_id: CE-DECL-DECLARAT-TAXONOMYD
+    control_name: taxonomy_declaration_integrity_hash_anchoring
+    control_category: evidence
+    control_objective: Anchor declaration integrity with cryptographic hash
+    regulatory_rationale: taxonomy_declaration_integrity_hash_anchoring implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy taxonomy_declaration_integrity_hash_anchoring in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: taxonomy_declaration_integrity_hash_anchoring_telemetry_stream
+    validation_method: taxonomy_declaration_integrity_hash_anchoring_conformity_test
+    testing_method: taxonomy_declaration_integrity_hash_anchoring_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: taxonomy_declaration_integrity_hash_anchoring_execution_record
+    audit_considerations: Notified body may sample taxonomy_declaration_integrity_hash_anchoring during conformity assessment.
+  - control_id: CE-DECL-DECLARAT-CROSSBORD
+    control_name: cross_border_declaration_harmonizer
+    control_category: preventive
+    control_objective: Harmonize declarations across cross-border market placements
+    regulatory_rationale: cross_border_declaration_harmonizer implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy cross_border_declaration_harmonizer in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: cross_border_declaration_harmonizer_telemetry_stream
+    validation_method: cross_border_declaration_harmonizer_conformity_test
+    testing_method: cross_border_declaration_harmonizer_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: cross_border_declaration_harmonizer_execution_record
+    audit_considerations: Notified body may sample cross_border_declaration_harmonizer during conformity assessment.
+  - control_id: CE-DECL-DECLARAT-TAXONOMYD
+    control_name: taxonomy_declaration_approval_dual_authorization
+    control_category: preventive
+    control_objective: Require dual authorization before declaration publication
+    regulatory_rationale: taxonomy_declaration_approval_dual_authorization implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy taxonomy_declaration_approval_dual_authorization in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: taxonomy_declaration_approval_dual_authorization_telemetry_stream
+    validation_method: taxonomy_declaration_approval_dual_authorization_conformity_test
+    testing_method: taxonomy_declaration_approval_dual_authorization_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: taxonomy_declaration_approval_dual_authorization_execution_record
+    audit_considerations: Notified body may sample taxonomy_declaration_approval_dual_authorization during conformity assessment.
+  - control_id: CE-DECL-DECLARAT-DECLARATIO
+    control_name: declaration_maintenance_trigger_monitor
+    control_category: detective
+    control_objective: Monitor triggers requiring declaration update or withdrawal
+    regulatory_rationale: declaration_maintenance_trigger_monitor implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy declaration_maintenance_trigger_monitor in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: declaration_maintenance_trigger_monitor_telemetry_stream
+    validation_method: declaration_maintenance_trigger_monitor_conformity_test
+    testing_method: declaration_maintenance_trigger_monitor_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: declaration_maintenance_trigger_monitor_execution_record
+    audit_considerations: Notified body may sample declaration_maintenance_trigger_monitor during conformity assessment.
+  - control_id: CE-DECL-DECLARAT-TAXONOMYD
+    control_name: taxonomy_declaration_validation_test_suite_runner
+    control_category: detective
+    control_objective: Run automated declaration validation test suite
+    regulatory_rationale: taxonomy_declaration_validation_test_suite_runner implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy taxonomy_declaration_validation_test_suite_runner in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: taxonomy_declaration_validation_test_suite_runner_telemetry_stream
+    validation_method: taxonomy_declaration_validation_test_suite_runner_conformity_test
+    testing_method: taxonomy_declaration_validation_test_suite_runner_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: taxonomy_declaration_validation_test_suite_runner_execution_record
+    audit_considerations: Notified body may sample taxonomy_declaration_validation_test_suite_runner during conformity assessment.
+  - control_id: CE-DECL-DECLARAT-DECLARATIO
+    control_name: declaration_regulatory_submission_linker
+    control_category: preventive
+    control_objective: Link declarations to regulatory submission records
+    regulatory_rationale: declaration_regulatory_submission_linker implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy declaration_regulatory_submission_linker in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: declaration_regulatory_submission_linker_telemetry_stream
+    validation_method: declaration_regulatory_submission_linker_conformity_test
+    testing_method: declaration_regulatory_submission_linker_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: declaration_regulatory_submission_linker_execution_record
+    audit_considerations: Notified body may sample declaration_regulatory_submission_linker during conformity assessment.
+  - control_id: CE-DECL-DECLARAT-TAXONOMYD
+    control_name: taxonomy_declaration_audit_trail_completeness_checker
+    control_category: detective
+    control_objective: Check declaration audit trail completeness
+    regulatory_rationale: taxonomy_declaration_audit_trail_completeness_checker implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy taxonomy_declaration_audit_trail_completeness_checker in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: taxonomy_declaration_audit_trail_completeness_checker_telemetry_stream
+    validation_method: taxonomy_declaration_audit_trail_completeness_checker_conformity_test
+    testing_method: taxonomy_declaration_audit_trail_completeness_checker_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: taxonomy_declaration_audit_trail_completeness_checker_execution_record
+    audit_considerations: Notified body may sample taxonomy_declaration_audit_trail_completeness_checker during conformity assessment.
+  - control_id: CE-DECL-DECLARAT-DECLARATIO
+    control_name: declaration_withdrawal_protocol_enforcer
+    control_category: corrective
+    control_objective: Enforce declaration withdrawal protocol on non-conformity
+    regulatory_rationale: declaration_withdrawal_protocol_enforcer implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy declaration_withdrawal_protocol_enforcer in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: declaration_withdrawal_protocol_enforcer_telemetry_stream
+    validation_method: declaration_withdrawal_protocol_enforcer_conformity_test
+    testing_method: declaration_withdrawal_protocol_enforcer_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: declaration_withdrawal_protocol_enforcer_execution_record
+    audit_considerations: Notified body may sample declaration_withdrawal_protocol_enforcer during conformity assessment.
+  - control_id: CE-DECL-DECLARAT-TAXONOMYD
+    control_name: taxonomy_declaration_notified_body_cross_reference
+    control_category: preventive
+    control_objective: Cross-reference declarations with notified body certificates
+    regulatory_rationale: taxonomy_declaration_notified_body_cross_reference implements EU AI Act conformity obligations for Declaration Taxonomy under declaration_of_conformity.
+    implementation_guidance: Deploy taxonomy_declaration_notified_body_cross_reference in declaration_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: taxonomy_declaration_notified_body_cross_reference_telemetry_stream
+    validation_method: taxonomy_declaration_notified_body_cross_reference_conformity_test
+    testing_method: taxonomy_declaration_notified_body_cross_reference_sampling_audit
+    control_owner: declaration_taxonomy_conformity_owner
+    evidence_generated: taxonomy_declaration_notified_body_cross_reference_execution_record
+    audit_considerations: Notified body may sample taxonomy_declaration_notified_body_cross_reference during conformity assessment.
+workflows:
+  - workflow_id: WF-CE-DECLARATION_TAXONOMY
+    workflow_name: declaration_taxonomy_conformity_workflow
+    workflow_owner: declaration_taxonomy_workflow_owner
+    trigger: declaration_taxonomy_conformity_event
+    inputs:
+      - declaration_taxonomy_conformity_context
+      - declaration_taxonomy_evidence_index
+    activities:
+      - declaration_taxonomy_intake
+      - declaration_taxonomy_validation
+      - declaration_taxonomy_evidence_review
+      - declaration_taxonomy_approval
+      - declaration_taxonomy_attestation
+      - declaration_taxonomy_closure
+    decision_points:
+      - declaration_taxonomy_conformity_decision
+      - declaration_taxonomy_escalation_decision
+    approvals:
+      - declaration_taxonomy_conformity_officer_approval
+    outputs:
+      - declaration_taxonomy_conformity_record
+    evidence_generated:
+      - declaration_taxonomy_workflow_log
+      - declaration_taxonomy_attestation
+    success_criteria:
+      - declaration_taxonomy_conformity_validated
+      - declaration_taxonomy_evidence_complete
+    failure_conditions:
+      - declaration_taxonomy_critical_gap_unresolved
+      - declaration_taxonomy_evidence_integrity_failure
+  - workflow_id: WF-CE-CE_MARKING_P
+    workflow_name: declaration_taxonomy_ce_marking_preparation_workflow
+    linked: true
+    trigger: declaration_taxonomy_ce_marking_preparation_initiated
+  - workflow_id: WF-CE-CONFORMITY_A
+    workflow_name: declaration_taxonomy_conformity_assessment_workflow
+    linked: true
+    trigger: declaration_taxonomy_conformity_assessment_initiated
+  - workflow_id: WF-CE-NOTIFIED_BOD
+    workflow_name: declaration_taxonomy_notified_body_engagement_workflow
+    linked: true
+    trigger: declaration_taxonomy_notified_body_engagement_initiated
+  - workflow_id: WF-CE-DECLARATION_
+    workflow_name: declaration_taxonomy_declaration_of_conformity_workflow
+    linked: true
+    trigger: declaration_taxonomy_declaration_of_conformity_initiated
+  - workflow_id: WF-CE-MARKET_AUTHO
+    workflow_name: declaration_taxonomy_market_authorization_workflow
+    linked: true
+    trigger: declaration_taxonomy_market_authorization_initiated
+  - workflow_id: WF-CE-POST_CERTIFI
+    workflow_name: declaration_taxonomy_post_certification_monitoring_workflow
+    linked: true
+    trigger: declaration_taxonomy_post_certification_monitoring_initiated
+  - workflow_id: WF-CE-RECERTIFICAT
+    workflow_name: declaration_taxonomy_recertification_workflow
+    linked: true
+    trigger: declaration_taxonomy_recertification_initiated
+decision_logic:
+  declaration_taxonomy_conformity_gate:
+    condition: declaration_taxonomy_readiness_score >= 0.95 AND declaration_taxonomy_evidence_complete == true
+    action: authorize_declaration_taxonomy_progression
+    approval_required: conformity_officer
+conformity_assessment:
+  assessment_scope: Declaration Taxonomy EU AI Act conformity dimensions
+  assessment_methodology: declaration_taxonomy_iso_19011_conformity_method
+  assessment_criteria: declaration_taxonomy_annex_iii_and_article_requirements
+  conformity_dimensions:
+    - technical
+    - organizational
+    - operational
+    - documentation
+  evidence_requirements:
+    - declaration_taxonomy_technical_file
+    - declaration_taxonomy_risk_assessment
+    - declaration_taxonomy_validation_records
+  acceptance_thresholds: declaration_taxonomy_readiness_score >= 0.95
+  rejection_thresholds: declaration_taxonomy_critical_gap == true
+metrics:
+  - metric_name: declaration_completeness_score
+    metric_category: conformity
+    formula: computed_declaration_completeness_score_from_declaration_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: declaration_taxonomy_metrics_owner
+    data_source: declaration_taxonomy_conformity_warehouse
+    evidence_generated: declaration_completeness_score_measurement_record
+  - metric_name: declaration_validation_pass_rate
+    metric_category: conformity
+    formula: computed_declaration_validation_pass_rate_from_declaration_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: declaration_taxonomy_metrics_owner
+    data_source: declaration_taxonomy_conformity_warehouse
+    evidence_generated: declaration_validation_pass_rate_measurement_record
+  - metric_name: declaration_update_timeliness
+    metric_category: conformity
+    formula: computed_declaration_update_timeliness_from_declaration_taxonomy_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: declaration_taxonomy_metrics_owner
+    data_source: declaration_taxonomy_conformity_warehouse
+    evidence_generated: declaration_update_timeliness_measurement_record
+  - metric_name: signatory_authority_compliance_rate
+    metric_category: conformity
+    formula: computed_signatory_authority_compliance_rate_from_declaration_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: declaration_taxonomy_metrics_owner
+    data_source: declaration_taxonomy_conformity_warehouse
+    evidence_generated: signatory_authority_compliance_rate_measurement_record
+  - metric_name: declaration_integrity_score
+    metric_category: conformity
+    formula: computed_declaration_integrity_score_from_declaration_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: declaration_taxonomy_metrics_owner
+    data_source: declaration_taxonomy_conformity_warehouse
+    evidence_generated: declaration_integrity_score_measurement_record
+  - metric_name: annex_v_compliance_rate
+    metric_category: conformity
+    formula: computed_annex_v_compliance_rate_from_declaration_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: declaration_taxonomy_metrics_owner
+    data_source: declaration_taxonomy_conformity_warehouse
+    evidence_generated: annex_v_compliance_rate_measurement_record
+kpis:
+  - declaration_completeness_score
+  - declaration_validation_pass_rate
+  - declaration_update_timeliness
+  - signatory_authority_compliance_rate
+kris:
+  - declaration_integrity_score
+  - annex_v_compliance_rate
+evidence_requirements:
+  - evidence_name: declaration_taxonomy_conformity_assessment_record
+    evidence_type: conformity
+    business_purpose: Support Declaration Taxonomy conformity assessment and CE marking
+    generation_method: automated_declaration_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: declaration_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: declaration_taxonomy_technical_documentation_extract
+    evidence_type: conformity
+    business_purpose: Support Declaration Taxonomy conformity assessment and CE marking
+    generation_method: automated_declaration_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: declaration_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: declaration_taxonomy_validation_report
+    evidence_type: conformity
+    business_purpose: Support Declaration Taxonomy conformity assessment and CE marking
+    generation_method: automated_declaration_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: declaration_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: declaration_taxonomy_notified_body_correspondence
+    evidence_type: conformity
+    business_purpose: Support Declaration Taxonomy conformity assessment and CE marking
+    generation_method: automated_declaration_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: declaration_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: declaration_taxonomy_declaration_reference
+    evidence_type: conformity
+    business_purpose: Support Declaration Taxonomy conformity assessment and CE marking
+    generation_method: automated_declaration_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: declaration_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: declaration_taxonomy_market_authorization_record
+    evidence_type: conformity
+    business_purpose: Support Declaration Taxonomy conformity assessment and CE marking
+    generation_method: automated_declaration_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: declaration_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+attestation_requirements:
+  - attestation: declaration_taxonomy_conformity_attestation
+    owner: conformity_officer
+    frequency: quarterly
+domain_reports:
+  - report_name: declaration_taxonomy_status_dashboard
+    report_owner: declaration_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: declaration_taxonomy_conformity_summary
+    report_owner: declaration_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: declaration_taxonomy_regulatory_brief
+    report_owner: declaration_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: declaration_taxonomy_executive_report
+    report_owner: declaration_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: declaration_taxonomy_assurance_pack
+    report_owner: declaration_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+altai_conformity:
+  agent_conformity:
+    validation: declaration_taxonomy_agent_conformity_validation
+    traceability: declaration_taxonomy_agent_conformity_traceability
+    monitoring: declaration_taxonomy_agent_conformity_monitoring
+  reasoning_conformity:
+    validation: declaration_taxonomy_reasoning_conformity_validation
+    traceability: declaration_taxonomy_reasoning_conformity_traceability
+    monitoring: declaration_taxonomy_reasoning_conformity_monitoring
+  memory_conformity:
+    validation: declaration_taxonomy_memory_conformity_validation
+    traceability: declaration_taxonomy_memory_conformity_traceability
+    monitoring: declaration_taxonomy_memory_conformity_monitoring
+  tool_conformity:
+    validation: declaration_taxonomy_tool_conformity_validation
+    traceability: declaration_taxonomy_tool_conformity_traceability
+    monitoring: declaration_taxonomy_tool_conformity_monitoring
+  foundation_model_conformity:
+    validation: declaration_taxonomy_foundation_model_conformity_validation
+    traceability: declaration_taxonomy_foundation_model_conformity_traceability
+    monitoring: declaration_taxonomy_foundation_model_conformity_monitoring
+  gpai_conformity:
+    validation: declaration_taxonomy_gpai_conformity_validation
+    traceability: declaration_taxonomy_gpai_conformity_traceability
+    monitoring: declaration_taxonomy_gpai_conformity_monitoring
+compliance_mapping:
+  article_19:
+    article: Article 19
+    obligation: Declaration Taxonomy conformity under Article 19
+    implementation_method: declaration_taxonomy_article_19_controls
+    evidence_required: [declaration_taxonomy_article_19_evidence]
+    validation_method: declaration_taxonomy_article_19_conformity_test
+    assurance_method: declaration_taxonomy_article_19_assurance_review
+  article_20:
+    article: Article 20
+    obligation: Declaration Taxonomy conformity under Article 20
+    implementation_method: declaration_taxonomy_article_20_controls
+    evidence_required: [declaration_taxonomy_article_20_evidence]
+    validation_method: declaration_taxonomy_article_20_conformity_test
+    assurance_method: declaration_taxonomy_article_20_assurance_review
+  article_47:
+    article: Article 47
+    obligation: Declaration Taxonomy conformity under Article 47
+    implementation_method: declaration_taxonomy_article_47_controls
+    evidence_required: [declaration_taxonomy_article_47_evidence]
+    validation_method: declaration_taxonomy_article_47_conformity_test
+    assurance_method: declaration_taxonomy_article_47_assurance_review
+  article_48:
+    article: Article 48
+    obligation: Declaration Taxonomy conformity under Article 48
+    implementation_method: declaration_taxonomy_article_48_controls
+    evidence_required: [declaration_taxonomy_article_48_evidence]
+    validation_method: declaration_taxonomy_article_48_conformity_test
+    assurance_method: declaration_taxonomy_article_48_assurance_review
+relationships:
+  conformity_links:
+    - source: declaration_taxonomy
+      target: declaration_taxonomy_to_declaration_of_conformity
+      relationship_type: governs
+      confidence: 0.95
+  certification_links:
+    - source: declaration_taxonomy
+      target: declaration_taxonomy_to_ce_certification
+      relationship_type: governs
+      confidence: 0.95
+  evidence_links:
+    - source: declaration_taxonomy
+      target: declaration_taxonomy_to_conformity_evidence
+      relationship_type: governs
+      confidence: 0.95
+  documentation_links:
+    - source: declaration_taxonomy
+      target: declaration_taxonomy_to_technical_documentation
+      relationship_type: governs
+      confidence: 0.95
+integration_points:
+  - system: provider_obligations
+    purpose: declaration_taxonomy_to_provider_obligations_conformity_sync
+    data_exchanged: [declaration_taxonomy_conformity_scores, declaration_taxonomy_evidence_refs]
+    consumed_artifacts: [provider_obligations_records]
+    produced_artifacts: [declaration_taxonomy_conformity_package]
+  - system: technical_documentation
+    purpose: declaration_taxonomy_to_technical_documentation_conformity_sync
+    data_exchanged: [declaration_taxonomy_conformity_scores, declaration_taxonomy_evidence_refs]
+    consumed_artifacts: [technical_documentation_records]
+    produced_artifacts: [declaration_taxonomy_conformity_package]
+  - system: risk_management
+    purpose: declaration_taxonomy_to_risk_management_conformity_sync
+    data_exchanged: [declaration_taxonomy_conformity_scores, declaration_taxonomy_evidence_refs]
+    consumed_artifacts: [risk_management_records]
+    produced_artifacts: [declaration_taxonomy_conformity_package]
+  - system: post_market_monitoring
+    purpose: declaration_taxonomy_to_post_market_monitoring_conformity_sync
+    data_exchanged: [declaration_taxonomy_conformity_scores, declaration_taxonomy_evidence_refs]
+    consumed_artifacts: [post_market_monitoring_records]
+    produced_artifacts: [declaration_taxonomy_conformity_package]
+  - system: audit_and_enforcement
+    purpose: declaration_taxonomy_to_audit_and_enforcement_conformity_sync
+    data_exchanged: [declaration_taxonomy_conformity_scores, declaration_taxonomy_evidence_refs]
+    consumed_artifacts: [audit_and_enforcement_records]
+    produced_artifacts: [declaration_taxonomy_conformity_package]
+attestation_framework:
+  attestation_owner: declaration_taxonomy_conformity_officer
+  attestation_frequency: quarterly
+  attestation_evidence: [declaration_taxonomy_conformity_attestation, declaration_taxonomy_control_effectiveness_review]
+maturity_model:
+  level_1:
+    name: Initial
+    characteristics: Ad hoc conformity for Declaration Taxonomy
+  level_2:
+    name: Developing
+    characteristics: Documented procedures for Declaration Taxonomy
+  level_3:
+    name: Managed
+    characteristics: Standardized enterprise-wide for Declaration Taxonomy
+  level_4:
+    name: Advanced
+    characteristics: Measured with KPIs for Declaration Taxonomy
+  level_5:
+    name: Optimized
+    characteristics: Predictive conformity for Declaration Taxonomy
+risk_model:
+  risk_sources: [declaration_taxonomy_conformity_gap, declaration_taxonomy_evidence_failure, declaration_taxonomy_notified_body_finding]
+  risk_monitoring: declaration_taxonomy_conformity_risk_dashboard
+crosswalks:
+  eu_ai_act:
+    implementation: declaration_taxonomy_eu_ai_act_conformity_mapping
+    evidence: declaration_taxonomy_eu_ai_act_conformity_attestation
+  gdpr:
+    implementation: declaration_taxonomy_gdpr_conformity_mapping
+    evidence: declaration_taxonomy_gdpr_conformity_attestation
+  iso_42001:
+    implementation: declaration_taxonomy_iso_42001_conformity_mapping
+    evidence: declaration_taxonomy_iso_42001_conformity_attestation
+  iso_23894:
+    implementation: declaration_taxonomy_iso_23894_conformity_mapping
+    evidence: declaration_taxonomy_iso_23894_conformity_attestation
+  nist_ai_rmf:
+    implementation: declaration_taxonomy_nist_ai_rmf_conformity_mapping
+    evidence: declaration_taxonomy_nist_ai_rmf_conformity_attestation
+monitoring:
+  continuous: [declaration_taxonomy_conformity_telemetry, declaration_taxonomy_readiness_score_feed]
+continuous_improvement:
+  feedback_loop: declaration_taxonomy_conformity_retrospective
+escalation:
+  critical_path: chief_compliance_officer
+versioning:
+  current: 1.0.0

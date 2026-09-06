@@ -1,0 +1,1936 @@
+metadata:
+  id: AAE-AC-UNCGOV-001
+  name: uncertainty_governance_auditing
+  title: Uncertainty Governance Auditing
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: cognitive_auditability
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - adaptive_cognition
+    - uncertainty_governance_auditing
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Uncertainty Governance Auditing governance within
+    audit_and_enforcement/adaptive_cognition, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for structured audit execution and evidence sufficiency validation,
+    uncertainty disclosure governance and confidence calibration auditing. Integrates with the EU AI
+    Act governance ecosystem through machine-evaluable obligations, evidence preservation, and
+    conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Uncertainty Governance Auditing across
+    enterprise and cross-border operations within audit_and_enforcement/adaptive_cognition.
+objectives:
+  - Operationalize Uncertainty Governance Auditing with regulator-defensible controls and evidence chains
+  - Enable automated validation of Uncertainty Governance Auditing conformance across adaptive_cognition
+  - Preserve audit-grade and forensic-grade records for all Uncertainty Governance Auditing activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Uncertainty Governance Auditing with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Uncertainty Governance Auditing
+definitions:
+  uncertainty_governance_auditing_governance_domain:
+    >
+      The operational jurisdiction of Uncertainty Governance Auditing encompassing controlled audit,
+      enforcement, investigation, and evidence processes within adaptive_cognition.
+  uncertainty_governance_auditing_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Uncertainty Governance Auditing
+      control effectiveness, process adherence, and regulatory conformity.
+  uncertainty_governance_auditing_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Uncertainty Governance Auditing decision logic.
+  uncertainty_governance_auditing_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Uncertainty Governance Auditing processes.
+  uncertainty_governance_auditing_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Uncertainty Governance Auditing operations.
+  uncertainty_governance_auditing_conformity_assertion:
+    >
+      Formal statement that Uncertainty Governance Auditing requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: uncertainty_governance_auditing_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  uncertainty_governance_auditing_artifact_type:
+    - uncertainty_governance_auditing_record
+    - uncertainty_governance_auditing_log
+    - uncertainty_governance_auditing_report
+    - uncertainty_governance_auditing_attestation
+    - uncertainty_governance_auditing_package
+  uncertainty_governance_auditing_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Uncertainty Governance Auditing Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: adaptive_cognition
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - risk_management
+    - technical_documentation
+    - human_oversight
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - audit_traceability
+    - governance_forensics
+    - reporting
+    - audit_and_enforcement/adaptive_cognition/uncertainty_governance_auditing.yaml
+  related_domains:
+    - audit_traceability
+    - governance_forensics
+    - compliance_audits
+  related_skills:
+    - cognitive_auditability
+    - reasoning_traceability
+    - epistemic_integrity_validation
+    - uncertainty_governance_auditing
+  parent_governance_objects:
+    - enforcement_framework
+    - audit_taxonomy
+  child_governance_objects:
+    - reasoning_trace_record
+    - epistemic_validation_report
+    - uncertainty_governance_auditing_governance_object
+  consumes_artifacts:
+    - model_documentation
+    - risk_assessment_record
+    - oversight_log
+    - uncertainty_governance_auditing_input_artifact
+  produces_artifacts:
+    - cognitive_audit_report
+    - alignment_stability_assessment
+    - uncertainty_disclosure_record
+    - uncertainty_governance_auditing_record
+    - uncertainty_governance_auditing_report
+    - uncertainty_governance_auditing_attestation
+  consumes_evidence:
+    - model_activity_log
+    - decision_trace
+    - runtime_telemetry
+    - uncertainty_governance_auditing_source_evidence
+  produces_evidence:
+    - reasoning_audit_trail
+    - epistemic_integrity_attestation
+    - uncertainty_governance_auditing_audit_evidence
+    - uncertainty_governance_auditing_validation_evidence
+    - uncertainty_governance_auditing_enforcement_evidence
+  governance_dependencies:
+    - core_governance
+    - policy_enforcement
+  regulatory_dependencies:
+    - eu_ai_act_article_9
+    - eu_ai_act_article_14
+  risk_dependencies:
+    - risk_management
+    - systemic_risk_models
+  control_dependencies:
+    - audit_traceability
+    - compliance_audits
+    - uncertainty_governance_auditing_control_register
+roles_and_responsibilities:
+  uncertainty_governance_auditing_owner:
+    responsibilities:
+      - Accountable for Uncertainty Governance Auditing strategy, control design, and regulatory alignment
+  uncertainty_governance_auditing_operator:
+    responsibilities:
+      - Executes Uncertainty Governance Auditing workflows and maintains operational records
+  uncertainty_governance_auditing_auditor:
+    responsibilities:
+      - Independently validates Uncertainty Governance Auditing control effectiveness and evidence sufficiency
+  uncertainty_governance_auditing_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Uncertainty Governance Auditing investigations
+  uncertainty_governance_auditing_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Uncertainty Governance Auditing
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-041
+    name: Decision Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-042
+    name: Model Activity Logging
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-043
+    name: Cross-System Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-044
+    name: Regulatory Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-045
+    name: Executive Audit Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-046
+    name: Enforcement Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-047
+    name: Forensic Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-048
+    name: Compliance Attestation Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-049
+    name: Market Surveillance Support
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-050
+    name: Post-Enforcement Monitoring
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-ADA-UNCERTAINT-UNCERTAINTY
+    control_name: uncertainty_cognitive_drift_sentinel
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring cognitive drift sentinel for Uncertainty Governance Auditing across
+        adaptive_cognition.
+    governance_rationale:
+      >
+        uncertainty_cognitive_drift_sentinel is required to govern Uncertainty Governance Auditing risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive
+        cognition failures.
+    implementation_guidance:
+      >
+        Implement uncertainty_cognitive_drift_sentinel as automated policy in
+        uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: uncertainty_cognitive_drift_sentinel_continuous_telemetry_dashboard
+    validation_method:
+      uncertainty_cognitive_drift_sentinel_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      uncertainty_cognitive_drift_sentinel_statistical_sampling_with_exception_tracking
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated: uncertainty_cognitive_drift_sentinel_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify uncertainty_cognitive_drift_sentinel design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        uncertainty_cognitive_drift_sentinel outputs may trigger enforcement under
+        uncertainty_governance_auditing escalation rules.
+  - control_id: AAE-ADA-UNCERTAINT-GOVERNANCER
+    control_name: governance_reasoning_boundary_guard
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring reasoning boundary guard for Uncertainty Governance Auditing across
+        adaptive_cognition.
+    governance_rationale:
+      >
+        governance_reasoning_boundary_guard is required to govern Uncertainty Governance Auditing risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive
+        cognition failures.
+    implementation_guidance:
+      >
+        Implement governance_reasoning_boundary_guard as automated policy in
+        uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: governance_reasoning_boundary_guard_continuous_telemetry_dashboard
+    validation_method:
+      governance_reasoning_boundary_guard_quarterly_design_and_operating_effectiveness_test
+    testing_method: governance_reasoning_boundary_guard_statistical_sampling_with_exception_tracking
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated: governance_reasoning_boundary_guard_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_reasoning_boundary_guard design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_reasoning_boundary_guard outputs may trigger enforcement under
+        uncertainty_governance_auditing escalation rules.
+  - control_id: AAE-ADA-UNCERTAINT-AUDITINGEPI
+    control_name: auditing_epistemic_claim_verifier
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring epistemic claim verifier for Uncertainty Governance Auditing across
+        adaptive_cognition.
+    governance_rationale:
+      >
+        auditing_epistemic_claim_verifier is required to govern Uncertainty Governance Auditing risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected adaptive
+        cognition failures.
+    implementation_guidance:
+      >
+        Implement auditing_epistemic_claim_verifier as automated policy in
+        uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: auditing_epistemic_claim_verifier_continuous_telemetry_dashboard
+    validation_method:
+      auditing_epistemic_claim_verifier_quarterly_design_and_operating_effectiveness_test
+    testing_method: auditing_epistemic_claim_verifier_statistical_sampling_with_exception_tracking
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated: auditing_epistemic_claim_verifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify auditing_epistemic_claim_verifier design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        auditing_epistemic_claim_verifier outputs may trigger enforcement under
+        uncertainty_governance_auditing escalation rules.
+  - control_id: AAE-ADA-UNCERTAINT-UNCERTAINTY
+    control_name: uncertainty_governance_auditing_agent_autonomy_limiter
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring agent autonomy limiter for Uncertainty Governance Auditing across
+        adaptive_cognition.
+    governance_rationale:
+      >
+        uncertainty_governance_auditing_agent_autonomy_limiter is required to govern Uncertainty
+        Governance Auditing risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected adaptive cognition failures.
+    implementation_guidance:
+      >
+        Implement uncertainty_governance_auditing_agent_autonomy_limiter as automated policy in
+        uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      uncertainty_governance_auditing_agent_autonomy_limiter_continuous_telemetry_dashboard
+    validation_method:
+      >
+        uncertainty_governance_auditing_agent_autonomy_limiter_quarterly_design_and_operating_effectiven
+        ess_test
+    testing_method:
+      >
+        uncertainty_governance_auditing_agent_autonomy_limiter_statistical_sampling_with_exception_track
+        ing
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated: uncertainty_governance_auditing_agent_autonomy_limiter_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify uncertainty_governance_auditing_agent_autonomy_limiter design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        uncertainty_governance_auditing_agent_autonomy_limiter outputs may trigger enforcement under
+        uncertainty_governance_auditing escalation rules.
+  - control_id: AAE-ADA-UNCERTAINT-UNCERTAINTY
+    control_name: uncertainty_governance_auditing_multi_agent_coordination_auditor
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring multi agent coordination auditor for Uncertainty Governance
+        Auditing across adaptive_cognition.
+    governance_rationale:
+      >
+        uncertainty_governance_auditing_multi_agent_coordination_auditor is required to govern
+        Uncertainty Governance Auditing risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected adaptive cognition failures.
+    implementation_guidance:
+      >
+        Implement uncertainty_governance_auditing_multi_agent_coordination_auditor as automated policy
+        in uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      uncertainty_governance_auditing_multi_agent_coordination_auditor_continuous_telemetry_dashboard
+    validation_method:
+      >
+        uncertainty_governance_auditing_multi_agent_coordination_auditor_quarterly_design_and_operating_
+        effectiveness_test
+    testing_method:
+      >
+        uncertainty_governance_auditing_multi_agent_coordination_auditor_statistical_sampling_with_excep
+        tion_tracking
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated:
+      uncertainty_governance_auditing_multi_agent_coordination_auditor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify uncertainty_governance_auditing_multi_agent_coordination_auditor design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        uncertainty_governance_auditing_multi_agent_coordination_auditor outputs may trigger enforcement
+        under uncertainty_governance_auditing escalation rules.
+  - control_id: AAE-ADA-UNCERTAINT-UNCERTAINTY
+    control_name: uncertainty_governance_auditing_goal_specification_lock
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring goal specification lock for Uncertainty Governance Auditing across
+        adaptive_cognition.
+    governance_rationale:
+      >
+        uncertainty_governance_auditing_goal_specification_lock is required to govern Uncertainty
+        Governance Auditing risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected adaptive cognition failures.
+    implementation_guidance:
+      >
+        Implement uncertainty_governance_auditing_goal_specification_lock as automated policy in
+        uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      uncertainty_governance_auditing_goal_specification_lock_continuous_telemetry_dashboard
+    validation_method:
+      >
+        uncertainty_governance_auditing_goal_specification_lock_quarterly_design_and_operating_effective
+        ness_test
+    testing_method:
+      >
+        uncertainty_governance_auditing_goal_specification_lock_statistical_sampling_with_exception_trac
+        king
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated: uncertainty_governance_auditing_goal_specification_lock_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify uncertainty_governance_auditing_goal_specification_lock design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        uncertainty_governance_auditing_goal_specification_lock outputs may trigger enforcement under
+        uncertainty_governance_auditing escalation rules.
+  - control_id: AAE-ADA-UNCERTAINT-UNCERTAINTY
+    control_name: uncertainty_governance_auditing_uncertainty_disclosure_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring uncertainty disclosure enforcer for Uncertainty Governance Auditing
+        across adaptive_cognition.
+    governance_rationale:
+      >
+        uncertainty_governance_auditing_uncertainty_disclosure_enforcer is required to govern
+        Uncertainty Governance Auditing risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected adaptive cognition failures.
+    implementation_guidance:
+      >
+        Implement uncertainty_governance_auditing_uncertainty_disclosure_enforcer as automated policy in
+        uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      uncertainty_governance_auditing_uncertainty_disclosure_enforcer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        uncertainty_governance_auditing_uncertainty_disclosure_enforcer_quarterly_design_and_operating_e
+        ffectiveness_test
+    testing_method:
+      >
+        uncertainty_governance_auditing_uncertainty_disclosure_enforcer_statistical_sampling_with_except
+        ion_tracking
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated:
+      uncertainty_governance_auditing_uncertainty_disclosure_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify uncertainty_governance_auditing_uncertainty_disclosure_enforcer design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        uncertainty_governance_auditing_uncertainty_disclosure_enforcer outputs may trigger enforcement
+        under uncertainty_governance_auditing escalation rules.
+  - control_id: AAE-ADA-UNCERTAINT-UNCERTAINTY
+    control_name: uncertainty_governance_auditing_adaptive_risk_escalation_router
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring adaptive risk escalation router for Uncertainty Governance Auditing
+        across adaptive_cognition.
+    governance_rationale:
+      >
+        uncertainty_governance_auditing_adaptive_risk_escalation_router is required to govern
+        Uncertainty Governance Auditing risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected adaptive cognition failures.
+    implementation_guidance:
+      >
+        Implement uncertainty_governance_auditing_adaptive_risk_escalation_router as automated policy in
+        uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      uncertainty_governance_auditing_adaptive_risk_escalation_router_continuous_telemetry_dashboard
+    validation_method:
+      >
+        uncertainty_governance_auditing_adaptive_risk_escalation_router_quarterly_design_and_operating_e
+        ffectiveness_test
+    testing_method:
+      >
+        uncertainty_governance_auditing_adaptive_risk_escalation_router_statistical_sampling_with_except
+        ion_tracking
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated:
+      uncertainty_governance_auditing_adaptive_risk_escalation_router_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify uncertainty_governance_auditing_adaptive_risk_escalation_router design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        uncertainty_governance_auditing_adaptive_risk_escalation_router outputs may trigger enforcement
+        under uncertainty_governance_auditing escalation rules.
+  - control_id: AAE-ADA-UNCERTAINT-UNCERTAINTY
+    control_name: uncertainty_governance_auditing_memory_integrity_sentinel
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring memory integrity sentinel for Uncertainty Governance Auditing
+        across adaptive_cognition.
+    governance_rationale:
+      >
+        uncertainty_governance_auditing_memory_integrity_sentinel is required to govern Uncertainty
+        Governance Auditing risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected adaptive cognition failures.
+    implementation_guidance:
+      >
+        Implement uncertainty_governance_auditing_memory_integrity_sentinel as automated policy in
+        uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      uncertainty_governance_auditing_memory_integrity_sentinel_continuous_telemetry_dashboard
+    validation_method:
+      >
+        uncertainty_governance_auditing_memory_integrity_sentinel_quarterly_design_and_operating_effecti
+        veness_test
+    testing_method:
+      >
+        uncertainty_governance_auditing_memory_integrity_sentinel_statistical_sampling_with_exception_tr
+        acking
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated: uncertainty_governance_auditing_memory_integrity_sentinel_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify uncertainty_governance_auditing_memory_integrity_sentinel design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        uncertainty_governance_auditing_memory_integrity_sentinel outputs may trigger enforcement under
+        uncertainty_governance_auditing escalation rules.
+  - control_id: AAE-ADA-UNCERTAINT-UNCERTAINTY
+    control_name: uncertainty_governance_auditing_tool_invocation_policy_gate
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring tool invocation policy gate for Uncertainty Governance Auditing
+        across adaptive_cognition.
+    governance_rationale:
+      >
+        uncertainty_governance_auditing_tool_invocation_policy_gate is required to govern Uncertainty
+        Governance Auditing risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected adaptive cognition failures.
+    implementation_guidance:
+      >
+        Implement uncertainty_governance_auditing_tool_invocation_policy_gate as automated policy in
+        uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      uncertainty_governance_auditing_tool_invocation_policy_gate_continuous_telemetry_dashboard
+    validation_method:
+      >
+        uncertainty_governance_auditing_tool_invocation_policy_gate_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        uncertainty_governance_auditing_tool_invocation_policy_gate_statistical_sampling_with_exception_
+        tracking
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated:
+      uncertainty_governance_auditing_tool_invocation_policy_gate_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify uncertainty_governance_auditing_tool_invocation_policy_gate design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        uncertainty_governance_auditing_tool_invocation_policy_gate outputs may trigger enforcement
+        under uncertainty_governance_auditing escalation rules.
+  - control_id: AAE-ADA-UNCERTAINT-UNCERTAINTY
+    control_name: uncertainty_governance_auditing_reasoning_trace_sealer
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring reasoning trace sealer for Uncertainty Governance Auditing across
+        adaptive_cognition.
+    governance_rationale:
+      >
+        uncertainty_governance_auditing_reasoning_trace_sealer is required to govern Uncertainty
+        Governance Auditing risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected adaptive cognition failures.
+    implementation_guidance:
+      >
+        Implement uncertainty_governance_auditing_reasoning_trace_sealer as automated policy in
+        uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      uncertainty_governance_auditing_reasoning_trace_sealer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        uncertainty_governance_auditing_reasoning_trace_sealer_quarterly_design_and_operating_effectiven
+        ess_test
+    testing_method:
+      >
+        uncertainty_governance_auditing_reasoning_trace_sealer_statistical_sampling_with_exception_track
+        ing
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated: uncertainty_governance_auditing_reasoning_trace_sealer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify uncertainty_governance_auditing_reasoning_trace_sealer design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        uncertainty_governance_auditing_reasoning_trace_sealer outputs may trigger enforcement under
+        uncertainty_governance_auditing escalation rules.
+  - control_id: AAE-ADA-UNCERTAINT-UNCERTAINTY
+    control_name: uncertainty_governance_auditing_cognitive_governance_attestation
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring cognitive governance attestation for Uncertainty Governance
+        Auditing across adaptive_cognition.
+    governance_rationale:
+      >
+        uncertainty_governance_auditing_cognitive_governance_attestation is required to govern
+        Uncertainty Governance Auditing risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected adaptive cognition failures.
+    implementation_guidance:
+      >
+        Implement uncertainty_governance_auditing_cognitive_governance_attestation as automated policy
+        in uncertainty_governance_auditing orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      uncertainty_governance_auditing_cognitive_governance_attestation_continuous_telemetry_dashboard
+    validation_method:
+      >
+        uncertainty_governance_auditing_cognitive_governance_attestation_quarterly_design_and_operating_
+        effectiveness_test
+    testing_method:
+      >
+        uncertainty_governance_auditing_cognitive_governance_attestation_statistical_sampling_with_excep
+        tion_tracking
+    control_owner: uncertainty_governance_auditing_control_owner
+    evidence_generated:
+      uncertainty_governance_auditing_cognitive_governance_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify uncertainty_governance_auditing_cognitive_governance_attestation design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        uncertainty_governance_auditing_cognitive_governance_attestation outputs may trigger enforcement
+        under uncertainty_governance_auditing escalation rules.
+requirements:
+  legal:
+    >
+      Uncertainty Governance Auditing must satisfy legal requirements for structured audit execution
+      and evidence sufficiency validation, uncertainty disclosure governance and confidence
+      calibration auditing including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Uncertainty Governance Auditing must satisfy regulatory requirements for structured audit
+      execution and evidence sufficiency validation, uncertainty disclosure governance and confidence
+      calibration auditing including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Uncertainty Governance Auditing must satisfy technical requirements for structured audit
+      execution and evidence sufficiency validation, uncertainty disclosure governance and confidence
+      calibration auditing including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Uncertainty Governance Auditing must satisfy operational requirements for structured audit
+      execution and evidence sufficiency validation, uncertainty disclosure governance and confidence
+      calibration auditing including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Uncertainty Governance Auditing must satisfy audit requirements for structured audit execution
+      and evidence sufficiency validation, uncertainty disclosure governance and confidence
+      calibration auditing including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Uncertainty Governance Auditing must satisfy forensic requirements for structured audit
+      execution and evidence sufficiency validation, uncertainty disclosure governance and confidence
+      calibration auditing including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Uncertainty Governance Auditing must satisfy enforcement requirements for structured audit
+      execution and evidence sufficiency validation, uncertainty disclosure governance and confidence
+      calibration auditing including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Uncertainty Governance Auditing with stage gates, RACI assignments, and
+      evidence capture.
+  triage:
+    >
+      Triage process for Uncertainty Governance Auditing with stage gates, RACI assignments, and
+      evidence capture.
+  execution:
+    >
+      Execution process for Uncertainty Governance Auditing with stage gates, RACI assignments, and
+      evidence capture.
+  validation:
+    >
+      Validation process for Uncertainty Governance Auditing with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Uncertainty Governance Auditing with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Uncertainty Governance Auditing with stage gates, RACI assignments, and
+      evidence capture.
+  improvement:
+    >
+      Improvement process for Uncertainty Governance Auditing with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: uncertainty_governance_auditing_operational_lifecycle_workflow
+    workflow_trigger: uncertainty_governance_auditing_governance_event_detected
+    workflow_steps:
+      - uncertainty_governance_auditing_intake
+      - uncertainty_governance_auditing_triage
+      - uncertainty_governance_auditing_execution
+      - uncertainty_governance_auditing_validation
+      - uncertainty_governance_auditing_approval
+      - uncertainty_governance_auditing_closure
+    approval_points:
+      - uncertainty_governance_auditing_approval
+    escalation_points:
+      - uncertainty_governance_auditing_triage
+    generated_evidence:
+      - uncertainty_governance_auditing_workflow_log
+      - uncertainty_governance_auditing_closure_attestation
+    completion_requirements:
+      - uncertainty_governance_auditing_evidence_complete
+      - uncertainty_governance_auditing_approvals_recorded
+  - workflow_name: uncertainty_governance_auditing_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_uncertainty_governance_auditing
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - uncertainty_governance_auditing_regulatory_package
+      - uncertainty_governance_auditing_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - uncertainty_governance_auditing_governance_event_detected
+    - uncertainty_governance_auditing_regulatory_inquiry
+    - uncertainty_governance_auditing_integrity_breach
+    - uncertainty_governance_auditing_enforcement_authorization
+  required_inputs:
+    - uncertainty_governance_auditing_case_context
+    - uncertainty_governance_auditing_evidence_index
+    - uncertainty_governance_auditing_risk_assessment
+  workflow_steps:
+    - uncertainty_governance_auditing_intake
+    - uncertainty_governance_auditing_triage
+    - uncertainty_governance_auditing_execution
+    - uncertainty_governance_auditing_validation
+    - uncertainty_governance_auditing_approval
+    - uncertainty_governance_auditing_closure
+  validation_steps:
+    - uncertainty_governance_auditing_evidence_sufficiency_check
+    - uncertainty_governance_auditing_integrity_verification
+  approval_steps:
+    - uncertainty_governance_auditing_approval
+  control_checkpoints:
+    - uncertainty_governance_auditing_intake_gate
+    - uncertainty_governance_auditing_evidence_gate
+    - uncertainty_governance_auditing_decision_gate
+  evidence_generation:
+    - uncertainty_governance_auditing_workflow_log
+    - uncertainty_governance_auditing_closure_attestation
+  decision_points:
+    - uncertainty_governance_auditing_severity_classification
+    - uncertainty_governance_auditing_enforcement_authorization
+  escalation_points:
+    - uncertainty_governance_auditing_triage
+  completion_criteria:
+    - uncertainty_governance_auditing_evidence_complete
+    - uncertainty_governance_auditing_approvals_recorded
+  generated_outputs:
+    - uncertainty_governance_auditing_workflow_log
+    - uncertainty_governance_auditing_closure_attestation
+    - uncertainty_governance_auditing_final_disposition
+decision_logic:
+  decision_inputs:
+    - uncertainty_governance_auditing_severity_score
+    - uncertainty_governance_auditing_evidence_completeness
+    - uncertainty_governance_auditing_regulatory_context
+    - uncertainty_governance_auditing_risk_exposure_index
+  decision_conditions:
+    - uncertainty_governance_auditing_critical_threshold_breach
+    - uncertainty_governance_auditing_evidence_integrity_failure
+    - uncertainty_governance_auditing_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: uncertainty_governance_auditing_severity_score >= 90
+    high_severity: uncertainty_governance_auditing_severity_score >= 70
+    evidence_complete: uncertainty_governance_auditing_evidence_completeness >= 0.98
+  decision_rules:
+    uncertainty_governance_auditing_high_severity_violation:
+      condition: uncertainty_governance_auditing_severity_score >= 90
+      action: initiate_uncertainty_governance_auditing_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: uncertainty_governance_auditing_investigation_report
+    uncertainty_governance_auditing_evidence_compromise_detected:
+      condition: uncertainty_governance_auditing_integrity_status == compromised
+      action: activate_uncertainty_governance_auditing_forensic_lockdown
+      approval_required: uncertainty_governance_auditing_forensic_lead
+      evidence_required: uncertainty_governance_auditing_integrity_alert_record
+    uncertainty_governance_auditing_enforcement_authorization:
+      condition: uncertainty_governance_auditing_violation_confirmed == true AND uncertainty_governance_auditing_evidence_complete == true
+      action: issue_uncertainty_governance_auditing_enforcement_order
+      approval_required: uncertainty_governance_auditing_enforcement_officer
+      evidence_required: uncertainty_governance_auditing_violation_evidence_package
+    uncertainty_governance_auditing_regulator_inquiry_response:
+      condition: uncertainty_governance_auditing_regulator_request_received == true
+      action: compile_uncertainty_governance_auditing_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: uncertainty_governance_auditing_regulatory_evidence_index
+  decision_outputs:
+    - uncertainty_governance_auditing_enforcement_decision
+    - uncertainty_governance_auditing_escalation_notice
+    - uncertainty_governance_auditing_remediation_directive
+    - uncertainty_governance_auditing_audit_disposition
+  approval_requirements:
+    enforcement_actions: [uncertainty_governance_auditing_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - uncertainty_governance_auditing_severity_score >= 90
+    - uncertainty_governance_auditing_evidence_integrity_failure == true
+    - uncertainty_governance_auditing_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_uncertainty_governance_auditing_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: uncertainty_governance_auditing_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Uncertainty Governance Auditing may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Uncertainty Governance Auditing per ISO 19011
+      and EU AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Uncertainty Governance Auditing per ISO 19011
+      and EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Uncertainty Governance Auditing per ISO 19011
+      and EU AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Uncertainty Governance Auditing per ISO 19011
+      and EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: uncertainty_disclosure_compliance_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure uncertainty disclosure compliance rate for Uncertainty Governance Auditing operational
+        and regulatory assurance
+    formula:
+      computed_uncertainty_disclosure_compliance_rate_from_uncertainty_governance_auditing_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: uncertainty_governance_auditing_metrics_owner
+    data_source: uncertainty_governance_auditing_metrics_warehouse
+    evidence_generated: uncertainty_disclosure_compliance_rate_measurement_record
+  - metric_name: confidence_calibration_error
+    metric_category: risk
+    business_purpose:
+      >
+        Measure confidence calibration error for Uncertainty Governance Auditing operational and
+        regulatory assurance
+    formula:
+      computed_confidence_calibration_error_from_uncertainty_governance_auditing_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: uncertainty_governance_auditing_metrics_owner
+    data_source: uncertainty_governance_auditing_metrics_warehouse
+    evidence_generated: confidence_calibration_error_measurement_record
+  - metric_name: abstention_appropriateness_score
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure abstention appropriateness score for Uncertainty Governance Auditing operational and
+        regulatory assurance
+    formula:
+      computed_abstention_appropriateness_score_from_uncertainty_governance_auditing_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: uncertainty_governance_auditing_metrics_owner
+    data_source: uncertainty_governance_auditing_metrics_warehouse
+    evidence_generated: abstention_appropriateness_score_measurement_record
+  - metric_name: overconfidence_incident_rate
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure overconfidence incident rate for Uncertainty Governance Auditing operational and
+        regulatory assurance
+    formula:
+      computed_overconfidence_incident_rate_from_uncertainty_governance_auditing_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: uncertainty_governance_auditing_metrics_owner
+    data_source: uncertainty_governance_auditing_metrics_warehouse
+    evidence_generated: overconfidence_incident_rate_measurement_record
+  - metric_name: uncertainty_escalation_frequency
+    metric_category: governance
+    business_purpose:
+      >
+        Measure uncertainty escalation frequency for Uncertainty Governance Auditing operational and
+        regulatory assurance
+    formula:
+      computed_uncertainty_escalation_frequency_from_uncertainty_governance_auditing_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: uncertainty_governance_auditing_metrics_owner
+    data_source: uncertainty_governance_auditing_metrics_warehouse
+    evidence_generated: uncertainty_escalation_frequency_measurement_record
+  - metric_name: calibration_drift_index
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure calibration drift index for Uncertainty Governance Auditing operational and regulatory
+        assurance
+    formula: computed_calibration_drift_index_from_uncertainty_governance_auditing_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: uncertainty_governance_auditing_metrics_owner
+    data_source: uncertainty_governance_auditing_metrics_warehouse
+    evidence_generated: calibration_drift_index_measurement_record
+kpis:
+  - metric_name: uncertainty_disclosure_compliance_rate
+    formula: computed_uncertainty_disclosure_compliance_rate_from_uncertainty_governance_auditing_telemetry
+    target: >= 95%
+  - metric_name: confidence_calibration_error
+    formula: computed_confidence_calibration_error_from_uncertainty_governance_auditing_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: abstention_appropriateness_score
+    formula: computed_abstention_appropriateness_score_from_uncertainty_governance_auditing_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: overconfidence_incident_rate
+    formula: computed_overconfidence_incident_rate_from_uncertainty_governance_auditing_telemetry
+    target: >= 95%
+kris:
+  - metric_name: uncertainty_escalation_frequency
+    business_purpose: Measure uncertainty escalation frequency for Uncertainty Governance Auditing operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: uncertainty_governance_auditing_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support uncertainty governance auditing governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_uncertainty_governance_auditing_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: uncertainty_governance_auditing_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: uncertainty_governance_auditing_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support uncertainty governance auditing governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_uncertainty_governance_auditing_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: uncertainty_governance_auditing_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: uncertainty_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support uncertainty governance auditing governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_uncertainty_governance_auditing_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: uncertainty_governance_auditing_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: governance_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support uncertainty governance auditing governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_uncertainty_governance_auditing_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: uncertainty_governance_auditing_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: auditing_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support uncertainty governance auditing governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_uncertainty_governance_auditing_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: uncertainty_governance_auditing_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: uncertainty_governance_auditing_status_dashboard
+    report_owner: uncertainty_governance_auditing_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: monthly
+    report_inputs:
+      - uncertainty_governance_auditing_telemetry
+      - uncertainty_governance_auditing_evidence_index
+    report_outputs:
+      - uncertainty_governance_auditing_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: uncertainty_governance_auditing_compliance_summary
+    report_owner: uncertainty_governance_auditing_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - uncertainty_governance_auditing_telemetry
+      - uncertainty_governance_auditing_evidence_index
+    report_outputs:
+      - uncertainty_governance_auditing_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: uncertainty_assurance_report
+    report_owner: uncertainty_governance_auditing_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - uncertainty_governance_auditing_telemetry
+      - uncertainty_governance_auditing_evidence_index
+    report_outputs:
+      - uncertainty_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: uncertainty_governance_auditing_executive_brief
+    report_owner: uncertainty_governance_auditing_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - uncertainty_governance_auditing_telemetry
+      - uncertainty_governance_auditing_evidence_index
+    report_outputs:
+      - uncertainty_governance_auditing_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: uncertainty_governance_auditing_audit_pack
+    report_owner: uncertainty_governance_auditing_reporting_owner
+    report_consumers:
+      - cao
+      - ai_risk_committee
+      - internal_audit
+    report_frequency: quarterly
+    report_inputs:
+      - uncertainty_governance_auditing_telemetry
+      - uncertainty_governance_auditing_evidence_index
+    report_outputs:
+      - uncertainty_governance_auditing_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  agent_governance:
+    agent_identity: uncertainty_governance_auditing_registered_agent_identity_schema
+    agent_role: uncertainty_governance_auditing_delegated_authority_role_matrix
+    agent_permissions: uncertainty_governance_auditing_least_privilege_permission_set
+    agent_constraints: uncertainty_governance_auditing_autonomy_and_tool_constraints
+    agent_accountability: uncertainty_governance_auditing_human_accountability_chain
+    agent_escalation_rules: uncertainty_governance_auditing_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - uncertainty_governance_auditing_policy_context
+      - uncertainty_governance_auditing_risk_score
+      - uncertainty_governance_auditing_human_intent
+    decision_outputs:
+      - uncertainty_governance_auditing_authorized_action
+      - uncertainty_governance_auditing_escalation_notice
+    decision_owners:
+      - uncertainty_governance_auditing_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: uncertainty_governance_auditing_high_risk_decision_mandatory_review
+    decision_accountability: uncertainty_governance_auditing_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: uncertainty_governance_auditing_approved_tool_allowlist
+    tool_execution_validation: uncertainty_governance_auditing_pre_execution_tool_risk_check
+    tool_risk_controls: uncertainty_governance_auditing_tool_side_effect_containment
+    tool_auditability: uncertainty_governance_auditing_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: uncertainty_governance_auditing_memory_segment_access_policy
+    memory_integrity_validation: uncertainty_governance_auditing_memory_tamper_detection
+    memory_retention_controls: uncertainty_governance_auditing_memory_retention_and_purge_rules
+    memory_auditability: uncertainty_governance_auditing_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: uncertainty_governance_auditing_chain_of_thought_capture
+    reasoning_validation: uncertainty_governance_auditing_reasoning_consistency_check
+    reasoning_risk_monitoring: uncertainty_governance_auditing_reasoning_hazard_detection
+    reasoning_accountability: uncertainty_governance_auditing_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - uncertainty_governance_auditing_audit_log
+  - uncertainty_governance_auditing_activity_log
+  - uncertainty_governance_auditing_decision_log
+  - uncertainty_governance_auditing_traceability_record
+  - uncertainty_governance_auditing_evidence_package
+  - uncertainty_governance_auditing_chain_of_custody_record
+  - uncertainty_governance_auditing_attestation
+required_evidence:
+  - uncertainty_governance_auditing_audit_log
+  - uncertainty_governance_auditing_activity_log
+  - uncertainty_governance_auditing_decision_log
+  - uncertainty_governance_auditing_traceability_record
+  - uncertainty_governance_auditing_evidence_package
+  - uncertainty_governance_auditing_chain_of_custody_record
+  - uncertainty_governance_auditing_attestation
+supporting_evidence:
+  - uncertainty_governance_auditing_audit_log
+  - uncertainty_governance_auditing_activity_log
+  - uncertainty_governance_auditing_decision_log
+  - uncertainty_governance_auditing_traceability_record
+  - uncertainty_governance_auditing_evidence_package
+audit_evidence:
+  - uncertainty_governance_auditing_audit_log
+  - uncertainty_governance_auditing_activity_log
+  - uncertainty_governance_auditing_decision_log
+  - uncertainty_governance_auditing_traceability_record
+  - uncertainty_governance_auditing_evidence_package
+  - uncertainty_governance_auditing_chain_of_custody_record
+  - uncertainty_governance_auditing_attestation
+forensic_evidence:
+  - uncertainty_governance_auditing_audit_log
+  - uncertainty_governance_auditing_activity_log
+  - uncertainty_governance_auditing_decision_log
+  - uncertainty_governance_auditing_traceability_record
+  - uncertainty_governance_auditing_evidence_package
+  - uncertainty_governance_auditing_chain_of_custody_record
+  - uncertainty_governance_auditing_attestation
+regulatory_evidence:
+  - uncertainty_governance_auditing_audit_log
+  - uncertainty_governance_auditing_activity_log
+  - uncertainty_governance_auditing_decision_log
+  - uncertainty_governance_auditing_traceability_record
+  - uncertainty_governance_auditing_evidence_package
+  - uncertainty_governance_auditing_chain_of_custody_record
+  - uncertainty_governance_auditing_attestation
+validation_evidence:
+  - uncertainty_governance_auditing_audit_log
+  - uncertainty_governance_auditing_activity_log
+  - uncertainty_governance_auditing_decision_log
+  - uncertainty_governance_auditing_traceability_record
+  - uncertainty_governance_auditing_evidence_package
+  - uncertainty_governance_auditing_chain_of_custody_record
+  - uncertainty_governance_auditing_attestation
+validation_rules:
+  - rule: uncertainty_governance_auditing_evidence_complete
+    condition: required_evidence_uncertainty_governance_auditing < threshold
+    action: BLOCK_SUBMISSION
+  - rule: uncertainty_governance_auditing_integrity_verified
+    condition: integrity_status_uncertainty_governance_auditing != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: uncertainty_governance_auditing_custody_intact
+    condition: custody_gap_uncertainty_governance_auditing == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Uncertainty Governance Auditing controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Uncertainty Governance Auditing controls fail; mitigated
+      through preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Uncertainty Governance Auditing controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Uncertainty Governance Auditing controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Uncertainty Governance Auditing controls fail; mitigated
+      through preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - uncertainty_governance_auditing_control_failure
+    - uncertainty_governance_auditing_evidence_compromise
+    - uncertainty_governance_auditing_regulatory_non_compliance
+    - uncertainty_governance_auditing_enforcement_delay
+  risk_events:
+    - uncertainty_governance_auditing_audit_finding_critical
+    - uncertainty_governance_auditing_investigation_escalation
+    - uncertainty_governance_auditing_sanction_exposure
+    - uncertainty_governance_auditing_market_surveillance_inquiry
+  risk_indicators:
+    - uncertainty_governance_auditing_control_effectiveness_degradation
+    - uncertainty_governance_auditing_evidence_gap_rate
+    - uncertainty_governance_auditing_sla_breach_count
+    - uncertainty_governance_auditing_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    uncertainty_governance_auditing_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: uncertainty_governance_auditing_forensic_lead
+    uncertainty_governance_auditing_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    uncertainty_governance_auditing_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: uncertainty_governance_auditing_enforcement_officer
+  risk_tolerance:
+    uncertainty_governance_auditing_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: uncertainty_governance_auditing_risk_score >= 60
+    critical: uncertainty_governance_auditing_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Uncertainty Governance Auditing controls documented in
+      uncertainty_governance_auditing_risk_register with quarterly review.
+  risk_treatment:
+    - uncertainty_governance_auditing_preventive_control_reinforcement
+    - uncertainty_governance_auditing_detective_monitoring_enhancement
+    - uncertainty_governance_auditing_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: uncertainty_governance_auditing_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Uncertainty Governance Auditing workflow events with provenance anchor and
+      uncertainty_governance_auditing_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via uncertainty_governance_auditing_collection_api with schema validation
+      and classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      uncertainty_governance_auditing_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      uncertainty_governance_auditing_data_classification_policy
+  evidence_storage:
+    >
+      Write-once immutable storage in uncertainty_governance_auditing_evidence_vault with access
+      controls
+  evidence_retention:
+    >
+      Retention per uncertainty_governance_auditing_retention_schedule aligned with EU AI Act Article
+      18 and legal hold
+  evidence_archival:
+    Long-term archival with uncertainty_governance_auditing_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via uncertainty_governance_auditing_retrieval_gateway with purpose logging
+  evidence_disposal:
+    >
+      Authorized disposition with uncertainty_governance_auditing_disposition_certificate and dual
+      approval
+compliance_mapping:
+  article_9:
+    article: Article 9
+    regulatory_text_summary:
+      Risk management system for high-risk AI systems.
+    obligation:
+      >
+        Continuous risk identification, analysis, evaluation, and treatment. Implemented through
+        Uncertainty Governance Auditing in adaptive_cognition.
+    implementation_controls:
+      - uncertainty_governance_auditing_article_9_preventive_control
+      - uncertainty_governance_auditing_article_9_detective_control
+      - uncertainty_governance_auditing_article_9_evidence_control
+    implementation_processes:
+      - uncertainty_governance_auditing_article_9_workflow
+      - uncertainty_governance_auditing_article_9_validation_process
+      - uncertainty_governance_auditing_article_9_escalation_process
+    implementation_evidence:
+      - uncertainty_governance_auditing_article_9_compliance_record
+      - uncertainty_governance_auditing_article_9_audit_package
+      - uncertainty_governance_auditing_article_9_attestation
+    validation_method: uncertainty_governance_auditing_article_9_automated_and_manual_conformity_testing
+    audit_method: uncertainty_governance_auditing_article_9_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: uncertainty_governance_auditing_article_9_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Uncertainty Governance Auditing demonstrates Article 9 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_12:
+    article: Article 12
+    regulatory_text_summary:
+      Record-keeping and automatic logging.
+    obligation:
+      >
+        Logging capabilities enabling traceability throughout system lifetime. Implemented through
+        Uncertainty Governance Auditing in adaptive_cognition.
+    implementation_controls:
+      - uncertainty_governance_auditing_article_12_preventive_control
+      - uncertainty_governance_auditing_article_12_detective_control
+      - uncertainty_governance_auditing_article_12_evidence_control
+    implementation_processes:
+      - uncertainty_governance_auditing_article_12_workflow
+      - uncertainty_governance_auditing_article_12_validation_process
+      - uncertainty_governance_auditing_article_12_escalation_process
+    implementation_evidence:
+      - uncertainty_governance_auditing_article_12_compliance_record
+      - uncertainty_governance_auditing_article_12_audit_package
+      - uncertainty_governance_auditing_article_12_attestation
+    validation_method: uncertainty_governance_auditing_article_12_automated_and_manual_conformity_testing
+    audit_method: uncertainty_governance_auditing_article_12_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: uncertainty_governance_auditing_article_12_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Uncertainty Governance Auditing demonstrates Article 12 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_14:
+    article: Article 14
+    regulatory_text_summary:
+      Human oversight.
+    obligation:
+      >
+        Effective human oversight measures during system use. Implemented through Uncertainty Governance
+        Auditing in adaptive_cognition.
+    implementation_controls:
+      - uncertainty_governance_auditing_article_14_preventive_control
+      - uncertainty_governance_auditing_article_14_detective_control
+      - uncertainty_governance_auditing_article_14_evidence_control
+    implementation_processes:
+      - uncertainty_governance_auditing_article_14_workflow
+      - uncertainty_governance_auditing_article_14_validation_process
+      - uncertainty_governance_auditing_article_14_escalation_process
+    implementation_evidence:
+      - uncertainty_governance_auditing_article_14_compliance_record
+      - uncertainty_governance_auditing_article_14_audit_package
+      - uncertainty_governance_auditing_article_14_attestation
+    validation_method: uncertainty_governance_auditing_article_14_automated_and_manual_conformity_testing
+    audit_method: uncertainty_governance_auditing_article_14_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: uncertainty_governance_auditing_article_14_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Uncertainty Governance Auditing demonstrates Article 14 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_15:
+    article: Article 15
+    regulatory_text_summary:
+      Accuracy, robustness and cybersecurity.
+    obligation:
+      >
+        Appropriate levels of accuracy, robustness, and cybersecurity. Implemented through Uncertainty
+        Governance Auditing in adaptive_cognition.
+    implementation_controls:
+      - uncertainty_governance_auditing_article_15_preventive_control
+      - uncertainty_governance_auditing_article_15_detective_control
+      - uncertainty_governance_auditing_article_15_evidence_control
+    implementation_processes:
+      - uncertainty_governance_auditing_article_15_workflow
+      - uncertainty_governance_auditing_article_15_validation_process
+      - uncertainty_governance_auditing_article_15_escalation_process
+    implementation_evidence:
+      - uncertainty_governance_auditing_article_15_compliance_record
+      - uncertainty_governance_auditing_article_15_audit_package
+      - uncertainty_governance_auditing_article_15_attestation
+    validation_method: uncertainty_governance_auditing_article_15_automated_and_manual_conformity_testing
+    audit_method: uncertainty_governance_auditing_article_15_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: uncertainty_governance_auditing_article_15_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Uncertainty Governance Auditing demonstrates Article 15 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_9:
+      implementation: uncertainty_governance_auditing_eu_ai_act_article_9_control_set
+      process: uncertainty_governance_auditing_eu_ai_act_article_9_workflow
+      evidence: uncertainty_governance_auditing_eu_ai_act_article_9_attestation
+    article_12:
+      implementation: uncertainty_governance_auditing_eu_ai_act_article_12_control_set
+      process: uncertainty_governance_auditing_eu_ai_act_article_12_workflow
+      evidence: uncertainty_governance_auditing_eu_ai_act_article_12_attestation
+    article_14:
+      implementation: uncertainty_governance_auditing_eu_ai_act_article_14_control_set
+      process: uncertainty_governance_auditing_eu_ai_act_article_14_workflow
+      evidence: uncertainty_governance_auditing_eu_ai_act_article_14_attestation
+    article_15:
+      implementation: uncertainty_governance_auditing_eu_ai_act_article_15_control_set
+      process: uncertainty_governance_auditing_eu_ai_act_article_15_workflow
+      evidence: uncertainty_governance_auditing_eu_ai_act_article_15_attestation
+  gdpr:
+    article_5:
+      implementation: uncertainty_governance_auditing_gdpr_article_5_privacy_control
+      evidence: uncertainty_governance_auditing_gdpr_article_5_compliance_record
+    article_6:
+      implementation: uncertainty_governance_auditing_gdpr_article_6_privacy_control
+      evidence: uncertainty_governance_auditing_gdpr_article_6_compliance_record
+    article_22:
+      implementation: uncertainty_governance_auditing_gdpr_article_22_privacy_control
+      evidence: uncertainty_governance_auditing_gdpr_article_22_compliance_record
+    article_25:
+      implementation: uncertainty_governance_auditing_gdpr_article_25_privacy_control
+      evidence: uncertainty_governance_auditing_gdpr_article_25_compliance_record
+    article_32:
+      implementation: uncertainty_governance_auditing_gdpr_article_32_privacy_control
+      evidence: uncertainty_governance_auditing_gdpr_article_32_compliance_record
+    article_35:
+      implementation: uncertainty_governance_auditing_gdpr_article_35_privacy_control
+      evidence: uncertainty_governance_auditing_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: uncertainty_governance_auditing_iso42001_clause_4_1_aims_control
+      evidence: uncertainty_governance_auditing_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: uncertainty_governance_auditing_iso42001_clause_4_2_aims_control
+      evidence: uncertainty_governance_auditing_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: uncertainty_governance_auditing_iso42001_clause_5_1_aims_control
+      evidence: uncertainty_governance_auditing_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: uncertainty_governance_auditing_iso42001_clause_5_2_aims_control
+      evidence: uncertainty_governance_auditing_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: uncertainty_governance_auditing_iso42001_clause_6_1_aims_control
+      evidence: uncertainty_governance_auditing_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: uncertainty_governance_auditing_iso42001_clause_8_1_aims_control
+      evidence: uncertainty_governance_auditing_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: uncertainty_governance_auditing_iso42001_clause_9_1_aims_control
+      evidence: uncertainty_governance_auditing_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: uncertainty_governance_auditing_iso42001_clause_10_1_aims_control
+      evidence: uncertainty_governance_auditing_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: uncertainty_governance_auditing_iso23894_risk_identification_alignment
+      evidence: uncertainty_governance_auditing_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: uncertainty_governance_auditing_iso23894_risk_analysis_alignment
+      evidence: uncertainty_governance_auditing_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: uncertainty_governance_auditing_iso23894_risk_evaluation_alignment
+      evidence: uncertainty_governance_auditing_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: uncertainty_governance_auditing_iso23894_risk_treatment_alignment
+      evidence: uncertainty_governance_auditing_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: uncertainty_governance_auditing_iso23894_risk_monitoring_alignment
+      evidence: uncertainty_governance_auditing_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: uncertainty_governance_auditing_iso19011_audit_principles_procedure
+      evidence: uncertainty_governance_auditing_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: uncertainty_governance_auditing_iso19011_audit_programme_management_procedure
+      evidence: uncertainty_governance_auditing_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: uncertainty_governance_auditing_iso19011_audit_evidence_requirements_procedure
+      evidence: uncertainty_governance_auditing_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: uncertainty_governance_auditing_iso19011_audit_reporting_procedure
+      evidence: uncertainty_governance_auditing_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: uncertainty_governance_auditing_nist_rmf_govern_control_mapping
+      evidence: uncertainty_governance_auditing_nist_rmf_govern_assessment
+    map:
+      implementation: uncertainty_governance_auditing_nist_rmf_map_control_mapping
+      evidence: uncertainty_governance_auditing_nist_rmf_map_assessment
+    measure:
+      implementation: uncertainty_governance_auditing_nist_rmf_measure_control_mapping
+      evidence: uncertainty_governance_auditing_nist_rmf_measure_assessment
+    manage:
+      implementation: uncertainty_governance_auditing_nist_rmf_manage_control_mapping
+      evidence: uncertainty_governance_auditing_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: uncertainty_governance_auditing_nist_csf_identify_safeguard
+      evidence: uncertainty_governance_auditing_nist_csf_identify_log
+    protect:
+      implementation: uncertainty_governance_auditing_nist_csf_protect_safeguard
+      evidence: uncertainty_governance_auditing_nist_csf_protect_log
+    detect:
+      implementation: uncertainty_governance_auditing_nist_csf_detect_safeguard
+      evidence: uncertainty_governance_auditing_nist_csf_detect_log
+    respond:
+      implementation: uncertainty_governance_auditing_nist_csf_respond_safeguard
+      evidence: uncertainty_governance_auditing_nist_csf_respond_log
+    recover:
+      implementation: uncertainty_governance_auditing_nist_csf_recover_safeguard
+      evidence: uncertainty_governance_auditing_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: uncertainty_governance_auditing_oecd_accountability_governance_control
+      evidence: uncertainty_governance_auditing_oecd_accountability_attestation
+    transparency:
+      implementation: uncertainty_governance_auditing_oecd_transparency_governance_control
+      evidence: uncertainty_governance_auditing_oecd_transparency_attestation
+    robustness_security:
+      implementation: uncertainty_governance_auditing_oecd_robustness_security_governance_control
+      evidence: uncertainty_governance_auditing_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: uncertainty_governance_auditing_oecd_inclusive_growth_governance_control
+      evidence: uncertainty_governance_auditing_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: uncertainty_governance_auditing_unesco_human_rights_ethics_control
+      evidence: uncertainty_governance_auditing_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: uncertainty_governance_auditing_unesco_fairness_non_discrimination_ethics_control
+      evidence: uncertainty_governance_auditing_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: uncertainty_governance_auditing_unesco_transparency_explainability_ethics_control
+      evidence: uncertainty_governance_auditing_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: uncertainty_governance_auditing_unesco_accountability_ethics_control
+      evidence: uncertainty_governance_auditing_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Uncertainty Governance Auditing covering executive, board, regulatory,
+      audit, forensic, and attestation consumers.
+  report_types:
+    - uncertainty_governance_auditing_status_report
+    - uncertainty_governance_auditing_compliance_report
+    - uncertainty_governance_auditing_enforcement_report
+    - uncertainty_governance_auditing_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [uncertainty_governance_auditing_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_uncertainty_governance_auditing
+  - quarterly_control_testing_uncertainty_governance_auditing
+  - evidence_sampling_uncertainty_governance_auditing
+  - finding_remediation_tracking_uncertainty_governance_auditing
+integration_points:
+  upstream_systems:
+    - system: risk_management
+      purpose: uncertainty_governance_auditing_to_risk_management_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_risk_management]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_risk_management]
+    - system: technical_documentation
+      purpose: uncertainty_governance_auditing_to_technical_documentation_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_technical_documentation]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_technical_documentation]
+    - system: human_oversight
+      purpose: uncertainty_governance_auditing_to_human_oversight_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_human_oversight]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_human_oversight]
+  downstream_systems:
+    - system: audit_traceability
+      purpose: uncertainty_governance_auditing_to_audit_traceability_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_audit_traceability]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_audit_traceability]
+    - system: governance_forensics
+      purpose: uncertainty_governance_auditing_to_governance_forensics_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_governance_forensics]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_governance_forensics]
+    - system: reporting
+      purpose: uncertainty_governance_auditing_to_reporting_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_reporting]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_reporting]
+  governance_integrations:
+    - system: core_governance
+      purpose: uncertainty_governance_auditing_to_core_governance_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_core_governance]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_core_governance]
+    - system: policy_enforcement
+      purpose: uncertainty_governance_auditing_to_policy_enforcement_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_policy_enforcement]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_policy_enforcement]
+  risk_integrations:
+    - system: risk_management
+      purpose: uncertainty_governance_auditing_to_risk_management_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_risk_management]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_risk_management]
+    - system: systemic_risk_models
+      purpose: uncertainty_governance_auditing_to_systemic_risk_models_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_systemic_risk_models]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_systemic_risk_models]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: uncertainty_governance_auditing_to_compliance_audits_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_compliance_audits]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: uncertainty_governance_auditing_to_internal_audit_system_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_internal_audit_system]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: uncertainty_governance_auditing_to_governance_reporting_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_governance_reporting]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: uncertainty_governance_auditing_to_executive_dashboard_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_executive_dashboard]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: uncertainty_governance_auditing_to_enforcement_actions_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_enforcement_actions]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: uncertainty_governance_auditing_to_policy_enforcement_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_policy_enforcement]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: uncertainty_governance_auditing_to_remediation_tracking_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_remediation_tracking]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: uncertainty_governance_auditing_to_remediation_engine_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_remediation_engine]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: uncertainty_governance_auditing_to_evidence_preservation_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_evidence_preservation]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: uncertainty_governance_auditing_to_technical_documentation_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_technical_documentation]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: uncertainty_governance_auditing_to_post_market_monitoring_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_post_market_monitoring]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: uncertainty_governance_auditing_to_incident_reporting_governance_sync
+      data_exchanged: [uncertainty_governance_auditing_events, uncertainty_governance_auditing_evidence_refs, uncertainty_governance_auditing_metrics]
+      trigger_conditions: [uncertainty_governance_auditing_state_change, uncertainty_governance_auditing_escalation, uncertainty_governance_auditing_closure]
+      consumed_artifacts: [uncertainty_governance_auditing_input_from_incident_reporting]
+      produced_artifacts: [uncertainty_governance_auditing_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Uncertainty Governance Auditing activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Uncertainty Governance Auditing procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - uncertainty_governance_auditing_procedure_checklist
+    required_evidence:
+      - uncertainty_governance_auditing_process_log
+    required_metrics:
+      - uncertainty_governance_auditing_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Uncertainty Governance Auditing enterprise-wide.
+    required_capabilities:
+      - uncertainty_governance_auditing_standard_control_set
+    required_controls:
+      - uncertainty_governance_auditing_control_register
+    required_evidence:
+      - uncertainty_governance_auditing_audit_evidence
+    required_metrics:
+      - uncertainty_governance_auditing_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Uncertainty Governance Auditing with KPI optimization.
+    required_capabilities:
+      - uncertainty_governance_auditing_automated_controls
+    required_controls:
+      - uncertainty_governance_auditing_telemetry_controls
+    required_evidence:
+      - uncertainty_governance_auditing_assurance_package
+    required_metrics:
+      - uncertainty_governance_auditing_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Uncertainty Governance Auditing with predictive analytics.
+    required_capabilities:
+      - uncertainty_governance_auditing_autonomous_governance
+    required_controls:
+      - uncertainty_governance_auditing_adaptive_controls
+    required_evidence:
+      - uncertainty_governance_auditing_regulator_ready_portfolio
+    required_metrics:
+      - uncertainty_governance_auditing_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - uncertainty_governance_auditing_report
+  - uncertainty_governance_auditing_evidence_package
+  - uncertainty_governance_auditing_attestation
+  - uncertainty_governance_auditing_enforcement_record
+artifacts:
+  - name: uncertainty_governance_auditing_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: uncertainty_governance_auditing_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: uncertainty_governance_auditing_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: uncertainty_governance_auditing_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - uncertainty_governance_auditing_case_record
+  - uncertainty_governance_auditing_audit_record
+  - uncertainty_governance_auditing_enforcement_record
+  - uncertainty_governance_auditing_remediation_record
+monitoring:
+  continuous:
+    - uncertainty_governance_auditing_control_telemetry
+    - uncertainty_governance_auditing_evidence_integrity_feed
+    - uncertainty_governance_auditing_escalation_queue
+  periodic:
+    - uncertainty_governance_auditing_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Uncertainty Governance Auditing effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: uncertainty_governance_auditing_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: uncertainty_governance_auditing_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: uncertainty_governance_auditing_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: uncertainty_governance_auditing_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Uncertainty Governance Auditing

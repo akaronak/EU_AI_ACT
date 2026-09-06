@@ -1,0 +1,2025 @@
+metadata:
+  id: AAE-IM-REGINV-001
+  name: regulator_investigation_coordination
+  title: Regulator Investigation Coordination
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: investigation_management
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - investigation_management
+    - regulator_investigation_coordination
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Regulator Investigation Coordination governance within
+    audit_and_enforcement/investigation_management, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for case-managed investigation workflows with regulator coordination,
+    multi-party coordination protocols and SLA management, supervisory authority engagement and
+    submission management. Integrates with the EU AI Act governance ecosystem through machine-
+    evaluable obligations, evidence preservation, and conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Regulator Investigation Coordination across
+    enterprise and cross-border operations within audit_and_enforcement/investigation_management.
+objectives:
+  - Operationalize Regulator Investigation Coordination with regulator-defensible controls and evidence chains
+  - Enable automated validation of Regulator Investigation Coordination conformance across investigation_management
+  - Preserve audit-grade and forensic-grade records for all Regulator Investigation Coordination activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Regulator Investigation Coordination with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Regulator Investigation Coordination
+definitions:
+  regulator_investigation_coordination_governance_domain:
+    >
+      The operational jurisdiction of Regulator Investigation Coordination encompassing controlled
+      audit, enforcement, investigation, and evidence processes within investigation_management.
+  regulator_investigation_coordination_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Regulator Investigation Coordination
+      control effectiveness, process adherence, and regulatory conformity.
+  regulator_investigation_coordination_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Regulator Investigation Coordination decision logic.
+  regulator_investigation_coordination_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Regulator Investigation Coordination processes.
+  regulator_investigation_coordination_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Regulator Investigation Coordination operations.
+  regulator_investigation_coordination_conformity_assertion:
+    >
+      Formal statement that Regulator Investigation Coordination requirements are met, supported by
+      indexed evidence and validation attestations.
+taxonomy:
+  root: regulator_investigation_coordination_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  regulator_investigation_coordination_artifact_type:
+    - regulator_investigation_coordination_record
+    - regulator_investigation_coordination_log
+    - regulator_investigation_coordination_report
+    - regulator_investigation_coordination_attestation
+    - regulator_investigation_coordination_package
+  regulator_investigation_coordination_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Regulator Investigation Coordination Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: investigation_management
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - governance_forensics
+    - incident_reporting
+    - evidence_preservation
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - enforcement_actions
+    - penalty_management
+    - remediation_tracking
+    - audit_and_enforcement/investigation_management/regulator_investigation_coordination.yaml
+  related_domains:
+    - governance_forensics
+    - enforcement_actions
+    - evidence_preservation
+  related_skills:
+    - investigation_case_management
+    - root_cause_analysis
+    - regulator_investigation_coordination
+    - regulator_investigation_coordination
+  parent_governance_objects:
+    - enforcement_framework
+  child_governance_objects:
+    - investigation_case
+    - violation_determination_record
+    - regulator_investigation_coordination_governance_object
+  consumes_artifacts:
+    - forensic_report
+    - incident_notification
+    - risk_register_entry
+    - regulator_investigation_coordination_input_artifact
+  produces_artifacts:
+    - investigation_report
+    - root_cause_analysis_report
+    - escalation_recommendation
+    - regulator_investigation_coordination_record
+    - regulator_investigation_coordination_report
+    - regulator_investigation_coordination_attestation
+  consumes_evidence:
+    - forensic_evidence_package
+    - witness_statement
+    - system_log_extract
+    - regulator_investigation_coordination_source_evidence
+  produces_evidence:
+    - investigation_workpaper
+    - regulator_notification_draft
+    - case_closure_record
+    - regulator_investigation_coordination_audit_evidence
+    - regulator_investigation_coordination_validation_evidence
+    - regulator_investigation_coordination_enforcement_evidence
+  governance_dependencies:
+    - incident_reporting
+    - ai_liability
+  regulatory_dependencies:
+    - eu_ai_act_article_73
+    - eu_ai_act_article_50
+    - gdpr_article_33
+  risk_dependencies:
+    - risk_management
+  control_dependencies:
+    - governance_forensics
+    - evidence_preservation
+    - regulator_investigation_coordination_control_register
+roles_and_responsibilities:
+  regulator_investigation_coordination_owner:
+    responsibilities:
+      - Accountable for Regulator Investigation Coordination strategy, control design, and regulatory alignment
+  regulator_investigation_coordination_operator:
+    responsibilities:
+      - Executes Regulator Investigation Coordination workflows and maintains operational records
+  regulator_investigation_coordination_auditor:
+    responsibilities:
+      - Independently validates Regulator Investigation Coordination control effectiveness and evidence sufficiency
+  regulator_investigation_coordination_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Regulator Investigation Coordination investigations
+  regulator_investigation_coordination_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Regulator Investigation Coordination
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-016
+    name: Investigation Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-017
+    name: Investigation Coordination
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-018
+    name: Cross-Border Investigations
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-019
+    name: Root Cause Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-024
+    name: Violation Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-025
+    name: Violation Classification
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-033
+    name: Evidence Preservation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-034
+    name: Digital Evidence Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-035
+    name: Chain of Custody
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-045
+    name: Executive Audit Reporting
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-INV-REGULATOR_-REGULATORIN
+    control_name: regulator_investigation_intake_screener
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring investigation intake screener for Regulator Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        regulator_investigation_intake_screener is required to govern Regulator Investigation
+        Coordination risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement regulator_investigation_intake_screener as automated policy in
+        regulator_investigation_coordination orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method: regulator_investigation_intake_screener_continuous_telemetry_dashboard
+    validation_method:
+      regulator_investigation_intake_screener_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      regulator_investigation_intake_screener_statistical_sampling_with_exception_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated: regulator_investigation_intake_screener_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulator_investigation_intake_screener design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulator_investigation_intake_screener outputs may trigger enforcement under
+        regulator_investigation_coordination escalation rules.
+  - control_id: AAE-INV-REGULATOR_-INVESTIGATIO
+    control_name: investigation_severity_scoring_engine
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring severity scoring engine for Regulator Investigation Coordination
+        across investigation_management.
+    governance_rationale:
+      >
+        investigation_severity_scoring_engine is required to govern Regulator Investigation Coordination
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        investigation management failures.
+    implementation_guidance:
+      >
+        Implement investigation_severity_scoring_engine as automated policy in
+        regulator_investigation_coordination orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method: investigation_severity_scoring_engine_continuous_telemetry_dashboard
+    validation_method:
+      investigation_severity_scoring_engine_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      investigation_severity_scoring_engine_statistical_sampling_with_exception_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated: investigation_severity_scoring_engine_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify investigation_severity_scoring_engine design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        investigation_severity_scoring_engine outputs may trigger enforcement under
+        regulator_investigation_coordination escalation rules.
+  - control_id: AAE-INV-REGULATOR_-COORDINATION
+    control_name: coordination_root_cause_decomposition_analyzer
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring root cause decomposition analyzer for Regulator Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        coordination_root_cause_decomposition_analyzer is required to govern Regulator Investigation
+        Coordination risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement coordination_root_cause_decomposition_analyzer as automated policy in
+        regulator_investigation_coordination orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method: coordination_root_cause_decomposition_analyzer_continuous_telemetry_dashboard
+    validation_method:
+      coordination_root_cause_decomposition_analyzer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      coordination_root_cause_decomposition_analyzer_statistical_sampling_with_exception_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated: coordination_root_cause_decomposition_analyzer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify coordination_root_cause_decomposition_analyzer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        coordination_root_cause_decomposition_analyzer outputs may trigger enforcement under
+        regulator_investigation_coordination escalation rules.
+  - control_id: AAE-INV-REGULATOR_-REGULATORIN
+    control_name: regulator_investigation_coordination_violation_escalation_router
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring violation escalation router for Regulator Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        regulator_investigation_coordination_violation_escalation_router is required to govern Regulator
+        Investigation Coordination risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement regulator_investigation_coordination_violation_escalation_router as automated policy
+        in regulator_investigation_coordination orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      regulator_investigation_coordination_violation_escalation_router_continuous_telemetry_dashboard
+    validation_method:
+      >
+        regulator_investigation_coordination_violation_escalation_router_quarterly_design_and_operating_
+        effectiveness_test
+    testing_method:
+      >
+        regulator_investigation_coordination_violation_escalation_router_statistical_sampling_with_excep
+        tion_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated:
+      regulator_investigation_coordination_violation_escalation_router_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulator_investigation_coordination_violation_escalation_router design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulator_investigation_coordination_violation_escalation_router outputs may trigger enforcement
+        under regulator_investigation_coordination escalation rules.
+  - control_id: AAE-INV-REGULATOR_-REGULATORIN
+    control_name: regulator_investigation_coordination_regulator_coordination_protocol_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring regulator coordination protocol enforcer for Regulator
+        Investigation Coordination across investigation_management.
+    governance_rationale:
+      >
+        regulator_investigation_coordination_regulator_coordination_protocol_enforcer is required to
+        govern Regulator Investigation Coordination risks under EU AI Act and enterprise audit-
+        enforcement policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement regulator_investigation_coordination_regulator_coordination_protocol_enforcer as
+        automated policy in regulator_investigation_coordination orchestration layer; wire to telemetry
+        bus; block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        regulator_investigation_coordination_regulator_coordination_protocol_enforcer_continuous_telemet
+        ry_dashboard
+    validation_method:
+      >
+        regulator_investigation_coordination_regulator_coordination_protocol_enforcer_quarterly_design_a
+        nd_operating_effectiveness_test
+    testing_method:
+      >
+        regulator_investigation_coordination_regulator_coordination_protocol_enforcer_statistical_sampli
+        ng_with_exception_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated:
+      >
+        regulator_investigation_coordination_regulator_coordination_protocol_enforcer_control_execution_
+        log
+    audit_considerations:
+      >
+        Auditors verify regulator_investigation_coordination_regulator_coordination_protocol_enforcer
+        design, operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulator_investigation_coordination_regulator_coordination_protocol_enforcer outputs may
+        trigger enforcement under regulator_investigation_coordination escalation rules.
+  - control_id: AAE-INV-REGULATOR_-REGULATORIN
+    control_name: regulator_investigation_coordination_cross_border_mutual_assistance_handler
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring cross border mutual assistance handler for Regulator Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        regulator_investigation_coordination_cross_border_mutual_assistance_handler is required to
+        govern Regulator Investigation Coordination risks under EU AI Act and enterprise audit-
+        enforcement policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement regulator_investigation_coordination_cross_border_mutual_assistance_handler as
+        automated policy in regulator_investigation_coordination orchestration layer; wire to telemetry
+        bus; block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        regulator_investigation_coordination_cross_border_mutual_assistance_handler_continuous_telemetry
+        _dashboard
+    validation_method:
+      >
+        regulator_investigation_coordination_cross_border_mutual_assistance_handler_quarterly_design_and
+        _operating_effectiveness_test
+    testing_method:
+      >
+        regulator_investigation_coordination_cross_border_mutual_assistance_handler_statistical_sampling
+        _with_exception_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated:
+      >
+        regulator_investigation_coordination_cross_border_mutual_assistance_handler_control_execution_lo
+        g
+    audit_considerations:
+      >
+        Auditors verify regulator_investigation_coordination_cross_border_mutual_assistance_handler
+        design, operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulator_investigation_coordination_cross_border_mutual_assistance_handler outputs may trigger
+        enforcement under regulator_investigation_coordination escalation rules.
+  - control_id: AAE-INV-REGULATOR_-REGULATORIN
+    control_name: regulator_investigation_coordination_investigation_decision_tracker
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring investigation decision tracker for Regulator Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        regulator_investigation_coordination_investigation_decision_tracker is required to govern
+        Regulator Investigation Coordination risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement regulator_investigation_coordination_investigation_decision_tracker as automated
+        policy in regulator_investigation_coordination orchestration layer; wire to telemetry bus; block
+        non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        regulator_investigation_coordination_investigation_decision_tracker_continuous_telemetry_dashboa
+        rd
+    validation_method:
+      >
+        regulator_investigation_coordination_investigation_decision_tracker_quarterly_design_and_operati
+        ng_effectiveness_test
+    testing_method:
+      >
+        regulator_investigation_coordination_investigation_decision_tracker_statistical_sampling_with_ex
+        ception_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated:
+      regulator_investigation_coordination_investigation_decision_tracker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulator_investigation_coordination_investigation_decision_tracker design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulator_investigation_coordination_investigation_decision_tracker outputs may trigger
+        enforcement under regulator_investigation_coordination escalation rules.
+  - control_id: AAE-INV-REGULATOR_-REGULATORIN
+    control_name: regulator_investigation_coordination_workflow_stage_gate_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring workflow stage gate enforcer for Regulator Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        regulator_investigation_coordination_workflow_stage_gate_enforcer is required to govern
+        Regulator Investigation Coordination risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement regulator_investigation_coordination_workflow_stage_gate_enforcer as automated policy
+        in regulator_investigation_coordination orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      regulator_investigation_coordination_workflow_stage_gate_enforcer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        regulator_investigation_coordination_workflow_stage_gate_enforcer_quarterly_design_and_operating
+        _effectiveness_test
+    testing_method:
+      >
+        regulator_investigation_coordination_workflow_stage_gate_enforcer_statistical_sampling_with_exce
+        ption_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated:
+      regulator_investigation_coordination_workflow_stage_gate_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulator_investigation_coordination_workflow_stage_gate_enforcer design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulator_investigation_coordination_workflow_stage_gate_enforcer outputs may trigger
+        enforcement under regulator_investigation_coordination escalation rules.
+  - control_id: AAE-INV-REGULATOR_-REGULATORIN
+    control_name: regulator_investigation_coordination_evidence_collection_orchestrator
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring evidence collection orchestrator for Regulator Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        regulator_investigation_coordination_evidence_collection_orchestrator is required to govern
+        Regulator Investigation Coordination risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement regulator_investigation_coordination_evidence_collection_orchestrator as automated
+        policy in regulator_investigation_coordination orchestration layer; wire to telemetry bus; block
+        non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        regulator_investigation_coordination_evidence_collection_orchestrator_continuous_telemetry_dashb
+        oard
+    validation_method:
+      >
+        regulator_investigation_coordination_evidence_collection_orchestrator_quarterly_design_and_opera
+        ting_effectiveness_test
+    testing_method:
+      >
+        regulator_investigation_coordination_evidence_collection_orchestrator_statistical_sampling_with_
+        exception_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated:
+      regulator_investigation_coordination_evidence_collection_orchestrator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulator_investigation_coordination_evidence_collection_orchestrator design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulator_investigation_coordination_evidence_collection_orchestrator outputs may trigger
+        enforcement under regulator_investigation_coordination escalation rules.
+  - control_id: AAE-INV-REGULATOR_-REGULATORIN
+    control_name: regulator_investigation_coordination_investigation_closure_validator
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring investigation closure validator for Regulator Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        regulator_investigation_coordination_investigation_closure_validator is required to govern
+        Regulator Investigation Coordination risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement regulator_investigation_coordination_investigation_closure_validator as automated
+        policy in regulator_investigation_coordination orchestration layer; wire to telemetry bus; block
+        non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        regulator_investigation_coordination_investigation_closure_validator_continuous_telemetry_dashbo
+        ard
+    validation_method:
+      >
+        regulator_investigation_coordination_investigation_closure_validator_quarterly_design_and_operat
+        ing_effectiveness_test
+    testing_method:
+      >
+        regulator_investigation_coordination_investigation_closure_validator_statistical_sampling_with_e
+        xception_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated:
+      regulator_investigation_coordination_investigation_closure_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulator_investigation_coordination_investigation_closure_validator design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulator_investigation_coordination_investigation_closure_validator outputs may trigger
+        enforcement under regulator_investigation_coordination escalation rules.
+  - control_id: AAE-INV-REGULATOR_-REGULATORIN
+    control_name: regulator_investigation_coordination_whistleblower_protection_guard
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring whistleblower protection guard for Regulator Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        regulator_investigation_coordination_whistleblower_protection_guard is required to govern
+        Regulator Investigation Coordination risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement regulator_investigation_coordination_whistleblower_protection_guard as automated
+        policy in regulator_investigation_coordination orchestration layer; wire to telemetry bus; block
+        non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        regulator_investigation_coordination_whistleblower_protection_guard_continuous_telemetry_dashboa
+        rd
+    validation_method:
+      >
+        regulator_investigation_coordination_whistleblower_protection_guard_quarterly_design_and_operati
+        ng_effectiveness_test
+    testing_method:
+      >
+        regulator_investigation_coordination_whistleblower_protection_guard_statistical_sampling_with_ex
+        ception_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated:
+      regulator_investigation_coordination_whistleblower_protection_guard_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulator_investigation_coordination_whistleblower_protection_guard design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulator_investigation_coordination_whistleblower_protection_guard outputs may trigger
+        enforcement under regulator_investigation_coordination escalation rules.
+  - control_id: AAE-INV-REGULATOR_-REGULATORIN
+    control_name: regulator_investigation_coordination_investigation_metrics_publisher
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring investigation metrics publisher for Regulator Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        regulator_investigation_coordination_investigation_metrics_publisher is required to govern
+        Regulator Investigation Coordination risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement regulator_investigation_coordination_investigation_metrics_publisher as automated
+        policy in regulator_investigation_coordination orchestration layer; wire to telemetry bus; block
+        non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        regulator_investigation_coordination_investigation_metrics_publisher_continuous_telemetry_dashbo
+        ard
+    validation_method:
+      >
+        regulator_investigation_coordination_investigation_metrics_publisher_quarterly_design_and_operat
+        ing_effectiveness_test
+    testing_method:
+      >
+        regulator_investigation_coordination_investigation_metrics_publisher_statistical_sampling_with_e
+        xception_tracking
+    control_owner: regulator_investigation_coordination_control_owner
+    evidence_generated:
+      regulator_investigation_coordination_investigation_metrics_publisher_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulator_investigation_coordination_investigation_metrics_publisher design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulator_investigation_coordination_investigation_metrics_publisher outputs may trigger
+        enforcement under regulator_investigation_coordination escalation rules.
+requirements:
+  legal:
+    >
+      Regulator Investigation Coordination must satisfy legal requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management, supervisory authority engagement and submission management including documented
+      procedures, accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act
+      and ISO 19011.
+  regulatory:
+    >
+      Regulator Investigation Coordination must satisfy regulatory requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management, supervisory authority engagement and submission management including documented
+      procedures, accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act
+      and ISO 19011.
+  technical:
+    >
+      Regulator Investigation Coordination must satisfy technical requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management, supervisory authority engagement and submission management including documented
+      procedures, accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act
+      and ISO 19011.
+  operational:
+    >
+      Regulator Investigation Coordination must satisfy operational requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management, supervisory authority engagement and submission management including documented
+      procedures, accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act
+      and ISO 19011.
+  audit:
+    >
+      Regulator Investigation Coordination must satisfy audit requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management, supervisory authority engagement and submission management including documented
+      procedures, accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act
+      and ISO 19011.
+  forensic:
+    >
+      Regulator Investigation Coordination must satisfy forensic requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management, supervisory authority engagement and submission management including documented
+      procedures, accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act
+      and ISO 19011.
+  enforcement:
+    >
+      Regulator Investigation Coordination must satisfy enforcement requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management, supervisory authority engagement and submission management including documented
+      procedures, accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act
+      and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Regulator Investigation Coordination with stage gates, RACI assignments, and
+      evidence capture.
+  triage:
+    >
+      Triage process for Regulator Investigation Coordination with stage gates, RACI assignments, and
+      evidence capture.
+  execution:
+    >
+      Execution process for Regulator Investigation Coordination with stage gates, RACI assignments,
+      and evidence capture.
+  validation:
+    >
+      Validation process for Regulator Investigation Coordination with stage gates, RACI assignments,
+      and evidence capture.
+  escalation:
+    >
+      Escalation process for Regulator Investigation Coordination with stage gates, RACI assignments,
+      and evidence capture.
+  closure:
+    >
+      Closure process for Regulator Investigation Coordination with stage gates, RACI assignments, and
+      evidence capture.
+  improvement:
+    >
+      Improvement process for Regulator Investigation Coordination with stage gates, RACI assignments,
+      and evidence capture.
+workflows:
+  - workflow_name: regulator_investigation_coordination_operational_lifecycle_workflow
+    workflow_trigger: regulator_investigation_coordination_governance_event_detected
+    workflow_steps:
+      - regulator_investigation_coordination_intake
+      - regulator_investigation_coordination_triage
+      - regulator_investigation_coordination_execution
+      - regulator_investigation_coordination_validation
+      - regulator_investigation_coordination_approval
+      - regulator_investigation_coordination_closure
+    approval_points:
+      - regulator_investigation_coordination_approval
+    escalation_points:
+      - regulator_investigation_coordination_triage
+    generated_evidence:
+      - regulator_investigation_coordination_workflow_log
+      - regulator_investigation_coordination_closure_attestation
+    completion_requirements:
+      - regulator_investigation_coordination_evidence_complete
+      - regulator_investigation_coordination_approvals_recorded
+  - workflow_name: regulator_investigation_coordination_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_regulator_investigation_coordination
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - regulator_investigation_coordination_regulatory_package
+      - regulator_investigation_coordination_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - regulator_investigation_coordination_governance_event_detected
+    - regulator_investigation_coordination_regulatory_inquiry
+    - regulator_investigation_coordination_integrity_breach
+    - regulator_investigation_coordination_enforcement_authorization
+  required_inputs:
+    - regulator_investigation_coordination_case_context
+    - regulator_investigation_coordination_evidence_index
+    - regulator_investigation_coordination_risk_assessment
+  workflow_steps:
+    - regulator_investigation_coordination_intake
+    - regulator_investigation_coordination_triage
+    - regulator_investigation_coordination_execution
+    - regulator_investigation_coordination_validation
+    - regulator_investigation_coordination_approval
+    - regulator_investigation_coordination_closure
+  validation_steps:
+    - regulator_investigation_coordination_evidence_sufficiency_check
+    - regulator_investigation_coordination_integrity_verification
+  approval_steps:
+    - regulator_investigation_coordination_approval
+  control_checkpoints:
+    - regulator_investigation_coordination_intake_gate
+    - regulator_investigation_coordination_evidence_gate
+    - regulator_investigation_coordination_decision_gate
+  evidence_generation:
+    - regulator_investigation_coordination_workflow_log
+    - regulator_investigation_coordination_closure_attestation
+  decision_points:
+    - regulator_investigation_coordination_severity_classification
+    - regulator_investigation_coordination_enforcement_authorization
+  escalation_points:
+    - regulator_investigation_coordination_triage
+  completion_criteria:
+    - regulator_investigation_coordination_evidence_complete
+    - regulator_investigation_coordination_approvals_recorded
+  generated_outputs:
+    - regulator_investigation_coordination_workflow_log
+    - regulator_investigation_coordination_closure_attestation
+    - regulator_investigation_coordination_final_disposition
+decision_logic:
+  decision_inputs:
+    - regulator_investigation_coordination_severity_score
+    - regulator_investigation_coordination_evidence_completeness
+    - regulator_investigation_coordination_regulatory_context
+    - regulator_investigation_coordination_risk_exposure_index
+  decision_conditions:
+    - regulator_investigation_coordination_critical_threshold_breach
+    - regulator_investigation_coordination_evidence_integrity_failure
+    - regulator_investigation_coordination_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: regulator_investigation_coordination_severity_score >= 90
+    high_severity: regulator_investigation_coordination_severity_score >= 70
+    evidence_complete: regulator_investigation_coordination_evidence_completeness >= 0.98
+  decision_rules:
+    regulator_investigation_coordination_high_severity_violation:
+      condition: regulator_investigation_coordination_severity_score >= 90
+      action: initiate_regulator_investigation_coordination_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: regulator_investigation_coordination_investigation_report
+    regulator_investigation_coordination_evidence_compromise_detected:
+      condition: regulator_investigation_coordination_integrity_status == compromised
+      action: activate_regulator_investigation_coordination_forensic_lockdown
+      approval_required: regulator_investigation_coordination_forensic_lead
+      evidence_required: regulator_investigation_coordination_integrity_alert_record
+    regulator_investigation_coordination_enforcement_authorization:
+      condition: regulator_investigation_coordination_violation_confirmed == true AND regulator_investigation_coordination_evidence_complete == true
+      action: issue_regulator_investigation_coordination_enforcement_order
+      approval_required: regulator_investigation_coordination_enforcement_officer
+      evidence_required: regulator_investigation_coordination_violation_evidence_package
+    regulator_investigation_coordination_regulator_inquiry_response:
+      condition: regulator_investigation_coordination_regulator_request_received == true
+      action: compile_regulator_investigation_coordination_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: regulator_investigation_coordination_regulatory_evidence_index
+  decision_outputs:
+    - regulator_investigation_coordination_enforcement_decision
+    - regulator_investigation_coordination_escalation_notice
+    - regulator_investigation_coordination_remediation_directive
+    - regulator_investigation_coordination_audit_disposition
+  approval_requirements:
+    enforcement_actions: [regulator_investigation_coordination_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - regulator_investigation_coordination_severity_score >= 90
+    - regulator_investigation_coordination_evidence_integrity_failure == true
+    - regulator_investigation_coordination_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_regulator_investigation_coordination_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: regulator_investigation_coordination_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Regulator Investigation Coordination may trigger EU AI Act Articles 71, 73
+      reporting, market surveillance cooperation, and conformity assessment suspension; all outputs
+      must be litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Regulator Investigation Coordination per ISO
+      19011 and EU AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Regulator Investigation Coordination per ISO
+      19011 and EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Regulator Investigation Coordination per ISO
+      19011 and EU AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Regulator Investigation Coordination per ISO
+      19011 and EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: case_closure_sla_compliance
+    metric_category: operational
+    business_purpose:
+      >
+        Measure case closure sla compliance for Regulator Investigation Coordination operational and
+        regulatory assurance
+    formula:
+      computed_case_closure_sla_compliance_from_regulator_investigation_coordination_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: regulator_investigation_coordination_metrics_owner
+    data_source: regulator_investigation_coordination_metrics_warehouse
+    evidence_generated: case_closure_sla_compliance_measurement_record
+  - metric_name: evidence_sufficiency_score
+    metric_category: risk
+    business_purpose:
+      >
+        Measure evidence sufficiency score for Regulator Investigation Coordination operational and
+        regulatory assurance
+    formula:
+      computed_evidence_sufficiency_score_from_regulator_investigation_coordination_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: regulator_investigation_coordination_metrics_owner
+    data_source: regulator_investigation_coordination_metrics_warehouse
+    evidence_generated: evidence_sufficiency_score_measurement_record
+  - metric_name: investigation_escalation_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure investigation escalation rate for Regulator Investigation Coordination operational and
+        regulatory assurance
+    formula:
+      computed_investigation_escalation_rate_from_regulator_investigation_coordination_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: regulator_investigation_coordination_metrics_owner
+    data_source: regulator_investigation_coordination_metrics_warehouse
+    evidence_generated: investigation_escalation_rate_measurement_record
+  - metric_name: root_cause_identification_rate
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure root cause identification rate for Regulator Investigation Coordination operational and
+        regulatory assurance
+    formula:
+      computed_root_cause_identification_rate_from_regulator_investigation_coordination_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: regulator_investigation_coordination_metrics_owner
+    data_source: regulator_investigation_coordination_metrics_warehouse
+    evidence_generated: root_cause_identification_rate_measurement_record
+  - metric_name: regulator_notification_timeliness
+    metric_category: governance
+    business_purpose:
+      >
+        Measure regulator notification timeliness for Regulator Investigation Coordination operational
+        and regulatory assurance
+    formula:
+      computed_regulator_notification_timeliness_from_regulator_investigation_coordination_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: regulator_investigation_coordination_metrics_owner
+    data_source: regulator_investigation_coordination_metrics_warehouse
+    evidence_generated: regulator_notification_timeliness_measurement_record
+  - metric_name: forensic_integrity_score
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure forensic integrity score for Regulator Investigation Coordination operational and
+        regulatory assurance
+    formula:
+      computed_forensic_integrity_score_from_regulator_investigation_coordination_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: regulator_investigation_coordination_metrics_owner
+    data_source: regulator_investigation_coordination_metrics_warehouse
+    evidence_generated: forensic_integrity_score_measurement_record
+kpis:
+  - metric_name: case_closure_sla_compliance
+    formula: computed_case_closure_sla_compliance_from_regulator_investigation_coordination_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: evidence_sufficiency_score
+    formula: computed_evidence_sufficiency_score_from_regulator_investigation_coordination_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: investigation_escalation_rate
+    formula: computed_investigation_escalation_rate_from_regulator_investigation_coordination_telemetry
+    target: >= 95%
+  - metric_name: root_cause_identification_rate
+    formula: computed_root_cause_identification_rate_from_regulator_investigation_coordination_telemetry
+    target: >= 95%
+kris:
+  - metric_name: investigation_escalation_rate
+    business_purpose: Measure investigation escalation rate for Regulator Investigation Coordination operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: investigation_case_file
+    evidence_type: primary
+    business_purpose:
+      Support regulator investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_regulator_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: regulator_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: witness_interview_transcripts
+    evidence_type: corroborating
+    business_purpose:
+      Support regulator investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_regulator_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: regulator_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: evidence_exhibit_index
+    evidence_type: attestation
+    business_purpose:
+      Support regulator investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_regulator_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: regulator_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: regulator_notification_records
+    evidence_type: derivative
+    business_purpose:
+      Support regulator investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_regulator_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: regulator_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: case_timeline_reconstruction
+    evidence_type: audit
+    business_purpose:
+      Support regulator investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_regulator_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: regulator_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: investigation_closure_memo
+    evidence_type: regulatory
+    business_purpose:
+      Support regulator investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_regulator_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: regulator_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: regulator_submission_package
+    report_owner: regulator_investigation_coordination_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - regulator_investigation_coordination_telemetry
+      - regulator_investigation_coordination_evidence_index
+    report_outputs:
+      - regulator_submission_package_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: supervisory_authority_brief
+    report_owner: regulator_investigation_coordination_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - regulator_investigation_coordination_telemetry
+      - regulator_investigation_coordination_evidence_index
+    report_outputs:
+      - supervisory_authority_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: market_surveillance_status_report
+    report_owner: regulator_investigation_coordination_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - regulator_investigation_coordination_telemetry
+      - regulator_investigation_coordination_evidence_index
+    report_outputs:
+      - market_surveillance_status_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: incident_disclosure_summary
+    report_owner: regulator_investigation_coordination_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - regulator_investigation_coordination_telemetry
+      - regulator_investigation_coordination_evidence_index
+    report_outputs:
+      - incident_disclosure_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: conformity_status_report
+    report_owner: regulator_investigation_coordination_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - regulator_investigation_coordination_telemetry
+      - regulator_investigation_coordination_evidence_index
+    report_outputs:
+      - conformity_status_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  agent_governance:
+    agent_identity: regulator_investigation_coordination_registered_agent_identity_schema
+    agent_role: regulator_investigation_coordination_delegated_authority_role_matrix
+    agent_permissions: regulator_investigation_coordination_least_privilege_permission_set
+    agent_constraints: regulator_investigation_coordination_autonomy_and_tool_constraints
+    agent_accountability: regulator_investigation_coordination_human_accountability_chain
+    agent_escalation_rules: regulator_investigation_coordination_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - regulator_investigation_coordination_policy_context
+      - regulator_investigation_coordination_risk_score
+      - regulator_investigation_coordination_human_intent
+    decision_outputs:
+      - regulator_investigation_coordination_authorized_action
+      - regulator_investigation_coordination_escalation_notice
+    decision_owners:
+      - regulator_investigation_coordination_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: regulator_investigation_coordination_high_risk_decision_mandatory_review
+    decision_accountability: regulator_investigation_coordination_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: regulator_investigation_coordination_approved_tool_allowlist
+    tool_execution_validation: regulator_investigation_coordination_pre_execution_tool_risk_check
+    tool_risk_controls: regulator_investigation_coordination_tool_side_effect_containment
+    tool_auditability: regulator_investigation_coordination_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: regulator_investigation_coordination_memory_segment_access_policy
+    memory_integrity_validation: regulator_investigation_coordination_memory_tamper_detection
+    memory_retention_controls: regulator_investigation_coordination_memory_retention_and_purge_rules
+    memory_auditability: regulator_investigation_coordination_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: regulator_investigation_coordination_chain_of_thought_capture
+    reasoning_validation: regulator_investigation_coordination_reasoning_consistency_check
+    reasoning_risk_monitoring: regulator_investigation_coordination_reasoning_hazard_detection
+    reasoning_accountability: regulator_investigation_coordination_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - regulator_investigation_coordination_audit_log
+  - regulator_investigation_coordination_activity_log
+  - regulator_investigation_coordination_decision_log
+  - regulator_investigation_coordination_traceability_record
+  - regulator_investigation_coordination_evidence_package
+  - regulator_investigation_coordination_chain_of_custody_record
+  - regulator_investigation_coordination_attestation
+required_evidence:
+  - regulator_investigation_coordination_audit_log
+  - regulator_investigation_coordination_activity_log
+  - regulator_investigation_coordination_decision_log
+  - regulator_investigation_coordination_traceability_record
+  - regulator_investigation_coordination_evidence_package
+  - regulator_investigation_coordination_chain_of_custody_record
+  - regulator_investigation_coordination_attestation
+supporting_evidence:
+  - regulator_investigation_coordination_audit_log
+  - regulator_investigation_coordination_activity_log
+  - regulator_investigation_coordination_decision_log
+  - regulator_investigation_coordination_traceability_record
+  - regulator_investigation_coordination_evidence_package
+audit_evidence:
+  - regulator_investigation_coordination_audit_log
+  - regulator_investigation_coordination_activity_log
+  - regulator_investigation_coordination_decision_log
+  - regulator_investigation_coordination_traceability_record
+  - regulator_investigation_coordination_evidence_package
+  - regulator_investigation_coordination_chain_of_custody_record
+  - regulator_investigation_coordination_attestation
+forensic_evidence:
+  - regulator_investigation_coordination_audit_log
+  - regulator_investigation_coordination_activity_log
+  - regulator_investigation_coordination_decision_log
+  - regulator_investigation_coordination_traceability_record
+  - regulator_investigation_coordination_evidence_package
+  - regulator_investigation_coordination_chain_of_custody_record
+  - regulator_investigation_coordination_attestation
+regulatory_evidence:
+  - regulator_investigation_coordination_audit_log
+  - regulator_investigation_coordination_activity_log
+  - regulator_investigation_coordination_decision_log
+  - regulator_investigation_coordination_traceability_record
+  - regulator_investigation_coordination_evidence_package
+  - regulator_investigation_coordination_chain_of_custody_record
+  - regulator_investigation_coordination_attestation
+validation_evidence:
+  - regulator_investigation_coordination_audit_log
+  - regulator_investigation_coordination_activity_log
+  - regulator_investigation_coordination_decision_log
+  - regulator_investigation_coordination_traceability_record
+  - regulator_investigation_coordination_evidence_package
+  - regulator_investigation_coordination_chain_of_custody_record
+  - regulator_investigation_coordination_attestation
+validation_rules:
+  - rule: regulator_investigation_coordination_evidence_complete
+    condition: required_evidence_regulator_investigation_coordination < threshold
+    action: BLOCK_SUBMISSION
+  - rule: regulator_investigation_coordination_integrity_verified
+    condition: integrity_status_regulator_investigation_coordination != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: regulator_investigation_coordination_custody_intact
+    condition: custody_gap_regulator_investigation_coordination == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Regulator Investigation Coordination controls fail; mitigated
+      through preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Regulator Investigation Coordination controls fail;
+      mitigated through preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Regulator Investigation Coordination controls fail; mitigated
+      through preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Regulator Investigation Coordination controls fail; mitigated
+      through preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Regulator Investigation Coordination controls fail; mitigated
+      through preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - regulator_investigation_coordination_control_failure
+    - regulator_investigation_coordination_evidence_compromise
+    - regulator_investigation_coordination_regulatory_non_compliance
+    - regulator_investigation_coordination_enforcement_delay
+  risk_events:
+    - regulator_investigation_coordination_audit_finding_critical
+    - regulator_investigation_coordination_investigation_escalation
+    - regulator_investigation_coordination_sanction_exposure
+    - regulator_investigation_coordination_market_surveillance_inquiry
+  risk_indicators:
+    - regulator_investigation_coordination_control_effectiveness_degradation
+    - regulator_investigation_coordination_evidence_gap_rate
+    - regulator_investigation_coordination_sla_breach_count
+    - regulator_investigation_coordination_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    regulator_investigation_coordination_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: regulator_investigation_coordination_forensic_lead
+    regulator_investigation_coordination_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    regulator_investigation_coordination_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: regulator_investigation_coordination_enforcement_officer
+  risk_tolerance:
+    regulator_investigation_coordination_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: regulator_investigation_coordination_risk_score >= 60
+    critical: regulator_investigation_coordination_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Regulator Investigation Coordination controls documented in
+      regulator_investigation_coordination_risk_register with quarterly review.
+  risk_treatment:
+    - regulator_investigation_coordination_preventive_control_reinforcement
+    - regulator_investigation_coordination_detective_monitoring_enhancement
+    - regulator_investigation_coordination_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: regulator_investigation_coordination_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Regulator Investigation Coordination workflow events with provenance anchor
+      and regulator_investigation_coordination_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via regulator_investigation_coordination_collection_api with schema
+      validation and classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      regulator_investigation_coordination_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      regulator_investigation_coordination_data_classification_policy
+  evidence_storage:
+    >
+      Write-once immutable storage in regulator_investigation_coordination_evidence_vault with access
+      controls
+  evidence_retention:
+    >
+      Retention per regulator_investigation_coordination_retention_schedule aligned with EU AI Act
+      Article 18 and legal hold
+  evidence_archival:
+    >
+      Long-term archival with regulator_investigation_coordination_integrity_verification before
+      migration
+  evidence_retrieval:
+    >
+      Audited retrieval via regulator_investigation_coordination_retrieval_gateway with purpose
+      logging
+  evidence_disposal:
+    >
+      Authorized disposition with regulator_investigation_coordination_disposition_certificate and
+      dual approval
+chain_of_custody:
+  custody_events:
+    - regulator_investigation_coordination_capture_event
+    - regulator_investigation_coordination_transfer_event
+    - regulator_investigation_coordination_access_event
+    - regulator_investigation_coordination_disposition_event
+  custody_owners:
+    primary: regulator_investigation_coordination_evidence_custodian
+    secondary: regulator_investigation_coordination_forensic_lead
+  custody_validation:
+    method: regulator_investigation_coordination_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - regulator_investigation_coordination_sha256_hash_chain
+    - regulator_investigation_coordination_digital_signature
+    - regulator_investigation_coordination_timestamp_authority
+  tamper_detection:
+    method: regulator_investigation_coordination_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: regulator_investigation_coordination_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Regulator Investigation Coordination in investigation_management.
+    implementation_controls:
+      - regulator_investigation_coordination_article_26_preventive_control
+      - regulator_investigation_coordination_article_26_detective_control
+      - regulator_investigation_coordination_article_26_evidence_control
+    implementation_processes:
+      - regulator_investigation_coordination_article_26_workflow
+      - regulator_investigation_coordination_article_26_validation_process
+      - regulator_investigation_coordination_article_26_escalation_process
+    implementation_evidence:
+      - regulator_investigation_coordination_article_26_compliance_record
+      - regulator_investigation_coordination_article_26_audit_package
+      - regulator_investigation_coordination_article_26_attestation
+    validation_method: regulator_investigation_coordination_article_26_automated_and_manual_conformity_testing
+    audit_method: regulator_investigation_coordination_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: regulator_investigation_coordination_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Regulator Investigation Coordination demonstrates Article 26 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+  article_50:
+    article: Article 50
+    regulatory_text_summary:
+      Codes of practice for GPAI.
+    obligation:
+      >
+        Codes of practice and compliance demonstration for GPAI models. Implemented through Regulator
+        Investigation Coordination in investigation_management.
+    implementation_controls:
+      - regulator_investigation_coordination_article_50_preventive_control
+      - regulator_investigation_coordination_article_50_detective_control
+      - regulator_investigation_coordination_article_50_evidence_control
+    implementation_processes:
+      - regulator_investigation_coordination_article_50_workflow
+      - regulator_investigation_coordination_article_50_validation_process
+      - regulator_investigation_coordination_article_50_escalation_process
+    implementation_evidence:
+      - regulator_investigation_coordination_article_50_compliance_record
+      - regulator_investigation_coordination_article_50_audit_package
+      - regulator_investigation_coordination_article_50_attestation
+    validation_method: regulator_investigation_coordination_article_50_automated_and_manual_conformity_testing
+    audit_method: regulator_investigation_coordination_article_50_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: regulator_investigation_coordination_article_50_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Regulator Investigation Coordination demonstrates Article 50 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+  article_55:
+    article: Article 55
+    regulatory_text_summary:
+      Obligations for providers of GPAI.
+    obligation:
+      >
+        GPAI provider obligations including technical documentation. Implemented through Regulator
+        Investigation Coordination in investigation_management.
+    implementation_controls:
+      - regulator_investigation_coordination_article_55_preventive_control
+      - regulator_investigation_coordination_article_55_detective_control
+      - regulator_investigation_coordination_article_55_evidence_control
+    implementation_processes:
+      - regulator_investigation_coordination_article_55_workflow
+      - regulator_investigation_coordination_article_55_validation_process
+      - regulator_investigation_coordination_article_55_escalation_process
+    implementation_evidence:
+      - regulator_investigation_coordination_article_55_compliance_record
+      - regulator_investigation_coordination_article_55_audit_package
+      - regulator_investigation_coordination_article_55_attestation
+    validation_method: regulator_investigation_coordination_article_55_automated_and_manual_conformity_testing
+    audit_method: regulator_investigation_coordination_article_55_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: regulator_investigation_coordination_article_55_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Regulator Investigation Coordination demonstrates Article 55 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+  article_73:
+    article: Article 73
+    regulatory_text_summary:
+      Reporting of serious incidents.
+    obligation:
+      >
+        Serious incident reporting to market surveillance authorities. Implemented through Regulator
+        Investigation Coordination in investigation_management.
+    implementation_controls:
+      - regulator_investigation_coordination_article_73_preventive_control
+      - regulator_investigation_coordination_article_73_detective_control
+      - regulator_investigation_coordination_article_73_evidence_control
+    implementation_processes:
+      - regulator_investigation_coordination_article_73_workflow
+      - regulator_investigation_coordination_article_73_validation_process
+      - regulator_investigation_coordination_article_73_escalation_process
+    implementation_evidence:
+      - regulator_investigation_coordination_article_73_compliance_record
+      - regulator_investigation_coordination_article_73_audit_package
+      - regulator_investigation_coordination_article_73_attestation
+    validation_method: regulator_investigation_coordination_article_73_automated_and_manual_conformity_testing
+    audit_method: regulator_investigation_coordination_article_73_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: regulator_investigation_coordination_article_73_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Regulator Investigation Coordination demonstrates Article 73 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_26:
+      implementation: regulator_investigation_coordination_eu_ai_act_article_26_control_set
+      process: regulator_investigation_coordination_eu_ai_act_article_26_workflow
+      evidence: regulator_investigation_coordination_eu_ai_act_article_26_attestation
+    article_50:
+      implementation: regulator_investigation_coordination_eu_ai_act_article_50_control_set
+      process: regulator_investigation_coordination_eu_ai_act_article_50_workflow
+      evidence: regulator_investigation_coordination_eu_ai_act_article_50_attestation
+    article_55:
+      implementation: regulator_investigation_coordination_eu_ai_act_article_55_control_set
+      process: regulator_investigation_coordination_eu_ai_act_article_55_workflow
+      evidence: regulator_investigation_coordination_eu_ai_act_article_55_attestation
+    article_73:
+      implementation: regulator_investigation_coordination_eu_ai_act_article_73_control_set
+      process: regulator_investigation_coordination_eu_ai_act_article_73_workflow
+      evidence: regulator_investigation_coordination_eu_ai_act_article_73_attestation
+  gdpr:
+    article_5:
+      implementation: regulator_investigation_coordination_gdpr_article_5_privacy_control
+      evidence: regulator_investigation_coordination_gdpr_article_5_compliance_record
+    article_6:
+      implementation: regulator_investigation_coordination_gdpr_article_6_privacy_control
+      evidence: regulator_investigation_coordination_gdpr_article_6_compliance_record
+    article_22:
+      implementation: regulator_investigation_coordination_gdpr_article_22_privacy_control
+      evidence: regulator_investigation_coordination_gdpr_article_22_compliance_record
+    article_25:
+      implementation: regulator_investigation_coordination_gdpr_article_25_privacy_control
+      evidence: regulator_investigation_coordination_gdpr_article_25_compliance_record
+    article_32:
+      implementation: regulator_investigation_coordination_gdpr_article_32_privacy_control
+      evidence: regulator_investigation_coordination_gdpr_article_32_compliance_record
+    article_35:
+      implementation: regulator_investigation_coordination_gdpr_article_35_privacy_control
+      evidence: regulator_investigation_coordination_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: regulator_investigation_coordination_iso42001_clause_4_1_aims_control
+      evidence: regulator_investigation_coordination_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: regulator_investigation_coordination_iso42001_clause_4_2_aims_control
+      evidence: regulator_investigation_coordination_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: regulator_investigation_coordination_iso42001_clause_5_1_aims_control
+      evidence: regulator_investigation_coordination_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: regulator_investigation_coordination_iso42001_clause_5_2_aims_control
+      evidence: regulator_investigation_coordination_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: regulator_investigation_coordination_iso42001_clause_6_1_aims_control
+      evidence: regulator_investigation_coordination_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: regulator_investigation_coordination_iso42001_clause_8_1_aims_control
+      evidence: regulator_investigation_coordination_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: regulator_investigation_coordination_iso42001_clause_9_1_aims_control
+      evidence: regulator_investigation_coordination_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: regulator_investigation_coordination_iso42001_clause_10_1_aims_control
+      evidence: regulator_investigation_coordination_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: regulator_investigation_coordination_iso23894_risk_identification_alignment
+      evidence: regulator_investigation_coordination_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: regulator_investigation_coordination_iso23894_risk_analysis_alignment
+      evidence: regulator_investigation_coordination_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: regulator_investigation_coordination_iso23894_risk_evaluation_alignment
+      evidence: regulator_investigation_coordination_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: regulator_investigation_coordination_iso23894_risk_treatment_alignment
+      evidence: regulator_investigation_coordination_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: regulator_investigation_coordination_iso23894_risk_monitoring_alignment
+      evidence: regulator_investigation_coordination_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: regulator_investigation_coordination_iso19011_audit_principles_procedure
+      evidence: regulator_investigation_coordination_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: regulator_investigation_coordination_iso19011_audit_programme_management_procedure
+      evidence: regulator_investigation_coordination_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: regulator_investigation_coordination_iso19011_audit_evidence_requirements_procedure
+      evidence: regulator_investigation_coordination_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: regulator_investigation_coordination_iso19011_audit_reporting_procedure
+      evidence: regulator_investigation_coordination_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: regulator_investigation_coordination_nist_rmf_govern_control_mapping
+      evidence: regulator_investigation_coordination_nist_rmf_govern_assessment
+    map:
+      implementation: regulator_investigation_coordination_nist_rmf_map_control_mapping
+      evidence: regulator_investigation_coordination_nist_rmf_map_assessment
+    measure:
+      implementation: regulator_investigation_coordination_nist_rmf_measure_control_mapping
+      evidence: regulator_investigation_coordination_nist_rmf_measure_assessment
+    manage:
+      implementation: regulator_investigation_coordination_nist_rmf_manage_control_mapping
+      evidence: regulator_investigation_coordination_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: regulator_investigation_coordination_nist_csf_identify_safeguard
+      evidence: regulator_investigation_coordination_nist_csf_identify_log
+    protect:
+      implementation: regulator_investigation_coordination_nist_csf_protect_safeguard
+      evidence: regulator_investigation_coordination_nist_csf_protect_log
+    detect:
+      implementation: regulator_investigation_coordination_nist_csf_detect_safeguard
+      evidence: regulator_investigation_coordination_nist_csf_detect_log
+    respond:
+      implementation: regulator_investigation_coordination_nist_csf_respond_safeguard
+      evidence: regulator_investigation_coordination_nist_csf_respond_log
+    recover:
+      implementation: regulator_investigation_coordination_nist_csf_recover_safeguard
+      evidence: regulator_investigation_coordination_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: regulator_investigation_coordination_oecd_accountability_governance_control
+      evidence: regulator_investigation_coordination_oecd_accountability_attestation
+    transparency:
+      implementation: regulator_investigation_coordination_oecd_transparency_governance_control
+      evidence: regulator_investigation_coordination_oecd_transparency_attestation
+    robustness_security:
+      implementation: regulator_investigation_coordination_oecd_robustness_security_governance_control
+      evidence: regulator_investigation_coordination_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: regulator_investigation_coordination_oecd_inclusive_growth_governance_control
+      evidence: regulator_investigation_coordination_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: regulator_investigation_coordination_unesco_human_rights_ethics_control
+      evidence: regulator_investigation_coordination_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: regulator_investigation_coordination_unesco_fairness_non_discrimination_ethics_control
+      evidence: regulator_investigation_coordination_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: regulator_investigation_coordination_unesco_transparency_explainability_ethics_control
+      evidence: regulator_investigation_coordination_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: regulator_investigation_coordination_unesco_accountability_ethics_control
+      evidence: regulator_investigation_coordination_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Regulator Investigation Coordination covering executive, board,
+      regulatory, audit, forensic, and attestation consumers.
+  report_types:
+    - regulator_investigation_coordination_status_report
+    - regulator_investigation_coordination_compliance_report
+    - regulator_investigation_coordination_enforcement_report
+    - regulator_investigation_coordination_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [regulator_investigation_coordination_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_regulator_investigation_coordination
+  - quarterly_control_testing_regulator_investigation_coordination
+  - evidence_sampling_regulator_investigation_coordination
+  - finding_remediation_tracking_regulator_investigation_coordination
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Regulator Investigation Coordination aligned with ISO/IEC 27037 and legal
+      admissibility standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Regulator Investigation Coordination.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Regulator Investigation Coordination.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Regulator Investigation Coordination.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Regulator Investigation Coordination.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Regulator Investigation Coordination.
+investigation_requirements:
+  case_management:
+    Case Management for Regulator Investigation Coordination investigations.
+  investigation_lifecycle:
+    Investigation Lifecycle for Regulator Investigation Coordination investigations.
+  evidence_collection:
+    Evidence Collection for Regulator Investigation Coordination investigations.
+  root_cause_analysis:
+    Root Cause Analysis for Regulator Investigation Coordination investigations.
+  violation_determination:
+    Violation Determination for Regulator Investigation Coordination investigations.
+  regulatory_notification:
+    Regulatory Notification for Regulator Investigation Coordination investigations.
+integration_points:
+  upstream_systems:
+    - system: governance_forensics
+      purpose: regulator_investigation_coordination_to_governance_forensics_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_governance_forensics]
+      produced_artifacts: [regulator_investigation_coordination_output_to_governance_forensics]
+    - system: incident_reporting
+      purpose: regulator_investigation_coordination_to_incident_reporting_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_incident_reporting]
+      produced_artifacts: [regulator_investigation_coordination_output_to_incident_reporting]
+    - system: evidence_preservation
+      purpose: regulator_investigation_coordination_to_evidence_preservation_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_evidence_preservation]
+      produced_artifacts: [regulator_investigation_coordination_output_to_evidence_preservation]
+  downstream_systems:
+    - system: enforcement_actions
+      purpose: regulator_investigation_coordination_to_enforcement_actions_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_enforcement_actions]
+      produced_artifacts: [regulator_investigation_coordination_output_to_enforcement_actions]
+    - system: penalty_management
+      purpose: regulator_investigation_coordination_to_penalty_management_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_penalty_management]
+      produced_artifacts: [regulator_investigation_coordination_output_to_penalty_management]
+    - system: remediation_tracking
+      purpose: regulator_investigation_coordination_to_remediation_tracking_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_remediation_tracking]
+      produced_artifacts: [regulator_investigation_coordination_output_to_remediation_tracking]
+  governance_integrations:
+    - system: incident_reporting
+      purpose: regulator_investigation_coordination_to_incident_reporting_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_incident_reporting]
+      produced_artifacts: [regulator_investigation_coordination_output_to_incident_reporting]
+    - system: ai_liability
+      purpose: regulator_investigation_coordination_to_ai_liability_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_ai_liability]
+      produced_artifacts: [regulator_investigation_coordination_output_to_ai_liability]
+  risk_integrations:
+    - system: risk_management
+      purpose: regulator_investigation_coordination_to_risk_management_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_risk_management]
+      produced_artifacts: [regulator_investigation_coordination_output_to_risk_management]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: regulator_investigation_coordination_to_compliance_audits_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_compliance_audits]
+      produced_artifacts: [regulator_investigation_coordination_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: regulator_investigation_coordination_to_internal_audit_system_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_internal_audit_system]
+      produced_artifacts: [regulator_investigation_coordination_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: regulator_investigation_coordination_to_governance_reporting_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_governance_reporting]
+      produced_artifacts: [regulator_investigation_coordination_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: regulator_investigation_coordination_to_executive_dashboard_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_executive_dashboard]
+      produced_artifacts: [regulator_investigation_coordination_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: regulator_investigation_coordination_to_enforcement_actions_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_enforcement_actions]
+      produced_artifacts: [regulator_investigation_coordination_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: regulator_investigation_coordination_to_policy_enforcement_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_policy_enforcement]
+      produced_artifacts: [regulator_investigation_coordination_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: regulator_investigation_coordination_to_remediation_tracking_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_remediation_tracking]
+      produced_artifacts: [regulator_investigation_coordination_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: regulator_investigation_coordination_to_remediation_engine_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_remediation_engine]
+      produced_artifacts: [regulator_investigation_coordination_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: regulator_investigation_coordination_to_evidence_preservation_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_evidence_preservation]
+      produced_artifacts: [regulator_investigation_coordination_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: regulator_investigation_coordination_to_technical_documentation_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_technical_documentation]
+      produced_artifacts: [regulator_investigation_coordination_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: regulator_investigation_coordination_to_post_market_monitoring_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_post_market_monitoring]
+      produced_artifacts: [regulator_investigation_coordination_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: regulator_investigation_coordination_to_incident_reporting_governance_sync
+      data_exchanged: [regulator_investigation_coordination_events, regulator_investigation_coordination_evidence_refs, regulator_investigation_coordination_metrics]
+      trigger_conditions: [regulator_investigation_coordination_state_change, regulator_investigation_coordination_escalation, regulator_investigation_coordination_closure]
+      consumed_artifacts: [regulator_investigation_coordination_input_from_incident_reporting]
+      produced_artifacts: [regulator_investigation_coordination_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Regulator Investigation Coordination activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Regulator Investigation Coordination procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - regulator_investigation_coordination_procedure_checklist
+    required_evidence:
+      - regulator_investigation_coordination_process_log
+    required_metrics:
+      - regulator_investigation_coordination_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Regulator Investigation Coordination enterprise-wide.
+    required_capabilities:
+      - regulator_investigation_coordination_standard_control_set
+    required_controls:
+      - regulator_investigation_coordination_control_register
+    required_evidence:
+      - regulator_investigation_coordination_audit_evidence
+    required_metrics:
+      - regulator_investigation_coordination_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Regulator Investigation Coordination with KPI optimization.
+    required_capabilities:
+      - regulator_investigation_coordination_automated_controls
+    required_controls:
+      - regulator_investigation_coordination_telemetry_controls
+    required_evidence:
+      - regulator_investigation_coordination_assurance_package
+    required_metrics:
+      - regulator_investigation_coordination_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Regulator Investigation Coordination with predictive analytics.
+    required_capabilities:
+      - regulator_investigation_coordination_autonomous_governance
+    required_controls:
+      - regulator_investigation_coordination_adaptive_controls
+    required_evidence:
+      - regulator_investigation_coordination_regulator_ready_portfolio
+    required_metrics:
+      - regulator_investigation_coordination_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - regulator_investigation_coordination_report
+  - regulator_investigation_coordination_evidence_package
+  - regulator_investigation_coordination_attestation
+  - regulator_investigation_coordination_enforcement_record
+artifacts:
+  - name: regulator_investigation_coordination_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: regulator_investigation_coordination_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: regulator_investigation_coordination_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: regulator_investigation_coordination_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - regulator_investigation_coordination_case_record
+  - regulator_investigation_coordination_audit_record
+  - regulator_investigation_coordination_enforcement_record
+  - regulator_investigation_coordination_remediation_record
+monitoring:
+  continuous:
+    - regulator_investigation_coordination_control_telemetry
+    - regulator_investigation_coordination_evidence_integrity_feed
+    - regulator_investigation_coordination_escalation_queue
+  periodic:
+    - regulator_investigation_coordination_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Regulator Investigation Coordination effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: regulator_investigation_coordination_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: regulator_investigation_coordination_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: regulator_investigation_coordination_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: regulator_investigation_coordination_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Regulator Investigation Coordination

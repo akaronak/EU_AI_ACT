@@ -1,0 +1,674 @@
+metadata:
+  id: CE-CE-RISEVI-001
+  name: risk_evidence_management
+  title: Risk Evidence Management
+  version: 1.0.0
+  status: production
+  owner: CE Marking and Conformity Office
+  maintainers:
+    - ce_conformity
+    - regulatory_affairs
+    - notified_body_liaison
+  created_date: 2026-06-12
+  last_updated: 2026-06-12
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: ce_marketing
+  skill_type: conformity_evidence
+  lifecycle_phase: operate
+  jurisdiction: EU_EEA
+  language: en
+  tags:
+    - conformity_evidence
+    - risk_evidence_management
+    - ce_marking
+    - conformity
+    - eu_ai_act
+    - notified_body
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GPAI Obligations
+    - ISO 42001
+    - ISO 23894
+    - ISO 27001
+    - ISO 9001
+    - NIST AI RMF
+    - GDPR
+    - CE Marking Framework
+  skill_functions:
+    - governance_skill
+    - conformity_skill
+    - certification_skill
+    - compliance_skill
+    - evidence_skill
+    - assessment_skill
+    - regulatory_skill
+    - market_access_skill
+    - monitoring_skill
+    - orchestration_skill
+purpose:
+  >
+    Executable CE Marking skill for Risk Evidence Management within
+    ce_marketing/conformity_evidence. Delivers conformity-assessment-ready, notified-body-ready,
+    market-access-ready operations for evidence generation, validation, integrity, assurance,
+    retention. Functions as governance, conformity, certification, compliance, evidence, assessment,
+    regulatory, market-access, monitoring, and orchestration skill.
+scope:
+  >
+    All AI systems, technical documentation, conformity assessments, declarations of conformity,
+    notified body interactions, and market authorization activities governed by Risk Evidence
+    Management.
+objectives:
+  - Operationalize Risk Evidence Management as executable CE marking conformity skill
+  - Enable notified-body-ready conformity validation for Risk Evidence Management
+  - Maintain market-access-ready evidence for Risk Evidence Management
+  - Integrate Risk Evidence Management with declaration and market authorization lifecycle
+  - Support post-certification monitoring and recertification for Risk Evidence Management
+definitions:
+  risk_evidence_management_conformity_assertion:
+    Formal conformity statement for Risk Evidence Management supported by indexed evidence.
+  risk_evidence_management_notified_body_evidence:
+    Evidence package suitable for notified body conformity assessment review.
+  risk_evidence_management_market_access_record:
+    Record demonstrating market authorization readiness for Risk Evidence Management.
+taxonomy:
+  root: risk_evidence_management_taxonomy
+  conformity_phase:
+    - preparation
+    - assessment
+    - declaration
+    - market_placement
+    - surveillance
+  risk_evidence_management_status:
+    - draft
+    - validated
+    - approved
+    - published
+    - suspended
+governance:
+  policy_owner: Risk Evidence Management Conformity Lead
+  oversight_body: CE Marking Governance Committee
+  domain: conformity_evidence
+roles_and_responsibilities:
+  risk_evidence_management_conformity_officer:
+    responsibilities:
+      - Accountable for Risk Evidence Management conformity outcomes
+  risk_evidence_management_technical_documentation_lead:
+    responsibilities:
+      - Maintains Article 11 technical file for Risk Evidence Management
+  notified_body_liaison:
+    responsibilities:
+      - Coordinates notified body assessment activities
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Conformity Assessment Director
+    - Regulatory Affairs
+    - Notified Body Liaison
+capabilities:
+  - id: CE-CAP-001
+    name: CE Marking Governance
+    status: production
+  - id: CE-CAP-002
+    name: Conformity Assessment
+    status: production
+  - id: CE-CAP-003
+    name: Conformity Validation
+    status: production
+  - id: CE-CAP-004
+    name: Technical Documentation Governance
+    status: production
+  - id: CE-CAP-005
+    name: Declaration of Conformity Governance
+    status: production
+  - id: CE-CAP-006
+    name: Notified Body Coordination
+    status: production
+  - id: CE-CAP-007
+    name: Market Authorization Readiness
+    status: production
+  - id: CE-CAP-008
+    name: Post-Certification Monitoring
+    status: production
+controls:
+  - control_id: CE-CONF-RISK_EVI-RISKEVIDE
+    control_name: risk_evidence_management_conformity_evidence_collection_orchestrator
+    control_category: preventive
+    control_objective: Orchestrate conformity evidence collection across domains
+    regulatory_rationale: risk_evidence_management_conformity_evidence_collection_orchestrator implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy risk_evidence_management_conformity_evidence_collection_orchestrator in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: risk_evidence_management_conformity_evidence_collection_orchestrator_telemetry_stream
+    validation_method: risk_evidence_management_conformity_evidence_collection_orchestrator_conformity_test
+    testing_method: risk_evidence_management_conformity_evidence_collection_orchestrator_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: risk_evidence_management_conformity_evidence_collection_orchestrator_execution_record
+    audit_considerations: Notified body may sample risk_evidence_management_conformity_evidence_collection_orchestrator during conformity assessment.
+  - control_id: CE-CONF-RISK_EVI-TECHNICAL
+    control_name: technical_evidence_mapping_integrity_validator
+    control_category: detective
+    control_objective: Validate technical evidence mapping to EU AI Act requirements
+    regulatory_rationale: technical_evidence_mapping_integrity_validator implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy technical_evidence_mapping_integrity_validator in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: technical_evidence_mapping_integrity_validator_telemetry_stream
+    validation_method: technical_evidence_mapping_integrity_validator_conformity_test
+    testing_method: technical_evidence_mapping_integrity_validator_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: technical_evidence_mapping_integrity_validator_execution_record
+    audit_considerations: Notified body may sample technical_evidence_mapping_integrity_validator during conformity assessment.
+  - control_id: CE-CONF-RISK_EVI-MANAGEMENT
+    control_name: management_evidence_validation_methodology_enforcer
+    control_category: preventive
+    control_objective: Enforce evidence validation methodology per ISO 19011
+    regulatory_rationale: management_evidence_validation_methodology_enforcer implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy management_evidence_validation_methodology_enforcer in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: management_evidence_validation_methodology_enforcer_telemetry_stream
+    validation_method: management_evidence_validation_methodology_enforcer_conformity_test
+    testing_method: management_evidence_validation_methodology_enforcer_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: management_evidence_validation_methodology_enforcer_execution_record
+    audit_considerations: Notified body may sample management_evidence_validation_methodology_enforcer during conformity assessment.
+  - control_id: CE-CONF-RISK_EVI-RISKAUDIT
+    control_name: risk_audit_evidence_registry_governor
+    control_category: preventive
+    control_objective: Govern audit evidence registry with access controls
+    regulatory_rationale: risk_audit_evidence_registry_governor implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy risk_audit_evidence_registry_governor in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: risk_audit_evidence_registry_governor_telemetry_stream
+    validation_method: risk_audit_evidence_registry_governor_conformity_test
+    testing_method: risk_audit_evidence_registry_governor_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: risk_audit_evidence_registry_governor_execution_record
+    audit_considerations: Notified body may sample risk_audit_evidence_registry_governor during conformity assessment.
+  - control_id: CE-CONF-RISK_EVI-EVIDENCER
+    control_name: evidence_retention_schedule_executor
+    control_category: preventive
+    control_objective: Execute evidence retention schedules per Article 18
+    regulatory_rationale: evidence_retention_schedule_executor implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy evidence_retention_schedule_executor in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: evidence_retention_schedule_executor_telemetry_stream
+    validation_method: evidence_retention_schedule_executor_conformity_test
+    testing_method: evidence_retention_schedule_executor_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: evidence_retention_schedule_executor_execution_record
+    audit_considerations: Notified body may sample evidence_retention_schedule_executor during conformity assessment.
+  - control_id: CE-CONF-RISK_EVI-MANAGEMENT
+    control_name: management_risk_evidence_correlation_engine
+    control_category: detective
+    control_objective: Correlate risk evidence with conformity assessment findings
+    regulatory_rationale: management_risk_evidence_correlation_engine implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy management_risk_evidence_correlation_engine in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: management_risk_evidence_correlation_engine_telemetry_stream
+    validation_method: management_risk_evidence_correlation_engine_conformity_test
+    testing_method: management_risk_evidence_correlation_engine_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: management_risk_evidence_correlation_engine_execution_record
+    audit_considerations: Notified body may sample management_risk_evidence_correlation_engine during conformity assessment.
+  - control_id: CE-CONF-RISK_EVI-RISKEVIDE
+    control_name: risk_evidence_integrity_tamper_detector
+    control_category: detective
+    control_objective: Detect tamper evidence in conformity evidence artifacts
+    regulatory_rationale: risk_evidence_integrity_tamper_detector implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy risk_evidence_integrity_tamper_detector in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: risk_evidence_integrity_tamper_detector_telemetry_stream
+    validation_method: risk_evidence_integrity_tamper_detector_conformity_test
+    testing_method: risk_evidence_integrity_tamper_detector_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: risk_evidence_integrity_tamper_detector_execution_record
+    audit_considerations: Notified body may sample risk_evidence_integrity_tamper_detector during conformity assessment.
+  - control_id: CE-CONF-RISK_EVI-EVIDENCEL
+    control_name: evidence_lineage_provenance_tracker
+    control_category: preventive
+    control_objective: Track evidence lineage and provenance end-to-end
+    regulatory_rationale: evidence_lineage_provenance_tracker implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy evidence_lineage_provenance_tracker in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: evidence_lineage_provenance_tracker_telemetry_stream
+    validation_method: evidence_lineage_provenance_tracker_conformity_test
+    testing_method: evidence_lineage_provenance_tracker_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: evidence_lineage_provenance_tracker_execution_record
+    audit_considerations: Notified body may sample evidence_lineage_provenance_tracker during conformity assessment.
+  - control_id: CE-CONF-RISK_EVI-MANAGEMENT
+    control_name: management_notified_body_evidence_submission_packager
+    control_category: evidence
+    control_objective: Package evidence for notified body submission
+    regulatory_rationale: management_notified_body_evidence_submission_packager implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy management_notified_body_evidence_submission_packager in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: management_notified_body_evidence_submission_packager_telemetry_stream
+    validation_method: management_notified_body_evidence_submission_packager_conformity_test
+    testing_method: management_notified_body_evidence_submission_packager_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: management_notified_body_evidence_submission_packager_execution_record
+    audit_considerations: Notified body may sample management_notified_body_evidence_submission_packager during conformity assessment.
+  - control_id: CE-CONF-RISK_EVI-RISKEVIDE
+    control_name: risk_evidence_gap_remediation_tracker
+    control_category: corrective
+    control_objective: Track remediation of evidence gaps with SLA
+    regulatory_rationale: risk_evidence_gap_remediation_tracker implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy risk_evidence_gap_remediation_tracker in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: risk_evidence_gap_remediation_tracker_telemetry_stream
+    validation_method: risk_evidence_gap_remediation_tracker_conformity_test
+    testing_method: risk_evidence_gap_remediation_tracker_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: risk_evidence_gap_remediation_tracker_execution_record
+    audit_considerations: Notified body may sample risk_evidence_gap_remediation_tracker during conformity assessment.
+  - control_id: CE-CONF-RISK_EVI-EVIDENCEA
+    control_name: evidence_assurance_attestation_generator
+    control_category: audit
+    control_objective: Generate evidence assurance attestations for conformity
+    regulatory_rationale: evidence_assurance_attestation_generator implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy evidence_assurance_attestation_generator in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: evidence_assurance_attestation_generator_telemetry_stream
+    validation_method: evidence_assurance_attestation_generator_conformity_test
+    testing_method: evidence_assurance_attestation_generator_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: evidence_assurance_attestation_generator_execution_record
+    audit_considerations: Notified body may sample evidence_assurance_attestation_generator during conformity assessment.
+  - control_id: CE-CONF-RISK_EVI-MANAGEMENT
+    control_name: management_machine_readable_evidence_schema_validator
+    control_category: preventive
+    control_objective: Validate machine-readable evidence schema compliance
+    regulatory_rationale: management_machine_readable_evidence_schema_validator implements EU AI Act conformity obligations for Risk Evidence Management under conformity_evidence.
+    implementation_guidance: Deploy management_machine_readable_evidence_schema_validator in risk_evidence_management workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: management_machine_readable_evidence_schema_validator_telemetry_stream
+    validation_method: management_machine_readable_evidence_schema_validator_conformity_test
+    testing_method: management_machine_readable_evidence_schema_validator_sampling_audit
+    control_owner: risk_evidence_management_conformity_owner
+    evidence_generated: management_machine_readable_evidence_schema_validator_execution_record
+    audit_considerations: Notified body may sample management_machine_readable_evidence_schema_validator during conformity assessment.
+workflows:
+  - workflow_id: WF-CE-RISK_EVIDENCE_MANAGE
+    workflow_name: risk_evidence_management_conformity_workflow
+    workflow_owner: risk_evidence_management_workflow_owner
+    trigger: risk_evidence_management_conformity_event
+    inputs:
+      - risk_evidence_management_conformity_context
+      - risk_evidence_management_evidence_index
+    activities:
+      - risk_evidence_management_intake
+      - risk_evidence_management_validation
+      - risk_evidence_management_evidence_review
+      - risk_evidence_management_approval
+      - risk_evidence_management_attestation
+      - risk_evidence_management_closure
+    decision_points:
+      - risk_evidence_management_conformity_decision
+      - risk_evidence_management_escalation_decision
+    approvals:
+      - risk_evidence_management_conformity_officer_approval
+    outputs:
+      - risk_evidence_management_conformity_record
+    evidence_generated:
+      - risk_evidence_management_workflow_log
+      - risk_evidence_management_attestation
+    success_criteria:
+      - risk_evidence_management_conformity_validated
+      - risk_evidence_management_evidence_complete
+    failure_conditions:
+      - risk_evidence_management_critical_gap_unresolved
+      - risk_evidence_management_evidence_integrity_failure
+  - workflow_id: WF-CE-CE_MARKING_P
+    workflow_name: risk_evidence_management_ce_marking_preparation_workflow
+    linked: true
+    trigger: risk_evidence_management_ce_marking_preparation_initiated
+  - workflow_id: WF-CE-CONFORMITY_A
+    workflow_name: risk_evidence_management_conformity_assessment_workflow
+    linked: true
+    trigger: risk_evidence_management_conformity_assessment_initiated
+  - workflow_id: WF-CE-NOTIFIED_BOD
+    workflow_name: risk_evidence_management_notified_body_engagement_workflow
+    linked: true
+    trigger: risk_evidence_management_notified_body_engagement_initiated
+  - workflow_id: WF-CE-DECLARATION_
+    workflow_name: risk_evidence_management_declaration_of_conformity_workflow
+    linked: true
+    trigger: risk_evidence_management_declaration_of_conformity_initiated
+  - workflow_id: WF-CE-MARKET_AUTHO
+    workflow_name: risk_evidence_management_market_authorization_workflow
+    linked: true
+    trigger: risk_evidence_management_market_authorization_initiated
+  - workflow_id: WF-CE-POST_CERTIFI
+    workflow_name: risk_evidence_management_post_certification_monitoring_workflow
+    linked: true
+    trigger: risk_evidence_management_post_certification_monitoring_initiated
+  - workflow_id: WF-CE-RECERTIFICAT
+    workflow_name: risk_evidence_management_recertification_workflow
+    linked: true
+    trigger: risk_evidence_management_recertification_initiated
+decision_logic:
+  risk_evidence_management_conformity_gate:
+    condition: risk_evidence_management_readiness_score >= 0.95 AND risk_evidence_management_evidence_complete == true
+    action: authorize_risk_evidence_management_progression
+    approval_required: conformity_officer
+conformity_assessment:
+  assessment_scope: Risk Evidence Management EU AI Act conformity dimensions
+  assessment_methodology: risk_evidence_management_iso_19011_conformity_method
+  assessment_criteria: risk_evidence_management_annex_iii_and_article_requirements
+  conformity_dimensions:
+    - technical
+    - organizational
+    - operational
+    - documentation
+  evidence_requirements:
+    - risk_evidence_management_technical_file
+    - risk_evidence_management_risk_assessment
+    - risk_evidence_management_validation_records
+  acceptance_thresholds: risk_evidence_management_readiness_score >= 0.95
+  rejection_thresholds: risk_evidence_management_critical_gap == true
+metrics:
+  - metric_name: evidence_completeness_rate
+    metric_category: conformity
+    formula: computed_evidence_completeness_rate_from_risk_evidence_management_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: risk_evidence_management_metrics_owner
+    data_source: risk_evidence_management_conformity_warehouse
+    evidence_generated: evidence_completeness_rate_measurement_record
+  - metric_name: evidence_validation_pass_rate
+    metric_category: conformity
+    formula: computed_evidence_validation_pass_rate_from_risk_evidence_management_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: risk_evidence_management_metrics_owner
+    data_source: risk_evidence_management_conformity_warehouse
+    evidence_generated: evidence_validation_pass_rate_measurement_record
+  - metric_name: evidence_integrity_score
+    metric_category: conformity
+    formula: computed_evidence_integrity_score_from_risk_evidence_management_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: risk_evidence_management_metrics_owner
+    data_source: risk_evidence_management_conformity_warehouse
+    evidence_generated: evidence_integrity_score_measurement_record
+  - metric_name: evidence_retention_compliance_rate
+    metric_category: conformity
+    formula: computed_evidence_retention_compliance_rate_from_risk_evidence_management_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: risk_evidence_management_metrics_owner
+    data_source: risk_evidence_management_conformity_warehouse
+    evidence_generated: evidence_retention_compliance_rate_measurement_record
+  - metric_name: audit_evidence_sufficiency_score
+    metric_category: conformity
+    formula: computed_audit_evidence_sufficiency_score_from_risk_evidence_management_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: risk_evidence_management_metrics_owner
+    data_source: risk_evidence_management_conformity_warehouse
+    evidence_generated: audit_evidence_sufficiency_score_measurement_record
+  - metric_name: evidence_gap_closure_rate
+    metric_category: conformity
+    formula: computed_evidence_gap_closure_rate_from_risk_evidence_management_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: risk_evidence_management_metrics_owner
+    data_source: risk_evidence_management_conformity_warehouse
+    evidence_generated: evidence_gap_closure_rate_measurement_record
+kpis:
+  - evidence_completeness_rate
+  - evidence_validation_pass_rate
+  - evidence_integrity_score
+  - evidence_retention_compliance_rate
+kris:
+  - audit_evidence_sufficiency_score
+  - evidence_gap_closure_rate
+evidence_requirements:
+  - evidence_name: risk_evidence_management_conformity_assessment_record
+    evidence_type: conformity
+    business_purpose: Support Risk Evidence Management conformity assessment and CE marking
+    generation_method: automated_risk_evidence_management_pipeline
+    retention_period: 10_years
+    validation_method: risk_evidence_management_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: risk_evidence_management_technical_documentation_extract
+    evidence_type: conformity
+    business_purpose: Support Risk Evidence Management conformity assessment and CE marking
+    generation_method: automated_risk_evidence_management_pipeline
+    retention_period: 10_years
+    validation_method: risk_evidence_management_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: risk_evidence_management_validation_report
+    evidence_type: conformity
+    business_purpose: Support Risk Evidence Management conformity assessment and CE marking
+    generation_method: automated_risk_evidence_management_pipeline
+    retention_period: 10_years
+    validation_method: risk_evidence_management_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: risk_evidence_management_notified_body_correspondence
+    evidence_type: conformity
+    business_purpose: Support Risk Evidence Management conformity assessment and CE marking
+    generation_method: automated_risk_evidence_management_pipeline
+    retention_period: 10_years
+    validation_method: risk_evidence_management_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: risk_evidence_management_declaration_reference
+    evidence_type: conformity
+    business_purpose: Support Risk Evidence Management conformity assessment and CE marking
+    generation_method: automated_risk_evidence_management_pipeline
+    retention_period: 10_years
+    validation_method: risk_evidence_management_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: risk_evidence_management_market_authorization_record
+    evidence_type: conformity
+    business_purpose: Support Risk Evidence Management conformity assessment and CE marking
+    generation_method: automated_risk_evidence_management_pipeline
+    retention_period: 10_years
+    validation_method: risk_evidence_management_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+attestation_requirements:
+  - attestation: risk_evidence_management_conformity_attestation
+    owner: conformity_officer
+    frequency: quarterly
+domain_reports:
+  - report_name: risk_evidence_management_status_dashboard
+    report_owner: risk_evidence_management_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: risk_evidence_management_conformity_summary
+    report_owner: risk_evidence_management_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: risk_evidence_management_regulatory_brief
+    report_owner: risk_evidence_management_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: risk_evidence_management_executive_report
+    report_owner: risk_evidence_management_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: risk_evidence_management_assurance_pack
+    report_owner: risk_evidence_management_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+altai_conformity:
+  agent_conformity:
+    validation: risk_evidence_management_agent_conformity_validation
+    traceability: risk_evidence_management_agent_conformity_traceability
+    monitoring: risk_evidence_management_agent_conformity_monitoring
+  reasoning_conformity:
+    validation: risk_evidence_management_reasoning_conformity_validation
+    traceability: risk_evidence_management_reasoning_conformity_traceability
+    monitoring: risk_evidence_management_reasoning_conformity_monitoring
+  memory_conformity:
+    validation: risk_evidence_management_memory_conformity_validation
+    traceability: risk_evidence_management_memory_conformity_traceability
+    monitoring: risk_evidence_management_memory_conformity_monitoring
+  tool_conformity:
+    validation: risk_evidence_management_tool_conformity_validation
+    traceability: risk_evidence_management_tool_conformity_traceability
+    monitoring: risk_evidence_management_tool_conformity_monitoring
+  foundation_model_conformity:
+    validation: risk_evidence_management_foundation_model_conformity_validation
+    traceability: risk_evidence_management_foundation_model_conformity_traceability
+    monitoring: risk_evidence_management_foundation_model_conformity_monitoring
+  gpai_conformity:
+    validation: risk_evidence_management_gpai_conformity_validation
+    traceability: risk_evidence_management_gpai_conformity_traceability
+    monitoring: risk_evidence_management_gpai_conformity_monitoring
+compliance_mapping:
+  article_11:
+    article: Article 11
+    obligation: Risk Evidence Management conformity under Article 11
+    implementation_method: risk_evidence_management_article_11_controls
+    evidence_required: [risk_evidence_management_article_11_evidence]
+    validation_method: risk_evidence_management_article_11_conformity_test
+    assurance_method: risk_evidence_management_article_11_assurance_review
+  article_12:
+    article: Article 12
+    obligation: Risk Evidence Management conformity under Article 12
+    implementation_method: risk_evidence_management_article_12_controls
+    evidence_required: [risk_evidence_management_article_12_evidence]
+    validation_method: risk_evidence_management_article_12_conformity_test
+    assurance_method: risk_evidence_management_article_12_assurance_review
+  article_18:
+    article: Article 18
+    obligation: Risk Evidence Management conformity under Article 18
+    implementation_method: risk_evidence_management_article_18_controls
+    evidence_required: [risk_evidence_management_article_18_evidence]
+    validation_method: risk_evidence_management_article_18_conformity_test
+    assurance_method: risk_evidence_management_article_18_assurance_review
+  article_43:
+    article: Article 43
+    obligation: Risk Evidence Management conformity under Article 43
+    implementation_method: risk_evidence_management_article_43_controls
+    evidence_required: [risk_evidence_management_article_43_evidence]
+    validation_method: risk_evidence_management_article_43_conformity_test
+    assurance_method: risk_evidence_management_article_43_assurance_review
+relationships:
+  conformity_links:
+    - source: risk_evidence_management
+      target: risk_evidence_management_to_declaration_of_conformity
+      relationship_type: governs
+      confidence: 0.95
+  certification_links:
+    - source: risk_evidence_management
+      target: risk_evidence_management_to_ce_certification
+      relationship_type: governs
+      confidence: 0.95
+  evidence_links:
+    - source: risk_evidence_management
+      target: risk_evidence_management_to_conformity_evidence
+      relationship_type: governs
+      confidence: 0.95
+  documentation_links:
+    - source: risk_evidence_management
+      target: risk_evidence_management_to_technical_documentation
+      relationship_type: governs
+      confidence: 0.95
+integration_points:
+  - system: provider_obligations
+    purpose: risk_evidence_management_to_provider_obligations_conformity_sync
+    data_exchanged: [risk_evidence_management_conformity_scores, risk_evidence_management_evidence_refs]
+    consumed_artifacts: [provider_obligations_records]
+    produced_artifacts: [risk_evidence_management_conformity_package]
+  - system: technical_documentation
+    purpose: risk_evidence_management_to_technical_documentation_conformity_sync
+    data_exchanged: [risk_evidence_management_conformity_scores, risk_evidence_management_evidence_refs]
+    consumed_artifacts: [technical_documentation_records]
+    produced_artifacts: [risk_evidence_management_conformity_package]
+  - system: risk_management
+    purpose: risk_evidence_management_to_risk_management_conformity_sync
+    data_exchanged: [risk_evidence_management_conformity_scores, risk_evidence_management_evidence_refs]
+    consumed_artifacts: [risk_management_records]
+    produced_artifacts: [risk_evidence_management_conformity_package]
+  - system: post_market_monitoring
+    purpose: risk_evidence_management_to_post_market_monitoring_conformity_sync
+    data_exchanged: [risk_evidence_management_conformity_scores, risk_evidence_management_evidence_refs]
+    consumed_artifacts: [post_market_monitoring_records]
+    produced_artifacts: [risk_evidence_management_conformity_package]
+  - system: audit_and_enforcement
+    purpose: risk_evidence_management_to_audit_and_enforcement_conformity_sync
+    data_exchanged: [risk_evidence_management_conformity_scores, risk_evidence_management_evidence_refs]
+    consumed_artifacts: [audit_and_enforcement_records]
+    produced_artifacts: [risk_evidence_management_conformity_package]
+attestation_framework:
+  attestation_owner: risk_evidence_management_conformity_officer
+  attestation_frequency: quarterly
+  attestation_evidence: [risk_evidence_management_conformity_attestation, risk_evidence_management_control_effectiveness_review]
+maturity_model:
+  level_1:
+    name: Initial
+    characteristics: Ad hoc conformity for Risk Evidence Management
+  level_2:
+    name: Developing
+    characteristics: Documented procedures for Risk Evidence Management
+  level_3:
+    name: Managed
+    characteristics: Standardized enterprise-wide for Risk Evidence Management
+  level_4:
+    name: Advanced
+    characteristics: Measured with KPIs for Risk Evidence Management
+  level_5:
+    name: Optimized
+    characteristics: Predictive conformity for Risk Evidence Management
+risk_model:
+  risk_sources: [risk_evidence_management_conformity_gap, risk_evidence_management_evidence_failure, risk_evidence_management_notified_body_finding]
+  risk_monitoring: risk_evidence_management_conformity_risk_dashboard
+crosswalks:
+  eu_ai_act:
+    implementation: risk_evidence_management_eu_ai_act_conformity_mapping
+    evidence: risk_evidence_management_eu_ai_act_conformity_attestation
+  gdpr:
+    implementation: risk_evidence_management_gdpr_conformity_mapping
+    evidence: risk_evidence_management_gdpr_conformity_attestation
+  iso_42001:
+    implementation: risk_evidence_management_iso_42001_conformity_mapping
+    evidence: risk_evidence_management_iso_42001_conformity_attestation
+  iso_23894:
+    implementation: risk_evidence_management_iso_23894_conformity_mapping
+    evidence: risk_evidence_management_iso_23894_conformity_attestation
+  nist_ai_rmf:
+    implementation: risk_evidence_management_nist_ai_rmf_conformity_mapping
+    evidence: risk_evidence_management_nist_ai_rmf_conformity_attestation
+monitoring:
+  continuous: [risk_evidence_management_conformity_telemetry, risk_evidence_management_readiness_score_feed]
+continuous_improvement:
+  feedback_loop: risk_evidence_management_conformity_retrospective
+escalation:
+  critical_path: chief_compliance_officer
+versioning:
+  current: 1.0.0

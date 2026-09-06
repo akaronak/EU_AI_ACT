@@ -1,0 +1,1942 @@
+metadata:
+  id: AAE-RT-REMDEA-001
+  name: remediation_deadline_tracking
+  title: Remediation Deadline Tracking
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: remediation_tracking
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - remediation_tracking
+    - remediation_deadline_tracking
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Remediation Deadline Tracking governance within
+    audit_and_enforcement/remediation_tracking, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for corrective obligation fulfillment and restoration verification,
+    temporal obligation tracking with breach escalation. Integrates with the EU AI Act governance
+    ecosystem through machine-evaluable obligations, evidence preservation, and conformity-
+    assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Remediation Deadline Tracking across
+    enterprise and cross-border operations within audit_and_enforcement/remediation_tracking.
+objectives:
+  - Operationalize Remediation Deadline Tracking with regulator-defensible controls and evidence chains
+  - Enable automated validation of Remediation Deadline Tracking conformance across remediation_tracking
+  - Preserve audit-grade and forensic-grade records for all Remediation Deadline Tracking activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Remediation Deadline Tracking with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Remediation Deadline Tracking
+definitions:
+  remediation_deadline_tracking_governance_domain:
+    >
+      The operational jurisdiction of Remediation Deadline Tracking encompassing controlled audit,
+      enforcement, investigation, and evidence processes within remediation_tracking.
+  remediation_deadline_tracking_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Remediation Deadline Tracking control
+      effectiveness, process adherence, and regulatory conformity.
+  remediation_deadline_tracking_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Remediation Deadline Tracking decision logic.
+  remediation_deadline_tracking_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Remediation Deadline Tracking processes.
+  remediation_deadline_tracking_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Remediation Deadline Tracking operations.
+  remediation_deadline_tracking_conformity_assertion:
+    >
+      Formal statement that Remediation Deadline Tracking requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: remediation_deadline_tracking_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  remediation_deadline_tracking_artifact_type:
+    - remediation_deadline_tracking_record
+    - remediation_deadline_tracking_log
+    - remediation_deadline_tracking_report
+    - remediation_deadline_tracking_attestation
+    - remediation_deadline_tracking_package
+  remediation_deadline_tracking_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Remediation Deadline Tracking Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: remediation_tracking
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - enforcement_actions
+    - compliance_audits
+    - penalty_management
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - compliance_audits
+    - reporting
+    - post_market_monitoring
+    - audit_and_enforcement/remediation_tracking/remediation_deadline_tracking.yaml
+  related_domains:
+    - enforcement_actions
+    - compliance_audits
+    - reporting
+  related_skills:
+    - corrective_remediation_tracking
+    - compliance_restoration_validation
+    - post_enforcement_monitoring
+    - remediation_deadline_tracking
+  parent_governance_objects:
+    - enforcement_framework
+  child_governance_objects:
+    - remediation_plan
+    - corrective_action_tracker
+    - remediation_deadline_tracking_governance_object
+  consumes_artifacts:
+    - enforcement_order
+    - audit_finding
+    - penalty_assessment
+    - remediation_deadline_tracking_input_artifact
+  produces_artifacts:
+    - remediation_status_report
+    - compliance_restoration_attestation
+    - remediation_deadline_tracking_record
+    - remediation_deadline_tracking_report
+    - remediation_deadline_tracking_attestation
+  consumes_evidence:
+    - corrective_action_evidence
+    - enforcement_execution_log
+    - remediation_deadline_tracking_source_evidence
+  produces_evidence:
+    - remediation_closure_record
+    - effectiveness_analysis_report
+    - remediation_deadline_tracking_audit_evidence
+    - remediation_deadline_tracking_validation_evidence
+    - remediation_deadline_tracking_enforcement_evidence
+  governance_dependencies:
+    - remediation_engine
+    - policy_enforcement
+  regulatory_dependencies:
+    - eu_ai_act_article_17
+    - eu_ai_act_article_20
+  risk_dependencies:
+    - risk_management
+  control_dependencies:
+    - enforcement_actions
+    - compliance_audits
+    - remediation_deadline_tracking_control_register
+roles_and_responsibilities:
+  remediation_deadline_tracking_owner:
+    responsibilities:
+      - Accountable for Remediation Deadline Tracking strategy, control design, and regulatory alignment
+  remediation_deadline_tracking_operator:
+    responsibilities:
+      - Executes Remediation Deadline Tracking workflows and maintains operational records
+  remediation_deadline_tracking_auditor:
+    responsibilities:
+      - Independently validates Remediation Deadline Tracking control effectiveness and evidence sufficiency
+  remediation_deadline_tracking_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Remediation Deadline Tracking investigations
+  remediation_deadline_tracking_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Remediation Deadline Tracking
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-011
+    name: Corrective Action Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-012
+    name: Corrective Obligation Tracking
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-030
+    name: Remediation Tracking
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-031
+    name: Compliance Restoration
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-032
+    name: Remediation Effectiveness Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-050
+    name: Post-Enforcement Monitoring
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-REM-REMEDIATIO-REMEDIATION
+    control_name: remediation_remediation_plan_authorization
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring remediation plan authorization for Remediation Deadline Tracking
+        across remediation_tracking.
+    governance_rationale:
+      >
+        remediation_remediation_plan_authorization is required to govern Remediation Deadline Tracking
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement remediation_remediation_plan_authorization as automated policy in
+        remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: remediation_remediation_plan_authorization_continuous_telemetry_dashboard
+    validation_method:
+      remediation_remediation_plan_authorization_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      remediation_remediation_plan_authorization_statistical_sampling_with_exception_tracking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated: remediation_remediation_plan_authorization_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify remediation_remediation_plan_authorization design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        remediation_remediation_plan_authorization outputs may trigger enforcement under
+        remediation_deadline_tracking escalation rules.
+  - control_id: AAE-REM-REMEDIATIO-DEADLINEDEA
+    control_name: deadline_deadline_breach_escalator
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring deadline breach escalator for Remediation Deadline Tracking across
+        remediation_tracking.
+    governance_rationale:
+      >
+        deadline_deadline_breach_escalator is required to govern Remediation Deadline Tracking risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected remediation
+        tracking failures.
+    implementation_guidance:
+      >
+        Implement deadline_deadline_breach_escalator as automated policy in
+        remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: deadline_deadline_breach_escalator_continuous_telemetry_dashboard
+    validation_method:
+      deadline_deadline_breach_escalator_quarterly_design_and_operating_effectiveness_test
+    testing_method: deadline_deadline_breach_escalator_statistical_sampling_with_exception_tracking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated: deadline_deadline_breach_escalator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify deadline_deadline_breach_escalator design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        deadline_deadline_breach_escalator outputs may trigger enforcement under
+        remediation_deadline_tracking escalation rules.
+  - control_id: AAE-REM-REMEDIATIO-TRACKINGCOR
+    control_name: tracking_corrective_action_completion_verifier
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring corrective action completion verifier for Remediation Deadline
+        Tracking across remediation_tracking.
+    governance_rationale:
+      >
+        tracking_corrective_action_completion_verifier is required to govern Remediation Deadline
+        Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement tracking_corrective_action_completion_verifier as automated policy in
+        remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: tracking_corrective_action_completion_verifier_continuous_telemetry_dashboard
+    validation_method:
+      tracking_corrective_action_completion_verifier_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      tracking_corrective_action_completion_verifier_statistical_sampling_with_exception_tracking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated: tracking_corrective_action_completion_verifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify tracking_corrective_action_completion_verifier design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        tracking_corrective_action_completion_verifier outputs may trigger enforcement under
+        remediation_deadline_tracking escalation rules.
+  - control_id: AAE-REM-REMEDIATIO-REMEDIATION
+    control_name: remediation_deadline_tracking_compliance_restoration_validator
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring compliance restoration validator for Remediation Deadline Tracking
+        across remediation_tracking.
+    governance_rationale:
+      >
+        remediation_deadline_tracking_compliance_restoration_validator is required to govern Remediation
+        Deadline Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement remediation_deadline_tracking_compliance_restoration_validator as automated policy in
+        remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      remediation_deadline_tracking_compliance_restoration_validator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        remediation_deadline_tracking_compliance_restoration_validator_quarterly_design_and_operating_ef
+        fectiveness_test
+    testing_method:
+      >
+        remediation_deadline_tracking_compliance_restoration_validator_statistical_sampling_with_excepti
+        on_tracking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated:
+      remediation_deadline_tracking_compliance_restoration_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify remediation_deadline_tracking_compliance_restoration_validator design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        remediation_deadline_tracking_compliance_restoration_validator outputs may trigger enforcement
+        under remediation_deadline_tracking escalation rules.
+  - control_id: AAE-REM-REMEDIATIO-REMEDIATION
+    control_name: remediation_deadline_tracking_effectiveness_regression_tester
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring effectiveness regression tester for Remediation Deadline Tracking
+        across remediation_tracking.
+    governance_rationale:
+      >
+        remediation_deadline_tracking_effectiveness_regression_tester is required to govern Remediation
+        Deadline Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement remediation_deadline_tracking_effectiveness_regression_tester as automated policy in
+        remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      remediation_deadline_tracking_effectiveness_regression_tester_continuous_telemetry_dashboard
+    validation_method:
+      >
+        remediation_deadline_tracking_effectiveness_regression_tester_quarterly_design_and_operating_eff
+        ectiveness_test
+    testing_method:
+      >
+        remediation_deadline_tracking_effectiveness_regression_tester_statistical_sampling_with_exceptio
+        n_tracking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated:
+      remediation_deadline_tracking_effectiveness_regression_tester_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify remediation_deadline_tracking_effectiveness_regression_tester design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        remediation_deadline_tracking_effectiveness_regression_tester outputs may trigger enforcement
+        under remediation_deadline_tracking escalation rules.
+  - control_id: AAE-REM-REMEDIATIO-REMEDIATION
+    control_name: remediation_deadline_tracking_post_enforcement_surveillance_monitor
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring post enforcement surveillance monitor for Remediation Deadline
+        Tracking across remediation_tracking.
+    governance_rationale:
+      >
+        remediation_deadline_tracking_post_enforcement_surveillance_monitor is required to govern
+        Remediation Deadline Tracking risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement remediation_deadline_tracking_post_enforcement_surveillance_monitor as automated
+        policy in remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        remediation_deadline_tracking_post_enforcement_surveillance_monitor_continuous_telemetry_dashboa
+        rd
+    validation_method:
+      >
+        remediation_deadline_tracking_post_enforcement_surveillance_monitor_quarterly_design_and_operati
+        ng_effectiveness_test
+    testing_method:
+      >
+        remediation_deadline_tracking_post_enforcement_surveillance_monitor_statistical_sampling_with_ex
+        ception_tracking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated:
+      remediation_deadline_tracking_post_enforcement_surveillance_monitor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify remediation_deadline_tracking_post_enforcement_surveillance_monitor design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        remediation_deadline_tracking_post_enforcement_surveillance_monitor outputs may trigger
+        enforcement under remediation_deadline_tracking escalation rules.
+  - control_id: AAE-REM-REMEDIATIO-REMEDIATION
+    control_name: remediation_deadline_tracking_remediation_evidence_collector
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring remediation evidence collector for Remediation Deadline Tracking
+        across remediation_tracking.
+    governance_rationale:
+      >
+        remediation_deadline_tracking_remediation_evidence_collector is required to govern Remediation
+        Deadline Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement remediation_deadline_tracking_remediation_evidence_collector as automated policy in
+        remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      remediation_deadline_tracking_remediation_evidence_collector_continuous_telemetry_dashboard
+    validation_method:
+      >
+        remediation_deadline_tracking_remediation_evidence_collector_quarterly_design_and_operating_effe
+        ctiveness_test
+    testing_method:
+      >
+        remediation_deadline_tracking_remediation_evidence_collector_statistical_sampling_with_exception
+        _tracking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated:
+      remediation_deadline_tracking_remediation_evidence_collector_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify remediation_deadline_tracking_remediation_evidence_collector design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        remediation_deadline_tracking_remediation_evidence_collector outputs may trigger enforcement
+        under remediation_deadline_tracking escalation rules.
+  - control_id: AAE-REM-REMEDIATIO-REMEDIATION
+    control_name: remediation_deadline_tracking_obligation_closure_certifier
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring obligation closure certifier for Remediation Deadline Tracking
+        across remediation_tracking.
+    governance_rationale:
+      >
+        remediation_deadline_tracking_obligation_closure_certifier is required to govern Remediation
+        Deadline Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement remediation_deadline_tracking_obligation_closure_certifier as automated policy in
+        remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      remediation_deadline_tracking_obligation_closure_certifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        remediation_deadline_tracking_obligation_closure_certifier_quarterly_design_and_operating_effect
+        iveness_test
+    testing_method:
+      >
+        remediation_deadline_tracking_obligation_closure_certifier_statistical_sampling_with_exception_t
+        racking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated: remediation_deadline_tracking_obligation_closure_certifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify remediation_deadline_tracking_obligation_closure_certifier design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        remediation_deadline_tracking_obligation_closure_certifier outputs may trigger enforcement under
+        remediation_deadline_tracking escalation rules.
+  - control_id: AAE-REM-REMEDIATIO-REMEDIATION
+    control_name: remediation_deadline_tracking_remediation_workflow_orchestrator
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring remediation workflow orchestrator for Remediation Deadline Tracking
+        across remediation_tracking.
+    governance_rationale:
+      >
+        remediation_deadline_tracking_remediation_workflow_orchestrator is required to govern
+        Remediation Deadline Tracking risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement remediation_deadline_tracking_remediation_workflow_orchestrator as automated policy in
+        remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      remediation_deadline_tracking_remediation_workflow_orchestrator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        remediation_deadline_tracking_remediation_workflow_orchestrator_quarterly_design_and_operating_e
+        ffectiveness_test
+    testing_method:
+      >
+        remediation_deadline_tracking_remediation_workflow_orchestrator_statistical_sampling_with_except
+        ion_tracking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated:
+      remediation_deadline_tracking_remediation_workflow_orchestrator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify remediation_deadline_tracking_remediation_workflow_orchestrator design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        remediation_deadline_tracking_remediation_workflow_orchestrator outputs may trigger enforcement
+        under remediation_deadline_tracking escalation rules.
+  - control_id: AAE-REM-REMEDIATIO-REMEDIATION
+    control_name: remediation_deadline_tracking_stakeholder_remediation_notifier
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring stakeholder remediation notifier for Remediation Deadline Tracking
+        across remediation_tracking.
+    governance_rationale:
+      >
+        remediation_deadline_tracking_stakeholder_remediation_notifier is required to govern Remediation
+        Deadline Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement remediation_deadline_tracking_stakeholder_remediation_notifier as automated policy in
+        remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      remediation_deadline_tracking_stakeholder_remediation_notifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        remediation_deadline_tracking_stakeholder_remediation_notifier_quarterly_design_and_operating_ef
+        fectiveness_test
+    testing_method:
+      >
+        remediation_deadline_tracking_stakeholder_remediation_notifier_statistical_sampling_with_excepti
+        on_tracking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated:
+      remediation_deadline_tracking_stakeholder_remediation_notifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify remediation_deadline_tracking_stakeholder_remediation_notifier design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        remediation_deadline_tracking_stakeholder_remediation_notifier outputs may trigger enforcement
+        under remediation_deadline_tracking escalation rules.
+  - control_id: AAE-REM-REMEDIATIO-REMEDIATION
+    control_name: remediation_deadline_tracking_remediation_assurance_attestation
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring remediation assurance attestation for Remediation Deadline Tracking
+        across remediation_tracking.
+    governance_rationale:
+      >
+        remediation_deadline_tracking_remediation_assurance_attestation is required to govern
+        Remediation Deadline Tracking risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement remediation_deadline_tracking_remediation_assurance_attestation as automated policy in
+        remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      remediation_deadline_tracking_remediation_assurance_attestation_continuous_telemetry_dashboard
+    validation_method:
+      >
+        remediation_deadline_tracking_remediation_assurance_attestation_quarterly_design_and_operating_e
+        ffectiveness_test
+    testing_method:
+      >
+        remediation_deadline_tracking_remediation_assurance_attestation_statistical_sampling_with_except
+        ion_tracking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated:
+      remediation_deadline_tracking_remediation_assurance_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify remediation_deadline_tracking_remediation_assurance_attestation design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        remediation_deadline_tracking_remediation_assurance_attestation outputs may trigger enforcement
+        under remediation_deadline_tracking escalation rules.
+  - control_id: AAE-REM-REMEDIATIO-REMEDIATION
+    control_name: remediation_deadline_tracking_restoration_regulatory_notifier
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring restoration regulatory notifier for Remediation Deadline Tracking
+        across remediation_tracking.
+    governance_rationale:
+      >
+        remediation_deadline_tracking_restoration_regulatory_notifier is required to govern Remediation
+        Deadline Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement remediation_deadline_tracking_restoration_regulatory_notifier as automated policy in
+        remediation_deadline_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      remediation_deadline_tracking_restoration_regulatory_notifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        remediation_deadline_tracking_restoration_regulatory_notifier_quarterly_design_and_operating_eff
+        ectiveness_test
+    testing_method:
+      >
+        remediation_deadline_tracking_restoration_regulatory_notifier_statistical_sampling_with_exceptio
+        n_tracking
+    control_owner: remediation_deadline_tracking_control_owner
+    evidence_generated:
+      remediation_deadline_tracking_restoration_regulatory_notifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify remediation_deadline_tracking_restoration_regulatory_notifier design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        remediation_deadline_tracking_restoration_regulatory_notifier outputs may trigger enforcement
+        under remediation_deadline_tracking escalation rules.
+requirements:
+  legal:
+    >
+      Remediation Deadline Tracking must satisfy legal requirements for corrective obligation
+      fulfillment and restoration verification, temporal obligation tracking with breach escalation
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Remediation Deadline Tracking must satisfy regulatory requirements for corrective obligation
+      fulfillment and restoration verification, temporal obligation tracking with breach escalation
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Remediation Deadline Tracking must satisfy technical requirements for corrective obligation
+      fulfillment and restoration verification, temporal obligation tracking with breach escalation
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Remediation Deadline Tracking must satisfy operational requirements for corrective obligation
+      fulfillment and restoration verification, temporal obligation tracking with breach escalation
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Remediation Deadline Tracking must satisfy audit requirements for corrective obligation
+      fulfillment and restoration verification, temporal obligation tracking with breach escalation
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Remediation Deadline Tracking must satisfy forensic requirements for corrective obligation
+      fulfillment and restoration verification, temporal obligation tracking with breach escalation
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Remediation Deadline Tracking must satisfy enforcement requirements for corrective obligation
+      fulfillment and restoration verification, temporal obligation tracking with breach escalation
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Remediation Deadline Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  triage:
+    >
+      Triage process for Remediation Deadline Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  execution:
+    >
+      Execution process for Remediation Deadline Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  validation:
+    >
+      Validation process for Remediation Deadline Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Remediation Deadline Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Remediation Deadline Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  improvement:
+    >
+      Improvement process for Remediation Deadline Tracking with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: remediation_deadline_tracking_operational_lifecycle_workflow
+    workflow_trigger: remediation_deadline_tracking_governance_event_detected
+    workflow_steps:
+      - remediation_deadline_tracking_intake
+      - remediation_deadline_tracking_triage
+      - remediation_deadline_tracking_execution
+      - remediation_deadline_tracking_validation
+      - remediation_deadline_tracking_approval
+      - remediation_deadline_tracking_closure
+    approval_points:
+      - remediation_deadline_tracking_approval
+    escalation_points:
+      - remediation_deadline_tracking_triage
+    generated_evidence:
+      - remediation_deadline_tracking_workflow_log
+      - remediation_deadline_tracking_closure_attestation
+    completion_requirements:
+      - remediation_deadline_tracking_evidence_complete
+      - remediation_deadline_tracking_approvals_recorded
+  - workflow_name: remediation_deadline_tracking_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_remediation_deadline_tracking
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - remediation_deadline_tracking_regulatory_package
+      - remediation_deadline_tracking_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - remediation_deadline_tracking_governance_event_detected
+    - remediation_deadline_tracking_regulatory_inquiry
+    - remediation_deadline_tracking_integrity_breach
+    - remediation_deadline_tracking_enforcement_authorization
+  required_inputs:
+    - remediation_deadline_tracking_case_context
+    - remediation_deadline_tracking_evidence_index
+    - remediation_deadline_tracking_risk_assessment
+  workflow_steps:
+    - remediation_deadline_tracking_intake
+    - remediation_deadline_tracking_triage
+    - remediation_deadline_tracking_execution
+    - remediation_deadline_tracking_validation
+    - remediation_deadline_tracking_approval
+    - remediation_deadline_tracking_closure
+  validation_steps:
+    - remediation_deadline_tracking_evidence_sufficiency_check
+    - remediation_deadline_tracking_integrity_verification
+  approval_steps:
+    - remediation_deadline_tracking_approval
+  control_checkpoints:
+    - remediation_deadline_tracking_intake_gate
+    - remediation_deadline_tracking_evidence_gate
+    - remediation_deadline_tracking_decision_gate
+  evidence_generation:
+    - remediation_deadline_tracking_workflow_log
+    - remediation_deadline_tracking_closure_attestation
+  decision_points:
+    - remediation_deadline_tracking_severity_classification
+    - remediation_deadline_tracking_enforcement_authorization
+  escalation_points:
+    - remediation_deadline_tracking_triage
+  completion_criteria:
+    - remediation_deadline_tracking_evidence_complete
+    - remediation_deadline_tracking_approvals_recorded
+  generated_outputs:
+    - remediation_deadline_tracking_workflow_log
+    - remediation_deadline_tracking_closure_attestation
+    - remediation_deadline_tracking_final_disposition
+decision_logic:
+  decision_inputs:
+    - remediation_deadline_tracking_severity_score
+    - remediation_deadline_tracking_evidence_completeness
+    - remediation_deadline_tracking_regulatory_context
+    - remediation_deadline_tracking_risk_exposure_index
+  decision_conditions:
+    - remediation_deadline_tracking_critical_threshold_breach
+    - remediation_deadline_tracking_evidence_integrity_failure
+    - remediation_deadline_tracking_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: remediation_deadline_tracking_severity_score >= 90
+    high_severity: remediation_deadline_tracking_severity_score >= 70
+    evidence_complete: remediation_deadline_tracking_evidence_completeness >= 0.98
+  decision_rules:
+    remediation_deadline_tracking_high_severity_violation:
+      condition: remediation_deadline_tracking_severity_score >= 90
+      action: initiate_remediation_deadline_tracking_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: remediation_deadline_tracking_investigation_report
+    remediation_deadline_tracking_evidence_compromise_detected:
+      condition: remediation_deadline_tracking_integrity_status == compromised
+      action: activate_remediation_deadline_tracking_forensic_lockdown
+      approval_required: remediation_deadline_tracking_forensic_lead
+      evidence_required: remediation_deadline_tracking_integrity_alert_record
+    remediation_deadline_tracking_enforcement_authorization:
+      condition: remediation_deadline_tracking_violation_confirmed == true AND remediation_deadline_tracking_evidence_complete == true
+      action: issue_remediation_deadline_tracking_enforcement_order
+      approval_required: remediation_deadline_tracking_enforcement_officer
+      evidence_required: remediation_deadline_tracking_violation_evidence_package
+    remediation_deadline_tracking_regulator_inquiry_response:
+      condition: remediation_deadline_tracking_regulator_request_received == true
+      action: compile_remediation_deadline_tracking_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: remediation_deadline_tracking_regulatory_evidence_index
+  decision_outputs:
+    - remediation_deadline_tracking_enforcement_decision
+    - remediation_deadline_tracking_escalation_notice
+    - remediation_deadline_tracking_remediation_directive
+    - remediation_deadline_tracking_audit_disposition
+  approval_requirements:
+    enforcement_actions: [remediation_deadline_tracking_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - remediation_deadline_tracking_severity_score >= 90
+    - remediation_deadline_tracking_evidence_integrity_failure == true
+    - remediation_deadline_tracking_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_remediation_deadline_tracking_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: remediation_deadline_tracking_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Remediation Deadline Tracking may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Remediation Deadline Tracking per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Remediation Deadline Tracking per ISO 19011
+      and EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Remediation Deadline Tracking per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Remediation Deadline Tracking per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: remediation_completion_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure remediation completion rate for Remediation Deadline Tracking operational and regulatory
+        assurance
+    formula:
+      computed_remediation_completion_rate_from_remediation_deadline_tracking_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: remediation_deadline_tracking_metrics_owner
+    data_source: remediation_deadline_tracking_metrics_warehouse
+    evidence_generated: remediation_completion_rate_measurement_record
+  - metric_name: deadline_breach_count
+    metric_category: risk
+    business_purpose:
+      >
+        Measure deadline breach count for Remediation Deadline Tracking operational and regulatory
+        assurance
+    formula: computed_deadline_breach_count_from_remediation_deadline_tracking_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: remediation_deadline_tracking_metrics_owner
+    data_source: remediation_deadline_tracking_metrics_warehouse
+    evidence_generated: deadline_breach_count_measurement_record
+  - metric_name: restoration_validation_pass_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure restoration validation pass rate for Remediation Deadline Tracking operational and
+        regulatory assurance
+    formula:
+      computed_restoration_validation_pass_rate_from_remediation_deadline_tracking_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: remediation_deadline_tracking_metrics_owner
+    data_source: remediation_deadline_tracking_metrics_warehouse
+    evidence_generated: restoration_validation_pass_rate_measurement_record
+  - metric_name: effectiveness_improvement_delta
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure effectiveness improvement delta for Remediation Deadline Tracking operational and
+        regulatory assurance
+    formula:
+      computed_effectiveness_improvement_delta_from_remediation_deadline_tracking_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: remediation_deadline_tracking_metrics_owner
+    data_source: remediation_deadline_tracking_metrics_warehouse
+    evidence_generated: effectiveness_improvement_delta_measurement_record
+  - metric_name: post_enforcement_recurrence_rate
+    metric_category: governance
+    business_purpose:
+      >
+        Measure post enforcement recurrence rate for Remediation Deadline Tracking operational and
+        regulatory assurance
+    formula:
+      computed_post_enforcement_recurrence_rate_from_remediation_deadline_tracking_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: remediation_deadline_tracking_metrics_owner
+    data_source: remediation_deadline_tracking_metrics_warehouse
+    evidence_generated: post_enforcement_recurrence_rate_measurement_record
+  - metric_name: obligation_closure_cycle_days
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure obligation closure cycle days for Remediation Deadline Tracking operational and
+        regulatory assurance
+    formula:
+      computed_obligation_closure_cycle_days_from_remediation_deadline_tracking_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: remediation_deadline_tracking_metrics_owner
+    data_source: remediation_deadline_tracking_metrics_warehouse
+    evidence_generated: obligation_closure_cycle_days_measurement_record
+kpis:
+  - metric_name: remediation_completion_rate
+    formula: computed_remediation_completion_rate_from_remediation_deadline_tracking_telemetry
+    target: >= 95%
+  - metric_name: deadline_breach_count
+    formula: computed_deadline_breach_count_from_remediation_deadline_tracking_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: restoration_validation_pass_rate
+    formula: computed_restoration_validation_pass_rate_from_remediation_deadline_tracking_telemetry
+    target: >= 95%
+  - metric_name: effectiveness_improvement_delta
+    formula: computed_effectiveness_improvement_delta_from_remediation_deadline_tracking_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: deadline_breach_count
+    business_purpose: Measure deadline breach count for Remediation Deadline Tracking operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: remediation_deadline_tracking_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support remediation deadline tracking governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_remediation_deadline_tracking_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: remediation_deadline_tracking_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: remediation_deadline_tracking_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support remediation deadline tracking governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_remediation_deadline_tracking_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: remediation_deadline_tracking_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: remediation_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support remediation deadline tracking governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_remediation_deadline_tracking_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: remediation_deadline_tracking_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: deadline_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support remediation deadline tracking governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_remediation_deadline_tracking_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: remediation_deadline_tracking_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: tracking_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support remediation deadline tracking governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_remediation_deadline_tracking_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: remediation_deadline_tracking_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: remediation_deadline_tracking_status_dashboard
+    report_owner: remediation_deadline_tracking_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: monthly
+    report_inputs:
+      - remediation_deadline_tracking_telemetry
+      - remediation_deadline_tracking_evidence_index
+    report_outputs:
+      - remediation_deadline_tracking_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: remediation_deadline_tracking_compliance_summary
+    report_owner: remediation_deadline_tracking_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - remediation_deadline_tracking_telemetry
+      - remediation_deadline_tracking_evidence_index
+    report_outputs:
+      - remediation_deadline_tracking_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: remediation_assurance_report
+    report_owner: remediation_deadline_tracking_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - remediation_deadline_tracking_telemetry
+      - remediation_deadline_tracking_evidence_index
+    report_outputs:
+      - remediation_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: remediation_deadline_tracking_executive_brief
+    report_owner: remediation_deadline_tracking_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - remediation_deadline_tracking_telemetry
+      - remediation_deadline_tracking_evidence_index
+    report_outputs:
+      - remediation_deadline_tracking_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: remediation_deadline_tracking_audit_pack
+    report_owner: remediation_deadline_tracking_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - remediation_deadline_tracking_telemetry
+      - remediation_deadline_tracking_evidence_index
+    report_outputs:
+      - remediation_deadline_tracking_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Remediation Deadline Tracking interfaces with autonomous agents,
+      GPAI, or tool-calling systems.
+  agent_governance:
+    agent_identity: remediation_deadline_tracking_registered_agent_identity_schema
+    agent_role: remediation_deadline_tracking_delegated_authority_role_matrix
+    agent_permissions: remediation_deadline_tracking_least_privilege_permission_set
+    agent_constraints: remediation_deadline_tracking_autonomy_and_tool_constraints
+    agent_accountability: remediation_deadline_tracking_human_accountability_chain
+    agent_escalation_rules: remediation_deadline_tracking_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - remediation_deadline_tracking_policy_context
+      - remediation_deadline_tracking_risk_score
+      - remediation_deadline_tracking_human_intent
+    decision_outputs:
+      - remediation_deadline_tracking_authorized_action
+      - remediation_deadline_tracking_escalation_notice
+    decision_owners:
+      - remediation_deadline_tracking_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: remediation_deadline_tracking_high_risk_decision_mandatory_review
+    decision_accountability: remediation_deadline_tracking_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: remediation_deadline_tracking_approved_tool_allowlist
+    tool_execution_validation: remediation_deadline_tracking_pre_execution_tool_risk_check
+    tool_risk_controls: remediation_deadline_tracking_tool_side_effect_containment
+    tool_auditability: remediation_deadline_tracking_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: remediation_deadline_tracking_memory_segment_access_policy
+    memory_integrity_validation: remediation_deadline_tracking_memory_tamper_detection
+    memory_retention_controls: remediation_deadline_tracking_memory_retention_and_purge_rules
+    memory_auditability: remediation_deadline_tracking_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: remediation_deadline_tracking_chain_of_thought_capture
+    reasoning_validation: remediation_deadline_tracking_reasoning_consistency_check
+    reasoning_risk_monitoring: remediation_deadline_tracking_reasoning_hazard_detection
+    reasoning_accountability: remediation_deadline_tracking_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - remediation_deadline_tracking_audit_log
+  - remediation_deadline_tracking_activity_log
+  - remediation_deadline_tracking_decision_log
+  - remediation_deadline_tracking_traceability_record
+  - remediation_deadline_tracking_evidence_package
+  - remediation_deadline_tracking_chain_of_custody_record
+  - remediation_deadline_tracking_attestation
+required_evidence:
+  - remediation_deadline_tracking_audit_log
+  - remediation_deadline_tracking_activity_log
+  - remediation_deadline_tracking_decision_log
+  - remediation_deadline_tracking_traceability_record
+  - remediation_deadline_tracking_evidence_package
+  - remediation_deadline_tracking_chain_of_custody_record
+  - remediation_deadline_tracking_attestation
+supporting_evidence:
+  - remediation_deadline_tracking_audit_log
+  - remediation_deadline_tracking_activity_log
+  - remediation_deadline_tracking_decision_log
+  - remediation_deadline_tracking_traceability_record
+  - remediation_deadline_tracking_evidence_package
+audit_evidence:
+  - remediation_deadline_tracking_audit_log
+  - remediation_deadline_tracking_activity_log
+  - remediation_deadline_tracking_decision_log
+  - remediation_deadline_tracking_traceability_record
+  - remediation_deadline_tracking_evidence_package
+  - remediation_deadline_tracking_chain_of_custody_record
+  - remediation_deadline_tracking_attestation
+forensic_evidence:
+  - remediation_deadline_tracking_audit_log
+  - remediation_deadline_tracking_activity_log
+  - remediation_deadline_tracking_decision_log
+  - remediation_deadline_tracking_traceability_record
+  - remediation_deadline_tracking_evidence_package
+  - remediation_deadline_tracking_chain_of_custody_record
+  - remediation_deadline_tracking_attestation
+regulatory_evidence:
+  - remediation_deadline_tracking_audit_log
+  - remediation_deadline_tracking_activity_log
+  - remediation_deadline_tracking_decision_log
+  - remediation_deadline_tracking_traceability_record
+  - remediation_deadline_tracking_evidence_package
+  - remediation_deadline_tracking_chain_of_custody_record
+  - remediation_deadline_tracking_attestation
+validation_evidence:
+  - remediation_deadline_tracking_audit_log
+  - remediation_deadline_tracking_activity_log
+  - remediation_deadline_tracking_decision_log
+  - remediation_deadline_tracking_traceability_record
+  - remediation_deadline_tracking_evidence_package
+  - remediation_deadline_tracking_chain_of_custody_record
+  - remediation_deadline_tracking_attestation
+validation_rules:
+  - rule: remediation_deadline_tracking_evidence_complete
+    condition: required_evidence_remediation_deadline_tracking < threshold
+    action: BLOCK_SUBMISSION
+  - rule: remediation_deadline_tracking_integrity_verified
+    condition: integrity_status_remediation_deadline_tracking != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: remediation_deadline_tracking_custody_intact
+    condition: custody_gap_remediation_deadline_tracking == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Remediation Deadline Tracking controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Remediation Deadline Tracking controls fail; mitigated
+      through preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Remediation Deadline Tracking controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Remediation Deadline Tracking controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Remediation Deadline Tracking controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - remediation_deadline_tracking_control_failure
+    - remediation_deadline_tracking_evidence_compromise
+    - remediation_deadline_tracking_regulatory_non_compliance
+    - remediation_deadline_tracking_enforcement_delay
+  risk_events:
+    - remediation_deadline_tracking_audit_finding_critical
+    - remediation_deadline_tracking_investigation_escalation
+    - remediation_deadline_tracking_sanction_exposure
+    - remediation_deadline_tracking_market_surveillance_inquiry
+  risk_indicators:
+    - remediation_deadline_tracking_control_effectiveness_degradation
+    - remediation_deadline_tracking_evidence_gap_rate
+    - remediation_deadline_tracking_sla_breach_count
+    - remediation_deadline_tracking_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    remediation_deadline_tracking_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: remediation_deadline_tracking_forensic_lead
+    remediation_deadline_tracking_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    remediation_deadline_tracking_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: remediation_deadline_tracking_enforcement_officer
+  risk_tolerance:
+    remediation_deadline_tracking_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: remediation_deadline_tracking_risk_score >= 60
+    critical: remediation_deadline_tracking_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Remediation Deadline Tracking controls documented in
+      remediation_deadline_tracking_risk_register with quarterly review.
+  risk_treatment:
+    - remediation_deadline_tracking_preventive_control_reinforcement
+    - remediation_deadline_tracking_detective_monitoring_enhancement
+    - remediation_deadline_tracking_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: remediation_deadline_tracking_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Remediation Deadline Tracking workflow events with provenance anchor and
+      remediation_deadline_tracking_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via remediation_deadline_tracking_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      remediation_deadline_tracking_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      remediation_deadline_tracking_data_classification_policy
+  evidence_storage:
+    >
+      Write-once immutable storage in remediation_deadline_tracking_evidence_vault with access
+      controls
+  evidence_retention:
+    >
+      Retention per remediation_deadline_tracking_retention_schedule aligned with EU AI Act Article 18
+      and legal hold
+  evidence_archival:
+    Long-term archival with remediation_deadline_tracking_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via remediation_deadline_tracking_retrieval_gateway with purpose logging
+  evidence_disposal:
+    >
+      Authorized disposition with remediation_deadline_tracking_disposition_certificate and dual
+      approval
+compliance_mapping:
+  article_17:
+    article: Article 17
+    regulatory_text_summary:
+      Quality management system.
+    obligation:
+      >
+        QMS covering design, development, quality control, and post-market monitoring. Implemented
+        through Remediation Deadline Tracking in remediation_tracking.
+    implementation_controls:
+      - remediation_deadline_tracking_article_17_preventive_control
+      - remediation_deadline_tracking_article_17_detective_control
+      - remediation_deadline_tracking_article_17_evidence_control
+    implementation_processes:
+      - remediation_deadline_tracking_article_17_workflow
+      - remediation_deadline_tracking_article_17_validation_process
+      - remediation_deadline_tracking_article_17_escalation_process
+    implementation_evidence:
+      - remediation_deadline_tracking_article_17_compliance_record
+      - remediation_deadline_tracking_article_17_audit_package
+      - remediation_deadline_tracking_article_17_attestation
+    validation_method: remediation_deadline_tracking_article_17_automated_and_manual_conformity_testing
+    audit_method: remediation_deadline_tracking_article_17_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: remediation_deadline_tracking_article_17_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Remediation Deadline Tracking demonstrates Article 17 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_20:
+    article: Article 20
+    regulatory_text_summary:
+      CE marking.
+    obligation:
+      >
+        CE marking affixation for compliant high-risk AI systems. Implemented through Remediation
+        Deadline Tracking in remediation_tracking.
+    implementation_controls:
+      - remediation_deadline_tracking_article_20_preventive_control
+      - remediation_deadline_tracking_article_20_detective_control
+      - remediation_deadline_tracking_article_20_evidence_control
+    implementation_processes:
+      - remediation_deadline_tracking_article_20_workflow
+      - remediation_deadline_tracking_article_20_validation_process
+      - remediation_deadline_tracking_article_20_escalation_process
+    implementation_evidence:
+      - remediation_deadline_tracking_article_20_compliance_record
+      - remediation_deadline_tracking_article_20_audit_package
+      - remediation_deadline_tracking_article_20_attestation
+    validation_method: remediation_deadline_tracking_article_20_automated_and_manual_conformity_testing
+    audit_method: remediation_deadline_tracking_article_20_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: remediation_deadline_tracking_article_20_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Remediation Deadline Tracking demonstrates Article 20 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_21:
+    article: Article 21
+    regulatory_text_summary:
+      EU database registration.
+    obligation:
+      >
+        Registration in EU database before market placement. Implemented through Remediation Deadline
+        Tracking in remediation_tracking.
+    implementation_controls:
+      - remediation_deadline_tracking_article_21_preventive_control
+      - remediation_deadline_tracking_article_21_detective_control
+      - remediation_deadline_tracking_article_21_evidence_control
+    implementation_processes:
+      - remediation_deadline_tracking_article_21_workflow
+      - remediation_deadline_tracking_article_21_validation_process
+      - remediation_deadline_tracking_article_21_escalation_process
+    implementation_evidence:
+      - remediation_deadline_tracking_article_21_compliance_record
+      - remediation_deadline_tracking_article_21_audit_package
+      - remediation_deadline_tracking_article_21_attestation
+    validation_method: remediation_deadline_tracking_article_21_automated_and_manual_conformity_testing
+    audit_method: remediation_deadline_tracking_article_21_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: remediation_deadline_tracking_article_21_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Remediation Deadline Tracking demonstrates Article 21 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Remediation Deadline Tracking in remediation_tracking.
+    implementation_controls:
+      - remediation_deadline_tracking_article_26_preventive_control
+      - remediation_deadline_tracking_article_26_detective_control
+      - remediation_deadline_tracking_article_26_evidence_control
+    implementation_processes:
+      - remediation_deadline_tracking_article_26_workflow
+      - remediation_deadline_tracking_article_26_validation_process
+      - remediation_deadline_tracking_article_26_escalation_process
+    implementation_evidence:
+      - remediation_deadline_tracking_article_26_compliance_record
+      - remediation_deadline_tracking_article_26_audit_package
+      - remediation_deadline_tracking_article_26_attestation
+    validation_method: remediation_deadline_tracking_article_26_automated_and_manual_conformity_testing
+    audit_method: remediation_deadline_tracking_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: remediation_deadline_tracking_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Remediation Deadline Tracking demonstrates Article 26 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_17:
+      implementation: remediation_deadline_tracking_eu_ai_act_article_17_control_set
+      process: remediation_deadline_tracking_eu_ai_act_article_17_workflow
+      evidence: remediation_deadline_tracking_eu_ai_act_article_17_attestation
+    article_20:
+      implementation: remediation_deadline_tracking_eu_ai_act_article_20_control_set
+      process: remediation_deadline_tracking_eu_ai_act_article_20_workflow
+      evidence: remediation_deadline_tracking_eu_ai_act_article_20_attestation
+    article_21:
+      implementation: remediation_deadline_tracking_eu_ai_act_article_21_control_set
+      process: remediation_deadline_tracking_eu_ai_act_article_21_workflow
+      evidence: remediation_deadline_tracking_eu_ai_act_article_21_attestation
+    article_26:
+      implementation: remediation_deadline_tracking_eu_ai_act_article_26_control_set
+      process: remediation_deadline_tracking_eu_ai_act_article_26_workflow
+      evidence: remediation_deadline_tracking_eu_ai_act_article_26_attestation
+  gdpr:
+    article_5:
+      implementation: remediation_deadline_tracking_gdpr_article_5_privacy_control
+      evidence: remediation_deadline_tracking_gdpr_article_5_compliance_record
+    article_6:
+      implementation: remediation_deadline_tracking_gdpr_article_6_privacy_control
+      evidence: remediation_deadline_tracking_gdpr_article_6_compliance_record
+    article_22:
+      implementation: remediation_deadline_tracking_gdpr_article_22_privacy_control
+      evidence: remediation_deadline_tracking_gdpr_article_22_compliance_record
+    article_25:
+      implementation: remediation_deadline_tracking_gdpr_article_25_privacy_control
+      evidence: remediation_deadline_tracking_gdpr_article_25_compliance_record
+    article_32:
+      implementation: remediation_deadline_tracking_gdpr_article_32_privacy_control
+      evidence: remediation_deadline_tracking_gdpr_article_32_compliance_record
+    article_35:
+      implementation: remediation_deadline_tracking_gdpr_article_35_privacy_control
+      evidence: remediation_deadline_tracking_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: remediation_deadline_tracking_iso42001_clause_4_1_aims_control
+      evidence: remediation_deadline_tracking_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: remediation_deadline_tracking_iso42001_clause_4_2_aims_control
+      evidence: remediation_deadline_tracking_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: remediation_deadline_tracking_iso42001_clause_5_1_aims_control
+      evidence: remediation_deadline_tracking_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: remediation_deadline_tracking_iso42001_clause_5_2_aims_control
+      evidence: remediation_deadline_tracking_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: remediation_deadline_tracking_iso42001_clause_6_1_aims_control
+      evidence: remediation_deadline_tracking_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: remediation_deadline_tracking_iso42001_clause_8_1_aims_control
+      evidence: remediation_deadline_tracking_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: remediation_deadline_tracking_iso42001_clause_9_1_aims_control
+      evidence: remediation_deadline_tracking_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: remediation_deadline_tracking_iso42001_clause_10_1_aims_control
+      evidence: remediation_deadline_tracking_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: remediation_deadline_tracking_iso23894_risk_identification_alignment
+      evidence: remediation_deadline_tracking_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: remediation_deadline_tracking_iso23894_risk_analysis_alignment
+      evidence: remediation_deadline_tracking_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: remediation_deadline_tracking_iso23894_risk_evaluation_alignment
+      evidence: remediation_deadline_tracking_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: remediation_deadline_tracking_iso23894_risk_treatment_alignment
+      evidence: remediation_deadline_tracking_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: remediation_deadline_tracking_iso23894_risk_monitoring_alignment
+      evidence: remediation_deadline_tracking_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: remediation_deadline_tracking_iso19011_audit_principles_procedure
+      evidence: remediation_deadline_tracking_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: remediation_deadline_tracking_iso19011_audit_programme_management_procedure
+      evidence: remediation_deadline_tracking_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: remediation_deadline_tracking_iso19011_audit_evidence_requirements_procedure
+      evidence: remediation_deadline_tracking_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: remediation_deadline_tracking_iso19011_audit_reporting_procedure
+      evidence: remediation_deadline_tracking_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: remediation_deadline_tracking_nist_rmf_govern_control_mapping
+      evidence: remediation_deadline_tracking_nist_rmf_govern_assessment
+    map:
+      implementation: remediation_deadline_tracking_nist_rmf_map_control_mapping
+      evidence: remediation_deadline_tracking_nist_rmf_map_assessment
+    measure:
+      implementation: remediation_deadline_tracking_nist_rmf_measure_control_mapping
+      evidence: remediation_deadline_tracking_nist_rmf_measure_assessment
+    manage:
+      implementation: remediation_deadline_tracking_nist_rmf_manage_control_mapping
+      evidence: remediation_deadline_tracking_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: remediation_deadline_tracking_nist_csf_identify_safeguard
+      evidence: remediation_deadline_tracking_nist_csf_identify_log
+    protect:
+      implementation: remediation_deadline_tracking_nist_csf_protect_safeguard
+      evidence: remediation_deadline_tracking_nist_csf_protect_log
+    detect:
+      implementation: remediation_deadline_tracking_nist_csf_detect_safeguard
+      evidence: remediation_deadline_tracking_nist_csf_detect_log
+    respond:
+      implementation: remediation_deadline_tracking_nist_csf_respond_safeguard
+      evidence: remediation_deadline_tracking_nist_csf_respond_log
+    recover:
+      implementation: remediation_deadline_tracking_nist_csf_recover_safeguard
+      evidence: remediation_deadline_tracking_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: remediation_deadline_tracking_oecd_accountability_governance_control
+      evidence: remediation_deadline_tracking_oecd_accountability_attestation
+    transparency:
+      implementation: remediation_deadline_tracking_oecd_transparency_governance_control
+      evidence: remediation_deadline_tracking_oecd_transparency_attestation
+    robustness_security:
+      implementation: remediation_deadline_tracking_oecd_robustness_security_governance_control
+      evidence: remediation_deadline_tracking_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: remediation_deadline_tracking_oecd_inclusive_growth_governance_control
+      evidence: remediation_deadline_tracking_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: remediation_deadline_tracking_unesco_human_rights_ethics_control
+      evidence: remediation_deadline_tracking_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: remediation_deadline_tracking_unesco_fairness_non_discrimination_ethics_control
+      evidence: remediation_deadline_tracking_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: remediation_deadline_tracking_unesco_transparency_explainability_ethics_control
+      evidence: remediation_deadline_tracking_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: remediation_deadline_tracking_unesco_accountability_ethics_control
+      evidence: remediation_deadline_tracking_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Remediation Deadline Tracking covering executive, board, regulatory,
+      audit, forensic, and attestation consumers.
+  report_types:
+    - remediation_deadline_tracking_status_report
+    - remediation_deadline_tracking_compliance_report
+    - remediation_deadline_tracking_enforcement_report
+    - remediation_deadline_tracking_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [remediation_deadline_tracking_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_remediation_deadline_tracking
+  - quarterly_control_testing_remediation_deadline_tracking
+  - evidence_sampling_remediation_deadline_tracking
+  - finding_remediation_tracking_remediation_deadline_tracking
+enforcement_requirements:
+  enforcement_framework:
+    Enforcement Framework within Remediation Deadline Tracking scope.
+  enforcement_decision_logic:
+    Enforcement Decision Logic within Remediation Deadline Tracking scope.
+  sanction_management:
+    Sanction Management within Remediation Deadline Tracking scope.
+  penalty_management:
+    Penalty Management within Remediation Deadline Tracking scope.
+  post_enforcement_monitoring:
+    Post Enforcement Monitoring within Remediation Deadline Tracking scope.
+remediation_requirements:
+  remediation_workflows:
+    Remediation Workflows for Remediation Deadline Tracking.
+  corrective_actions:
+    Corrective Actions for Remediation Deadline Tracking.
+  compliance_restoration:
+    Compliance Restoration for Remediation Deadline Tracking.
+  effectiveness_analysis:
+    Effectiveness Analysis for Remediation Deadline Tracking.
+  deadline_tracking:
+    Deadline Tracking for Remediation Deadline Tracking.
+integration_points:
+  upstream_systems:
+    - system: enforcement_actions
+      purpose: remediation_deadline_tracking_to_enforcement_actions_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_enforcement_actions]
+      produced_artifacts: [remediation_deadline_tracking_output_to_enforcement_actions]
+    - system: compliance_audits
+      purpose: remediation_deadline_tracking_to_compliance_audits_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_compliance_audits]
+      produced_artifacts: [remediation_deadline_tracking_output_to_compliance_audits]
+    - system: penalty_management
+      purpose: remediation_deadline_tracking_to_penalty_management_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_penalty_management]
+      produced_artifacts: [remediation_deadline_tracking_output_to_penalty_management]
+  downstream_systems:
+    - system: compliance_audits
+      purpose: remediation_deadline_tracking_to_compliance_audits_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_compliance_audits]
+      produced_artifacts: [remediation_deadline_tracking_output_to_compliance_audits]
+    - system: reporting
+      purpose: remediation_deadline_tracking_to_reporting_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_reporting]
+      produced_artifacts: [remediation_deadline_tracking_output_to_reporting]
+    - system: post_market_monitoring
+      purpose: remediation_deadline_tracking_to_post_market_monitoring_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_post_market_monitoring]
+      produced_artifacts: [remediation_deadline_tracking_output_to_post_market_monitoring]
+  governance_integrations:
+    - system: remediation_engine
+      purpose: remediation_deadline_tracking_to_remediation_engine_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_remediation_engine]
+      produced_artifacts: [remediation_deadline_tracking_output_to_remediation_engine]
+    - system: policy_enforcement
+      purpose: remediation_deadline_tracking_to_policy_enforcement_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_policy_enforcement]
+      produced_artifacts: [remediation_deadline_tracking_output_to_policy_enforcement]
+  risk_integrations:
+    - system: risk_management
+      purpose: remediation_deadline_tracking_to_risk_management_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_risk_management]
+      produced_artifacts: [remediation_deadline_tracking_output_to_risk_management]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: remediation_deadline_tracking_to_compliance_audits_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_compliance_audits]
+      produced_artifacts: [remediation_deadline_tracking_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: remediation_deadline_tracking_to_internal_audit_system_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_internal_audit_system]
+      produced_artifacts: [remediation_deadline_tracking_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: remediation_deadline_tracking_to_governance_reporting_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_governance_reporting]
+      produced_artifacts: [remediation_deadline_tracking_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: remediation_deadline_tracking_to_executive_dashboard_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_executive_dashboard]
+      produced_artifacts: [remediation_deadline_tracking_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: remediation_deadline_tracking_to_enforcement_actions_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_enforcement_actions]
+      produced_artifacts: [remediation_deadline_tracking_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: remediation_deadline_tracking_to_policy_enforcement_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_policy_enforcement]
+      produced_artifacts: [remediation_deadline_tracking_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: remediation_deadline_tracking_to_remediation_tracking_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_remediation_tracking]
+      produced_artifacts: [remediation_deadline_tracking_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: remediation_deadline_tracking_to_remediation_engine_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_remediation_engine]
+      produced_artifacts: [remediation_deadline_tracking_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: remediation_deadline_tracking_to_evidence_preservation_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_evidence_preservation]
+      produced_artifacts: [remediation_deadline_tracking_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: remediation_deadline_tracking_to_technical_documentation_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_technical_documentation]
+      produced_artifacts: [remediation_deadline_tracking_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: remediation_deadline_tracking_to_post_market_monitoring_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_post_market_monitoring]
+      produced_artifacts: [remediation_deadline_tracking_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: remediation_deadline_tracking_to_incident_reporting_governance_sync
+      data_exchanged: [remediation_deadline_tracking_events, remediation_deadline_tracking_evidence_refs, remediation_deadline_tracking_metrics]
+      trigger_conditions: [remediation_deadline_tracking_state_change, remediation_deadline_tracking_escalation, remediation_deadline_tracking_closure]
+      consumed_artifacts: [remediation_deadline_tracking_input_from_incident_reporting]
+      produced_artifacts: [remediation_deadline_tracking_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Remediation Deadline Tracking activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Remediation Deadline Tracking procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - remediation_deadline_tracking_procedure_checklist
+    required_evidence:
+      - remediation_deadline_tracking_process_log
+    required_metrics:
+      - remediation_deadline_tracking_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Remediation Deadline Tracking enterprise-wide.
+    required_capabilities:
+      - remediation_deadline_tracking_standard_control_set
+    required_controls:
+      - remediation_deadline_tracking_control_register
+    required_evidence:
+      - remediation_deadline_tracking_audit_evidence
+    required_metrics:
+      - remediation_deadline_tracking_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Remediation Deadline Tracking with KPI optimization.
+    required_capabilities:
+      - remediation_deadline_tracking_automated_controls
+    required_controls:
+      - remediation_deadline_tracking_telemetry_controls
+    required_evidence:
+      - remediation_deadline_tracking_assurance_package
+    required_metrics:
+      - remediation_deadline_tracking_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Remediation Deadline Tracking with predictive analytics.
+    required_capabilities:
+      - remediation_deadline_tracking_autonomous_governance
+    required_controls:
+      - remediation_deadline_tracking_adaptive_controls
+    required_evidence:
+      - remediation_deadline_tracking_regulator_ready_portfolio
+    required_metrics:
+      - remediation_deadline_tracking_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - remediation_deadline_tracking_report
+  - remediation_deadline_tracking_evidence_package
+  - remediation_deadline_tracking_attestation
+  - remediation_deadline_tracking_enforcement_record
+artifacts:
+  - name: remediation_deadline_tracking_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: remediation_deadline_tracking_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: remediation_deadline_tracking_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: remediation_deadline_tracking_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - remediation_deadline_tracking_case_record
+  - remediation_deadline_tracking_audit_record
+  - remediation_deadline_tracking_enforcement_record
+  - remediation_deadline_tracking_remediation_record
+monitoring:
+  continuous:
+    - remediation_deadline_tracking_control_telemetry
+    - remediation_deadline_tracking_evidence_integrity_feed
+    - remediation_deadline_tracking_escalation_queue
+  periodic:
+    - remediation_deadline_tracking_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Remediation Deadline Tracking effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: remediation_deadline_tracking_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: remediation_deadline_tracking_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: remediation_deadline_tracking_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: remediation_deadline_tracking_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Remediation Deadline Tracking

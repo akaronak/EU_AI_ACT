@@ -1,0 +1,1919 @@
+metadata:
+  id: AAE-PM-PENMAN-001
+  name: penalty_management
+  title: Penalty Management
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: penalty_management
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - penalty_management
+    - penalty_management
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Penalty Management governance within
+    audit_and_enforcement/penalty_management, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for penalty determination, sanction administration, and liability
+    mapping. Integrates with the EU AI Act governance ecosystem through machine-evaluable
+    obligations, evidence preservation, and conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Penalty Management across enterprise and
+    cross-border operations within audit_and_enforcement/penalty_management.
+objectives:
+  - Operationalize Penalty Management with regulator-defensible controls and evidence chains
+  - Enable automated validation of Penalty Management conformance across penalty_management
+  - Preserve audit-grade and forensic-grade records for all Penalty Management activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Penalty Management with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Penalty Management
+definitions:
+  penalty_management_governance_domain:
+    >
+      The operational jurisdiction of Penalty Management encompassing controlled audit, enforcement,
+      investigation, and evidence processes within penalty_management.
+  penalty_management_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Penalty Management control
+      effectiveness, process adherence, and regulatory conformity.
+  penalty_management_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Penalty Management decision logic.
+  penalty_management_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Penalty Management processes.
+  penalty_management_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within Penalty
+      Management operations.
+  penalty_management_conformity_assertion:
+    >
+      Formal statement that Penalty Management requirements are met, supported by indexed evidence and
+      validation attestations.
+taxonomy:
+  root: penalty_management_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  penalty_management_artifact_type:
+    - penalty_management_record
+    - penalty_management_log
+    - penalty_management_report
+    - penalty_management_attestation
+    - penalty_management_package
+  penalty_management_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Penalty Management Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: penalty_management
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - investigation_management
+    - enforcement_actions
+    - compliance_audits
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - remediation_tracking
+    - reporting
+    - enforcement_actions
+    - audit_and_enforcement/penalty_management/penalty_management.yaml
+  related_domains:
+    - enforcement_actions
+    - investigation_management
+    - remediation_tracking
+  related_skills:
+    - sanction_management
+    - financial_penalty_tracking
+    - repeat_violation_scoring
+    - penalty_management
+  parent_governance_objects:
+    - enforcement_framework
+  child_governance_objects:
+    - penalty_assessment
+    - sanction_order
+    - penalty_management_governance_object
+  consumes_artifacts:
+    - investigation_report
+    - enforcement_decision
+    - liability_mapping
+    - penalty_management_input_artifact
+  produces_artifacts:
+    - penalty_determination
+    - sanction_register_entry
+    - financial_penalty_ledger
+    - penalty_management_record
+    - penalty_management_report
+    - penalty_management_attestation
+  consumes_evidence:
+    - violation_evidence_package
+    - repeat_violation_history
+    - penalty_management_source_evidence
+  produces_evidence:
+    - penalty_calculation_workpaper
+    - sanction_attestation
+    - appeal_record
+    - penalty_management_audit_evidence
+    - penalty_management_validation_evidence
+    - penalty_management_enforcement_evidence
+  governance_dependencies:
+    - ai_liability
+    - legal_interoperability
+  regulatory_dependencies:
+    - eu_ai_act_article_71
+    - eu_ai_act_article_99
+  risk_dependencies:
+    - ai_liability
+    - compliance_scoring
+  control_dependencies:
+    - investigation_management
+    - enforcement_actions
+    - penalty_management_control_register
+roles_and_responsibilities:
+  penalty_management_owner:
+    responsibilities:
+      - Accountable for Penalty Management strategy, control design, and regulatory alignment
+  penalty_management_operator:
+    responsibilities:
+      - Executes Penalty Management workflows and maintains operational records
+  penalty_management_auditor:
+    responsibilities:
+      - Independently validates Penalty Management control effectiveness and evidence sufficiency
+  penalty_management_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Penalty Management investigations
+  penalty_management_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Penalty Management
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-013
+    name: Liability Attribution
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-014
+    name: Regulatory Accountability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-015
+    name: Regulatory Escalation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-026
+    name: Penalty Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-027
+    name: Sanction Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-028
+    name: Financial Penalty Tracking
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-029
+    name: Repeat Violation Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-030
+    name: Remediation Tracking
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-PEN-PENALTY_MA-PENALTYLIAB
+    control_name: penalty_liability_chain_mapper
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring liability chain mapper for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        penalty_liability_chain_mapper is required to govern Penalty Management risks under EU AI Act
+        and enterprise audit-enforcement policy; failure enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement penalty_liability_chain_mapper as automated policy in penalty_management orchestration
+        layer; wire to telemetry bus; block non-compliant state transitions; log evidence to immutable
+        store.
+    monitoring_method: penalty_liability_chain_mapper_continuous_telemetry_dashboard
+    validation_method: penalty_liability_chain_mapper_quarterly_design_and_operating_effectiveness_test
+    testing_method: penalty_liability_chain_mapper_statistical_sampling_with_exception_tracking
+    control_owner: penalty_management_control_owner
+    evidence_generated: penalty_liability_chain_mapper_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify penalty_liability_chain_mapper design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        penalty_liability_chain_mapper outputs may trigger enforcement under penalty_management
+        escalation rules.
+  - control_id: AAE-PEN-PENALTY_MA-MANAGEMENTP
+    control_name: management_penalty_calculation_engine
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring penalty calculation engine for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        management_penalty_calculation_engine is required to govern Penalty Management risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected penalty management
+        failures.
+    implementation_guidance:
+      >
+        Implement management_penalty_calculation_engine as automated policy in penalty_management
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: management_penalty_calculation_engine_continuous_telemetry_dashboard
+    validation_method:
+      management_penalty_calculation_engine_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      management_penalty_calculation_engine_statistical_sampling_with_exception_tracking
+    control_owner: penalty_management_control_owner
+    evidence_generated: management_penalty_calculation_engine_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify management_penalty_calculation_engine design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        management_penalty_calculation_engine outputs may trigger enforcement under penalty_management
+        escalation rules.
+  - control_id: AAE-PEN-PENALTY_MA-PENALTYMANA
+    control_name: penalty_management_financial_penalty_ledger_guard
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring financial penalty ledger guard for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        penalty_management_financial_penalty_ledger_guard is required to govern Penalty Management risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty
+        management failures.
+    implementation_guidance:
+      >
+        Implement penalty_management_financial_penalty_ledger_guard as automated policy in
+        penalty_management orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: penalty_management_financial_penalty_ledger_guard_continuous_telemetry_dashboard
+    validation_method:
+      >
+        penalty_management_financial_penalty_ledger_guard_quarterly_design_and_operating_effectiveness_t
+        est
+    testing_method:
+      penalty_management_financial_penalty_ledger_guard_statistical_sampling_with_exception_tracking
+    control_owner: penalty_management_control_owner
+    evidence_generated: penalty_management_financial_penalty_ledger_guard_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify penalty_management_financial_penalty_ledger_guard design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        penalty_management_financial_penalty_ledger_guard outputs may trigger enforcement under
+        penalty_management escalation rules.
+  - control_id: AAE-PEN-PENALTY_MA-PENALTYMANA
+    control_name: penalty_management_repeat_violation_scorer
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring repeat violation scorer for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        penalty_management_repeat_violation_scorer is required to govern Penalty Management risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty management
+        failures.
+    implementation_guidance:
+      >
+        Implement penalty_management_repeat_violation_scorer as automated policy in penalty_management
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: penalty_management_repeat_violation_scorer_continuous_telemetry_dashboard
+    validation_method:
+      penalty_management_repeat_violation_scorer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      penalty_management_repeat_violation_scorer_statistical_sampling_with_exception_tracking
+    control_owner: penalty_management_control_owner
+    evidence_generated: penalty_management_repeat_violation_scorer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify penalty_management_repeat_violation_scorer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        penalty_management_repeat_violation_scorer outputs may trigger enforcement under
+        penalty_management escalation rules.
+  - control_id: AAE-PEN-PENALTY_MA-PENALTYMANA
+    control_name: penalty_management_corrective_obligation_register
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring corrective obligation register for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        penalty_management_corrective_obligation_register is required to govern Penalty Management risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty
+        management failures.
+    implementation_guidance:
+      >
+        Implement penalty_management_corrective_obligation_register as automated policy in
+        penalty_management orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: penalty_management_corrective_obligation_register_continuous_telemetry_dashboard
+    validation_method:
+      >
+        penalty_management_corrective_obligation_register_quarterly_design_and_operating_effectiveness_t
+        est
+    testing_method:
+      penalty_management_corrective_obligation_register_statistical_sampling_with_exception_tracking
+    control_owner: penalty_management_control_owner
+    evidence_generated: penalty_management_corrective_obligation_register_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify penalty_management_corrective_obligation_register design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        penalty_management_corrective_obligation_register outputs may trigger enforcement under
+        penalty_management escalation rules.
+  - control_id: AAE-PEN-PENALTY_MA-PENALTYMANA
+    control_name: penalty_management_regulatory_penalty_alignment_checker
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring regulatory penalty alignment checker for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        penalty_management_regulatory_penalty_alignment_checker is required to govern Penalty Management
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        penalty management failures.
+    implementation_guidance:
+      >
+        Implement penalty_management_regulatory_penalty_alignment_checker as automated policy in
+        penalty_management orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      penalty_management_regulatory_penalty_alignment_checker_continuous_telemetry_dashboard
+    validation_method:
+      >
+        penalty_management_regulatory_penalty_alignment_checker_quarterly_design_and_operating_effective
+        ness_test
+    testing_method:
+      >
+        penalty_management_regulatory_penalty_alignment_checker_statistical_sampling_with_exception_trac
+        king
+    control_owner: penalty_management_control_owner
+    evidence_generated: penalty_management_regulatory_penalty_alignment_checker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify penalty_management_regulatory_penalty_alignment_checker design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        penalty_management_regulatory_penalty_alignment_checker outputs may trigger enforcement under
+        penalty_management escalation rules.
+  - control_id: AAE-PEN-PENALTY_MA-PENALTYMANA
+    control_name: penalty_management_penalty_proportionality_reviewer
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring penalty proportionality reviewer for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        penalty_management_penalty_proportionality_reviewer is required to govern Penalty Management
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        penalty management failures.
+    implementation_guidance:
+      >
+        Implement penalty_management_penalty_proportionality_reviewer as automated policy in
+        penalty_management orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      penalty_management_penalty_proportionality_reviewer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        penalty_management_penalty_proportionality_reviewer_quarterly_design_and_operating_effectiveness
+        _test
+    testing_method:
+      penalty_management_penalty_proportionality_reviewer_statistical_sampling_with_exception_tracking
+    control_owner: penalty_management_control_owner
+    evidence_generated: penalty_management_penalty_proportionality_reviewer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify penalty_management_penalty_proportionality_reviewer design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        penalty_management_penalty_proportionality_reviewer outputs may trigger enforcement under
+        penalty_management escalation rules.
+  - control_id: AAE-PEN-PENALTY_MA-PENALTYMANA
+    control_name: penalty_management_payment_compliance_tracker
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring payment compliance tracker for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        penalty_management_payment_compliance_tracker is required to govern Penalty Management risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty
+        management failures.
+    implementation_guidance:
+      >
+        Implement penalty_management_payment_compliance_tracker as automated policy in
+        penalty_management orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: penalty_management_payment_compliance_tracker_continuous_telemetry_dashboard
+    validation_method:
+      penalty_management_payment_compliance_tracker_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      penalty_management_payment_compliance_tracker_statistical_sampling_with_exception_tracking
+    control_owner: penalty_management_control_owner
+    evidence_generated: penalty_management_payment_compliance_tracker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify penalty_management_payment_compliance_tracker design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        penalty_management_payment_compliance_tracker outputs may trigger enforcement under
+        penalty_management escalation rules.
+  - control_id: AAE-PEN-PENALTY_MA-PENALTYMANA
+    control_name: penalty_management_penalty_appeal_processor
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring penalty appeal processor for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        penalty_management_penalty_appeal_processor is required to govern Penalty Management risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty management
+        failures.
+    implementation_guidance:
+      >
+        Implement penalty_management_penalty_appeal_processor as automated policy in penalty_management
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: penalty_management_penalty_appeal_processor_continuous_telemetry_dashboard
+    validation_method:
+      penalty_management_penalty_appeal_processor_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      penalty_management_penalty_appeal_processor_statistical_sampling_with_exception_tracking
+    control_owner: penalty_management_control_owner
+    evidence_generated: penalty_management_penalty_appeal_processor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify penalty_management_penalty_appeal_processor design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        penalty_management_penalty_appeal_processor outputs may trigger enforcement under
+        penalty_management escalation rules.
+  - control_id: AAE-PEN-PENALTY_MA-PENALTYMANA
+    control_name: penalty_management_aggravating_factor_applier
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring aggravating factor applier for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        penalty_management_aggravating_factor_applier is required to govern Penalty Management risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty
+        management failures.
+    implementation_guidance:
+      >
+        Implement penalty_management_aggravating_factor_applier as automated policy in
+        penalty_management orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: penalty_management_aggravating_factor_applier_continuous_telemetry_dashboard
+    validation_method:
+      penalty_management_aggravating_factor_applier_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      penalty_management_aggravating_factor_applier_statistical_sampling_with_exception_tracking
+    control_owner: penalty_management_control_owner
+    evidence_generated: penalty_management_aggravating_factor_applier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify penalty_management_aggravating_factor_applier design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        penalty_management_aggravating_factor_applier outputs may trigger enforcement under
+        penalty_management escalation rules.
+  - control_id: AAE-PEN-PENALTY_MA-PENALTYMANA
+    control_name: penalty_management_penalty_waiver_authorization_gate
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring penalty waiver authorization gate for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        penalty_management_penalty_waiver_authorization_gate is required to govern Penalty Management
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        penalty management failures.
+    implementation_guidance:
+      >
+        Implement penalty_management_penalty_waiver_authorization_gate as automated policy in
+        penalty_management orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      penalty_management_penalty_waiver_authorization_gate_continuous_telemetry_dashboard
+    validation_method:
+      >
+        penalty_management_penalty_waiver_authorization_gate_quarterly_design_and_operating_effectivenes
+        s_test
+    testing_method:
+      >
+        penalty_management_penalty_waiver_authorization_gate_statistical_sampling_with_exception_trackin
+        g
+    control_owner: penalty_management_control_owner
+    evidence_generated: penalty_management_penalty_waiver_authorization_gate_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify penalty_management_penalty_waiver_authorization_gate design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        penalty_management_penalty_waiver_authorization_gate outputs may trigger enforcement under
+        penalty_management escalation rules.
+  - control_id: AAE-PEN-PENALTY_MA-PENALTYMANA
+    control_name: penalty_management_penalty_disclosure_registrar
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring penalty disclosure registrar for Penalty Management across
+        penalty_management.
+    governance_rationale:
+      >
+        penalty_management_penalty_disclosure_registrar is required to govern Penalty Management risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty
+        management failures.
+    implementation_guidance:
+      >
+        Implement penalty_management_penalty_disclosure_registrar as automated policy in
+        penalty_management orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: penalty_management_penalty_disclosure_registrar_continuous_telemetry_dashboard
+    validation_method:
+      >
+        penalty_management_penalty_disclosure_registrar_quarterly_design_and_operating_effectiveness_tes
+        t
+    testing_method:
+      penalty_management_penalty_disclosure_registrar_statistical_sampling_with_exception_tracking
+    control_owner: penalty_management_control_owner
+    evidence_generated: penalty_management_penalty_disclosure_registrar_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify penalty_management_penalty_disclosure_registrar design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        penalty_management_penalty_disclosure_registrar outputs may trigger enforcement under
+        penalty_management escalation rules.
+requirements:
+  legal:
+    >
+      Penalty Management must satisfy legal requirements for penalty determination, sanction
+      administration, and liability mapping including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Penalty Management must satisfy regulatory requirements for penalty determination, sanction
+      administration, and liability mapping including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Penalty Management must satisfy technical requirements for penalty determination, sanction
+      administration, and liability mapping including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Penalty Management must satisfy operational requirements for penalty determination, sanction
+      administration, and liability mapping including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Penalty Management must satisfy audit requirements for penalty determination, sanction
+      administration, and liability mapping including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Penalty Management must satisfy forensic requirements for penalty determination, sanction
+      administration, and liability mapping including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Penalty Management must satisfy enforcement requirements for penalty determination, sanction
+      administration, and liability mapping including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    Intake process for Penalty Management with stage gates, RACI assignments, and evidence capture.
+  triage:
+    Triage process for Penalty Management with stage gates, RACI assignments, and evidence capture.
+  execution:
+    >
+      Execution process for Penalty Management with stage gates, RACI assignments, and evidence
+      capture.
+  validation:
+    >
+      Validation process for Penalty Management with stage gates, RACI assignments, and evidence
+      capture.
+  escalation:
+    >
+      Escalation process for Penalty Management with stage gates, RACI assignments, and evidence
+      capture.
+  closure:
+    Closure process for Penalty Management with stage gates, RACI assignments, and evidence capture.
+  improvement:
+    >
+      Improvement process for Penalty Management with stage gates, RACI assignments, and evidence
+      capture.
+workflows:
+  - workflow_name: penalty_management_operational_lifecycle_workflow
+    workflow_trigger: penalty_management_governance_event_detected
+    workflow_steps:
+      - penalty_management_intake
+      - penalty_management_triage
+      - penalty_management_execution
+      - penalty_management_validation
+      - penalty_management_approval
+      - penalty_management_closure
+    approval_points:
+      - penalty_management_approval
+    escalation_points:
+      - penalty_management_triage
+    generated_evidence:
+      - penalty_management_workflow_log
+      - penalty_management_closure_attestation
+    completion_requirements:
+      - penalty_management_evidence_complete
+      - penalty_management_approvals_recorded
+  - workflow_name: penalty_management_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_penalty_management
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - penalty_management_regulatory_package
+      - penalty_management_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - penalty_management_governance_event_detected
+    - penalty_management_regulatory_inquiry
+    - penalty_management_integrity_breach
+    - penalty_management_enforcement_authorization
+  required_inputs:
+    - penalty_management_case_context
+    - penalty_management_evidence_index
+    - penalty_management_risk_assessment
+  workflow_steps:
+    - penalty_management_intake
+    - penalty_management_triage
+    - penalty_management_execution
+    - penalty_management_validation
+    - penalty_management_approval
+    - penalty_management_closure
+  validation_steps:
+    - penalty_management_evidence_sufficiency_check
+    - penalty_management_integrity_verification
+  approval_steps:
+    - penalty_management_approval
+  control_checkpoints:
+    - penalty_management_intake_gate
+    - penalty_management_evidence_gate
+    - penalty_management_decision_gate
+  evidence_generation:
+    - penalty_management_workflow_log
+    - penalty_management_closure_attestation
+  decision_points:
+    - penalty_management_severity_classification
+    - penalty_management_enforcement_authorization
+  escalation_points:
+    - penalty_management_triage
+  completion_criteria:
+    - penalty_management_evidence_complete
+    - penalty_management_approvals_recorded
+  generated_outputs:
+    - penalty_management_workflow_log
+    - penalty_management_closure_attestation
+    - penalty_management_final_disposition
+decision_logic:
+  decision_inputs:
+    - penalty_management_severity_score
+    - penalty_management_evidence_completeness
+    - penalty_management_regulatory_context
+    - penalty_management_risk_exposure_index
+  decision_conditions:
+    - penalty_management_critical_threshold_breach
+    - penalty_management_evidence_integrity_failure
+    - penalty_management_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: penalty_management_severity_score >= 90
+    high_severity: penalty_management_severity_score >= 70
+    evidence_complete: penalty_management_evidence_completeness >= 0.98
+  decision_rules:
+    penalty_management_high_severity_violation:
+      condition: penalty_management_severity_score >= 90
+      action: initiate_penalty_management_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: penalty_management_investigation_report
+    penalty_management_evidence_compromise_detected:
+      condition: penalty_management_integrity_status == compromised
+      action: activate_penalty_management_forensic_lockdown
+      approval_required: penalty_management_forensic_lead
+      evidence_required: penalty_management_integrity_alert_record
+    penalty_management_enforcement_authorization:
+      condition: penalty_management_violation_confirmed == true AND penalty_management_evidence_complete == true
+      action: issue_penalty_management_enforcement_order
+      approval_required: penalty_management_enforcement_officer
+      evidence_required: penalty_management_violation_evidence_package
+    penalty_management_regulator_inquiry_response:
+      condition: penalty_management_regulator_request_received == true
+      action: compile_penalty_management_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: penalty_management_regulatory_evidence_index
+  decision_outputs:
+    - penalty_management_enforcement_decision
+    - penalty_management_escalation_notice
+    - penalty_management_remediation_directive
+    - penalty_management_audit_disposition
+  approval_requirements:
+    enforcement_actions: [penalty_management_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - penalty_management_severity_score >= 90
+    - penalty_management_evidence_integrity_failure == true
+    - penalty_management_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_penalty_management_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: penalty_management_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Penalty Management may trigger EU AI Act Articles 71, 73 reporting, market
+      surveillance cooperation, and conformity assessment suspension; all outputs must be litigation-
+      defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Penalty Management per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Penalty Management per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Penalty Management per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Penalty Management per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+metrics:
+  - metric_name: sanction_issuance_cycle_days
+    metric_category: operational
+    business_purpose:
+      Measure sanction issuance cycle days for Penalty Management operational and regulatory assurance
+    formula: computed_sanction_issuance_cycle_days_from_penalty_management_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: penalty_management_metrics_owner
+    data_source: penalty_management_metrics_warehouse
+    evidence_generated: sanction_issuance_cycle_days_measurement_record
+  - metric_name: penalty_calculation_accuracy_rate
+    metric_category: risk
+    business_purpose:
+      >
+        Measure penalty calculation accuracy rate for Penalty Management operational and regulatory
+        assurance
+    formula: computed_penalty_calculation_accuracy_rate_from_penalty_management_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: penalty_management_metrics_owner
+    data_source: penalty_management_metrics_warehouse
+    evidence_generated: penalty_calculation_accuracy_rate_measurement_record
+  - metric_name: appeal_overturn_rate
+    metric_category: compliance
+    business_purpose:
+      Measure appeal overturn rate for Penalty Management operational and regulatory assurance
+    formula: computed_appeal_overturn_rate_from_penalty_management_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: penalty_management_metrics_owner
+    data_source: penalty_management_metrics_warehouse
+    evidence_generated: appeal_overturn_rate_measurement_record
+  - metric_name: repeat_violation_recidivism_score
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure repeat violation recidivism score for Penalty Management operational and regulatory
+        assurance
+    formula: computed_repeat_violation_recidivism_score_from_penalty_management_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: penalty_management_metrics_owner
+    data_source: penalty_management_metrics_warehouse
+    evidence_generated: repeat_violation_recidivism_score_measurement_record
+  - metric_name: financial_penalty_recovery_rate
+    metric_category: governance
+    business_purpose:
+      >
+        Measure financial penalty recovery rate for Penalty Management operational and regulatory
+        assurance
+    formula: computed_financial_penalty_recovery_rate_from_penalty_management_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: penalty_management_metrics_owner
+    data_source: penalty_management_metrics_warehouse
+    evidence_generated: financial_penalty_recovery_rate_measurement_record
+  - metric_name: sanction_proportionality_index
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure sanction proportionality index for Penalty Management operational and regulatory
+        assurance
+    formula: computed_sanction_proportionality_index_from_penalty_management_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: penalty_management_metrics_owner
+    data_source: penalty_management_metrics_warehouse
+    evidence_generated: sanction_proportionality_index_measurement_record
+kpis:
+  - metric_name: sanction_issuance_cycle_days
+    formula: computed_sanction_issuance_cycle_days_from_penalty_management_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: penalty_calculation_accuracy_rate
+    formula: computed_penalty_calculation_accuracy_rate_from_penalty_management_telemetry
+    target: >= 95%
+  - metric_name: appeal_overturn_rate
+    formula: computed_appeal_overturn_rate_from_penalty_management_telemetry
+    target: >= 95%
+  - metric_name: repeat_violation_recidivism_score
+    formula: computed_repeat_violation_recidivism_score_from_penalty_management_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: repeat_violation_recidivism_score
+    business_purpose: Measure repeat violation recidivism score for Penalty Management operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: sanction_calculation_workpapers
+    evidence_type: primary
+    business_purpose: Support penalty management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_penalty_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: penalty_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: penalty_determination_orders
+    evidence_type: corroborating
+    business_purpose: Support penalty management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_penalty_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: penalty_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: appeal_correspondence
+    evidence_type: attestation
+    business_purpose: Support penalty management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_penalty_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: penalty_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: payment_compliance_records
+    evidence_type: derivative
+    business_purpose: Support penalty management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_penalty_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: penalty_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: repeat_violation_history_extract
+    evidence_type: audit
+    business_purpose: Support penalty management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_penalty_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: penalty_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: sanction_register_snapshot
+    evidence_type: regulatory
+    business_purpose: Support penalty management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_penalty_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: penalty_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: penalty_management_status_dashboard
+    report_owner: penalty_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: monthly
+    report_inputs:
+      - penalty_management_telemetry
+      - penalty_management_evidence_index
+    report_outputs:
+      - penalty_management_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: penalty_management_compliance_summary
+    report_owner: penalty_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - penalty_management_telemetry
+      - penalty_management_evidence_index
+    report_outputs:
+      - penalty_management_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: penalty_assurance_report
+    report_owner: penalty_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - penalty_management_telemetry
+      - penalty_management_evidence_index
+    report_outputs:
+      - penalty_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: penalty_management_executive_brief
+    report_owner: penalty_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - penalty_management_telemetry
+      - penalty_management_evidence_index
+    report_outputs:
+      - penalty_management_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: penalty_management_audit_pack
+    report_owner: penalty_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - penalty_management_telemetry
+      - penalty_management_evidence_index
+    report_outputs:
+      - penalty_management_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Penalty Management interfaces with autonomous agents, GPAI, or
+      tool-calling systems.
+  agent_governance:
+    agent_identity: penalty_management_registered_agent_identity_schema
+    agent_role: penalty_management_delegated_authority_role_matrix
+    agent_permissions: penalty_management_least_privilege_permission_set
+    agent_constraints: penalty_management_autonomy_and_tool_constraints
+    agent_accountability: penalty_management_human_accountability_chain
+    agent_escalation_rules: penalty_management_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - penalty_management_policy_context
+      - penalty_management_risk_score
+      - penalty_management_human_intent
+    decision_outputs:
+      - penalty_management_authorized_action
+      - penalty_management_escalation_notice
+    decision_owners:
+      - penalty_management_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: penalty_management_high_risk_decision_mandatory_review
+    decision_accountability: penalty_management_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: penalty_management_approved_tool_allowlist
+    tool_execution_validation: penalty_management_pre_execution_tool_risk_check
+    tool_risk_controls: penalty_management_tool_side_effect_containment
+    tool_auditability: penalty_management_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: penalty_management_memory_segment_access_policy
+    memory_integrity_validation: penalty_management_memory_tamper_detection
+    memory_retention_controls: penalty_management_memory_retention_and_purge_rules
+    memory_auditability: penalty_management_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: penalty_management_chain_of_thought_capture
+    reasoning_validation: penalty_management_reasoning_consistency_check
+    reasoning_risk_monitoring: penalty_management_reasoning_hazard_detection
+    reasoning_accountability: penalty_management_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - penalty_management_audit_log
+  - penalty_management_activity_log
+  - penalty_management_decision_log
+  - penalty_management_traceability_record
+  - penalty_management_evidence_package
+  - penalty_management_chain_of_custody_record
+  - penalty_management_attestation
+required_evidence:
+  - penalty_management_audit_log
+  - penalty_management_activity_log
+  - penalty_management_decision_log
+  - penalty_management_traceability_record
+  - penalty_management_evidence_package
+  - penalty_management_chain_of_custody_record
+  - penalty_management_attestation
+supporting_evidence:
+  - penalty_management_audit_log
+  - penalty_management_activity_log
+  - penalty_management_decision_log
+  - penalty_management_traceability_record
+  - penalty_management_evidence_package
+audit_evidence:
+  - penalty_management_audit_log
+  - penalty_management_activity_log
+  - penalty_management_decision_log
+  - penalty_management_traceability_record
+  - penalty_management_evidence_package
+  - penalty_management_chain_of_custody_record
+  - penalty_management_attestation
+forensic_evidence:
+  - penalty_management_audit_log
+  - penalty_management_activity_log
+  - penalty_management_decision_log
+  - penalty_management_traceability_record
+  - penalty_management_evidence_package
+  - penalty_management_chain_of_custody_record
+  - penalty_management_attestation
+regulatory_evidence:
+  - penalty_management_audit_log
+  - penalty_management_activity_log
+  - penalty_management_decision_log
+  - penalty_management_traceability_record
+  - penalty_management_evidence_package
+  - penalty_management_chain_of_custody_record
+  - penalty_management_attestation
+validation_evidence:
+  - penalty_management_audit_log
+  - penalty_management_activity_log
+  - penalty_management_decision_log
+  - penalty_management_traceability_record
+  - penalty_management_evidence_package
+  - penalty_management_chain_of_custody_record
+  - penalty_management_attestation
+validation_rules:
+  - rule: penalty_management_evidence_complete
+    condition: required_evidence_penalty_management < threshold
+    action: BLOCK_SUBMISSION
+  - rule: penalty_management_integrity_verified
+    condition: integrity_status_penalty_management != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: penalty_management_custody_intact
+    condition: custody_gap_penalty_management == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Penalty Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Penalty Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Penalty Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Penalty Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Penalty Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - penalty_management_control_failure
+    - penalty_management_evidence_compromise
+    - penalty_management_regulatory_non_compliance
+    - penalty_management_enforcement_delay
+  risk_events:
+    - penalty_management_audit_finding_critical
+    - penalty_management_investigation_escalation
+    - penalty_management_sanction_exposure
+    - penalty_management_market_surveillance_inquiry
+  risk_indicators:
+    - penalty_management_control_effectiveness_degradation
+    - penalty_management_evidence_gap_rate
+    - penalty_management_sla_breach_count
+    - penalty_management_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    penalty_management_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: penalty_management_forensic_lead
+    penalty_management_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    penalty_management_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: penalty_management_enforcement_officer
+  risk_tolerance:
+    penalty_management_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: penalty_management_risk_score >= 60
+    critical: penalty_management_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Penalty Management controls documented in penalty_management_risk_register
+      with quarterly review.
+  risk_treatment:
+    - penalty_management_preventive_control_reinforcement
+    - penalty_management_detective_monitoring_enhancement
+    - penalty_management_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: penalty_management_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Penalty Management workflow events with provenance anchor and
+      penalty_management_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via penalty_management_collection_api with schema validation and
+      classification
+  evidence_validation:
+    Completeness, authenticity, and admissibility checks via penalty_management_validation_engine
+  evidence_classification:
+    RESTRICTED/CONFIDENTIAL classification per penalty_management_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in penalty_management_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per penalty_management_retention_schedule aligned with EU AI Act Article 18 and legal
+      hold
+  evidence_archival:
+    Long-term archival with penalty_management_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via penalty_management_retrieval_gateway with purpose logging
+  evidence_disposal:
+    Authorized disposition with penalty_management_disposition_certificate and dual approval
+chain_of_custody:
+  custody_events:
+    - penalty_management_capture_event
+    - penalty_management_transfer_event
+    - penalty_management_access_event
+    - penalty_management_disposition_event
+  custody_owners:
+    primary: penalty_management_evidence_custodian
+    secondary: penalty_management_forensic_lead
+  custody_validation:
+    method: penalty_management_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - penalty_management_sha256_hash_chain
+    - penalty_management_digital_signature
+    - penalty_management_timestamp_authority
+  tamper_detection:
+    method: penalty_management_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: penalty_management_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_71:
+    article: Article 71
+    regulatory_text_summary:
+      Penalties.
+    obligation:
+      >
+        Administrative fines for infringements. Implemented through Penalty Management in
+        penalty_management.
+    implementation_controls:
+      - penalty_management_article_71_preventive_control
+      - penalty_management_article_71_detective_control
+      - penalty_management_article_71_evidence_control
+    implementation_processes:
+      - penalty_management_article_71_workflow
+      - penalty_management_article_71_validation_process
+      - penalty_management_article_71_escalation_process
+    implementation_evidence:
+      - penalty_management_article_71_compliance_record
+      - penalty_management_article_71_audit_package
+      - penalty_management_article_71_attestation
+    validation_method: penalty_management_article_71_automated_and_manual_conformity_testing
+    audit_method: penalty_management_article_71_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: penalty_management_article_71_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Penalty Management demonstrates Article 71 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_22:
+    article: Article 22
+    regulatory_text_summary:
+      Changes to high-risk AI systems.
+    obligation:
+      >
+        Notification of substantial modifications. Implemented through Penalty Management in
+        penalty_management.
+    implementation_controls:
+      - penalty_management_article_22_preventive_control
+      - penalty_management_article_22_detective_control
+      - penalty_management_article_22_evidence_control
+    implementation_processes:
+      - penalty_management_article_22_workflow
+      - penalty_management_article_22_validation_process
+      - penalty_management_article_22_escalation_process
+    implementation_evidence:
+      - penalty_management_article_22_compliance_record
+      - penalty_management_article_22_audit_package
+      - penalty_management_article_22_attestation
+    validation_method: penalty_management_article_22_automated_and_manual_conformity_testing
+    audit_method: penalty_management_article_22_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: penalty_management_article_22_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Penalty Management demonstrates Article 22 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Penalty Management in penalty_management.
+    implementation_controls:
+      - penalty_management_article_26_preventive_control
+      - penalty_management_article_26_detective_control
+      - penalty_management_article_26_evidence_control
+    implementation_processes:
+      - penalty_management_article_26_workflow
+      - penalty_management_article_26_validation_process
+      - penalty_management_article_26_escalation_process
+    implementation_evidence:
+      - penalty_management_article_26_compliance_record
+      - penalty_management_article_26_audit_package
+      - penalty_management_article_26_attestation
+    validation_method: penalty_management_article_26_automated_and_manual_conformity_testing
+    audit_method: penalty_management_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: penalty_management_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Penalty Management demonstrates Article 26 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_99:
+    article: Article 99
+    regulatory_text_summary:
+      Penalties for GPAI.
+    obligation:
+      >
+        Penalties specific to GPAI obligations. Implemented through Penalty Management in
+        penalty_management.
+    implementation_controls:
+      - penalty_management_article_99_preventive_control
+      - penalty_management_article_99_detective_control
+      - penalty_management_article_99_evidence_control
+    implementation_processes:
+      - penalty_management_article_99_workflow
+      - penalty_management_article_99_validation_process
+      - penalty_management_article_99_escalation_process
+    implementation_evidence:
+      - penalty_management_article_99_compliance_record
+      - penalty_management_article_99_audit_package
+      - penalty_management_article_99_attestation
+    validation_method: penalty_management_article_99_automated_and_manual_conformity_testing
+    audit_method: penalty_management_article_99_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: penalty_management_article_99_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Penalty Management demonstrates Article 99 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+crosswalks:
+  eu_ai_act:
+    article_71:
+      implementation: penalty_management_eu_ai_act_article_71_control_set
+      process: penalty_management_eu_ai_act_article_71_workflow
+      evidence: penalty_management_eu_ai_act_article_71_attestation
+    article_22:
+      implementation: penalty_management_eu_ai_act_article_22_control_set
+      process: penalty_management_eu_ai_act_article_22_workflow
+      evidence: penalty_management_eu_ai_act_article_22_attestation
+    article_26:
+      implementation: penalty_management_eu_ai_act_article_26_control_set
+      process: penalty_management_eu_ai_act_article_26_workflow
+      evidence: penalty_management_eu_ai_act_article_26_attestation
+    article_99:
+      implementation: penalty_management_eu_ai_act_article_99_control_set
+      process: penalty_management_eu_ai_act_article_99_workflow
+      evidence: penalty_management_eu_ai_act_article_99_attestation
+  gdpr:
+    article_5:
+      implementation: penalty_management_gdpr_article_5_privacy_control
+      evidence: penalty_management_gdpr_article_5_compliance_record
+    article_6:
+      implementation: penalty_management_gdpr_article_6_privacy_control
+      evidence: penalty_management_gdpr_article_6_compliance_record
+    article_22:
+      implementation: penalty_management_gdpr_article_22_privacy_control
+      evidence: penalty_management_gdpr_article_22_compliance_record
+    article_25:
+      implementation: penalty_management_gdpr_article_25_privacy_control
+      evidence: penalty_management_gdpr_article_25_compliance_record
+    article_32:
+      implementation: penalty_management_gdpr_article_32_privacy_control
+      evidence: penalty_management_gdpr_article_32_compliance_record
+    article_35:
+      implementation: penalty_management_gdpr_article_35_privacy_control
+      evidence: penalty_management_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: penalty_management_iso42001_clause_4_1_aims_control
+      evidence: penalty_management_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: penalty_management_iso42001_clause_4_2_aims_control
+      evidence: penalty_management_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: penalty_management_iso42001_clause_5_1_aims_control
+      evidence: penalty_management_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: penalty_management_iso42001_clause_5_2_aims_control
+      evidence: penalty_management_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: penalty_management_iso42001_clause_6_1_aims_control
+      evidence: penalty_management_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: penalty_management_iso42001_clause_8_1_aims_control
+      evidence: penalty_management_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: penalty_management_iso42001_clause_9_1_aims_control
+      evidence: penalty_management_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: penalty_management_iso42001_clause_10_1_aims_control
+      evidence: penalty_management_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: penalty_management_iso23894_risk_identification_alignment
+      evidence: penalty_management_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: penalty_management_iso23894_risk_analysis_alignment
+      evidence: penalty_management_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: penalty_management_iso23894_risk_evaluation_alignment
+      evidence: penalty_management_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: penalty_management_iso23894_risk_treatment_alignment
+      evidence: penalty_management_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: penalty_management_iso23894_risk_monitoring_alignment
+      evidence: penalty_management_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: penalty_management_iso19011_audit_principles_procedure
+      evidence: penalty_management_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: penalty_management_iso19011_audit_programme_management_procedure
+      evidence: penalty_management_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: penalty_management_iso19011_audit_evidence_requirements_procedure
+      evidence: penalty_management_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: penalty_management_iso19011_audit_reporting_procedure
+      evidence: penalty_management_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: penalty_management_nist_rmf_govern_control_mapping
+      evidence: penalty_management_nist_rmf_govern_assessment
+    map:
+      implementation: penalty_management_nist_rmf_map_control_mapping
+      evidence: penalty_management_nist_rmf_map_assessment
+    measure:
+      implementation: penalty_management_nist_rmf_measure_control_mapping
+      evidence: penalty_management_nist_rmf_measure_assessment
+    manage:
+      implementation: penalty_management_nist_rmf_manage_control_mapping
+      evidence: penalty_management_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: penalty_management_nist_csf_identify_safeguard
+      evidence: penalty_management_nist_csf_identify_log
+    protect:
+      implementation: penalty_management_nist_csf_protect_safeguard
+      evidence: penalty_management_nist_csf_protect_log
+    detect:
+      implementation: penalty_management_nist_csf_detect_safeguard
+      evidence: penalty_management_nist_csf_detect_log
+    respond:
+      implementation: penalty_management_nist_csf_respond_safeguard
+      evidence: penalty_management_nist_csf_respond_log
+    recover:
+      implementation: penalty_management_nist_csf_recover_safeguard
+      evidence: penalty_management_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: penalty_management_oecd_accountability_governance_control
+      evidence: penalty_management_oecd_accountability_attestation
+    transparency:
+      implementation: penalty_management_oecd_transparency_governance_control
+      evidence: penalty_management_oecd_transparency_attestation
+    robustness_security:
+      implementation: penalty_management_oecd_robustness_security_governance_control
+      evidence: penalty_management_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: penalty_management_oecd_inclusive_growth_governance_control
+      evidence: penalty_management_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: penalty_management_unesco_human_rights_ethics_control
+      evidence: penalty_management_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: penalty_management_unesco_fairness_non_discrimination_ethics_control
+      evidence: penalty_management_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: penalty_management_unesco_transparency_explainability_ethics_control
+      evidence: penalty_management_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: penalty_management_unesco_accountability_ethics_control
+      evidence: penalty_management_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Penalty Management covering executive, board, regulatory, audit,
+      forensic, and attestation consumers.
+  report_types:
+    - penalty_management_status_report
+    - penalty_management_compliance_report
+    - penalty_management_enforcement_report
+    - penalty_management_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [penalty_management_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_penalty_management
+  - quarterly_control_testing_penalty_management
+  - evidence_sampling_penalty_management
+  - finding_remediation_tracking_penalty_management
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Penalty Management aligned with ISO/IEC 27037 and legal admissibility
+      standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Penalty Management.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Penalty Management.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Penalty Management.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Penalty Management.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Penalty Management.
+enforcement_requirements:
+  enforcement_framework:
+    Enforcement Framework within Penalty Management scope.
+  enforcement_decision_logic:
+    Enforcement Decision Logic within Penalty Management scope.
+  sanction_management:
+    Sanction Management within Penalty Management scope.
+  penalty_management:
+    Penalty Management within Penalty Management scope.
+  post_enforcement_monitoring:
+    Post Enforcement Monitoring within Penalty Management scope.
+integration_points:
+  upstream_systems:
+    - system: investigation_management
+      purpose: penalty_management_to_investigation_management_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_investigation_management]
+      produced_artifacts: [penalty_management_output_to_investigation_management]
+    - system: enforcement_actions
+      purpose: penalty_management_to_enforcement_actions_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_enforcement_actions]
+      produced_artifacts: [penalty_management_output_to_enforcement_actions]
+    - system: compliance_audits
+      purpose: penalty_management_to_compliance_audits_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_compliance_audits]
+      produced_artifacts: [penalty_management_output_to_compliance_audits]
+  downstream_systems:
+    - system: remediation_tracking
+      purpose: penalty_management_to_remediation_tracking_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_remediation_tracking]
+      produced_artifacts: [penalty_management_output_to_remediation_tracking]
+    - system: reporting
+      purpose: penalty_management_to_reporting_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_reporting]
+      produced_artifacts: [penalty_management_output_to_reporting]
+    - system: enforcement_actions
+      purpose: penalty_management_to_enforcement_actions_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_enforcement_actions]
+      produced_artifacts: [penalty_management_output_to_enforcement_actions]
+  governance_integrations:
+    - system: ai_liability
+      purpose: penalty_management_to_ai_liability_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_ai_liability]
+      produced_artifacts: [penalty_management_output_to_ai_liability]
+    - system: legal_interoperability
+      purpose: penalty_management_to_legal_interoperability_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_legal_interoperability]
+      produced_artifacts: [penalty_management_output_to_legal_interoperability]
+  risk_integrations:
+    - system: ai_liability
+      purpose: penalty_management_to_ai_liability_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_ai_liability]
+      produced_artifacts: [penalty_management_output_to_ai_liability]
+    - system: compliance_scoring
+      purpose: penalty_management_to_compliance_scoring_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_compliance_scoring]
+      produced_artifacts: [penalty_management_output_to_compliance_scoring]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: penalty_management_to_compliance_audits_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_compliance_audits]
+      produced_artifacts: [penalty_management_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: penalty_management_to_internal_audit_system_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_internal_audit_system]
+      produced_artifacts: [penalty_management_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: penalty_management_to_governance_reporting_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_governance_reporting]
+      produced_artifacts: [penalty_management_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: penalty_management_to_executive_dashboard_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_executive_dashboard]
+      produced_artifacts: [penalty_management_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: penalty_management_to_enforcement_actions_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_enforcement_actions]
+      produced_artifacts: [penalty_management_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: penalty_management_to_policy_enforcement_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_policy_enforcement]
+      produced_artifacts: [penalty_management_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: penalty_management_to_remediation_tracking_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_remediation_tracking]
+      produced_artifacts: [penalty_management_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: penalty_management_to_remediation_engine_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_remediation_engine]
+      produced_artifacts: [penalty_management_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: penalty_management_to_evidence_preservation_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_evidence_preservation]
+      produced_artifacts: [penalty_management_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: penalty_management_to_technical_documentation_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_technical_documentation]
+      produced_artifacts: [penalty_management_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: penalty_management_to_post_market_monitoring_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_post_market_monitoring]
+      produced_artifacts: [penalty_management_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: penalty_management_to_incident_reporting_governance_sync
+      data_exchanged: [penalty_management_events, penalty_management_evidence_refs, penalty_management_metrics]
+      trigger_conditions: [penalty_management_state_change, penalty_management_escalation, penalty_management_closure]
+      consumed_artifacts: [penalty_management_input_from_incident_reporting]
+      produced_artifacts: [penalty_management_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Penalty Management activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Penalty Management procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - penalty_management_procedure_checklist
+    required_evidence:
+      - penalty_management_process_log
+    required_metrics:
+      - penalty_management_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Penalty Management enterprise-wide.
+    required_capabilities:
+      - penalty_management_standard_control_set
+    required_controls:
+      - penalty_management_control_register
+    required_evidence:
+      - penalty_management_audit_evidence
+    required_metrics:
+      - penalty_management_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Penalty Management with KPI optimization.
+    required_capabilities:
+      - penalty_management_automated_controls
+    required_controls:
+      - penalty_management_telemetry_controls
+    required_evidence:
+      - penalty_management_assurance_package
+    required_metrics:
+      - penalty_management_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Penalty Management with predictive analytics.
+    required_capabilities:
+      - penalty_management_autonomous_governance
+    required_controls:
+      - penalty_management_adaptive_controls
+    required_evidence:
+      - penalty_management_regulator_ready_portfolio
+    required_metrics:
+      - penalty_management_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - penalty_management_report
+  - penalty_management_evidence_package
+  - penalty_management_attestation
+  - penalty_management_enforcement_record
+artifacts:
+  - name: penalty_management_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: penalty_management_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: penalty_management_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: penalty_management_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - penalty_management_case_record
+  - penalty_management_audit_record
+  - penalty_management_enforcement_record
+  - penalty_management_remediation_record
+monitoring:
+  continuous:
+    - penalty_management_control_telemetry
+    - penalty_management_evidence_integrity_feed
+    - penalty_management_escalation_queue
+  periodic:
+    - penalty_management_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Penalty Management effectiveness, regulatory change impact assessment, and
+    control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: penalty_management_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: penalty_management_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: penalty_management_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: penalty_management_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Penalty Management

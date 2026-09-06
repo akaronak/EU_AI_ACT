@@ -1,0 +1,1003 @@
+metadata:
+  document_id: "GPA-EVAL-SYSTEMIC_EVA-001"
+  title: "Systemic Evaluation Metadata"
+  domain: "General Purpose Ai"
+  version: "1.0.0"
+  classification: "RESTRICTED"
+  purpose: "Govern, operationalize, and validate compliance checks for Systemic Evaluation Metadata under the Systemic Evaluation framework. This skill provides machine-readable, executable GPAI governance, lifecyle modeling, and risk validation logic specifically tailored to societal impact audits, large scale evaluation suites, systemic failure simulations, cross border impact reviews properties."
+  scope: "Scope covers all general purpose AI configurations, operational pipelines, telemetry streams, and conformity assessments governed by the Systemic Evaluation Metadata architecture under Systemic Evaluation requirements."
+  objectives:
+    - "Enforce automated validation check gates for Systemic Evaluation Metadata model capabilities."
+    - "Enable real-time tracking, risk modeling, and transparency updates under Systemic Evaluation."
+    - "Compile verifiable evidence reports to prove readiness for Article 51-55 obligations."
+  definitions:
+    systemic_evaluation_metadata_governance_policy: "The primary operational GPAI governance policy guidelines for Systemic Evaluation Metadata."
+    systemic_evaluation_metadata_telemetry_payload: "Structured telemetry bundle containing lifecycle events, capability indicators, and safety scores."
+  taxonomy:
+    capability_tiers:
+      - "STANDARD_GPAI"
+      - "SYSTEMIC_RISK_GPAI"
+      - "FRONTIER_CLASS_GPAI"
+    governance_roles:
+      - "COMPLIANCE_STEWARD"
+      - "RISK_AUDITOR"
+      - "SAFETY_LEAD"
+  applicable_roles:
+    - "compliance_steward"
+    - "risk_auditor"
+    - "safety_lead"
+    - "assurance_officer"
+    - "monitor_lead"
+  regulatory_alignment:
+    iso_42001:
+      requirements: "Establish AI management systems."
+      sections:
+        - "Section 6"
+        - "Section 8"
+        - "Section 9"
+    nist_ai_rmf:
+      requirements: "Align with GOVERN and MANAGE parameters."
+      functions:
+        - "GOVERN"
+        - "MAP"
+        - "MEASURE"
+        - "MANAGE"
+    eu_ai_act:
+      requirements: "Conform with Articles 51-55 obligations."
+      articles:
+        - "Article 51"
+        - "Article 52"
+        - "Article 53"
+        - "Article 55"
+purpose: "Govern, operationalize, and validate compliance checks for Systemic Evaluation Metadata under the Systemic Evaluation framework. This skill provides machine-readable, executable GPAI governance, lifecyle modeling, and risk validation logic specifically tailored to societal impact audits, large scale evaluation suites, systemic failure simulations, cross border impact reviews properties."
+scope: "Scope covers all general purpose AI configurations, operational pipelines, telemetry streams, and conformity assessments governed by the Systemic Evaluation Metadata architecture under Systemic Evaluation requirements."
+objectives:
+  - "Enforce automated validation check gates for Systemic Evaluation Metadata model capabilities."
+  - "Enable real-time tracking, risk modeling, and transparency updates under Systemic Evaluation."
+  - "Compile verifiable evidence reports to prove readiness for Article 51-55 obligations."
+definitions:
+  systemic_evaluation_metadata_governance_policy: "The primary operational GPAI governance policy guidelines for Systemic Evaluation Metadata."
+  systemic_evaluation_metadata_telemetry_payload: "Structured telemetry bundle containing lifecycle events, capability indicators, and safety scores."
+taxonomy:
+  capability_tiers:
+    - "STANDARD_GPAI"
+    - "SYSTEMIC_RISK_GPAI"
+    - "FRONTIER_CLASS_GPAI"
+  governance_roles:
+    - "COMPLIANCE_STEWARD"
+    - "RISK_AUDITOR"
+    - "SAFETY_LEAD"
+governance:
+  governance_model: "COORDINATED_GPAI_COMPLIANCE"
+  governance_structure: "Enterprise GPAI Oversight Council - Systemic Evaluation"
+  roles_and_responsibilities:
+    compliance_steward: "Responsible for leading general obligations and documentation checks for Systemic Evaluation Metadata."
+    risk_auditor: "Responsible for verifying systemic risk benchmarks and taxonomies for Systemic Evaluation Metadata."
+    safety_lead: "Responsible for managing safety overrides and ecosystem controls for Systemic Evaluation Metadata."
+  stakeholders:
+    - "Chief AI Officer"
+    - "General Counsel"
+    - "Lead Integrity Architect"
+governance_model:
+  model_type: "COORDINATED_GPAI_COMPLIANCE"
+  model_rationale: "Ensures uniform application of GPAI compliance guidelines and audit-ready tracking of Systemic Evaluation Metadata across operational divisions."
+governance_structure:
+  oversight_board: "Enterprise Trust & Ethics Committee - Systemic Evaluation"
+  escalation_contact: "gpai_safety@enterprise.ai"
+roles_and_responsibilities:
+  compliance_steward: "Primary owner of Systemic Evaluation Metadata compliance registries and documentation audits."
+  risk_auditor: "Responsible for model benchmark evaluations and updating Systemic Evaluation Metadata risk logs."
+  safety_lead: "Responsible for coordinating downstream deployer guidelines and threshold validations."
+stakeholders:
+  - "Head of AI Compliance"
+  - "VP of Quality Assurance"
+  - "Lead System Architect"
+  - "Systemic Evaluation Lead specialist"
+capabilities:
+  - "Continuous automated monitoring of capability limits for Systemic Evaluation Metadata."
+  - "Real-time signal analysis and automated threshold escalation under Systemic Evaluation."
+  - "Pre-attested compliance evidence packaging for external regulatory inspections."
+requirements:
+  - "All model alterations in Systemic Evaluation Metadata must be tracked and logged."
+  - "Assurance verification scores must exceed the 0.90 baseline parameters."
+  - "Telemetry reports must map to applicable systemic risk categories."
+controls:
+  - control_id: "CTRL-GPAI-EVAL-SYSTEM-01"
+    control_name: "gpai_capability_governance_control"
+    control_type: "PREVENTATIVE"
+    control_category: "CAPABILITY"
+    control_objective: "Verify and enforce capability limits and classification mappings for Systemic Evaluation Metadata."
+    gpai_rationale: "Required to prevent classification errors and coordinate capability checks for Systemic Evaluation Metadata."
+    implementation_guidance: "Deploy validation scripts that compare model capability vectors against threshold rules weekly."
+    control_owner: "Compliance Steward"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Track capability evaluation checks logs and validation database entries."
+    validation_method: "Inject capability boundary violation benchmark profile, verify release gateway block."
+    evidence_generated: "Signed capability classification attestation saved in compliance vault."
+    escalation_conditions: "Model performance exceeds defined capability threshold parameters."
+    audit_considerations: "Check classification rules and benchmark evaluation datasets."
+  - control_id: "CTRL-GPAI-EVAL-SYSTEM-02"
+    control_name: "systemic_risk_monitoring_control"
+    control_type: "DETECTIVE"
+    control_category: "RISK"
+    control_objective: "Ensure that systemic risks and cascading failures associated with Systemic Evaluation Metadata are continuously monitored."
+    gpai_rationale: "Reduces societal impacts and maintains real-time risk dashboards for Systemic Evaluation Metadata."
+    implementation_guidance: "Deploy systemic risk telemetry webhook loops that continuously monitor production logs."
+    control_owner: "Risk Auditor"
+    control_frequency: "CONTINUOUS"
+    monitoring_method: "Monitor systemic risk dashboard scores and webhook status daily."
+    validation_method: "Simulate anomaly behavior stream, verify risk score alert is generated."
+    evidence_generated: "Daily Systemic Risk Compliance reports."
+    escalation_conditions: "Systemic risk score exceeds critical threshold baseline."
+    audit_considerations: "Check risk correlation metrics and telemetry source indexes."
+  - control_id: "CTRL-GPAI-EVAL-SYSTEM-03"
+    control_name: "autonomous_behavior_assurance_control"
+    control_type: "PREVENTATIVE"
+    control_category: "AUTONOMY"
+    control_objective: "Verify and limit autonomous behaviors and decision loops within Systemic Evaluation Metadata runtime."
+    gpai_rationale: "Maintains human oversight and prevents black-box execution of Systemic Evaluation Metadata sub-tasks."
+    implementation_guidance: "Deploy runtime enforcement policies that restrict agent steps and tool invocation loops."
+    control_owner: "Safety Lead"
+    control_frequency: "REAL_TIME"
+    monitoring_method: "Track active model transaction execution steps and override counts."
+    validation_method: "Mock agent transaction violating step limits, confirm runtime halt."
+    evidence_generated: "Weekly agent behavior and override event logs."
+    escalation_conditions: "Agent loop runs without supervisor sign-off or exceeds step bounds."
+    audit_considerations: "Verify runtime policy configuration file signature."
+  - control_id: "CTRL-GPAI-EVAL-SYSTEM-04"
+    control_name: "ecosystem_dependency_control"
+    control_type: "DETECTIVE"
+    control_category: "ECOSYSTEM"
+    control_objective: "Monitor third-party API dependencies and downstream integrations for Systemic Evaluation Metadata."
+    gpai_rationale: "Maintains supply-chain security and prevents dependency injection vulnerabilities in Systemic Evaluation Metadata."
+    implementation_guidance: "Compile API validation manifest weekly and track usage logs for unauthorized endpoints."
+    control_owner: "Safety Lead"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Review API gateway dependency tracking graphs daily."
+    validation_method: "Simulate unauthorized API call, check connection block response."
+    evidence_generated: "Weekly Dependency Verification Attestation and API logs registry."
+    escalation_conditions: "API usage shift or security hash mismatch detected."
+    audit_considerations: "Check API key management configs and endpoint allow-lists."
+  - control_id: "CTRL-GPAI-EVAL-SYSTEM-05"
+    control_name: "gpai_transparency_assurance_control"
+    control_type: "PREVENTATIVE"
+    control_category: "TRANSPARENCY"
+    control_objective: "Validate model card declarations and data disclosures for Systemic Evaluation Metadata."
+    gpai_rationale: "Ensures compliance with Article 52 and 53 transparency requirements for Systemic Evaluation Metadata."
+    implementation_guidance: "Verify all model card metadata fields match verification metrics before release."
+    control_owner: "Compliance Steward"
+    control_frequency: "ON_RELEASE"
+    monitoring_method: "Verify metadata checklist validation state."
+    validation_method: "Generate model card with missing fields, confirm release blocking."
+    evidence_generated: "Signed Model Card Attestation certificate."
+    escalation_conditions: "Checklist score < 1.0 or missing training data logs."
+    audit_considerations: "Review model card generation scripts and source index registries."
+  - control_id: "CTRL-GPAI-EVAL-SYSTEM-06"
+    control_name: "multi_agent_accountability_control"
+    control_type: "DETECTIVE"
+    control_category: "ACCOUNTABILITY"
+    control_objective: "Trace coordination structures and enforce agentic accountability protocols in multi-agent runs of Systemic Evaluation Metadata."
+    gpai_rationale: "Prevents coordination failures and unmonitored swarm interactions under Systemic Evaluation Metadata."
+    implementation_guidance: "Log all multi-agent interaction signatures and session tokens to a secure database."
+    control_owner: "Compliance Steward"
+    control_frequency: "REAL_TIME"
+    monitoring_method: "Audit interaction trace ledger daily."
+    validation_method: "Mock multi-agent session without coordination keys, verify connection reset."
+    evidence_generated: "Weekly Multi-Agent Interaction Ledger logs."
+    escalation_conditions: "Unattested agent interaction or validation errors."
+    audit_considerations: "Verify ledger entry logic and signature authority setups."
+decision_logic:
+  escalation_trigger: "If gpai_maturity_score falls below 0.67, alert the Compliance Steward immediately."
+  incident_classification: "Classify as CRITICAL if systemic_risk_score exceeds 0.10 for more than 4 hours."
+processes:
+  capability_review: "Detailed process for evaluating model capability growth and benchmark shifts for Systemic Evaluation Metadata."
+  mitigation_execution: "Standard procedures to deploy containment walls and halt downstream queries for Systemic Evaluation Metadata."
+workflows:
+  - workflow_id: "gpai_capability_assessment_workflow"
+    workflow_owner: "Compliance Steward"
+    workflow_objective: "Assess model capability benchmarks and classification status for Systemic Evaluation Metadata."
+    trigger: "Model build compilation complete."
+    inputs:
+      - "model_weights_registry"
+      - "capability_thresholds_manifest"
+      - "eval_test_sets"
+    activities:
+      - "Execute automated capability evaluation suites in container."
+      - "Extract benchmark scores and compare against thresholds."
+      - "Generate capability assessment report."
+    decision_points:
+      - "Capability threshold check"
+      - "GPAI classification review"
+    approvals:
+      - "Compliance Steward Sign-off"
+    outputs:
+      - "Capability verification report"
+      - "Updated classification status"
+    generated_evidence: "Capability Classification Attestation saved in compliance vault."
+    success_criteria: "Evaluation completes and report is generated within 6 hours of compile."
+    failure_conditions: "Evaluation script fails or test set is unreachable."
+  - workflow_id: "gpai_risk_review_workflow"
+    workflow_owner: "Risk Auditor"
+    workflow_objective: "Audit risk vectors and compile risk mitigations for Systemic Evaluation Metadata."
+    trigger: "Scheduled monthly review cycle or capability update alert."
+    inputs:
+      - "active_risk_register"
+      - "systemic_risk_telemetry"
+      - "mitigation_controls_status"
+    activities:
+      - "Audit active risk logs against nist_ai_rmf parameters."
+      - "Identify gaps in current control implementations."
+      - "Draft risk review memo and submit to Safety Board."
+    decision_points:
+      - "Risk tolerance check"
+      - "Mitigation suitability review"
+    approvals:
+      - "Risk Auditor Approval"
+    outputs:
+      - "Monthly risk assessment memo"
+      - "Updated risk register logs"
+    generated_evidence: "Signed Monthly Risk Review memo archived in portal."
+    success_criteria: "Risk review completed and registered within first week of month."
+    failure_conditions: "Telemetry database offline or risk log is corrupted."
+  - workflow_id: "gpai_assurance_workflow"
+    workflow_owner: "Compliance Steward"
+    workflow_objective: "Perform comprehensive compliance assurance audit and issue certificates for Systemic Evaluation Metadata."
+    trigger: "Annual audit schedule or pre-release validation gateway."
+    inputs:
+      - "compliance_scorecards"
+      - "validation_certificates_index"
+      - "audit_log_manifests"
+    activities:
+      - "Verify signature hashes on all validation records."
+      - "Review compliance crosswalk alignment scores."
+      - "Draft and issue official GPAI compliance certificate."
+    decision_points:
+      - "Assurance completeness check"
+      - "Certificate validity review"
+    approvals:
+      - "Corporate Ethics Board sign-off"
+      - "Compliance Steward Approval"
+    outputs:
+      - "Official compliance certificate"
+      - "Audit report summary"
+    generated_evidence: "Signed Compliance Certificate stored in immutable registry."
+    success_criteria: "Assurance audit completed and signed certificate published."
+    failure_conditions: "Signature mismatch or missing key validation records."
+  - workflow_id: "systemic_risk_monitoring_workflow"
+    workflow_owner: "Safety Lead"
+    workflow_objective: "Continuously monitor model transactions and downstream signals for systemic risk markers of Systemic Evaluation Metadata."
+    trigger: "Continuous run loop."
+    inputs:
+      - "live_telemetry_stream"
+      - "systemic_risk_indicators"
+      - "anomaly_thresholds"
+    activities:
+      - "Aggregate operational and security metrics."
+      - "Analyze request payloads and response strings for anomalies."
+      - "Publish real-time scores to dashboard."
+    decision_points:
+      - "Drift threshold check"
+      - "Safety alert trigger"
+    approvals:
+      - "Automated Execution - No approval required"
+    outputs:
+      - "Real-time telemetry report"
+      - "Systemic risk alerts"
+    generated_evidence: "Daily aggregated telemetry logs archived in compliance vault."
+    success_criteria: "Telemetry monitoring stream remains active with zero downtime."
+    failure_conditions: "Database connection drop or logging pipeline error."
+  - workflow_id: "ecosystem_governance_workflow"
+    workflow_owner: "Safety Lead"
+    workflow_objective: "Govern API downstream access and verify third-party compliance for Systemic Evaluation Metadata."
+    trigger: "New developer registration or quarterly partner audit."
+    inputs:
+      - "developer_profile_manifest"
+      - "partner_compliance_checklist"
+      - "usage_telemetry"
+    activities:
+      - "Audit developer usage telemetry against API parameters."
+      - "Verify compliance checklists and usage permissions."
+      - "Sign usage authorization keys."
+    decision_points:
+      - "Compliance checklist completeness check"
+      - "Usage profile review"
+    approvals:
+      - "Safety Lead Approval"
+    outputs:
+      - "API key authorization"
+      - "Partner audit report"
+    generated_evidence: "Signed Partner Audit Attestation stored in database."
+    success_criteria: "Audit completed and key issued within 3 days of request."
+    failure_conditions: "Checklist score < 1.0 or usage profile verification error."
+  - workflow_id: "transparency_validation_workflow"
+    workflow_owner: "Compliance Steward"
+    workflow_objective: "Validate model card declarations and user notification templates for Systemic Evaluation Metadata."
+    trigger: "Pre-deployment release verification schedule."
+    inputs:
+      - "model_card_manifest"
+      - "notification_templates_list"
+      - "training_data_log"
+    activities:
+      - "Verify model card parameters against evaluation logs."
+      - "Check notification templates match usability guidelines."
+      - "Sign transparency validation certificate."
+    decision_points:
+      - "Transparency template accuracy check"
+      - "Usability check"
+    approvals:
+      - "Compliance Steward Sign-off"
+    outputs:
+      - "Transparency validation certificate"
+      - "Validated model card"
+    generated_evidence: "Signed Transparency Attestation saved in compliance vault."
+    success_criteria: "Checklist verification passes with 100% score."
+    failure_conditions: "Missing model card fields or validation mismatch."
+  - workflow_id: "autonomy_review_workflow"
+    workflow_owner: "Safety Lead"
+    workflow_objective: "Review runtime agent autonomy limits and decision loops for Systemic Evaluation Metadata."
+    trigger: "Scheduled weekly audit window or autonomy warning alert."
+    inputs:
+      - "agent_decision_logs"
+      - "autonomy_policy_manifest"
+      - "override_events"
+    activities:
+      - "Audit agent execution logs and planning steps."
+      - "Evaluate step counts against policy thresholds."
+      - "Draft autonomy review summary report."
+    decision_points:
+      - "Autonomy policy match check"
+      - "Halt loop required check"
+    approvals:
+      - "Safety Lead Sign-off"
+    outputs:
+      - "Weekly autonomy review summary"
+      - "Updated autonomy policy config"
+    generated_evidence: "Signed Weekly Autonomy Review Attestation archived in secure vault."
+    success_criteria: "Review is completed and report registered within 24 hours of window."
+    failure_conditions: "Decision logs offline or missing override event records."
+  - workflow_id: "gpai_monitoring_workflow"
+    workflow_owner: "Compliance Steward"
+    workflow_objective: "Monitor overall GPAI compliance indicators and maturity scoring for Systemic Evaluation Metadata."
+    trigger: "Continuous run loop."
+    inputs:
+      - "compliance_scorecards_vault"
+      - "scorecard_metrics"
+      - "maturity_baselines"
+    activities:
+      - "Calculate compliance indicators weekly."
+      - "Verify maturity scorecard parameters."
+      - "Publish maturity indicators to corporate portal."
+    decision_points:
+      - "Maturity check scorecard assessment"
+      - "Compliance alert trigger"
+    approvals:
+      - "Automated Execution - No approval required"
+    outputs:
+      - "Maturity indicator values"
+      - "Compliance dashboard updates"
+    generated_evidence: "Weekly compliance dashboard snapshot archived in vault."
+    success_criteria: "Indicator values publish with 100% uptime."
+    failure_conditions: "Scorecard database unreachable or execution errors."
+gpai_governance_framework:
+  governance_model: "COORDINATED_GPAI_COMPLIANCE"
+  governance_principles:
+    - "Accountability and Integrity"
+    - "Systemic Safety Enforcement"
+    - "Transparency disclosures"
+  governance_authorities:
+    - "GPAI Oversight Board"
+    - "Safety Committee"
+  governance_controls:
+    - "CTRL-GPAI-EVAL-SYSTEM-01"
+    - "CTRL-GPAI-EVAL-SYSTEM-05"
+  gpai_ownership: "Assigns primary ownership of Systemic Evaluation Metadata compliance registries directly to the CAIO."
+  gpai_accountability: "Establishes primary accountability of Systemic Evaluation Metadata model safety boundaries with the Safety Lead."
+  governance_reviews:
+    - "Monthly scorecard audits"
+    - "Annual GPAI policy updates"
+  governance_assurance: "Cryptographic signature validation and ledger compliance verifications"
+gpai_lifecycle_framework:
+  design_governance: "Verify safety objectives and target parameters of Systemic Evaluation Metadata during pre-design phases."
+  development_governance: "Audit model training pipelines and data ingestion logs weekly."
+  training_governance: "Enforce compute threshold checks and security limits on cluster systems."
+  evaluation_governance: "Run model evaluation suites and benchmark tests on build candidates."
+  deployment_governance: "Validate deployment constraints and geographic access controls."
+  monitoring_governance: "Continuously monitor model telemetry and downstream partner API usage."
+  retirement_governance: "Archive weights and revoke API endpoints during model sunsetting."
+  lifecycle_controls:
+    - "CTRL-GPAI-EVAL-SYSTEM-01"
+    - "CTRL-GPAI-EVAL-SYSTEM-05"
+  lifecycle_assurance: "Audit model training records and verify build hash signatures before release."
+gpai_risk_framework:
+  capability_risks:
+    - "Model self-improvement loops"
+    - "Deceptive reasoning behaviors"
+  misuse_risks:
+    - "Phishing campaigns automation"
+    - "Malicious code generation"
+  deployment_risks:
+    - "Unauthorized deployment access"
+    - "Data privacy leaks"
+  ecosystem_risks:
+    - "Third party API dependency failures"
+    - "Downstream integration loops"
+  systemic_risks:
+    - "Cascading database lockouts"
+    - "Economic transition disruptions"
+  risk_controls:
+    - "CTRL-GPAI-EVAL-SYSTEM-01"
+    - "CTRL-GPAI-EVAL-SYSTEM-02"
+  risk_monitoring: "Track model execution context and request payload anomalies continuously."
+  risk_assurance: "Audit model risk reports and verify ledger compliance entries weekly."
+gpai_transparency_framework:
+  capability_disclosures:
+    - "Publish parameter counts"
+    - "Disclose model benchmark scores"
+  limitation_disclosures:
+    - "Disclose output hallucinations rates"
+    - "Document usage restrictions"
+  risk_disclosures:
+    - "Publish red-team summaries"
+    - "Disclose training data risks"
+  transparency_controls:
+    - "CTRL-GPAI-EVAL-SYSTEM-05"
+  transparency_validation: "Check accuracy and completeness of model card declarations pre-release."
+  transparency_assurance: "Register signed model card attestation certificate in compliance registry."
+gpai_accountability_framework:
+  accountability_model: "SHARED_INTEGRITY_ACCOUNTABILITY"
+  accountability_assignments:
+    compliance_steward: "Audit compliance mapping files and maintain registries for Systemic Evaluation Metadata."
+    risk_auditor: "Examine model benchmark evaluation logs and calculate scores for Systemic Evaluation Metadata."
+    safety_lead: "Verify runtime override checkpoints and ecosystem controls for Systemic Evaluation Metadata."
+  responsibility_allocations:
+    model_card_completeness: "Compliance Steward"
+    benchmark_testing: "Risk Auditor"
+    api_gateway_blocks: "Safety Lead"
+  governance_accountability: "Safety Lead reports compliance threshold crossings to safety board."
+  operational_accountability: "Compliance Steward manages daily registry tracking and logs archives."
+  compliance_accountability: "Risk Auditor verifies validation checks pass before build release."
+  accountability_assurance: "Review accountability assignments and sign-off records quarterly."
+  accountability_validation: "Audit action logs against assigned roles and responsibilities weekly."
+gpai_assurance_framework:
+  assurance_objectives:
+    - "Align with ISO 42001 certification and Article 51-55 compliance requirements for Systemic Evaluation Metadata."
+  assurance_controls:
+    - "CTRL-GPAI-EVAL-SYSTEM-01"
+    - "CTRL-GPAI-EVAL-SYSTEM-05"
+  assurance_validation: "Audit compliance metrics and signatures logs weekly."
+  assurance_monitoring: "Track compliance dashboard scores and check transaction metrics daily."
+  assurance_reviews:
+    - "Monthly documentation audits"
+    - "Annual oversight framework reviews"
+  assurance_reporting: "Publish monthly assurance reports to safety portals."
+  assurance_evidence: "Signed compliance certificates registered in attestation vault."
+gpai_ecosystem_framework:
+  ecosystem_dependencies:
+    - "urn:enterprise:api:gateway_kms"
+    - "urn:enterprise:data:model_registry"
+  ecosystem_participants:
+    - "Upstream compute providers"
+    - "Downstream developers"
+    - "API integrators"
+  ecosystem_relationships:
+    - participant: "Upstream compute providers"
+      relation: "Compute resource supply"
+      control: "Compute threshold audit"
+    - participant: "Downstream developers"
+      relation: "API integration usage"
+      control: "Usage policy controls"
+  ecosystem_controls:
+    - "CTRL-GPAI-EVAL-SYSTEM-04"
+  ecosystem_monitoring: "Monitor third party API calls and check usage licenses daily."
+systemic_risk_framework:
+  systemic_risk_identification: "Identify cascading failure points and model dependency locks."
+  systemic_risk_assessment: "Calculate systemic risk scores weekly based on simulation data."
+  systemic_risk_monitoring: "Feed telemetry metrics and webhook anomalies to central registers."
+  systemic_risk_controls:
+    - "CTRL-GPAI-EVAL-SYSTEM-02"
+  systemic_risk_mitigation: "Setup automated gateway rate-limits and database lock blocks."
+  systemic_risk_assurance: "Review systemic risk projections and ledger hashes quarterly."
+  systemic_risk_reporting: "Publish monthly systemic risk briefs to safety portals."
+oversight_framework:
+  oversight_model: "JOINT_COMPLIANCE_OVERSIGHT"
+  oversight_mechanisms:
+    - "Automated safety gate blocks"
+    - "Third-party safety audits"
+    - "Internal oversight boards"
+  oversight_controls:
+    - "CTRL-GPAI-EVAL-SYSTEM-03"
+    - "CTRL-GPAI-EVAL-SYSTEM-04"
+monitoring_framework:
+  monitoring_scope: "Continuous tracking of model benchmark parameters and runtime telemetry."
+  alert_thresholds: "Trigger alert if any capability check fails or risk score > 0.10."
+validation_framework:
+  validation_requirements:
+    - "All model releases must pass validation gate"
+    - "Simulation logs must pass completeness checks"
+  validation_methods:
+    - "Automated testing scripts"
+    - "Manual audits check"
+  validation_evidence: "Signed validation attestation documents archived in compliance vault."
+  validation_authority: "Safety Lead"
+  validation_frequency: "Weekly"
+  validation_outcomes:
+    - "Pass - proceed to staging"
+    - "Fail - block release"
+evidence_intelligence:
+  evidence_sources:
+    - "eval_db"
+    - "model_card_log"
+    - "compliance_ledger_db"
+  evidence_types:
+    - "Validation reports"
+    - "Attestation certificates"
+    - "Simulation data outputs"
+  evidence_integrity: "SHA-256 hashes registered in corporate ledger database."
+  evidence_lineage: "Map evidence items back to specific pipeline process logs."
+  evidence_provenance: "Generated directly by authorized compliance daemons."
+  evidence_validation: "Verify digital signatures against corporate key directories."
+  evidence_confidence: 0.99
+  evidence_retention: "10 years in compliant archives"
+telemetry:
+  telemetry_sources:
+    - "api_gateway_logs"
+    - "compliance_ledger_db"
+  collection_frequency: "Continuous"
+  telemetry_retention: "30 days in database, 10 years in cold archive"
+  telemetry_integrity: "Cryptographically sealed log records"
+  telemetry_validation: "Daily automated hash check"
+gpai_telemetry:
+  capability_events: "Track capability evaluation and benchmark changes."
+  risk_events: "Log signal discovery, relevance score, and categorization details."
+  transparency_events: "Record daily parser volumes and signal ingestion outcomes."
+  accountability_events: "Capture Monte Carlo run parameters and output values."
+  assurance_events: "Log webhook triggers and policy deployment actions."
+  monitoring_events: "Track updates, adjustments, and changes to policy registry."
+  ecosystem_events: "Record data feed updates and external threat intelligence alerts."
+  systemic_risk_events: "Log risk projections, metrics, and threshold crossings."
+  governance_alerts: "High priority safety notifications sent to Safety Board."
+  governance_indicators: "Check metric threshold crossings and validation delays."
+metrics:
+  - metric_name: "systemic_evaluation_metadata_gpai_assurance_score"
+    formula: "COUNT(signed_evidence_records) / COUNT(total_evidence_requirements)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "MONTHLY"
+    owner: "Compliance Steward"
+    data_source: "compliance_ledger_db"
+    evidence_generated: "Monthly Compliance Assurance report."
+  - metric_name: "systemic_evaluation_metadata_gpai_governance_score"
+    formula: "COUNT(implemented_controls) / COUNT(total_required_controls)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.80"
+    measurement_frequency: "QUARTERLY"
+    owner: "Compliance Steward"
+    data_source: "gpai_control_registry"
+    evidence_generated: "Quarterly Control Implementation report."
+  - metric_name: "systemic_evaluation_metadata_systemic_risk_score"
+    formula: "COUNT(failed_simulations) / COUNT(total_simulations)"
+    target: "0.10"
+    warning_threshold: "0.08"
+    critical_threshold: "0.05"
+    measurement_frequency: "WEEKLY"
+    owner: "Safety Lead"
+    data_source: "systemic_risk_telemetry"
+    evidence_generated: "Weekly Systemic Risk assessment reports."
+  - metric_name: "systemic_evaluation_metadata_ecosystem_governance_score"
+    formula: "COUNT(partner_compliance_checks) / COUNT(total_registered_partners)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.80"
+    measurement_frequency: "MONTHLY"
+    owner: "Safety Lead"
+    data_source: "partner_compliance_vault"
+    evidence_generated: "Monthly Partner Audit reports."
+  - metric_name: "systemic_evaluation_metadata_transparency_compliance_score"
+    formula: "COUNT(validated_declarations) / COUNT(total_declarations)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "ON_RELEASE"
+    owner: "Compliance Steward"
+    data_source: "model_card_log"
+    evidence_generated: "Signed Model Card Attestation certificate."
+  - metric_name: "systemic_evaluation_metadata_autonomy_risk_score"
+    formula: "COUNT(unauthorized_steps) / COUNT(total_execution_steps)"
+    target: "0.15"
+    warning_threshold: "0.12"
+    critical_threshold: "0.10"
+    measurement_frequency: "REAL_TIME"
+    owner: "Safety Lead"
+    data_source: "agent_decision_logs"
+    evidence_generated: "Weekly Autonomy Review report."
+  - metric_name: "systemic_evaluation_metadata_capability_management_score"
+    formula: "COUNT(completed_evals) / COUNT(total_candidate_builds)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Compliance Steward"
+    data_source: "eval_db"
+    evidence_generated: "Weekly Model Evaluation Attestation report."
+  - metric_name: "systemic_evaluation_metadata_accountability_effectiveness_score"
+    formula: "COUNT(assigned_owners) / COUNT(total_system_roles)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "QUARTERLY"
+    owner: "Compliance Steward"
+    data_source: "gpai_accountability_vault"
+    evidence_generated: "Quarterly Accountability Assignment reports."
+  - metric_name: "systemic_evaluation_metadata_gpai_operational_readiness_score"
+    formula: "COUNT(passed_readiness_checks) / COUNT(total_readiness_checks)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.80"
+    measurement_frequency: "ON_RELEASE"
+    owner: "Compliance Steward"
+    data_source: "compliance_ledger_db"
+    evidence_generated: "Signed Pre-Release Attestation certificate."
+  - metric_name: "systemic_evaluation_metadata_gpai_maturity_score"
+    formula: "current_maturity_level / 6.0"
+    target: "0.83"
+    warning_threshold: "0.67"
+    critical_threshold: "0.50"
+    measurement_frequency: "ANNUALLY"
+    owner: "Compliance Steward"
+    data_source: "compliance_ledger_db"
+    evidence_generated: "Annual Maturity Assessment certificate."
+kpis:
+  - "systemic_evaluation_metadata_gpai_assurance_score"
+  - "systemic_evaluation_metadata_systemic_risk_score"
+kris:
+  - "systemic_evaluation_metadata_autonomy_risk_score"
+  - "systemic_evaluation_metadata_gpai_maturity_score"
+thresholds:
+  - "Warning: systemic_evaluation_metadata_gpai_assurance_score < 0.98"
+  - "Critical: systemic_evaluation_metadata_gpai_assurance_score < 0.95"
+relationships:
+  gpai_links:
+    - source: "urn:enterprise:gpai:systemic_evaluation_metadata"
+      target: "urn:enterprise:compliance:gpai"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-GPAI-EVAL-STD."
+  ecosystem_links:
+    - source: "urn:enterprise:gpai:systemic_evaluation_metadata"
+      target: "urn:enterprise:compliance:ecosystem"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-GPAI-EVAL-STD."
+  capability_links:
+    - source: "urn:enterprise:gpai:systemic_evaluation_metadata"
+      target: "urn:enterprise:compliance:capability"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-GPAI-EVAL-STD."
+  accountability_links:
+    - source: "urn:enterprise:gpai:systemic_evaluation_metadata"
+      target: "urn:enterprise:compliance:accountability"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-GPAI-EVAL-STD."
+  risk_links:
+    - source: "urn:enterprise:gpai:systemic_evaluation_metadata"
+      target: "urn:enterprise:compliance:risk"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-GPAI-EVAL-STD."
+  evidence_links:
+    - source: "urn:enterprise:gpai:systemic_evaluation_metadata"
+      target: "urn:enterprise:compliance:evidence"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-GPAI-EVAL-STD."
+  workflow_links:
+    - source: "urn:enterprise:gpai:systemic_evaluation_metadata"
+      target: "urn:enterprise:compliance:workflow"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-GPAI-EVAL-STD."
+  governance_links:
+    - source: "urn:enterprise:gpai:systemic_evaluation_metadata"
+      target: "urn:enterprise:compliance:governance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-GPAI-EVAL-STD."
+  dependency_links:
+    - source: "urn:enterprise:gpai:systemic_evaluation_metadata"
+      target: "urn:enterprise:compliance:dependency"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-GPAI-EVAL-STD."
+  compliance_links:
+    - source: "urn:enterprise:gpai:systemic_evaluation_metadata"
+      target: "urn:enterprise:compliance:compliance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-GPAI-EVAL-STD."
+crosswalks:
+  eu_ai_act:
+    framework: "eu_ai_act"
+    control_mapping: "Map GPAI compliance controls to EU AI Act compliance guidelines for Systemic Evaluation Metadata."
+    security_mapping: "Enforce model robustness and deployment containment checks."
+    accountability_mapping: "Assign roles for post-market monitoring and capability review."
+    evidence_mapping: "Log incident and scanning events in database."
+    validation_mapping: "Validate model benchmark results under containment profiles."
+  gpai_obligations:
+    framework: "gpai_obligations"
+    control_mapping: "Verify base model capabilities checks and benchmark runs."
+    security_mapping: "Establish model capability verification tests and triggers."
+    accountability_mapping: "AI system owner signs off base model capability risk map."
+    evidence_mapping: "Log capability testing and benchmark results."
+    validation_mapping: "Validate model capability growth metrics weekly."
+  gdpr:
+    framework: "gdpr"
+    control_mapping: "Enforce data privacy policies during foresight data collection."
+    security_mapping: "Secure threat intelligence databases and restrict access."
+    accountability_mapping: "DPO reviews data scanning sources."
+    evidence_mapping: "Log data processing consents and source audits."
+    validation_mapping: "Audit privacy impact assessments annually."
+  iso_42001:
+    framework: "iso_42001"
+    control_mapping: "Establish AI management system rules and oversight frameworks."
+    security_mapping: "Define security boundaries and limits for AI configurations."
+    accountability_mapping: "Assign CAIO as owner of AI management systems."
+    evidence_mapping: "Document internal audits and model validation reviews."
+    validation_mapping: "Audit AI management system outcomes annually."
+  iso_23894:
+    framework: "iso_23894"
+    control_mapping: "Align risk assessment rules with ISO 31000 standards."
+    security_mapping: "Assess risk of capability growth and containment bypass."
+    accountability_mapping: "Risk director signs off risk assessments."
+    evidence_mapping: "Log risks in future risk register databases."
+    validation_mapping: "Audit risk mitigation plan outcomes."
+  iso_27001:
+    framework: "iso_27001"
+    control_mapping: "Deploy ISMS security control policies."
+    security_mapping: "Secure information assets from unauthorized access."
+    accountability_mapping: "Security owner manages ISMS audits."
+    evidence_mapping: "Log database access checks and network events."
+    validation_mapping: "Audit ISMS control operations annually."
+  iso_27701:
+    framework: "iso_27701"
+    control_mapping: "Enforce PII processor privacy controls."
+    security_mapping: "Encrypt personal data and logs in transit and rest."
+    accountability_mapping: "DPO validates PII data boundaries."
+    evidence_mapping: "Log user access and processing agreements."
+    validation_mapping: "Validate PII system controls weekly."
+  nist_ai_rmf:
+    framework: "nist_ai_rmf"
+    control_mapping: "Align controls with GOVERN, MAP, MEASURE, MANAGE functions."
+    security_mapping: "Enforce model robustness and resilience controls."
+    accountability_mapping: "Assign risk managers to all AI models."
+    evidence_mapping: "Document model verification test plans."
+    validation_mapping: "Validate model inputs and outputs weekly."
+  oecd_ai:
+    framework: "oecd_ai"
+    control_mapping: "Align with human-centered values and fairness guidelines."
+    security_mapping: "Enforce transparency and explainability standards."
+    accountability_mapping: "Establish accountability boards for AI projects."
+    evidence_mapping: "Document stakeholder transparency assessments."
+    validation_mapping: "Verify explanation accuracy and readability scores."
+  unesco_ai:
+    framework: "unesco_ai"
+    control_mapping: "Align controls with ethical AI guidelines."
+    security_mapping: "Conduct ethical impact checks before deployment."
+    accountability_mapping: "Assign ethical reviews to compliance board."
+    evidence_mapping: "Log ethical assessment records."
+    validation_mapping: "Verify ethical design criteria compliance."
+compliance_mapping:
+  - article: "Article 51"
+    obligation: "GPAI Obligations"
+    implementation_method: "Deploy emerging capability benchmarks and weekly model evaluation checks for Systemic Evaluation Metadata."
+    gpai_control: "gpai_capability_governance_control"
+    required_evidence: "Weekly Model Evaluation Attestation reports."
+    validation_method: "Audit evaluation datasets and signature verifications weekly."
+    assurance_method: "Verify benchmark database hashes against compliance ledger weekly."
+  - article: "Article 52"
+    obligation: "GPAI Obligations"
+    implementation_method: "Establish clear user transparency templates and model cards for Systemic Evaluation Metadata."
+    gpai_control: "gpai_transparency_assurance_control"
+    required_evidence: "Signed Model Card Attestation certificate."
+    validation_method: "Audit model cards details pre-release."
+    assurance_method: "Check model card registry database entry."
+  - article: "Article 53"
+    obligation: "GPAI Obligations"
+    implementation_method: "Establish provider compliance files and technical documentation for Systemic Evaluation Metadata."
+    gpai_control: "gpai_transparency_assurance_control"
+    required_evidence: "Provider conformity documentation files."
+    validation_method: "Verify completeness of documentation registry."
+    assurance_method: "Independent audit of compliance records annually."
+  - article: "Article 54"
+    obligation: "Systemic Risk Obligations"
+    implementation_method: "Setup Monte Carlo risk simulations and weekly probabilistic risk reviews for Systemic Evaluation Metadata."
+    gpai_control: "systemic_risk_monitoring_control"
+    required_evidence: "Weekly Probabilistic Risk Reports."
+    validation_method: "Run validation checks on simulation source code parameters weekly."
+    assurance_method: "Register report signatures in secure ledger database weekly."
+  - article: "Article 55"
+    obligation: "Systemic Risk Obligations"
+    implementation_method: "Run automated daily parsers and verify weak signal indicators for Systemic Evaluation Metadata."
+    gpai_control: "systemic_risk_monitoring_control"
+    required_evidence: "Systemic risk scanning log manifest and alerts archive."
+    validation_method: "Check parser execution schedules daily."
+    assurance_method: "Conduct peer reviews of monthly risk brief reports."
+integration_points:
+  core_governance: "Establish GPAI governance mapping in core policy registry."
+  foundation_models: "Monitor planning loops and benchmark drift of foundation models."
+  systemic_risk_models: "Feed simulation parameters and risk projections to central risk registers."
+  provider_obligations: "Provide conformity files and compliance manifests."
+  deployer_obligations: "Provide operational guidelines and override parameters."
+  risk_management: "Integrate future risk assessment results to enterprise risk matrices."
+  data_governance: "Audit data processing consent and source indexes."
+  technical_documentation: "Publish technical specification documents and architecture diagrams."
+  transparency_and_explainability: "Generate plain language descriptions of model capabilities."
+  human_oversight: "Enforce runtime override checkpoints and supervisor sign-offs."
+  bias_and_fairness: "Perform fair benchmark metrics checks weekly."
+  audit_and_enforcement: "Provide regulator-ready logs and signature verifications."
+  audit_and_forensics: "Log capability evolution hashes in immutable trace databases."
+  compliance_scoring: "Publish transparency compliance score to dashboard."
+  conformity_assessment: "Verify pre-launch safety gate parameters against conformity criteria."
+  evidence_and_attestation: "Register signed verification certificates in attestation portals."
+  cybersecurity: "Secure model checkpoints and isolate sandbox run loops."
+  cybersecurity_and_resilience: "Secure containment sandboxes and monitor resource consumption."
+  future_ai_governance: "Sync systemic risk reports to strategic foresight registers."
+  governance_reporting: "Publish monthly compliance dashboards to safety portals."
+dependencies:
+  - "urn:enterprise:policy:gpai_compliance_master"
+  - "urn:enterprise:data:model_card_index"
+outputs:
+  - "compliance_certificates"
+  - "systemic_risk_reports"
+  - "model_cards_attestations"
+  - "api_access_logs"
+artifacts:
+  - "model_benchmark_graph.png"
+  - "dependency_graph.xlsx"
+records:
+  - "compliance_ledger_logs"
+  - "api_block_receipts"
+  - "partner_audit_ledger"
+continuous_improvement:
+  improvement_process: "Refining model benchmark checks and risk templates based on regulatory modifications."
+  cycle_frequency: "Quarterly"
+  review_board: "GPAI Integrity Board"
+exceptions:
+  exception_process: "Request manual override from CAIO for partner access configurations violating limits."
+  sla_hours: 24
+escalation:
+  escalation_path: "Compliance alerts -> Compliance Steward -> CAIO -> Oversight Board"
+  sla_minutes:
+    warning: 120
+    critical: 15
+versioning:
+  current_version: "1.0.0"
+  previous_version: "N/A"
+  change_log:
+    - version: "1.0.0"
+      date: "2026-06-13"
+      author: "Antigravity Agent"
+      description: "Initial release of General Purpose AI governance skill."
+altai_gpai_governance:
+  autonomous_agent_governance:
+    agent_capability_controls: "Manage and limit autonomous actions and planning profiles of Systemic Evaluation Metadata."
+    agent_autonomy_controls: "Define maximum step count bounds and tool authorization gates."
+    agent_accountability: "Assign primary responsibility for agent actions to model owners."
+    agent_assurance: "Cryptographically sign runtime step validation checks daily."
+  multi_agent_governance:
+    ecosystem_governance: "Verify swarm interaction topologies and connection frequencies in multi-agent runs of Systemic Evaluation Metadata."
+    swarm_governance: "Enforce swarm communication patterns and message content limitations."
+    coordination_controls: "Deploy connection resets when unattested swarm interactions occur."
+    accountability_controls: "Enforce interaction tracing codes and token signature checks."
+  reasoning_governance:
+    reasoning_validation: "Trace step-by-step reasoning steps and verify logical consistency for Systemic Evaluation Metadata."
+    reasoning_traceability: "Audit reasoning files and step justifications indexes."
+    reasoning_assurance: "Audit semantic validity of reasoning output weekly."
+    reasoning_accountability: "Risk officer attests to model logical limits annually."
+  memory_governance:
+    memory_controls: "Manage storage capacity and cross-session retrieval bounds for Systemic Evaluation Metadata."
+    memory_assurance: "Assert that memory variables do not persist PII or source data."
+    memory_traceability: "Register PII-free validation certificates weekly."
+    memory_validation: "Check memory access logs for privacy violations daily."
+  tool_governance:
+    tool_authorization: "Govern API endpoints and executable permissions accessible by Systemic Evaluation Metadata."
+    tool_assurance: "Audit external API tool integration schemas monthly."
+    tool_traceability: "Trace and log all tool invocation params and signatures."
+    tool_validation: "Verify sandbox limits for tool runs weekly."
+  orchestration_governance:
+    orchestration_controls: "Govern concurrency levels and routing paths of orchestrator in Systemic Evaluation Metadata."
+    orchestration_assurance: "Verify orchestrator signatures before deploying updated policies."
+    orchestration_traceability: "Log task coordination step timestamps and results."
+    orchestration_accountability: "System owner signs off orchestration flow manifests quarterly."
+  foundation_model_dependencies:
+    dependency_governance: "Govern upstream foundation model dependencies and API endpoints for Systemic Evaluation Metadata."
+    dependency_assurance: "Assert that upstream check signatures are valid on connection."
+    dependency_monitoring: "Track model training compute and performance changes monthly."
+    dependency_accountability: "Original provider attests to base model security obligations."
+  systemic_autonomy_governance:
+    autonomy_monitoring: "Monitor autonomy levels and planning capability growth daily for Systemic Evaluation Metadata."
+    autonomy_risk_management: "Set bounds on planning depths and self-tuning cycles."
+    autonomy_assurance: "Run adversarial simulations of autonomy limit bypasses weekly."
+    autonomy_accountability: "Oversight Board reviews autonomy parameters bi-annually."
+gpai_maturity_model:
+  level_1_reactive:
+    capabilities:
+      - "Basic ad-hoc capability verifications and manual compliance files for Systemic Evaluation Metadata."
+    governance_capabilities:
+      - "Manual validation of model cards on release."
+    risk_capabilities:
+      - "Reactive adjustments to model parameters after failures."
+    assurance_capabilities:
+      - "Internal team review of release checklists."
+    evidence_requirements:
+      - "Ad-hoc documentation records."
+    assurance_requirements:
+      - "None established."
+  level_2_repeatable:
+    capabilities:
+      - "Standardized checklist and repeatable capability testing for Systemic Evaluation Metadata."
+    governance_capabilities:
+      - "Pre-release checklists compiled systematically."
+    risk_capabilities:
+      - "Standard risk assessments conducted quarterly."
+    assurance_capabilities:
+      - "Internal audit reviews before release."
+    evidence_requirements:
+      - "Model card manifests stored in database."
+    assurance_requirements:
+      - "Validation cert files indexed."
+  level_3_defined:
+    capabilities:
+      - "Formally defined future capability thresholds and systemic risk logs for Systemic Evaluation Metadata."
+    governance_capabilities:
+      - "Oversight boards formally established."
+    risk_capabilities:
+      - "Weekly probabilistic risk assessments run systematically."
+    assurance_capabilities:
+      - "Formal audit checklists verified monthly."
+    evidence_requirements:
+      - "Signed attestation records saved in ledger."
+    assurance_requirements:
+      - "Annual risk framework compliance checks."
+  level_4_managed:
+    capabilities:
+      - "Continuous automated monitoring and metric dashboards for Systemic Evaluation Metadata."
+    governance_capabilities:
+      - "Compliance score calculated weekly on dashboard."
+    risk_capabilities:
+      - "Real-time systemic risk webhooks active."
+    assurance_capabilities:
+      - "Independent ISMS audits conducted annually."
+    evidence_requirements:
+      - "Attestation certificates registered in portal."
+    assurance_requirements:
+      - "Third-party validation audits."
+  level_5_optimized:
+    capabilities:
+      - "Automated risk simulations and continuous improvements loops for Systemic Evaluation Metadata."
+    governance_capabilities:
+      - "Webhooks configured for immediate threshold changes."
+    risk_capabilities:
+      - "Cascading failure simulations run weekly."
+    assurance_capabilities:
+      - "Continuous automated verification checks on check signatures."
+    evidence_requirements:
+      - "Cryptographically signed evidence registers populated."
+    assurance_requirements:
+      - "Annual third-party compliance audits."
+  level_6_adaptive:
+    capabilities:
+      - "Real-time adaptive policy execution and automated override sandboxes for Systemic Evaluation Metadata."
+    governance_capabilities:
+      - "Automated policy deployment gates active."
+    risk_capabilities:
+      - "Dynamic scenario stress simulators active."
+    assurance_capabilities:
+      - "Continuous external trust attestations registered."
+    evidence_requirements:
+      - "Immutable ledger databases populated in real-time."
+    assurance_requirements:
+      - "Continuous external audits compliance checks."

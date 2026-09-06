@@ -1,0 +1,1987 @@
+metadata:
+  id: AAE-GF-FORGOV-001
+  name: forensic_governance_framework
+  title: Forensic Governance Framework
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: governance_forensics
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - governance_forensics
+    - forensic_governance_framework
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Forensic Governance Framework governance within
+    audit_and_enforcement/governance_forensics, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for litigation-grade forensic reconstruction and integrity assurance,
+    reference architecture and operating model definition. Integrates with the EU AI Act governance
+    ecosystem through machine-evaluable obligations, evidence preservation, and conformity-
+    assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Forensic Governance Framework across
+    enterprise and cross-border operations within audit_and_enforcement/governance_forensics.
+objectives:
+  - Operationalize Forensic Governance Framework with regulator-defensible controls and evidence chains
+  - Enable automated validation of Forensic Governance Framework conformance across governance_forensics
+  - Preserve audit-grade and forensic-grade records for all Forensic Governance Framework activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Forensic Governance Framework with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Forensic Governance Framework
+definitions:
+  forensic_governance_framework_governance_domain:
+    >
+      The operational jurisdiction of Forensic Governance Framework encompassing controlled audit,
+      enforcement, investigation, and evidence processes within governance_forensics.
+  forensic_governance_framework_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Forensic Governance Framework control
+      effectiveness, process adherence, and regulatory conformity.
+  forensic_governance_framework_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Forensic Governance Framework decision logic.
+  forensic_governance_framework_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Forensic Governance Framework processes.
+  forensic_governance_framework_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within Forensic
+      Governance Framework operations.
+  forensic_governance_framework_conformity_assertion:
+    >
+      Formal statement that Forensic Governance Framework requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: forensic_governance_framework_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  forensic_governance_framework_artifact_type:
+    - forensic_governance_framework_record
+    - forensic_governance_framework_log
+    - forensic_governance_framework_report
+    - forensic_governance_framework_attestation
+    - forensic_governance_framework_package
+  forensic_governance_framework_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Forensic Governance Framework Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: governance_forensics
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - audit_traceability
+    - evidence_preservation
+    - incident_reporting
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - investigation_management
+    - enforcement_actions
+    - reporting
+    - audit_and_enforcement/governance_forensics/forensic_governance_framework.yaml
+  related_domains:
+    - evidence_preservation
+    - investigation_management
+    - audit_traceability
+  related_skills:
+    - forensic_event_reconstruction
+    - behavioral_forensics
+    - governance_violation_analysis
+    - forensic_governance_framework
+  parent_governance_objects:
+    - enforcement_framework
+    - evidence_management
+  child_governance_objects:
+    - forensic_reconstruction_report
+    - violation_analysis_record
+    - forensic_governance_framework_governance_object
+  consumes_artifacts:
+    - evidence_package
+    - incident_record
+    - audit_trail
+    - forensic_governance_framework_input_artifact
+  produces_artifacts:
+    - forensic_report
+    - event_reconstruction_timeline
+    - behavioral_analysis_profile
+    - forensic_governance_framework_record
+    - forensic_governance_framework_report
+    - forensic_governance_framework_attestation
+  consumes_evidence:
+    - chain_of_custody_record
+    - immutable_audit_record
+    - model_activity_log
+    - forensic_governance_framework_source_evidence
+  produces_evidence:
+    - forensic_integrity_attestation
+    - causal_linkage_map
+    - forensic_governance_framework_audit_evidence
+    - forensic_governance_framework_validation_evidence
+    - forensic_governance_framework_enforcement_evidence
+  governance_dependencies:
+    - ai_liability
+    - incident_reporting
+  regulatory_dependencies:
+    - eu_ai_act_article_73
+    - eu_ai_act_article_26
+  risk_dependencies:
+    - risk_management
+    - ai_liability
+  control_dependencies:
+    - evidence_preservation
+    - audit_traceability
+    - forensic_governance_framework_control_register
+roles_and_responsibilities:
+  forensic_governance_framework_owner:
+    responsibilities:
+      - Accountable for Forensic Governance Framework strategy, control design, and regulatory alignment
+  forensic_governance_framework_operator:
+    responsibilities:
+      - Executes Forensic Governance Framework workflows and maintains operational records
+  forensic_governance_framework_auditor:
+    responsibilities:
+      - Independently validates Forensic Governance Framework control effectiveness and evidence sufficiency
+  forensic_governance_framework_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Forensic Governance Framework investigations
+  forensic_governance_framework_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Forensic Governance Framework
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-020
+    name: Regulatory Forensics
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-021
+    name: Governance Forensics
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-022
+    name: Behavioral Forensics
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-023
+    name: Event Reconstruction
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-024
+    name: Violation Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-025
+    name: Violation Classification
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-033
+    name: Evidence Preservation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-036
+    name: Evidence Integrity Validation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-038
+    name: Evidence Reconstruction
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-047
+    name: Forensic Reporting
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-GOV-FORENSIC_G-FORENSICEVE
+    control_name: forensic_event_timeline_reconstructor
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring event timeline reconstructor for Forensic Governance Framework
+        across governance_forensics.
+    governance_rationale:
+      >
+        forensic_event_timeline_reconstructor is required to govern Forensic Governance Framework risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected governance
+        forensics failures.
+    implementation_guidance:
+      >
+        Implement forensic_event_timeline_reconstructor as automated policy in
+        forensic_governance_framework orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: forensic_event_timeline_reconstructor_continuous_telemetry_dashboard
+    validation_method:
+      forensic_event_timeline_reconstructor_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      forensic_event_timeline_reconstructor_statistical_sampling_with_exception_tracking
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated: forensic_event_timeline_reconstructor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify forensic_event_timeline_reconstructor design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        forensic_event_timeline_reconstructor outputs may trigger enforcement under
+        forensic_governance_framework escalation rules.
+  - control_id: AAE-GOV-FORENSIC_G-GOVERNANCEB
+    control_name: governance_behavioral_pattern_analyzer
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring behavioral pattern analyzer for Forensic Governance Framework
+        across governance_forensics.
+    governance_rationale:
+      >
+        governance_behavioral_pattern_analyzer is required to govern Forensic Governance Framework risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected governance
+        forensics failures.
+    implementation_guidance:
+      >
+        Implement governance_behavioral_pattern_analyzer as automated policy in
+        forensic_governance_framework orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: governance_behavioral_pattern_analyzer_continuous_telemetry_dashboard
+    validation_method:
+      governance_behavioral_pattern_analyzer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      governance_behavioral_pattern_analyzer_statistical_sampling_with_exception_tracking
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated: governance_behavioral_pattern_analyzer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify governance_behavioral_pattern_analyzer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        governance_behavioral_pattern_analyzer outputs may trigger enforcement under
+        forensic_governance_framework escalation rules.
+  - control_id: AAE-GOV-FORENSIC_G-FRAMEWORKGO
+    control_name: framework_governance_failure_root_identifier
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring governance failure root identifier for Forensic Governance
+        Framework across governance_forensics.
+    governance_rationale:
+      >
+        framework_governance_failure_root_identifier is required to govern Forensic Governance Framework
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        governance forensics failures.
+    implementation_guidance:
+      >
+        Implement framework_governance_failure_root_identifier as automated policy in
+        forensic_governance_framework orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: framework_governance_failure_root_identifier_continuous_telemetry_dashboard
+    validation_method:
+      framework_governance_failure_root_identifier_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      framework_governance_failure_root_identifier_statistical_sampling_with_exception_tracking
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated: framework_governance_failure_root_identifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify framework_governance_failure_root_identifier design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        framework_governance_failure_root_identifier outputs may trigger enforcement under
+        forensic_governance_framework escalation rules.
+  - control_id: AAE-GOV-FORENSIC_G-FORENSICGOV
+    control_name: forensic_governance_framework_forensic_custody_integrity_guard
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring forensic custody integrity guard for Forensic Governance Framework
+        across governance_forensics.
+    governance_rationale:
+      >
+        forensic_governance_framework_forensic_custody_integrity_guard is required to govern Forensic
+        Governance Framework risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement forensic_governance_framework_forensic_custody_integrity_guard as automated policy in
+        forensic_governance_framework orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      forensic_governance_framework_forensic_custody_integrity_guard_continuous_telemetry_dashboard
+    validation_method:
+      >
+        forensic_governance_framework_forensic_custody_integrity_guard_quarterly_design_and_operating_ef
+        fectiveness_test
+    testing_method:
+      >
+        forensic_governance_framework_forensic_custody_integrity_guard_statistical_sampling_with_excepti
+        on_tracking
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated:
+      forensic_governance_framework_forensic_custody_integrity_guard_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify forensic_governance_framework_forensic_custody_integrity_guard design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        forensic_governance_framework_forensic_custody_integrity_guard outputs may trigger enforcement
+        under forensic_governance_framework escalation rules.
+  - control_id: AAE-GOV-FORENSIC_G-FORENSICGOV
+    control_name: forensic_governance_framework_causal_linkage_mapper
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring causal linkage mapper for Forensic Governance Framework across
+        governance_forensics.
+    governance_rationale:
+      >
+        forensic_governance_framework_causal_linkage_mapper is required to govern Forensic Governance
+        Framework risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement forensic_governance_framework_causal_linkage_mapper as automated policy in
+        forensic_governance_framework orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      forensic_governance_framework_causal_linkage_mapper_continuous_telemetry_dashboard
+    validation_method:
+      >
+        forensic_governance_framework_causal_linkage_mapper_quarterly_design_and_operating_effectiveness
+        _test
+    testing_method:
+      forensic_governance_framework_causal_linkage_mapper_statistical_sampling_with_exception_tracking
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated: forensic_governance_framework_causal_linkage_mapper_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify forensic_governance_framework_causal_linkage_mapper design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        forensic_governance_framework_causal_linkage_mapper outputs may trigger enforcement under
+        forensic_governance_framework escalation rules.
+  - control_id: AAE-GOV-FORENSIC_G-FORENSICGOV
+    control_name: forensic_governance_framework_violation_typology_classifier
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring violation typology classifier for Forensic Governance Framework
+        across governance_forensics.
+    governance_rationale:
+      >
+        forensic_governance_framework_violation_typology_classifier is required to govern Forensic
+        Governance Framework risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement forensic_governance_framework_violation_typology_classifier as automated policy in
+        forensic_governance_framework orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      forensic_governance_framework_violation_typology_classifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        forensic_governance_framework_violation_typology_classifier_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        forensic_governance_framework_violation_typology_classifier_statistical_sampling_with_exception_
+        tracking
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated:
+      forensic_governance_framework_violation_typology_classifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify forensic_governance_framework_violation_typology_classifier design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        forensic_governance_framework_violation_typology_classifier outputs may trigger enforcement
+        under forensic_governance_framework escalation rules.
+  - control_id: AAE-GOV-FORENSIC_G-FORENSICGOV
+    control_name: forensic_governance_framework_incident_forensic_alignment_checker
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring incident forensic alignment checker for Forensic Governance
+        Framework across governance_forensics.
+    governance_rationale:
+      >
+        forensic_governance_framework_incident_forensic_alignment_checker is required to govern Forensic
+        Governance Framework risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement forensic_governance_framework_incident_forensic_alignment_checker as automated policy
+        in forensic_governance_framework orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      forensic_governance_framework_incident_forensic_alignment_checker_continuous_telemetry_dashboard
+    validation_method:
+      >
+        forensic_governance_framework_incident_forensic_alignment_checker_quarterly_design_and_operating
+        _effectiveness_test
+    testing_method:
+      >
+        forensic_governance_framework_incident_forensic_alignment_checker_statistical_sampling_with_exce
+        ption_tracking
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated:
+      forensic_governance_framework_incident_forensic_alignment_checker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify forensic_governance_framework_incident_forensic_alignment_checker design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        forensic_governance_framework_incident_forensic_alignment_checker outputs may trigger
+        enforcement under forensic_governance_framework escalation rules.
+  - control_id: AAE-GOV-FORENSIC_G-FORENSICGOV
+    control_name: forensic_governance_framework_decision_path_rebuilder
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring decision path rebuilder for Forensic Governance Framework across
+        governance_forensics.
+    governance_rationale:
+      >
+        forensic_governance_framework_decision_path_rebuilder is required to govern Forensic Governance
+        Framework risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement forensic_governance_framework_decision_path_rebuilder as automated policy in
+        forensic_governance_framework orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      forensic_governance_framework_decision_path_rebuilder_continuous_telemetry_dashboard
+    validation_method:
+      >
+        forensic_governance_framework_decision_path_rebuilder_quarterly_design_and_operating_effectivene
+        ss_test
+    testing_method:
+      >
+        forensic_governance_framework_decision_path_rebuilder_statistical_sampling_with_exception_tracki
+        ng
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated: forensic_governance_framework_decision_path_rebuilder_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify forensic_governance_framework_decision_path_rebuilder design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        forensic_governance_framework_decision_path_rebuilder outputs may trigger enforcement under
+        forensic_governance_framework escalation rules.
+  - control_id: AAE-GOV-FORENSIC_G-FORENSICGOV
+    control_name: forensic_governance_framework_forensic_integrity_validator
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring forensic integrity validator for Forensic Governance Framework
+        across governance_forensics.
+    governance_rationale:
+      >
+        forensic_governance_framework_forensic_integrity_validator is required to govern Forensic
+        Governance Framework risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement forensic_governance_framework_forensic_integrity_validator as automated policy in
+        forensic_governance_framework orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      forensic_governance_framework_forensic_integrity_validator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        forensic_governance_framework_forensic_integrity_validator_quarterly_design_and_operating_effect
+        iveness_test
+    testing_method:
+      >
+        forensic_governance_framework_forensic_integrity_validator_statistical_sampling_with_exception_t
+        racking
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated: forensic_governance_framework_forensic_integrity_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify forensic_governance_framework_forensic_integrity_validator design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        forensic_governance_framework_forensic_integrity_validator outputs may trigger enforcement under
+        forensic_governance_framework escalation rules.
+  - control_id: AAE-GOV-FORENSIC_G-FORENSICGOV
+    control_name: forensic_governance_framework_litigation_readiness_assessor
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring litigation readiness assessor for Forensic Governance Framework
+        across governance_forensics.
+    governance_rationale:
+      >
+        forensic_governance_framework_litigation_readiness_assessor is required to govern Forensic
+        Governance Framework risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement forensic_governance_framework_litigation_readiness_assessor as automated policy in
+        forensic_governance_framework orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      forensic_governance_framework_litigation_readiness_assessor_continuous_telemetry_dashboard
+    validation_method:
+      >
+        forensic_governance_framework_litigation_readiness_assessor_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        forensic_governance_framework_litigation_readiness_assessor_statistical_sampling_with_exception_
+        tracking
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated:
+      forensic_governance_framework_litigation_readiness_assessor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify forensic_governance_framework_litigation_readiness_assessor design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        forensic_governance_framework_litigation_readiness_assessor outputs may trigger enforcement
+        under forensic_governance_framework escalation rules.
+  - control_id: AAE-GOV-FORENSIC_G-FORENSICGOV
+    control_name: forensic_governance_framework_regulator_forensic_disclosure_preparer
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring regulator forensic disclosure preparer for Forensic Governance
+        Framework across governance_forensics.
+    governance_rationale:
+      >
+        forensic_governance_framework_regulator_forensic_disclosure_preparer is required to govern
+        Forensic Governance Framework risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement forensic_governance_framework_regulator_forensic_disclosure_preparer as automated
+        policy in forensic_governance_framework orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        forensic_governance_framework_regulator_forensic_disclosure_preparer_continuous_telemetry_dashbo
+        ard
+    validation_method:
+      >
+        forensic_governance_framework_regulator_forensic_disclosure_preparer_quarterly_design_and_operat
+        ing_effectiveness_test
+    testing_method:
+      >
+        forensic_governance_framework_regulator_forensic_disclosure_preparer_statistical_sampling_with_e
+        xception_tracking
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated:
+      forensic_governance_framework_regulator_forensic_disclosure_preparer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify forensic_governance_framework_regulator_forensic_disclosure_preparer design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        forensic_governance_framework_regulator_forensic_disclosure_preparer outputs may trigger
+        enforcement under forensic_governance_framework escalation rules.
+  - control_id: AAE-GOV-FORENSIC_G-FORENSICGOV
+    control_name: forensic_governance_framework_forensic_evidence_sealer
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring forensic evidence sealer for Forensic Governance Framework across
+        governance_forensics.
+    governance_rationale:
+      >
+        forensic_governance_framework_forensic_evidence_sealer is required to govern Forensic Governance
+        Framework risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected governance forensics failures.
+    implementation_guidance:
+      >
+        Implement forensic_governance_framework_forensic_evidence_sealer as automated policy in
+        forensic_governance_framework orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      forensic_governance_framework_forensic_evidence_sealer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        forensic_governance_framework_forensic_evidence_sealer_quarterly_design_and_operating_effectiven
+        ess_test
+    testing_method:
+      >
+        forensic_governance_framework_forensic_evidence_sealer_statistical_sampling_with_exception_track
+        ing
+    control_owner: forensic_governance_framework_control_owner
+    evidence_generated: forensic_governance_framework_forensic_evidence_sealer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify forensic_governance_framework_forensic_evidence_sealer design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        forensic_governance_framework_forensic_evidence_sealer outputs may trigger enforcement under
+        forensic_governance_framework escalation rules.
+requirements:
+  legal:
+    >
+      Forensic Governance Framework must satisfy legal requirements for litigation-grade forensic
+      reconstruction and integrity assurance, reference architecture and operating model definition
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Forensic Governance Framework must satisfy regulatory requirements for litigation-grade forensic
+      reconstruction and integrity assurance, reference architecture and operating model definition
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Forensic Governance Framework must satisfy technical requirements for litigation-grade forensic
+      reconstruction and integrity assurance, reference architecture and operating model definition
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Forensic Governance Framework must satisfy operational requirements for litigation-grade
+      forensic reconstruction and integrity assurance, reference architecture and operating model
+      definition including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Forensic Governance Framework must satisfy audit requirements for litigation-grade forensic
+      reconstruction and integrity assurance, reference architecture and operating model definition
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Forensic Governance Framework must satisfy forensic requirements for litigation-grade forensic
+      reconstruction and integrity assurance, reference architecture and operating model definition
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Forensic Governance Framework must satisfy enforcement requirements for litigation-grade
+      forensic reconstruction and integrity assurance, reference architecture and operating model
+      definition including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Forensic Governance Framework with stage gates, RACI assignments, and
+      evidence capture.
+  triage:
+    >
+      Triage process for Forensic Governance Framework with stage gates, RACI assignments, and
+      evidence capture.
+  execution:
+    >
+      Execution process for Forensic Governance Framework with stage gates, RACI assignments, and
+      evidence capture.
+  validation:
+    >
+      Validation process for Forensic Governance Framework with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Forensic Governance Framework with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Forensic Governance Framework with stage gates, RACI assignments, and
+      evidence capture.
+  improvement:
+    >
+      Improvement process for Forensic Governance Framework with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: forensic_governance_framework_operational_lifecycle_workflow
+    workflow_trigger: forensic_governance_framework_governance_event_detected
+    workflow_steps:
+      - forensic_governance_framework_intake
+      - forensic_governance_framework_triage
+      - forensic_governance_framework_execution
+      - forensic_governance_framework_validation
+      - forensic_governance_framework_approval
+      - forensic_governance_framework_closure
+    approval_points:
+      - forensic_governance_framework_approval
+    escalation_points:
+      - forensic_governance_framework_triage
+    generated_evidence:
+      - forensic_governance_framework_workflow_log
+      - forensic_governance_framework_closure_attestation
+    completion_requirements:
+      - forensic_governance_framework_evidence_complete
+      - forensic_governance_framework_approvals_recorded
+  - workflow_name: forensic_governance_framework_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_forensic_governance_framework
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - forensic_governance_framework_regulatory_package
+      - forensic_governance_framework_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - forensic_governance_framework_governance_event_detected
+    - forensic_governance_framework_regulatory_inquiry
+    - forensic_governance_framework_integrity_breach
+    - forensic_governance_framework_enforcement_authorization
+  required_inputs:
+    - forensic_governance_framework_case_context
+    - forensic_governance_framework_evidence_index
+    - forensic_governance_framework_risk_assessment
+  workflow_steps:
+    - forensic_governance_framework_intake
+    - forensic_governance_framework_triage
+    - forensic_governance_framework_execution
+    - forensic_governance_framework_validation
+    - forensic_governance_framework_approval
+    - forensic_governance_framework_closure
+  validation_steps:
+    - forensic_governance_framework_evidence_sufficiency_check
+    - forensic_governance_framework_integrity_verification
+  approval_steps:
+    - forensic_governance_framework_approval
+  control_checkpoints:
+    - forensic_governance_framework_intake_gate
+    - forensic_governance_framework_evidence_gate
+    - forensic_governance_framework_decision_gate
+  evidence_generation:
+    - forensic_governance_framework_workflow_log
+    - forensic_governance_framework_closure_attestation
+  decision_points:
+    - forensic_governance_framework_severity_classification
+    - forensic_governance_framework_enforcement_authorization
+  escalation_points:
+    - forensic_governance_framework_triage
+  completion_criteria:
+    - forensic_governance_framework_evidence_complete
+    - forensic_governance_framework_approvals_recorded
+  generated_outputs:
+    - forensic_governance_framework_workflow_log
+    - forensic_governance_framework_closure_attestation
+    - forensic_governance_framework_final_disposition
+decision_logic:
+  decision_inputs:
+    - forensic_governance_framework_severity_score
+    - forensic_governance_framework_evidence_completeness
+    - forensic_governance_framework_regulatory_context
+    - forensic_governance_framework_risk_exposure_index
+  decision_conditions:
+    - forensic_governance_framework_critical_threshold_breach
+    - forensic_governance_framework_evidence_integrity_failure
+    - forensic_governance_framework_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: forensic_governance_framework_severity_score >= 90
+    high_severity: forensic_governance_framework_severity_score >= 70
+    evidence_complete: forensic_governance_framework_evidence_completeness >= 0.98
+  decision_rules:
+    forensic_governance_framework_high_severity_violation:
+      condition: forensic_governance_framework_severity_score >= 90
+      action: initiate_forensic_governance_framework_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: forensic_governance_framework_investigation_report
+    forensic_governance_framework_evidence_compromise_detected:
+      condition: forensic_governance_framework_integrity_status == compromised
+      action: activate_forensic_governance_framework_forensic_lockdown
+      approval_required: forensic_governance_framework_forensic_lead
+      evidence_required: forensic_governance_framework_integrity_alert_record
+    forensic_governance_framework_enforcement_authorization:
+      condition: forensic_governance_framework_violation_confirmed == true AND forensic_governance_framework_evidence_complete == true
+      action: issue_forensic_governance_framework_enforcement_order
+      approval_required: forensic_governance_framework_enforcement_officer
+      evidence_required: forensic_governance_framework_violation_evidence_package
+    forensic_governance_framework_regulator_inquiry_response:
+      condition: forensic_governance_framework_regulator_request_received == true
+      action: compile_forensic_governance_framework_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: forensic_governance_framework_regulatory_evidence_index
+  decision_outputs:
+    - forensic_governance_framework_enforcement_decision
+    - forensic_governance_framework_escalation_notice
+    - forensic_governance_framework_remediation_directive
+    - forensic_governance_framework_audit_disposition
+  approval_requirements:
+    enforcement_actions: [forensic_governance_framework_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - forensic_governance_framework_severity_score >= 90
+    - forensic_governance_framework_evidence_integrity_failure == true
+    - forensic_governance_framework_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_forensic_governance_framework_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: forensic_governance_framework_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Forensic Governance Framework may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Forensic Governance Framework per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Forensic Governance Framework per ISO 19011
+      and EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Forensic Governance Framework per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Forensic Governance Framework per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: case_closure_sla_compliance
+    metric_category: operational
+    business_purpose:
+      >
+        Measure case closure sla compliance for Forensic Governance Framework operational and regulatory
+        assurance
+    formula:
+      computed_case_closure_sla_compliance_from_forensic_governance_framework_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: forensic_governance_framework_metrics_owner
+    data_source: forensic_governance_framework_metrics_warehouse
+    evidence_generated: case_closure_sla_compliance_measurement_record
+  - metric_name: evidence_sufficiency_score
+    metric_category: risk
+    business_purpose:
+      >
+        Measure evidence sufficiency score for Forensic Governance Framework operational and regulatory
+        assurance
+    formula: computed_evidence_sufficiency_score_from_forensic_governance_framework_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: forensic_governance_framework_metrics_owner
+    data_source: forensic_governance_framework_metrics_warehouse
+    evidence_generated: evidence_sufficiency_score_measurement_record
+  - metric_name: investigation_escalation_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure investigation escalation rate for Forensic Governance Framework operational and
+        regulatory assurance
+    formula:
+      computed_investigation_escalation_rate_from_forensic_governance_framework_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: forensic_governance_framework_metrics_owner
+    data_source: forensic_governance_framework_metrics_warehouse
+    evidence_generated: investigation_escalation_rate_measurement_record
+  - metric_name: root_cause_identification_rate
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure root cause identification rate for Forensic Governance Framework operational and
+        regulatory assurance
+    formula:
+      computed_root_cause_identification_rate_from_forensic_governance_framework_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: forensic_governance_framework_metrics_owner
+    data_source: forensic_governance_framework_metrics_warehouse
+    evidence_generated: root_cause_identification_rate_measurement_record
+  - metric_name: regulator_notification_timeliness
+    metric_category: governance
+    business_purpose:
+      >
+        Measure regulator notification timeliness for Forensic Governance Framework operational and
+        regulatory assurance
+    formula:
+      computed_regulator_notification_timeliness_from_forensic_governance_framework_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: forensic_governance_framework_metrics_owner
+    data_source: forensic_governance_framework_metrics_warehouse
+    evidence_generated: regulator_notification_timeliness_measurement_record
+  - metric_name: forensic_integrity_score
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure forensic integrity score for Forensic Governance Framework operational and regulatory
+        assurance
+    formula: computed_forensic_integrity_score_from_forensic_governance_framework_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: forensic_governance_framework_metrics_owner
+    data_source: forensic_governance_framework_metrics_warehouse
+    evidence_generated: forensic_integrity_score_measurement_record
+kpis:
+  - metric_name: case_closure_sla_compliance
+    formula: computed_case_closure_sla_compliance_from_forensic_governance_framework_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: evidence_sufficiency_score
+    formula: computed_evidence_sufficiency_score_from_forensic_governance_framework_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: investigation_escalation_rate
+    formula: computed_investigation_escalation_rate_from_forensic_governance_framework_telemetry
+    target: >= 95%
+  - metric_name: root_cause_identification_rate
+    formula: computed_root_cause_identification_rate_from_forensic_governance_framework_telemetry
+    target: >= 95%
+kris:
+  - metric_name: investigation_escalation_rate
+    business_purpose: Measure investigation escalation rate for Forensic Governance Framework operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: forensic_governance_framework_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support forensic governance framework governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_forensic_governance_framework_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: forensic_governance_framework_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: forensic_governance_framework_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support forensic governance framework governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_forensic_governance_framework_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: forensic_governance_framework_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: forensic_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support forensic governance framework governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_forensic_governance_framework_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: forensic_governance_framework_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: governance_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support forensic governance framework governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_forensic_governance_framework_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: forensic_governance_framework_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: framework_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support forensic governance framework governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_forensic_governance_framework_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: forensic_governance_framework_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: forensic_governance_framework_status_dashboard
+    report_owner: forensic_governance_framework_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: monthly
+    report_inputs:
+      - forensic_governance_framework_telemetry
+      - forensic_governance_framework_evidence_index
+    report_outputs:
+      - forensic_governance_framework_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: forensic_governance_framework_compliance_summary
+    report_owner: forensic_governance_framework_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - forensic_governance_framework_telemetry
+      - forensic_governance_framework_evidence_index
+    report_outputs:
+      - forensic_governance_framework_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: forensic_assurance_report
+    report_owner: forensic_governance_framework_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - forensic_governance_framework_telemetry
+      - forensic_governance_framework_evidence_index
+    report_outputs:
+      - forensic_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: forensic_governance_framework_executive_brief
+    report_owner: forensic_governance_framework_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - forensic_governance_framework_telemetry
+      - forensic_governance_framework_evidence_index
+    report_outputs:
+      - forensic_governance_framework_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: forensic_governance_framework_audit_pack
+    report_owner: forensic_governance_framework_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - forensic_governance_framework_telemetry
+      - forensic_governance_framework_evidence_index
+    report_outputs:
+      - forensic_governance_framework_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  agent_governance:
+    agent_identity: forensic_governance_framework_registered_agent_identity_schema
+    agent_role: forensic_governance_framework_delegated_authority_role_matrix
+    agent_permissions: forensic_governance_framework_least_privilege_permission_set
+    agent_constraints: forensic_governance_framework_autonomy_and_tool_constraints
+    agent_accountability: forensic_governance_framework_human_accountability_chain
+    agent_escalation_rules: forensic_governance_framework_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - forensic_governance_framework_policy_context
+      - forensic_governance_framework_risk_score
+      - forensic_governance_framework_human_intent
+    decision_outputs:
+      - forensic_governance_framework_authorized_action
+      - forensic_governance_framework_escalation_notice
+    decision_owners:
+      - forensic_governance_framework_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: forensic_governance_framework_high_risk_decision_mandatory_review
+    decision_accountability: forensic_governance_framework_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: forensic_governance_framework_approved_tool_allowlist
+    tool_execution_validation: forensic_governance_framework_pre_execution_tool_risk_check
+    tool_risk_controls: forensic_governance_framework_tool_side_effect_containment
+    tool_auditability: forensic_governance_framework_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: forensic_governance_framework_memory_segment_access_policy
+    memory_integrity_validation: forensic_governance_framework_memory_tamper_detection
+    memory_retention_controls: forensic_governance_framework_memory_retention_and_purge_rules
+    memory_auditability: forensic_governance_framework_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: forensic_governance_framework_chain_of_thought_capture
+    reasoning_validation: forensic_governance_framework_reasoning_consistency_check
+    reasoning_risk_monitoring: forensic_governance_framework_reasoning_hazard_detection
+    reasoning_accountability: forensic_governance_framework_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - forensic_governance_framework_audit_log
+  - forensic_governance_framework_activity_log
+  - forensic_governance_framework_decision_log
+  - forensic_governance_framework_traceability_record
+  - forensic_governance_framework_evidence_package
+  - forensic_governance_framework_chain_of_custody_record
+  - forensic_governance_framework_attestation
+required_evidence:
+  - forensic_governance_framework_audit_log
+  - forensic_governance_framework_activity_log
+  - forensic_governance_framework_decision_log
+  - forensic_governance_framework_traceability_record
+  - forensic_governance_framework_evidence_package
+  - forensic_governance_framework_chain_of_custody_record
+  - forensic_governance_framework_attestation
+supporting_evidence:
+  - forensic_governance_framework_audit_log
+  - forensic_governance_framework_activity_log
+  - forensic_governance_framework_decision_log
+  - forensic_governance_framework_traceability_record
+  - forensic_governance_framework_evidence_package
+audit_evidence:
+  - forensic_governance_framework_audit_log
+  - forensic_governance_framework_activity_log
+  - forensic_governance_framework_decision_log
+  - forensic_governance_framework_traceability_record
+  - forensic_governance_framework_evidence_package
+  - forensic_governance_framework_chain_of_custody_record
+  - forensic_governance_framework_attestation
+forensic_evidence:
+  - forensic_governance_framework_audit_log
+  - forensic_governance_framework_activity_log
+  - forensic_governance_framework_decision_log
+  - forensic_governance_framework_traceability_record
+  - forensic_governance_framework_evidence_package
+  - forensic_governance_framework_chain_of_custody_record
+  - forensic_governance_framework_attestation
+regulatory_evidence:
+  - forensic_governance_framework_audit_log
+  - forensic_governance_framework_activity_log
+  - forensic_governance_framework_decision_log
+  - forensic_governance_framework_traceability_record
+  - forensic_governance_framework_evidence_package
+  - forensic_governance_framework_chain_of_custody_record
+  - forensic_governance_framework_attestation
+validation_evidence:
+  - forensic_governance_framework_audit_log
+  - forensic_governance_framework_activity_log
+  - forensic_governance_framework_decision_log
+  - forensic_governance_framework_traceability_record
+  - forensic_governance_framework_evidence_package
+  - forensic_governance_framework_chain_of_custody_record
+  - forensic_governance_framework_attestation
+validation_rules:
+  - rule: forensic_governance_framework_evidence_complete
+    condition: required_evidence_forensic_governance_framework < threshold
+    action: BLOCK_SUBMISSION
+  - rule: forensic_governance_framework_integrity_verified
+    condition: integrity_status_forensic_governance_framework != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: forensic_governance_framework_custody_intact
+    condition: custody_gap_forensic_governance_framework == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Forensic Governance Framework controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Forensic Governance Framework controls fail; mitigated
+      through preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Forensic Governance Framework controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Forensic Governance Framework controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Forensic Governance Framework controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - forensic_governance_framework_control_failure
+    - forensic_governance_framework_evidence_compromise
+    - forensic_governance_framework_regulatory_non_compliance
+    - forensic_governance_framework_enforcement_delay
+  risk_events:
+    - forensic_governance_framework_audit_finding_critical
+    - forensic_governance_framework_investigation_escalation
+    - forensic_governance_framework_sanction_exposure
+    - forensic_governance_framework_market_surveillance_inquiry
+  risk_indicators:
+    - forensic_governance_framework_control_effectiveness_degradation
+    - forensic_governance_framework_evidence_gap_rate
+    - forensic_governance_framework_sla_breach_count
+    - forensic_governance_framework_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    forensic_governance_framework_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: forensic_governance_framework_forensic_lead
+    forensic_governance_framework_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    forensic_governance_framework_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: forensic_governance_framework_enforcement_officer
+  risk_tolerance:
+    forensic_governance_framework_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: forensic_governance_framework_risk_score >= 60
+    critical: forensic_governance_framework_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Forensic Governance Framework controls documented in
+      forensic_governance_framework_risk_register with quarterly review.
+  risk_treatment:
+    - forensic_governance_framework_preventive_control_reinforcement
+    - forensic_governance_framework_detective_monitoring_enhancement
+    - forensic_governance_framework_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: forensic_governance_framework_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Forensic Governance Framework workflow events with provenance anchor and
+      forensic_governance_framework_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via forensic_governance_framework_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      forensic_governance_framework_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      forensic_governance_framework_data_classification_policy
+  evidence_storage:
+    >
+      Write-once immutable storage in forensic_governance_framework_evidence_vault with access
+      controls
+  evidence_retention:
+    >
+      Retention per forensic_governance_framework_retention_schedule aligned with EU AI Act Article 18
+      and legal hold
+  evidence_archival:
+    Long-term archival with forensic_governance_framework_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via forensic_governance_framework_retrieval_gateway with purpose logging
+  evidence_disposal:
+    >
+      Authorized disposition with forensic_governance_framework_disposition_certificate and dual
+      approval
+chain_of_custody:
+  custody_events:
+    - forensic_governance_framework_capture_event
+    - forensic_governance_framework_transfer_event
+    - forensic_governance_framework_access_event
+    - forensic_governance_framework_disposition_event
+  custody_owners:
+    primary: forensic_governance_framework_evidence_custodian
+    secondary: forensic_governance_framework_forensic_lead
+  custody_validation:
+    method: forensic_governance_framework_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - forensic_governance_framework_sha256_hash_chain
+    - forensic_governance_framework_digital_signature
+    - forensic_governance_framework_timestamp_authority
+  tamper_detection:
+    method: forensic_governance_framework_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: forensic_governance_framework_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_12:
+    article: Article 12
+    regulatory_text_summary:
+      Record-keeping and automatic logging.
+    obligation:
+      >
+        Logging capabilities enabling traceability throughout system lifetime. Implemented through
+        Forensic Governance Framework in governance_forensics.
+    implementation_controls:
+      - forensic_governance_framework_article_12_preventive_control
+      - forensic_governance_framework_article_12_detective_control
+      - forensic_governance_framework_article_12_evidence_control
+    implementation_processes:
+      - forensic_governance_framework_article_12_workflow
+      - forensic_governance_framework_article_12_validation_process
+      - forensic_governance_framework_article_12_escalation_process
+    implementation_evidence:
+      - forensic_governance_framework_article_12_compliance_record
+      - forensic_governance_framework_article_12_audit_package
+      - forensic_governance_framework_article_12_attestation
+    validation_method: forensic_governance_framework_article_12_automated_and_manual_conformity_testing
+    audit_method: forensic_governance_framework_article_12_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: forensic_governance_framework_article_12_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Forensic Governance Framework demonstrates Article 12 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_14:
+    article: Article 14
+    regulatory_text_summary:
+      Human oversight.
+    obligation:
+      >
+        Effective human oversight measures during system use. Implemented through Forensic Governance
+        Framework in governance_forensics.
+    implementation_controls:
+      - forensic_governance_framework_article_14_preventive_control
+      - forensic_governance_framework_article_14_detective_control
+      - forensic_governance_framework_article_14_evidence_control
+    implementation_processes:
+      - forensic_governance_framework_article_14_workflow
+      - forensic_governance_framework_article_14_validation_process
+      - forensic_governance_framework_article_14_escalation_process
+    implementation_evidence:
+      - forensic_governance_framework_article_14_compliance_record
+      - forensic_governance_framework_article_14_audit_package
+      - forensic_governance_framework_article_14_attestation
+    validation_method: forensic_governance_framework_article_14_automated_and_manual_conformity_testing
+    audit_method: forensic_governance_framework_article_14_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: forensic_governance_framework_article_14_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Forensic Governance Framework demonstrates Article 14 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Forensic Governance Framework in governance_forensics.
+    implementation_controls:
+      - forensic_governance_framework_article_26_preventive_control
+      - forensic_governance_framework_article_26_detective_control
+      - forensic_governance_framework_article_26_evidence_control
+    implementation_processes:
+      - forensic_governance_framework_article_26_workflow
+      - forensic_governance_framework_article_26_validation_process
+      - forensic_governance_framework_article_26_escalation_process
+    implementation_evidence:
+      - forensic_governance_framework_article_26_compliance_record
+      - forensic_governance_framework_article_26_audit_package
+      - forensic_governance_framework_article_26_attestation
+    validation_method: forensic_governance_framework_article_26_automated_and_manual_conformity_testing
+    audit_method: forensic_governance_framework_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: forensic_governance_framework_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Forensic Governance Framework demonstrates Article 26 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_73:
+    article: Article 73
+    regulatory_text_summary:
+      Reporting of serious incidents.
+    obligation:
+      >
+        Serious incident reporting to market surveillance authorities. Implemented through Forensic
+        Governance Framework in governance_forensics.
+    implementation_controls:
+      - forensic_governance_framework_article_73_preventive_control
+      - forensic_governance_framework_article_73_detective_control
+      - forensic_governance_framework_article_73_evidence_control
+    implementation_processes:
+      - forensic_governance_framework_article_73_workflow
+      - forensic_governance_framework_article_73_validation_process
+      - forensic_governance_framework_article_73_escalation_process
+    implementation_evidence:
+      - forensic_governance_framework_article_73_compliance_record
+      - forensic_governance_framework_article_73_audit_package
+      - forensic_governance_framework_article_73_attestation
+    validation_method: forensic_governance_framework_article_73_automated_and_manual_conformity_testing
+    audit_method: forensic_governance_framework_article_73_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: forensic_governance_framework_article_73_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Forensic Governance Framework demonstrates Article 73 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_12:
+      implementation: forensic_governance_framework_eu_ai_act_article_12_control_set
+      process: forensic_governance_framework_eu_ai_act_article_12_workflow
+      evidence: forensic_governance_framework_eu_ai_act_article_12_attestation
+    article_14:
+      implementation: forensic_governance_framework_eu_ai_act_article_14_control_set
+      process: forensic_governance_framework_eu_ai_act_article_14_workflow
+      evidence: forensic_governance_framework_eu_ai_act_article_14_attestation
+    article_26:
+      implementation: forensic_governance_framework_eu_ai_act_article_26_control_set
+      process: forensic_governance_framework_eu_ai_act_article_26_workflow
+      evidence: forensic_governance_framework_eu_ai_act_article_26_attestation
+    article_73:
+      implementation: forensic_governance_framework_eu_ai_act_article_73_control_set
+      process: forensic_governance_framework_eu_ai_act_article_73_workflow
+      evidence: forensic_governance_framework_eu_ai_act_article_73_attestation
+  gdpr:
+    article_5:
+      implementation: forensic_governance_framework_gdpr_article_5_privacy_control
+      evidence: forensic_governance_framework_gdpr_article_5_compliance_record
+    article_6:
+      implementation: forensic_governance_framework_gdpr_article_6_privacy_control
+      evidence: forensic_governance_framework_gdpr_article_6_compliance_record
+    article_22:
+      implementation: forensic_governance_framework_gdpr_article_22_privacy_control
+      evidence: forensic_governance_framework_gdpr_article_22_compliance_record
+    article_25:
+      implementation: forensic_governance_framework_gdpr_article_25_privacy_control
+      evidence: forensic_governance_framework_gdpr_article_25_compliance_record
+    article_32:
+      implementation: forensic_governance_framework_gdpr_article_32_privacy_control
+      evidence: forensic_governance_framework_gdpr_article_32_compliance_record
+    article_35:
+      implementation: forensic_governance_framework_gdpr_article_35_privacy_control
+      evidence: forensic_governance_framework_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: forensic_governance_framework_iso42001_clause_4_1_aims_control
+      evidence: forensic_governance_framework_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: forensic_governance_framework_iso42001_clause_4_2_aims_control
+      evidence: forensic_governance_framework_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: forensic_governance_framework_iso42001_clause_5_1_aims_control
+      evidence: forensic_governance_framework_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: forensic_governance_framework_iso42001_clause_5_2_aims_control
+      evidence: forensic_governance_framework_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: forensic_governance_framework_iso42001_clause_6_1_aims_control
+      evidence: forensic_governance_framework_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: forensic_governance_framework_iso42001_clause_8_1_aims_control
+      evidence: forensic_governance_framework_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: forensic_governance_framework_iso42001_clause_9_1_aims_control
+      evidence: forensic_governance_framework_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: forensic_governance_framework_iso42001_clause_10_1_aims_control
+      evidence: forensic_governance_framework_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: forensic_governance_framework_iso23894_risk_identification_alignment
+      evidence: forensic_governance_framework_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: forensic_governance_framework_iso23894_risk_analysis_alignment
+      evidence: forensic_governance_framework_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: forensic_governance_framework_iso23894_risk_evaluation_alignment
+      evidence: forensic_governance_framework_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: forensic_governance_framework_iso23894_risk_treatment_alignment
+      evidence: forensic_governance_framework_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: forensic_governance_framework_iso23894_risk_monitoring_alignment
+      evidence: forensic_governance_framework_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: forensic_governance_framework_iso19011_audit_principles_procedure
+      evidence: forensic_governance_framework_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: forensic_governance_framework_iso19011_audit_programme_management_procedure
+      evidence: forensic_governance_framework_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: forensic_governance_framework_iso19011_audit_evidence_requirements_procedure
+      evidence: forensic_governance_framework_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: forensic_governance_framework_iso19011_audit_reporting_procedure
+      evidence: forensic_governance_framework_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: forensic_governance_framework_nist_rmf_govern_control_mapping
+      evidence: forensic_governance_framework_nist_rmf_govern_assessment
+    map:
+      implementation: forensic_governance_framework_nist_rmf_map_control_mapping
+      evidence: forensic_governance_framework_nist_rmf_map_assessment
+    measure:
+      implementation: forensic_governance_framework_nist_rmf_measure_control_mapping
+      evidence: forensic_governance_framework_nist_rmf_measure_assessment
+    manage:
+      implementation: forensic_governance_framework_nist_rmf_manage_control_mapping
+      evidence: forensic_governance_framework_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: forensic_governance_framework_nist_csf_identify_safeguard
+      evidence: forensic_governance_framework_nist_csf_identify_log
+    protect:
+      implementation: forensic_governance_framework_nist_csf_protect_safeguard
+      evidence: forensic_governance_framework_nist_csf_protect_log
+    detect:
+      implementation: forensic_governance_framework_nist_csf_detect_safeguard
+      evidence: forensic_governance_framework_nist_csf_detect_log
+    respond:
+      implementation: forensic_governance_framework_nist_csf_respond_safeguard
+      evidence: forensic_governance_framework_nist_csf_respond_log
+    recover:
+      implementation: forensic_governance_framework_nist_csf_recover_safeguard
+      evidence: forensic_governance_framework_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: forensic_governance_framework_oecd_accountability_governance_control
+      evidence: forensic_governance_framework_oecd_accountability_attestation
+    transparency:
+      implementation: forensic_governance_framework_oecd_transparency_governance_control
+      evidence: forensic_governance_framework_oecd_transparency_attestation
+    robustness_security:
+      implementation: forensic_governance_framework_oecd_robustness_security_governance_control
+      evidence: forensic_governance_framework_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: forensic_governance_framework_oecd_inclusive_growth_governance_control
+      evidence: forensic_governance_framework_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: forensic_governance_framework_unesco_human_rights_ethics_control
+      evidence: forensic_governance_framework_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: forensic_governance_framework_unesco_fairness_non_discrimination_ethics_control
+      evidence: forensic_governance_framework_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: forensic_governance_framework_unesco_transparency_explainability_ethics_control
+      evidence: forensic_governance_framework_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: forensic_governance_framework_unesco_accountability_ethics_control
+      evidence: forensic_governance_framework_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Forensic Governance Framework covering executive, board, regulatory,
+      audit, forensic, and attestation consumers.
+  report_types:
+    - forensic_governance_framework_status_report
+    - forensic_governance_framework_compliance_report
+    - forensic_governance_framework_enforcement_report
+    - forensic_governance_framework_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [forensic_governance_framework_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_forensic_governance_framework
+  - quarterly_control_testing_forensic_governance_framework
+  - evidence_sampling_forensic_governance_framework
+  - finding_remediation_tracking_forensic_governance_framework
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Forensic Governance Framework aligned with ISO/IEC 27037 and legal
+      admissibility standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Forensic Governance Framework.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Forensic Governance Framework.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Forensic Governance Framework.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Forensic Governance Framework.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Forensic Governance Framework.
+investigation_requirements:
+  case_management:
+    Case Management for Forensic Governance Framework investigations.
+  investigation_lifecycle:
+    Investigation Lifecycle for Forensic Governance Framework investigations.
+  evidence_collection:
+    Evidence Collection for Forensic Governance Framework investigations.
+  root_cause_analysis:
+    Root Cause Analysis for Forensic Governance Framework investigations.
+  violation_determination:
+    Violation Determination for Forensic Governance Framework investigations.
+  regulatory_notification:
+    Regulatory Notification for Forensic Governance Framework investigations.
+integration_points:
+  upstream_systems:
+    - system: audit_traceability
+      purpose: forensic_governance_framework_to_audit_traceability_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_audit_traceability]
+      produced_artifacts: [forensic_governance_framework_output_to_audit_traceability]
+    - system: evidence_preservation
+      purpose: forensic_governance_framework_to_evidence_preservation_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_evidence_preservation]
+      produced_artifacts: [forensic_governance_framework_output_to_evidence_preservation]
+    - system: incident_reporting
+      purpose: forensic_governance_framework_to_incident_reporting_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_incident_reporting]
+      produced_artifacts: [forensic_governance_framework_output_to_incident_reporting]
+  downstream_systems:
+    - system: investigation_management
+      purpose: forensic_governance_framework_to_investigation_management_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_investigation_management]
+      produced_artifacts: [forensic_governance_framework_output_to_investigation_management]
+    - system: enforcement_actions
+      purpose: forensic_governance_framework_to_enforcement_actions_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_enforcement_actions]
+      produced_artifacts: [forensic_governance_framework_output_to_enforcement_actions]
+    - system: reporting
+      purpose: forensic_governance_framework_to_reporting_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_reporting]
+      produced_artifacts: [forensic_governance_framework_output_to_reporting]
+  governance_integrations:
+    - system: ai_liability
+      purpose: forensic_governance_framework_to_ai_liability_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_ai_liability]
+      produced_artifacts: [forensic_governance_framework_output_to_ai_liability]
+    - system: incident_reporting
+      purpose: forensic_governance_framework_to_incident_reporting_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_incident_reporting]
+      produced_artifacts: [forensic_governance_framework_output_to_incident_reporting]
+  risk_integrations:
+    - system: risk_management
+      purpose: forensic_governance_framework_to_risk_management_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_risk_management]
+      produced_artifacts: [forensic_governance_framework_output_to_risk_management]
+    - system: ai_liability
+      purpose: forensic_governance_framework_to_ai_liability_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_ai_liability]
+      produced_artifacts: [forensic_governance_framework_output_to_ai_liability]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: forensic_governance_framework_to_compliance_audits_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_compliance_audits]
+      produced_artifacts: [forensic_governance_framework_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: forensic_governance_framework_to_internal_audit_system_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_internal_audit_system]
+      produced_artifacts: [forensic_governance_framework_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: forensic_governance_framework_to_governance_reporting_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_governance_reporting]
+      produced_artifacts: [forensic_governance_framework_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: forensic_governance_framework_to_executive_dashboard_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_executive_dashboard]
+      produced_artifacts: [forensic_governance_framework_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: forensic_governance_framework_to_enforcement_actions_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_enforcement_actions]
+      produced_artifacts: [forensic_governance_framework_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: forensic_governance_framework_to_policy_enforcement_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_policy_enforcement]
+      produced_artifacts: [forensic_governance_framework_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: forensic_governance_framework_to_remediation_tracking_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_remediation_tracking]
+      produced_artifacts: [forensic_governance_framework_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: forensic_governance_framework_to_remediation_engine_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_remediation_engine]
+      produced_artifacts: [forensic_governance_framework_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: forensic_governance_framework_to_evidence_preservation_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_evidence_preservation]
+      produced_artifacts: [forensic_governance_framework_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: forensic_governance_framework_to_technical_documentation_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_technical_documentation]
+      produced_artifacts: [forensic_governance_framework_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: forensic_governance_framework_to_post_market_monitoring_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_post_market_monitoring]
+      produced_artifacts: [forensic_governance_framework_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: forensic_governance_framework_to_incident_reporting_governance_sync
+      data_exchanged: [forensic_governance_framework_events, forensic_governance_framework_evidence_refs, forensic_governance_framework_metrics]
+      trigger_conditions: [forensic_governance_framework_state_change, forensic_governance_framework_escalation, forensic_governance_framework_closure]
+      consumed_artifacts: [forensic_governance_framework_input_from_incident_reporting]
+      produced_artifacts: [forensic_governance_framework_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Forensic Governance Framework activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Forensic Governance Framework procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - forensic_governance_framework_procedure_checklist
+    required_evidence:
+      - forensic_governance_framework_process_log
+    required_metrics:
+      - forensic_governance_framework_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Forensic Governance Framework enterprise-wide.
+    required_capabilities:
+      - forensic_governance_framework_standard_control_set
+    required_controls:
+      - forensic_governance_framework_control_register
+    required_evidence:
+      - forensic_governance_framework_audit_evidence
+    required_metrics:
+      - forensic_governance_framework_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Forensic Governance Framework with KPI optimization.
+    required_capabilities:
+      - forensic_governance_framework_automated_controls
+    required_controls:
+      - forensic_governance_framework_telemetry_controls
+    required_evidence:
+      - forensic_governance_framework_assurance_package
+    required_metrics:
+      - forensic_governance_framework_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Forensic Governance Framework with predictive analytics.
+    required_capabilities:
+      - forensic_governance_framework_autonomous_governance
+    required_controls:
+      - forensic_governance_framework_adaptive_controls
+    required_evidence:
+      - forensic_governance_framework_regulator_ready_portfolio
+    required_metrics:
+      - forensic_governance_framework_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - forensic_governance_framework_report
+  - forensic_governance_framework_evidence_package
+  - forensic_governance_framework_attestation
+  - forensic_governance_framework_enforcement_record
+artifacts:
+  - name: forensic_governance_framework_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: forensic_governance_framework_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: forensic_governance_framework_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: forensic_governance_framework_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - forensic_governance_framework_case_record
+  - forensic_governance_framework_audit_record
+  - forensic_governance_framework_enforcement_record
+  - forensic_governance_framework_remediation_record
+monitoring:
+  continuous:
+    - forensic_governance_framework_control_telemetry
+    - forensic_governance_framework_evidence_integrity_feed
+    - forensic_governance_framework_escalation_queue
+  periodic:
+    - forensic_governance_framework_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Forensic Governance Framework effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: forensic_governance_framework_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: forensic_governance_framework_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: forensic_governance_framework_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: forensic_governance_framework_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Forensic Governance Framework

@@ -1,0 +1,1961 @@
+metadata:
+  id: AAE-EP-EVIRET-001
+  name: evidence_retention_policies
+  title: Evidence Retention Policies
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: evidence_preservation
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - evidence_preservation
+    - evidence_retention_policies
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Evidence Retention Policies governance within
+    audit_and_enforcement/evidence_preservation, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for evidence lifecycle preservation with chain-of-custody
+    defensibility, legally defensible retention schedules and disposition authority. Integrates with
+    the EU AI Act governance ecosystem through machine-evaluable obligations, evidence preservation,
+    and conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Evidence Retention Policies across enterprise
+    and cross-border operations within audit_and_enforcement/evidence_preservation.
+objectives:
+  - Operationalize Evidence Retention Policies with regulator-defensible controls and evidence chains
+  - Enable automated validation of Evidence Retention Policies conformance across evidence_preservation
+  - Preserve audit-grade and forensic-grade records for all Evidence Retention Policies activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Evidence Retention Policies with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Evidence Retention Policies
+definitions:
+  evidence_retention_policies_governance_domain:
+    >
+      The operational jurisdiction of Evidence Retention Policies encompassing controlled audit,
+      enforcement, investigation, and evidence processes within evidence_preservation.
+  evidence_retention_policies_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Evidence Retention Policies control
+      effectiveness, process adherence, and regulatory conformity.
+  evidence_retention_policies_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Evidence Retention Policies decision logic.
+  evidence_retention_policies_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Evidence Retention Policies processes.
+  evidence_retention_policies_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within Evidence
+      Retention Policies operations.
+  evidence_retention_policies_conformity_assertion:
+    >
+      Formal statement that Evidence Retention Policies requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: evidence_retention_policies_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  evidence_retention_policies_artifact_type:
+    - evidence_retention_policies_record
+    - evidence_retention_policies_log
+    - evidence_retention_policies_report
+    - evidence_retention_policies_attestation
+    - evidence_retention_policies_package
+  evidence_retention_policies_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Evidence Retention Policies Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: evidence_preservation
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - audit_traceability
+    - investigation_management
+    - governance_forensics
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - compliance_audits
+    - enforcement_actions
+    - reporting
+    - audit_and_enforcement/evidence_preservation/evidence_retention_policies.yaml
+  related_domains:
+    - audit_traceability
+    - governance_forensics
+    - investigation_management
+  related_skills:
+    - chain_of_custody
+    - cryptographic_evidence_integrity
+    - evidence_retention_policies
+    - evidence_retention_policies
+  parent_governance_objects:
+    - audit_metadata
+    - enforcement_framework
+  child_governance_objects:
+    - evidence_artifact
+    - custody_transfer_record
+    - evidence_retention_policies_governance_object
+  consumes_artifacts:
+    - audit_log
+    - investigation_record
+    - forensic_capture
+    - evidence_retention_policies_input_artifact
+  produces_artifacts:
+    - evidence_package
+    - integrity_attestation
+    - archival_manifest
+    - evidence_retention_policies_record
+    - evidence_retention_policies_report
+    - evidence_retention_policies_attestation
+  consumes_evidence:
+    - raw_digital_artifact
+    - runtime_snapshot
+    - evidence_retention_policies_source_evidence
+  produces_evidence:
+    - chain_of_custody_record
+    - cryptographic_hash_anchor
+    - retention_disposition_log
+    - evidence_retention_policies_audit_evidence
+    - evidence_retention_policies_validation_evidence
+    - evidence_retention_policies_enforcement_evidence
+  governance_dependencies:
+    - data_governance
+    - cybersecurity
+  regulatory_dependencies:
+    - eu_ai_act_article_12
+    - eu_ai_act_article_18
+    - gdpr_article_5
+  risk_dependencies:
+    - ai_liability
+  control_dependencies:
+    - audit_traceability
+    - evidence_retention_policies_control_register
+roles_and_responsibilities:
+  evidence_retention_policies_owner:
+    responsibilities:
+      - Accountable for Evidence Retention Policies strategy, control design, and regulatory alignment
+  evidence_retention_policies_operator:
+    responsibilities:
+      - Executes Evidence Retention Policies workflows and maintains operational records
+  evidence_retention_policies_auditor:
+    responsibilities:
+      - Independently validates Evidence Retention Policies control effectiveness and evidence sufficiency
+  evidence_retention_policies_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Evidence Retention Policies investigations
+  evidence_retention_policies_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Evidence Retention Policies
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-033
+    name: Evidence Preservation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-034
+    name: Digital Evidence Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-035
+    name: Chain of Custody
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-036
+    name: Evidence Integrity Validation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-037
+    name: Evidence Archival
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-038
+    name: Evidence Reconstruction
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-039
+    name: Audit Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-040
+    name: Runtime Traceability
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-EVI-EVIDENCE_R-EVIDENCECHA
+    control_name: evidence_chain_of_custody_transfer_attestation
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring chain of custody transfer attestation for Evidence Retention
+        Policies across evidence_preservation.
+    governance_rationale:
+      >
+        evidence_chain_of_custody_transfer_attestation is required to govern Evidence Retention Policies
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_chain_of_custody_transfer_attestation as automated policy in
+        evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: evidence_chain_of_custody_transfer_attestation_continuous_telemetry_dashboard
+    validation_method:
+      evidence_chain_of_custody_transfer_attestation_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      evidence_chain_of_custody_transfer_attestation_statistical_sampling_with_exception_tracking
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated: evidence_chain_of_custody_transfer_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_chain_of_custody_transfer_attestation design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_chain_of_custody_transfer_attestation outputs may trigger enforcement under
+        evidence_retention_policies escalation rules.
+  - control_id: AAE-EVI-EVIDENCE_R-RETENTIONEV
+    control_name: retention_evidence_classification_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring evidence classification enforcer for Evidence Retention Policies
+        across evidence_preservation.
+    governance_rationale:
+      >
+        retention_evidence_classification_enforcer is required to govern Evidence Retention Policies
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement retention_evidence_classification_enforcer as automated policy in
+        evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: retention_evidence_classification_enforcer_continuous_telemetry_dashboard
+    validation_method:
+      retention_evidence_classification_enforcer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      retention_evidence_classification_enforcer_statistical_sampling_with_exception_tracking
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated: retention_evidence_classification_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify retention_evidence_classification_enforcer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        retention_evidence_classification_enforcer outputs may trigger enforcement under
+        evidence_retention_policies escalation rules.
+  - control_id: AAE-EVI-EVIDENCE_R-POLICIESRET
+    control_name: policies_retention_schedule_executor
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring retention schedule executor for Evidence Retention Policies across
+        evidence_preservation.
+    governance_rationale:
+      >
+        policies_retention_schedule_executor is required to govern Evidence Retention Policies risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected evidence
+        preservation failures.
+    implementation_guidance:
+      >
+        Implement policies_retention_schedule_executor as automated policy in
+        evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: policies_retention_schedule_executor_continuous_telemetry_dashboard
+    validation_method:
+      policies_retention_schedule_executor_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      policies_retention_schedule_executor_statistical_sampling_with_exception_tracking
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated: policies_retention_schedule_executor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify policies_retention_schedule_executor design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        policies_retention_schedule_executor outputs may trigger enforcement under
+        evidence_retention_policies escalation rules.
+  - control_id: AAE-EVI-EVIDENCE_R-EVIDENCERET
+    control_name: evidence_retention_policies_access_authorization_gateway
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring access authorization gateway for Evidence Retention Policies across
+        evidence_preservation.
+    governance_rationale:
+      >
+        evidence_retention_policies_access_authorization_gateway is required to govern Evidence
+        Retention Policies risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_retention_policies_access_authorization_gateway as automated policy in
+        evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      evidence_retention_policies_access_authorization_gateway_continuous_telemetry_dashboard
+    validation_method:
+      >
+        evidence_retention_policies_access_authorization_gateway_quarterly_design_and_operating_effectiv
+        eness_test
+    testing_method:
+      >
+        evidence_retention_policies_access_authorization_gateway_statistical_sampling_with_exception_tra
+        cking
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated: evidence_retention_policies_access_authorization_gateway_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_retention_policies_access_authorization_gateway design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_retention_policies_access_authorization_gateway outputs may trigger enforcement under
+        evidence_retention_policies escalation rules.
+  - control_id: AAE-EVI-EVIDENCE_R-EVIDENCERET
+    control_name: evidence_retention_policies_archival_integrity_verifier
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring archival integrity verifier for Evidence Retention Policies across
+        evidence_preservation.
+    governance_rationale:
+      >
+        evidence_retention_policies_archival_integrity_verifier is required to govern Evidence Retention
+        Policies risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_retention_policies_archival_integrity_verifier as automated policy in
+        evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      evidence_retention_policies_archival_integrity_verifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        evidence_retention_policies_archival_integrity_verifier_quarterly_design_and_operating_effective
+        ness_test
+    testing_method:
+      >
+        evidence_retention_policies_archival_integrity_verifier_statistical_sampling_with_exception_trac
+        king
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated: evidence_retention_policies_archival_integrity_verifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_retention_policies_archival_integrity_verifier design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_retention_policies_archival_integrity_verifier outputs may trigger enforcement under
+        evidence_retention_policies escalation rules.
+  - control_id: AAE-EVI-EVIDENCE_R-EVIDENCERET
+    control_name: evidence_retention_policies_reconstruction_fidelity_validator
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring reconstruction fidelity validator for Evidence Retention Policies
+        across evidence_preservation.
+    governance_rationale:
+      >
+        evidence_retention_policies_reconstruction_fidelity_validator is required to govern Evidence
+        Retention Policies risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_retention_policies_reconstruction_fidelity_validator as automated policy in
+        evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      evidence_retention_policies_reconstruction_fidelity_validator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        evidence_retention_policies_reconstruction_fidelity_validator_quarterly_design_and_operating_eff
+        ectiveness_test
+    testing_method:
+      >
+        evidence_retention_policies_reconstruction_fidelity_validator_statistical_sampling_with_exceptio
+        n_tracking
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated:
+      evidence_retention_policies_reconstruction_fidelity_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_retention_policies_reconstruction_fidelity_validator design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_retention_policies_reconstruction_fidelity_validator outputs may trigger enforcement
+        under evidence_retention_policies escalation rules.
+  - control_id: AAE-EVI-EVIDENCE_R-EVIDENCERET
+    control_name: evidence_retention_policies_machine_readable_schema_validator
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring machine readable schema validator for Evidence Retention Policies
+        across evidence_preservation.
+    governance_rationale:
+      >
+        evidence_retention_policies_machine_readable_schema_validator is required to govern Evidence
+        Retention Policies risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_retention_policies_machine_readable_schema_validator as automated policy in
+        evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      evidence_retention_policies_machine_readable_schema_validator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        evidence_retention_policies_machine_readable_schema_validator_quarterly_design_and_operating_eff
+        ectiveness_test
+    testing_method:
+      >
+        evidence_retention_policies_machine_readable_schema_validator_statistical_sampling_with_exceptio
+        n_tracking
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated:
+      evidence_retention_policies_machine_readable_schema_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_retention_policies_machine_readable_schema_validator design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_retention_policies_machine_readable_schema_validator outputs may trigger enforcement
+        under evidence_retention_policies escalation rules.
+  - control_id: AAE-EVI-EVIDENCE_R-EVIDENCERET
+    control_name: evidence_retention_policies_legal_hold_override_manager
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring legal hold override manager for Evidence Retention Policies across
+        evidence_preservation.
+    governance_rationale:
+      >
+        evidence_retention_policies_legal_hold_override_manager is required to govern Evidence Retention
+        Policies risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_retention_policies_legal_hold_override_manager as automated policy in
+        evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      evidence_retention_policies_legal_hold_override_manager_continuous_telemetry_dashboard
+    validation_method:
+      >
+        evidence_retention_policies_legal_hold_override_manager_quarterly_design_and_operating_effective
+        ness_test
+    testing_method:
+      >
+        evidence_retention_policies_legal_hold_override_manager_statistical_sampling_with_exception_trac
+        king
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated: evidence_retention_policies_legal_hold_override_manager_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_retention_policies_legal_hold_override_manager design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_retention_policies_legal_hold_override_manager outputs may trigger enforcement under
+        evidence_retention_policies escalation rules.
+  - control_id: AAE-EVI-EVIDENCE_R-EVIDENCERET
+    control_name: evidence_retention_policies_disposition_authorization_gate
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring disposition authorization gate for Evidence Retention Policies
+        across evidence_preservation.
+    governance_rationale:
+      >
+        evidence_retention_policies_disposition_authorization_gate is required to govern Evidence
+        Retention Policies risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_retention_policies_disposition_authorization_gate as automated policy in
+        evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      evidence_retention_policies_disposition_authorization_gate_continuous_telemetry_dashboard
+    validation_method:
+      >
+        evidence_retention_policies_disposition_authorization_gate_quarterly_design_and_operating_effect
+        iveness_test
+    testing_method:
+      >
+        evidence_retention_policies_disposition_authorization_gate_statistical_sampling_with_exception_t
+        racking
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated: evidence_retention_policies_disposition_authorization_gate_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_retention_policies_disposition_authorization_gate design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_retention_policies_disposition_authorization_gate outputs may trigger enforcement under
+        evidence_retention_policies escalation rules.
+  - control_id: AAE-EVI-EVIDENCE_R-EVIDENCERET
+    control_name: evidence_retention_policies_evidence_vault_tamper_detector
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring evidence vault tamper detector for Evidence Retention Policies
+        across evidence_preservation.
+    governance_rationale:
+      >
+        evidence_retention_policies_evidence_vault_tamper_detector is required to govern Evidence
+        Retention Policies risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_retention_policies_evidence_vault_tamper_detector as automated policy in
+        evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      evidence_retention_policies_evidence_vault_tamper_detector_continuous_telemetry_dashboard
+    validation_method:
+      >
+        evidence_retention_policies_evidence_vault_tamper_detector_quarterly_design_and_operating_effect
+        iveness_test
+    testing_method:
+      >
+        evidence_retention_policies_evidence_vault_tamper_detector_statistical_sampling_with_exception_t
+        racking
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated: evidence_retention_policies_evidence_vault_tamper_detector_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_retention_policies_evidence_vault_tamper_detector design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_retention_policies_evidence_vault_tamper_detector outputs may trigger enforcement under
+        evidence_retention_policies escalation rules.
+  - control_id: AAE-EVI-EVIDENCE_R-EVIDENCERET
+    control_name: evidence_retention_policies_regulator_evidence_disclosure_packager
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring regulator evidence disclosure packager for Evidence Retention
+        Policies across evidence_preservation.
+    governance_rationale:
+      >
+        evidence_retention_policies_regulator_evidence_disclosure_packager is required to govern
+        Evidence Retention Policies risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_retention_policies_regulator_evidence_disclosure_packager as automated policy
+        in evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        evidence_retention_policies_regulator_evidence_disclosure_packager_continuous_telemetry_dashboar
+        d
+    validation_method:
+      >
+        evidence_retention_policies_regulator_evidence_disclosure_packager_quarterly_design_and_operatin
+        g_effectiveness_test
+    testing_method:
+      >
+        evidence_retention_policies_regulator_evidence_disclosure_packager_statistical_sampling_with_exc
+        eption_tracking
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated:
+      evidence_retention_policies_regulator_evidence_disclosure_packager_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_retention_policies_regulator_evidence_disclosure_packager design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_retention_policies_regulator_evidence_disclosure_packager outputs may trigger
+        enforcement under evidence_retention_policies escalation rules.
+  - control_id: AAE-EVI-EVIDENCE_R-EVIDENCERET
+    control_name: evidence_retention_policies_preservation_assurance_attestation
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring preservation assurance attestation for Evidence Retention Policies
+        across evidence_preservation.
+    governance_rationale:
+      >
+        evidence_retention_policies_preservation_assurance_attestation is required to govern Evidence
+        Retention Policies risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected evidence preservation failures.
+    implementation_guidance:
+      >
+        Implement evidence_retention_policies_preservation_assurance_attestation as automated policy in
+        evidence_retention_policies orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      evidence_retention_policies_preservation_assurance_attestation_continuous_telemetry_dashboard
+    validation_method:
+      >
+        evidence_retention_policies_preservation_assurance_attestation_quarterly_design_and_operating_ef
+        fectiveness_test
+    testing_method:
+      >
+        evidence_retention_policies_preservation_assurance_attestation_statistical_sampling_with_excepti
+        on_tracking
+    control_owner: evidence_retention_policies_control_owner
+    evidence_generated:
+      evidence_retention_policies_preservation_assurance_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify evidence_retention_policies_preservation_assurance_attestation design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        evidence_retention_policies_preservation_assurance_attestation outputs may trigger enforcement
+        under evidence_retention_policies escalation rules.
+requirements:
+  legal:
+    >
+      Evidence Retention Policies must satisfy legal requirements for evidence lifecycle preservation
+      with chain-of-custody defensibility, legally defensible retention schedules and disposition
+      authority including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Evidence Retention Policies must satisfy regulatory requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, legally defensible retention schedules and
+      disposition authority including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Evidence Retention Policies must satisfy technical requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, legally defensible retention schedules and
+      disposition authority including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Evidence Retention Policies must satisfy operational requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, legally defensible retention schedules and
+      disposition authority including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Evidence Retention Policies must satisfy audit requirements for evidence lifecycle preservation
+      with chain-of-custody defensibility, legally defensible retention schedules and disposition
+      authority including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Evidence Retention Policies must satisfy forensic requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, legally defensible retention schedules and
+      disposition authority including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Evidence Retention Policies must satisfy enforcement requirements for evidence lifecycle
+      preservation with chain-of-custody defensibility, legally defensible retention schedules and
+      disposition authority including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Evidence Retention Policies with stage gates, RACI assignments, and evidence
+      capture.
+  triage:
+    >
+      Triage process for Evidence Retention Policies with stage gates, RACI assignments, and evidence
+      capture.
+  execution:
+    >
+      Execution process for Evidence Retention Policies with stage gates, RACI assignments, and
+      evidence capture.
+  validation:
+    >
+      Validation process for Evidence Retention Policies with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Evidence Retention Policies with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Evidence Retention Policies with stage gates, RACI assignments, and evidence
+      capture.
+  improvement:
+    >
+      Improvement process for Evidence Retention Policies with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: evidence_retention_policies_operational_lifecycle_workflow
+    workflow_trigger: evidence_retention_policies_governance_event_detected
+    workflow_steps:
+      - evidence_retention_policies_intake
+      - evidence_retention_policies_triage
+      - evidence_retention_policies_execution
+      - evidence_retention_policies_validation
+      - evidence_retention_policies_approval
+      - evidence_retention_policies_closure
+    approval_points:
+      - evidence_retention_policies_approval
+    escalation_points:
+      - evidence_retention_policies_triage
+    generated_evidence:
+      - evidence_retention_policies_workflow_log
+      - evidence_retention_policies_closure_attestation
+    completion_requirements:
+      - evidence_retention_policies_evidence_complete
+      - evidence_retention_policies_approvals_recorded
+  - workflow_name: evidence_retention_policies_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_evidence_retention_policies
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - evidence_retention_policies_regulatory_package
+      - evidence_retention_policies_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - evidence_retention_policies_governance_event_detected
+    - evidence_retention_policies_regulatory_inquiry
+    - evidence_retention_policies_integrity_breach
+    - evidence_retention_policies_enforcement_authorization
+  required_inputs:
+    - evidence_retention_policies_case_context
+    - evidence_retention_policies_evidence_index
+    - evidence_retention_policies_risk_assessment
+  workflow_steps:
+    - evidence_retention_policies_intake
+    - evidence_retention_policies_triage
+    - evidence_retention_policies_execution
+    - evidence_retention_policies_validation
+    - evidence_retention_policies_approval
+    - evidence_retention_policies_closure
+  validation_steps:
+    - evidence_retention_policies_evidence_sufficiency_check
+    - evidence_retention_policies_integrity_verification
+  approval_steps:
+    - evidence_retention_policies_approval
+  control_checkpoints:
+    - evidence_retention_policies_intake_gate
+    - evidence_retention_policies_evidence_gate
+    - evidence_retention_policies_decision_gate
+  evidence_generation:
+    - evidence_retention_policies_workflow_log
+    - evidence_retention_policies_closure_attestation
+  decision_points:
+    - evidence_retention_policies_severity_classification
+    - evidence_retention_policies_enforcement_authorization
+  escalation_points:
+    - evidence_retention_policies_triage
+  completion_criteria:
+    - evidence_retention_policies_evidence_complete
+    - evidence_retention_policies_approvals_recorded
+  generated_outputs:
+    - evidence_retention_policies_workflow_log
+    - evidence_retention_policies_closure_attestation
+    - evidence_retention_policies_final_disposition
+decision_logic:
+  decision_inputs:
+    - evidence_retention_policies_severity_score
+    - evidence_retention_policies_evidence_completeness
+    - evidence_retention_policies_regulatory_context
+    - evidence_retention_policies_risk_exposure_index
+  decision_conditions:
+    - evidence_retention_policies_critical_threshold_breach
+    - evidence_retention_policies_evidence_integrity_failure
+    - evidence_retention_policies_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: evidence_retention_policies_severity_score >= 90
+    high_severity: evidence_retention_policies_severity_score >= 70
+    evidence_complete: evidence_retention_policies_evidence_completeness >= 0.98
+  decision_rules:
+    evidence_retention_policies_high_severity_violation:
+      condition: evidence_retention_policies_severity_score >= 90
+      action: initiate_evidence_retention_policies_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: evidence_retention_policies_investigation_report
+    evidence_retention_policies_evidence_compromise_detected:
+      condition: evidence_retention_policies_integrity_status == compromised
+      action: activate_evidence_retention_policies_forensic_lockdown
+      approval_required: evidence_retention_policies_forensic_lead
+      evidence_required: evidence_retention_policies_integrity_alert_record
+    evidence_retention_policies_enforcement_authorization:
+      condition: evidence_retention_policies_violation_confirmed == true AND evidence_retention_policies_evidence_complete == true
+      action: issue_evidence_retention_policies_enforcement_order
+      approval_required: evidence_retention_policies_enforcement_officer
+      evidence_required: evidence_retention_policies_violation_evidence_package
+    evidence_retention_policies_regulator_inquiry_response:
+      condition: evidence_retention_policies_regulator_request_received == true
+      action: compile_evidence_retention_policies_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: evidence_retention_policies_regulatory_evidence_index
+  decision_outputs:
+    - evidence_retention_policies_enforcement_decision
+    - evidence_retention_policies_escalation_notice
+    - evidence_retention_policies_remediation_directive
+    - evidence_retention_policies_audit_disposition
+  approval_requirements:
+    enforcement_actions: [evidence_retention_policies_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - evidence_retention_policies_severity_score >= 90
+    - evidence_retention_policies_evidence_integrity_failure == true
+    - evidence_retention_policies_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_evidence_retention_policies_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: evidence_retention_policies_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Evidence Retention Policies may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Evidence Retention Policies per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Evidence Retention Policies per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Evidence Retention Policies per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Evidence Retention Policies per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: evidence_operational_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure evidence operational rate for Evidence Retention Policies operational and regulatory
+        assurance
+    formula: computed_evidence_operational_rate_from_evidence_retention_policies_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: evidence_retention_policies_metrics_owner
+    data_source: evidence_retention_policies_metrics_warehouse
+    evidence_generated: evidence_operational_rate_measurement_record
+  - metric_name: retention_operational_rate
+    metric_category: risk
+    business_purpose:
+      >
+        Measure retention operational rate for Evidence Retention Policies operational and regulatory
+        assurance
+    formula: computed_retention_operational_rate_from_evidence_retention_policies_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: evidence_retention_policies_metrics_owner
+    data_source: evidence_retention_policies_metrics_warehouse
+    evidence_generated: retention_operational_rate_measurement_record
+  - metric_name: policies_operational_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure policies operational rate for Evidence Retention Policies operational and regulatory
+        assurance
+    formula: computed_policies_operational_rate_from_evidence_retention_policies_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: evidence_retention_policies_metrics_owner
+    data_source: evidence_retention_policies_metrics_warehouse
+    evidence_generated: policies_operational_rate_measurement_record
+  - metric_name: retention_assurance_score
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure retention assurance score for Evidence Retention Policies operational and regulatory
+        assurance
+    formula: computed_retention_assurance_score_from_evidence_retention_policies_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: evidence_retention_policies_metrics_owner
+    data_source: evidence_retention_policies_metrics_warehouse
+    evidence_generated: retention_assurance_score_measurement_record
+  - metric_name: policies_assurance_score
+    metric_category: governance
+    business_purpose:
+      >
+        Measure policies assurance score for Evidence Retention Policies operational and regulatory
+        assurance
+    formula: computed_policies_assurance_score_from_evidence_retention_policies_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: evidence_retention_policies_metrics_owner
+    data_source: evidence_retention_policies_metrics_warehouse
+    evidence_generated: policies_assurance_score_measurement_record
+  - metric_name: evidence_retention_policies_escalation_frequency
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure evidence retention policies escalation frequency for Evidence Retention Policies
+        operational and regulatory assurance
+    formula:
+      >
+        computed_evidence_retention_policies_escalation_frequency_from_evidence_retention_policies_telem
+        etry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: evidence_retention_policies_metrics_owner
+    data_source: evidence_retention_policies_metrics_warehouse
+    evidence_generated: evidence_retention_policies_escalation_frequency_measurement_record
+kpis:
+  - metric_name: evidence_operational_rate
+    formula: computed_evidence_operational_rate_from_evidence_retention_policies_telemetry
+    target: >= 95%
+  - metric_name: retention_operational_rate
+    formula: computed_retention_operational_rate_from_evidence_retention_policies_telemetry
+    target: >= 95%
+  - metric_name: policies_operational_rate
+    formula: computed_policies_operational_rate_from_evidence_retention_policies_telemetry
+    target: >= 95%
+  - metric_name: retention_assurance_score
+    formula: computed_retention_assurance_score_from_evidence_retention_policies_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: evidence_retention_policies_escalation_frequency
+    business_purpose: Measure evidence retention policies escalation frequency for Evidence Retention Policies operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: evidence_retention_policies_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support evidence retention policies governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_evidence_retention_policies_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: evidence_retention_policies_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: evidence_retention_policies_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support evidence retention policies governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_evidence_retention_policies_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: evidence_retention_policies_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: evidence_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support evidence retention policies governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_evidence_retention_policies_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: evidence_retention_policies_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: retention_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support evidence retention policies governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_evidence_retention_policies_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: evidence_retention_policies_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: policies_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support evidence retention policies governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_evidence_retention_policies_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: evidence_retention_policies_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: evidence_retention_policies_status_dashboard
+    report_owner: evidence_retention_policies_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: monthly
+    report_inputs:
+      - evidence_retention_policies_telemetry
+      - evidence_retention_policies_evidence_index
+    report_outputs:
+      - evidence_retention_policies_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: evidence_retention_policies_compliance_summary
+    report_owner: evidence_retention_policies_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - evidence_retention_policies_telemetry
+      - evidence_retention_policies_evidence_index
+    report_outputs:
+      - evidence_retention_policies_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: evidence_assurance_report
+    report_owner: evidence_retention_policies_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - evidence_retention_policies_telemetry
+      - evidence_retention_policies_evidence_index
+    report_outputs:
+      - evidence_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: evidence_retention_policies_executive_brief
+    report_owner: evidence_retention_policies_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - evidence_retention_policies_telemetry
+      - evidence_retention_policies_evidence_index
+    report_outputs:
+      - evidence_retention_policies_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: evidence_retention_policies_audit_pack
+    report_owner: evidence_retention_policies_reporting_owner
+    report_consumers:
+      - forensic_lead
+      - legal_counsel
+      - regulators
+    report_frequency: quarterly
+    report_inputs:
+      - evidence_retention_policies_telemetry
+      - evidence_retention_policies_evidence_index
+    report_outputs:
+      - evidence_retention_policies_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Evidence Retention Policies interfaces with autonomous agents,
+      GPAI, or tool-calling systems.
+  agent_governance:
+    agent_identity: evidence_retention_policies_registered_agent_identity_schema
+    agent_role: evidence_retention_policies_delegated_authority_role_matrix
+    agent_permissions: evidence_retention_policies_least_privilege_permission_set
+    agent_constraints: evidence_retention_policies_autonomy_and_tool_constraints
+    agent_accountability: evidence_retention_policies_human_accountability_chain
+    agent_escalation_rules: evidence_retention_policies_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - evidence_retention_policies_policy_context
+      - evidence_retention_policies_risk_score
+      - evidence_retention_policies_human_intent
+    decision_outputs:
+      - evidence_retention_policies_authorized_action
+      - evidence_retention_policies_escalation_notice
+    decision_owners:
+      - evidence_retention_policies_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: evidence_retention_policies_high_risk_decision_mandatory_review
+    decision_accountability: evidence_retention_policies_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: evidence_retention_policies_approved_tool_allowlist
+    tool_execution_validation: evidence_retention_policies_pre_execution_tool_risk_check
+    tool_risk_controls: evidence_retention_policies_tool_side_effect_containment
+    tool_auditability: evidence_retention_policies_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: evidence_retention_policies_memory_segment_access_policy
+    memory_integrity_validation: evidence_retention_policies_memory_tamper_detection
+    memory_retention_controls: evidence_retention_policies_memory_retention_and_purge_rules
+    memory_auditability: evidence_retention_policies_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: evidence_retention_policies_chain_of_thought_capture
+    reasoning_validation: evidence_retention_policies_reasoning_consistency_check
+    reasoning_risk_monitoring: evidence_retention_policies_reasoning_hazard_detection
+    reasoning_accountability: evidence_retention_policies_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - evidence_retention_policies_audit_log
+  - evidence_retention_policies_activity_log
+  - evidence_retention_policies_decision_log
+  - evidence_retention_policies_traceability_record
+  - evidence_retention_policies_evidence_package
+  - evidence_retention_policies_chain_of_custody_record
+  - evidence_retention_policies_attestation
+required_evidence:
+  - evidence_retention_policies_audit_log
+  - evidence_retention_policies_activity_log
+  - evidence_retention_policies_decision_log
+  - evidence_retention_policies_traceability_record
+  - evidence_retention_policies_evidence_package
+  - evidence_retention_policies_chain_of_custody_record
+  - evidence_retention_policies_attestation
+supporting_evidence:
+  - evidence_retention_policies_audit_log
+  - evidence_retention_policies_activity_log
+  - evidence_retention_policies_decision_log
+  - evidence_retention_policies_traceability_record
+  - evidence_retention_policies_evidence_package
+audit_evidence:
+  - evidence_retention_policies_audit_log
+  - evidence_retention_policies_activity_log
+  - evidence_retention_policies_decision_log
+  - evidence_retention_policies_traceability_record
+  - evidence_retention_policies_evidence_package
+  - evidence_retention_policies_chain_of_custody_record
+  - evidence_retention_policies_attestation
+forensic_evidence:
+  - evidence_retention_policies_audit_log
+  - evidence_retention_policies_activity_log
+  - evidence_retention_policies_decision_log
+  - evidence_retention_policies_traceability_record
+  - evidence_retention_policies_evidence_package
+  - evidence_retention_policies_chain_of_custody_record
+  - evidence_retention_policies_attestation
+regulatory_evidence:
+  - evidence_retention_policies_audit_log
+  - evidence_retention_policies_activity_log
+  - evidence_retention_policies_decision_log
+  - evidence_retention_policies_traceability_record
+  - evidence_retention_policies_evidence_package
+  - evidence_retention_policies_chain_of_custody_record
+  - evidence_retention_policies_attestation
+validation_evidence:
+  - evidence_retention_policies_audit_log
+  - evidence_retention_policies_activity_log
+  - evidence_retention_policies_decision_log
+  - evidence_retention_policies_traceability_record
+  - evidence_retention_policies_evidence_package
+  - evidence_retention_policies_chain_of_custody_record
+  - evidence_retention_policies_attestation
+validation_rules:
+  - rule: evidence_retention_policies_evidence_complete
+    condition: required_evidence_evidence_retention_policies < threshold
+    action: BLOCK_SUBMISSION
+  - rule: evidence_retention_policies_integrity_verified
+    condition: integrity_status_evidence_retention_policies != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: evidence_retention_policies_custody_intact
+    condition: custody_gap_evidence_retention_policies == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Evidence Retention Policies controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Evidence Retention Policies controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Evidence Retention Policies controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Evidence Retention Policies controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Evidence Retention Policies controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - evidence_retention_policies_control_failure
+    - evidence_retention_policies_evidence_compromise
+    - evidence_retention_policies_regulatory_non_compliance
+    - evidence_retention_policies_enforcement_delay
+  risk_events:
+    - evidence_retention_policies_audit_finding_critical
+    - evidence_retention_policies_investigation_escalation
+    - evidence_retention_policies_sanction_exposure
+    - evidence_retention_policies_market_surveillance_inquiry
+  risk_indicators:
+    - evidence_retention_policies_control_effectiveness_degradation
+    - evidence_retention_policies_evidence_gap_rate
+    - evidence_retention_policies_sla_breach_count
+    - evidence_retention_policies_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    evidence_retention_policies_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: evidence_retention_policies_forensic_lead
+    evidence_retention_policies_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    evidence_retention_policies_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: evidence_retention_policies_enforcement_officer
+  risk_tolerance:
+    evidence_retention_policies_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: evidence_retention_policies_risk_score >= 60
+    critical: evidence_retention_policies_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Evidence Retention Policies controls documented in
+      evidence_retention_policies_risk_register with quarterly review.
+  risk_treatment:
+    - evidence_retention_policies_preventive_control_reinforcement
+    - evidence_retention_policies_detective_monitoring_enhancement
+    - evidence_retention_policies_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: evidence_retention_policies_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Evidence Retention Policies workflow events with provenance anchor and
+      evidence_retention_policies_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via evidence_retention_policies_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      evidence_retention_policies_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      evidence_retention_policies_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in evidence_retention_policies_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per evidence_retention_policies_retention_schedule aligned with EU AI Act Article 18
+      and legal hold
+  evidence_archival:
+    Long-term archival with evidence_retention_policies_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via evidence_retention_policies_retrieval_gateway with purpose logging
+  evidence_disposal:
+    >
+      Authorized disposition with evidence_retention_policies_disposition_certificate and dual
+      approval
+chain_of_custody:
+  custody_events:
+    - evidence_retention_policies_capture_event
+    - evidence_retention_policies_transfer_event
+    - evidence_retention_policies_access_event
+    - evidence_retention_policies_disposition_event
+  custody_owners:
+    primary: evidence_retention_policies_evidence_custodian
+    secondary: evidence_retention_policies_forensic_lead
+  custody_validation:
+    method: evidence_retention_policies_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - evidence_retention_policies_sha256_hash_chain
+    - evidence_retention_policies_digital_signature
+    - evidence_retention_policies_timestamp_authority
+  tamper_detection:
+    method: evidence_retention_policies_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: evidence_retention_policies_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_11:
+    article: Article 11
+    regulatory_text_summary:
+      Technical documentation requirements.
+    obligation:
+      >
+        Comprehensive technical documentation before market placement. Implemented through Evidence
+        Retention Policies in evidence_preservation.
+    implementation_controls:
+      - evidence_retention_policies_article_11_preventive_control
+      - evidence_retention_policies_article_11_detective_control
+      - evidence_retention_policies_article_11_evidence_control
+    implementation_processes:
+      - evidence_retention_policies_article_11_workflow
+      - evidence_retention_policies_article_11_validation_process
+      - evidence_retention_policies_article_11_escalation_process
+    implementation_evidence:
+      - evidence_retention_policies_article_11_compliance_record
+      - evidence_retention_policies_article_11_audit_package
+      - evidence_retention_policies_article_11_attestation
+    validation_method: evidence_retention_policies_article_11_automated_and_manual_conformity_testing
+    audit_method: evidence_retention_policies_article_11_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: evidence_retention_policies_article_11_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Evidence Retention Policies demonstrates Article 11 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_12:
+    article: Article 12
+    regulatory_text_summary:
+      Record-keeping and automatic logging.
+    obligation:
+      >
+        Logging capabilities enabling traceability throughout system lifetime. Implemented through
+        Evidence Retention Policies in evidence_preservation.
+    implementation_controls:
+      - evidence_retention_policies_article_12_preventive_control
+      - evidence_retention_policies_article_12_detective_control
+      - evidence_retention_policies_article_12_evidence_control
+    implementation_processes:
+      - evidence_retention_policies_article_12_workflow
+      - evidence_retention_policies_article_12_validation_process
+      - evidence_retention_policies_article_12_escalation_process
+    implementation_evidence:
+      - evidence_retention_policies_article_12_compliance_record
+      - evidence_retention_policies_article_12_audit_package
+      - evidence_retention_policies_article_12_attestation
+    validation_method: evidence_retention_policies_article_12_automated_and_manual_conformity_testing
+    audit_method: evidence_retention_policies_article_12_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: evidence_retention_policies_article_12_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Evidence Retention Policies demonstrates Article 12 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_18:
+    article: Article 18
+    regulatory_text_summary:
+      Documentation retention.
+    obligation:
+      >
+        Retention of technical documentation for prescribed periods. Implemented through Evidence
+        Retention Policies in evidence_preservation.
+    implementation_controls:
+      - evidence_retention_policies_article_18_preventive_control
+      - evidence_retention_policies_article_18_detective_control
+      - evidence_retention_policies_article_18_evidence_control
+    implementation_processes:
+      - evidence_retention_policies_article_18_workflow
+      - evidence_retention_policies_article_18_validation_process
+      - evidence_retention_policies_article_18_escalation_process
+    implementation_evidence:
+      - evidence_retention_policies_article_18_compliance_record
+      - evidence_retention_policies_article_18_audit_package
+      - evidence_retention_policies_article_18_attestation
+    validation_method: evidence_retention_policies_article_18_automated_and_manual_conformity_testing
+    audit_method: evidence_retention_policies_article_18_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: evidence_retention_policies_article_18_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Evidence Retention Policies demonstrates Article 18 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_19:
+    article: Article 19
+    regulatory_text_summary:
+      Conformity assessment and EU declaration.
+    obligation:
+      >
+        Conformity assessment and declaration of conformity. Implemented through Evidence Retention
+        Policies in evidence_preservation.
+    implementation_controls:
+      - evidence_retention_policies_article_19_preventive_control
+      - evidence_retention_policies_article_19_detective_control
+      - evidence_retention_policies_article_19_evidence_control
+    implementation_processes:
+      - evidence_retention_policies_article_19_workflow
+      - evidence_retention_policies_article_19_validation_process
+      - evidence_retention_policies_article_19_escalation_process
+    implementation_evidence:
+      - evidence_retention_policies_article_19_compliance_record
+      - evidence_retention_policies_article_19_audit_package
+      - evidence_retention_policies_article_19_attestation
+    validation_method: evidence_retention_policies_article_19_automated_and_manual_conformity_testing
+    audit_method: evidence_retention_policies_article_19_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: evidence_retention_policies_article_19_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Evidence Retention Policies demonstrates Article 19 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_11:
+      implementation: evidence_retention_policies_eu_ai_act_article_11_control_set
+      process: evidence_retention_policies_eu_ai_act_article_11_workflow
+      evidence: evidence_retention_policies_eu_ai_act_article_11_attestation
+    article_12:
+      implementation: evidence_retention_policies_eu_ai_act_article_12_control_set
+      process: evidence_retention_policies_eu_ai_act_article_12_workflow
+      evidence: evidence_retention_policies_eu_ai_act_article_12_attestation
+    article_18:
+      implementation: evidence_retention_policies_eu_ai_act_article_18_control_set
+      process: evidence_retention_policies_eu_ai_act_article_18_workflow
+      evidence: evidence_retention_policies_eu_ai_act_article_18_attestation
+    article_19:
+      implementation: evidence_retention_policies_eu_ai_act_article_19_control_set
+      process: evidence_retention_policies_eu_ai_act_article_19_workflow
+      evidence: evidence_retention_policies_eu_ai_act_article_19_attestation
+  gdpr:
+    article_5:
+      implementation: evidence_retention_policies_gdpr_article_5_privacy_control
+      evidence: evidence_retention_policies_gdpr_article_5_compliance_record
+    article_6:
+      implementation: evidence_retention_policies_gdpr_article_6_privacy_control
+      evidence: evidence_retention_policies_gdpr_article_6_compliance_record
+    article_22:
+      implementation: evidence_retention_policies_gdpr_article_22_privacy_control
+      evidence: evidence_retention_policies_gdpr_article_22_compliance_record
+    article_25:
+      implementation: evidence_retention_policies_gdpr_article_25_privacy_control
+      evidence: evidence_retention_policies_gdpr_article_25_compliance_record
+    article_32:
+      implementation: evidence_retention_policies_gdpr_article_32_privacy_control
+      evidence: evidence_retention_policies_gdpr_article_32_compliance_record
+    article_35:
+      implementation: evidence_retention_policies_gdpr_article_35_privacy_control
+      evidence: evidence_retention_policies_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: evidence_retention_policies_iso42001_clause_4_1_aims_control
+      evidence: evidence_retention_policies_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: evidence_retention_policies_iso42001_clause_4_2_aims_control
+      evidence: evidence_retention_policies_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: evidence_retention_policies_iso42001_clause_5_1_aims_control
+      evidence: evidence_retention_policies_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: evidence_retention_policies_iso42001_clause_5_2_aims_control
+      evidence: evidence_retention_policies_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: evidence_retention_policies_iso42001_clause_6_1_aims_control
+      evidence: evidence_retention_policies_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: evidence_retention_policies_iso42001_clause_8_1_aims_control
+      evidence: evidence_retention_policies_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: evidence_retention_policies_iso42001_clause_9_1_aims_control
+      evidence: evidence_retention_policies_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: evidence_retention_policies_iso42001_clause_10_1_aims_control
+      evidence: evidence_retention_policies_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: evidence_retention_policies_iso23894_risk_identification_alignment
+      evidence: evidence_retention_policies_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: evidence_retention_policies_iso23894_risk_analysis_alignment
+      evidence: evidence_retention_policies_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: evidence_retention_policies_iso23894_risk_evaluation_alignment
+      evidence: evidence_retention_policies_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: evidence_retention_policies_iso23894_risk_treatment_alignment
+      evidence: evidence_retention_policies_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: evidence_retention_policies_iso23894_risk_monitoring_alignment
+      evidence: evidence_retention_policies_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: evidence_retention_policies_iso19011_audit_principles_procedure
+      evidence: evidence_retention_policies_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: evidence_retention_policies_iso19011_audit_programme_management_procedure
+      evidence: evidence_retention_policies_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: evidence_retention_policies_iso19011_audit_evidence_requirements_procedure
+      evidence: evidence_retention_policies_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: evidence_retention_policies_iso19011_audit_reporting_procedure
+      evidence: evidence_retention_policies_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: evidence_retention_policies_nist_rmf_govern_control_mapping
+      evidence: evidence_retention_policies_nist_rmf_govern_assessment
+    map:
+      implementation: evidence_retention_policies_nist_rmf_map_control_mapping
+      evidence: evidence_retention_policies_nist_rmf_map_assessment
+    measure:
+      implementation: evidence_retention_policies_nist_rmf_measure_control_mapping
+      evidence: evidence_retention_policies_nist_rmf_measure_assessment
+    manage:
+      implementation: evidence_retention_policies_nist_rmf_manage_control_mapping
+      evidence: evidence_retention_policies_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: evidence_retention_policies_nist_csf_identify_safeguard
+      evidence: evidence_retention_policies_nist_csf_identify_log
+    protect:
+      implementation: evidence_retention_policies_nist_csf_protect_safeguard
+      evidence: evidence_retention_policies_nist_csf_protect_log
+    detect:
+      implementation: evidence_retention_policies_nist_csf_detect_safeguard
+      evidence: evidence_retention_policies_nist_csf_detect_log
+    respond:
+      implementation: evidence_retention_policies_nist_csf_respond_safeguard
+      evidence: evidence_retention_policies_nist_csf_respond_log
+    recover:
+      implementation: evidence_retention_policies_nist_csf_recover_safeguard
+      evidence: evidence_retention_policies_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: evidence_retention_policies_oecd_accountability_governance_control
+      evidence: evidence_retention_policies_oecd_accountability_attestation
+    transparency:
+      implementation: evidence_retention_policies_oecd_transparency_governance_control
+      evidence: evidence_retention_policies_oecd_transparency_attestation
+    robustness_security:
+      implementation: evidence_retention_policies_oecd_robustness_security_governance_control
+      evidence: evidence_retention_policies_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: evidence_retention_policies_oecd_inclusive_growth_governance_control
+      evidence: evidence_retention_policies_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: evidence_retention_policies_unesco_human_rights_ethics_control
+      evidence: evidence_retention_policies_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: evidence_retention_policies_unesco_fairness_non_discrimination_ethics_control
+      evidence: evidence_retention_policies_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: evidence_retention_policies_unesco_transparency_explainability_ethics_control
+      evidence: evidence_retention_policies_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: evidence_retention_policies_unesco_accountability_ethics_control
+      evidence: evidence_retention_policies_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Evidence Retention Policies covering executive, board, regulatory,
+      audit, forensic, and attestation consumers.
+  report_types:
+    - evidence_retention_policies_status_report
+    - evidence_retention_policies_compliance_report
+    - evidence_retention_policies_enforcement_report
+    - evidence_retention_policies_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [evidence_retention_policies_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_evidence_retention_policies
+  - quarterly_control_testing_evidence_retention_policies
+  - evidence_sampling_evidence_retention_policies
+  - finding_remediation_tracking_evidence_retention_policies
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Evidence Retention Policies aligned with ISO/IEC 27037 and legal
+      admissibility standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Evidence Retention Policies.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Evidence Retention Policies.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Evidence Retention Policies.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Evidence Retention Policies.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Evidence Retention Policies.
+integration_points:
+  upstream_systems:
+    - system: audit_traceability
+      purpose: evidence_retention_policies_to_audit_traceability_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_audit_traceability]
+      produced_artifacts: [evidence_retention_policies_output_to_audit_traceability]
+    - system: investigation_management
+      purpose: evidence_retention_policies_to_investigation_management_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_investigation_management]
+      produced_artifacts: [evidence_retention_policies_output_to_investigation_management]
+    - system: governance_forensics
+      purpose: evidence_retention_policies_to_governance_forensics_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_governance_forensics]
+      produced_artifacts: [evidence_retention_policies_output_to_governance_forensics]
+  downstream_systems:
+    - system: compliance_audits
+      purpose: evidence_retention_policies_to_compliance_audits_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_compliance_audits]
+      produced_artifacts: [evidence_retention_policies_output_to_compliance_audits]
+    - system: enforcement_actions
+      purpose: evidence_retention_policies_to_enforcement_actions_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_enforcement_actions]
+      produced_artifacts: [evidence_retention_policies_output_to_enforcement_actions]
+    - system: reporting
+      purpose: evidence_retention_policies_to_reporting_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_reporting]
+      produced_artifacts: [evidence_retention_policies_output_to_reporting]
+  governance_integrations:
+    - system: data_governance
+      purpose: evidence_retention_policies_to_data_governance_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_data_governance]
+      produced_artifacts: [evidence_retention_policies_output_to_data_governance]
+    - system: cybersecurity
+      purpose: evidence_retention_policies_to_cybersecurity_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_cybersecurity]
+      produced_artifacts: [evidence_retention_policies_output_to_cybersecurity]
+  risk_integrations:
+    - system: ai_liability
+      purpose: evidence_retention_policies_to_ai_liability_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_ai_liability]
+      produced_artifacts: [evidence_retention_policies_output_to_ai_liability]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: evidence_retention_policies_to_compliance_audits_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_compliance_audits]
+      produced_artifacts: [evidence_retention_policies_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: evidence_retention_policies_to_internal_audit_system_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_internal_audit_system]
+      produced_artifacts: [evidence_retention_policies_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: evidence_retention_policies_to_governance_reporting_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_governance_reporting]
+      produced_artifacts: [evidence_retention_policies_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: evidence_retention_policies_to_executive_dashboard_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_executive_dashboard]
+      produced_artifacts: [evidence_retention_policies_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: evidence_retention_policies_to_enforcement_actions_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_enforcement_actions]
+      produced_artifacts: [evidence_retention_policies_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: evidence_retention_policies_to_policy_enforcement_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_policy_enforcement]
+      produced_artifacts: [evidence_retention_policies_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: evidence_retention_policies_to_remediation_tracking_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_remediation_tracking]
+      produced_artifacts: [evidence_retention_policies_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: evidence_retention_policies_to_remediation_engine_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_remediation_engine]
+      produced_artifacts: [evidence_retention_policies_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: evidence_retention_policies_to_evidence_preservation_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_evidence_preservation]
+      produced_artifacts: [evidence_retention_policies_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: evidence_retention_policies_to_technical_documentation_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_technical_documentation]
+      produced_artifacts: [evidence_retention_policies_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: evidence_retention_policies_to_post_market_monitoring_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_post_market_monitoring]
+      produced_artifacts: [evidence_retention_policies_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: evidence_retention_policies_to_incident_reporting_governance_sync
+      data_exchanged: [evidence_retention_policies_events, evidence_retention_policies_evidence_refs, evidence_retention_policies_metrics]
+      trigger_conditions: [evidence_retention_policies_state_change, evidence_retention_policies_escalation, evidence_retention_policies_closure]
+      consumed_artifacts: [evidence_retention_policies_input_from_incident_reporting]
+      produced_artifacts: [evidence_retention_policies_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Evidence Retention Policies activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Evidence Retention Policies procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - evidence_retention_policies_procedure_checklist
+    required_evidence:
+      - evidence_retention_policies_process_log
+    required_metrics:
+      - evidence_retention_policies_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Evidence Retention Policies enterprise-wide.
+    required_capabilities:
+      - evidence_retention_policies_standard_control_set
+    required_controls:
+      - evidence_retention_policies_control_register
+    required_evidence:
+      - evidence_retention_policies_audit_evidence
+    required_metrics:
+      - evidence_retention_policies_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Evidence Retention Policies with KPI optimization.
+    required_capabilities:
+      - evidence_retention_policies_automated_controls
+    required_controls:
+      - evidence_retention_policies_telemetry_controls
+    required_evidence:
+      - evidence_retention_policies_assurance_package
+    required_metrics:
+      - evidence_retention_policies_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Evidence Retention Policies with predictive analytics.
+    required_capabilities:
+      - evidence_retention_policies_autonomous_governance
+    required_controls:
+      - evidence_retention_policies_adaptive_controls
+    required_evidence:
+      - evidence_retention_policies_regulator_ready_portfolio
+    required_metrics:
+      - evidence_retention_policies_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - evidence_retention_policies_report
+  - evidence_retention_policies_evidence_package
+  - evidence_retention_policies_attestation
+  - evidence_retention_policies_enforcement_record
+artifacts:
+  - name: evidence_retention_policies_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: evidence_retention_policies_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: evidence_retention_policies_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: evidence_retention_policies_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - evidence_retention_policies_case_record
+  - evidence_retention_policies_audit_record
+  - evidence_retention_policies_enforcement_record
+  - evidence_retention_policies_remediation_record
+monitoring:
+  continuous:
+    - evidence_retention_policies_control_telemetry
+    - evidence_retention_policies_evidence_integrity_feed
+    - evidence_retention_policies_escalation_queue
+  periodic:
+    - evidence_retention_policies_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Evidence Retention Policies effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: evidence_retention_policies_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: evidence_retention_policies_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: evidence_retention_policies_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: evidence_retention_policies_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Evidence Retention Policies

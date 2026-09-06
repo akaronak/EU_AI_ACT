@@ -1,0 +1,1899 @@
+metadata:
+  id: AAE-R-EXEAUD-001
+  name: executive_audit_dashboard
+  title: Executive Audit Dashboard
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: audit_reporting
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - reporting
+    - executive_audit_dashboard
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Executive Audit Dashboard governance within
+    audit_and_enforcement/reporting, delivering regulator-ready, audit-ready, and enforcement-ready
+    controls for structured audit execution and evidence sufficiency validation, executive
+    visualization of audit and enforcement posture. Integrates with the EU AI Act governance
+    ecosystem through machine-evaluable obligations, evidence preservation, and conformity-
+    assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Executive Audit Dashboard across enterprise
+    and cross-border operations within audit_and_enforcement/reporting.
+objectives:
+  - Operationalize Executive Audit Dashboard with regulator-defensible controls and evidence chains
+  - Enable automated validation of Executive Audit Dashboard conformance across reporting
+  - Preserve audit-grade and forensic-grade records for all Executive Audit Dashboard activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Executive Audit Dashboard with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Executive Audit Dashboard
+definitions:
+  executive_audit_dashboard_governance_domain:
+    >
+      The operational jurisdiction of Executive Audit Dashboard encompassing controlled audit,
+      enforcement, investigation, and evidence processes within reporting.
+  executive_audit_dashboard_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Executive Audit Dashboard control
+      effectiveness, process adherence, and regulatory conformity.
+  executive_audit_dashboard_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Executive Audit Dashboard decision logic.
+  executive_audit_dashboard_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Executive Audit Dashboard processes.
+  executive_audit_dashboard_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Executive Audit Dashboard operations.
+  executive_audit_dashboard_conformity_assertion:
+    >
+      Formal statement that Executive Audit Dashboard requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: executive_audit_dashboard_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  executive_audit_dashboard_artifact_type:
+    - executive_audit_dashboard_record
+    - executive_audit_dashboard_log
+    - executive_audit_dashboard_report
+    - executive_audit_dashboard_attestation
+    - executive_audit_dashboard_package
+  executive_audit_dashboard_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Executive Audit Dashboard Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: reporting
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - compliance_audits
+    - enforcement_actions
+    - investigation_management
+    - remediation_tracking
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - governance_reporting
+    - regulator_engagement
+    - board_oversight
+    - audit_and_enforcement/reporting/executive_audit_dashboard.yaml
+  related_domains:
+    - compliance_audits
+    - enforcement_actions
+    - remediation_tracking
+  related_skills:
+    - executive_audit_dashboard
+    - regulator_reporting
+    - compliance_attestation_reporting
+    - executive_audit_dashboard
+  parent_governance_objects:
+    - governance_reporting
+    - audit_metadata
+  child_governance_objects:
+    - executive_report
+    - regulator_submission
+    - executive_audit_dashboard_governance_object
+  consumes_artifacts:
+    - audit_report
+    - enforcement_record
+    - remediation_status_report
+    - executive_audit_dashboard_input_artifact
+  produces_artifacts:
+    - executive_dashboard_snapshot
+    - regulator_submission_package
+    - board_briefing
+    - executive_audit_dashboard_record
+    - executive_audit_dashboard_report
+    - executive_audit_dashboard_attestation
+  consumes_evidence:
+    - attestation_corpus
+    - kpi_telemetry
+    - finding_register
+    - executive_audit_dashboard_source_evidence
+  produces_evidence:
+    - published_report
+    - submission_receipt
+    - attestation_sign_off
+    - executive_audit_dashboard_audit_evidence
+    - executive_audit_dashboard_validation_evidence
+    - executive_audit_dashboard_enforcement_evidence
+  governance_dependencies:
+    - governance_reporting
+    - core_governance
+  regulatory_dependencies:
+    - eu_ai_act_article_43
+    - eu_ai_act_article_50
+  risk_dependencies:
+  control_dependencies:
+    - compliance_audits
+    - enforcement_actions
+    - executive_audit_dashboard_control_register
+roles_and_responsibilities:
+  executive_audit_dashboard_owner:
+    responsibilities:
+      - Accountable for Executive Audit Dashboard strategy, control design, and regulatory alignment
+  executive_audit_dashboard_operator:
+    responsibilities:
+      - Executes Executive Audit Dashboard workflows and maintains operational records
+  executive_audit_dashboard_auditor:
+    responsibilities:
+      - Independently validates Executive Audit Dashboard control effectiveness and evidence sufficiency
+  executive_audit_dashboard_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Executive Audit Dashboard investigations
+  executive_audit_dashboard_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Executive Audit Dashboard
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-044
+    name: Regulatory Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-045
+    name: Executive Audit Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-046
+    name: Enforcement Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-047
+    name: Forensic Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-048
+    name: Compliance Attestation Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-049
+    name: Market Surveillance Support
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-REP-EXECUTIVE_-EXECUTIVEEX
+    control_name: executive_executive_dashboard_data_validator
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring executive dashboard data validator for Executive Audit Dashboard
+        across reporting.
+    governance_rationale:
+      >
+        executive_executive_dashboard_data_validator is required to govern Executive Audit Dashboard
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        reporting failures.
+    implementation_guidance:
+      >
+        Implement executive_executive_dashboard_data_validator as automated policy in
+        executive_audit_dashboard orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: executive_executive_dashboard_data_validator_continuous_telemetry_dashboard
+    validation_method:
+      executive_executive_dashboard_data_validator_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      executive_executive_dashboard_data_validator_statistical_sampling_with_exception_tracking
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated: executive_executive_dashboard_data_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify executive_executive_dashboard_data_validator design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        executive_executive_dashboard_data_validator outputs may trigger enforcement under
+        executive_audit_dashboard escalation rules.
+  - control_id: AAE-REP-EXECUTIVE_-AUDITREGULA
+    control_name: audit_regulator_submission_composer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring regulator submission composer for Executive Audit Dashboard across
+        reporting.
+    governance_rationale:
+      >
+        audit_regulator_submission_composer is required to govern Executive Audit Dashboard risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected reporting
+        failures.
+    implementation_guidance:
+      >
+        Implement audit_regulator_submission_composer as automated policy in executive_audit_dashboard
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: audit_regulator_submission_composer_continuous_telemetry_dashboard
+    validation_method:
+      audit_regulator_submission_composer_quarterly_design_and_operating_effectiveness_test
+    testing_method: audit_regulator_submission_composer_statistical_sampling_with_exception_tracking
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated: audit_regulator_submission_composer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_regulator_submission_composer design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_regulator_submission_composer outputs may trigger enforcement under
+        executive_audit_dashboard escalation rules.
+  - control_id: AAE-REP-EXECUTIVE_-DASHBOARDAT
+    control_name: dashboard_attestation_sign_off_orchestrator
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring attestation sign off orchestrator for Executive Audit Dashboard
+        across reporting.
+    governance_rationale:
+      >
+        dashboard_attestation_sign_off_orchestrator is required to govern Executive Audit Dashboard
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        reporting failures.
+    implementation_guidance:
+      >
+        Implement dashboard_attestation_sign_off_orchestrator as automated policy in
+        executive_audit_dashboard orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: dashboard_attestation_sign_off_orchestrator_continuous_telemetry_dashboard
+    validation_method:
+      dashboard_attestation_sign_off_orchestrator_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      dashboard_attestation_sign_off_orchestrator_statistical_sampling_with_exception_tracking
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated: dashboard_attestation_sign_off_orchestrator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify dashboard_attestation_sign_off_orchestrator design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        dashboard_attestation_sign_off_orchestrator outputs may trigger enforcement under
+        executive_audit_dashboard escalation rules.
+  - control_id: AAE-REP-EXECUTIVE_-EXECUTIVEAU
+    control_name: executive_audit_dashboard_forensic_report_integrity_sealer
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring forensic report integrity sealer for Executive Audit Dashboard
+        across reporting.
+    governance_rationale:
+      >
+        executive_audit_dashboard_forensic_report_integrity_sealer is required to govern Executive Audit
+        Dashboard risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected reporting failures.
+    implementation_guidance:
+      >
+        Implement executive_audit_dashboard_forensic_report_integrity_sealer as automated policy in
+        executive_audit_dashboard orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      executive_audit_dashboard_forensic_report_integrity_sealer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        executive_audit_dashboard_forensic_report_integrity_sealer_quarterly_design_and_operating_effect
+        iveness_test
+    testing_method:
+      >
+        executive_audit_dashboard_forensic_report_integrity_sealer_statistical_sampling_with_exception_t
+        racking
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated: executive_audit_dashboard_forensic_report_integrity_sealer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify executive_audit_dashboard_forensic_report_integrity_sealer design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        executive_audit_dashboard_forensic_report_integrity_sealer outputs may trigger enforcement under
+        executive_audit_dashboard escalation rules.
+  - control_id: AAE-REP-EXECUTIVE_-EXECUTIVEAU
+    control_name: executive_audit_dashboard_enforcement_status_aggregator
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring enforcement status aggregator for Executive Audit Dashboard across
+        reporting.
+    governance_rationale:
+      >
+        executive_audit_dashboard_enforcement_status_aggregator is required to govern Executive Audit
+        Dashboard risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected reporting failures.
+    implementation_guidance:
+      >
+        Implement executive_audit_dashboard_enforcement_status_aggregator as automated policy in
+        executive_audit_dashboard orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      executive_audit_dashboard_enforcement_status_aggregator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        executive_audit_dashboard_enforcement_status_aggregator_quarterly_design_and_operating_effective
+        ness_test
+    testing_method:
+      >
+        executive_audit_dashboard_enforcement_status_aggregator_statistical_sampling_with_exception_trac
+        king
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated: executive_audit_dashboard_enforcement_status_aggregator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify executive_audit_dashboard_enforcement_status_aggregator design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        executive_audit_dashboard_enforcement_status_aggregator outputs may trigger enforcement under
+        executive_audit_dashboard escalation rules.
+  - control_id: AAE-REP-EXECUTIVE_-EXECUTIVEAU
+    control_name: executive_audit_dashboard_audit_report_publication_gate
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring audit report publication gate for Executive Audit Dashboard across
+        reporting.
+    governance_rationale:
+      >
+        executive_audit_dashboard_audit_report_publication_gate is required to govern Executive Audit
+        Dashboard risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected reporting failures.
+    implementation_guidance:
+      >
+        Implement executive_audit_dashboard_audit_report_publication_gate as automated policy in
+        executive_audit_dashboard orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      executive_audit_dashboard_audit_report_publication_gate_continuous_telemetry_dashboard
+    validation_method:
+      >
+        executive_audit_dashboard_audit_report_publication_gate_quarterly_design_and_operating_effective
+        ness_test
+    testing_method:
+      >
+        executive_audit_dashboard_audit_report_publication_gate_statistical_sampling_with_exception_trac
+        king
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated: executive_audit_dashboard_audit_report_publication_gate_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify executive_audit_dashboard_audit_report_publication_gate design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        executive_audit_dashboard_audit_report_publication_gate outputs may trigger enforcement under
+        executive_audit_dashboard escalation rules.
+  - control_id: AAE-REP-EXECUTIVE_-EXECUTIVEAU
+    control_name: executive_audit_dashboard_board_briefing_pack_generator
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring board briefing pack generator for Executive Audit Dashboard across
+        reporting.
+    governance_rationale:
+      >
+        executive_audit_dashboard_board_briefing_pack_generator is required to govern Executive Audit
+        Dashboard risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected reporting failures.
+    implementation_guidance:
+      >
+        Implement executive_audit_dashboard_board_briefing_pack_generator as automated policy in
+        executive_audit_dashboard orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      executive_audit_dashboard_board_briefing_pack_generator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        executive_audit_dashboard_board_briefing_pack_generator_quarterly_design_and_operating_effective
+        ness_test
+    testing_method:
+      >
+        executive_audit_dashboard_board_briefing_pack_generator_statistical_sampling_with_exception_trac
+        king
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated: executive_audit_dashboard_board_briefing_pack_generator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify executive_audit_dashboard_board_briefing_pack_generator design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        executive_audit_dashboard_board_briefing_pack_generator outputs may trigger enforcement under
+        executive_audit_dashboard escalation rules.
+  - control_id: AAE-REP-EXECUTIVE_-EXECUTIVEAU
+    control_name: executive_audit_dashboard_trend_analytics_engine
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring trend analytics engine for Executive Audit Dashboard across
+        reporting.
+    governance_rationale:
+      >
+        executive_audit_dashboard_trend_analytics_engine is required to govern Executive Audit Dashboard
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        reporting failures.
+    implementation_guidance:
+      >
+        Implement executive_audit_dashboard_trend_analytics_engine as automated policy in
+        executive_audit_dashboard orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: executive_audit_dashboard_trend_analytics_engine_continuous_telemetry_dashboard
+    validation_method:
+      >
+        executive_audit_dashboard_trend_analytics_engine_quarterly_design_and_operating_effectiveness_te
+        st
+    testing_method:
+      executive_audit_dashboard_trend_analytics_engine_statistical_sampling_with_exception_tracking
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated: executive_audit_dashboard_trend_analytics_engine_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify executive_audit_dashboard_trend_analytics_engine design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        executive_audit_dashboard_trend_analytics_engine outputs may trigger enforcement under
+        executive_audit_dashboard escalation rules.
+  - control_id: AAE-REP-EXECUTIVE_-EXECUTIVEAU
+    control_name: executive_audit_dashboard_reporting_sla_monitor
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring reporting sla monitor for Executive Audit Dashboard across
+        reporting.
+    governance_rationale:
+      >
+        executive_audit_dashboard_reporting_sla_monitor is required to govern Executive Audit Dashboard
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        reporting failures.
+    implementation_guidance:
+      >
+        Implement executive_audit_dashboard_reporting_sla_monitor as automated policy in
+        executive_audit_dashboard orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: executive_audit_dashboard_reporting_sla_monitor_continuous_telemetry_dashboard
+    validation_method:
+      >
+        executive_audit_dashboard_reporting_sla_monitor_quarterly_design_and_operating_effectiveness_tes
+        t
+    testing_method:
+      executive_audit_dashboard_reporting_sla_monitor_statistical_sampling_with_exception_tracking
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated: executive_audit_dashboard_reporting_sla_monitor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify executive_audit_dashboard_reporting_sla_monitor design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        executive_audit_dashboard_reporting_sla_monitor outputs may trigger enforcement under
+        executive_audit_dashboard escalation rules.
+  - control_id: AAE-REP-EXECUTIVE_-EXECUTIVEAU
+    control_name: executive_audit_dashboard_consumer_access_control_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring consumer access control enforcer for Executive Audit Dashboard
+        across reporting.
+    governance_rationale:
+      >
+        executive_audit_dashboard_consumer_access_control_enforcer is required to govern Executive Audit
+        Dashboard risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected reporting failures.
+    implementation_guidance:
+      >
+        Implement executive_audit_dashboard_consumer_access_control_enforcer as automated policy in
+        executive_audit_dashboard orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      executive_audit_dashboard_consumer_access_control_enforcer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        executive_audit_dashboard_consumer_access_control_enforcer_quarterly_design_and_operating_effect
+        iveness_test
+    testing_method:
+      >
+        executive_audit_dashboard_consumer_access_control_enforcer_statistical_sampling_with_exception_t
+        racking
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated: executive_audit_dashboard_consumer_access_control_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify executive_audit_dashboard_consumer_access_control_enforcer design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        executive_audit_dashboard_consumer_access_control_enforcer outputs may trigger enforcement under
+        executive_audit_dashboard escalation rules.
+  - control_id: AAE-REP-EXECUTIVE_-EXECUTIVEAU
+    control_name: executive_audit_dashboard_report_version_immutability_guard
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring report version immutability guard for Executive Audit Dashboard
+        across reporting.
+    governance_rationale:
+      >
+        executive_audit_dashboard_report_version_immutability_guard is required to govern Executive
+        Audit Dashboard risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected reporting failures.
+    implementation_guidance:
+      >
+        Implement executive_audit_dashboard_report_version_immutability_guard as automated policy in
+        executive_audit_dashboard orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      executive_audit_dashboard_report_version_immutability_guard_continuous_telemetry_dashboard
+    validation_method:
+      >
+        executive_audit_dashboard_report_version_immutability_guard_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        executive_audit_dashboard_report_version_immutability_guard_statistical_sampling_with_exception_
+        tracking
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated:
+      executive_audit_dashboard_report_version_immutability_guard_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify executive_audit_dashboard_report_version_immutability_guard design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        executive_audit_dashboard_report_version_immutability_guard outputs may trigger enforcement
+        under executive_audit_dashboard escalation rules.
+  - control_id: AAE-REP-EXECUTIVE_-EXECUTIVEAU
+    control_name: executive_audit_dashboard_reporting_assurance_attestation
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring reporting assurance attestation for Executive Audit Dashboard
+        across reporting.
+    governance_rationale:
+      >
+        executive_audit_dashboard_reporting_assurance_attestation is required to govern Executive Audit
+        Dashboard risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected reporting failures.
+    implementation_guidance:
+      >
+        Implement executive_audit_dashboard_reporting_assurance_attestation as automated policy in
+        executive_audit_dashboard orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      executive_audit_dashboard_reporting_assurance_attestation_continuous_telemetry_dashboard
+    validation_method:
+      >
+        executive_audit_dashboard_reporting_assurance_attestation_quarterly_design_and_operating_effecti
+        veness_test
+    testing_method:
+      >
+        executive_audit_dashboard_reporting_assurance_attestation_statistical_sampling_with_exception_tr
+        acking
+    control_owner: executive_audit_dashboard_control_owner
+    evidence_generated: executive_audit_dashboard_reporting_assurance_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify executive_audit_dashboard_reporting_assurance_attestation design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        executive_audit_dashboard_reporting_assurance_attestation outputs may trigger enforcement under
+        executive_audit_dashboard escalation rules.
+requirements:
+  legal:
+    >
+      Executive Audit Dashboard must satisfy legal requirements for structured audit execution and
+      evidence sufficiency validation, executive visualization of audit and enforcement posture
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Executive Audit Dashboard must satisfy regulatory requirements for structured audit execution
+      and evidence sufficiency validation, executive visualization of audit and enforcement posture
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Executive Audit Dashboard must satisfy technical requirements for structured audit execution and
+      evidence sufficiency validation, executive visualization of audit and enforcement posture
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Executive Audit Dashboard must satisfy operational requirements for structured audit execution
+      and evidence sufficiency validation, executive visualization of audit and enforcement posture
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Executive Audit Dashboard must satisfy audit requirements for structured audit execution and
+      evidence sufficiency validation, executive visualization of audit and enforcement posture
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Executive Audit Dashboard must satisfy forensic requirements for structured audit execution and
+      evidence sufficiency validation, executive visualization of audit and enforcement posture
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Executive Audit Dashboard must satisfy enforcement requirements for structured audit execution
+      and evidence sufficiency validation, executive visualization of audit and enforcement posture
+      including documented procedures, accountable roles, measurable SLAs, and evidence retention
+      aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Executive Audit Dashboard with stage gates, RACI assignments, and evidence
+      capture.
+  triage:
+    >
+      Triage process for Executive Audit Dashboard with stage gates, RACI assignments, and evidence
+      capture.
+  execution:
+    >
+      Execution process for Executive Audit Dashboard with stage gates, RACI assignments, and evidence
+      capture.
+  validation:
+    >
+      Validation process for Executive Audit Dashboard with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Executive Audit Dashboard with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Executive Audit Dashboard with stage gates, RACI assignments, and evidence
+      capture.
+  improvement:
+    >
+      Improvement process for Executive Audit Dashboard with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: executive_audit_dashboard_operational_lifecycle_workflow
+    workflow_trigger: executive_audit_dashboard_governance_event_detected
+    workflow_steps:
+      - executive_audit_dashboard_intake
+      - executive_audit_dashboard_triage
+      - executive_audit_dashboard_execution
+      - executive_audit_dashboard_validation
+      - executive_audit_dashboard_approval
+      - executive_audit_dashboard_closure
+    approval_points:
+      - executive_audit_dashboard_approval
+    escalation_points:
+      - executive_audit_dashboard_triage
+    generated_evidence:
+      - executive_audit_dashboard_workflow_log
+      - executive_audit_dashboard_closure_attestation
+    completion_requirements:
+      - executive_audit_dashboard_evidence_complete
+      - executive_audit_dashboard_approvals_recorded
+  - workflow_name: executive_audit_dashboard_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_executive_audit_dashboard
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - executive_audit_dashboard_regulatory_package
+      - executive_audit_dashboard_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - executive_audit_dashboard_governance_event_detected
+    - executive_audit_dashboard_regulatory_inquiry
+    - executive_audit_dashboard_integrity_breach
+    - executive_audit_dashboard_enforcement_authorization
+  required_inputs:
+    - executive_audit_dashboard_case_context
+    - executive_audit_dashboard_evidence_index
+    - executive_audit_dashboard_risk_assessment
+  workflow_steps:
+    - executive_audit_dashboard_intake
+    - executive_audit_dashboard_triage
+    - executive_audit_dashboard_execution
+    - executive_audit_dashboard_validation
+    - executive_audit_dashboard_approval
+    - executive_audit_dashboard_closure
+  validation_steps:
+    - executive_audit_dashboard_evidence_sufficiency_check
+    - executive_audit_dashboard_integrity_verification
+  approval_steps:
+    - executive_audit_dashboard_approval
+  control_checkpoints:
+    - executive_audit_dashboard_intake_gate
+    - executive_audit_dashboard_evidence_gate
+    - executive_audit_dashboard_decision_gate
+  evidence_generation:
+    - executive_audit_dashboard_workflow_log
+    - executive_audit_dashboard_closure_attestation
+  decision_points:
+    - executive_audit_dashboard_severity_classification
+    - executive_audit_dashboard_enforcement_authorization
+  escalation_points:
+    - executive_audit_dashboard_triage
+  completion_criteria:
+    - executive_audit_dashboard_evidence_complete
+    - executive_audit_dashboard_approvals_recorded
+  generated_outputs:
+    - executive_audit_dashboard_workflow_log
+    - executive_audit_dashboard_closure_attestation
+    - executive_audit_dashboard_final_disposition
+decision_logic:
+  decision_inputs:
+    - executive_audit_dashboard_severity_score
+    - executive_audit_dashboard_evidence_completeness
+    - executive_audit_dashboard_regulatory_context
+    - executive_audit_dashboard_risk_exposure_index
+  decision_conditions:
+    - executive_audit_dashboard_critical_threshold_breach
+    - executive_audit_dashboard_evidence_integrity_failure
+    - executive_audit_dashboard_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: executive_audit_dashboard_severity_score >= 90
+    high_severity: executive_audit_dashboard_severity_score >= 70
+    evidence_complete: executive_audit_dashboard_evidence_completeness >= 0.98
+  decision_rules:
+    executive_audit_dashboard_high_severity_violation:
+      condition: executive_audit_dashboard_severity_score >= 90
+      action: initiate_executive_audit_dashboard_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: executive_audit_dashboard_investigation_report
+    executive_audit_dashboard_evidence_compromise_detected:
+      condition: executive_audit_dashboard_integrity_status == compromised
+      action: activate_executive_audit_dashboard_forensic_lockdown
+      approval_required: executive_audit_dashboard_forensic_lead
+      evidence_required: executive_audit_dashboard_integrity_alert_record
+    executive_audit_dashboard_enforcement_authorization:
+      condition: executive_audit_dashboard_violation_confirmed == true AND executive_audit_dashboard_evidence_complete == true
+      action: issue_executive_audit_dashboard_enforcement_order
+      approval_required: executive_audit_dashboard_enforcement_officer
+      evidence_required: executive_audit_dashboard_violation_evidence_package
+    executive_audit_dashboard_regulator_inquiry_response:
+      condition: executive_audit_dashboard_regulator_request_received == true
+      action: compile_executive_audit_dashboard_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: executive_audit_dashboard_regulatory_evidence_index
+  decision_outputs:
+    - executive_audit_dashboard_enforcement_decision
+    - executive_audit_dashboard_escalation_notice
+    - executive_audit_dashboard_remediation_directive
+    - executive_audit_dashboard_audit_disposition
+  approval_requirements:
+    enforcement_actions: [executive_audit_dashboard_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - executive_audit_dashboard_severity_score >= 90
+    - executive_audit_dashboard_evidence_integrity_failure == true
+    - executive_audit_dashboard_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_executive_audit_dashboard_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: executive_audit_dashboard_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Executive Audit Dashboard may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Executive Audit Dashboard per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Executive Audit Dashboard per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Executive Audit Dashboard per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Executive Audit Dashboard per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+metrics:
+  - metric_name: audit_finding_closure_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure audit finding closure rate for Executive Audit Dashboard operational and regulatory
+        assurance
+    formula: computed_audit_finding_closure_rate_from_executive_audit_dashboard_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: executive_audit_dashboard_metrics_owner
+    data_source: executive_audit_dashboard_metrics_warehouse
+    evidence_generated: audit_finding_closure_rate_measurement_record
+  - metric_name: inspection_readiness_score
+    metric_category: risk
+    business_purpose:
+      >
+        Measure inspection readiness score for Executive Audit Dashboard operational and regulatory
+        assurance
+    formula: computed_inspection_readiness_score_from_executive_audit_dashboard_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: executive_audit_dashboard_metrics_owner
+    data_source: executive_audit_dashboard_metrics_warehouse
+    evidence_generated: inspection_readiness_score_measurement_record
+  - metric_name: control_test_pass_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure control test pass rate for Executive Audit Dashboard operational and regulatory
+        assurance
+    formula: computed_control_test_pass_rate_from_executive_audit_dashboard_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: executive_audit_dashboard_metrics_owner
+    data_source: executive_audit_dashboard_metrics_warehouse
+    evidence_generated: control_test_pass_rate_measurement_record
+  - metric_name: evidence_gap_count
+    metric_category: effectiveness
+    business_purpose:
+      Measure evidence gap count for Executive Audit Dashboard operational and regulatory assurance
+    formula: computed_evidence_gap_count_from_executive_audit_dashboard_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: executive_audit_dashboard_metrics_owner
+    data_source: executive_audit_dashboard_metrics_warehouse
+    evidence_generated: evidence_gap_count_measurement_record
+  - metric_name: regulatory_alignment_score
+    metric_category: governance
+    business_purpose:
+      >
+        Measure regulatory alignment score for Executive Audit Dashboard operational and regulatory
+        assurance
+    formula: computed_regulatory_alignment_score_from_executive_audit_dashboard_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: executive_audit_dashboard_metrics_owner
+    data_source: executive_audit_dashboard_metrics_warehouse
+    evidence_generated: regulatory_alignment_score_measurement_record
+  - metric_name: continuous_audit_coverage
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure continuous audit coverage for Executive Audit Dashboard operational and regulatory
+        assurance
+    formula: computed_continuous_audit_coverage_from_executive_audit_dashboard_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: executive_audit_dashboard_metrics_owner
+    data_source: executive_audit_dashboard_metrics_warehouse
+    evidence_generated: continuous_audit_coverage_measurement_record
+kpis:
+  - metric_name: audit_finding_closure_rate
+    formula: computed_audit_finding_closure_rate_from_executive_audit_dashboard_telemetry
+    target: >= 95%
+  - metric_name: inspection_readiness_score
+    formula: computed_inspection_readiness_score_from_executive_audit_dashboard_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: control_test_pass_rate
+    formula: computed_control_test_pass_rate_from_executive_audit_dashboard_telemetry
+    target: >= 95%
+  - metric_name: evidence_gap_count
+    formula: computed_evidence_gap_count_from_executive_audit_dashboard_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: regulatory_alignment_score
+    business_purpose: Measure regulatory alignment score for Executive Audit Dashboard operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+  - metric_name: continuous_audit_coverage
+    business_purpose: Measure continuous audit coverage for Executive Audit Dashboard operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: executive_audit_dashboard_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support executive audit dashboard governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_executive_audit_dashboard_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: executive_audit_dashboard_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: executive_audit_dashboard_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support executive audit dashboard governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_executive_audit_dashboard_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: executive_audit_dashboard_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: executive_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support executive audit dashboard governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_executive_audit_dashboard_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: executive_audit_dashboard_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: audit_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support executive audit dashboard governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_executive_audit_dashboard_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: executive_audit_dashboard_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: dashboard_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support executive audit dashboard governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_executive_audit_dashboard_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: executive_audit_dashboard_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: executive_audit_posture_dashboard
+    report_owner: executive_audit_dashboard_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: monthly
+    report_inputs:
+      - executive_audit_dashboard_telemetry
+      - executive_audit_dashboard_evidence_index
+    report_outputs:
+      - executive_audit_posture_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: board_risk_exposure_brief
+    report_owner: executive_audit_dashboard_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - executive_audit_dashboard_telemetry
+      - executive_audit_dashboard_evidence_index
+    report_outputs:
+      - board_risk_exposure_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: enforcement_pipeline_summary
+    report_owner: executive_audit_dashboard_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - executive_audit_dashboard_telemetry
+      - executive_audit_dashboard_evidence_index
+    report_outputs:
+      - enforcement_pipeline_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: compliance_trend_analysis
+    report_owner: executive_audit_dashboard_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - executive_audit_dashboard_telemetry
+      - executive_audit_dashboard_evidence_index
+    report_outputs:
+      - compliance_trend_analysis_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: regulatory_readiness_scorecard
+    report_owner: executive_audit_dashboard_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - executive_audit_dashboard_telemetry
+      - executive_audit_dashboard_evidence_index
+    report_outputs:
+      - regulatory_readiness_scorecard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Executive Audit Dashboard interfaces with autonomous agents,
+      GPAI, or tool-calling systems.
+  agent_governance:
+    agent_identity: executive_audit_dashboard_registered_agent_identity_schema
+    agent_role: executive_audit_dashboard_delegated_authority_role_matrix
+    agent_permissions: executive_audit_dashboard_least_privilege_permission_set
+    agent_constraints: executive_audit_dashboard_autonomy_and_tool_constraints
+    agent_accountability: executive_audit_dashboard_human_accountability_chain
+    agent_escalation_rules: executive_audit_dashboard_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - executive_audit_dashboard_policy_context
+      - executive_audit_dashboard_risk_score
+      - executive_audit_dashboard_human_intent
+    decision_outputs:
+      - executive_audit_dashboard_authorized_action
+      - executive_audit_dashboard_escalation_notice
+    decision_owners:
+      - executive_audit_dashboard_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: executive_audit_dashboard_high_risk_decision_mandatory_review
+    decision_accountability: executive_audit_dashboard_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: executive_audit_dashboard_approved_tool_allowlist
+    tool_execution_validation: executive_audit_dashboard_pre_execution_tool_risk_check
+    tool_risk_controls: executive_audit_dashboard_tool_side_effect_containment
+    tool_auditability: executive_audit_dashboard_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: executive_audit_dashboard_memory_segment_access_policy
+    memory_integrity_validation: executive_audit_dashboard_memory_tamper_detection
+    memory_retention_controls: executive_audit_dashboard_memory_retention_and_purge_rules
+    memory_auditability: executive_audit_dashboard_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: executive_audit_dashboard_chain_of_thought_capture
+    reasoning_validation: executive_audit_dashboard_reasoning_consistency_check
+    reasoning_risk_monitoring: executive_audit_dashboard_reasoning_hazard_detection
+    reasoning_accountability: executive_audit_dashboard_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - executive_audit_dashboard_audit_log
+  - executive_audit_dashboard_activity_log
+  - executive_audit_dashboard_decision_log
+  - executive_audit_dashboard_traceability_record
+  - executive_audit_dashboard_evidence_package
+  - executive_audit_dashboard_chain_of_custody_record
+  - executive_audit_dashboard_attestation
+required_evidence:
+  - executive_audit_dashboard_audit_log
+  - executive_audit_dashboard_activity_log
+  - executive_audit_dashboard_decision_log
+  - executive_audit_dashboard_traceability_record
+  - executive_audit_dashboard_evidence_package
+  - executive_audit_dashboard_chain_of_custody_record
+  - executive_audit_dashboard_attestation
+supporting_evidence:
+  - executive_audit_dashboard_audit_log
+  - executive_audit_dashboard_activity_log
+  - executive_audit_dashboard_decision_log
+  - executive_audit_dashboard_traceability_record
+  - executive_audit_dashboard_evidence_package
+audit_evidence:
+  - executive_audit_dashboard_audit_log
+  - executive_audit_dashboard_activity_log
+  - executive_audit_dashboard_decision_log
+  - executive_audit_dashboard_traceability_record
+  - executive_audit_dashboard_evidence_package
+  - executive_audit_dashboard_chain_of_custody_record
+  - executive_audit_dashboard_attestation
+forensic_evidence:
+  - executive_audit_dashboard_audit_log
+  - executive_audit_dashboard_activity_log
+  - executive_audit_dashboard_decision_log
+  - executive_audit_dashboard_traceability_record
+  - executive_audit_dashboard_evidence_package
+  - executive_audit_dashboard_chain_of_custody_record
+  - executive_audit_dashboard_attestation
+regulatory_evidence:
+  - executive_audit_dashboard_audit_log
+  - executive_audit_dashboard_activity_log
+  - executive_audit_dashboard_decision_log
+  - executive_audit_dashboard_traceability_record
+  - executive_audit_dashboard_evidence_package
+  - executive_audit_dashboard_chain_of_custody_record
+  - executive_audit_dashboard_attestation
+validation_evidence:
+  - executive_audit_dashboard_audit_log
+  - executive_audit_dashboard_activity_log
+  - executive_audit_dashboard_decision_log
+  - executive_audit_dashboard_traceability_record
+  - executive_audit_dashboard_evidence_package
+  - executive_audit_dashboard_chain_of_custody_record
+  - executive_audit_dashboard_attestation
+validation_rules:
+  - rule: executive_audit_dashboard_evidence_complete
+    condition: required_evidence_executive_audit_dashboard < threshold
+    action: BLOCK_SUBMISSION
+  - rule: executive_audit_dashboard_integrity_verified
+    condition: integrity_status_executive_audit_dashboard != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: executive_audit_dashboard_custody_intact
+    condition: custody_gap_executive_audit_dashboard == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Executive Audit Dashboard controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Executive Audit Dashboard controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Executive Audit Dashboard controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Executive Audit Dashboard controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Executive Audit Dashboard controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - executive_audit_dashboard_control_failure
+    - executive_audit_dashboard_evidence_compromise
+    - executive_audit_dashboard_regulatory_non_compliance
+    - executive_audit_dashboard_enforcement_delay
+  risk_events:
+    - executive_audit_dashboard_audit_finding_critical
+    - executive_audit_dashboard_investigation_escalation
+    - executive_audit_dashboard_sanction_exposure
+    - executive_audit_dashboard_market_surveillance_inquiry
+  risk_indicators:
+    - executive_audit_dashboard_control_effectiveness_degradation
+    - executive_audit_dashboard_evidence_gap_rate
+    - executive_audit_dashboard_sla_breach_count
+    - executive_audit_dashboard_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    executive_audit_dashboard_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: executive_audit_dashboard_forensic_lead
+    executive_audit_dashboard_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    executive_audit_dashboard_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: executive_audit_dashboard_enforcement_officer
+  risk_tolerance:
+    executive_audit_dashboard_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: executive_audit_dashboard_risk_score >= 60
+    critical: executive_audit_dashboard_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Executive Audit Dashboard controls documented in
+      executive_audit_dashboard_risk_register with quarterly review.
+  risk_treatment:
+    - executive_audit_dashboard_preventive_control_reinforcement
+    - executive_audit_dashboard_detective_monitoring_enhancement
+    - executive_audit_dashboard_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: executive_audit_dashboard_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Executive Audit Dashboard workflow events with provenance anchor and
+      executive_audit_dashboard_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via executive_audit_dashboard_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      executive_audit_dashboard_validation_engine
+  evidence_classification:
+    RESTRICTED/CONFIDENTIAL classification per executive_audit_dashboard_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in executive_audit_dashboard_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per executive_audit_dashboard_retention_schedule aligned with EU AI Act Article 18 and
+      legal hold
+  evidence_archival:
+    Long-term archival with executive_audit_dashboard_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via executive_audit_dashboard_retrieval_gateway with purpose logging
+  evidence_disposal:
+    Authorized disposition with executive_audit_dashboard_disposition_certificate and dual approval
+compliance_mapping:
+  article_12:
+    article: Article 12
+    regulatory_text_summary:
+      Record-keeping and automatic logging.
+    obligation:
+      >
+        Logging capabilities enabling traceability throughout system lifetime. Implemented through
+        Executive Audit Dashboard in reporting.
+    implementation_controls:
+      - executive_audit_dashboard_article_12_preventive_control
+      - executive_audit_dashboard_article_12_detective_control
+      - executive_audit_dashboard_article_12_evidence_control
+    implementation_processes:
+      - executive_audit_dashboard_article_12_workflow
+      - executive_audit_dashboard_article_12_validation_process
+      - executive_audit_dashboard_article_12_escalation_process
+    implementation_evidence:
+      - executive_audit_dashboard_article_12_compliance_record
+      - executive_audit_dashboard_article_12_audit_package
+      - executive_audit_dashboard_article_12_attestation
+    validation_method: executive_audit_dashboard_article_12_automated_and_manual_conformity_testing
+    audit_method: executive_audit_dashboard_article_12_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: executive_audit_dashboard_article_12_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Executive Audit Dashboard demonstrates Article 12 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_43:
+    article: Article 43
+    regulatory_text_summary:
+      Conformity assessment.
+    obligation:
+      >
+        Conformity assessment procedures for high-risk AI systems. Implemented through Executive Audit
+        Dashboard in reporting.
+    implementation_controls:
+      - executive_audit_dashboard_article_43_preventive_control
+      - executive_audit_dashboard_article_43_detective_control
+      - executive_audit_dashboard_article_43_evidence_control
+    implementation_processes:
+      - executive_audit_dashboard_article_43_workflow
+      - executive_audit_dashboard_article_43_validation_process
+      - executive_audit_dashboard_article_43_escalation_process
+    implementation_evidence:
+      - executive_audit_dashboard_article_43_compliance_record
+      - executive_audit_dashboard_article_43_audit_package
+      - executive_audit_dashboard_article_43_attestation
+    validation_method: executive_audit_dashboard_article_43_automated_and_manual_conformity_testing
+    audit_method: executive_audit_dashboard_article_43_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: executive_audit_dashboard_article_43_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Executive Audit Dashboard demonstrates Article 43 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_50:
+    article: Article 50
+    regulatory_text_summary:
+      Codes of practice for GPAI.
+    obligation:
+      >
+        Codes of practice and compliance demonstration for GPAI models. Implemented through Executive
+        Audit Dashboard in reporting.
+    implementation_controls:
+      - executive_audit_dashboard_article_50_preventive_control
+      - executive_audit_dashboard_article_50_detective_control
+      - executive_audit_dashboard_article_50_evidence_control
+    implementation_processes:
+      - executive_audit_dashboard_article_50_workflow
+      - executive_audit_dashboard_article_50_validation_process
+      - executive_audit_dashboard_article_50_escalation_process
+    implementation_evidence:
+      - executive_audit_dashboard_article_50_compliance_record
+      - executive_audit_dashboard_article_50_audit_package
+      - executive_audit_dashboard_article_50_attestation
+    validation_method: executive_audit_dashboard_article_50_automated_and_manual_conformity_testing
+    audit_method: executive_audit_dashboard_article_50_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: executive_audit_dashboard_article_50_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Executive Audit Dashboard demonstrates Article 50 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_71:
+    article: Article 71
+    regulatory_text_summary:
+      Penalties.
+    obligation:
+      >
+        Administrative fines for infringements. Implemented through Executive Audit Dashboard in
+        reporting.
+    implementation_controls:
+      - executive_audit_dashboard_article_71_preventive_control
+      - executive_audit_dashboard_article_71_detective_control
+      - executive_audit_dashboard_article_71_evidence_control
+    implementation_processes:
+      - executive_audit_dashboard_article_71_workflow
+      - executive_audit_dashboard_article_71_validation_process
+      - executive_audit_dashboard_article_71_escalation_process
+    implementation_evidence:
+      - executive_audit_dashboard_article_71_compliance_record
+      - executive_audit_dashboard_article_71_audit_package
+      - executive_audit_dashboard_article_71_attestation
+    validation_method: executive_audit_dashboard_article_71_automated_and_manual_conformity_testing
+    audit_method: executive_audit_dashboard_article_71_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: executive_audit_dashboard_article_71_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Executive Audit Dashboard demonstrates Article 71 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+crosswalks:
+  eu_ai_act:
+    article_12:
+      implementation: executive_audit_dashboard_eu_ai_act_article_12_control_set
+      process: executive_audit_dashboard_eu_ai_act_article_12_workflow
+      evidence: executive_audit_dashboard_eu_ai_act_article_12_attestation
+    article_43:
+      implementation: executive_audit_dashboard_eu_ai_act_article_43_control_set
+      process: executive_audit_dashboard_eu_ai_act_article_43_workflow
+      evidence: executive_audit_dashboard_eu_ai_act_article_43_attestation
+    article_50:
+      implementation: executive_audit_dashboard_eu_ai_act_article_50_control_set
+      process: executive_audit_dashboard_eu_ai_act_article_50_workflow
+      evidence: executive_audit_dashboard_eu_ai_act_article_50_attestation
+    article_71:
+      implementation: executive_audit_dashboard_eu_ai_act_article_71_control_set
+      process: executive_audit_dashboard_eu_ai_act_article_71_workflow
+      evidence: executive_audit_dashboard_eu_ai_act_article_71_attestation
+  gdpr:
+    article_5:
+      implementation: executive_audit_dashboard_gdpr_article_5_privacy_control
+      evidence: executive_audit_dashboard_gdpr_article_5_compliance_record
+    article_6:
+      implementation: executive_audit_dashboard_gdpr_article_6_privacy_control
+      evidence: executive_audit_dashboard_gdpr_article_6_compliance_record
+    article_22:
+      implementation: executive_audit_dashboard_gdpr_article_22_privacy_control
+      evidence: executive_audit_dashboard_gdpr_article_22_compliance_record
+    article_25:
+      implementation: executive_audit_dashboard_gdpr_article_25_privacy_control
+      evidence: executive_audit_dashboard_gdpr_article_25_compliance_record
+    article_32:
+      implementation: executive_audit_dashboard_gdpr_article_32_privacy_control
+      evidence: executive_audit_dashboard_gdpr_article_32_compliance_record
+    article_35:
+      implementation: executive_audit_dashboard_gdpr_article_35_privacy_control
+      evidence: executive_audit_dashboard_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: executive_audit_dashboard_iso42001_clause_4_1_aims_control
+      evidence: executive_audit_dashboard_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: executive_audit_dashboard_iso42001_clause_4_2_aims_control
+      evidence: executive_audit_dashboard_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: executive_audit_dashboard_iso42001_clause_5_1_aims_control
+      evidence: executive_audit_dashboard_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: executive_audit_dashboard_iso42001_clause_5_2_aims_control
+      evidence: executive_audit_dashboard_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: executive_audit_dashboard_iso42001_clause_6_1_aims_control
+      evidence: executive_audit_dashboard_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: executive_audit_dashboard_iso42001_clause_8_1_aims_control
+      evidence: executive_audit_dashboard_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: executive_audit_dashboard_iso42001_clause_9_1_aims_control
+      evidence: executive_audit_dashboard_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: executive_audit_dashboard_iso42001_clause_10_1_aims_control
+      evidence: executive_audit_dashboard_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: executive_audit_dashboard_iso23894_risk_identification_alignment
+      evidence: executive_audit_dashboard_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: executive_audit_dashboard_iso23894_risk_analysis_alignment
+      evidence: executive_audit_dashboard_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: executive_audit_dashboard_iso23894_risk_evaluation_alignment
+      evidence: executive_audit_dashboard_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: executive_audit_dashboard_iso23894_risk_treatment_alignment
+      evidence: executive_audit_dashboard_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: executive_audit_dashboard_iso23894_risk_monitoring_alignment
+      evidence: executive_audit_dashboard_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: executive_audit_dashboard_iso19011_audit_principles_procedure
+      evidence: executive_audit_dashboard_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: executive_audit_dashboard_iso19011_audit_programme_management_procedure
+      evidence: executive_audit_dashboard_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: executive_audit_dashboard_iso19011_audit_evidence_requirements_procedure
+      evidence: executive_audit_dashboard_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: executive_audit_dashboard_iso19011_audit_reporting_procedure
+      evidence: executive_audit_dashboard_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: executive_audit_dashboard_nist_rmf_govern_control_mapping
+      evidence: executive_audit_dashboard_nist_rmf_govern_assessment
+    map:
+      implementation: executive_audit_dashboard_nist_rmf_map_control_mapping
+      evidence: executive_audit_dashboard_nist_rmf_map_assessment
+    measure:
+      implementation: executive_audit_dashboard_nist_rmf_measure_control_mapping
+      evidence: executive_audit_dashboard_nist_rmf_measure_assessment
+    manage:
+      implementation: executive_audit_dashboard_nist_rmf_manage_control_mapping
+      evidence: executive_audit_dashboard_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: executive_audit_dashboard_nist_csf_identify_safeguard
+      evidence: executive_audit_dashboard_nist_csf_identify_log
+    protect:
+      implementation: executive_audit_dashboard_nist_csf_protect_safeguard
+      evidence: executive_audit_dashboard_nist_csf_protect_log
+    detect:
+      implementation: executive_audit_dashboard_nist_csf_detect_safeguard
+      evidence: executive_audit_dashboard_nist_csf_detect_log
+    respond:
+      implementation: executive_audit_dashboard_nist_csf_respond_safeguard
+      evidence: executive_audit_dashboard_nist_csf_respond_log
+    recover:
+      implementation: executive_audit_dashboard_nist_csf_recover_safeguard
+      evidence: executive_audit_dashboard_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: executive_audit_dashboard_oecd_accountability_governance_control
+      evidence: executive_audit_dashboard_oecd_accountability_attestation
+    transparency:
+      implementation: executive_audit_dashboard_oecd_transparency_governance_control
+      evidence: executive_audit_dashboard_oecd_transparency_attestation
+    robustness_security:
+      implementation: executive_audit_dashboard_oecd_robustness_security_governance_control
+      evidence: executive_audit_dashboard_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: executive_audit_dashboard_oecd_inclusive_growth_governance_control
+      evidence: executive_audit_dashboard_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: executive_audit_dashboard_unesco_human_rights_ethics_control
+      evidence: executive_audit_dashboard_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: executive_audit_dashboard_unesco_fairness_non_discrimination_ethics_control
+      evidence: executive_audit_dashboard_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: executive_audit_dashboard_unesco_transparency_explainability_ethics_control
+      evidence: executive_audit_dashboard_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: executive_audit_dashboard_unesco_accountability_ethics_control
+      evidence: executive_audit_dashboard_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Executive Audit Dashboard covering executive, board, regulatory, audit,
+      forensic, and attestation consumers.
+  report_types:
+    - executive_audit_dashboard_status_report
+    - executive_audit_dashboard_compliance_report
+    - executive_audit_dashboard_enforcement_report
+    - executive_audit_dashboard_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [executive_audit_dashboard_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_executive_audit_dashboard
+  - quarterly_control_testing_executive_audit_dashboard
+  - evidence_sampling_executive_audit_dashboard
+  - finding_remediation_tracking_executive_audit_dashboard
+integration_points:
+  upstream_systems:
+    - system: compliance_audits
+      purpose: executive_audit_dashboard_to_compliance_audits_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_compliance_audits]
+      produced_artifacts: [executive_audit_dashboard_output_to_compliance_audits]
+    - system: enforcement_actions
+      purpose: executive_audit_dashboard_to_enforcement_actions_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_enforcement_actions]
+      produced_artifacts: [executive_audit_dashboard_output_to_enforcement_actions]
+    - system: investigation_management
+      purpose: executive_audit_dashboard_to_investigation_management_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_investigation_management]
+      produced_artifacts: [executive_audit_dashboard_output_to_investigation_management]
+    - system: remediation_tracking
+      purpose: executive_audit_dashboard_to_remediation_tracking_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_remediation_tracking]
+      produced_artifacts: [executive_audit_dashboard_output_to_remediation_tracking]
+  downstream_systems:
+    - system: governance_reporting
+      purpose: executive_audit_dashboard_to_governance_reporting_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_governance_reporting]
+      produced_artifacts: [executive_audit_dashboard_output_to_governance_reporting]
+    - system: regulator_engagement
+      purpose: executive_audit_dashboard_to_regulator_engagement_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_regulator_engagement]
+      produced_artifacts: [executive_audit_dashboard_output_to_regulator_engagement]
+    - system: board_oversight
+      purpose: executive_audit_dashboard_to_board_oversight_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_board_oversight]
+      produced_artifacts: [executive_audit_dashboard_output_to_board_oversight]
+  governance_integrations:
+    - system: governance_reporting
+      purpose: executive_audit_dashboard_to_governance_reporting_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_governance_reporting]
+      produced_artifacts: [executive_audit_dashboard_output_to_governance_reporting]
+    - system: core_governance
+      purpose: executive_audit_dashboard_to_core_governance_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_core_governance]
+      produced_artifacts: [executive_audit_dashboard_output_to_core_governance]
+  risk_integrations:
+  audit_integrations:
+    - system: compliance_audits
+      purpose: executive_audit_dashboard_to_compliance_audits_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_compliance_audits]
+      produced_artifacts: [executive_audit_dashboard_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: executive_audit_dashboard_to_internal_audit_system_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_internal_audit_system]
+      produced_artifacts: [executive_audit_dashboard_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: executive_audit_dashboard_to_governance_reporting_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_governance_reporting]
+      produced_artifacts: [executive_audit_dashboard_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: executive_audit_dashboard_to_executive_dashboard_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_executive_dashboard]
+      produced_artifacts: [executive_audit_dashboard_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: executive_audit_dashboard_to_enforcement_actions_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_enforcement_actions]
+      produced_artifacts: [executive_audit_dashboard_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: executive_audit_dashboard_to_policy_enforcement_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_policy_enforcement]
+      produced_artifacts: [executive_audit_dashboard_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: executive_audit_dashboard_to_remediation_tracking_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_remediation_tracking]
+      produced_artifacts: [executive_audit_dashboard_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: executive_audit_dashboard_to_remediation_engine_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_remediation_engine]
+      produced_artifacts: [executive_audit_dashboard_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: executive_audit_dashboard_to_evidence_preservation_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_evidence_preservation]
+      produced_artifacts: [executive_audit_dashboard_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: executive_audit_dashboard_to_technical_documentation_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_technical_documentation]
+      produced_artifacts: [executive_audit_dashboard_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: executive_audit_dashboard_to_post_market_monitoring_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_post_market_monitoring]
+      produced_artifacts: [executive_audit_dashboard_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: executive_audit_dashboard_to_incident_reporting_governance_sync
+      data_exchanged: [executive_audit_dashboard_events, executive_audit_dashboard_evidence_refs, executive_audit_dashboard_metrics]
+      trigger_conditions: [executive_audit_dashboard_state_change, executive_audit_dashboard_escalation, executive_audit_dashboard_closure]
+      consumed_artifacts: [executive_audit_dashboard_input_from_incident_reporting]
+      produced_artifacts: [executive_audit_dashboard_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Executive Audit Dashboard activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Executive Audit Dashboard procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - executive_audit_dashboard_procedure_checklist
+    required_evidence:
+      - executive_audit_dashboard_process_log
+    required_metrics:
+      - executive_audit_dashboard_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Executive Audit Dashboard enterprise-wide.
+    required_capabilities:
+      - executive_audit_dashboard_standard_control_set
+    required_controls:
+      - executive_audit_dashboard_control_register
+    required_evidence:
+      - executive_audit_dashboard_audit_evidence
+    required_metrics:
+      - executive_audit_dashboard_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Executive Audit Dashboard with KPI optimization.
+    required_capabilities:
+      - executive_audit_dashboard_automated_controls
+    required_controls:
+      - executive_audit_dashboard_telemetry_controls
+    required_evidence:
+      - executive_audit_dashboard_assurance_package
+    required_metrics:
+      - executive_audit_dashboard_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Executive Audit Dashboard with predictive analytics.
+    required_capabilities:
+      - executive_audit_dashboard_autonomous_governance
+    required_controls:
+      - executive_audit_dashboard_adaptive_controls
+    required_evidence:
+      - executive_audit_dashboard_regulator_ready_portfolio
+    required_metrics:
+      - executive_audit_dashboard_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - executive_audit_dashboard_report
+  - executive_audit_dashboard_evidence_package
+  - executive_audit_dashboard_attestation
+  - executive_audit_dashboard_enforcement_record
+artifacts:
+  - name: executive_audit_dashboard_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: executive_audit_dashboard_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: executive_audit_dashboard_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: executive_audit_dashboard_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - executive_audit_dashboard_case_record
+  - executive_audit_dashboard_audit_record
+  - executive_audit_dashboard_enforcement_record
+  - executive_audit_dashboard_remediation_record
+monitoring:
+  continuous:
+    - executive_audit_dashboard_control_telemetry
+    - executive_audit_dashboard_evidence_integrity_feed
+    - executive_audit_dashboard_escalation_queue
+  periodic:
+    - executive_audit_dashboard_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Executive Audit Dashboard effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: executive_audit_dashboard_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: executive_audit_dashboard_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: executive_audit_dashboard_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: executive_audit_dashboard_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Executive Audit Dashboard

@@ -1,0 +1,1411 @@
+metadata:
+  document_id: "PRV-PMM-POST_MARKET_-001"
+  title: "Post Market Validation"
+  domain: "Post Market Obligations"
+  version: "1.0.0"
+  classification: "CONFIDENTIAL_REGULATORY"
+purpose: "Govern, operationalize, and validate provider obligations and lifecycle accountability compliance workflows for Post Market Validation under the Post Market Obligations framework. This skill provides machine-readable, executable provider governance & conformity assurance AI coordination rules specifically tailored to post-market monitoring program, performance tracking controls, feedback loops, degradation monitoring properties."
+scope: "Scope covers all technical documentation reviews, conformity assessments, post-market monitoring tracking, and incident reporting controls governed by the Post Market Validation framework."
+objectives:
+  - "Govern and audit provider obligations and accountability rules under Post Market Validation criteria."
+  - "Ensure real-time compliance monitoring and conformity validations for Post Market Obligations."
+  - "Compile technical documentation files and conformity reports to verify compliance under EU AI Act Articles 8-21."
+definitions:
+  post_market_validation_provider_policy: "The primary operational provider governance and compliance rules for Post Market Validation."
+  post_market_validation_compliance_register: "Cryptographically sealed conformity assessment and technical documentation database containing validation logs for Post Market Validation."
+taxonomy:
+  obligation_classes:
+    - "QUALITY_MANAGEMENT"
+    - "TECHNICAL_DOCUMENTATION"
+    - "CONFORMITY_ASSESSMENT"
+    - "POST_MARKET_MONITORING"
+  compliance_modes:
+    - "PRE_MARKET_VALIDATION"
+    - "MARKET_PLACEMENT_GATE"
+    - "POST_MARKET_AUDIT"
+governance:
+  governance_model: "PROVIDER_ACCOUNTABILITY_GOVERNANCE_MODEL"
+  governance_structure: "Enterprise Provider Governance Board - Post Market Obligations"
+  roles_and_responsibilities:
+    compliance_officer: "Responsible for managing EU AI Act Articles 16-17 compliance and registries for Post Market Validation."
+    technical_lead: "Responsible for compiling technical documentation files and verifying specifications for Post Market Validation."
+    quality_manager: "Responsible for quality management systems checks and conformity validations for Post Market Validation."
+  stakeholders:
+    - "Chief Compliance Officer"
+    - "Head of AI Product Development"
+    - "Director of Quality Assurance"
+governance_model:
+  model_type: "PROVIDER_GOVERNANCE_SYSTEM_MODEL"
+  model_rationale: "Ensures continuous verification of quality management frameworks, systematic technical specification audits, proactive incident management, and complete audit trace logs across product lifecycle."
+governance_structure:
+  oversight_board: "Global Provider Governance Committee - Post Market Obligations"
+  escalation_contact: "provider_governance@enterprise.ai"
+roles_and_responsibilities:
+  compliance_officer: "Primary owner of conformity registers and post-market checklists under Post Market Validation."
+  technical_lead: "Responsible for scoring documentation completeness, verifying specifications, and signing off technical files."
+  quality_manager: "Responsible for quality system audits, incident response verifications, and corrective action implementations."
+stakeholders:
+  - "Head of AI Compliance & GRC"
+  - "Director of Software Engineering"
+  - "VP of Enterprise Quality Management"
+  - "Post Market Obligations Obligation Subject Matter Owner"
+capabilities:
+  - "Continuous compliance checkings and quality management audits under Post Market Validation."
+  - "Systematic technical documentation compilations and conformity assessments under Post Market Validation."
+  - "Post-market monitoring program execution and incident response reporting for Post Market Obligations operations."
+requirements:
+  - "All software specifications under Post Market Validation must document design parameters."
+  - "Conformity assessments scorecards must meet or exceed the 1.00 baseline parameters."
+  - "Serious incident notifications must be compiled and sent within 15 days of identification."
+controls:
+  - control_id: "CTRL-PRV-PMM-POST_M-01"
+    control_name: "provider_accountability_control"
+    control_type: "PREVENTATIVE"
+    control_category: "ACCOUNTABILITY"
+    control_objective: "Govern responsibility allocations and verify ownership assignments for Post Market Validation workflows."
+    provider_rationale: "Maintains clear ownership chains under EU AI Act rules, preventing accountability gaps."
+    implementation_guidance: "Deploy automated roles verifiers checking task ownership records weekly."
+    control_owner: "Compliance Officer"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Monitor ownership logs completeness on GRC central portal."
+    validation_method: "Query task registry with missing owner field, verify update block."
+    evidence_generated: "Signed weekly responsibility mapping audit log."
+    regulatory_mapping: "EU AI Act Article 16"
+    audit_considerations: "Check ownership mapping tables and change logs histories."
+  - control_id: "CTRL-PRV-PMM-POST_M-02"
+    control_name: "risk_management_control"
+    control_type: "PREVENTATIVE"
+    control_category: "RISK"
+    control_objective: "Enforce risk management system rules and verify mitigation thresholds for Post Market Validation."
+    provider_rationale: "Reduces model execution and operational risk, ensuring conformity with safety limits."
+    implementation_guidance: "Deploy automated risk score calculators checking model parameters daily."
+    control_owner: "Quality Manager"
+    control_frequency: "DAILY"
+    monitoring_method: "Track risk thresholds indicators on compliance dashboard."
+    validation_method: "Inject mock risk scores breaching safety levels, assert pipeline block."
+    evidence_generated: "Signed daily risk management validation ticket."
+    regulatory_mapping: "EU AI Act Article 9"
+    audit_considerations: "Verify risk thresholds configuration and active alarm monitors."
+  - control_id: "CTRL-PRV-PMM-POST_M-03"
+    control_name: "technical_documentation_control"
+    control_type: "PREVENTATIVE"
+    control_category: "DOCUMENTATION"
+    control_objective: "Audit technical documentation completeness and verify system specifications for Post Market Validation."
+    provider_rationale: "Maintains regulatory conformity files completeness pre-market placement."
+    implementation_guidance: "Scan technical folders weekly for required schemas, architecture maps, and datasheets."
+    control_owner: "Technical Lead"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Verify documentation coverage metrics on GRC dashboard."
+    validation_method: "Trigger deployment pipeline with incomplete technical files, verify pipeline halt."
+    evidence_generated: "Signed weekly technical documentation validation certificate."
+    regulatory_mapping: "EU AI Act Article 11"
+    audit_considerations: "Review technical doc inventories and version control logs."
+  - control_id: "CTRL-PRV-PMM-POST_M-04"
+    control_name: "human_oversight_control"
+    control_type: "PREVENTATIVE"
+    control_category: "OVERSIGHT"
+    control_objective: "Govern manual takeover and human override controls for Post Market Validation."
+    provider_rationale: "Ensures operators have required access keys and validation check interfaces for manual review."
+    implementation_guidance: "Deploy automated override checkers checking credentials pre-flight."
+    control_owner: "Compliance Officer"
+    control_frequency: "REAL_TIME"
+    monitoring_method: "Track override event logs and operator response latency on GRC portal."
+    validation_method: "Request override validation in sandboxed environment, verify override status updates."
+    evidence_generated: "Signed human oversight verification receipt."
+    regulatory_mapping: "EU AI Act Article 14"
+    audit_considerations: "Audit manual override logs database and user access certificates."
+  - control_id: "CTRL-PRV-PMM-POST_M-05"
+    control_name: "post_market_monitoring_control"
+    control_type: "DETECTIVE"
+    control_category: "MONITORING"
+    control_objective: "Monitor system behaviors and verify performance degradation for Post Market Validation."
+    provider_rationale: "Enables early identification of systemic drift or failures, preventing market accidents."
+    implementation_guidance: "Deploy continuous monitoring gateway scanning operational telemetry hourly."
+    control_owner: "Quality Manager"
+    control_frequency: "HOURLY"
+    monitoring_method: "Track performance score metrics on central GRC scorecard."
+    validation_method: "Inject mock performance drift data, verify drift notification is sent."
+    evidence_generated: "Signed hourly post-market validation certificate."
+    regulatory_mapping: "EU AI Act Article 61"
+    audit_considerations: "Check post-market logs databases and telemetry collector definitions."
+  - control_id: "CTRL-PRV-PMM-POST_M-06"
+    control_name: "incident_reporting_control"
+    control_type: "DETECTIVE"
+    control_category: "REPORTING"
+    control_objective: "Identify serious incidents and route regulatory notifications for Post Market Validation."
+    provider_rationale: "Meets regulatory notification timeliness mandates, avoiding penalties."
+    implementation_guidance: "Deploy automated incident ticket generator checking GRC logs daily."
+    control_owner: "Compliance Officer"
+    control_frequency: "DAILY"
+    monitoring_method: "Track incident reporting SLAs indicators on GRC dashboard."
+    validation_method: "Create test critical incident ticket, assert authority alert routes in GRC within 5 seconds."
+    evidence_generated: "Signed incident reporting validation token."
+    regulatory_mapping: "EU AI Act Article 72"
+    audit_considerations: "Review incident logs history and authority communication records."
+decision_logic:
+  escalation_trigger: "If provider_compliance_score or provider_assurance_score drops below 1.00, halt the market placement gate for Post Market Validation and notify Compliance Officer."
+  incident_classification: "Classify failures as CRITICAL if they involve technical documentation missing fields, CE marking errors, or failure to report serious incidents."
+processes:
+  conformity_reviews: "SOP for verification checklists review and conformity assessment coordination for Post Market Validation."
+  incident_escalation: "Procedural steps to triage incidents, isolate execution nodes, and notify regulators within SLA."
+workflows:
+  - workflow_id: "provider_compliance_workflow"
+    workflow_owner: "Compliance Officer"
+    workflow_objective: "Audit quality management systems and evaluate compliance obligations for Post Market Validation."
+    trigger: "Scheduled weekly compliance audit tick."
+    inputs:
+      - "quality_management_files"
+      - "compliance_obligations_register"
+      - "audit_checklists"
+    activities:
+      - "Scan quality management system configurations."
+      - "Enforce obligation checklist validations."
+      - "Issue compliance status tracking receipt."
+    decision_points:
+      - "Obligations validation pass"
+      - "Quality check pass"
+    approvals:
+      - "Compliance Officer sign-off"
+    outputs:
+      - "Compliance status receipt"
+      - "GRC portal updates"
+    generated_evidence: "Signed compliance status receipt archived in compliance ledger."
+    provider_outputs:
+      audit_status: "COMPLIANT"
+      non_conformities_count: 0
+    success_criteria: "Audit completed and receipt archived within 2 hours of trigger."
+    failure_conditions: "Quality files unavailable or checklist validation identifies open issues."
+  - workflow_id: "risk_management_workflow"
+    workflow_owner: "Quality Manager"
+    workflow_objective: "Evaluate operational risks and verify risk thresholds for Post Market Validation."
+    trigger: "Pipeline activation or major operational modification."
+    inputs:
+      - "risk_assessment_files"
+      - "risk_thresholds_manifest"
+      - "operational_telemetry"
+    activities:
+      - "Calculate operational risk score parameters."
+      - "Check risk threshold indicators against guidelines."
+      - "Issue signed risk management validation ticket."
+    decision_points:
+      - "Risk score below thresholds"
+      - "Mitigation verification pass"
+    approvals:
+      - "Quality Manager approval"
+    outputs:
+      - "Risk validation ticket"
+      - "Updated risk profiles"
+    generated_evidence: "Signed risk validation ticket stored in GRC database."
+    provider_outputs:
+      risk_rating: "LOW"
+      mitigation_status: "VERIFIED"
+    success_criteria: "Assessment completed and ticket generated within 3 hours."
+    failure_conditions: "Assessment data missing or calculated score breaches safety limits."
+  - workflow_id: "conformity_assessment_workflow"
+    workflow_owner: "Quality Manager"
+    workflow_objective: "Coordinate conformity assessments and verify CE marking criteria under Post Market Validation."
+    trigger: "Request for validation of new high-risk system placement."
+    inputs:
+      - "conformity_verification_files"
+      - "ce_marking_checklist"
+      - "assessor_credentials"
+    activities:
+      - "Verify assessor credentials pre-flight."
+      - "Enforce CE marking requirements checklists."
+      - "Log conformity assessment status in safety portal."
+    decision_points:
+      - "CE marking validation pass"
+      - "Conformity verification pass"
+    approvals:
+      - "Quality Manager sign-off"
+    outputs:
+      - "Conformity assessment certificate"
+      - "CE marking authorization token"
+    generated_evidence: "Signed conformity assessment certificate saved in security vault."
+    provider_outputs:
+      conformity_status: "CERTIFIED"
+      ce_authorization: "APPROVED"
+    success_criteria: "Certificate generated and CE marking approved within 5 days."
+    failure_conditions: "Assessor credentials invalid or checklists validation fails."
+  - workflow_id: "technical_documentation_workflow"
+    workflow_owner: "Technical Lead"
+    workflow_objective: "Compile technical documentation files and audit specification logs under Post Market Validation."
+    trigger: "Scheduled weekly technical review or model parameters change."
+    inputs:
+      - "system_specification_configs"
+      - "technical_documentation_files"
+      - "documentation_checklist"
+    activities:
+      - "Scan folders weekly for required schemas."
+      - "Verify E2E trace maps integrity log."
+      - "Issue weekly technical validation report."
+    decision_points:
+      - "Trace logs integrity pass"
+      - "Documentation coverage pass"
+    approvals:
+      - "Technical Lead sign-off"
+    outputs:
+      - "Weekly technical validation report"
+      - "Updated technical documentation index"
+    generated_evidence: "Signed technical validation report stored in GRC ledger."
+    provider_outputs:
+      documentation_completeness_score: 1.0
+      validation_verified: True
+    success_criteria: "Report completed and documentation folder updated with zero anomalies."
+    failure_conditions: "System files unavailable or documentation checklist fails."
+  - workflow_id: "market_placement_workflow"
+    workflow_owner: "Compliance Officer"
+    workflow_objective: "Enforce market placement gates and verify registration status under Post Market Validation."
+    trigger: "Request to transition model state to production."
+    inputs:
+      - "conformity_assessment_certificate"
+      - "registration_credentials"
+      - "placement_readiness_checklist"
+    activities:
+      - "Verify conformity assessment certificate status."
+      - "Verify registration credentials pre-flight."
+      - "Issue signed market placement gate token."
+    decision_points:
+      - "Certificate verification pass"
+      - "Readiness checklist pass"
+    approvals:
+      - "Chief Compliance Officer approval"
+    outputs:
+      - "Market placement gate token"
+      - "Production deployment status"
+    generated_evidence: "Signed market placement gate token stored in compliance database."
+    provider_outputs:
+      placement_status: "RELEASED"
+      registration_id: "REG-104857"
+    success_criteria: "Gate token issued and deployment approved within 2 hours of request."
+    failure_conditions: "Conformity certificate invalid or readiness checklist identifies gaps."
+  - workflow_id: "incident_reporting_workflow"
+    workflow_owner: "Compliance Officer"
+    workflow_objective: "Triage incident tickets and compile authority notification briefs under Post Market Validation."
+    trigger: "Incident ticket registration or serious incident detection."
+    inputs:
+      - "incident_ticket_file"
+      - "authority_notification_template"
+      - "escalation_rules_manifest"
+    activities:
+      - "Triage incident ticket parameters."
+      - "Verify demographic targeting indicators."
+      - "Issue signed incident reporting validation token."
+    decision_points:
+      - "Incident classification pass"
+      - "Regulator notification required"
+    approvals:
+      - "Compliance Officer sign-off"
+    outputs:
+      - "Incident triage report"
+      - "Regulator notification brief"
+    generated_evidence: "Signed incident triage report stored in compliance vaults."
+    provider_outputs:
+      incident_severity: "SERIOUS"
+      reporting_latency_days: 1
+    success_criteria: "Triage report created and alert routed within 15 minutes of trigger."
+    failure_conditions: "Incident data corrupted or notification templates missing."
+  - workflow_id: "post_market_monitoring_workflow"
+    workflow_owner: "Quality Manager"
+    workflow_objective: "Analyze post-market performance drift and compile feedback reports under Post Market Validation."
+    trigger: "Daily scheduled post-market monitoring tick."
+    inputs:
+      - "operational_telemetry_history"
+      - "drift_analysis_rules"
+      - "performance_thresholds"
+    activities:
+      - "Scan operational telemetry history files weekly."
+      - "Calculate performance drift index parameters."
+      - "Issue daily post-market validation certificate."
+    decision_points:
+      - "Performance drift below thresholds"
+      - "System integrity checks pass"
+    approvals:
+      - "Quality Manager sign-off"
+    outputs:
+      - "Daily post-market validation certificate"
+      - "Performance trend scorecard"
+    generated_evidence: "Signed post-market validation certificate saved in compliance database."
+    provider_outputs:
+      drift_rate_detected: 0.005
+      performance_score: 0.99
+    success_criteria: "Certificate generated and trend scorecards updated with zero alerts."
+    failure_conditions: "Telemetry data offline or drift checks thresholds missing."
+  - workflow_id: "provider_assurance_workflow"
+    workflow_owner: "Compliance Officer"
+    workflow_objective: "Verify E2E provider assurance indicators and issue compliance scorecards under Post Market Validation."
+    trigger: "Monthly scheduled provider review tick."
+    inputs:
+      - "compliance_status_receipts"
+      - "monthly_audit_reports"
+      - "assurance_evidence_logs"
+    activities:
+      - "Audit E2E trace maps completeness score."
+      - "Verify monthly audit reports signatures."
+      - "Issue monthly provider assurance score receipt."
+    decision_points:
+      - "Audits validation pass"
+      - "Assurance score meets target"
+    approvals:
+      - "Lead Auditor sign-off"
+    outputs:
+      - "Monthly provider compliance report"
+      - "Assurance score receipt"
+    generated_evidence: "Signed Monthly Provider compliance report archived in compliance database."
+    provider_outputs:
+      assurance_verified: True
+      provider_compliance_score: 1.0
+    success_criteria: "Review completed and monthly report sealed with zero exceptions."
+    failure_conditions: "Assurance logs corrupted or audit reports unavailable."
+provider_governance_framework:
+  governance_model: "PROVIDER_ACCOUNTABILITY_GOVERNANCE_MODEL"
+  governance_principles:
+    - "Lifecycle Accountability"
+    - "Conformity-by-Design"
+    - "Regulator-Ready Defensibility"
+  governance_authorities:
+    - "Provider Governance Committee"
+    - "Quality Assurance Council"
+  governance_controls:
+    - "CTRL-PRV-PMM-POST_M-01"
+    - "CTRL-PRV-PMM-POST_M-06"
+  provider_accountability: "Assigns primary accountability for quality management and conformity validation to the Quality Manager."
+  provider_ownership: "Assigns primary technical documentation ownership to the Post Market Obligations Technical Lead."
+  governance_reviews:
+    - "Weekly quality management checks review"
+    - "Monthly technical documentation reviews"
+  governance_assurance: "Cryptographic log signature validations and immutable audit trails checks."
+provider_accountability_framework:
+  accountability_model: "LIFECYCLE_ACCOUNTABILITY_MODEL"
+  responsibility_allocations:
+    conformity_verification: "Compliance Officer"
+    technical_documentation: "Technical Lead"
+    quality_management: "Quality Manager"
+  ownership_assignments:
+    conformity_ledger: "Compliance Officer"
+    technical_files: "Technical Lead"
+  provider_obligations:
+    - "Establish quality management system"
+    - "Maintain technical documentation"
+    - "Conduct conformity assessment"
+    - "Apply CE marking"
+    - "Register high-risk system in EU database"
+  lifecycle_responsibilities:
+    design: "Ensure conformity checkpoints defined"
+    development: "Compile specification logs and trace maps"
+    deployment: "Verify registration status pre-placement"
+    operation: "Execute post-market monitoring program"
+    retirement: "Seal historical compliance log folders"
+  accountability_validation: "Verify task ownership logs completeness weekly for Post Market Validation."
+  accountability_assurance: "Log all accountability checks weekly in GRC ledger under Post Market Validation."
+provider_compliance_framework:
+  compliance_requirements:
+    - "Fulfill quality management requirements under Article 17"
+    - "Maintain technical files under Article 11"
+    - "Verify registration credentials under Article 51"
+  compliance_controls:
+    - "CTRL-PRV-PMM-POST_M-01"
+    - "CTRL-PRV-PMM-POST_M-03"
+  compliance_obligations:
+    - "Verify conformity certificate validity"
+    - "Report serious incidents within 15 days"
+  compliance_validation: "Perform daily simulations of compliance mapping constraints validation under Post Market Validation."
+  compliance_monitoring: "Track active compliance scores and warning events daily under Post Market Validation."
+  compliance_assurance: "Audit quality management systems monthly for Post Market Obligations."
+  compliance_reporting: "Publish conformity status reports monthly for Post Market Validation."
+provider_risk_framework:
+  provider_risks:
+    - "Technical documentation obsolescence"
+    - "CE marking invalidation"
+    - "Late incident notifications"
+  operational_risks:
+    - "Quality system audit failures"
+    - "Post-market telemetry drift"
+  regulatory_risks:
+    - "Regulator inspection warnings"
+    - "Conformity certificate revocation"
+  risk_controls:
+    - "CTRL-PRV-PMM-POST_M-02"
+    - "CTRL-PRV-PMM-POST_M-05"
+  risk_thresholds:
+    maximum_risk_score: 0.05
+    drift_warning_threshold: 0.02
+  risk_validation: "Validate risk threshold parameters daily under Post Market Validation."
+  risk_assurance: "Register weekly risk assessment updates in GRC vault under Post Market Validation."
+provider_assurance_framework:
+  assurance_targets:
+    - "technical_documentation"
+    - "conformity_assessment"
+    - "post_market_monitoring"
+  assurance_controls:
+    - "CTRL-PRV-PMM-POST_M-03"
+    - "CTRL-PRV-PMM-POST_M-06"
+  assurance_criteria:
+    - "Technical files completeness score above 0.98"
+    - "Conformity assessment certificate remains valid"
+  provider_reviews:
+    - "Monthly executive accountability audits"
+    - "Bi-weekly technical spec checks"
+  provider_assessments:
+    - "Annual external quality system audits"
+    - "Semi-annual mock incident simulations"
+  assurance_validation: "Verify provider assurance indicators match targets weekly under Post Market Validation."
+  assurance_reporting: "Publish provider compliance scorecards monthly in GRC portal."
+lifecycle_governance_framework:
+  design_phase: "Define conformity checkpoints and trace parameters for Post Market Validation."
+  development_phase: "Compile technical specification logs and generate trace maps under Post Market Validation."
+  validation_phase: "Execute conformity assessments and score CE marking parameters weekly."
+  deployment_phase: "Verify EU database registration status pre-market placement."
+  operation_phase: "Continuous execution of post-market monitoring and telemetry capture."
+  retirement_phase: "Archive historical compliance ledger folders and disable models."
+  lifecycle_controls:
+    - "CTRL-PRV-PMM-POST_M-01"
+    - "CTRL-PRV-PMM-POST_M-03"
+  lifecycle_dependencies:
+    upstream:
+      - "conformity_assessment_certificate"
+    downstream:
+      - "post_market_monitoring_logs"
+  lifecycle_validation: "Verify design and development trace maps weekly under Post Market Validation."
+  lifecycle_assurance: "Log all phase transition certifications in compliance database under Post Market Validation."
+market_placement_framework:
+  placement_requirements:
+    - "Model registration in EU database"
+    - "Affix CE marking"
+    - "Establish post-market monitoring program"
+  placement_controls:
+    - "CTRL-PRV-PMM-POST_M-01"
+    - "CTRL-PRV-PMM-POST_M-06"
+  placement_readiness: "Ensure conformity certificate is issued and QMS is active pre-placement for Post Market Validation."
+  conformity_requirements:
+    - "Establish Article 17 quality management framework"
+    - "Complete Article 43 conformity assessment procedures"
+  ce_marking_requirements:
+    - "Verify CE marking design specifications"
+    - "Affix CE marking physically or digitally pre-placement"
+  placement_validation: "Verify deployment checklist status pre-placement daily under Post Market Validation."
+  placement_assurance: "Register market placement gate tokens weekly in compliance ledger."
+provider_monitoring_framework:
+  monitoring_objectives:
+    - "Monitor performance drift indicators"
+    - "Scan operational logs"
+  monitoring_standards:
+    - "ISO/IEC 42001 Continuous Monitoring Guidelines"
+provider_intelligence_framework:
+  intelligence_objectives:
+    - "Track non-conformity trends"
+    - "Analyze drift feedback"
+  intelligence_standards:
+    - "ISO/IEC 23894 Risk Management Feedback Loops"
+provider_responsibility_framework:
+  legal_responsibilities:
+    - "Liaise with national supervisory authorities"
+    - "Notify authorities of serious incidents"
+  operational_responsibilities:
+    - "Maintain quality management systems"
+    - "Execute corrective actions for non-conformities"
+  governance_responsibilities:
+    - "Appoint regulatory compliance officers"
+    - "Document decision accountability records"
+  regulatory_responsibilities:
+    - "Maintain technical documentation for 10 years"
+    - "Provide evidence packages upon request"
+  accountability_responsibilities:
+    - "Audit task ownership log maps weekly"
+    - "Update central GRC registry weekly"
+  responsibility_validation: "Audit role assignments completeness weekly under Post Market Validation."
+  responsibility_assurance: "Seal responsibility attestation statements monthly in GRC database."
+monitoring_framework:
+  monitoring_scope: "Continuous verification of performance drift, QMS compliance, and documentation checklists for Post Market Validation."
+  alert_thresholds: "Trigger alert if technical documentation score falls below 0.95 or drift index breaches 0.05."
+validation_framework:
+  validation_requirements:
+    - "All specifications must map to validation criteria"
+    - "Conformity assessments must execute with valid credentials"
+  validation_methods:
+    - "Automated folder scans"
+    - "Assessor digital signatures checkings"
+  validation_evidence: "Signed validation tokens saved in safety portal under Post Market Validation."
+  validation_authority: "Global Compliance Director"
+  validation_frequency: "Weekly"
+  validation_outcomes:
+    - "Pass - authorize model placement transition"
+    - "Fail - block placement gate and trigger corrective action workflow"
+evidence_intelligence:
+  evidence_sources:
+    - "telemetry_gateway_db"
+    - "violation_checks_db"
+    - "compliance_ledger_vault"
+  evidence_types:
+    - "Conformity assessment certificates"
+    - "Weekly technical validation reports"
+    - "Incident triage reports"
+  provider_evidence: "Immutable logs of quality system audits and owner assignments under Post Market Validation."
+  conformity_evidence: "Signed CE marking certificates and EU database registration entries under Post Market Validation."
+  evidence_integrity: "Cryptographic SHA-256 hashes registered in attestation vault."
+  evidence_lineage: "Trace documentation entries back to raw system configuration logs."
+  evidence_provenance: "Generated by verified GRC validation daemons."
+  evidence_validation: "Check signatures against global conformity authority registry daily."
+  evidence_confidence: 0.99
+  evidence_retention: "10 years in secure operational archive"
+telemetry:
+  telemetry_sources:
+    - "compliance_gateway_logs"
+    - "qms_monitoring_service"
+    - "incident_database"
+  collection_frequency: "Continuous"
+  telemetry_retention: "90 days active, 10 years compliance archive"
+  telemetry_integrity: "Cryptographically signed telemetry blocks"
+provider_obligations_telemetry:
+  compliance_events: "Record occurrences of quality system checks and QMS validation status updates for Post Market Validation."
+  lifecycle_events: "Log phase transitions and development checklist outputs under Post Market Validation."
+  validation_events: "Log technical files reviews and documentation completeness checks under Post Market Validation."
+  conformity_events: "Record CE marking approvals and conformity certificate status updates under Post Market Validation."
+  assurance_events: "Log monthly compliance reviews and auditor assessments updates under Post Market Validation."
+  accountability_events: "Record task owner assignment changes and roles validation alerts under Post Market Validation."
+  incident_events: "Record incident classification triggers and authority notifications under Post Market Validation."
+  corrective_action_events: "Log patch validation checks and system restoration updates under Post Market Validation."
+  governance_alerts: "High priority compliance alerts sent to Compliance Officer."
+  governance_indicators: "Check validation delays and incident escalation latency indicators."
+metrics:
+  - metric_name: "post_market_validation_provider_compliance_score"
+    formula: "passed_compliance_checks / total_compliance_checks"
+    target: "1.00"
+    warning_threshold: "0.99"
+    critical_threshold: "0.98"
+    measurement_frequency: "WEEKLY"
+    owner: "Compliance Officer"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Weekly Compliance scorecard."
+  - metric_name: "post_market_validation_provider_accountability_score"
+    formula: "COUNT(assigned_owners) / COUNT(total_tasks)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Compliance Officer"
+    data_source: "violation_checks_db"
+    evidence_generated: "Weekly Accountability report."
+  - metric_name: "post_market_validation_conformity_readiness_score"
+    formula: "COUNT(passed_conformity_checks) / COUNT(total_conformity_requirements)"
+    target: "1.00"
+    warning_threshold: "0.99"
+    critical_threshold: "0.98"
+    measurement_frequency: "WEEKLY"
+    owner: "Quality Manager"
+    data_source: "compliance_ledger_vault"
+    evidence_generated: "Weekly Conformity Readiness report."
+  - metric_name: "post_market_validation_market_placement_readiness_score"
+    formula: "COUNT(completed_placement_tasks) / COUNT(required_placement_tasks)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Compliance Officer"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Weekly Market Placement Readiness scorecard."
+  - metric_name: "post_market_validation_technical_documentation_completeness"
+    formula: "COUNT(verified_spec_files) / COUNT(required_spec_files)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Technical Lead"
+    data_source: "violation_checks_db"
+    evidence_generated: "Weekly Documentation Completeness scorecard."
+  - metric_name: "post_market_validation_post_market_monitoring_effectiveness"
+    formula: "COUNT(drift_detections) / COUNT(actual_drifts)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Quality Manager"
+    data_source: "violation_checks_db"
+    evidence_generated: "Weekly Post-Market monitoring trends report."
+  - metric_name: "post_market_validation_incident_reporting_timeliness"
+    formula: "COUNT(reported_incidents_within_SLA) / COUNT(total_incidents)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Compliance Officer"
+    data_source: "violation_checks_db"
+    evidence_generated: "Weekly Incident Timeliness report."
+  - metric_name: "post_market_validation_provider_assurance_score"
+    formula: "COUNT(signed_assurance_certs) / COUNT(total_assurance_targets)"
+    target: "1.00"
+    warning_threshold: "0.99"
+    critical_threshold: "0.98"
+    measurement_frequency: "WEEKLY"
+    owner: "Compliance Officer"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Weekly Provider Assurance scorecard."
+  - metric_name: "post_market_validation_regulatory_readiness_score"
+    formula: "COUNT(passed_regulatory_checks) / COUNT(total_regulatory_checks)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Compliance Officer"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Weekly Regulatory Readiness report."
+  - metric_name: "post_market_validation_provider_maturity_score"
+    formula: "current_maturity_level / 7.0"
+    target: "0.85"
+    warning_threshold: "0.71"
+    critical_threshold: "0.57"
+    measurement_frequency: "ANNUALLY"
+    owner: "Compliance Officer"
+    data_source: "compliance_ledger_vault"
+    evidence_generated: "Annual Maturity Assessment certificate."
+kpis:
+  - "post_market_validation_provider_compliance_score"
+  - "post_market_validation_provider_assurance_score"
+kris:
+  - "post_market_validation_provider_accountability_score"
+  - "post_market_validation_provider_maturity_score"
+thresholds:
+  - "Warning: post_market_validation_provider_compliance_score < 0.99"
+  - "Critical: post_market_validation_provider_compliance_score < 0.98"
+relationships:
+  provider_links:
+    - source: "urn:enterprise:provider:post_market_validation"
+      target: "urn:enterprise:compliance:provider_obligations"
+      relationship_type: "ENFORCES_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Regulatory mapping configuration under standard ISO-42001-PRV-PMM."
+  obligation_links:
+    - source: "urn:enterprise:obligation:post_market_validation"
+      target: "urn:enterprise:compliance:provider_obligations"
+      relationship_type: "DERIVED_FROM"
+      confidence: 0.98
+      evidence: "Regulatory mapping configuration under standard ISO-42001-PRV-PMM."
+  accountability_links:
+    - source: "urn:enterprise:accountability:post_market_validation"
+      target: "urn:enterprise:compliance:provider_obligations"
+      relationship_type: "ASSURES"
+      confidence: 0.98
+      evidence: "Regulatory mapping configuration under standard ISO-42001-PRV-PMM."
+  lifecycle_links:
+    - source: "urn:enterprise:lifecycle:post_market_validation"
+      target: "urn:enterprise:compliance:provider_obligations"
+      relationship_type: "EXECUTES_FOR"
+      confidence: 0.98
+      evidence: "Regulatory mapping configuration under standard ISO-42001-PRV-PMM."
+  evidence_links:
+    - source: "urn:enterprise:evidence:post_market_validation"
+      target: "urn:enterprise:compliance:provider_obligations"
+      relationship_type: "ATTESTS_TO"
+      confidence: 0.98
+      evidence: "Regulatory mapping configuration under standard ISO-42001-PRV-PMM."
+  workflow_links:
+    - source: "urn:enterprise:workflow:post_market_validation"
+      target: "urn:enterprise:compliance:provider_obligations"
+      relationship_type: "RUNS_FOR"
+      confidence: 0.98
+      evidence: "Regulatory mapping configuration under standard ISO-42001-PRV-PMM."
+  governance_links:
+    - source: "urn:enterprise:governance:post_market_validation"
+      target: "urn:enterprise:compliance:provider_obligations"
+      relationship_type: "OVERSIGHT_BY"
+      confidence: 0.98
+      evidence: "Regulatory mapping configuration under standard ISO-42001-PRV-PMM."
+  conformity_links:
+    - source: "urn:enterprise:conformity:post_market_validation"
+      target: "urn:enterprise:compliance:provider_obligations"
+      relationship_type: "VALIDATES_FOR"
+      confidence: 0.98
+      evidence: "Regulatory mapping configuration under standard ISO-42001-PRV-PMM."
+  assurance_links:
+    - source: "urn:enterprise:assurance:post_market_validation"
+      target: "urn:enterprise:compliance:provider_obligations"
+      relationship_type: "VERIFIES"
+      confidence: 0.98
+      evidence: "Regulatory mapping configuration under standard ISO-42001-PRV-PMM."
+  compliance_links:
+    - source: "urn:enterprise:compliance:post_market_validation"
+      target: "urn:enterprise:compliance:provider_obligations"
+      relationship_type: "ALIGNS_WITH"
+      confidence: 0.98
+      evidence: "Regulatory mapping configuration under standard ISO-42001-PRV-PMM."
+knowledge_graph:
+  provider_nodes:
+    - id: "urn:enterprise:provider:post_market_validation"
+      label: "Post Market Validation Provider Obligations Node"
+      properties:
+        type: "provider"
+        article: "Article 16"
+  obligation_nodes:
+    - id: "urn:enterprise:obligation:post_market_validation"
+      label: "Post Market Validation Obligations Node"
+      properties:
+        type: "obligation"
+        article: "Article 16"
+  accountability_nodes:
+    - id: "urn:enterprise:accountability:post_market_validation"
+      label: "Post Market Validation Roles Node"
+      properties:
+        type: "accountability"
+        article: "Article 16"
+  lifecycle_nodes:
+    - id: "urn:enterprise:lifecycle:post_market_validation"
+      label: "Post Market Validation Lifecycle Node"
+      properties:
+        type: "lifecycle"
+        article: "Article 16"
+  evidence_nodes:
+    - id: "urn:enterprise:evidence:post_market_validation"
+      label: "Post Market Validation Attestation Node"
+      properties:
+        type: "evidence"
+        article: "Article 16"
+  control_nodes:
+    - id: "urn:enterprise:control:PRV-PMM-POST_M-01"
+      label: "CTRL-PRV-PMM-POST_M-01 Provider Accountability Control"
+      properties:
+        type: "control"
+        article: "Article 16"
+  workflow_nodes:
+    - id: "urn:enterprise:workflow:provider_compliance"
+      label: "Provider Compliance Workflow"
+      properties:
+        type: "workflow"
+        article: "Article 16"
+  relationships:
+    - source: "urn:enterprise:provider:post_market_validation"
+      target: "urn:enterprise:regulation:eu_ai_act"
+      relationship_type: "DERIVED_FROM"
+      confidence: 0.99
+      evidence: "Provider obligations compliance requirements mappings."
+crosswalks:
+  eu_ai_act:
+    framework: "eu_ai_act"
+    control_mapping: "Map provider obligations controls to EU AI Act guidelines for Post Market Validation."
+    security_mapping: "Enforce model robustness and deployment containment checks."
+    accountability_mapping: "Assign roles for post-market monitoring and incident reviews."
+    evidence_mapping: "Log incident and scanning events in database."
+    validation_mapping: "Validate model benchmark results under containment profiles."
+  gpai_obligations:
+    framework: "gpai_obligations"
+    control_mapping: "Enforce GPAI model registration and systemic risk controls."
+    security_mapping: "Monitor model execution parameters and telemetry check alerts."
+    accountability_mapping: "Operations officer signs off GPAI database entries."
+    evidence_mapping: "Save model card updates and benchmark tests."
+    validation_mapping: "Validate base model accuracy and security profiles."
+  foundation_model_obligations:
+    framework: "foundation_model_obligations"
+    control_mapping: "Apply foundation model registration rules and audits."
+    security_mapping: "Verify downstream risk mitigations and safety filters."
+    accountability_mapping: "Compliance lead reviews foundation model portals."
+    evidence_mapping: "Log model card details and disclosures history."
+    validation_mapping: "Verify registration status indicators monthly."
+  iso_42001:
+    framework: "iso_42001"
+    control_mapping: "Map compliance controls to ISO 42001 clauses for provider governance."
+    security_mapping: "Track quality management security metrics and hashes."
+    accountability_mapping: "Review roles assignment for AI systems compliance daily."
+    evidence_mapping: "Archive ISO auditing worksheets and certificates."
+    validation_mapping: "Confirm compliance dashboard updates match auditing standards."
+  iso_23894:
+    framework: "iso_23894"
+    control_mapping: "Map compliance controls to ISO 23894 risk management guidelines."
+    security_mapping: "Verify system risk parameters against thresholds."
+    accountability_mapping: "Review roles assignment for risk management committees."
+    evidence_mapping: "Log risk assessments and gap remediation plans."
+    validation_mapping: "Confirm risk scores updates on central GRC board."
+  iso_27001:
+    framework: "iso_27001"
+    control_mapping: "Map data protection controls to ISO 27001 Annex A clauses."
+    security_mapping: "Enforce strict data access restrictions and encryption standards."
+    accountability_mapping: "Security officer audits data access logs."
+    evidence_mapping: "Log encryption validation audits and access authorizations."
+    validation_mapping: "Verify database encryption validation tests weekly."
+  iso_22301:
+    framework: "iso_22301"
+    control_mapping: "Map system containment controls to business continuity standards."
+    security_mapping: "Verify system failover configurations and recovery times."
+    accountability_mapping: "Operations officer checks backup nodes status."
+    evidence_mapping: "Log recovery times tests and database mirror logs."
+    validation_mapping: "Verify failover automation checks monthly."
+  nist_ai_rmf:
+    framework: "nist_ai_rmf"
+    control_mapping: "Map compliance controls to NIST AI RMF core functions."
+    security_mapping: "Ensure security profiles match MAP and MEASURE guidelines."
+    accountability_mapping: "VP of safety compliance registers model profiles."
+    evidence_mapping: "Log NIST checklists validations and control gap status."
+    validation_mapping: "Verify safety scorecard updates weekly."
+  nist_sp_800-53:
+    framework: "nist_sp_800-53"
+    control_mapping: "Map controls to security controls catalog categories."
+    security_mapping: "Verify system audit logging and monitoring controls."
+    accountability_mapping: "Security administrator audits system events."
+    evidence_mapping: "Save system audit logs and containment triggers history."
+    validation_mapping: "Confirm log streams connectivity status weekly."
+  oecd_ai_principles:
+    framework: "oecd_ai_principles"
+    control_mapping: "Enforce OECD transparency and safety principles."
+    security_mapping: "Monitor system decisions explainability score parameters."
+    accountability_mapping: "Corporate governance board signs off transparency statements."
+    evidence_mapping: "Save explainability logs and model cards metadata."
+    validation_mapping: "Confirm model documentation updates monthly."
+  unesco_ai_ethics:
+    framework: "unesco_ai_ethics"
+    control_mapping: "Apply UNESCO human rights and ethical guidelines."
+    security_mapping: "Audit system impact metrics against ethical baseline targets."
+    accountability_mapping: "Corporate ethics steward audits demographic parity."
+    evidence_mapping: "Save ethical review reports and compliance dashboard certificates."
+    validation_mapping: "Confirm demographic parity tests match guidelines weekly."
+compliance_mapping:
+  EU AI Act Provider Obligations: "Articles 16-29 compliance mapping"
+  ISO 42001: "ISO 42001 compliance auditing alignment mapping"
+  NIST AI RMF: "NIST AI RMF compliance gap tracking alignment mapping"
+integration_points:
+  risk_management: "Map post_market_validation compliance workflows and telemetry streams to risk_management enterprise compliance portal."
+  data_governance: "Map post_market_validation compliance workflows and telemetry streams to data_governance enterprise compliance portal."
+  technical_documentation: "Map post_market_validation compliance workflows and telemetry streams to technical_documentation enterprise compliance portal."
+  transparency_obligations: "Map post_market_validation compliance workflows and telemetry streams to transparency_obligations enterprise compliance portal."
+  human_oversight: "Map post_market_validation compliance workflows and telemetry streams to human_oversight enterprise compliance portal."
+  robustness_and_accuracy: "Map post_market_validation compliance workflows and telemetry streams to robustness_and_accuracy enterprise compliance portal."
+  cybersecurity: "Map post_market_validation compliance workflows and telemetry streams to cybersecurity enterprise compliance portal."
+  cybersecurity_and_resilience: "Map post_market_validation compliance workflows and telemetry streams to cybersecurity_and_resilience enterprise compliance portal."
+  post_market_monitoring: "Map post_market_validation compliance workflows and telemetry streams to post_market_monitoring enterprise compliance portal."
+  incident_reporting: "Map post_market_validation compliance workflows and telemetry streams to incident_reporting enterprise compliance portal."
+  conformity_assessment: "Map post_market_validation compliance workflows and telemetry streams to conformity_assessment enterprise compliance portal."
+  ce_marking: "Map post_market_validation compliance workflows and telemetry streams to ce_marking enterprise compliance portal."
+  evidence_and_attestation: "Map post_market_validation compliance workflows and telemetry streams to evidence_and_attestation enterprise compliance portal."
+  audit_and_enforcement: "Map post_market_validation compliance workflows and telemetry streams to audit_and_enforcement enterprise compliance portal."
+  audit_and_forensics: "Map post_market_validation compliance workflows and telemetry streams to audit_and_forensics enterprise compliance portal."
+  compliance_scoring: "Map post_market_validation compliance workflows and telemetry streams to compliance_scoring enterprise compliance portal."
+  high_risk_ai_systems: "Map post_market_validation compliance workflows and telemetry streams to high_risk_ai_systems enterprise compliance portal."
+  foundation_models: "Map post_market_validation compliance workflows and telemetry streams to foundation_models enterprise compliance portal."
+  general_purpose_ai: "Map post_market_validation compliance workflows and telemetry streams to general_purpose_ai enterprise compliance portal."
+  governance_reporting: "Map post_market_validation compliance workflows and telemetry streams to governance_reporting enterprise compliance portal."
+  core_governance: "Map post_market_validation compliance workflows and telemetry streams to core_governance enterprise compliance portal."
+dependencies:
+  upstream:
+    - "conformity_assessment_certificate"
+    - "registration_credentials"
+  downstream:
+    - "post_market_monitoring_logs"
+    - "incident_reporting_tickets"
+outputs:
+  compliance_deliverables:
+    - "Conformity assessment certificate"
+    - "Weekly technical validation report"
+    - "Incident triage report"
+  telemetry_outputs:
+    - "QMS compliance events"
+    - "Conformity status metrics"
+    - "Incident ticketing rates"
+artifacts:
+  - "Signed conformity assessment certificates saved in GRC database."
+  - "Signed technical validation reports stored in GRC ledger."
+  - "Signed incident reports archived in compliance vaults."
+records:
+  audit_logs: "All QMS audit logs and technical specification checks recorded in compliance registry for Post Market Validation."
+  retention_period: "10 years secure operational archive"
+continuous_improvement:
+  review_triggers:
+    - "provider_compliance_score < 0.99"
+    - "incident notification latency breaches SLA"
+  process_enhancements: "Automated trigger gap assessments and patch validations under Post Market Validation."
+exceptions:
+  allowed_deviations: "Post-market monitoring frequency relaxation during system maintenance window."
+  exception_process: "Request exception validation, verify maintenance credentials, log transition weekly."
+escalation:
+  sla_limits:
+    level_1_warning: "120 minutes"
+    level_2_control_failure: "60 minutes"
+    level_3_obligation_breach: "30 minutes"
+    level_4_regulatory_enforcement: "15 minutes"
+  crisis_contacts:
+    - "provider_compliance@enterprise.ai"
+    - "legal@enterprise.ai"
+versioning:
+  current_version: "1.0.0"
+  previous_version: "N/A"
+  change_log:
+    - version: "1.0.0"
+      date: "2026-06-13"
+      changes: "Initial regulatory provider obligations compliance framework release for Post Market Validation."
+provider_obligations_capabilities:
+  provider_governance: "Verify governance framework activation and roles assignments for Post Market Validation."
+  provider_accountability: "Audit task ownership log maps and roles validations weekly under Post Market Validation."
+  provider_compliance: "Audit quality management systems and evaluate compliance obligations for Post Market Validation."
+  provider_assurance: "Verify E2E provider assurance indicators and issue compliance scorecards weekly under Post Market Validation."
+  provider_monitoring: "Track active compliance scores and warning events daily under Post Market Validation."
+  lifecycle_accountability: "Ensure conformity checkpoints are defined pre-placement for Post Market Validation."
+  lifecycle_governance: "Verify design and development trace maps weekly under Post Market Validation."
+  lifecycle_traceability: "Generate trace maps and verify E2E trace maps integrity log weekly for Post Market Validation."
+  lifecycle_auditability: "Verify digital signatures of compliance ledger and crosswalk mappings daily for Post Market Validation."
+  regulatory_compliance: "Update compliance score indicators and compile Article mapping reports monthly for Post Market Validation."
+  conformity_management: "Enforce CE marking requirements checklists and assessor credentials weekly for Post Market Validation."
+  conformity_assurance: "Log conformity assessment status in safety portal weekly for Post Market Validation."
+  market_placement_readiness: "Ensure conformity certificate is issued and QMS is active pre-placement for Post Market Validation."
+  risk_management: "Calculate operational risk score parameters and check thresholds daily for Post Market Validation."
+  quality_management: "Scan quality management system configurations and check checklists daily for Post Market Validation."
+  technical_documentation_management: "Scan folders weekly for required documentation schemas under Post Market Validation."
+  transparency_management: "Enforce user information manual requirements and validation controls weekly for Post Market Validation."
+  human_oversight_management: "Deploy automated override checkers checking credentials pre-flight weekly for Post Market Validation."
+  post_market_monitoring: "Scan operational telemetry history files weekly for Post Market Validation."
+  incident_reporting: "Triage incident ticket parameters and execute authority alerts within SLA daily under Post Market Validation."
+  corrective_action_management: "Verify remediation update patches and evaluate scores pre-closure weekly under Post Market Validation."
+  provider_intelligence: "Track compliance trends and update containment reference models weekly under Post Market Validation."
+  provider_reporting: "Publish conformity status reports monthly for Post Market Obligations operations."
+  provider_validation: "Perform daily simulations of compliance mapping constraints validation under Post Market Validation."
+  governance_intelligence: "Audit safety board sign-off records and seal verification reports weekly for Post Market Validation."
+  provider_maturity: "Score overall provider safety maturity against the 7-level maturity framework parameters."
+altai_provider_governance:
+  autonomous_agent_provider_controls:
+    agent_design_governance: "Define validation checkpoints and agent autonomy limits under Post Market Validation."
+    agent_safety_governance: "Deploy pre-flight safety filters and scan agent commands dynamically under Post Market Validation."
+    agent_accountability: "Ensure all agent command executions generate signed transaction logs weekly under Post Market Validation."
+    agent_assurance: "Verify agent safety assurance indicators match targets weekly under Post Market Validation."
+  multi_agent_provider_controls:
+    ecosystem_governance: "Monitor coordination protocols and block collective deceptive behaviors under Post Market Validation."
+    swarm_governance: "Verify swarm state transition validations and synchronization logs weekly under Post Market Validation."
+    coordination_accountability: "Restrict unauthorized data sharing or agent collusion targeting protected demographics."
+    ecosystem_assurance: "Verify cross-agent execution dependencies do not propagate cascade failures under Post Market Validation."
+  reasoning_provider_controls:
+    reasoning_governance: "Filter out logical paths leading to harmful or destructive conclusions under Post Market Validation."
+    reasoning_traceability: "Ensure all reasoning steps are logged and trace maps generated under Post Market Validation."
+    reasoning_validation: "Verify reasoning outputs against safety guidelines pre-flight daily under Post Market Validation."
+    reasoning_accountability: "Ensure reasoning pipeline modifications generate signed authorization hashes weekly."
+  memory_provider_controls:
+    memory_governance: "Verify database vaults do not store unauthorized user profiles or sensitive data."
+    memory_lifecycle_management: "Enforce zero-trust memory deletion and retention schedules weekly under Post Market Validation."
+    memory_traceability: "Audit memory retrieve logs history and database query logs weekly under Post Market Validation."
+    memory_accountability: "Ensure memory write transactions generate signed receipts in safety ledger daily."
+  tool_provider_controls:
+    tool_governance: "Deploy automated sandbox containers to restrict tool permissions dynamically under Post Market Validation."
+    tool_validation: "Audit API calls and tool execution inputs for prohibited activities daily under Post Market Validation."
+    tool_assurance: "Filter output data from external tools to block propagation of harmful inputs."
+    tool_accountability: "Ensure E2E trace maps log all tool invocations and returned values under Post Market Validation."
+  orchestration_provider_controls:
+    orchestration_governance: "Verify execution sequence files do not run prohibited system combinations under Post Market Validation."
+    workflow_accountability: "Assign tasks owners to dynamic workflow nodes and check checklists weekly."
+    orchestration_assurance: "Halt orchestration engine if any task node violates safety thresholds weekly."
+    orchestration_validation: "Validate orchestration transitions and step signatures pre-flight daily."
+  foundation_model_provider_controls:
+    training_governance: "Audit base model capabilities during training and fine-tuning for safety under Post Market Validation."
+    capability_governance: "Deactivate base model weights associated with prohibited capability classes weekly."
+    safety_governance: "Apply safety fine-tuning alignments (RLHF/DPO) to guarantee non-manipulative outputs."
+    systemic_risk_governance: "Run automated red-teaming checks targeting systemic cognitive exploitation weekly."
+  gpai_provider_controls:
+    ecosystem_risk_management: "Monitor downstream fine-tuned instances for systemic misuse at scale weekly."
+    systemic_risk_management: "Establish global gateway filters to detect political or democratic manipulation attempts."
+    accountability_management: "Halt API access if model is leveraged for mass disinformation campaigns weekly."
+    assurance_management: "Audit global telemetry logs monthly to detect emergent systemic risks under Post Market Validation."
+provider_obligation_taxonomy:
+  risk_management_obligations:
+    obligation_definition: "Obligation definition and details for Risk Management Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+  data_governance_obligations:
+    obligation_definition: "Obligation definition and details for Data Governance Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+  technical_documentation_obligations:
+    obligation_definition: "Obligation definition and details for Technical Documentation Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+  record_keeping_obligations:
+    obligation_definition: "Obligation definition and details for Record Keeping Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+  transparency_obligations:
+    obligation_definition: "Obligation definition and details for Transparency Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+  human_oversight_obligations:
+    obligation_definition: "Obligation definition and details for Human Oversight Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+  robustness_obligations:
+    obligation_definition: "Obligation definition and details for Robustness Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+  accuracy_obligations:
+    obligation_definition: "Obligation definition and details for Accuracy Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+  cybersecurity_obligations:
+    obligation_definition: "Obligation definition and details for Cybersecurity Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+  post_market_monitoring_obligations:
+    obligation_definition: "Obligation definition and details for Post Market Monitoring Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+  incident_reporting_obligations:
+    obligation_definition: "Obligation definition and details for Incident Reporting Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+  corrective_action_obligations:
+    obligation_definition: "Obligation definition and details for Corrective Action Obligations under Post Market Validation framework."
+    implementation_controls:
+      - "CTRL-PRV-PMM-POST_M-01"
+      - "CTRL-PRV-PMM-POST_M-03"
+    evidence_requirements:
+      - "Signed validation token with cryptographic hash saved in safety portal."
+      - "Verification report signed by Compliance Officer stored in GRC db."
+    validation_requirements:
+      - "Execute automated scan of documentation schemas weekly, assert checklist pass."
+      - "Audit task ownership log maps weekly, assert zero unassigned items."
+    assurance_requirements:
+      - "Register weekly verification report hashes in compliance attestation vault."
+      - "Review monthly compliance reviews and safety board sign-off logs monthly."
+conformity_assurance_framework:
+  conformity_requirements:
+    - "Fulfill conformity assessment procedures under Article 43"
+    - "Establish Article 17 quality management system pre-placement"
+  conformity_controls:
+    - "CTRL-PRV-PMM-POST_M-03"
+    - "CTRL-PRV-PMM-POST_M-06"
+  conformity_evidence:
+    - "Signed conformity assessment certificate saved in compliance ledger"
+    - "Signed weekly technical documentation validation certificate"
+  conformity_validation: "Verify conformity assessment status weekly under Post Market Validation."
+  conformity_reviews:
+    - "Bi-weekly reviews of conformity verification files"
+    - "Monthly audits of CE marking requirements"
+  conformity_assurance: "Log conformity assessment status weekly in safety portal for Post Market Validation."
+  conformity_reporting: "Publish conformity status reports monthly for Post Market Validation."
+eu_ai_act_provider_obligation_mapping:
+  Article 8:
+    article: "Article 8"
+    obligation: "Provider obligations requirements and compliance rules under Article 8 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 9:
+    article: "Article 9"
+    obligation: "Provider obligations requirements and compliance rules under Article 9 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 10:
+    article: "Article 10"
+    obligation: "Provider obligations requirements and compliance rules under Article 10 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 11:
+    article: "Article 11"
+    obligation: "Provider obligations requirements and compliance rules under Article 11 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 12:
+    article: "Article 12"
+    obligation: "Provider obligations requirements and compliance rules under Article 12 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 13:
+    article: "Article 13"
+    obligation: "Provider obligations requirements and compliance rules under Article 13 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 14:
+    article: "Article 14"
+    obligation: "Provider obligations requirements and compliance rules under Article 14 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 15:
+    article: "Article 15"
+    obligation: "Provider obligations requirements and compliance rules under Article 15 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 16:
+    article: "Article 16"
+    obligation: "Provider obligations requirements and compliance rules under Article 16 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 17:
+    article: "Article 17"
+    obligation: "Provider obligations requirements and compliance rules under Article 17 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 18:
+    article: "Article 18"
+    obligation: "Provider obligations requirements and compliance rules under Article 18 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 19:
+    article: "Article 19"
+    obligation: "Provider obligations requirements and compliance rules under Article 19 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 20:
+    article: "Article 20"
+    obligation: "Provider obligations requirements and compliance rules under Article 20 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 21:
+    article: "Article 21"
+    obligation: "Provider obligations requirements and compliance rules under Article 21 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 61:
+    article: "Article 61"
+    obligation: "Provider obligations requirements and compliance rules under Article 61 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+  Article 72:
+    article: "Article 72"
+    obligation: "Provider obligations requirements and compliance rules under Article 72 rules."
+    implementation_method: "Enforce strict quality management checking and documentation audits for Post Market Validation."
+    provider_control: "CTRL-PRV-PMM-POST_M-01"
+    required_evidence: "Signed conformity status receipt archived in compliance ledger."
+    validation_method: "Verify monthly audit reports signatures and compliance scores weekly."
+    assurance_method: "Verify weekly compliance mapping completeness metrics on dashboard."
+provider_obligations_maturity_model:
+  level_1_reactive:
+    capabilities:
+      - "Standard processes for compiling technical files and validating conformity under Level 1 Reactive."
+      - "Documented escalation rules and crisis contacts lists under Level 1 Reactive."
+    compliance_capabilities:
+      - "Audit quality management systems and evaluate compliance obligations for Level 1 Reactive."
+    accountability_capabilities:
+      - "Audit task ownership log maps and roles validations weekly under Level 1 Reactive."
+    assurance_capabilities:
+      - "Verify E2E provider assurance indicators and issue compliance scorecards weekly under Level 1 Reactive."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 1 Reactive."
+    validation_requirements:
+      - "Triage review completed and signed off by Compliance Officer for Level 1 Reactive."
+  level_2_repeatable:
+    capabilities:
+      - "Standard processes for compiling technical files and validating conformity under Level 2 Repeatable."
+      - "Documented escalation rules and crisis contacts lists under Level 2 Repeatable."
+    compliance_capabilities:
+      - "Audit quality management systems and evaluate compliance obligations for Level 2 Repeatable."
+    accountability_capabilities:
+      - "Audit task ownership log maps and roles validations weekly under Level 2 Repeatable."
+    assurance_capabilities:
+      - "Verify E2E provider assurance indicators and issue compliance scorecards weekly under Level 2 Repeatable."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 2 Repeatable."
+    validation_requirements:
+      - "Triage review completed and signed off by Compliance Officer for Level 2 Repeatable."
+  level_3_defined:
+    capabilities:
+      - "Standard processes for compiling technical files and validating conformity under Level 3 Defined."
+      - "Documented escalation rules and crisis contacts lists under Level 3 Defined."
+    compliance_capabilities:
+      - "Audit quality management systems and evaluate compliance obligations for Level 3 Defined."
+    accountability_capabilities:
+      - "Audit task ownership log maps and roles validations weekly under Level 3 Defined."
+    assurance_capabilities:
+      - "Verify E2E provider assurance indicators and issue compliance scorecards weekly under Level 3 Defined."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 3 Defined."
+    validation_requirements:
+      - "Triage review completed and signed off by Compliance Officer for Level 3 Defined."
+  level_4_managed:
+    capabilities:
+      - "Standard processes for compiling technical files and validating conformity under Level 4 Managed."
+      - "Documented escalation rules and crisis contacts lists under Level 4 Managed."
+    compliance_capabilities:
+      - "Audit quality management systems and evaluate compliance obligations for Level 4 Managed."
+    accountability_capabilities:
+      - "Audit task ownership log maps and roles validations weekly under Level 4 Managed."
+    assurance_capabilities:
+      - "Verify E2E provider assurance indicators and issue compliance scorecards weekly under Level 4 Managed."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 4 Managed."
+    validation_requirements:
+      - "Triage review completed and signed off by Compliance Officer for Level 4 Managed."
+  level_5_optimized:
+    capabilities:
+      - "Standard processes for compiling technical files and validating conformity under Level 5 Optimized."
+      - "Documented escalation rules and crisis contacts lists under Level 5 Optimized."
+    compliance_capabilities:
+      - "Audit quality management systems and evaluate compliance obligations for Level 5 Optimized."
+    accountability_capabilities:
+      - "Audit task ownership log maps and roles validations weekly under Level 5 Optimized."
+    assurance_capabilities:
+      - "Verify E2E provider assurance indicators and issue compliance scorecards weekly under Level 5 Optimized."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 5 Optimized."
+    validation_requirements:
+      - "Triage review completed and signed off by Compliance Officer for Level 5 Optimized."
+  level_6_assured:
+    capabilities:
+      - "Standard processes for compiling technical files and validating conformity under Level 6 Assured."
+      - "Documented escalation rules and crisis contacts lists under Level 6 Assured."
+    compliance_capabilities:
+      - "Audit quality management systems and evaluate compliance obligations for Level 6 Assured."
+    accountability_capabilities:
+      - "Audit task ownership log maps and roles validations weekly under Level 6 Assured."
+    assurance_capabilities:
+      - "Verify E2E provider assurance indicators and issue compliance scorecards weekly under Level 6 Assured."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 6 Assured."
+    validation_requirements:
+      - "Triage review completed and signed off by Compliance Officer for Level 6 Assured."
+  level_7_provider_by_design:
+    capabilities:
+      - "Standard processes for compiling technical files and validating conformity under Level 7 Provider By Design."
+      - "Documented escalation rules and crisis contacts lists under Level 7 Provider By Design."
+    compliance_capabilities:
+      - "Audit quality management systems and evaluate compliance obligations for Level 7 Provider By Design."
+    accountability_capabilities:
+      - "Audit task ownership log maps and roles validations weekly under Level 7 Provider By Design."
+    assurance_capabilities:
+      - "Verify E2E provider assurance indicators and issue compliance scorecards weekly under Level 7 Provider By Design."
+    evidence_requirements:
+      - "Attestations saved in local compliance files for Level 7 Provider By Design."
+    validation_requirements:
+      - "Triage review completed and signed off by Compliance Officer for Level 7 Provider By Design."

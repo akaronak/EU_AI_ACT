@@ -1,0 +1,1850 @@
+metadata:
+  id: AAE-PM-SANMAN-001
+  name: sanction_management
+  title: Sanction Management
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: penalty_management
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - penalty_management
+    - sanction_management
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Sanction Management governance within
+    audit_and_enforcement/penalty_management, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for sanction issuance tracking and appeal-ready documentation.
+    Integrates with the EU AI Act governance ecosystem through machine-evaluable obligations,
+    evidence preservation, and conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Sanction Management across enterprise and
+    cross-border operations within audit_and_enforcement/penalty_management.
+objectives:
+  - Operationalize Sanction Management with regulator-defensible controls and evidence chains
+  - Enable automated validation of Sanction Management conformance across penalty_management
+  - Preserve audit-grade and forensic-grade records for all Sanction Management activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Sanction Management with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Sanction Management
+definitions:
+  sanction_management_governance_domain:
+    >
+      The operational jurisdiction of Sanction Management encompassing controlled audit, enforcement,
+      investigation, and evidence processes within penalty_management.
+  sanction_management_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Sanction Management control
+      effectiveness, process adherence, and regulatory conformity.
+  sanction_management_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Sanction Management decision logic.
+  sanction_management_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Sanction Management processes.
+  sanction_management_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within Sanction
+      Management operations.
+  sanction_management_conformity_assertion:
+    >
+      Formal statement that Sanction Management requirements are met, supported by indexed evidence
+      and validation attestations.
+taxonomy:
+  root: sanction_management_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  sanction_management_artifact_type:
+    - sanction_management_record
+    - sanction_management_log
+    - sanction_management_report
+    - sanction_management_attestation
+    - sanction_management_package
+  sanction_management_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Sanction Management Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: penalty_management
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - investigation_management
+    - enforcement_actions
+    - compliance_audits
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - remediation_tracking
+    - reporting
+    - enforcement_actions
+    - audit_and_enforcement/penalty_management/sanction_management.yaml
+  related_domains:
+    - enforcement_actions
+    - investigation_management
+    - remediation_tracking
+  related_skills:
+    - sanction_management
+    - financial_penalty_tracking
+    - repeat_violation_scoring
+    - sanction_management
+  parent_governance_objects:
+    - enforcement_framework
+  child_governance_objects:
+    - penalty_assessment
+    - sanction_order
+    - sanction_management_governance_object
+  consumes_artifacts:
+    - investigation_report
+    - enforcement_decision
+    - liability_mapping
+    - sanction_management_input_artifact
+  produces_artifacts:
+    - penalty_determination
+    - sanction_register_entry
+    - financial_penalty_ledger
+    - sanction_management_record
+    - sanction_management_report
+    - sanction_management_attestation
+  consumes_evidence:
+    - violation_evidence_package
+    - repeat_violation_history
+    - sanction_management_source_evidence
+  produces_evidence:
+    - penalty_calculation_workpaper
+    - sanction_attestation
+    - appeal_record
+    - sanction_management_audit_evidence
+    - sanction_management_validation_evidence
+    - sanction_management_enforcement_evidence
+  governance_dependencies:
+    - ai_liability
+    - legal_interoperability
+  regulatory_dependencies:
+    - eu_ai_act_article_71
+    - eu_ai_act_article_99
+  risk_dependencies:
+    - ai_liability
+    - compliance_scoring
+  control_dependencies:
+    - investigation_management
+    - enforcement_actions
+    - sanction_management_control_register
+roles_and_responsibilities:
+  sanction_management_owner:
+    responsibilities:
+      - Accountable for Sanction Management strategy, control design, and regulatory alignment
+  sanction_management_operator:
+    responsibilities:
+      - Executes Sanction Management workflows and maintains operational records
+  sanction_management_auditor:
+    responsibilities:
+      - Independently validates Sanction Management control effectiveness and evidence sufficiency
+  sanction_management_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Sanction Management investigations
+  sanction_management_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Sanction Management
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-013
+    name: Liability Attribution
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-014
+    name: Regulatory Accountability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-015
+    name: Regulatory Escalation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-026
+    name: Penalty Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-027
+    name: Sanction Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-028
+    name: Financial Penalty Tracking
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-029
+    name: Repeat Violation Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-030
+    name: Remediation Tracking
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-PEN-SANCTION_M-SANCTIONELI
+    control_name: sanction_eligibility_determination
+    control_category: preventive
+    control_objective:
+      Determine sanction eligibility based on violation classification and liability mapping
+    governance_rationale:
+      >
+        sanction_eligibility_determination is required to govern Sanction Management risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected penalty management
+        failures.
+    implementation_guidance:
+      >
+        Implement sanction_eligibility_determination as automated policy in sanction_management
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: sanction_eligibility_determination_continuous_telemetry_dashboard
+    validation_method:
+      sanction_eligibility_determination_quarterly_design_and_operating_effectiveness_test
+    testing_method: sanction_eligibility_determination_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: sanction_eligibility_determination_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify sanction_eligibility_determination design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        sanction_eligibility_determination outputs may trigger enforcement under sanction_management
+        escalation rules.
+  - control_id: AAE-PEN-SANCTION_M-SANCTIONCAL
+    control_name: sanction_calculation_methodology
+    control_category: preventive
+    control_objective: Apply approved sanction calculation methodology with auditable parameters
+    governance_rationale:
+      >
+        sanction_calculation_methodology is required to govern Sanction Management risks under EU AI Act
+        and enterprise audit-enforcement policy; failure enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement sanction_calculation_methodology as automated policy in sanction_management
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: sanction_calculation_methodology_continuous_telemetry_dashboard
+    validation_method:
+      sanction_calculation_methodology_quarterly_design_and_operating_effectiveness_test
+    testing_method: sanction_calculation_methodology_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: sanction_calculation_methodology_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify sanction_calculation_methodology design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        sanction_calculation_methodology outputs may trigger enforcement under sanction_management
+        escalation rules.
+  - control_id: AAE-PEN-SANCTION_M-DUALAUTHORI
+    control_name: dual_authorization_sanction_issuance
+    control_category: preventive
+    control_objective: Require dual authorization before sanction issuance becomes enforceable
+    governance_rationale:
+      >
+        dual_authorization_sanction_issuance is required to govern Sanction Management risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected penalty management
+        failures.
+    implementation_guidance:
+      >
+        Implement dual_authorization_sanction_issuance as automated policy in sanction_management
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: dual_authorization_sanction_issuance_continuous_telemetry_dashboard
+    validation_method:
+      dual_authorization_sanction_issuance_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      dual_authorization_sanction_issuance_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: dual_authorization_sanction_issuance_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify dual_authorization_sanction_issuance design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        dual_authorization_sanction_issuance outputs may trigger enforcement under sanction_management
+        escalation rules.
+  - control_id: AAE-PEN-SANCTION_M-SANCTIONNOT
+    control_name: sanction_notice_generation
+    control_category: corrective
+    control_objective: Generate regulator-ready sanction notices with indexed supporting evidence
+    governance_rationale:
+      >
+        sanction_notice_generation is required to govern Sanction Management risks under EU AI Act and
+        enterprise audit-enforcement policy; failure enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement sanction_notice_generation as automated policy in sanction_management orchestration
+        layer; wire to telemetry bus; block non-compliant state transitions; log evidence to immutable
+        store.
+    monitoring_method: sanction_notice_generation_continuous_telemetry_dashboard
+    validation_method: sanction_notice_generation_quarterly_design_and_operating_effectiveness_test
+    testing_method: sanction_notice_generation_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: sanction_notice_generation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify sanction_notice_generation design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        sanction_notice_generation outputs may trigger enforcement under sanction_management escalation
+        rules.
+  - control_id: AAE-PEN-SANCTION_M-APPEALWINDO
+    control_name: appeal_window_tracking
+    control_category: detective
+    control_objective: Track appeal windows and suspend enforcement actions during active appeals
+    governance_rationale:
+      >
+        appeal_window_tracking is required to govern Sanction Management risks under EU AI Act and
+        enterprise audit-enforcement policy; failure enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement appeal_window_tracking as automated policy in sanction_management orchestration layer;
+        wire to telemetry bus; block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method: appeal_window_tracking_continuous_telemetry_dashboard
+    validation_method: appeal_window_tracking_quarterly_design_and_operating_effectiveness_test
+    testing_method: appeal_window_tracking_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: appeal_window_tracking_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify appeal_window_tracking design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        appeal_window_tracking outputs may trigger enforcement under sanction_management escalation
+        rules.
+  - control_id: AAE-PEN-SANCTION_M-SANCTIONEXE
+    control_name: sanction_execution_verification
+    control_category: detective
+    control_objective: Verify sanction execution against authorized sanction order parameters
+    governance_rationale:
+      >
+        sanction_execution_verification is required to govern Sanction Management risks under EU AI Act
+        and enterprise audit-enforcement policy; failure enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement sanction_execution_verification as automated policy in sanction_management
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: sanction_execution_verification_continuous_telemetry_dashboard
+    validation_method:
+      sanction_execution_verification_quarterly_design_and_operating_effectiveness_test
+    testing_method: sanction_execution_verification_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: sanction_execution_verification_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify sanction_execution_verification design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        sanction_execution_verification outputs may trigger enforcement under sanction_management
+        escalation rules.
+  - control_id: AAE-PEN-SANCTION_M-REPEATOFFEN
+    control_name: repeat_offender_aggravation
+    control_category: preventive
+    control_objective: Apply repeat offender aggravation factors per repeat violation scoring
+    governance_rationale:
+      >
+        repeat_offender_aggravation is required to govern Sanction Management risks under EU AI Act and
+        enterprise audit-enforcement policy; failure enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement repeat_offender_aggravation as automated policy in sanction_management orchestration
+        layer; wire to telemetry bus; block non-compliant state transitions; log evidence to immutable
+        store.
+    monitoring_method: repeat_offender_aggravation_continuous_telemetry_dashboard
+    validation_method: repeat_offender_aggravation_quarterly_design_and_operating_effectiveness_test
+    testing_method: repeat_offender_aggravation_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: repeat_offender_aggravation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify repeat_offender_aggravation design, operation, and evidence sufficiency per ISO
+        19011.
+    enforcement_considerations:
+      >
+        repeat_offender_aggravation outputs may trigger enforcement under sanction_management escalation
+        rules.
+  - control_id: AAE-PEN-SANCTION_M-SANCTIONREG
+    control_name: sanction_register_maintenance
+    control_category: evidence
+    control_objective: Maintain immutable sanction register with full lifecycle audit trail
+    governance_rationale:
+      >
+        sanction_register_maintenance is required to govern Sanction Management risks under EU AI Act
+        and enterprise audit-enforcement policy; failure enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement sanction_register_maintenance as automated policy in sanction_management orchestration
+        layer; wire to telemetry bus; block non-compliant state transitions; log evidence to immutable
+        store.
+    monitoring_method: sanction_register_maintenance_continuous_telemetry_dashboard
+    validation_method: sanction_register_maintenance_quarterly_design_and_operating_effectiveness_test
+    testing_method: sanction_register_maintenance_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: sanction_register_maintenance_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify sanction_register_maintenance design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        sanction_register_maintenance outputs may trigger enforcement under sanction_management
+        escalation rules.
+  - control_id: AAE-PEN-SANCTION_M-CROSSJURISD
+    control_name: cross_jurisdiction_sanction_harmonization
+    control_category: preventive
+    control_objective: Harmonize sanctions across jurisdictions under cross-border enforcement rules
+    governance_rationale:
+      >
+        cross_jurisdiction_sanction_harmonization is required to govern Sanction Management risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty management
+        failures.
+    implementation_guidance:
+      >
+        Implement cross_jurisdiction_sanction_harmonization as automated policy in sanction_management
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: cross_jurisdiction_sanction_harmonization_continuous_telemetry_dashboard
+    validation_method:
+      cross_jurisdiction_sanction_harmonization_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      cross_jurisdiction_sanction_harmonization_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: cross_jurisdiction_sanction_harmonization_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify cross_jurisdiction_sanction_harmonization design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        cross_jurisdiction_sanction_harmonization outputs may trigger enforcement under
+        sanction_management escalation rules.
+  - control_id: AAE-PEN-SANCTION_M-SANCTIONEFF
+    control_name: sanction_effectiveness_review
+    control_category: audit
+    control_objective: Review sanction effectiveness and proportionality quarterly
+    governance_rationale:
+      >
+        sanction_effectiveness_review is required to govern Sanction Management risks under EU AI Act
+        and enterprise audit-enforcement policy; failure enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement sanction_effectiveness_review as automated policy in sanction_management orchestration
+        layer; wire to telemetry bus; block non-compliant state transitions; log evidence to immutable
+        store.
+    monitoring_method: sanction_effectiveness_review_continuous_telemetry_dashboard
+    validation_method: sanction_effectiveness_review_quarterly_design_and_operating_effectiveness_test
+    testing_method: sanction_effectiveness_review_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: sanction_effectiveness_review_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify sanction_effectiveness_review design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        sanction_effectiveness_review outputs may trigger enforcement under sanction_management
+        escalation rules.
+  - control_id: AAE-PEN-SANCTION_M-FINANCIALSA
+    control_name: financial_sanction_reconciliation
+    control_category: detective
+    control_objective: Reconcile financial sanctions against penalty ledger and payment records
+    governance_rationale:
+      >
+        financial_sanction_reconciliation is required to govern Sanction Management risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected penalty management
+        failures.
+    implementation_guidance:
+      >
+        Implement financial_sanction_reconciliation as automated policy in sanction_management
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: financial_sanction_reconciliation_continuous_telemetry_dashboard
+    validation_method:
+      financial_sanction_reconciliation_quarterly_design_and_operating_effectiveness_test
+    testing_method: financial_sanction_reconciliation_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: financial_sanction_reconciliation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify financial_sanction_reconciliation design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        financial_sanction_reconciliation outputs may trigger enforcement under sanction_management
+        escalation rules.
+  - control_id: AAE-PEN-SANCTION_M-MARKETSURVE
+    control_name: market_surveillance_sanction_reporting
+    control_category: reporting
+    control_objective: Report sanctions to market surveillance authorities per Article 71 obligations
+    governance_rationale:
+      >
+        market_surveillance_sanction_reporting is required to govern Sanction Management risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected penalty management
+        failures.
+    implementation_guidance:
+      >
+        Implement market_surveillance_sanction_reporting as automated policy in sanction_management
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: market_surveillance_sanction_reporting_continuous_telemetry_dashboard
+    validation_method:
+      market_surveillance_sanction_reporting_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      market_surveillance_sanction_reporting_statistical_sampling_with_exception_tracking
+    control_owner: sanction_management_control_owner
+    evidence_generated: market_surveillance_sanction_reporting_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify market_surveillance_sanction_reporting design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        market_surveillance_sanction_reporting outputs may trigger enforcement under sanction_management
+        escalation rules.
+requirements:
+  legal:
+    >
+      Sanction Management must satisfy legal requirements for sanction issuance tracking and appeal-
+      ready documentation including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Sanction Management must satisfy regulatory requirements for sanction issuance tracking and
+      appeal-ready documentation including documented procedures, accountable roles, measurable SLAs,
+      and evidence retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Sanction Management must satisfy technical requirements for sanction issuance tracking and
+      appeal-ready documentation including documented procedures, accountable roles, measurable SLAs,
+      and evidence retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Sanction Management must satisfy operational requirements for sanction issuance tracking and
+      appeal-ready documentation including documented procedures, accountable roles, measurable SLAs,
+      and evidence retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Sanction Management must satisfy audit requirements for sanction issuance tracking and appeal-
+      ready documentation including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Sanction Management must satisfy forensic requirements for sanction issuance tracking and
+      appeal-ready documentation including documented procedures, accountable roles, measurable SLAs,
+      and evidence retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Sanction Management must satisfy enforcement requirements for sanction issuance tracking and
+      appeal-ready documentation including documented procedures, accountable roles, measurable SLAs,
+      and evidence retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    Intake process for Sanction Management with stage gates, RACI assignments, and evidence capture.
+  triage:
+    Triage process for Sanction Management with stage gates, RACI assignments, and evidence capture.
+  execution:
+    >
+      Execution process for Sanction Management with stage gates, RACI assignments, and evidence
+      capture.
+  validation:
+    >
+      Validation process for Sanction Management with stage gates, RACI assignments, and evidence
+      capture.
+  escalation:
+    >
+      Escalation process for Sanction Management with stage gates, RACI assignments, and evidence
+      capture.
+  closure:
+    >
+      Closure process for Sanction Management with stage gates, RACI assignments, and evidence
+      capture.
+  improvement:
+    >
+      Improvement process for Sanction Management with stage gates, RACI assignments, and evidence
+      capture.
+workflows:
+  - workflow_name: sanction_management_operational_lifecycle_workflow
+    workflow_trigger: sanction_management_governance_event_detected
+    workflow_steps:
+      - sanction_management_intake
+      - sanction_management_triage
+      - sanction_management_execution
+      - sanction_management_validation
+      - sanction_management_approval
+      - sanction_management_closure
+    approval_points:
+      - sanction_management_approval
+    escalation_points:
+      - sanction_management_triage
+    generated_evidence:
+      - sanction_management_workflow_log
+      - sanction_management_closure_attestation
+    completion_requirements:
+      - sanction_management_evidence_complete
+      - sanction_management_approvals_recorded
+  - workflow_name: sanction_management_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_sanction_management
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - sanction_management_regulatory_package
+      - sanction_management_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - sanction_management_governance_event_detected
+    - sanction_management_regulatory_inquiry
+    - sanction_management_integrity_breach
+    - sanction_management_enforcement_authorization
+  required_inputs:
+    - sanction_management_case_context
+    - sanction_management_evidence_index
+    - sanction_management_risk_assessment
+  workflow_steps:
+    - sanction_management_intake
+    - sanction_management_triage
+    - sanction_management_execution
+    - sanction_management_validation
+    - sanction_management_approval
+    - sanction_management_closure
+  validation_steps:
+    - sanction_management_evidence_sufficiency_check
+    - sanction_management_integrity_verification
+  approval_steps:
+    - sanction_management_approval
+  control_checkpoints:
+    - sanction_management_intake_gate
+    - sanction_management_evidence_gate
+    - sanction_management_decision_gate
+  evidence_generation:
+    - sanction_management_workflow_log
+    - sanction_management_closure_attestation
+  decision_points:
+    - sanction_management_severity_classification
+    - sanction_management_enforcement_authorization
+  escalation_points:
+    - sanction_management_triage
+  completion_criteria:
+    - sanction_management_evidence_complete
+    - sanction_management_approvals_recorded
+  generated_outputs:
+    - sanction_management_workflow_log
+    - sanction_management_closure_attestation
+    - sanction_management_final_disposition
+decision_logic:
+  decision_inputs:
+    - sanction_management_severity_score
+    - sanction_management_evidence_completeness
+    - sanction_management_regulatory_context
+    - sanction_management_risk_exposure_index
+  decision_conditions:
+    - sanction_management_critical_threshold_breach
+    - sanction_management_evidence_integrity_failure
+    - sanction_management_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: sanction_management_severity_score >= 90
+    high_severity: sanction_management_severity_score >= 70
+    evidence_complete: sanction_management_evidence_completeness >= 0.98
+  decision_rules:
+    sanction_management_high_severity_violation:
+      condition: sanction_management_severity_score >= 90
+      action: initiate_sanction_management_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: sanction_management_investigation_report
+    sanction_management_evidence_compromise_detected:
+      condition: sanction_management_integrity_status == compromised
+      action: activate_sanction_management_forensic_lockdown
+      approval_required: sanction_management_forensic_lead
+      evidence_required: sanction_management_integrity_alert_record
+    sanction_management_enforcement_authorization:
+      condition: sanction_management_violation_confirmed == true AND sanction_management_evidence_complete == true
+      action: issue_sanction_management_enforcement_order
+      approval_required: sanction_management_enforcement_officer
+      evidence_required: sanction_management_violation_evidence_package
+    sanction_management_regulator_inquiry_response:
+      condition: sanction_management_regulator_request_received == true
+      action: compile_sanction_management_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: sanction_management_regulatory_evidence_index
+  decision_outputs:
+    - sanction_management_enforcement_decision
+    - sanction_management_escalation_notice
+    - sanction_management_remediation_directive
+    - sanction_management_audit_disposition
+  approval_requirements:
+    enforcement_actions: [sanction_management_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - sanction_management_severity_score >= 90
+    - sanction_management_evidence_integrity_failure == true
+    - sanction_management_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_sanction_management_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: sanction_management_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Sanction Management may trigger EU AI Act Articles 71, 73 reporting, market
+      surveillance cooperation, and conformity assessment suspension; all outputs must be litigation-
+      defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Sanction Management per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Sanction Management per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Sanction Management per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Sanction Management per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+metrics:
+  - metric_name: sanction_issuance_cycle_days
+    metric_category: operational
+    business_purpose:
+      >
+        Measure sanction issuance cycle days for Sanction Management operational and regulatory
+        assurance
+    formula: computed_sanction_issuance_cycle_days_from_sanction_management_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: sanction_management_metrics_owner
+    data_source: sanction_management_metrics_warehouse
+    evidence_generated: sanction_issuance_cycle_days_measurement_record
+  - metric_name: penalty_calculation_accuracy_rate
+    metric_category: risk
+    business_purpose:
+      >
+        Measure penalty calculation accuracy rate for Sanction Management operational and regulatory
+        assurance
+    formula: computed_penalty_calculation_accuracy_rate_from_sanction_management_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: sanction_management_metrics_owner
+    data_source: sanction_management_metrics_warehouse
+    evidence_generated: penalty_calculation_accuracy_rate_measurement_record
+  - metric_name: appeal_overturn_rate
+    metric_category: compliance
+    business_purpose:
+      Measure appeal overturn rate for Sanction Management operational and regulatory assurance
+    formula: computed_appeal_overturn_rate_from_sanction_management_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: sanction_management_metrics_owner
+    data_source: sanction_management_metrics_warehouse
+    evidence_generated: appeal_overturn_rate_measurement_record
+  - metric_name: repeat_violation_recidivism_score
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure repeat violation recidivism score for Sanction Management operational and regulatory
+        assurance
+    formula: computed_repeat_violation_recidivism_score_from_sanction_management_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: sanction_management_metrics_owner
+    data_source: sanction_management_metrics_warehouse
+    evidence_generated: repeat_violation_recidivism_score_measurement_record
+  - metric_name: financial_penalty_recovery_rate
+    metric_category: governance
+    business_purpose:
+      >
+        Measure financial penalty recovery rate for Sanction Management operational and regulatory
+        assurance
+    formula: computed_financial_penalty_recovery_rate_from_sanction_management_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: sanction_management_metrics_owner
+    data_source: sanction_management_metrics_warehouse
+    evidence_generated: financial_penalty_recovery_rate_measurement_record
+  - metric_name: sanction_proportionality_index
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure sanction proportionality index for Sanction Management operational and regulatory
+        assurance
+    formula: computed_sanction_proportionality_index_from_sanction_management_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: sanction_management_metrics_owner
+    data_source: sanction_management_metrics_warehouse
+    evidence_generated: sanction_proportionality_index_measurement_record
+kpis:
+  - metric_name: sanction_issuance_cycle_days
+    formula: computed_sanction_issuance_cycle_days_from_sanction_management_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: penalty_calculation_accuracy_rate
+    formula: computed_penalty_calculation_accuracy_rate_from_sanction_management_telemetry
+    target: >= 95%
+  - metric_name: appeal_overturn_rate
+    formula: computed_appeal_overturn_rate_from_sanction_management_telemetry
+    target: >= 95%
+  - metric_name: repeat_violation_recidivism_score
+    formula: computed_repeat_violation_recidivism_score_from_sanction_management_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: repeat_violation_recidivism_score
+    business_purpose: Measure repeat violation recidivism score for Sanction Management operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: sanction_calculation_workpapers
+    evidence_type: primary
+    business_purpose: Support sanction management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_sanction_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: sanction_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: penalty_determination_orders
+    evidence_type: corroborating
+    business_purpose: Support sanction management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_sanction_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: sanction_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: appeal_correspondence
+    evidence_type: attestation
+    business_purpose: Support sanction management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_sanction_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: sanction_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: payment_compliance_records
+    evidence_type: derivative
+    business_purpose: Support sanction management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_sanction_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: sanction_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: repeat_violation_history_extract
+    evidence_type: audit
+    business_purpose: Support sanction management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_sanction_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: sanction_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: sanction_register_snapshot
+    evidence_type: regulatory
+    business_purpose: Support sanction management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_sanction_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: sanction_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: sanction_management_status_dashboard
+    report_owner: sanction_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: monthly
+    report_inputs:
+      - sanction_management_telemetry
+      - sanction_management_evidence_index
+    report_outputs:
+      - sanction_management_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: sanction_management_compliance_summary
+    report_owner: sanction_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - sanction_management_telemetry
+      - sanction_management_evidence_index
+    report_outputs:
+      - sanction_management_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: sanction_assurance_report
+    report_owner: sanction_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - sanction_management_telemetry
+      - sanction_management_evidence_index
+    report_outputs:
+      - sanction_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: sanction_management_executive_brief
+    report_owner: sanction_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - sanction_management_telemetry
+      - sanction_management_evidence_index
+    report_outputs:
+      - sanction_management_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: sanction_management_audit_pack
+    report_owner: sanction_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - sanction_management_telemetry
+      - sanction_management_evidence_index
+    report_outputs:
+      - sanction_management_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Sanction Management interfaces with autonomous agents, GPAI, or
+      tool-calling systems.
+  agent_governance:
+    agent_identity: sanction_management_registered_agent_identity_schema
+    agent_role: sanction_management_delegated_authority_role_matrix
+    agent_permissions: sanction_management_least_privilege_permission_set
+    agent_constraints: sanction_management_autonomy_and_tool_constraints
+    agent_accountability: sanction_management_human_accountability_chain
+    agent_escalation_rules: sanction_management_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - sanction_management_policy_context
+      - sanction_management_risk_score
+      - sanction_management_human_intent
+    decision_outputs:
+      - sanction_management_authorized_action
+      - sanction_management_escalation_notice
+    decision_owners:
+      - sanction_management_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: sanction_management_high_risk_decision_mandatory_review
+    decision_accountability: sanction_management_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: sanction_management_approved_tool_allowlist
+    tool_execution_validation: sanction_management_pre_execution_tool_risk_check
+    tool_risk_controls: sanction_management_tool_side_effect_containment
+    tool_auditability: sanction_management_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: sanction_management_memory_segment_access_policy
+    memory_integrity_validation: sanction_management_memory_tamper_detection
+    memory_retention_controls: sanction_management_memory_retention_and_purge_rules
+    memory_auditability: sanction_management_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: sanction_management_chain_of_thought_capture
+    reasoning_validation: sanction_management_reasoning_consistency_check
+    reasoning_risk_monitoring: sanction_management_reasoning_hazard_detection
+    reasoning_accountability: sanction_management_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - sanction_management_audit_log
+  - sanction_management_activity_log
+  - sanction_management_decision_log
+  - sanction_management_traceability_record
+  - sanction_management_evidence_package
+  - sanction_management_chain_of_custody_record
+  - sanction_management_attestation
+required_evidence:
+  - sanction_management_audit_log
+  - sanction_management_activity_log
+  - sanction_management_decision_log
+  - sanction_management_traceability_record
+  - sanction_management_evidence_package
+  - sanction_management_chain_of_custody_record
+  - sanction_management_attestation
+supporting_evidence:
+  - sanction_management_audit_log
+  - sanction_management_activity_log
+  - sanction_management_decision_log
+  - sanction_management_traceability_record
+  - sanction_management_evidence_package
+audit_evidence:
+  - sanction_management_audit_log
+  - sanction_management_activity_log
+  - sanction_management_decision_log
+  - sanction_management_traceability_record
+  - sanction_management_evidence_package
+  - sanction_management_chain_of_custody_record
+  - sanction_management_attestation
+forensic_evidence:
+  - sanction_management_audit_log
+  - sanction_management_activity_log
+  - sanction_management_decision_log
+  - sanction_management_traceability_record
+  - sanction_management_evidence_package
+  - sanction_management_chain_of_custody_record
+  - sanction_management_attestation
+regulatory_evidence:
+  - sanction_management_audit_log
+  - sanction_management_activity_log
+  - sanction_management_decision_log
+  - sanction_management_traceability_record
+  - sanction_management_evidence_package
+  - sanction_management_chain_of_custody_record
+  - sanction_management_attestation
+validation_evidence:
+  - sanction_management_audit_log
+  - sanction_management_activity_log
+  - sanction_management_decision_log
+  - sanction_management_traceability_record
+  - sanction_management_evidence_package
+  - sanction_management_chain_of_custody_record
+  - sanction_management_attestation
+validation_rules:
+  - rule: sanction_management_evidence_complete
+    condition: required_evidence_sanction_management < threshold
+    action: BLOCK_SUBMISSION
+  - rule: sanction_management_integrity_verified
+    condition: integrity_status_sanction_management != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: sanction_management_custody_intact
+    condition: custody_gap_sanction_management == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Sanction Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Sanction Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Sanction Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Sanction Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Sanction Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - sanction_management_control_failure
+    - sanction_management_evidence_compromise
+    - sanction_management_regulatory_non_compliance
+    - sanction_management_enforcement_delay
+  risk_events:
+    - sanction_management_audit_finding_critical
+    - sanction_management_investigation_escalation
+    - sanction_management_sanction_exposure
+    - sanction_management_market_surveillance_inquiry
+  risk_indicators:
+    - sanction_management_control_effectiveness_degradation
+    - sanction_management_evidence_gap_rate
+    - sanction_management_sla_breach_count
+    - sanction_management_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    sanction_management_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: sanction_management_forensic_lead
+    sanction_management_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    sanction_management_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: sanction_management_enforcement_officer
+  risk_tolerance:
+    sanction_management_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: sanction_management_risk_score >= 60
+    critical: sanction_management_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Sanction Management controls documented in sanction_management_risk_register
+      with quarterly review.
+  risk_treatment:
+    - sanction_management_preventive_control_reinforcement
+    - sanction_management_detective_monitoring_enhancement
+    - sanction_management_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: sanction_management_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Sanction Management workflow events with provenance anchor and
+      sanction_management_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via sanction_management_collection_api with schema validation and
+      classification
+  evidence_validation:
+    Completeness, authenticity, and admissibility checks via sanction_management_validation_engine
+  evidence_classification:
+    RESTRICTED/CONFIDENTIAL classification per sanction_management_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in sanction_management_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per sanction_management_retention_schedule aligned with EU AI Act Article 18 and legal
+      hold
+  evidence_archival:
+    Long-term archival with sanction_management_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via sanction_management_retrieval_gateway with purpose logging
+  evidence_disposal:
+    Authorized disposition with sanction_management_disposition_certificate and dual approval
+chain_of_custody:
+  custody_events:
+    - sanction_management_capture_event
+    - sanction_management_transfer_event
+    - sanction_management_access_event
+    - sanction_management_disposition_event
+  custody_owners:
+    primary: sanction_management_evidence_custodian
+    secondary: sanction_management_forensic_lead
+  custody_validation:
+    method: sanction_management_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - sanction_management_sha256_hash_chain
+    - sanction_management_digital_signature
+    - sanction_management_timestamp_authority
+  tamper_detection:
+    method: sanction_management_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: sanction_management_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_71:
+    article: Article 71
+    regulatory_text_summary:
+      Penalties.
+    obligation:
+      >
+        Administrative fines for infringements. Implemented through Sanction Management in
+        penalty_management.
+    implementation_controls:
+      - sanction_management_article_71_preventive_control
+      - sanction_management_article_71_detective_control
+      - sanction_management_article_71_evidence_control
+    implementation_processes:
+      - sanction_management_article_71_workflow
+      - sanction_management_article_71_validation_process
+      - sanction_management_article_71_escalation_process
+    implementation_evidence:
+      - sanction_management_article_71_compliance_record
+      - sanction_management_article_71_audit_package
+      - sanction_management_article_71_attestation
+    validation_method: sanction_management_article_71_automated_and_manual_conformity_testing
+    audit_method: sanction_management_article_71_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: sanction_management_article_71_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Sanction Management demonstrates Article 71 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_22:
+    article: Article 22
+    regulatory_text_summary:
+      Changes to high-risk AI systems.
+    obligation:
+      >
+        Notification of substantial modifications. Implemented through Sanction Management in
+        penalty_management.
+    implementation_controls:
+      - sanction_management_article_22_preventive_control
+      - sanction_management_article_22_detective_control
+      - sanction_management_article_22_evidence_control
+    implementation_processes:
+      - sanction_management_article_22_workflow
+      - sanction_management_article_22_validation_process
+      - sanction_management_article_22_escalation_process
+    implementation_evidence:
+      - sanction_management_article_22_compliance_record
+      - sanction_management_article_22_audit_package
+      - sanction_management_article_22_attestation
+    validation_method: sanction_management_article_22_automated_and_manual_conformity_testing
+    audit_method: sanction_management_article_22_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: sanction_management_article_22_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Sanction Management demonstrates Article 22 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Sanction Management in penalty_management.
+    implementation_controls:
+      - sanction_management_article_26_preventive_control
+      - sanction_management_article_26_detective_control
+      - sanction_management_article_26_evidence_control
+    implementation_processes:
+      - sanction_management_article_26_workflow
+      - sanction_management_article_26_validation_process
+      - sanction_management_article_26_escalation_process
+    implementation_evidence:
+      - sanction_management_article_26_compliance_record
+      - sanction_management_article_26_audit_package
+      - sanction_management_article_26_attestation
+    validation_method: sanction_management_article_26_automated_and_manual_conformity_testing
+    audit_method: sanction_management_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: sanction_management_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Sanction Management demonstrates Article 26 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_99:
+    article: Article 99
+    regulatory_text_summary:
+      Penalties for GPAI.
+    obligation:
+      >
+        Penalties specific to GPAI obligations. Implemented through Sanction Management in
+        penalty_management.
+    implementation_controls:
+      - sanction_management_article_99_preventive_control
+      - sanction_management_article_99_detective_control
+      - sanction_management_article_99_evidence_control
+    implementation_processes:
+      - sanction_management_article_99_workflow
+      - sanction_management_article_99_validation_process
+      - sanction_management_article_99_escalation_process
+    implementation_evidence:
+      - sanction_management_article_99_compliance_record
+      - sanction_management_article_99_audit_package
+      - sanction_management_article_99_attestation
+    validation_method: sanction_management_article_99_automated_and_manual_conformity_testing
+    audit_method: sanction_management_article_99_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: sanction_management_article_99_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Sanction Management demonstrates Article 99 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+crosswalks:
+  eu_ai_act:
+    article_71:
+      implementation: sanction_management_eu_ai_act_article_71_control_set
+      process: sanction_management_eu_ai_act_article_71_workflow
+      evidence: sanction_management_eu_ai_act_article_71_attestation
+    article_22:
+      implementation: sanction_management_eu_ai_act_article_22_control_set
+      process: sanction_management_eu_ai_act_article_22_workflow
+      evidence: sanction_management_eu_ai_act_article_22_attestation
+    article_26:
+      implementation: sanction_management_eu_ai_act_article_26_control_set
+      process: sanction_management_eu_ai_act_article_26_workflow
+      evidence: sanction_management_eu_ai_act_article_26_attestation
+    article_99:
+      implementation: sanction_management_eu_ai_act_article_99_control_set
+      process: sanction_management_eu_ai_act_article_99_workflow
+      evidence: sanction_management_eu_ai_act_article_99_attestation
+  gdpr:
+    article_5:
+      implementation: sanction_management_gdpr_article_5_privacy_control
+      evidence: sanction_management_gdpr_article_5_compliance_record
+    article_6:
+      implementation: sanction_management_gdpr_article_6_privacy_control
+      evidence: sanction_management_gdpr_article_6_compliance_record
+    article_22:
+      implementation: sanction_management_gdpr_article_22_privacy_control
+      evidence: sanction_management_gdpr_article_22_compliance_record
+    article_25:
+      implementation: sanction_management_gdpr_article_25_privacy_control
+      evidence: sanction_management_gdpr_article_25_compliance_record
+    article_32:
+      implementation: sanction_management_gdpr_article_32_privacy_control
+      evidence: sanction_management_gdpr_article_32_compliance_record
+    article_35:
+      implementation: sanction_management_gdpr_article_35_privacy_control
+      evidence: sanction_management_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: sanction_management_iso42001_clause_4_1_aims_control
+      evidence: sanction_management_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: sanction_management_iso42001_clause_4_2_aims_control
+      evidence: sanction_management_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: sanction_management_iso42001_clause_5_1_aims_control
+      evidence: sanction_management_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: sanction_management_iso42001_clause_5_2_aims_control
+      evidence: sanction_management_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: sanction_management_iso42001_clause_6_1_aims_control
+      evidence: sanction_management_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: sanction_management_iso42001_clause_8_1_aims_control
+      evidence: sanction_management_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: sanction_management_iso42001_clause_9_1_aims_control
+      evidence: sanction_management_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: sanction_management_iso42001_clause_10_1_aims_control
+      evidence: sanction_management_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: sanction_management_iso23894_risk_identification_alignment
+      evidence: sanction_management_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: sanction_management_iso23894_risk_analysis_alignment
+      evidence: sanction_management_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: sanction_management_iso23894_risk_evaluation_alignment
+      evidence: sanction_management_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: sanction_management_iso23894_risk_treatment_alignment
+      evidence: sanction_management_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: sanction_management_iso23894_risk_monitoring_alignment
+      evidence: sanction_management_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: sanction_management_iso19011_audit_principles_procedure
+      evidence: sanction_management_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: sanction_management_iso19011_audit_programme_management_procedure
+      evidence: sanction_management_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: sanction_management_iso19011_audit_evidence_requirements_procedure
+      evidence: sanction_management_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: sanction_management_iso19011_audit_reporting_procedure
+      evidence: sanction_management_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: sanction_management_nist_rmf_govern_control_mapping
+      evidence: sanction_management_nist_rmf_govern_assessment
+    map:
+      implementation: sanction_management_nist_rmf_map_control_mapping
+      evidence: sanction_management_nist_rmf_map_assessment
+    measure:
+      implementation: sanction_management_nist_rmf_measure_control_mapping
+      evidence: sanction_management_nist_rmf_measure_assessment
+    manage:
+      implementation: sanction_management_nist_rmf_manage_control_mapping
+      evidence: sanction_management_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: sanction_management_nist_csf_identify_safeguard
+      evidence: sanction_management_nist_csf_identify_log
+    protect:
+      implementation: sanction_management_nist_csf_protect_safeguard
+      evidence: sanction_management_nist_csf_protect_log
+    detect:
+      implementation: sanction_management_nist_csf_detect_safeguard
+      evidence: sanction_management_nist_csf_detect_log
+    respond:
+      implementation: sanction_management_nist_csf_respond_safeguard
+      evidence: sanction_management_nist_csf_respond_log
+    recover:
+      implementation: sanction_management_nist_csf_recover_safeguard
+      evidence: sanction_management_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: sanction_management_oecd_accountability_governance_control
+      evidence: sanction_management_oecd_accountability_attestation
+    transparency:
+      implementation: sanction_management_oecd_transparency_governance_control
+      evidence: sanction_management_oecd_transparency_attestation
+    robustness_security:
+      implementation: sanction_management_oecd_robustness_security_governance_control
+      evidence: sanction_management_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: sanction_management_oecd_inclusive_growth_governance_control
+      evidence: sanction_management_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: sanction_management_unesco_human_rights_ethics_control
+      evidence: sanction_management_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: sanction_management_unesco_fairness_non_discrimination_ethics_control
+      evidence: sanction_management_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: sanction_management_unesco_transparency_explainability_ethics_control
+      evidence: sanction_management_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: sanction_management_unesco_accountability_ethics_control
+      evidence: sanction_management_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Sanction Management covering executive, board, regulatory, audit,
+      forensic, and attestation consumers.
+  report_types:
+    - sanction_management_status_report
+    - sanction_management_compliance_report
+    - sanction_management_enforcement_report
+    - sanction_management_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [sanction_management_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_sanction_management
+  - quarterly_control_testing_sanction_management
+  - evidence_sampling_sanction_management
+  - finding_remediation_tracking_sanction_management
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Sanction Management aligned with ISO/IEC 27037 and legal admissibility
+      standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Sanction Management.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Sanction Management.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Sanction Management.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Sanction Management.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Sanction Management.
+enforcement_requirements:
+  enforcement_framework:
+    Enforcement Framework within Sanction Management scope.
+  enforcement_decision_logic:
+    Enforcement Decision Logic within Sanction Management scope.
+  sanction_management:
+    Sanction Management within Sanction Management scope.
+  penalty_management:
+    Penalty Management within Sanction Management scope.
+  post_enforcement_monitoring:
+    Post Enforcement Monitoring within Sanction Management scope.
+integration_points:
+  upstream_systems:
+    - system: investigation_management
+      purpose: sanction_management_to_investigation_management_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_investigation_management]
+      produced_artifacts: [sanction_management_output_to_investigation_management]
+    - system: enforcement_actions
+      purpose: sanction_management_to_enforcement_actions_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_enforcement_actions]
+      produced_artifacts: [sanction_management_output_to_enforcement_actions]
+    - system: compliance_audits
+      purpose: sanction_management_to_compliance_audits_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_compliance_audits]
+      produced_artifacts: [sanction_management_output_to_compliance_audits]
+  downstream_systems:
+    - system: remediation_tracking
+      purpose: sanction_management_to_remediation_tracking_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_remediation_tracking]
+      produced_artifacts: [sanction_management_output_to_remediation_tracking]
+    - system: reporting
+      purpose: sanction_management_to_reporting_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_reporting]
+      produced_artifacts: [sanction_management_output_to_reporting]
+    - system: enforcement_actions
+      purpose: sanction_management_to_enforcement_actions_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_enforcement_actions]
+      produced_artifacts: [sanction_management_output_to_enforcement_actions]
+  governance_integrations:
+    - system: ai_liability
+      purpose: sanction_management_to_ai_liability_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_ai_liability]
+      produced_artifacts: [sanction_management_output_to_ai_liability]
+    - system: legal_interoperability
+      purpose: sanction_management_to_legal_interoperability_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_legal_interoperability]
+      produced_artifacts: [sanction_management_output_to_legal_interoperability]
+  risk_integrations:
+    - system: ai_liability
+      purpose: sanction_management_to_ai_liability_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_ai_liability]
+      produced_artifacts: [sanction_management_output_to_ai_liability]
+    - system: compliance_scoring
+      purpose: sanction_management_to_compliance_scoring_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_compliance_scoring]
+      produced_artifacts: [sanction_management_output_to_compliance_scoring]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: sanction_management_to_compliance_audits_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_compliance_audits]
+      produced_artifacts: [sanction_management_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: sanction_management_to_internal_audit_system_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_internal_audit_system]
+      produced_artifacts: [sanction_management_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: sanction_management_to_governance_reporting_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_governance_reporting]
+      produced_artifacts: [sanction_management_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: sanction_management_to_executive_dashboard_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_executive_dashboard]
+      produced_artifacts: [sanction_management_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: sanction_management_to_enforcement_actions_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_enforcement_actions]
+      produced_artifacts: [sanction_management_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: sanction_management_to_policy_enforcement_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_policy_enforcement]
+      produced_artifacts: [sanction_management_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: sanction_management_to_remediation_tracking_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_remediation_tracking]
+      produced_artifacts: [sanction_management_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: sanction_management_to_remediation_engine_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_remediation_engine]
+      produced_artifacts: [sanction_management_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: sanction_management_to_evidence_preservation_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_evidence_preservation]
+      produced_artifacts: [sanction_management_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: sanction_management_to_technical_documentation_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_technical_documentation]
+      produced_artifacts: [sanction_management_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: sanction_management_to_post_market_monitoring_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_post_market_monitoring]
+      produced_artifacts: [sanction_management_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: sanction_management_to_incident_reporting_governance_sync
+      data_exchanged: [sanction_management_events, sanction_management_evidence_refs, sanction_management_metrics]
+      trigger_conditions: [sanction_management_state_change, sanction_management_escalation, sanction_management_closure]
+      consumed_artifacts: [sanction_management_input_from_incident_reporting]
+      produced_artifacts: [sanction_management_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Sanction Management activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Sanction Management procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - sanction_management_procedure_checklist
+    required_evidence:
+      - sanction_management_process_log
+    required_metrics:
+      - sanction_management_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Sanction Management enterprise-wide.
+    required_capabilities:
+      - sanction_management_standard_control_set
+    required_controls:
+      - sanction_management_control_register
+    required_evidence:
+      - sanction_management_audit_evidence
+    required_metrics:
+      - sanction_management_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Sanction Management with KPI optimization.
+    required_capabilities:
+      - sanction_management_automated_controls
+    required_controls:
+      - sanction_management_telemetry_controls
+    required_evidence:
+      - sanction_management_assurance_package
+    required_metrics:
+      - sanction_management_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Sanction Management with predictive analytics.
+    required_capabilities:
+      - sanction_management_autonomous_governance
+    required_controls:
+      - sanction_management_adaptive_controls
+    required_evidence:
+      - sanction_management_regulator_ready_portfolio
+    required_metrics:
+      - sanction_management_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - sanction_management_report
+  - sanction_management_evidence_package
+  - sanction_management_attestation
+  - sanction_management_enforcement_record
+artifacts:
+  - name: sanction_management_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: sanction_management_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: sanction_management_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: sanction_management_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - sanction_management_case_record
+  - sanction_management_audit_record
+  - sanction_management_enforcement_record
+  - sanction_management_remediation_record
+monitoring:
+  continuous:
+    - sanction_management_control_telemetry
+    - sanction_management_evidence_integrity_feed
+    - sanction_management_escalation_queue
+  periodic:
+    - sanction_management_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Sanction Management effectiveness, regulatory change impact assessment, and
+    control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: sanction_management_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: sanction_management_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: sanction_management_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: sanction_management_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Sanction Management

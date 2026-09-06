@@ -1,0 +1,674 @@
+metadata:
+  id: CE-CT-CETRA-001
+  name: ce_traceability_taxonomy
+  title: Ce Traceability Taxonomy
+  version: 1.0.0
+  status: production
+  owner: CE Marking and Conformity Office
+  maintainers:
+    - ce_conformity
+    - regulatory_affairs
+    - notified_body_liaison
+  created_date: 2026-06-12
+  last_updated: 2026-06-12
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: ce_marketing
+  skill_type: ce_traceability
+  lifecycle_phase: operate
+  jurisdiction: EU_EEA
+  language: en
+  tags:
+    - ce_traceability
+    - ce_traceability_taxonomy
+    - ce_marking
+    - conformity
+    - eu_ai_act
+    - notified_body
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GPAI Obligations
+    - ISO 42001
+    - ISO 23894
+    - ISO 27001
+    - ISO 9001
+    - NIST AI RMF
+    - GDPR
+    - CE Marking Framework
+  skill_functions:
+    - governance_skill
+    - conformity_skill
+    - certification_skill
+    - compliance_skill
+    - evidence_skill
+    - assessment_skill
+    - regulatory_skill
+    - market_access_skill
+    - monitoring_skill
+    - orchestration_skill
+purpose:
+  >
+    Executable CE Marking skill for Ce Traceability Taxonomy within ce_marketing/ce_traceability.
+    Delivers conformity-assessment-ready, notified-body-ready, market-access-ready operations for
+    traceability, evidence lineage, documentation lineage, conformity lineage. Functions as
+    governance, conformity, certification, compliance, evidence, assessment, regulatory, market-
+    access, monitoring, and orchestration skill.
+scope:
+  >
+    All AI systems, technical documentation, conformity assessments, declarations of conformity,
+    notified body interactions, and market authorization activities governed by Ce Traceability
+    Taxonomy.
+objectives:
+  - Operationalize Ce Traceability Taxonomy as executable CE marking conformity skill
+  - Enable notified-body-ready conformity validation for Ce Traceability Taxonomy
+  - Maintain market-access-ready evidence for Ce Traceability Taxonomy
+  - Integrate Ce Traceability Taxonomy with declaration and market authorization lifecycle
+  - Support post-certification monitoring and recertification for Ce Traceability Taxonomy
+definitions:
+  ce_traceability_taxonomy_conformity_assertion:
+    Formal conformity statement for Ce Traceability Taxonomy supported by indexed evidence.
+  ce_traceability_taxonomy_notified_body_evidence:
+    Evidence package suitable for notified body conformity assessment review.
+  ce_traceability_taxonomy_market_access_record:
+    Record demonstrating market authorization readiness for Ce Traceability Taxonomy.
+taxonomy:
+  root: ce_traceability_taxonomy_taxonomy
+  conformity_phase:
+    - preparation
+    - assessment
+    - declaration
+    - market_placement
+    - surveillance
+  ce_traceability_taxonomy_status:
+    - draft
+    - validated
+    - approved
+    - published
+    - suspended
+governance:
+  policy_owner: Ce Traceability Taxonomy Conformity Lead
+  oversight_body: CE Marking Governance Committee
+  domain: ce_traceability
+roles_and_responsibilities:
+  ce_traceability_taxonomy_conformity_officer:
+    responsibilities:
+      - Accountable for Ce Traceability Taxonomy conformity outcomes
+  ce_traceability_taxonomy_technical_documentation_lead:
+    responsibilities:
+      - Maintains Article 11 technical file for Ce Traceability Taxonomy
+  notified_body_liaison:
+    responsibilities:
+      - Coordinates notified body assessment activities
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Conformity Assessment Director
+    - Regulatory Affairs
+    - Notified Body Liaison
+capabilities:
+  - id: CE-CAP-001
+    name: CE Marking Governance
+    status: production
+  - id: CE-CAP-002
+    name: Conformity Assessment
+    status: production
+  - id: CE-CAP-003
+    name: Conformity Validation
+    status: production
+  - id: CE-CAP-004
+    name: Technical Documentation Governance
+    status: production
+  - id: CE-CAP-005
+    name: Declaration of Conformity Governance
+    status: production
+  - id: CE-CAP-006
+    name: Notified Body Coordination
+    status: production
+  - id: CE-CAP-007
+    name: Market Authorization Readiness
+    status: production
+  - id: CE-CAP-008
+    name: Post-Certification Monitoring
+    status: production
+controls:
+  - control_id: CE-CE_T-CE_TRACE-CETRACEAB
+    control_name: ce_traceability_taxonomy_conformity_validation
+    control_category: preventive
+    control_objective: Validate conformity for Ce Traceability Taxonomy
+    regulatory_rationale: ce_traceability_taxonomy_conformity_validation implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_traceability_taxonomy_conformity_validation in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_traceability_taxonomy_conformity_validation_telemetry_stream
+    validation_method: ce_traceability_taxonomy_conformity_validation_conformity_test
+    testing_method: ce_traceability_taxonomy_conformity_validation_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_traceability_taxonomy_conformity_validation_execution_record
+    audit_considerations: Notified body may sample ce_traceability_taxonomy_conformity_validation during conformity assessment.
+  - control_id: CE-CE_T-CE_TRACE-CETRACEAB
+    control_name: ce_traceability_taxonomy_evidence_integrity_assurance
+    control_category: detective
+    control_objective: Assure evidence integrity for Ce Traceability Taxonomy
+    regulatory_rationale: ce_traceability_taxonomy_evidence_integrity_assurance implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_traceability_taxonomy_evidence_integrity_assurance in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_traceability_taxonomy_evidence_integrity_assurance_telemetry_stream
+    validation_method: ce_traceability_taxonomy_evidence_integrity_assurance_conformity_test
+    testing_method: ce_traceability_taxonomy_evidence_integrity_assurance_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_traceability_taxonomy_evidence_integrity_assurance_execution_record
+    audit_considerations: Notified body may sample ce_traceability_taxonomy_evidence_integrity_assurance during conformity assessment.
+  - control_id: CE-CE_T-CE_TRACE-CETRACEAB
+    control_name: ce_traceability_taxonomy_notified_body_readiness_gate
+    control_category: preventive
+    control_objective: Gate notified body readiness for Ce Traceability Taxonomy
+    regulatory_rationale: ce_traceability_taxonomy_notified_body_readiness_gate implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_traceability_taxonomy_notified_body_readiness_gate in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_traceability_taxonomy_notified_body_readiness_gate_telemetry_stream
+    validation_method: ce_traceability_taxonomy_notified_body_readiness_gate_conformity_test
+    testing_method: ce_traceability_taxonomy_notified_body_readiness_gate_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_traceability_taxonomy_notified_body_readiness_gate_execution_record
+    audit_considerations: Notified body may sample ce_traceability_taxonomy_notified_body_readiness_gate during conformity assessment.
+  - control_id: CE-CE_T-CE_TRACE-CETECHNIC
+    control_name: ce_technical_documentation_completeness
+    control_category: detective
+    control_objective: Verify technical documentation for Ce Traceability Taxonomy
+    regulatory_rationale: ce_technical_documentation_completeness implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_technical_documentation_completeness in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_technical_documentation_completeness_telemetry_stream
+    validation_method: ce_technical_documentation_completeness_conformity_test
+    testing_method: ce_technical_documentation_completeness_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_technical_documentation_completeness_execution_record
+    audit_considerations: Notified body may sample ce_technical_documentation_completeness during conformity assessment.
+  - control_id: CE-CE_T-CE_TRACE-CETRACEAB
+    control_name: ce_traceability_taxonomy_declaration_alignment_checker
+    control_category: detective
+    control_objective: Check declaration alignment for Ce Traceability Taxonomy
+    regulatory_rationale: ce_traceability_taxonomy_declaration_alignment_checker implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_traceability_taxonomy_declaration_alignment_checker in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_traceability_taxonomy_declaration_alignment_checker_telemetry_stream
+    validation_method: ce_traceability_taxonomy_declaration_alignment_checker_conformity_test
+    testing_method: ce_traceability_taxonomy_declaration_alignment_checker_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_traceability_taxonomy_declaration_alignment_checker_execution_record
+    audit_considerations: Notified body may sample ce_traceability_taxonomy_declaration_alignment_checker during conformity assessment.
+  - control_id: CE-CE_T-CE_TRACE-CETRACEAB
+    control_name: ce_traceability_taxonomy_market_authorization_readiness
+    control_category: preventive
+    control_objective: Assure market authorization readiness for Ce Traceability Taxonomy
+    regulatory_rationale: ce_traceability_taxonomy_market_authorization_readiness implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_traceability_taxonomy_market_authorization_readiness in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_traceability_taxonomy_market_authorization_readiness_telemetry_stream
+    validation_method: ce_traceability_taxonomy_market_authorization_readiness_conformity_test
+    testing_method: ce_traceability_taxonomy_market_authorization_readiness_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_traceability_taxonomy_market_authorization_readiness_execution_record
+    audit_considerations: Notified body may sample ce_traceability_taxonomy_market_authorization_readiness during conformity assessment.
+  - control_id: CE-CE_T-CE_TRACE-CETRACEAB
+    control_name: ce_traceability_taxonomy_regulatory_submission_validation
+    control_category: preventive
+    control_objective: Validate regulatory submissions for Ce Traceability Taxonomy
+    regulatory_rationale: ce_traceability_taxonomy_regulatory_submission_validation implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_traceability_taxonomy_regulatory_submission_validation in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_traceability_taxonomy_regulatory_submission_validation_telemetry_stream
+    validation_method: ce_traceability_taxonomy_regulatory_submission_validation_conformity_test
+    testing_method: ce_traceability_taxonomy_regulatory_submission_validation_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_traceability_taxonomy_regulatory_submission_validation_execution_record
+    audit_considerations: Notified body may sample ce_traceability_taxonomy_regulatory_submission_validation during conformity assessment.
+  - control_id: CE-CE_T-CE_TRACE-CETRACEAB
+    control_name: ce_traceability_taxonomy_post_certification_monitoring_link
+    control_category: detective
+    control_objective: Link post-certification monitoring for Ce Traceability Taxonomy
+    regulatory_rationale: ce_traceability_taxonomy_post_certification_monitoring_link implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_traceability_taxonomy_post_certification_monitoring_link in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_traceability_taxonomy_post_certification_monitoring_link_telemetry_stream
+    validation_method: ce_traceability_taxonomy_post_certification_monitoring_link_conformity_test
+    testing_method: ce_traceability_taxonomy_post_certification_monitoring_link_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_traceability_taxonomy_post_certification_monitoring_link_execution_record
+    audit_considerations: Notified body may sample ce_traceability_taxonomy_post_certification_monitoring_link during conformity assessment.
+  - control_id: CE-CE_T-CE_TRACE-CETRACEAB
+    control_name: ce_traceability_taxonomy_ce_marking_evidence_sealer
+    control_category: evidence
+    control_objective: Seal CE marking evidence for Ce Traceability Taxonomy
+    regulatory_rationale: ce_traceability_taxonomy_ce_marking_evidence_sealer implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_traceability_taxonomy_ce_marking_evidence_sealer in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_traceability_taxonomy_ce_marking_evidence_sealer_telemetry_stream
+    validation_method: ce_traceability_taxonomy_ce_marking_evidence_sealer_conformity_test
+    testing_method: ce_traceability_taxonomy_ce_marking_evidence_sealer_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_traceability_taxonomy_ce_marking_evidence_sealer_execution_record
+    audit_considerations: Notified body may sample ce_traceability_taxonomy_ce_marking_evidence_sealer during conformity assessment.
+  - control_id: CE-CE_T-CE_TRACE-CETRACEAB
+    control_name: ce_traceability_taxonomy_conformity_assurance_attestation
+    control_category: audit
+    control_objective: Attest conformity controls for Ce Traceability Taxonomy
+    regulatory_rationale: ce_traceability_taxonomy_conformity_assurance_attestation implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_traceability_taxonomy_conformity_assurance_attestation in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_traceability_taxonomy_conformity_assurance_attestation_telemetry_stream
+    validation_method: ce_traceability_taxonomy_conformity_assurance_attestation_conformity_test
+    testing_method: ce_traceability_taxonomy_conformity_assurance_attestation_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_traceability_taxonomy_conformity_assurance_attestation_execution_record
+    audit_considerations: Notified body may sample ce_traceability_taxonomy_conformity_assurance_attestation during conformity assessment.
+  - control_id: CE-CE_T-CE_TRACE-CETRACEAB
+    control_name: ce_traceability_taxonomy_cross_border_compliance_validator
+    control_category: preventive
+    control_objective: Validate cross-border compliance for Ce Traceability Taxonomy
+    regulatory_rationale: ce_traceability_taxonomy_cross_border_compliance_validator implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_traceability_taxonomy_cross_border_compliance_validator in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_traceability_taxonomy_cross_border_compliance_validator_telemetry_stream
+    validation_method: ce_traceability_taxonomy_cross_border_compliance_validator_conformity_test
+    testing_method: ce_traceability_taxonomy_cross_border_compliance_validator_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_traceability_taxonomy_cross_border_compliance_validator_execution_record
+    audit_considerations: Notified body may sample ce_traceability_taxonomy_cross_border_compliance_validator during conformity assessment.
+  - control_id: CE-CE_T-CE_TRACE-CETRACEAB
+    control_name: ce_traceability_taxonomy_certification_lifecycle_tracker
+    control_category: detective
+    control_objective: Track certification lifecycle for Ce Traceability Taxonomy
+    regulatory_rationale: ce_traceability_taxonomy_certification_lifecycle_tracker implements EU AI Act conformity obligations for Ce Traceability Taxonomy under ce_traceability.
+    implementation_guidance: Deploy ce_traceability_taxonomy_certification_lifecycle_tracker in ce_traceability_taxonomy workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ce_traceability_taxonomy_certification_lifecycle_tracker_telemetry_stream
+    validation_method: ce_traceability_taxonomy_certification_lifecycle_tracker_conformity_test
+    testing_method: ce_traceability_taxonomy_certification_lifecycle_tracker_sampling_audit
+    control_owner: ce_traceability_taxonomy_conformity_owner
+    evidence_generated: ce_traceability_taxonomy_certification_lifecycle_tracker_execution_record
+    audit_considerations: Notified body may sample ce_traceability_taxonomy_certification_lifecycle_tracker during conformity assessment.
+workflows:
+  - workflow_id: WF-CE-CE_TRACEABILITY_TAXO
+    workflow_name: ce_traceability_taxonomy_conformity_workflow
+    workflow_owner: ce_traceability_taxonomy_workflow_owner
+    trigger: ce_traceability_taxonomy_conformity_event
+    inputs:
+      - ce_traceability_taxonomy_conformity_context
+      - ce_traceability_taxonomy_evidence_index
+    activities:
+      - ce_traceability_taxonomy_intake
+      - ce_traceability_taxonomy_validation
+      - ce_traceability_taxonomy_evidence_review
+      - ce_traceability_taxonomy_approval
+      - ce_traceability_taxonomy_attestation
+      - ce_traceability_taxonomy_closure
+    decision_points:
+      - ce_traceability_taxonomy_conformity_decision
+      - ce_traceability_taxonomy_escalation_decision
+    approvals:
+      - ce_traceability_taxonomy_conformity_officer_approval
+    outputs:
+      - ce_traceability_taxonomy_conformity_record
+    evidence_generated:
+      - ce_traceability_taxonomy_workflow_log
+      - ce_traceability_taxonomy_attestation
+    success_criteria:
+      - ce_traceability_taxonomy_conformity_validated
+      - ce_traceability_taxonomy_evidence_complete
+    failure_conditions:
+      - ce_traceability_taxonomy_critical_gap_unresolved
+      - ce_traceability_taxonomy_evidence_integrity_failure
+  - workflow_id: WF-CE-CE_MARKING_P
+    workflow_name: ce_traceability_taxonomy_ce_marking_preparation_workflow
+    linked: true
+    trigger: ce_traceability_taxonomy_ce_marking_preparation_initiated
+  - workflow_id: WF-CE-CONFORMITY_A
+    workflow_name: ce_traceability_taxonomy_conformity_assessment_workflow
+    linked: true
+    trigger: ce_traceability_taxonomy_conformity_assessment_initiated
+  - workflow_id: WF-CE-NOTIFIED_BOD
+    workflow_name: ce_traceability_taxonomy_notified_body_engagement_workflow
+    linked: true
+    trigger: ce_traceability_taxonomy_notified_body_engagement_initiated
+  - workflow_id: WF-CE-DECLARATION_
+    workflow_name: ce_traceability_taxonomy_declaration_of_conformity_workflow
+    linked: true
+    trigger: ce_traceability_taxonomy_declaration_of_conformity_initiated
+  - workflow_id: WF-CE-MARKET_AUTHO
+    workflow_name: ce_traceability_taxonomy_market_authorization_workflow
+    linked: true
+    trigger: ce_traceability_taxonomy_market_authorization_initiated
+  - workflow_id: WF-CE-POST_CERTIFI
+    workflow_name: ce_traceability_taxonomy_post_certification_monitoring_workflow
+    linked: true
+    trigger: ce_traceability_taxonomy_post_certification_monitoring_initiated
+  - workflow_id: WF-CE-RECERTIFICAT
+    workflow_name: ce_traceability_taxonomy_recertification_workflow
+    linked: true
+    trigger: ce_traceability_taxonomy_recertification_initiated
+decision_logic:
+  ce_traceability_taxonomy_conformity_gate:
+    condition: ce_traceability_taxonomy_readiness_score >= 0.95 AND ce_traceability_taxonomy_evidence_complete == true
+    action: authorize_ce_traceability_taxonomy_progression
+    approval_required: conformity_officer
+conformity_assessment:
+  assessment_scope: Ce Traceability Taxonomy EU AI Act conformity dimensions
+  assessment_methodology: ce_traceability_taxonomy_iso_19011_conformity_method
+  assessment_criteria: ce_traceability_taxonomy_annex_iii_and_article_requirements
+  conformity_dimensions:
+    - technical
+    - organizational
+    - operational
+    - documentation
+  evidence_requirements:
+    - ce_traceability_taxonomy_technical_file
+    - ce_traceability_taxonomy_risk_assessment
+    - ce_traceability_taxonomy_validation_records
+  acceptance_thresholds: ce_traceability_taxonomy_readiness_score >= 0.95
+  rejection_thresholds: ce_traceability_taxonomy_critical_gap == true
+metrics:
+  - metric_name: traceability_completeness_rate
+    metric_category: conformity
+    formula: computed_traceability_completeness_rate_from_ce_traceability_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_traceability_taxonomy_metrics_owner
+    data_source: ce_traceability_taxonomy_conformity_warehouse
+    evidence_generated: traceability_completeness_rate_measurement_record
+  - metric_name: evidence_lineage_integrity_score
+    metric_category: conformity
+    formula: computed_evidence_lineage_integrity_score_from_ce_traceability_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_traceability_taxonomy_metrics_owner
+    data_source: ce_traceability_taxonomy_conformity_warehouse
+    evidence_generated: evidence_lineage_integrity_score_measurement_record
+  - metric_name: conformity_lineage_coverage
+    metric_category: conformity
+    formula: computed_conformity_lineage_coverage_from_ce_traceability_taxonomy_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_traceability_taxonomy_metrics_owner
+    data_source: ce_traceability_taxonomy_conformity_warehouse
+    evidence_generated: conformity_lineage_coverage_measurement_record
+  - metric_name: audit_chain_integrity_score
+    metric_category: conformity
+    formula: computed_audit_chain_integrity_score_from_ce_traceability_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_traceability_taxonomy_metrics_owner
+    data_source: ce_traceability_taxonomy_conformity_warehouse
+    evidence_generated: audit_chain_integrity_score_measurement_record
+  - metric_name: supply_chain_traceability_coverage
+    metric_category: conformity
+    formula: computed_supply_chain_traceability_coverage_from_ce_traceability_taxonomy_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_traceability_taxonomy_metrics_owner
+    data_source: ce_traceability_taxonomy_conformity_warehouse
+    evidence_generated: supply_chain_traceability_coverage_measurement_record
+  - metric_name: decision_trace_linkage_rate
+    metric_category: conformity
+    formula: computed_decision_trace_linkage_rate_from_ce_traceability_taxonomy_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: ce_traceability_taxonomy_metrics_owner
+    data_source: ce_traceability_taxonomy_conformity_warehouse
+    evidence_generated: decision_trace_linkage_rate_measurement_record
+kpis:
+  - traceability_completeness_rate
+  - evidence_lineage_integrity_score
+  - conformity_lineage_coverage
+  - audit_chain_integrity_score
+kris:
+  - supply_chain_traceability_coverage
+  - decision_trace_linkage_rate
+evidence_requirements:
+  - evidence_name: ce_traceability_taxonomy_conformity_assessment_record
+    evidence_type: conformity
+    business_purpose: Support Ce Traceability Taxonomy conformity assessment and CE marking
+    generation_method: automated_ce_traceability_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: ce_traceability_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: ce_traceability_taxonomy_technical_documentation_extract
+    evidence_type: conformity
+    business_purpose: Support Ce Traceability Taxonomy conformity assessment and CE marking
+    generation_method: automated_ce_traceability_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: ce_traceability_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: ce_traceability_taxonomy_validation_report
+    evidence_type: conformity
+    business_purpose: Support Ce Traceability Taxonomy conformity assessment and CE marking
+    generation_method: automated_ce_traceability_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: ce_traceability_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: ce_traceability_taxonomy_notified_body_correspondence
+    evidence_type: conformity
+    business_purpose: Support Ce Traceability Taxonomy conformity assessment and CE marking
+    generation_method: automated_ce_traceability_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: ce_traceability_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: ce_traceability_taxonomy_declaration_reference
+    evidence_type: conformity
+    business_purpose: Support Ce Traceability Taxonomy conformity assessment and CE marking
+    generation_method: automated_ce_traceability_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: ce_traceability_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: ce_traceability_taxonomy_market_authorization_record
+    evidence_type: conformity
+    business_purpose: Support Ce Traceability Taxonomy conformity assessment and CE marking
+    generation_method: automated_ce_traceability_taxonomy_pipeline
+    retention_period: 10_years
+    validation_method: ce_traceability_taxonomy_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+attestation_requirements:
+  - attestation: ce_traceability_taxonomy_conformity_attestation
+    owner: conformity_officer
+    frequency: quarterly
+domain_reports:
+  - report_name: ce_traceability_taxonomy_status_dashboard
+    report_owner: ce_traceability_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: ce_traceability_taxonomy_conformity_summary
+    report_owner: ce_traceability_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: ce_traceability_taxonomy_regulatory_brief
+    report_owner: ce_traceability_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: ce_traceability_taxonomy_executive_report
+    report_owner: ce_traceability_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: ce_traceability_taxonomy_assurance_pack
+    report_owner: ce_traceability_taxonomy_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+altai_conformity:
+  agent_conformity:
+    validation: ce_traceability_taxonomy_agent_conformity_validation
+    traceability: ce_traceability_taxonomy_agent_conformity_traceability
+    monitoring: ce_traceability_taxonomy_agent_conformity_monitoring
+  reasoning_conformity:
+    validation: ce_traceability_taxonomy_reasoning_conformity_validation
+    traceability: ce_traceability_taxonomy_reasoning_conformity_traceability
+    monitoring: ce_traceability_taxonomy_reasoning_conformity_monitoring
+  memory_conformity:
+    validation: ce_traceability_taxonomy_memory_conformity_validation
+    traceability: ce_traceability_taxonomy_memory_conformity_traceability
+    monitoring: ce_traceability_taxonomy_memory_conformity_monitoring
+  tool_conformity:
+    validation: ce_traceability_taxonomy_tool_conformity_validation
+    traceability: ce_traceability_taxonomy_tool_conformity_traceability
+    monitoring: ce_traceability_taxonomy_tool_conformity_monitoring
+  foundation_model_conformity:
+    validation: ce_traceability_taxonomy_foundation_model_conformity_validation
+    traceability: ce_traceability_taxonomy_foundation_model_conformity_traceability
+    monitoring: ce_traceability_taxonomy_foundation_model_conformity_monitoring
+  gpai_conformity:
+    validation: ce_traceability_taxonomy_gpai_conformity_validation
+    traceability: ce_traceability_taxonomy_gpai_conformity_traceability
+    monitoring: ce_traceability_taxonomy_gpai_conformity_monitoring
+compliance_mapping:
+  article_11:
+    article: Article 11
+    obligation: Ce Traceability Taxonomy conformity under Article 11
+    implementation_method: ce_traceability_taxonomy_article_11_controls
+    evidence_required: [ce_traceability_taxonomy_article_11_evidence]
+    validation_method: ce_traceability_taxonomy_article_11_conformity_test
+    assurance_method: ce_traceability_taxonomy_article_11_assurance_review
+  article_12:
+    article: Article 12
+    obligation: Ce Traceability Taxonomy conformity under Article 12
+    implementation_method: ce_traceability_taxonomy_article_12_controls
+    evidence_required: [ce_traceability_taxonomy_article_12_evidence]
+    validation_method: ce_traceability_taxonomy_article_12_conformity_test
+    assurance_method: ce_traceability_taxonomy_article_12_assurance_review
+  article_18:
+    article: Article 18
+    obligation: Ce Traceability Taxonomy conformity under Article 18
+    implementation_method: ce_traceability_taxonomy_article_18_controls
+    evidence_required: [ce_traceability_taxonomy_article_18_evidence]
+    validation_method: ce_traceability_taxonomy_article_18_conformity_test
+    assurance_method: ce_traceability_taxonomy_article_18_assurance_review
+  article_19:
+    article: Article 19
+    obligation: Ce Traceability Taxonomy conformity under Article 19
+    implementation_method: ce_traceability_taxonomy_article_19_controls
+    evidence_required: [ce_traceability_taxonomy_article_19_evidence]
+    validation_method: ce_traceability_taxonomy_article_19_conformity_test
+    assurance_method: ce_traceability_taxonomy_article_19_assurance_review
+relationships:
+  conformity_links:
+    - source: ce_traceability_taxonomy
+      target: ce_traceability_taxonomy_to_declaration_of_conformity
+      relationship_type: governs
+      confidence: 0.95
+  certification_links:
+    - source: ce_traceability_taxonomy
+      target: ce_traceability_taxonomy_to_ce_certification
+      relationship_type: governs
+      confidence: 0.95
+  evidence_links:
+    - source: ce_traceability_taxonomy
+      target: ce_traceability_taxonomy_to_conformity_evidence
+      relationship_type: governs
+      confidence: 0.95
+  documentation_links:
+    - source: ce_traceability_taxonomy
+      target: ce_traceability_taxonomy_to_technical_documentation
+      relationship_type: governs
+      confidence: 0.95
+integration_points:
+  - system: provider_obligations
+    purpose: ce_traceability_taxonomy_to_provider_obligations_conformity_sync
+    data_exchanged: [ce_traceability_taxonomy_conformity_scores, ce_traceability_taxonomy_evidence_refs]
+    consumed_artifacts: [provider_obligations_records]
+    produced_artifacts: [ce_traceability_taxonomy_conformity_package]
+  - system: technical_documentation
+    purpose: ce_traceability_taxonomy_to_technical_documentation_conformity_sync
+    data_exchanged: [ce_traceability_taxonomy_conformity_scores, ce_traceability_taxonomy_evidence_refs]
+    consumed_artifacts: [technical_documentation_records]
+    produced_artifacts: [ce_traceability_taxonomy_conformity_package]
+  - system: risk_management
+    purpose: ce_traceability_taxonomy_to_risk_management_conformity_sync
+    data_exchanged: [ce_traceability_taxonomy_conformity_scores, ce_traceability_taxonomy_evidence_refs]
+    consumed_artifacts: [risk_management_records]
+    produced_artifacts: [ce_traceability_taxonomy_conformity_package]
+  - system: post_market_monitoring
+    purpose: ce_traceability_taxonomy_to_post_market_monitoring_conformity_sync
+    data_exchanged: [ce_traceability_taxonomy_conformity_scores, ce_traceability_taxonomy_evidence_refs]
+    consumed_artifacts: [post_market_monitoring_records]
+    produced_artifacts: [ce_traceability_taxonomy_conformity_package]
+  - system: audit_and_enforcement
+    purpose: ce_traceability_taxonomy_to_audit_and_enforcement_conformity_sync
+    data_exchanged: [ce_traceability_taxonomy_conformity_scores, ce_traceability_taxonomy_evidence_refs]
+    consumed_artifacts: [audit_and_enforcement_records]
+    produced_artifacts: [ce_traceability_taxonomy_conformity_package]
+attestation_framework:
+  attestation_owner: ce_traceability_taxonomy_conformity_officer
+  attestation_frequency: quarterly
+  attestation_evidence: [ce_traceability_taxonomy_conformity_attestation, ce_traceability_taxonomy_control_effectiveness_review]
+maturity_model:
+  level_1:
+    name: Initial
+    characteristics: Ad hoc conformity for Ce Traceability Taxonomy
+  level_2:
+    name: Developing
+    characteristics: Documented procedures for Ce Traceability Taxonomy
+  level_3:
+    name: Managed
+    characteristics: Standardized enterprise-wide for Ce Traceability Taxonomy
+  level_4:
+    name: Advanced
+    characteristics: Measured with KPIs for Ce Traceability Taxonomy
+  level_5:
+    name: Optimized
+    characteristics: Predictive conformity for Ce Traceability Taxonomy
+risk_model:
+  risk_sources: [ce_traceability_taxonomy_conformity_gap, ce_traceability_taxonomy_evidence_failure, ce_traceability_taxonomy_notified_body_finding]
+  risk_monitoring: ce_traceability_taxonomy_conformity_risk_dashboard
+crosswalks:
+  eu_ai_act:
+    implementation: ce_traceability_taxonomy_eu_ai_act_conformity_mapping
+    evidence: ce_traceability_taxonomy_eu_ai_act_conformity_attestation
+  gdpr:
+    implementation: ce_traceability_taxonomy_gdpr_conformity_mapping
+    evidence: ce_traceability_taxonomy_gdpr_conformity_attestation
+  iso_42001:
+    implementation: ce_traceability_taxonomy_iso_42001_conformity_mapping
+    evidence: ce_traceability_taxonomy_iso_42001_conformity_attestation
+  iso_23894:
+    implementation: ce_traceability_taxonomy_iso_23894_conformity_mapping
+    evidence: ce_traceability_taxonomy_iso_23894_conformity_attestation
+  nist_ai_rmf:
+    implementation: ce_traceability_taxonomy_nist_ai_rmf_conformity_mapping
+    evidence: ce_traceability_taxonomy_nist_ai_rmf_conformity_attestation
+monitoring:
+  continuous: [ce_traceability_taxonomy_conformity_telemetry, ce_traceability_taxonomy_readiness_score_feed]
+continuous_improvement:
+  feedback_loop: ce_traceability_taxonomy_conformity_retrospective
+escalation:
+  critical_path: chief_compliance_officer
+versioning:
+  current: 1.0.0

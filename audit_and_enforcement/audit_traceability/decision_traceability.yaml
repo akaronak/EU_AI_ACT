@@ -1,0 +1,1882 @@
+metadata:
+  id: AAE-AT-DECTRA-001
+  name: decision_traceability
+  title: Decision Traceability
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: audit_traceability
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - audit_traceability
+    - decision_traceability
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Decision Traceability governance within
+    audit_and_enforcement/audit_traceability, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for end-to-end trace linkage across systems, decisions, and runtime
+    events, deterministic decision trees with auditable rationale capture. Integrates with the EU AI
+    Act governance ecosystem through machine-evaluable obligations, evidence preservation, and
+    conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Decision Traceability across enterprise and
+    cross-border operations within audit_and_enforcement/audit_traceability.
+objectives:
+  - Operationalize Decision Traceability with regulator-defensible controls and evidence chains
+  - Enable automated validation of Decision Traceability conformance across audit_traceability
+  - Preserve audit-grade and forensic-grade records for all Decision Traceability activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Decision Traceability with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Decision Traceability
+definitions:
+  decision_traceability_governance_domain:
+    >
+      The operational jurisdiction of Decision Traceability encompassing controlled audit,
+      enforcement, investigation, and evidence processes within audit_traceability.
+  decision_traceability_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Decision Traceability control
+      effectiveness, process adherence, and regulatory conformity.
+  decision_traceability_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Decision Traceability decision logic.
+  decision_traceability_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Decision Traceability processes.
+  decision_traceability_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within Decision
+      Traceability operations.
+  decision_traceability_conformity_assertion:
+    >
+      Formal statement that Decision Traceability requirements are met, supported by indexed evidence
+      and validation attestations.
+taxonomy:
+  root: decision_traceability_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  decision_traceability_artifact_type:
+    - decision_traceability_record
+    - decision_traceability_log
+    - decision_traceability_report
+    - decision_traceability_attestation
+    - decision_traceability_package
+  decision_traceability_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Decision Traceability Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: audit_traceability
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - technical_documentation
+    - incident_reporting
+    - core_governance
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - compliance_audits
+    - governance_forensics
+    - evidence_preservation
+    - audit_and_enforcement/audit_traceability/decision_traceability.yaml
+  related_domains:
+    - evidence_preservation
+    - governance_forensics
+    - compliance_audits
+  related_skills:
+    - audit_logging
+    - decision_traceability
+    - immutable_audit_records
+    - decision_traceability
+  parent_governance_objects:
+    - audit_metadata
+    - enforcement_framework
+  child_governance_objects:
+    - audit_log_entry
+    - traceability_chain_record
+    - decision_traceability_governance_object
+  consumes_artifacts:
+    - system_architecture_record
+    - deployment_log
+    - incident_record
+    - decision_traceability_input_artifact
+  produces_artifacts:
+    - audit_trail_package
+    - traceability_assurance_report
+    - decision_traceability_record
+    - decision_traceability_report
+    - decision_traceability_attestation
+  consumes_evidence:
+    - runtime_event_stream
+    - decision_record
+    - model_inference_log
+    - decision_traceability_source_evidence
+  produces_evidence:
+    - immutable_audit_record
+    - cross_system_trace_link
+    - decision_traceability_audit_evidence
+    - decision_traceability_validation_evidence
+    - decision_traceability_enforcement_evidence
+  governance_dependencies:
+    - core_governance
+    - operational_runtime_governance
+  regulatory_dependencies:
+    - eu_ai_act_article_12
+    - eu_ai_act_article_11
+  risk_dependencies:
+    - risk_management
+  control_dependencies:
+    - evidence_preservation
+    - compliance_audits
+    - decision_traceability_control_register
+roles_and_responsibilities:
+  decision_traceability_owner:
+    responsibilities:
+      - Accountable for Decision Traceability strategy, control design, and regulatory alignment
+  decision_traceability_operator:
+    responsibilities:
+      - Executes Decision Traceability workflows and maintains operational records
+  decision_traceability_auditor:
+    responsibilities:
+      - Independently validates Decision Traceability control effectiveness and evidence sufficiency
+  decision_traceability_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Decision Traceability investigations
+  decision_traceability_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Decision Traceability
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-039
+    name: Audit Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-040
+    name: Runtime Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-041
+    name: Decision Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-042
+    name: Model Activity Logging
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-043
+    name: Cross-System Traceability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-033
+    name: Evidence Preservation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-034
+    name: Digital Evidence Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-035
+    name: Chain of Custody
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-036
+    name: Evidence Integrity Validation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-037
+    name: Evidence Archival
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-AUD-DECISION_T-DECISIONTRA
+    control_name: decision_trace_link_integrity_validator
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring trace link integrity validator for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        decision_trace_link_integrity_validator is required to govern Decision Traceability risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected audit traceability
+        failures.
+    implementation_guidance:
+      >
+        Implement decision_trace_link_integrity_validator as automated policy in decision_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: decision_trace_link_integrity_validator_continuous_telemetry_dashboard
+    validation_method:
+      decision_trace_link_integrity_validator_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      decision_trace_link_integrity_validator_statistical_sampling_with_exception_tracking
+    control_owner: decision_traceability_control_owner
+    evidence_generated: decision_trace_link_integrity_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_trace_link_integrity_validator design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_trace_link_integrity_validator outputs may trigger enforcement under
+        decision_traceability escalation rules.
+  - control_id: AAE-AUD-DECISION_T-TRACEABILITY
+    control_name: traceability_decision_provenance_capture
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring decision provenance capture for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        traceability_decision_provenance_capture is required to govern Decision Traceability risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected audit traceability
+        failures.
+    implementation_guidance:
+      >
+        Implement traceability_decision_provenance_capture as automated policy in decision_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: traceability_decision_provenance_capture_continuous_telemetry_dashboard
+    validation_method:
+      traceability_decision_provenance_capture_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      traceability_decision_provenance_capture_statistical_sampling_with_exception_tracking
+    control_owner: decision_traceability_control_owner
+    evidence_generated: traceability_decision_provenance_capture_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify traceability_decision_provenance_capture design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        traceability_decision_provenance_capture outputs may trigger enforcement under
+        decision_traceability escalation rules.
+  - control_id: AAE-AUD-DECISION_T-DECISIONTRA
+    control_name: decision_traceability_runtime_event_correlation_engine
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring runtime event correlation engine for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        decision_traceability_runtime_event_correlation_engine is required to govern Decision
+        Traceability risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected audit traceability failures.
+    implementation_guidance:
+      >
+        Implement decision_traceability_runtime_event_correlation_engine as automated policy in
+        decision_traceability orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      decision_traceability_runtime_event_correlation_engine_continuous_telemetry_dashboard
+    validation_method:
+      >
+        decision_traceability_runtime_event_correlation_engine_quarterly_design_and_operating_effectiven
+        ess_test
+    testing_method:
+      >
+        decision_traceability_runtime_event_correlation_engine_statistical_sampling_with_exception_track
+        ing
+    control_owner: decision_traceability_control_owner
+    evidence_generated: decision_traceability_runtime_event_correlation_engine_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_traceability_runtime_event_correlation_engine design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_traceability_runtime_event_correlation_engine outputs may trigger enforcement under
+        decision_traceability escalation rules.
+  - control_id: AAE-AUD-DECISION_T-DECISIONTRA
+    control_name: decision_traceability_immutable_record_sealer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring immutable record sealer for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        decision_traceability_immutable_record_sealer is required to govern Decision Traceability risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected audit
+        traceability failures.
+    implementation_guidance:
+      >
+        Implement decision_traceability_immutable_record_sealer as automated policy in
+        decision_traceability orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: decision_traceability_immutable_record_sealer_continuous_telemetry_dashboard
+    validation_method:
+      decision_traceability_immutable_record_sealer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      decision_traceability_immutable_record_sealer_statistical_sampling_with_exception_tracking
+    control_owner: decision_traceability_control_owner
+    evidence_generated: decision_traceability_immutable_record_sealer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_traceability_immutable_record_sealer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_traceability_immutable_record_sealer outputs may trigger enforcement under
+        decision_traceability escalation rules.
+  - control_id: AAE-AUD-DECISION_T-DECISIONTRA
+    control_name: decision_traceability_cross_system_trace_weaver
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring cross system trace weaver for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        decision_traceability_cross_system_trace_weaver is required to govern Decision Traceability
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected audit
+        traceability failures.
+    implementation_guidance:
+      >
+        Implement decision_traceability_cross_system_trace_weaver as automated policy in
+        decision_traceability orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: decision_traceability_cross_system_trace_weaver_continuous_telemetry_dashboard
+    validation_method:
+      >
+        decision_traceability_cross_system_trace_weaver_quarterly_design_and_operating_effectiveness_tes
+        t
+    testing_method:
+      decision_traceability_cross_system_trace_weaver_statistical_sampling_with_exception_tracking
+    control_owner: decision_traceability_control_owner
+    evidence_generated: decision_traceability_cross_system_trace_weaver_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_traceability_cross_system_trace_weaver design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_traceability_cross_system_trace_weaver outputs may trigger enforcement under
+        decision_traceability escalation rules.
+  - control_id: AAE-AUD-DECISION_T-DECISIONTRA
+    control_name: decision_traceability_model_activity_journal_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring model activity journal enforcer for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        decision_traceability_model_activity_journal_enforcer is required to govern Decision
+        Traceability risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected audit traceability failures.
+    implementation_guidance:
+      >
+        Implement decision_traceability_model_activity_journal_enforcer as automated policy in
+        decision_traceability orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      decision_traceability_model_activity_journal_enforcer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        decision_traceability_model_activity_journal_enforcer_quarterly_design_and_operating_effectivene
+        ss_test
+    testing_method:
+      >
+        decision_traceability_model_activity_journal_enforcer_statistical_sampling_with_exception_tracki
+        ng
+    control_owner: decision_traceability_control_owner
+    evidence_generated: decision_traceability_model_activity_journal_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_traceability_model_activity_journal_enforcer design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_traceability_model_activity_journal_enforcer outputs may trigger enforcement under
+        decision_traceability escalation rules.
+  - control_id: AAE-AUD-DECISION_T-DECISIONTRA
+    control_name: decision_traceability_trace_gap_detector
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring trace gap detector for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        decision_traceability_trace_gap_detector is required to govern Decision Traceability risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected audit traceability
+        failures.
+    implementation_guidance:
+      >
+        Implement decision_traceability_trace_gap_detector as automated policy in decision_traceability
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: decision_traceability_trace_gap_detector_continuous_telemetry_dashboard
+    validation_method:
+      decision_traceability_trace_gap_detector_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      decision_traceability_trace_gap_detector_statistical_sampling_with_exception_tracking
+    control_owner: decision_traceability_control_owner
+    evidence_generated: decision_traceability_trace_gap_detector_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_traceability_trace_gap_detector design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_traceability_trace_gap_detector outputs may trigger enforcement under
+        decision_traceability escalation rules.
+  - control_id: AAE-AUD-DECISION_T-DECISIONTRA
+    control_name: decision_traceability_audit_trail_completeness_scanner
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring audit trail completeness scanner for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        decision_traceability_audit_trail_completeness_scanner is required to govern Decision
+        Traceability risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected audit traceability failures.
+    implementation_guidance:
+      >
+        Implement decision_traceability_audit_trail_completeness_scanner as automated policy in
+        decision_traceability orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      decision_traceability_audit_trail_completeness_scanner_continuous_telemetry_dashboard
+    validation_method:
+      >
+        decision_traceability_audit_trail_completeness_scanner_quarterly_design_and_operating_effectiven
+        ess_test
+    testing_method:
+      >
+        decision_traceability_audit_trail_completeness_scanner_statistical_sampling_with_exception_track
+        ing
+    control_owner: decision_traceability_control_owner
+    evidence_generated: decision_traceability_audit_trail_completeness_scanner_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_traceability_audit_trail_completeness_scanner design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_traceability_audit_trail_completeness_scanner outputs may trigger enforcement under
+        decision_traceability escalation rules.
+  - control_id: AAE-AUD-DECISION_T-DECISIONTRA
+    control_name: decision_traceability_traceability_sla_monitor
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring traceability sla monitor for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        decision_traceability_traceability_sla_monitor is required to govern Decision Traceability risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected audit
+        traceability failures.
+    implementation_guidance:
+      >
+        Implement decision_traceability_traceability_sla_monitor as automated policy in
+        decision_traceability orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: decision_traceability_traceability_sla_monitor_continuous_telemetry_dashboard
+    validation_method:
+      decision_traceability_traceability_sla_monitor_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      decision_traceability_traceability_sla_monitor_statistical_sampling_with_exception_tracking
+    control_owner: decision_traceability_control_owner
+    evidence_generated: decision_traceability_traceability_sla_monitor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_traceability_traceability_sla_monitor design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_traceability_traceability_sla_monitor outputs may trigger enforcement under
+        decision_traceability escalation rules.
+  - control_id: AAE-AUD-DECISION_T-DECISIONTRA
+    control_name: decision_traceability_regulator_trace_export_gateway
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring regulator trace export gateway for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        decision_traceability_regulator_trace_export_gateway is required to govern Decision Traceability
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected audit
+        traceability failures.
+    implementation_guidance:
+      >
+        Implement decision_traceability_regulator_trace_export_gateway as automated policy in
+        decision_traceability orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      decision_traceability_regulator_trace_export_gateway_continuous_telemetry_dashboard
+    validation_method:
+      >
+        decision_traceability_regulator_trace_export_gateway_quarterly_design_and_operating_effectivenes
+        s_test
+    testing_method:
+      >
+        decision_traceability_regulator_trace_export_gateway_statistical_sampling_with_exception_trackin
+        g
+    control_owner: decision_traceability_control_owner
+    evidence_generated: decision_traceability_regulator_trace_export_gateway_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_traceability_regulator_trace_export_gateway design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_traceability_regulator_trace_export_gateway outputs may trigger enforcement under
+        decision_traceability escalation rules.
+  - control_id: AAE-AUD-DECISION_T-DECISIONTRA
+    control_name: decision_traceability_trace_schema_enforcement
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring trace schema enforcement for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        decision_traceability_trace_schema_enforcement is required to govern Decision Traceability risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected audit
+        traceability failures.
+    implementation_guidance:
+      >
+        Implement decision_traceability_trace_schema_enforcement as automated policy in
+        decision_traceability orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: decision_traceability_trace_schema_enforcement_continuous_telemetry_dashboard
+    validation_method:
+      decision_traceability_trace_schema_enforcement_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      decision_traceability_trace_schema_enforcement_statistical_sampling_with_exception_tracking
+    control_owner: decision_traceability_control_owner
+    evidence_generated: decision_traceability_trace_schema_enforcement_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_traceability_trace_schema_enforcement design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_traceability_trace_schema_enforcement outputs may trigger enforcement under
+        decision_traceability escalation rules.
+  - control_id: AAE-AUD-DECISION_T-DECISIONTRA
+    control_name: decision_traceability_trace_assurance_attestation
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring trace assurance attestation for Decision Traceability across
+        audit_traceability.
+    governance_rationale:
+      >
+        decision_traceability_trace_assurance_attestation is required to govern Decision Traceability
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected audit
+        traceability failures.
+    implementation_guidance:
+      >
+        Implement decision_traceability_trace_assurance_attestation as automated policy in
+        decision_traceability orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: decision_traceability_trace_assurance_attestation_continuous_telemetry_dashboard
+    validation_method:
+      >
+        decision_traceability_trace_assurance_attestation_quarterly_design_and_operating_effectiveness_t
+        est
+    testing_method:
+      decision_traceability_trace_assurance_attestation_statistical_sampling_with_exception_tracking
+    control_owner: decision_traceability_control_owner
+    evidence_generated: decision_traceability_trace_assurance_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify decision_traceability_trace_assurance_attestation design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        decision_traceability_trace_assurance_attestation outputs may trigger enforcement under
+        decision_traceability escalation rules.
+requirements:
+  legal:
+    >
+      Decision Traceability must satisfy legal requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, deterministic decision trees with auditable rationale
+      capture including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Decision Traceability must satisfy regulatory requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, deterministic decision trees with auditable rationale
+      capture including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Decision Traceability must satisfy technical requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, deterministic decision trees with auditable rationale
+      capture including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Decision Traceability must satisfy operational requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, deterministic decision trees with auditable rationale
+      capture including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Decision Traceability must satisfy audit requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, deterministic decision trees with auditable rationale
+      capture including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Decision Traceability must satisfy forensic requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, deterministic decision trees with auditable rationale
+      capture including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Decision Traceability must satisfy enforcement requirements for end-to-end trace linkage across
+      systems, decisions, and runtime events, deterministic decision trees with auditable rationale
+      capture including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Decision Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  triage:
+    >
+      Triage process for Decision Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  execution:
+    >
+      Execution process for Decision Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  validation:
+    >
+      Validation process for Decision Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  escalation:
+    >
+      Escalation process for Decision Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  closure:
+    >
+      Closure process for Decision Traceability with stage gates, RACI assignments, and evidence
+      capture.
+  improvement:
+    >
+      Improvement process for Decision Traceability with stage gates, RACI assignments, and evidence
+      capture.
+workflows:
+  - workflow_name: decision_traceability_operational_lifecycle_workflow
+    workflow_trigger: decision_traceability_governance_event_detected
+    workflow_steps:
+      - decision_traceability_intake
+      - decision_traceability_triage
+      - decision_traceability_execution
+      - decision_traceability_validation
+      - decision_traceability_approval
+      - decision_traceability_closure
+    approval_points:
+      - decision_traceability_approval
+    escalation_points:
+      - decision_traceability_triage
+    generated_evidence:
+      - decision_traceability_workflow_log
+      - decision_traceability_closure_attestation
+    completion_requirements:
+      - decision_traceability_evidence_complete
+      - decision_traceability_approvals_recorded
+  - workflow_name: decision_traceability_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_decision_traceability
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - decision_traceability_regulatory_package
+      - decision_traceability_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - decision_traceability_governance_event_detected
+    - decision_traceability_regulatory_inquiry
+    - decision_traceability_integrity_breach
+    - decision_traceability_enforcement_authorization
+  required_inputs:
+    - decision_traceability_case_context
+    - decision_traceability_evidence_index
+    - decision_traceability_risk_assessment
+  workflow_steps:
+    - decision_traceability_intake
+    - decision_traceability_triage
+    - decision_traceability_execution
+    - decision_traceability_validation
+    - decision_traceability_approval
+    - decision_traceability_closure
+  validation_steps:
+    - decision_traceability_evidence_sufficiency_check
+    - decision_traceability_integrity_verification
+  approval_steps:
+    - decision_traceability_approval
+  control_checkpoints:
+    - decision_traceability_intake_gate
+    - decision_traceability_evidence_gate
+    - decision_traceability_decision_gate
+  evidence_generation:
+    - decision_traceability_workflow_log
+    - decision_traceability_closure_attestation
+  decision_points:
+    - decision_traceability_severity_classification
+    - decision_traceability_enforcement_authorization
+  escalation_points:
+    - decision_traceability_triage
+  completion_criteria:
+    - decision_traceability_evidence_complete
+    - decision_traceability_approvals_recorded
+  generated_outputs:
+    - decision_traceability_workflow_log
+    - decision_traceability_closure_attestation
+    - decision_traceability_final_disposition
+decision_logic:
+  decision_inputs:
+    - decision_traceability_severity_score
+    - decision_traceability_evidence_completeness
+    - decision_traceability_regulatory_context
+    - decision_traceability_risk_exposure_index
+  decision_conditions:
+    - decision_traceability_critical_threshold_breach
+    - decision_traceability_evidence_integrity_failure
+    - decision_traceability_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: decision_traceability_severity_score >= 90
+    high_severity: decision_traceability_severity_score >= 70
+    evidence_complete: decision_traceability_evidence_completeness >= 0.98
+  decision_rules:
+    decision_traceability_high_severity_violation:
+      condition: decision_traceability_severity_score >= 90
+      action: initiate_decision_traceability_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: decision_traceability_investigation_report
+    decision_traceability_evidence_compromise_detected:
+      condition: decision_traceability_integrity_status == compromised
+      action: activate_decision_traceability_forensic_lockdown
+      approval_required: decision_traceability_forensic_lead
+      evidence_required: decision_traceability_integrity_alert_record
+    decision_traceability_enforcement_authorization:
+      condition: decision_traceability_violation_confirmed == true AND decision_traceability_evidence_complete == true
+      action: issue_decision_traceability_enforcement_order
+      approval_required: decision_traceability_enforcement_officer
+      evidence_required: decision_traceability_violation_evidence_package
+    decision_traceability_regulator_inquiry_response:
+      condition: decision_traceability_regulator_request_received == true
+      action: compile_decision_traceability_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: decision_traceability_regulatory_evidence_index
+  decision_outputs:
+    - decision_traceability_enforcement_decision
+    - decision_traceability_escalation_notice
+    - decision_traceability_remediation_directive
+    - decision_traceability_audit_disposition
+  approval_requirements:
+    enforcement_actions: [decision_traceability_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - decision_traceability_severity_score >= 90
+    - decision_traceability_evidence_integrity_failure == true
+    - decision_traceability_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_decision_traceability_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: decision_traceability_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Decision Traceability may trigger EU AI Act Articles 71, 73 reporting, market
+      surveillance cooperation, and conformity assessment suspension; all outputs must be litigation-
+      defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Decision Traceability per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Decision Traceability per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Decision Traceability per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Decision Traceability per ISO 19011 and EU AI
+      Act conformity assessment methodology.
+metrics:
+  - metric_name: trace_completeness_rate
+    metric_category: operational
+    business_purpose:
+      Measure trace completeness rate for Decision Traceability operational and regulatory assurance
+    formula: computed_trace_completeness_rate_from_decision_traceability_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: decision_traceability_metrics_owner
+    data_source: decision_traceability_metrics_warehouse
+    evidence_generated: trace_completeness_rate_measurement_record
+  - metric_name: log_ingestion_latency_ms
+    metric_category: risk
+    business_purpose:
+      Measure log ingestion latency ms for Decision Traceability operational and regulatory assurance
+    formula: computed_log_ingestion_latency_ms_from_decision_traceability_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: decision_traceability_metrics_owner
+    data_source: decision_traceability_metrics_warehouse
+    evidence_generated: log_ingestion_latency_ms_measurement_record
+  - metric_name: trace_gap_detection_count
+    metric_category: compliance
+    business_purpose:
+      Measure trace gap detection count for Decision Traceability operational and regulatory assurance
+    formula: computed_trace_gap_detection_count_from_decision_traceability_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: decision_traceability_metrics_owner
+    data_source: decision_traceability_metrics_warehouse
+    evidence_generated: trace_gap_detection_count_measurement_record
+  - metric_name: immutable_record_integrity_score
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure immutable record integrity score for Decision Traceability operational and regulatory
+        assurance
+    formula: computed_immutable_record_integrity_score_from_decision_traceability_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: decision_traceability_metrics_owner
+    data_source: decision_traceability_metrics_warehouse
+    evidence_generated: immutable_record_integrity_score_measurement_record
+  - metric_name: cross_system_link_coverage
+    metric_category: governance
+    business_purpose:
+      >
+        Measure cross system link coverage for Decision Traceability operational and regulatory
+        assurance
+    formula: computed_cross_system_link_coverage_from_decision_traceability_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: decision_traceability_metrics_owner
+    data_source: decision_traceability_metrics_warehouse
+    evidence_generated: cross_system_link_coverage_measurement_record
+  - metric_name: audit_trail_availability
+    metric_category: enforcement
+    business_purpose:
+      Measure audit trail availability for Decision Traceability operational and regulatory assurance
+    formula: computed_audit_trail_availability_from_decision_traceability_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: decision_traceability_metrics_owner
+    data_source: decision_traceability_metrics_warehouse
+    evidence_generated: audit_trail_availability_measurement_record
+kpis:
+  - metric_name: trace_completeness_rate
+    formula: computed_trace_completeness_rate_from_decision_traceability_telemetry
+    target: >= 95%
+  - metric_name: log_ingestion_latency_ms
+    formula: computed_log_ingestion_latency_ms_from_decision_traceability_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: trace_gap_detection_count
+    formula: computed_trace_gap_detection_count_from_decision_traceability_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: immutable_record_integrity_score
+    formula: computed_immutable_record_integrity_score_from_decision_traceability_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: cross_system_link_coverage
+    business_purpose: Measure cross system link coverage for Decision Traceability operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+  - metric_name: audit_trail_availability
+    business_purpose: Measure audit trail availability for Decision Traceability operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: decision_traceability_primary_record
+    evidence_type: primary
+    business_purpose: Support decision traceability governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_decision_traceability_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: decision_traceability_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: decision_traceability_validation_attestation
+    evidence_type: corroborating
+    business_purpose: Support decision traceability governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_decision_traceability_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: decision_traceability_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: decision_operational_log
+    evidence_type: attestation
+    business_purpose: Support decision traceability governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_decision_traceability_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: decision_traceability_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: traceability_operational_log
+    evidence_type: derivative
+    business_purpose: Support decision traceability governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_decision_traceability_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: decision_traceability_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: decision_traceability_status_dashboard
+    report_owner: decision_traceability_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: monthly
+    report_inputs:
+      - decision_traceability_telemetry
+      - decision_traceability_evidence_index
+    report_outputs:
+      - decision_traceability_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: decision_traceability_compliance_summary
+    report_owner: decision_traceability_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - decision_traceability_telemetry
+      - decision_traceability_evidence_index
+    report_outputs:
+      - decision_traceability_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: decision_assurance_report
+    report_owner: decision_traceability_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - decision_traceability_telemetry
+      - decision_traceability_evidence_index
+    report_outputs:
+      - decision_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: decision_traceability_executive_brief
+    report_owner: decision_traceability_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - decision_traceability_telemetry
+      - decision_traceability_evidence_index
+    report_outputs:
+      - decision_traceability_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: decision_traceability_audit_pack
+    report_owner: decision_traceability_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - decision_traceability_telemetry
+      - decision_traceability_evidence_index
+    report_outputs:
+      - decision_traceability_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  agent_governance:
+    agent_identity: decision_traceability_registered_agent_identity_schema
+    agent_role: decision_traceability_delegated_authority_role_matrix
+    agent_permissions: decision_traceability_least_privilege_permission_set
+    agent_constraints: decision_traceability_autonomy_and_tool_constraints
+    agent_accountability: decision_traceability_human_accountability_chain
+    agent_escalation_rules: decision_traceability_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - decision_traceability_policy_context
+      - decision_traceability_risk_score
+      - decision_traceability_human_intent
+    decision_outputs:
+      - decision_traceability_authorized_action
+      - decision_traceability_escalation_notice
+    decision_owners:
+      - decision_traceability_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: decision_traceability_high_risk_decision_mandatory_review
+    decision_accountability: decision_traceability_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: decision_traceability_approved_tool_allowlist
+    tool_execution_validation: decision_traceability_pre_execution_tool_risk_check
+    tool_risk_controls: decision_traceability_tool_side_effect_containment
+    tool_auditability: decision_traceability_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: decision_traceability_memory_segment_access_policy
+    memory_integrity_validation: decision_traceability_memory_tamper_detection
+    memory_retention_controls: decision_traceability_memory_retention_and_purge_rules
+    memory_auditability: decision_traceability_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: decision_traceability_chain_of_thought_capture
+    reasoning_validation: decision_traceability_reasoning_consistency_check
+    reasoning_risk_monitoring: decision_traceability_reasoning_hazard_detection
+    reasoning_accountability: decision_traceability_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - decision_traceability_audit_log
+  - decision_traceability_activity_log
+  - decision_traceability_decision_log
+  - decision_traceability_traceability_record
+  - decision_traceability_evidence_package
+  - decision_traceability_chain_of_custody_record
+  - decision_traceability_attestation
+required_evidence:
+  - decision_traceability_audit_log
+  - decision_traceability_activity_log
+  - decision_traceability_decision_log
+  - decision_traceability_traceability_record
+  - decision_traceability_evidence_package
+  - decision_traceability_chain_of_custody_record
+  - decision_traceability_attestation
+supporting_evidence:
+  - decision_traceability_audit_log
+  - decision_traceability_activity_log
+  - decision_traceability_decision_log
+  - decision_traceability_traceability_record
+  - decision_traceability_evidence_package
+audit_evidence:
+  - decision_traceability_audit_log
+  - decision_traceability_activity_log
+  - decision_traceability_decision_log
+  - decision_traceability_traceability_record
+  - decision_traceability_evidence_package
+  - decision_traceability_chain_of_custody_record
+  - decision_traceability_attestation
+forensic_evidence:
+  - decision_traceability_audit_log
+  - decision_traceability_activity_log
+  - decision_traceability_decision_log
+  - decision_traceability_traceability_record
+  - decision_traceability_evidence_package
+  - decision_traceability_chain_of_custody_record
+  - decision_traceability_attestation
+regulatory_evidence:
+  - decision_traceability_audit_log
+  - decision_traceability_activity_log
+  - decision_traceability_decision_log
+  - decision_traceability_traceability_record
+  - decision_traceability_evidence_package
+  - decision_traceability_chain_of_custody_record
+  - decision_traceability_attestation
+validation_evidence:
+  - decision_traceability_audit_log
+  - decision_traceability_activity_log
+  - decision_traceability_decision_log
+  - decision_traceability_traceability_record
+  - decision_traceability_evidence_package
+  - decision_traceability_chain_of_custody_record
+  - decision_traceability_attestation
+validation_rules:
+  - rule: decision_traceability_evidence_complete
+    condition: required_evidence_decision_traceability < threshold
+    action: BLOCK_SUBMISSION
+  - rule: decision_traceability_integrity_verified
+    condition: integrity_status_decision_traceability != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: decision_traceability_custody_intact
+    condition: custody_gap_decision_traceability == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Decision Traceability controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Decision Traceability controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Decision Traceability controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Decision Traceability controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Decision Traceability controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - decision_traceability_control_failure
+    - decision_traceability_evidence_compromise
+    - decision_traceability_regulatory_non_compliance
+    - decision_traceability_enforcement_delay
+  risk_events:
+    - decision_traceability_audit_finding_critical
+    - decision_traceability_investigation_escalation
+    - decision_traceability_sanction_exposure
+    - decision_traceability_market_surveillance_inquiry
+  risk_indicators:
+    - decision_traceability_control_effectiveness_degradation
+    - decision_traceability_evidence_gap_rate
+    - decision_traceability_sla_breach_count
+    - decision_traceability_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    decision_traceability_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: decision_traceability_forensic_lead
+    decision_traceability_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    decision_traceability_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: decision_traceability_enforcement_officer
+  risk_tolerance:
+    decision_traceability_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: decision_traceability_risk_score >= 60
+    critical: decision_traceability_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Decision Traceability controls documented in
+      decision_traceability_risk_register with quarterly review.
+  risk_treatment:
+    - decision_traceability_preventive_control_reinforcement
+    - decision_traceability_detective_monitoring_enhancement
+    - decision_traceability_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: decision_traceability_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Decision Traceability workflow events with provenance anchor and
+      decision_traceability_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via decision_traceability_collection_api with schema validation and
+      classification
+  evidence_validation:
+    Completeness, authenticity, and admissibility checks via decision_traceability_validation_engine
+  evidence_classification:
+    RESTRICTED/CONFIDENTIAL classification per decision_traceability_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in decision_traceability_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per decision_traceability_retention_schedule aligned with EU AI Act Article 18 and
+      legal hold
+  evidence_archival:
+    Long-term archival with decision_traceability_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via decision_traceability_retrieval_gateway with purpose logging
+  evidence_disposal:
+    Authorized disposition with decision_traceability_disposition_certificate and dual approval
+compliance_mapping:
+  article_12:
+    article: Article 12
+    regulatory_text_summary:
+      Record-keeping and automatic logging.
+    obligation:
+      >
+        Logging capabilities enabling traceability throughout system lifetime. Implemented through
+        Decision Traceability in audit_traceability.
+    implementation_controls:
+      - decision_traceability_article_12_preventive_control
+      - decision_traceability_article_12_detective_control
+      - decision_traceability_article_12_evidence_control
+    implementation_processes:
+      - decision_traceability_article_12_workflow
+      - decision_traceability_article_12_validation_process
+      - decision_traceability_article_12_escalation_process
+    implementation_evidence:
+      - decision_traceability_article_12_compliance_record
+      - decision_traceability_article_12_audit_package
+      - decision_traceability_article_12_attestation
+    validation_method: decision_traceability_article_12_automated_and_manual_conformity_testing
+    audit_method: decision_traceability_article_12_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: decision_traceability_article_12_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Decision Traceability demonstrates Article 12 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_11:
+    article: Article 11
+    regulatory_text_summary:
+      Technical documentation requirements.
+    obligation:
+      >
+        Comprehensive technical documentation before market placement. Implemented through Decision
+        Traceability in audit_traceability.
+    implementation_controls:
+      - decision_traceability_article_11_preventive_control
+      - decision_traceability_article_11_detective_control
+      - decision_traceability_article_11_evidence_control
+    implementation_processes:
+      - decision_traceability_article_11_workflow
+      - decision_traceability_article_11_validation_process
+      - decision_traceability_article_11_escalation_process
+    implementation_evidence:
+      - decision_traceability_article_11_compliance_record
+      - decision_traceability_article_11_audit_package
+      - decision_traceability_article_11_attestation
+    validation_method: decision_traceability_article_11_automated_and_manual_conformity_testing
+    audit_method: decision_traceability_article_11_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: decision_traceability_article_11_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Decision Traceability demonstrates Article 11 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_14:
+    article: Article 14
+    regulatory_text_summary:
+      Human oversight.
+    obligation:
+      >
+        Effective human oversight measures during system use. Implemented through Decision Traceability
+        in audit_traceability.
+    implementation_controls:
+      - decision_traceability_article_14_preventive_control
+      - decision_traceability_article_14_detective_control
+      - decision_traceability_article_14_evidence_control
+    implementation_processes:
+      - decision_traceability_article_14_workflow
+      - decision_traceability_article_14_validation_process
+      - decision_traceability_article_14_escalation_process
+    implementation_evidence:
+      - decision_traceability_article_14_compliance_record
+      - decision_traceability_article_14_audit_package
+      - decision_traceability_article_14_attestation
+    validation_method: decision_traceability_article_14_automated_and_manual_conformity_testing
+    audit_method: decision_traceability_article_14_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: decision_traceability_article_14_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Decision Traceability demonstrates Article 14 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Decision Traceability in audit_traceability.
+    implementation_controls:
+      - decision_traceability_article_26_preventive_control
+      - decision_traceability_article_26_detective_control
+      - decision_traceability_article_26_evidence_control
+    implementation_processes:
+      - decision_traceability_article_26_workflow
+      - decision_traceability_article_26_validation_process
+      - decision_traceability_article_26_escalation_process
+    implementation_evidence:
+      - decision_traceability_article_26_compliance_record
+      - decision_traceability_article_26_audit_package
+      - decision_traceability_article_26_attestation
+    validation_method: decision_traceability_article_26_automated_and_manual_conformity_testing
+    audit_method: decision_traceability_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: decision_traceability_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Decision Traceability demonstrates Article 26 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+crosswalks:
+  eu_ai_act:
+    article_12:
+      implementation: decision_traceability_eu_ai_act_article_12_control_set
+      process: decision_traceability_eu_ai_act_article_12_workflow
+      evidence: decision_traceability_eu_ai_act_article_12_attestation
+    article_11:
+      implementation: decision_traceability_eu_ai_act_article_11_control_set
+      process: decision_traceability_eu_ai_act_article_11_workflow
+      evidence: decision_traceability_eu_ai_act_article_11_attestation
+    article_14:
+      implementation: decision_traceability_eu_ai_act_article_14_control_set
+      process: decision_traceability_eu_ai_act_article_14_workflow
+      evidence: decision_traceability_eu_ai_act_article_14_attestation
+    article_26:
+      implementation: decision_traceability_eu_ai_act_article_26_control_set
+      process: decision_traceability_eu_ai_act_article_26_workflow
+      evidence: decision_traceability_eu_ai_act_article_26_attestation
+  gdpr:
+    article_5:
+      implementation: decision_traceability_gdpr_article_5_privacy_control
+      evidence: decision_traceability_gdpr_article_5_compliance_record
+    article_6:
+      implementation: decision_traceability_gdpr_article_6_privacy_control
+      evidence: decision_traceability_gdpr_article_6_compliance_record
+    article_22:
+      implementation: decision_traceability_gdpr_article_22_privacy_control
+      evidence: decision_traceability_gdpr_article_22_compliance_record
+    article_25:
+      implementation: decision_traceability_gdpr_article_25_privacy_control
+      evidence: decision_traceability_gdpr_article_25_compliance_record
+    article_32:
+      implementation: decision_traceability_gdpr_article_32_privacy_control
+      evidence: decision_traceability_gdpr_article_32_compliance_record
+    article_35:
+      implementation: decision_traceability_gdpr_article_35_privacy_control
+      evidence: decision_traceability_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: decision_traceability_iso42001_clause_4_1_aims_control
+      evidence: decision_traceability_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: decision_traceability_iso42001_clause_4_2_aims_control
+      evidence: decision_traceability_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: decision_traceability_iso42001_clause_5_1_aims_control
+      evidence: decision_traceability_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: decision_traceability_iso42001_clause_5_2_aims_control
+      evidence: decision_traceability_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: decision_traceability_iso42001_clause_6_1_aims_control
+      evidence: decision_traceability_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: decision_traceability_iso42001_clause_8_1_aims_control
+      evidence: decision_traceability_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: decision_traceability_iso42001_clause_9_1_aims_control
+      evidence: decision_traceability_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: decision_traceability_iso42001_clause_10_1_aims_control
+      evidence: decision_traceability_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: decision_traceability_iso23894_risk_identification_alignment
+      evidence: decision_traceability_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: decision_traceability_iso23894_risk_analysis_alignment
+      evidence: decision_traceability_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: decision_traceability_iso23894_risk_evaluation_alignment
+      evidence: decision_traceability_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: decision_traceability_iso23894_risk_treatment_alignment
+      evidence: decision_traceability_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: decision_traceability_iso23894_risk_monitoring_alignment
+      evidence: decision_traceability_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: decision_traceability_iso19011_audit_principles_procedure
+      evidence: decision_traceability_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: decision_traceability_iso19011_audit_programme_management_procedure
+      evidence: decision_traceability_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: decision_traceability_iso19011_audit_evidence_requirements_procedure
+      evidence: decision_traceability_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: decision_traceability_iso19011_audit_reporting_procedure
+      evidence: decision_traceability_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: decision_traceability_nist_rmf_govern_control_mapping
+      evidence: decision_traceability_nist_rmf_govern_assessment
+    map:
+      implementation: decision_traceability_nist_rmf_map_control_mapping
+      evidence: decision_traceability_nist_rmf_map_assessment
+    measure:
+      implementation: decision_traceability_nist_rmf_measure_control_mapping
+      evidence: decision_traceability_nist_rmf_measure_assessment
+    manage:
+      implementation: decision_traceability_nist_rmf_manage_control_mapping
+      evidence: decision_traceability_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: decision_traceability_nist_csf_identify_safeguard
+      evidence: decision_traceability_nist_csf_identify_log
+    protect:
+      implementation: decision_traceability_nist_csf_protect_safeguard
+      evidence: decision_traceability_nist_csf_protect_log
+    detect:
+      implementation: decision_traceability_nist_csf_detect_safeguard
+      evidence: decision_traceability_nist_csf_detect_log
+    respond:
+      implementation: decision_traceability_nist_csf_respond_safeguard
+      evidence: decision_traceability_nist_csf_respond_log
+    recover:
+      implementation: decision_traceability_nist_csf_recover_safeguard
+      evidence: decision_traceability_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: decision_traceability_oecd_accountability_governance_control
+      evidence: decision_traceability_oecd_accountability_attestation
+    transparency:
+      implementation: decision_traceability_oecd_transparency_governance_control
+      evidence: decision_traceability_oecd_transparency_attestation
+    robustness_security:
+      implementation: decision_traceability_oecd_robustness_security_governance_control
+      evidence: decision_traceability_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: decision_traceability_oecd_inclusive_growth_governance_control
+      evidence: decision_traceability_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: decision_traceability_unesco_human_rights_ethics_control
+      evidence: decision_traceability_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: decision_traceability_unesco_fairness_non_discrimination_ethics_control
+      evidence: decision_traceability_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: decision_traceability_unesco_transparency_explainability_ethics_control
+      evidence: decision_traceability_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: decision_traceability_unesco_accountability_ethics_control
+      evidence: decision_traceability_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Decision Traceability covering executive, board, regulatory, audit,
+      forensic, and attestation consumers.
+  report_types:
+    - decision_traceability_status_report
+    - decision_traceability_compliance_report
+    - decision_traceability_enforcement_report
+    - decision_traceability_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [decision_traceability_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_decision_traceability
+  - quarterly_control_testing_decision_traceability
+  - evidence_sampling_decision_traceability
+  - finding_remediation_tracking_decision_traceability
+traceability_assurance:
+  decision_traceability:
+    Decision Traceability assurance for Decision Traceability.
+  runtime_traceability:
+    Runtime Traceability assurance for Decision Traceability.
+  immutable_records:
+    Immutable Records assurance for Decision Traceability.
+  audit_trail_integrity:
+    Audit Trail Integrity assurance for Decision Traceability.
+integration_points:
+  upstream_systems:
+    - system: technical_documentation
+      purpose: decision_traceability_to_technical_documentation_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_technical_documentation]
+      produced_artifacts: [decision_traceability_output_to_technical_documentation]
+    - system: incident_reporting
+      purpose: decision_traceability_to_incident_reporting_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_incident_reporting]
+      produced_artifacts: [decision_traceability_output_to_incident_reporting]
+    - system: core_governance
+      purpose: decision_traceability_to_core_governance_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_core_governance]
+      produced_artifacts: [decision_traceability_output_to_core_governance]
+  downstream_systems:
+    - system: compliance_audits
+      purpose: decision_traceability_to_compliance_audits_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_compliance_audits]
+      produced_artifacts: [decision_traceability_output_to_compliance_audits]
+    - system: governance_forensics
+      purpose: decision_traceability_to_governance_forensics_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_governance_forensics]
+      produced_artifacts: [decision_traceability_output_to_governance_forensics]
+    - system: evidence_preservation
+      purpose: decision_traceability_to_evidence_preservation_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_evidence_preservation]
+      produced_artifacts: [decision_traceability_output_to_evidence_preservation]
+  governance_integrations:
+    - system: core_governance
+      purpose: decision_traceability_to_core_governance_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_core_governance]
+      produced_artifacts: [decision_traceability_output_to_core_governance]
+    - system: operational_runtime_governance
+      purpose: decision_traceability_to_operational_runtime_governance_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_operational_runtime_governance]
+      produced_artifacts: [decision_traceability_output_to_operational_runtime_governance]
+  risk_integrations:
+    - system: risk_management
+      purpose: decision_traceability_to_risk_management_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_risk_management]
+      produced_artifacts: [decision_traceability_output_to_risk_management]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: decision_traceability_to_compliance_audits_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_compliance_audits]
+      produced_artifacts: [decision_traceability_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: decision_traceability_to_internal_audit_system_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_internal_audit_system]
+      produced_artifacts: [decision_traceability_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: decision_traceability_to_governance_reporting_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_governance_reporting]
+      produced_artifacts: [decision_traceability_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: decision_traceability_to_executive_dashboard_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_executive_dashboard]
+      produced_artifacts: [decision_traceability_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: decision_traceability_to_enforcement_actions_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_enforcement_actions]
+      produced_artifacts: [decision_traceability_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: decision_traceability_to_policy_enforcement_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_policy_enforcement]
+      produced_artifacts: [decision_traceability_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: decision_traceability_to_remediation_tracking_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_remediation_tracking]
+      produced_artifacts: [decision_traceability_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: decision_traceability_to_remediation_engine_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_remediation_engine]
+      produced_artifacts: [decision_traceability_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: decision_traceability_to_evidence_preservation_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_evidence_preservation]
+      produced_artifacts: [decision_traceability_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: decision_traceability_to_technical_documentation_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_technical_documentation]
+      produced_artifacts: [decision_traceability_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: decision_traceability_to_post_market_monitoring_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_post_market_monitoring]
+      produced_artifacts: [decision_traceability_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: decision_traceability_to_incident_reporting_governance_sync
+      data_exchanged: [decision_traceability_events, decision_traceability_evidence_refs, decision_traceability_metrics]
+      trigger_conditions: [decision_traceability_state_change, decision_traceability_escalation, decision_traceability_closure]
+      consumed_artifacts: [decision_traceability_input_from_incident_reporting]
+      produced_artifacts: [decision_traceability_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Decision Traceability activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Decision Traceability procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - decision_traceability_procedure_checklist
+    required_evidence:
+      - decision_traceability_process_log
+    required_metrics:
+      - decision_traceability_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Decision Traceability enterprise-wide.
+    required_capabilities:
+      - decision_traceability_standard_control_set
+    required_controls:
+      - decision_traceability_control_register
+    required_evidence:
+      - decision_traceability_audit_evidence
+    required_metrics:
+      - decision_traceability_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Decision Traceability with KPI optimization.
+    required_capabilities:
+      - decision_traceability_automated_controls
+    required_controls:
+      - decision_traceability_telemetry_controls
+    required_evidence:
+      - decision_traceability_assurance_package
+    required_metrics:
+      - decision_traceability_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Decision Traceability with predictive analytics.
+    required_capabilities:
+      - decision_traceability_autonomous_governance
+    required_controls:
+      - decision_traceability_adaptive_controls
+    required_evidence:
+      - decision_traceability_regulator_ready_portfolio
+    required_metrics:
+      - decision_traceability_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - decision_traceability_report
+  - decision_traceability_evidence_package
+  - decision_traceability_attestation
+  - decision_traceability_enforcement_record
+artifacts:
+  - name: decision_traceability_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: decision_traceability_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: decision_traceability_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: decision_traceability_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - decision_traceability_case_record
+  - decision_traceability_audit_record
+  - decision_traceability_enforcement_record
+  - decision_traceability_remediation_record
+monitoring:
+  continuous:
+    - decision_traceability_control_telemetry
+    - decision_traceability_evidence_integrity_feed
+    - decision_traceability_escalation_queue
+  periodic:
+    - decision_traceability_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Decision Traceability effectiveness, regulatory change impact assessment,
+    and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: decision_traceability_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: decision_traceability_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: decision_traceability_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: decision_traceability_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Decision Traceability

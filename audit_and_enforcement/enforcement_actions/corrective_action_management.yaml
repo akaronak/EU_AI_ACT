@@ -1,0 +1,1976 @@
+metadata:
+  id: AAE-EA-CORACT-001
+  name: corrective_action_management
+  title: Corrective Action Management
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: enforcement_execution
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - enforcement_actions
+    - corrective_action_management
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Corrective Action Management governance within
+    audit_and_enforcement/enforcement_actions, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for sanctions, corrective measures, restrictions, prohibitions,
+    enforcement execution. Integrates with the EU AI Act governance ecosystem through machine-
+    evaluable obligations, evidence preservation, and conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Corrective Action Management across
+    enterprise and cross-border operations within audit_and_enforcement/enforcement_actions.
+objectives:
+  - Operationalize Corrective Action Management with regulator-defensible controls and evidence chains
+  - Enable automated validation of Corrective Action Management conformance across enforcement_actions
+  - Preserve audit-grade and forensic-grade records for all Corrective Action Management activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Corrective Action Management with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Corrective Action Management
+definitions:
+  corrective_action_management_governance_domain:
+    >
+      The operational jurisdiction of Corrective Action Management encompassing controlled audit,
+      enforcement, investigation, and evidence processes within enforcement_actions.
+  corrective_action_management_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Corrective Action Management control
+      effectiveness, process adherence, and regulatory conformity.
+  corrective_action_management_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Corrective Action Management decision logic.
+  corrective_action_management_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Corrective Action Management processes.
+  corrective_action_management_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Corrective Action Management operations.
+  corrective_action_management_conformity_assertion:
+    >
+      Formal statement that Corrective Action Management requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: corrective_action_management_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  corrective_action_management_artifact_type:
+    - corrective_action_management_record
+    - corrective_action_management_log
+    - corrective_action_management_report
+    - corrective_action_management_attestation
+    - corrective_action_management_package
+  corrective_action_management_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Corrective Action Management Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: enforcement_actions
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - compliance_audits
+    - investigation_management
+    - penalty_management
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - remediation_tracking
+    - reporting
+    - penalty_management
+    - audit_and_enforcement/enforcement_actions/corrective_action_management.yaml
+  related_domains:
+    - investigation_management
+    - penalty_management
+    - remediation_tracking
+  related_skills:
+    - enforcement_decision_logic
+    - corrective_action_management
+    - prohibited_use_enforcement
+    - corrective_action_management
+  parent_governance_objects:
+    - enforcement_framework
+  child_governance_objects:
+    - enforcement_order
+    - restriction_notice
+    - corrective_action_management_governance_object
+  consumes_artifacts:
+    - investigation_report
+    - audit_finding
+    - violation_classification
+    - corrective_action_management_input_artifact
+  produces_artifacts:
+    - enforcement_decision
+    - corrective_action_order
+    - restriction_record
+    - corrective_action_management_record
+    - corrective_action_management_report
+    - corrective_action_management_attestation
+  consumes_evidence:
+    - violation_evidence_package
+    - liability_mapping_record
+    - corrective_action_management_source_evidence
+  produces_evidence:
+    - enforcement_execution_log
+    - prohibition_attestation
+    - corrective_action_management_audit_evidence
+    - corrective_action_management_validation_evidence
+    - corrective_action_management_enforcement_evidence
+  governance_dependencies:
+    - policy_enforcement
+    - core_governance
+  regulatory_dependencies:
+    - eu_ai_act_article_71
+    - eu_ai_act_article_22
+  risk_dependencies:
+    - risk_management
+  control_dependencies:
+    - investigation_management
+    - evidence_preservation
+    - corrective_action_management_control_register
+roles_and_responsibilities:
+  corrective_action_management_owner:
+    responsibilities:
+      - Accountable for Corrective Action Management strategy, control design, and regulatory alignment
+  corrective_action_management_operator:
+    responsibilities:
+      - Executes Corrective Action Management workflows and maintains operational records
+  corrective_action_management_auditor:
+    responsibilities:
+      - Independently validates Corrective Action Management control effectiveness and evidence sufficiency
+  corrective_action_management_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Corrective Action Management investigations
+  corrective_action_management_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Corrective Action Management
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-009
+    name: Enforcement Governance
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-010
+    name: Enforcement Actions
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-011
+    name: Corrective Action Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-012
+    name: Corrective Obligation Tracking
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-026
+    name: Penalty Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-027
+    name: Sanction Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-028
+    name: Financial Penalty Tracking
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-029
+    name: Repeat Violation Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-049
+    name: Market Surveillance Support
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-050
+    name: Post-Enforcement Monitoring
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-ENF-CORRECTIVE-CORRECTIVEE
+    control_name: corrective_enforcement_authorization_gate
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring enforcement authorization gate for Corrective Action Management
+        across enforcement_actions.
+    governance_rationale:
+      >
+        corrective_enforcement_authorization_gate is required to govern Corrective Action Management
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        enforcement actions failures.
+    implementation_guidance:
+      >
+        Implement corrective_enforcement_authorization_gate as automated policy in
+        corrective_action_management orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: corrective_enforcement_authorization_gate_continuous_telemetry_dashboard
+    validation_method:
+      corrective_enforcement_authorization_gate_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      corrective_enforcement_authorization_gate_statistical_sampling_with_exception_tracking
+    control_owner: corrective_action_management_control_owner
+    evidence_generated: corrective_enforcement_authorization_gate_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_enforcement_authorization_gate design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_enforcement_authorization_gate outputs may trigger enforcement under
+        corrective_action_management escalation rules.
+  - control_id: AAE-ENF-CORRECTIVE-ACTIONRESTR
+    control_name: action_restriction_scope_validator
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring restriction scope validator for Corrective Action Management across
+        enforcement_actions.
+    governance_rationale:
+      >
+        action_restriction_scope_validator is required to govern Corrective Action Management risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected enforcement
+        actions failures.
+    implementation_guidance:
+      >
+        Implement action_restriction_scope_validator as automated policy in corrective_action_management
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: action_restriction_scope_validator_continuous_telemetry_dashboard
+    validation_method:
+      action_restriction_scope_validator_quarterly_design_and_operating_effectiveness_test
+    testing_method: action_restriction_scope_validator_statistical_sampling_with_exception_tracking
+    control_owner: corrective_action_management_control_owner
+    evidence_generated: action_restriction_scope_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify action_restriction_scope_validator design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        action_restriction_scope_validator outputs may trigger enforcement under
+        corrective_action_management escalation rules.
+  - control_id: AAE-ENF-CORRECTIVE-MANAGEMENTP
+    control_name: management_prohibition_signal_detector
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring prohibition signal detector for Corrective Action Management across
+        enforcement_actions.
+    governance_rationale:
+      >
+        management_prohibition_signal_detector is required to govern Corrective Action Management risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected enforcement
+        actions failures.
+    implementation_guidance:
+      >
+        Implement management_prohibition_signal_detector as automated policy in
+        corrective_action_management orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: management_prohibition_signal_detector_continuous_telemetry_dashboard
+    validation_method:
+      management_prohibition_signal_detector_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      management_prohibition_signal_detector_statistical_sampling_with_exception_tracking
+    control_owner: corrective_action_management_control_owner
+    evidence_generated: management_prohibition_signal_detector_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify management_prohibition_signal_detector design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        management_prohibition_signal_detector outputs may trigger enforcement under
+        corrective_action_management escalation rules.
+  - control_id: AAE-ENF-CORRECTIVE-CORRECTIVEA
+    control_name: corrective_action_management_corrective_action_issuer
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring corrective action issuer for Corrective Action Management across
+        enforcement_actions.
+    governance_rationale:
+      >
+        corrective_action_management_corrective_action_issuer is required to govern Corrective Action
+        Management risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected enforcement actions failures.
+    implementation_guidance:
+      >
+        Implement corrective_action_management_corrective_action_issuer as automated policy in
+        corrective_action_management orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_action_management_corrective_action_issuer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_action_management_corrective_action_issuer_quarterly_design_and_operating_effectivene
+        ss_test
+    testing_method:
+      >
+        corrective_action_management_corrective_action_issuer_statistical_sampling_with_exception_tracki
+        ng
+    control_owner: corrective_action_management_control_owner
+    evidence_generated: corrective_action_management_corrective_action_issuer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_action_management_corrective_action_issuer design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_action_management_corrective_action_issuer outputs may trigger enforcement under
+        corrective_action_management escalation rules.
+  - control_id: AAE-ENF-CORRECTIVE-CORRECTIVEA
+    control_name: corrective_action_management_emergency_containment_activator
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring emergency containment activator for Corrective Action Management
+        across enforcement_actions.
+    governance_rationale:
+      >
+        corrective_action_management_emergency_containment_activator is required to govern Corrective
+        Action Management risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected enforcement actions failures.
+    implementation_guidance:
+      >
+        Implement corrective_action_management_emergency_containment_activator as automated policy in
+        corrective_action_management orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_action_management_emergency_containment_activator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_action_management_emergency_containment_activator_quarterly_design_and_operating_effe
+        ctiveness_test
+    testing_method:
+      >
+        corrective_action_management_emergency_containment_activator_statistical_sampling_with_exception
+        _tracking
+    control_owner: corrective_action_management_control_owner
+    evidence_generated:
+      corrective_action_management_emergency_containment_activator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_action_management_emergency_containment_activator design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_action_management_emergency_containment_activator outputs may trigger enforcement
+        under corrective_action_management escalation rules.
+  - control_id: AAE-ENF-CORRECTIVE-CORRECTIVEA
+    control_name: corrective_action_management_operational_restriction_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring operational restriction enforcer for Corrective Action Management
+        across enforcement_actions.
+    governance_rationale:
+      >
+        corrective_action_management_operational_restriction_enforcer is required to govern Corrective
+        Action Management risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected enforcement actions failures.
+    implementation_guidance:
+      >
+        Implement corrective_action_management_operational_restriction_enforcer as automated policy in
+        corrective_action_management orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_action_management_operational_restriction_enforcer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_action_management_operational_restriction_enforcer_quarterly_design_and_operating_eff
+        ectiveness_test
+    testing_method:
+      >
+        corrective_action_management_operational_restriction_enforcer_statistical_sampling_with_exceptio
+        n_tracking
+    control_owner: corrective_action_management_control_owner
+    evidence_generated:
+      corrective_action_management_operational_restriction_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_action_management_operational_restriction_enforcer design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_action_management_operational_restriction_enforcer outputs may trigger enforcement
+        under corrective_action_management escalation rules.
+  - control_id: AAE-ENF-CORRECTIVE-CORRECTIVEA
+    control_name: corrective_action_management_enforcement_decision_auditor
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring enforcement decision auditor for Corrective Action Management
+        across enforcement_actions.
+    governance_rationale:
+      >
+        corrective_action_management_enforcement_decision_auditor is required to govern Corrective
+        Action Management risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected enforcement actions failures.
+    implementation_guidance:
+      >
+        Implement corrective_action_management_enforcement_decision_auditor as automated policy in
+        corrective_action_management orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_action_management_enforcement_decision_auditor_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_action_management_enforcement_decision_auditor_quarterly_design_and_operating_effecti
+        veness_test
+    testing_method:
+      >
+        corrective_action_management_enforcement_decision_auditor_statistical_sampling_with_exception_tr
+        acking
+    control_owner: corrective_action_management_control_owner
+    evidence_generated: corrective_action_management_enforcement_decision_auditor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_action_management_enforcement_decision_auditor design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_action_management_enforcement_decision_auditor outputs may trigger enforcement under
+        corrective_action_management escalation rules.
+  - control_id: AAE-ENF-CORRECTIVE-CORRECTIVEA
+    control_name: corrective_action_management_execution_verification_scanner
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring execution verification scanner for Corrective Action Management
+        across enforcement_actions.
+    governance_rationale:
+      >
+        corrective_action_management_execution_verification_scanner is required to govern Corrective
+        Action Management risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected enforcement actions failures.
+    implementation_guidance:
+      >
+        Implement corrective_action_management_execution_verification_scanner as automated policy in
+        corrective_action_management orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_action_management_execution_verification_scanner_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_action_management_execution_verification_scanner_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        corrective_action_management_execution_verification_scanner_statistical_sampling_with_exception_
+        tracking
+    control_owner: corrective_action_management_control_owner
+    evidence_generated:
+      corrective_action_management_execution_verification_scanner_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_action_management_execution_verification_scanner design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_action_management_execution_verification_scanner outputs may trigger enforcement
+        under corrective_action_management escalation rules.
+  - control_id: AAE-ENF-CORRECTIVE-CORRECTIVEA
+    control_name: corrective_action_management_enforcement_effectiveness_measurer
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring enforcement effectiveness measurer for Corrective Action Management
+        across enforcement_actions.
+    governance_rationale:
+      >
+        corrective_action_management_enforcement_effectiveness_measurer is required to govern Corrective
+        Action Management risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected enforcement actions failures.
+    implementation_guidance:
+      >
+        Implement corrective_action_management_enforcement_effectiveness_measurer as automated policy in
+        corrective_action_management orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_action_management_enforcement_effectiveness_measurer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_action_management_enforcement_effectiveness_measurer_quarterly_design_and_operating_e
+        ffectiveness_test
+    testing_method:
+      >
+        corrective_action_management_enforcement_effectiveness_measurer_statistical_sampling_with_except
+        ion_tracking
+    control_owner: corrective_action_management_control_owner
+    evidence_generated:
+      corrective_action_management_enforcement_effectiveness_measurer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_action_management_enforcement_effectiveness_measurer design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_action_management_enforcement_effectiveness_measurer outputs may trigger enforcement
+        under corrective_action_management escalation rules.
+  - control_id: AAE-ENF-CORRECTIVE-CORRECTIVEA
+    control_name: corrective_action_management_appeal_suspension_manager
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring appeal suspension manager for Corrective Action Management across
+        enforcement_actions.
+    governance_rationale:
+      >
+        corrective_action_management_appeal_suspension_manager is required to govern Corrective Action
+        Management risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected enforcement actions failures.
+    implementation_guidance:
+      >
+        Implement corrective_action_management_appeal_suspension_manager as automated policy in
+        corrective_action_management orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_action_management_appeal_suspension_manager_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_action_management_appeal_suspension_manager_quarterly_design_and_operating_effectiven
+        ess_test
+    testing_method:
+      >
+        corrective_action_management_appeal_suspension_manager_statistical_sampling_with_exception_track
+        ing
+    control_owner: corrective_action_management_control_owner
+    evidence_generated: corrective_action_management_appeal_suspension_manager_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_action_management_appeal_suspension_manager design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_action_management_appeal_suspension_manager outputs may trigger enforcement under
+        corrective_action_management escalation rules.
+  - control_id: AAE-ENF-CORRECTIVE-CORRECTIVEA
+    control_name: corrective_action_management_market_withdrawal_coordinator
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring market withdrawal coordinator for Corrective Action Management
+        across enforcement_actions.
+    governance_rationale:
+      >
+        corrective_action_management_market_withdrawal_coordinator is required to govern Corrective
+        Action Management risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected enforcement actions failures.
+    implementation_guidance:
+      >
+        Implement corrective_action_management_market_withdrawal_coordinator as automated policy in
+        corrective_action_management orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_action_management_market_withdrawal_coordinator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_action_management_market_withdrawal_coordinator_quarterly_design_and_operating_effect
+        iveness_test
+    testing_method:
+      >
+        corrective_action_management_market_withdrawal_coordinator_statistical_sampling_with_exception_t
+        racking
+    control_owner: corrective_action_management_control_owner
+    evidence_generated: corrective_action_management_market_withdrawal_coordinator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_action_management_market_withdrawal_coordinator design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_action_management_market_withdrawal_coordinator outputs may trigger enforcement under
+        corrective_action_management escalation rules.
+  - control_id: AAE-ENF-CORRECTIVE-CORRECTIVEA
+    control_name: corrective_action_management_enforcement_notice_registrar
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring enforcement notice registrar for Corrective Action Management
+        across enforcement_actions.
+    governance_rationale:
+      >
+        corrective_action_management_enforcement_notice_registrar is required to govern Corrective
+        Action Management risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected enforcement actions failures.
+    implementation_guidance:
+      >
+        Implement corrective_action_management_enforcement_notice_registrar as automated policy in
+        corrective_action_management orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_action_management_enforcement_notice_registrar_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_action_management_enforcement_notice_registrar_quarterly_design_and_operating_effecti
+        veness_test
+    testing_method:
+      >
+        corrective_action_management_enforcement_notice_registrar_statistical_sampling_with_exception_tr
+        acking
+    control_owner: corrective_action_management_control_owner
+    evidence_generated: corrective_action_management_enforcement_notice_registrar_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_action_management_enforcement_notice_registrar design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_action_management_enforcement_notice_registrar outputs may trigger enforcement under
+        corrective_action_management escalation rules.
+requirements:
+  legal:
+    >
+      Corrective Action Management must satisfy legal requirements for sanctions, corrective measures,
+      restrictions, prohibitions, enforcement execution including documented procedures, accountable
+      roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Corrective Action Management must satisfy regulatory requirements for sanctions, corrective
+      measures, restrictions, prohibitions, enforcement execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Corrective Action Management must satisfy technical requirements for sanctions, corrective
+      measures, restrictions, prohibitions, enforcement execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Corrective Action Management must satisfy operational requirements for sanctions, corrective
+      measures, restrictions, prohibitions, enforcement execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Corrective Action Management must satisfy audit requirements for sanctions, corrective measures,
+      restrictions, prohibitions, enforcement execution including documented procedures, accountable
+      roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Corrective Action Management must satisfy forensic requirements for sanctions, corrective
+      measures, restrictions, prohibitions, enforcement execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Corrective Action Management must satisfy enforcement requirements for sanctions, corrective
+      measures, restrictions, prohibitions, enforcement execution including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Corrective Action Management with stage gates, RACI assignments, and evidence
+      capture.
+  triage:
+    >
+      Triage process for Corrective Action Management with stage gates, RACI assignments, and evidence
+      capture.
+  execution:
+    >
+      Execution process for Corrective Action Management with stage gates, RACI assignments, and
+      evidence capture.
+  validation:
+    >
+      Validation process for Corrective Action Management with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Corrective Action Management with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Corrective Action Management with stage gates, RACI assignments, and
+      evidence capture.
+  improvement:
+    >
+      Improvement process for Corrective Action Management with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: corrective_action_management_operational_lifecycle_workflow
+    workflow_trigger: corrective_action_management_governance_event_detected
+    workflow_steps:
+      - corrective_action_management_intake
+      - corrective_action_management_triage
+      - corrective_action_management_execution
+      - corrective_action_management_validation
+      - corrective_action_management_approval
+      - corrective_action_management_closure
+    approval_points:
+      - corrective_action_management_approval
+    escalation_points:
+      - corrective_action_management_triage
+    generated_evidence:
+      - corrective_action_management_workflow_log
+      - corrective_action_management_closure_attestation
+    completion_requirements:
+      - corrective_action_management_evidence_complete
+      - corrective_action_management_approvals_recorded
+  - workflow_name: corrective_action_management_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_corrective_action_management
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - corrective_action_management_regulatory_package
+      - corrective_action_management_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - corrective_action_management_governance_event_detected
+    - corrective_action_management_regulatory_inquiry
+    - corrective_action_management_integrity_breach
+    - corrective_action_management_enforcement_authorization
+  required_inputs:
+    - corrective_action_management_case_context
+    - corrective_action_management_evidence_index
+    - corrective_action_management_risk_assessment
+  workflow_steps:
+    - corrective_action_management_intake
+    - corrective_action_management_triage
+    - corrective_action_management_execution
+    - corrective_action_management_validation
+    - corrective_action_management_approval
+    - corrective_action_management_closure
+  validation_steps:
+    - corrective_action_management_evidence_sufficiency_check
+    - corrective_action_management_integrity_verification
+  approval_steps:
+    - corrective_action_management_approval
+  control_checkpoints:
+    - corrective_action_management_intake_gate
+    - corrective_action_management_evidence_gate
+    - corrective_action_management_decision_gate
+  evidence_generation:
+    - corrective_action_management_workflow_log
+    - corrective_action_management_closure_attestation
+  decision_points:
+    - corrective_action_management_severity_classification
+    - corrective_action_management_enforcement_authorization
+  escalation_points:
+    - corrective_action_management_triage
+  completion_criteria:
+    - corrective_action_management_evidence_complete
+    - corrective_action_management_approvals_recorded
+  generated_outputs:
+    - corrective_action_management_workflow_log
+    - corrective_action_management_closure_attestation
+    - corrective_action_management_final_disposition
+decision_logic:
+  decision_inputs:
+    - corrective_action_management_severity_score
+    - corrective_action_management_evidence_completeness
+    - corrective_action_management_regulatory_context
+    - corrective_action_management_risk_exposure_index
+  decision_conditions:
+    - corrective_action_management_critical_threshold_breach
+    - corrective_action_management_evidence_integrity_failure
+    - corrective_action_management_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: corrective_action_management_severity_score >= 90
+    high_severity: corrective_action_management_severity_score >= 70
+    evidence_complete: corrective_action_management_evidence_completeness >= 0.98
+  decision_rules:
+    corrective_action_management_high_severity_violation:
+      condition: corrective_action_management_severity_score >= 90
+      action: initiate_corrective_action_management_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: corrective_action_management_investigation_report
+    corrective_action_management_evidence_compromise_detected:
+      condition: corrective_action_management_integrity_status == compromised
+      action: activate_corrective_action_management_forensic_lockdown
+      approval_required: corrective_action_management_forensic_lead
+      evidence_required: corrective_action_management_integrity_alert_record
+    corrective_action_management_enforcement_authorization:
+      condition: corrective_action_management_violation_confirmed == true AND corrective_action_management_evidence_complete == true
+      action: issue_corrective_action_management_enforcement_order
+      approval_required: corrective_action_management_enforcement_officer
+      evidence_required: corrective_action_management_violation_evidence_package
+    corrective_action_management_regulator_inquiry_response:
+      condition: corrective_action_management_regulator_request_received == true
+      action: compile_corrective_action_management_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: corrective_action_management_regulatory_evidence_index
+  decision_outputs:
+    - corrective_action_management_enforcement_decision
+    - corrective_action_management_escalation_notice
+    - corrective_action_management_remediation_directive
+    - corrective_action_management_audit_disposition
+  approval_requirements:
+    enforcement_actions: [corrective_action_management_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - corrective_action_management_severity_score >= 90
+    - corrective_action_management_evidence_integrity_failure == true
+    - corrective_action_management_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_corrective_action_management_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: corrective_action_management_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Corrective Action Management may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Corrective Action Management per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Corrective Action Management per ISO 19011
+      and EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Corrective Action Management per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Corrective Action Management per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: corrective_operational_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure corrective operational rate for Corrective Action Management operational and regulatory
+        assurance
+    formula: computed_corrective_operational_rate_from_corrective_action_management_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: corrective_action_management_metrics_owner
+    data_source: corrective_action_management_metrics_warehouse
+    evidence_generated: corrective_operational_rate_measurement_record
+  - metric_name: action_operational_rate
+    metric_category: risk
+    business_purpose:
+      >
+        Measure action operational rate for Corrective Action Management operational and regulatory
+        assurance
+    formula: computed_action_operational_rate_from_corrective_action_management_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: corrective_action_management_metrics_owner
+    data_source: corrective_action_management_metrics_warehouse
+    evidence_generated: action_operational_rate_measurement_record
+  - metric_name: management_operational_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure management operational rate for Corrective Action Management operational and regulatory
+        assurance
+    formula: computed_management_operational_rate_from_corrective_action_management_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: corrective_action_management_metrics_owner
+    data_source: corrective_action_management_metrics_warehouse
+    evidence_generated: management_operational_rate_measurement_record
+  - metric_name: action_assurance_score
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure action assurance score for Corrective Action Management operational and regulatory
+        assurance
+    formula: computed_action_assurance_score_from_corrective_action_management_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: corrective_action_management_metrics_owner
+    data_source: corrective_action_management_metrics_warehouse
+    evidence_generated: action_assurance_score_measurement_record
+  - metric_name: management_assurance_score
+    metric_category: governance
+    business_purpose:
+      >
+        Measure management assurance score for Corrective Action Management operational and regulatory
+        assurance
+    formula: computed_management_assurance_score_from_corrective_action_management_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: corrective_action_management_metrics_owner
+    data_source: corrective_action_management_metrics_warehouse
+    evidence_generated: management_assurance_score_measurement_record
+  - metric_name: corrective_action_management_escalation_frequency
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure corrective action management escalation frequency for Corrective Action Management
+        operational and regulatory assurance
+    formula:
+      >
+        computed_corrective_action_management_escalation_frequency_from_corrective_action_management_tel
+        emetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: corrective_action_management_metrics_owner
+    data_source: corrective_action_management_metrics_warehouse
+    evidence_generated: corrective_action_management_escalation_frequency_measurement_record
+kpis:
+  - metric_name: corrective_operational_rate
+    formula: computed_corrective_operational_rate_from_corrective_action_management_telemetry
+    target: >= 95%
+  - metric_name: action_operational_rate
+    formula: computed_action_operational_rate_from_corrective_action_management_telemetry
+    target: >= 95%
+  - metric_name: management_operational_rate
+    formula: computed_management_operational_rate_from_corrective_action_management_telemetry
+    target: >= 95%
+  - metric_name: action_assurance_score
+    formula: computed_action_assurance_score_from_corrective_action_management_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: corrective_action_management_escalation_frequency
+    business_purpose: Measure corrective action management escalation frequency for Corrective Action Management operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: corrective_action_management_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support corrective action management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_corrective_action_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: corrective_action_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: corrective_action_management_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support corrective action management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_corrective_action_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: corrective_action_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: corrective_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support corrective action management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_corrective_action_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: corrective_action_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: action_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support corrective action management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_corrective_action_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: corrective_action_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: management_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support corrective action management governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_corrective_action_management_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: corrective_action_management_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: corrective_action_management_status_dashboard
+    report_owner: corrective_action_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: monthly
+    report_inputs:
+      - corrective_action_management_telemetry
+      - corrective_action_management_evidence_index
+    report_outputs:
+      - corrective_action_management_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: corrective_action_management_compliance_summary
+    report_owner: corrective_action_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - corrective_action_management_telemetry
+      - corrective_action_management_evidence_index
+    report_outputs:
+      - corrective_action_management_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: corrective_assurance_report
+    report_owner: corrective_action_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - corrective_action_management_telemetry
+      - corrective_action_management_evidence_index
+    report_outputs:
+      - corrective_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: corrective_action_management_executive_brief
+    report_owner: corrective_action_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - corrective_action_management_telemetry
+      - corrective_action_management_evidence_index
+    report_outputs:
+      - corrective_action_management_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: corrective_action_management_audit_pack
+    report_owner: corrective_action_management_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - corrective_action_management_telemetry
+      - corrective_action_management_evidence_index
+    report_outputs:
+      - corrective_action_management_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  agent_governance:
+    agent_identity: corrective_action_management_registered_agent_identity_schema
+    agent_role: corrective_action_management_delegated_authority_role_matrix
+    agent_permissions: corrective_action_management_least_privilege_permission_set
+    agent_constraints: corrective_action_management_autonomy_and_tool_constraints
+    agent_accountability: corrective_action_management_human_accountability_chain
+    agent_escalation_rules: corrective_action_management_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - corrective_action_management_policy_context
+      - corrective_action_management_risk_score
+      - corrective_action_management_human_intent
+    decision_outputs:
+      - corrective_action_management_authorized_action
+      - corrective_action_management_escalation_notice
+    decision_owners:
+      - corrective_action_management_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: corrective_action_management_high_risk_decision_mandatory_review
+    decision_accountability: corrective_action_management_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: corrective_action_management_approved_tool_allowlist
+    tool_execution_validation: corrective_action_management_pre_execution_tool_risk_check
+    tool_risk_controls: corrective_action_management_tool_side_effect_containment
+    tool_auditability: corrective_action_management_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: corrective_action_management_memory_segment_access_policy
+    memory_integrity_validation: corrective_action_management_memory_tamper_detection
+    memory_retention_controls: corrective_action_management_memory_retention_and_purge_rules
+    memory_auditability: corrective_action_management_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: corrective_action_management_chain_of_thought_capture
+    reasoning_validation: corrective_action_management_reasoning_consistency_check
+    reasoning_risk_monitoring: corrective_action_management_reasoning_hazard_detection
+    reasoning_accountability: corrective_action_management_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - corrective_action_management_audit_log
+  - corrective_action_management_activity_log
+  - corrective_action_management_decision_log
+  - corrective_action_management_traceability_record
+  - corrective_action_management_evidence_package
+  - corrective_action_management_chain_of_custody_record
+  - corrective_action_management_attestation
+required_evidence:
+  - corrective_action_management_audit_log
+  - corrective_action_management_activity_log
+  - corrective_action_management_decision_log
+  - corrective_action_management_traceability_record
+  - corrective_action_management_evidence_package
+  - corrective_action_management_chain_of_custody_record
+  - corrective_action_management_attestation
+supporting_evidence:
+  - corrective_action_management_audit_log
+  - corrective_action_management_activity_log
+  - corrective_action_management_decision_log
+  - corrective_action_management_traceability_record
+  - corrective_action_management_evidence_package
+audit_evidence:
+  - corrective_action_management_audit_log
+  - corrective_action_management_activity_log
+  - corrective_action_management_decision_log
+  - corrective_action_management_traceability_record
+  - corrective_action_management_evidence_package
+  - corrective_action_management_chain_of_custody_record
+  - corrective_action_management_attestation
+forensic_evidence:
+  - corrective_action_management_audit_log
+  - corrective_action_management_activity_log
+  - corrective_action_management_decision_log
+  - corrective_action_management_traceability_record
+  - corrective_action_management_evidence_package
+  - corrective_action_management_chain_of_custody_record
+  - corrective_action_management_attestation
+regulatory_evidence:
+  - corrective_action_management_audit_log
+  - corrective_action_management_activity_log
+  - corrective_action_management_decision_log
+  - corrective_action_management_traceability_record
+  - corrective_action_management_evidence_package
+  - corrective_action_management_chain_of_custody_record
+  - corrective_action_management_attestation
+validation_evidence:
+  - corrective_action_management_audit_log
+  - corrective_action_management_activity_log
+  - corrective_action_management_decision_log
+  - corrective_action_management_traceability_record
+  - corrective_action_management_evidence_package
+  - corrective_action_management_chain_of_custody_record
+  - corrective_action_management_attestation
+validation_rules:
+  - rule: corrective_action_management_evidence_complete
+    condition: required_evidence_corrective_action_management < threshold
+    action: BLOCK_SUBMISSION
+  - rule: corrective_action_management_integrity_verified
+    condition: integrity_status_corrective_action_management != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: corrective_action_management_custody_intact
+    condition: custody_gap_corrective_action_management == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Corrective Action Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Corrective Action Management controls fail; mitigated
+      through preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Corrective Action Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Corrective Action Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Corrective Action Management controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - corrective_action_management_control_failure
+    - corrective_action_management_evidence_compromise
+    - corrective_action_management_regulatory_non_compliance
+    - corrective_action_management_enforcement_delay
+  risk_events:
+    - corrective_action_management_audit_finding_critical
+    - corrective_action_management_investigation_escalation
+    - corrective_action_management_sanction_exposure
+    - corrective_action_management_market_surveillance_inquiry
+  risk_indicators:
+    - corrective_action_management_control_effectiveness_degradation
+    - corrective_action_management_evidence_gap_rate
+    - corrective_action_management_sla_breach_count
+    - corrective_action_management_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    corrective_action_management_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: corrective_action_management_forensic_lead
+    corrective_action_management_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    corrective_action_management_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: corrective_action_management_enforcement_officer
+  risk_tolerance:
+    corrective_action_management_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: corrective_action_management_risk_score >= 60
+    critical: corrective_action_management_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Corrective Action Management controls documented in
+      corrective_action_management_risk_register with quarterly review.
+  risk_treatment:
+    - corrective_action_management_preventive_control_reinforcement
+    - corrective_action_management_detective_monitoring_enhancement
+    - corrective_action_management_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: corrective_action_management_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Corrective Action Management workflow events with provenance anchor and
+      corrective_action_management_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via corrective_action_management_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      corrective_action_management_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      corrective_action_management_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in corrective_action_management_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per corrective_action_management_retention_schedule aligned with EU AI Act Article 18
+      and legal hold
+  evidence_archival:
+    Long-term archival with corrective_action_management_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via corrective_action_management_retrieval_gateway with purpose logging
+  evidence_disposal:
+    >
+      Authorized disposition with corrective_action_management_disposition_certificate and dual
+      approval
+chain_of_custody:
+  custody_events:
+    - corrective_action_management_capture_event
+    - corrective_action_management_transfer_event
+    - corrective_action_management_access_event
+    - corrective_action_management_disposition_event
+  custody_owners:
+    primary: corrective_action_management_evidence_custodian
+    secondary: corrective_action_management_forensic_lead
+  custody_validation:
+    method: corrective_action_management_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - corrective_action_management_sha256_hash_chain
+    - corrective_action_management_digital_signature
+    - corrective_action_management_timestamp_authority
+  tamper_detection:
+    method: corrective_action_management_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: corrective_action_management_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_16:
+    article: Article 16
+    regulatory_text_summary:
+      Obligations of providers.
+    obligation:
+      >
+        Provider duties including QMS, documentation, and conformity. Implemented through Corrective
+        Action Management in enforcement_actions.
+    implementation_controls:
+      - corrective_action_management_article_16_preventive_control
+      - corrective_action_management_article_16_detective_control
+      - corrective_action_management_article_16_evidence_control
+    implementation_processes:
+      - corrective_action_management_article_16_workflow
+      - corrective_action_management_article_16_validation_process
+      - corrective_action_management_article_16_escalation_process
+    implementation_evidence:
+      - corrective_action_management_article_16_compliance_record
+      - corrective_action_management_article_16_audit_package
+      - corrective_action_management_article_16_attestation
+    validation_method: corrective_action_management_article_16_automated_and_manual_conformity_testing
+    audit_method: corrective_action_management_article_16_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: corrective_action_management_article_16_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Corrective Action Management demonstrates Article 16 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_22:
+    article: Article 22
+    regulatory_text_summary:
+      Changes to high-risk AI systems.
+    obligation:
+      >
+        Notification of substantial modifications. Implemented through Corrective Action Management in
+        enforcement_actions.
+    implementation_controls:
+      - corrective_action_management_article_22_preventive_control
+      - corrective_action_management_article_22_detective_control
+      - corrective_action_management_article_22_evidence_control
+    implementation_processes:
+      - corrective_action_management_article_22_workflow
+      - corrective_action_management_article_22_validation_process
+      - corrective_action_management_article_22_escalation_process
+    implementation_evidence:
+      - corrective_action_management_article_22_compliance_record
+      - corrective_action_management_article_22_audit_package
+      - corrective_action_management_article_22_attestation
+    validation_method: corrective_action_management_article_22_automated_and_manual_conformity_testing
+    audit_method: corrective_action_management_article_22_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: corrective_action_management_article_22_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Corrective Action Management demonstrates Article 22 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Corrective Action Management in enforcement_actions.
+    implementation_controls:
+      - corrective_action_management_article_26_preventive_control
+      - corrective_action_management_article_26_detective_control
+      - corrective_action_management_article_26_evidence_control
+    implementation_processes:
+      - corrective_action_management_article_26_workflow
+      - corrective_action_management_article_26_validation_process
+      - corrective_action_management_article_26_escalation_process
+    implementation_evidence:
+      - corrective_action_management_article_26_compliance_record
+      - corrective_action_management_article_26_audit_package
+      - corrective_action_management_article_26_attestation
+    validation_method: corrective_action_management_article_26_automated_and_manual_conformity_testing
+    audit_method: corrective_action_management_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: corrective_action_management_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Corrective Action Management demonstrates Article 26 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_71:
+    article: Article 71
+    regulatory_text_summary:
+      Penalties.
+    obligation:
+      >
+        Administrative fines for infringements. Implemented through Corrective Action Management in
+        enforcement_actions.
+    implementation_controls:
+      - corrective_action_management_article_71_preventive_control
+      - corrective_action_management_article_71_detective_control
+      - corrective_action_management_article_71_evidence_control
+    implementation_processes:
+      - corrective_action_management_article_71_workflow
+      - corrective_action_management_article_71_validation_process
+      - corrective_action_management_article_71_escalation_process
+    implementation_evidence:
+      - corrective_action_management_article_71_compliance_record
+      - corrective_action_management_article_71_audit_package
+      - corrective_action_management_article_71_attestation
+    validation_method: corrective_action_management_article_71_automated_and_manual_conformity_testing
+    audit_method: corrective_action_management_article_71_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: corrective_action_management_article_71_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Corrective Action Management demonstrates Article 71 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_16:
+      implementation: corrective_action_management_eu_ai_act_article_16_control_set
+      process: corrective_action_management_eu_ai_act_article_16_workflow
+      evidence: corrective_action_management_eu_ai_act_article_16_attestation
+    article_22:
+      implementation: corrective_action_management_eu_ai_act_article_22_control_set
+      process: corrective_action_management_eu_ai_act_article_22_workflow
+      evidence: corrective_action_management_eu_ai_act_article_22_attestation
+    article_26:
+      implementation: corrective_action_management_eu_ai_act_article_26_control_set
+      process: corrective_action_management_eu_ai_act_article_26_workflow
+      evidence: corrective_action_management_eu_ai_act_article_26_attestation
+    article_71:
+      implementation: corrective_action_management_eu_ai_act_article_71_control_set
+      process: corrective_action_management_eu_ai_act_article_71_workflow
+      evidence: corrective_action_management_eu_ai_act_article_71_attestation
+  gdpr:
+    article_5:
+      implementation: corrective_action_management_gdpr_article_5_privacy_control
+      evidence: corrective_action_management_gdpr_article_5_compliance_record
+    article_6:
+      implementation: corrective_action_management_gdpr_article_6_privacy_control
+      evidence: corrective_action_management_gdpr_article_6_compliance_record
+    article_22:
+      implementation: corrective_action_management_gdpr_article_22_privacy_control
+      evidence: corrective_action_management_gdpr_article_22_compliance_record
+    article_25:
+      implementation: corrective_action_management_gdpr_article_25_privacy_control
+      evidence: corrective_action_management_gdpr_article_25_compliance_record
+    article_32:
+      implementation: corrective_action_management_gdpr_article_32_privacy_control
+      evidence: corrective_action_management_gdpr_article_32_compliance_record
+    article_35:
+      implementation: corrective_action_management_gdpr_article_35_privacy_control
+      evidence: corrective_action_management_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: corrective_action_management_iso42001_clause_4_1_aims_control
+      evidence: corrective_action_management_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: corrective_action_management_iso42001_clause_4_2_aims_control
+      evidence: corrective_action_management_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: corrective_action_management_iso42001_clause_5_1_aims_control
+      evidence: corrective_action_management_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: corrective_action_management_iso42001_clause_5_2_aims_control
+      evidence: corrective_action_management_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: corrective_action_management_iso42001_clause_6_1_aims_control
+      evidence: corrective_action_management_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: corrective_action_management_iso42001_clause_8_1_aims_control
+      evidence: corrective_action_management_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: corrective_action_management_iso42001_clause_9_1_aims_control
+      evidence: corrective_action_management_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: corrective_action_management_iso42001_clause_10_1_aims_control
+      evidence: corrective_action_management_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: corrective_action_management_iso23894_risk_identification_alignment
+      evidence: corrective_action_management_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: corrective_action_management_iso23894_risk_analysis_alignment
+      evidence: corrective_action_management_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: corrective_action_management_iso23894_risk_evaluation_alignment
+      evidence: corrective_action_management_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: corrective_action_management_iso23894_risk_treatment_alignment
+      evidence: corrective_action_management_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: corrective_action_management_iso23894_risk_monitoring_alignment
+      evidence: corrective_action_management_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: corrective_action_management_iso19011_audit_principles_procedure
+      evidence: corrective_action_management_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: corrective_action_management_iso19011_audit_programme_management_procedure
+      evidence: corrective_action_management_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: corrective_action_management_iso19011_audit_evidence_requirements_procedure
+      evidence: corrective_action_management_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: corrective_action_management_iso19011_audit_reporting_procedure
+      evidence: corrective_action_management_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: corrective_action_management_nist_rmf_govern_control_mapping
+      evidence: corrective_action_management_nist_rmf_govern_assessment
+    map:
+      implementation: corrective_action_management_nist_rmf_map_control_mapping
+      evidence: corrective_action_management_nist_rmf_map_assessment
+    measure:
+      implementation: corrective_action_management_nist_rmf_measure_control_mapping
+      evidence: corrective_action_management_nist_rmf_measure_assessment
+    manage:
+      implementation: corrective_action_management_nist_rmf_manage_control_mapping
+      evidence: corrective_action_management_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: corrective_action_management_nist_csf_identify_safeguard
+      evidence: corrective_action_management_nist_csf_identify_log
+    protect:
+      implementation: corrective_action_management_nist_csf_protect_safeguard
+      evidence: corrective_action_management_nist_csf_protect_log
+    detect:
+      implementation: corrective_action_management_nist_csf_detect_safeguard
+      evidence: corrective_action_management_nist_csf_detect_log
+    respond:
+      implementation: corrective_action_management_nist_csf_respond_safeguard
+      evidence: corrective_action_management_nist_csf_respond_log
+    recover:
+      implementation: corrective_action_management_nist_csf_recover_safeguard
+      evidence: corrective_action_management_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: corrective_action_management_oecd_accountability_governance_control
+      evidence: corrective_action_management_oecd_accountability_attestation
+    transparency:
+      implementation: corrective_action_management_oecd_transparency_governance_control
+      evidence: corrective_action_management_oecd_transparency_attestation
+    robustness_security:
+      implementation: corrective_action_management_oecd_robustness_security_governance_control
+      evidence: corrective_action_management_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: corrective_action_management_oecd_inclusive_growth_governance_control
+      evidence: corrective_action_management_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: corrective_action_management_unesco_human_rights_ethics_control
+      evidence: corrective_action_management_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: corrective_action_management_unesco_fairness_non_discrimination_ethics_control
+      evidence: corrective_action_management_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: corrective_action_management_unesco_transparency_explainability_ethics_control
+      evidence: corrective_action_management_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: corrective_action_management_unesco_accountability_ethics_control
+      evidence: corrective_action_management_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Corrective Action Management covering executive, board, regulatory,
+      audit, forensic, and attestation consumers.
+  report_types:
+    - corrective_action_management_status_report
+    - corrective_action_management_compliance_report
+    - corrective_action_management_enforcement_report
+    - corrective_action_management_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [corrective_action_management_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_corrective_action_management
+  - quarterly_control_testing_corrective_action_management
+  - evidence_sampling_corrective_action_management
+  - finding_remediation_tracking_corrective_action_management
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Corrective Action Management aligned with ISO/IEC 27037 and legal
+      admissibility standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Corrective Action Management.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Corrective Action Management.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Corrective Action Management.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Corrective Action Management.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Corrective Action Management.
+investigation_requirements:
+  case_management:
+    Case Management for Corrective Action Management investigations.
+  investigation_lifecycle:
+    Investigation Lifecycle for Corrective Action Management investigations.
+  evidence_collection:
+    Evidence Collection for Corrective Action Management investigations.
+  root_cause_analysis:
+    Root Cause Analysis for Corrective Action Management investigations.
+  violation_determination:
+    Violation Determination for Corrective Action Management investigations.
+  regulatory_notification:
+    Regulatory Notification for Corrective Action Management investigations.
+enforcement_requirements:
+  enforcement_framework:
+    Enforcement Framework within Corrective Action Management scope.
+  enforcement_decision_logic:
+    Enforcement Decision Logic within Corrective Action Management scope.
+  sanction_management:
+    Sanction Management within Corrective Action Management scope.
+  penalty_management:
+    Penalty Management within Corrective Action Management scope.
+  post_enforcement_monitoring:
+    Post Enforcement Monitoring within Corrective Action Management scope.
+integration_points:
+  upstream_systems:
+    - system: compliance_audits
+      purpose: corrective_action_management_to_compliance_audits_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_compliance_audits]
+      produced_artifacts: [corrective_action_management_output_to_compliance_audits]
+    - system: investigation_management
+      purpose: corrective_action_management_to_investigation_management_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_investigation_management]
+      produced_artifacts: [corrective_action_management_output_to_investigation_management]
+    - system: penalty_management
+      purpose: corrective_action_management_to_penalty_management_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_penalty_management]
+      produced_artifacts: [corrective_action_management_output_to_penalty_management]
+  downstream_systems:
+    - system: remediation_tracking
+      purpose: corrective_action_management_to_remediation_tracking_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_remediation_tracking]
+      produced_artifacts: [corrective_action_management_output_to_remediation_tracking]
+    - system: reporting
+      purpose: corrective_action_management_to_reporting_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_reporting]
+      produced_artifacts: [corrective_action_management_output_to_reporting]
+    - system: penalty_management
+      purpose: corrective_action_management_to_penalty_management_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_penalty_management]
+      produced_artifacts: [corrective_action_management_output_to_penalty_management]
+  governance_integrations:
+    - system: policy_enforcement
+      purpose: corrective_action_management_to_policy_enforcement_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_policy_enforcement]
+      produced_artifacts: [corrective_action_management_output_to_policy_enforcement]
+    - system: core_governance
+      purpose: corrective_action_management_to_core_governance_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_core_governance]
+      produced_artifacts: [corrective_action_management_output_to_core_governance]
+  risk_integrations:
+    - system: risk_management
+      purpose: corrective_action_management_to_risk_management_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_risk_management]
+      produced_artifacts: [corrective_action_management_output_to_risk_management]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: corrective_action_management_to_compliance_audits_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_compliance_audits]
+      produced_artifacts: [corrective_action_management_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: corrective_action_management_to_internal_audit_system_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_internal_audit_system]
+      produced_artifacts: [corrective_action_management_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: corrective_action_management_to_governance_reporting_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_governance_reporting]
+      produced_artifacts: [corrective_action_management_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: corrective_action_management_to_executive_dashboard_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_executive_dashboard]
+      produced_artifacts: [corrective_action_management_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: corrective_action_management_to_enforcement_actions_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_enforcement_actions]
+      produced_artifacts: [corrective_action_management_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: corrective_action_management_to_policy_enforcement_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_policy_enforcement]
+      produced_artifacts: [corrective_action_management_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: corrective_action_management_to_remediation_tracking_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_remediation_tracking]
+      produced_artifacts: [corrective_action_management_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: corrective_action_management_to_remediation_engine_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_remediation_engine]
+      produced_artifacts: [corrective_action_management_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: corrective_action_management_to_evidence_preservation_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_evidence_preservation]
+      produced_artifacts: [corrective_action_management_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: corrective_action_management_to_technical_documentation_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_technical_documentation]
+      produced_artifacts: [corrective_action_management_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: corrective_action_management_to_post_market_monitoring_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_post_market_monitoring]
+      produced_artifacts: [corrective_action_management_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: corrective_action_management_to_incident_reporting_governance_sync
+      data_exchanged: [corrective_action_management_events, corrective_action_management_evidence_refs, corrective_action_management_metrics]
+      trigger_conditions: [corrective_action_management_state_change, corrective_action_management_escalation, corrective_action_management_closure]
+      consumed_artifacts: [corrective_action_management_input_from_incident_reporting]
+      produced_artifacts: [corrective_action_management_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Corrective Action Management activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Corrective Action Management procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - corrective_action_management_procedure_checklist
+    required_evidence:
+      - corrective_action_management_process_log
+    required_metrics:
+      - corrective_action_management_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Corrective Action Management enterprise-wide.
+    required_capabilities:
+      - corrective_action_management_standard_control_set
+    required_controls:
+      - corrective_action_management_control_register
+    required_evidence:
+      - corrective_action_management_audit_evidence
+    required_metrics:
+      - corrective_action_management_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Corrective Action Management with KPI optimization.
+    required_capabilities:
+      - corrective_action_management_automated_controls
+    required_controls:
+      - corrective_action_management_telemetry_controls
+    required_evidence:
+      - corrective_action_management_assurance_package
+    required_metrics:
+      - corrective_action_management_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Corrective Action Management with predictive analytics.
+    required_capabilities:
+      - corrective_action_management_autonomous_governance
+    required_controls:
+      - corrective_action_management_adaptive_controls
+    required_evidence:
+      - corrective_action_management_regulator_ready_portfolio
+    required_metrics:
+      - corrective_action_management_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - corrective_action_management_report
+  - corrective_action_management_evidence_package
+  - corrective_action_management_attestation
+  - corrective_action_management_enforcement_record
+artifacts:
+  - name: corrective_action_management_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: corrective_action_management_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: corrective_action_management_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: corrective_action_management_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - corrective_action_management_case_record
+  - corrective_action_management_audit_record
+  - corrective_action_management_enforcement_record
+  - corrective_action_management_remediation_record
+monitoring:
+  continuous:
+    - corrective_action_management_control_telemetry
+    - corrective_action_management_evidence_integrity_feed
+    - corrective_action_management_escalation_queue
+  periodic:
+    - corrective_action_management_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Corrective Action Management effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: corrective_action_management_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: corrective_action_management_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: corrective_action_management_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: corrective_action_management_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Corrective Action Management

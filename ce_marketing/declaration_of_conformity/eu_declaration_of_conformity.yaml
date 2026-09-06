@@ -1,0 +1,675 @@
+metadata:
+  id: CE-DO-EUDEC-001
+  name: eu_declaration_of_conformity
+  title: Eu Declaration Of Conformity
+  version: 1.0.0
+  status: production
+  owner: CE Marking and Conformity Office
+  maintainers:
+    - ce_conformity
+    - regulatory_affairs
+    - notified_body_liaison
+  created_date: 2026-06-12
+  last_updated: 2026-06-12
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: ce_marketing
+  skill_type: declaration_of_conformity
+  lifecycle_phase: operate
+  jurisdiction: EU_EEA
+  language: en
+  tags:
+    - declaration_of_conformity
+    - eu_declaration_of_conformity
+    - ce_marking
+    - conformity
+    - eu_ai_act
+    - notified_body
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GPAI Obligations
+    - ISO 42001
+    - ISO 23894
+    - ISO 27001
+    - ISO 9001
+    - NIST AI RMF
+    - GDPR
+    - CE Marking Framework
+  skill_functions:
+    - governance_skill
+    - conformity_skill
+    - certification_skill
+    - compliance_skill
+    - evidence_skill
+    - assessment_skill
+    - regulatory_skill
+    - market_access_skill
+    - monitoring_skill
+    - orchestration_skill
+purpose:
+  >
+    Executable CE Marking skill for Eu Declaration Of Conformity within
+    ce_marketing/declaration_of_conformity. Delivers conformity-assessment-ready, notified-body-
+    ready, market-access-ready operations for declaration lifecycle, governance, approval,
+    validation, maintenance. Functions as governance, conformity, certification, compliance,
+    evidence, assessment, regulatory, market-access, monitoring, and orchestration skill.
+scope:
+  >
+    All AI systems, technical documentation, conformity assessments, declarations of conformity,
+    notified body interactions, and market authorization activities governed by Eu Declaration Of
+    Conformity.
+objectives:
+  - Operationalize Eu Declaration Of Conformity as executable CE marking conformity skill
+  - Enable notified-body-ready conformity validation for Eu Declaration Of Conformity
+  - Maintain market-access-ready evidence for Eu Declaration Of Conformity
+  - Integrate Eu Declaration Of Conformity with declaration and market authorization lifecycle
+  - Support post-certification monitoring and recertification for Eu Declaration Of Conformity
+definitions:
+  eu_declaration_of_conformity_conformity_assertion:
+    Formal conformity statement for Eu Declaration Of Conformity supported by indexed evidence.
+  eu_declaration_of_conformity_notified_body_evidence:
+    Evidence package suitable for notified body conformity assessment review.
+  eu_declaration_of_conformity_market_access_record:
+    Record demonstrating market authorization readiness for Eu Declaration Of Conformity.
+taxonomy:
+  root: eu_declaration_of_conformity_taxonomy
+  conformity_phase:
+    - preparation
+    - assessment
+    - declaration
+    - market_placement
+    - surveillance
+  eu_declaration_of_conformity_status:
+    - draft
+    - validated
+    - approved
+    - published
+    - suspended
+governance:
+  policy_owner: Eu Declaration Of Conformity Conformity Lead
+  oversight_body: CE Marking Governance Committee
+  domain: declaration_of_conformity
+roles_and_responsibilities:
+  eu_declaration_of_conformity_conformity_officer:
+    responsibilities:
+      - Accountable for Eu Declaration Of Conformity conformity outcomes
+  eu_declaration_of_conformity_technical_documentation_lead:
+    responsibilities:
+      - Maintains Article 11 technical file for Eu Declaration Of Conformity
+  notified_body_liaison:
+    responsibilities:
+      - Coordinates notified body assessment activities
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Conformity Assessment Director
+    - Regulatory Affairs
+    - Notified Body Liaison
+capabilities:
+  - id: CE-CAP-001
+    name: CE Marking Governance
+    status: production
+  - id: CE-CAP-002
+    name: Conformity Assessment
+    status: production
+  - id: CE-CAP-003
+    name: Conformity Validation
+    status: production
+  - id: CE-CAP-004
+    name: Technical Documentation Governance
+    status: production
+  - id: CE-CAP-005
+    name: Declaration of Conformity Governance
+    status: production
+  - id: CE-CAP-006
+    name: Notified Body Coordination
+    status: production
+  - id: CE-CAP-007
+    name: Market Authorization Readiness
+    status: production
+  - id: CE-CAP-008
+    name: Post-Certification Monitoring
+    status: production
+controls:
+  - control_id: CE-DECL-EU_DECLA-ANNEXVCO
+    control_name: annex_v_content_compliance_validator
+    control_category: preventive
+    control_objective: Validate declaration content against Annex V mandatory elements
+    regulatory_rationale: annex_v_content_compliance_validator implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy annex_v_content_compliance_validator in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: annex_v_content_compliance_validator_telemetry_stream
+    validation_method: annex_v_content_compliance_validator_conformity_test
+    testing_method: annex_v_content_compliance_validator_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: annex_v_content_compliance_validator_execution_record
+    audit_considerations: Notified body may sample annex_v_content_compliance_validator during conformity assessment.
+  - control_id: CE-DECL-EU_DECLA-PROVIDERI
+    control_name: provider_identity_verification
+    control_category: preventive
+    control_objective: Verify provider identity and authorized representative details
+    regulatory_rationale: provider_identity_verification implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy provider_identity_verification in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: provider_identity_verification_telemetry_stream
+    validation_method: provider_identity_verification_conformity_test
+    testing_method: provider_identity_verification_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: provider_identity_verification_execution_record
+    audit_considerations: Notified body may sample provider_identity_verification during conformity assessment.
+  - control_id: CE-DECL-EU_DECLA-AISYSTEM
+    control_name: ai_system_identification_registry_link
+    control_category: preventive
+    control_objective: Link declaration to EU database registration per Article 49
+    regulatory_rationale: ai_system_identification_registry_link implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy ai_system_identification_registry_link in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: ai_system_identification_registry_link_telemetry_stream
+    validation_method: ai_system_identification_registry_link_conformity_test
+    testing_method: ai_system_identification_registry_link_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: ai_system_identification_registry_link_execution_record
+    audit_considerations: Notified body may sample ai_system_identification_registry_link during conformity assessment.
+  - control_id: CE-DECL-EU_DECLA-CONFORMITY
+    control_name: conformity_basis_reference_validator
+    control_category: preventive
+    control_objective: Validate conformity basis references harmonized standards and specs
+    regulatory_rationale: conformity_basis_reference_validator implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy conformity_basis_reference_validator in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: conformity_basis_reference_validator_telemetry_stream
+    validation_method: conformity_basis_reference_validator_conformity_test
+    testing_method: conformity_basis_reference_validator_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: conformity_basis_reference_validator_execution_record
+    audit_considerations: Notified body may sample conformity_basis_reference_validator during conformity assessment.
+  - control_id: CE-DECL-EU_DECLA-DECLARATIO
+    control_name: declaration_signature_cryptography_sealer
+    control_category: evidence
+    control_objective: Cryptographically seal declaration signatures
+    regulatory_rationale: declaration_signature_cryptography_sealer implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy declaration_signature_cryptography_sealer in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: declaration_signature_cryptography_sealer_telemetry_stream
+    validation_method: declaration_signature_cryptography_sealer_conformity_test
+    testing_method: declaration_signature_cryptography_sealer_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: declaration_signature_cryptography_sealer_execution_record
+    audit_considerations: Notified body may sample declaration_signature_cryptography_sealer during conformity assessment.
+  - control_id: CE-DECL-EU_DECLA-NOTIFIEDB
+    control_name: notified_body_certificate_cross_reference
+    control_category: preventive
+    control_objective: Cross-reference notified body certificate numbers in declaration
+    regulatory_rationale: notified_body_certificate_cross_reference implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy notified_body_certificate_cross_reference in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: notified_body_certificate_cross_reference_telemetry_stream
+    validation_method: notified_body_certificate_cross_reference_conformity_test
+    testing_method: notified_body_certificate_cross_reference_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: notified_body_certificate_cross_reference_execution_record
+    audit_considerations: Notified body may sample notified_body_certificate_cross_reference during conformity assessment.
+  - control_id: CE-DECL-EU_DECLA-DECLARATIO
+    control_name: declaration_publication_authorization
+    control_category: preventive
+    control_objective: Authorize declaration publication after validation completion
+    regulatory_rationale: declaration_publication_authorization implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy declaration_publication_authorization in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: declaration_publication_authorization_telemetry_stream
+    validation_method: declaration_publication_authorization_conformity_test
+    testing_method: declaration_publication_authorization_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: declaration_publication_authorization_execution_record
+    audit_considerations: Notified body may sample declaration_publication_authorization during conformity assessment.
+  - control_id: CE-DECL-EU_DECLA-SUBSTANTIA
+    control_name: substantial_modification_trigger_monitor
+    control_category: detective
+    control_objective: Monitor substantial modifications triggering declaration update
+    regulatory_rationale: substantial_modification_trigger_monitor implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy substantial_modification_trigger_monitor in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: substantial_modification_trigger_monitor_telemetry_stream
+    validation_method: substantial_modification_trigger_monitor_conformity_test
+    testing_method: substantial_modification_trigger_monitor_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: substantial_modification_trigger_monitor_execution_record
+    audit_considerations: Notified body may sample substantial_modification_trigger_monitor during conformity assessment.
+  - control_id: CE-DECL-EU_DECLA-DECLARATIO
+    control_name: declaration_language_localization_validator
+    control_category: preventive
+    control_objective: Validate declaration language localization per member state
+    regulatory_rationale: declaration_language_localization_validator implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy declaration_language_localization_validator in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: declaration_language_localization_validator_telemetry_stream
+    validation_method: declaration_language_localization_validator_conformity_test
+    testing_method: declaration_language_localization_validator_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: declaration_language_localization_validator_execution_record
+    audit_considerations: Notified body may sample declaration_language_localization_validator during conformity assessment.
+  - control_id: CE-DECL-EU_DECLA-DECLARATIO
+    control_name: declaration_withdrawal_nonconformity_link
+    control_category: corrective
+    control_objective: Link declaration withdrawal to non-conformity events
+    regulatory_rationale: declaration_withdrawal_nonconformity_link implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy declaration_withdrawal_nonconformity_link in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: declaration_withdrawal_nonconformity_link_telemetry_stream
+    validation_method: declaration_withdrawal_nonconformity_link_conformity_test
+    testing_method: declaration_withdrawal_nonconformity_link_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: declaration_withdrawal_nonconformity_link_execution_record
+    audit_considerations: Notified body may sample declaration_withdrawal_nonconformity_link during conformity assessment.
+  - control_id: CE-DECL-EU_DECLA-MARKETPLA
+    control_name: market_placed_system_declaration_register
+    control_category: evidence
+    control_objective: Maintain register of market-placed system declarations
+    regulatory_rationale: market_placed_system_declaration_register implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy market_placed_system_declaration_register in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: market_placed_system_declaration_register_telemetry_stream
+    validation_method: market_placed_system_declaration_register_conformity_test
+    testing_method: market_placed_system_declaration_register_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: market_placed_system_declaration_register_execution_record
+    audit_considerations: Notified body may sample market_placed_system_declaration_register during conformity assessment.
+  - control_id: CE-DECL-EU_DECLA-DECLARATIO
+    control_name: declaration_conformity_assurance_attestation
+    control_category: audit
+    control_objective: Attest declaration of conformity governance effectiveness
+    regulatory_rationale: declaration_conformity_assurance_attestation implements EU AI Act conformity obligations for Eu Declaration Of Conformity under declaration_of_conformity.
+    implementation_guidance: Deploy declaration_conformity_assurance_attestation in eu_declaration_of_conformity workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: declaration_conformity_assurance_attestation_telemetry_stream
+    validation_method: declaration_conformity_assurance_attestation_conformity_test
+    testing_method: declaration_conformity_assurance_attestation_sampling_audit
+    control_owner: eu_declaration_of_conformity_conformity_owner
+    evidence_generated: declaration_conformity_assurance_attestation_execution_record
+    audit_considerations: Notified body may sample declaration_conformity_assurance_attestation during conformity assessment.
+workflows:
+  - workflow_id: WF-CE-EU_DECLARATION_OF_CO
+    workflow_name: declaration_of_conformity_workflow
+    workflow_owner: eu_declaration_of_conformity_workflow_owner
+    trigger: conformity_demonstrated
+    inputs:
+      - eu_declaration_of_conformity_conformity_context
+      - eu_declaration_of_conformity_evidence_index
+    activities:
+      - draft_declaration
+      - content_validation
+      - signatory_authorization
+      - integrity_sealing
+      - publication
+      - registry_update
+      - maintenance_monitoring
+    decision_points:
+      - eu_declaration_of_conformity_conformity_decision
+      - eu_declaration_of_conformity_escalation_decision
+    approvals:
+      - eu_declaration_of_conformity_conformity_officer_approval
+    outputs:
+      - eu_declaration_of_conformity_conformity_record
+    evidence_generated:
+      - eu_declaration_of_conformity_workflow_log
+      - eu_declaration_of_conformity_attestation
+    success_criteria:
+      - eu_declaration_of_conformity_conformity_validated
+      - eu_declaration_of_conformity_evidence_complete
+    failure_conditions:
+      - eu_declaration_of_conformity_critical_gap_unresolved
+      - eu_declaration_of_conformity_evidence_integrity_failure
+  - workflow_id: WF-CE-CE_MARKING_P
+    workflow_name: eu_declaration_of_conformity_ce_marking_preparation_workflow
+    linked: true
+    trigger: eu_declaration_of_conformity_ce_marking_preparation_initiated
+  - workflow_id: WF-CE-CONFORMITY_A
+    workflow_name: eu_declaration_of_conformity_conformity_assessment_workflow
+    linked: true
+    trigger: eu_declaration_of_conformity_conformity_assessment_initiated
+  - workflow_id: WF-CE-NOTIFIED_BOD
+    workflow_name: eu_declaration_of_conformity_notified_body_engagement_workflow
+    linked: true
+    trigger: eu_declaration_of_conformity_notified_body_engagement_initiated
+  - workflow_id: WF-CE-DECLARATION_
+    workflow_name: eu_declaration_of_conformity_declaration_of_conformity_workflow
+    linked: true
+    trigger: eu_declaration_of_conformity_declaration_of_conformity_initiated
+  - workflow_id: WF-CE-MARKET_AUTHO
+    workflow_name: eu_declaration_of_conformity_market_authorization_workflow
+    linked: true
+    trigger: eu_declaration_of_conformity_market_authorization_initiated
+  - workflow_id: WF-CE-POST_CERTIFI
+    workflow_name: eu_declaration_of_conformity_post_certification_monitoring_workflow
+    linked: true
+    trigger: eu_declaration_of_conformity_post_certification_monitoring_initiated
+  - workflow_id: WF-CE-RECERTIFICAT
+    workflow_name: eu_declaration_of_conformity_recertification_workflow
+    linked: true
+    trigger: eu_declaration_of_conformity_recertification_initiated
+decision_logic:
+  eu_declaration_of_conformity_conformity_gate:
+    condition: eu_declaration_of_conformity_readiness_score >= 0.95 AND eu_declaration_of_conformity_evidence_complete == true
+    action: authorize_eu_declaration_of_conformity_progression
+    approval_required: conformity_officer
+conformity_assessment:
+  assessment_scope: Eu Declaration Of Conformity EU AI Act conformity dimensions
+  assessment_methodology: eu_declaration_of_conformity_iso_19011_conformity_method
+  assessment_criteria: eu_declaration_of_conformity_annex_iii_and_article_requirements
+  conformity_dimensions:
+    - technical
+    - organizational
+    - operational
+    - documentation
+  evidence_requirements:
+    - eu_declaration_of_conformity_technical_file
+    - eu_declaration_of_conformity_risk_assessment
+    - eu_declaration_of_conformity_validation_records
+  acceptance_thresholds: eu_declaration_of_conformity_readiness_score >= 0.95
+  rejection_thresholds: eu_declaration_of_conformity_critical_gap == true
+metrics:
+  - metric_name: declaration_completeness_score
+    metric_category: conformity
+    formula: computed_declaration_completeness_score_from_eu_declaration_of_conformity_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: eu_declaration_of_conformity_metrics_owner
+    data_source: eu_declaration_of_conformity_conformity_warehouse
+    evidence_generated: declaration_completeness_score_measurement_record
+  - metric_name: declaration_validation_pass_rate
+    metric_category: conformity
+    formula: computed_declaration_validation_pass_rate_from_eu_declaration_of_conformity_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: eu_declaration_of_conformity_metrics_owner
+    data_source: eu_declaration_of_conformity_conformity_warehouse
+    evidence_generated: declaration_validation_pass_rate_measurement_record
+  - metric_name: declaration_update_timeliness
+    metric_category: conformity
+    formula: computed_declaration_update_timeliness_from_eu_declaration_of_conformity_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: eu_declaration_of_conformity_metrics_owner
+    data_source: eu_declaration_of_conformity_conformity_warehouse
+    evidence_generated: declaration_update_timeliness_measurement_record
+  - metric_name: signatory_authority_compliance_rate
+    metric_category: conformity
+    formula: computed_signatory_authority_compliance_rate_from_eu_declaration_of_conformity_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: eu_declaration_of_conformity_metrics_owner
+    data_source: eu_declaration_of_conformity_conformity_warehouse
+    evidence_generated: signatory_authority_compliance_rate_measurement_record
+  - metric_name: declaration_integrity_score
+    metric_category: conformity
+    formula: computed_declaration_integrity_score_from_eu_declaration_of_conformity_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: eu_declaration_of_conformity_metrics_owner
+    data_source: eu_declaration_of_conformity_conformity_warehouse
+    evidence_generated: declaration_integrity_score_measurement_record
+  - metric_name: annex_v_compliance_rate
+    metric_category: conformity
+    formula: computed_annex_v_compliance_rate_from_eu_declaration_of_conformity_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: eu_declaration_of_conformity_metrics_owner
+    data_source: eu_declaration_of_conformity_conformity_warehouse
+    evidence_generated: annex_v_compliance_rate_measurement_record
+kpis:
+  - declaration_completeness_score
+  - declaration_validation_pass_rate
+  - declaration_update_timeliness
+  - signatory_authority_compliance_rate
+kris:
+  - declaration_integrity_score
+  - annex_v_compliance_rate
+evidence_requirements:
+  - evidence_name: eu_declaration_of_conformity_conformity_assessment_record
+    evidence_type: conformity
+    business_purpose: Support Eu Declaration Of Conformity conformity assessment and CE marking
+    generation_method: automated_eu_declaration_of_conformity_pipeline
+    retention_period: 10_years
+    validation_method: eu_declaration_of_conformity_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: eu_declaration_of_conformity_technical_documentation_extract
+    evidence_type: conformity
+    business_purpose: Support Eu Declaration Of Conformity conformity assessment and CE marking
+    generation_method: automated_eu_declaration_of_conformity_pipeline
+    retention_period: 10_years
+    validation_method: eu_declaration_of_conformity_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: eu_declaration_of_conformity_validation_report
+    evidence_type: conformity
+    business_purpose: Support Eu Declaration Of Conformity conformity assessment and CE marking
+    generation_method: automated_eu_declaration_of_conformity_pipeline
+    retention_period: 10_years
+    validation_method: eu_declaration_of_conformity_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: eu_declaration_of_conformity_notified_body_correspondence
+    evidence_type: conformity
+    business_purpose: Support Eu Declaration Of Conformity conformity assessment and CE marking
+    generation_method: automated_eu_declaration_of_conformity_pipeline
+    retention_period: 10_years
+    validation_method: eu_declaration_of_conformity_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: eu_declaration_of_conformity_declaration_reference
+    evidence_type: conformity
+    business_purpose: Support Eu Declaration Of Conformity conformity assessment and CE marking
+    generation_method: automated_eu_declaration_of_conformity_pipeline
+    retention_period: 10_years
+    validation_method: eu_declaration_of_conformity_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: eu_declaration_of_conformity_market_authorization_record
+    evidence_type: conformity
+    business_purpose: Support Eu Declaration Of Conformity conformity assessment and CE marking
+    generation_method: automated_eu_declaration_of_conformity_pipeline
+    retention_period: 10_years
+    validation_method: eu_declaration_of_conformity_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+attestation_requirements:
+  - attestation: eu_declaration_of_conformity_conformity_attestation
+    owner: conformity_officer
+    frequency: quarterly
+domain_reports:
+  - report_name: eu_declaration_of_conformity_status_dashboard
+    report_owner: eu_declaration_of_conformity_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: eu_declaration_of_conformity_conformity_summary
+    report_owner: eu_declaration_of_conformity_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: eu_declaration_of_conformity_regulatory_brief
+    report_owner: eu_declaration_of_conformity_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: eu_declaration_of_conformity_executive_report
+    report_owner: eu_declaration_of_conformity_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: eu_declaration_of_conformity_assurance_pack
+    report_owner: eu_declaration_of_conformity_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+altai_conformity:
+  agent_conformity:
+    validation: eu_declaration_of_conformity_agent_conformity_validation
+    traceability: eu_declaration_of_conformity_agent_conformity_traceability
+    monitoring: eu_declaration_of_conformity_agent_conformity_monitoring
+  reasoning_conformity:
+    validation: eu_declaration_of_conformity_reasoning_conformity_validation
+    traceability: eu_declaration_of_conformity_reasoning_conformity_traceability
+    monitoring: eu_declaration_of_conformity_reasoning_conformity_monitoring
+  memory_conformity:
+    validation: eu_declaration_of_conformity_memory_conformity_validation
+    traceability: eu_declaration_of_conformity_memory_conformity_traceability
+    monitoring: eu_declaration_of_conformity_memory_conformity_monitoring
+  tool_conformity:
+    validation: eu_declaration_of_conformity_tool_conformity_validation
+    traceability: eu_declaration_of_conformity_tool_conformity_traceability
+    monitoring: eu_declaration_of_conformity_tool_conformity_monitoring
+  foundation_model_conformity:
+    validation: eu_declaration_of_conformity_foundation_model_conformity_validation
+    traceability: eu_declaration_of_conformity_foundation_model_conformity_traceability
+    monitoring: eu_declaration_of_conformity_foundation_model_conformity_monitoring
+  gpai_conformity:
+    validation: eu_declaration_of_conformity_gpai_conformity_validation
+    traceability: eu_declaration_of_conformity_gpai_conformity_traceability
+    monitoring: eu_declaration_of_conformity_gpai_conformity_monitoring
+compliance_mapping:
+  article_19:
+    article: Article 19
+    obligation: Eu Declaration Of Conformity conformity under Article 19
+    implementation_method: eu_declaration_of_conformity_article_19_controls
+    evidence_required: [eu_declaration_of_conformity_article_19_evidence]
+    validation_method: eu_declaration_of_conformity_article_19_conformity_test
+    assurance_method: eu_declaration_of_conformity_article_19_assurance_review
+  article_20:
+    article: Article 20
+    obligation: Eu Declaration Of Conformity conformity under Article 20
+    implementation_method: eu_declaration_of_conformity_article_20_controls
+    evidence_required: [eu_declaration_of_conformity_article_20_evidence]
+    validation_method: eu_declaration_of_conformity_article_20_conformity_test
+    assurance_method: eu_declaration_of_conformity_article_20_assurance_review
+  article_47:
+    article: Article 47
+    obligation: Eu Declaration Of Conformity conformity under Article 47
+    implementation_method: eu_declaration_of_conformity_article_47_controls
+    evidence_required: [eu_declaration_of_conformity_article_47_evidence]
+    validation_method: eu_declaration_of_conformity_article_47_conformity_test
+    assurance_method: eu_declaration_of_conformity_article_47_assurance_review
+  article_48:
+    article: Article 48
+    obligation: Eu Declaration Of Conformity conformity under Article 48
+    implementation_method: eu_declaration_of_conformity_article_48_controls
+    evidence_required: [eu_declaration_of_conformity_article_48_evidence]
+    validation_method: eu_declaration_of_conformity_article_48_conformity_test
+    assurance_method: eu_declaration_of_conformity_article_48_assurance_review
+relationships:
+  conformity_links:
+    - source: eu_declaration_of_conformity
+      target: eu_declaration_of_conformity_to_declaration_of_conformity
+      relationship_type: governs
+      confidence: 0.95
+  certification_links:
+    - source: eu_declaration_of_conformity
+      target: eu_declaration_of_conformity_to_ce_certification
+      relationship_type: governs
+      confidence: 0.95
+  evidence_links:
+    - source: eu_declaration_of_conformity
+      target: eu_declaration_of_conformity_to_conformity_evidence
+      relationship_type: governs
+      confidence: 0.95
+  documentation_links:
+    - source: eu_declaration_of_conformity
+      target: eu_declaration_of_conformity_to_technical_documentation
+      relationship_type: governs
+      confidence: 0.95
+integration_points:
+  - system: provider_obligations
+    purpose: eu_declaration_of_conformity_to_provider_obligations_conformity_sync
+    data_exchanged: [eu_declaration_of_conformity_conformity_scores, eu_declaration_of_conformity_evidence_refs]
+    consumed_artifacts: [provider_obligations_records]
+    produced_artifacts: [eu_declaration_of_conformity_conformity_package]
+  - system: technical_documentation
+    purpose: eu_declaration_of_conformity_to_technical_documentation_conformity_sync
+    data_exchanged: [eu_declaration_of_conformity_conformity_scores, eu_declaration_of_conformity_evidence_refs]
+    consumed_artifacts: [technical_documentation_records]
+    produced_artifacts: [eu_declaration_of_conformity_conformity_package]
+  - system: risk_management
+    purpose: eu_declaration_of_conformity_to_risk_management_conformity_sync
+    data_exchanged: [eu_declaration_of_conformity_conformity_scores, eu_declaration_of_conformity_evidence_refs]
+    consumed_artifacts: [risk_management_records]
+    produced_artifacts: [eu_declaration_of_conformity_conformity_package]
+  - system: post_market_monitoring
+    purpose: eu_declaration_of_conformity_to_post_market_monitoring_conformity_sync
+    data_exchanged: [eu_declaration_of_conformity_conformity_scores, eu_declaration_of_conformity_evidence_refs]
+    consumed_artifacts: [post_market_monitoring_records]
+    produced_artifacts: [eu_declaration_of_conformity_conformity_package]
+  - system: audit_and_enforcement
+    purpose: eu_declaration_of_conformity_to_audit_and_enforcement_conformity_sync
+    data_exchanged: [eu_declaration_of_conformity_conformity_scores, eu_declaration_of_conformity_evidence_refs]
+    consumed_artifacts: [audit_and_enforcement_records]
+    produced_artifacts: [eu_declaration_of_conformity_conformity_package]
+attestation_framework:
+  attestation_owner: eu_declaration_of_conformity_conformity_officer
+  attestation_frequency: quarterly
+  attestation_evidence: [eu_declaration_of_conformity_conformity_attestation, eu_declaration_of_conformity_control_effectiveness_review]
+maturity_model:
+  level_1:
+    name: Initial
+    characteristics: Ad hoc conformity for Eu Declaration Of Conformity
+  level_2:
+    name: Developing
+    characteristics: Documented procedures for Eu Declaration Of Conformity
+  level_3:
+    name: Managed
+    characteristics: Standardized enterprise-wide for Eu Declaration Of Conformity
+  level_4:
+    name: Advanced
+    characteristics: Measured with KPIs for Eu Declaration Of Conformity
+  level_5:
+    name: Optimized
+    characteristics: Predictive conformity for Eu Declaration Of Conformity
+risk_model:
+  risk_sources: [eu_declaration_of_conformity_conformity_gap, eu_declaration_of_conformity_evidence_failure, eu_declaration_of_conformity_notified_body_finding]
+  risk_monitoring: eu_declaration_of_conformity_conformity_risk_dashboard
+crosswalks:
+  eu_ai_act:
+    implementation: eu_declaration_of_conformity_eu_ai_act_conformity_mapping
+    evidence: eu_declaration_of_conformity_eu_ai_act_conformity_attestation
+  gdpr:
+    implementation: eu_declaration_of_conformity_gdpr_conformity_mapping
+    evidence: eu_declaration_of_conformity_gdpr_conformity_attestation
+  iso_42001:
+    implementation: eu_declaration_of_conformity_iso_42001_conformity_mapping
+    evidence: eu_declaration_of_conformity_iso_42001_conformity_attestation
+  iso_23894:
+    implementation: eu_declaration_of_conformity_iso_23894_conformity_mapping
+    evidence: eu_declaration_of_conformity_iso_23894_conformity_attestation
+  nist_ai_rmf:
+    implementation: eu_declaration_of_conformity_nist_ai_rmf_conformity_mapping
+    evidence: eu_declaration_of_conformity_nist_ai_rmf_conformity_attestation
+monitoring:
+  continuous: [eu_declaration_of_conformity_conformity_telemetry, eu_declaration_of_conformity_readiness_score_feed]
+continuous_improvement:
+  feedback_loop: eu_declaration_of_conformity_conformity_retrospective
+escalation:
+  critical_path: chief_compliance_officer
+versioning:
+  current: 1.0.0

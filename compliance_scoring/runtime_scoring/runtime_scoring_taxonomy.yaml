@@ -1,0 +1,1372 @@
+metadata:
+  id: CS-RS-RUNSCO-001
+  name: runtime_scoring_taxonomy
+  title: Runtime Scoring Taxonomy
+  version: 1.0.0
+  status: production
+  owner: Compliance Analytics and Scoring Office
+  maintainers:
+    - compliance_scoring_governance
+    - regulatory_analytics
+    - executive_intelligence
+  created_date: 2026-06-12
+  last_updated: 2026-06-12
+  review_frequency: monthly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: compliance_scoring
+  skill_type: runtime_scoring
+  lifecycle_phase: operate
+  jurisdiction: EU_EEA
+  language: en
+  tags:
+    - runtime_scoring
+    - runtime_scoring_taxonomy
+    - compliance_scoring
+    - eu_ai_act
+    - executive_intelligence
+    - conformity_scoring
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GPAI Obligations
+    - ISO 42001
+    - ISO 23894
+    - ISO 27001
+    - ISO 9001
+    - NIST AI RMF
+    - NIST AI 600-1
+    - OECD AI Principles
+    - UNESCO AI Ethics
+    - GDPR
+  skill_functions:
+    - compliance_scoring_skill
+    - governance_scoring_skill
+    - risk_scoring_skill
+    - conformity_scoring_skill
+    - assurance_scoring_skill
+    - audit_scoring_skill
+    - regulatory_readiness_scoring_skill
+    - evidence_scoring_skill
+    - certification_scoring_skill
+    - executive_intelligence_skill
+purpose:
+  >
+    Executable compliance scoring skill for Runtime Scoring Taxonomy within
+    compliance_scoring/runtime_scoring. Delivers measurable, monitorable, auditable compliance
+    intelligence for live compliance scoring, drift detection scoring, runtime behavior scoring.
+    Functions as scoring, governance measurement, risk scoring, conformity scoring, assurance, audit
+    readiness, evidence scoring, certification scoring, and executive intelligence skill.
+scope:
+  >
+    All compliance telemetry, evidence inputs, control assessments, score outputs, and executive
+    intelligence artifacts governed by Runtime Scoring Taxonomy across EU AI Act high-risk and GPAI
+    systems.
+objectives:
+  - Compute verifiable, auditable compliance scores for Runtime Scoring Taxonomy
+  - Enable executive and board decision intelligence from Runtime Scoring Taxonomy score outputs
+  - Detect score degradation and trigger prioritized remediation for Runtime Scoring Taxonomy
+  - Support conformity assessment and notified body review with Runtime Scoring Taxonomy scoring evidence
+  - Aggregate cross-domain compliance intelligence for enterprise assurance reporting
+definitions:
+  runtime_scoring_taxonomy_composite_score:
+    Normalized 0-1 compliance score for Runtime Scoring Taxonomy computed from weighted dimensions.
+  runtime_scoring_taxonomy_score_confidence:
+    >
+      Statistical confidence in Runtime Scoring Taxonomy score based on evidence completeness and
+      freshness.
+  runtime_scoring_taxonomy_weighted_dimension_score:
+    Individual dimension score contributing to Runtime Scoring Taxonomy composite.
+  runtime_scoring_taxonomy_score_degradation_signal:
+    Alert when Runtime Scoring Taxonomy score drops below improvement threshold over rolling window.
+  runtime_scoring_taxonomy_regulatory_alignment_index:
+    Degree of Runtime Scoring Taxonomy score alignment with EU AI Act obligation coverage.
+taxonomy:
+  root: runtime_scoring_taxonomy_scoring_taxonomy
+  scoring_phase:
+    - evidence_ingestion
+    - dimension_scoring
+    - aggregation
+    - validation
+    - publication
+    - monitoring
+  runtime_scoring_taxonomy_score_status:
+    - draft
+    - computed
+    - validated
+    - published
+    - degraded
+    - superseded
+  score_consumer:
+    - executive
+    - board
+    - regulator
+    - auditor
+    - conformity_officer
+governance:
+  scoring_authority: Runtime Scoring Taxonomy Scoring Lead
+  oversight_body: Compliance Scoring Governance Committee
+  domain: runtime_scoring
+  review_cadence: monthly
+roles_and_responsibilities:
+  runtime_scoring_taxonomy_scoring_owner:
+    responsibilities:
+      - Accountable for Runtime Scoring Taxonomy score methodology, accuracy, and publication
+  runtime_scoring_taxonomy_scoring_analyst:
+    responsibilities:
+      - Executes Runtime Scoring Taxonomy score calculations and evidence validation
+  runtime_scoring_taxonomy_methodology_auditor:
+    responsibilities:
+      - Independently validates Runtime Scoring Taxonomy scoring methodology quarterly
+  executive_scorecard_owner:
+    responsibilities:
+      - Ensures Runtime Scoring Taxonomy scores feed executive decision scorecards
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief Risk Officer
+    - Conformity Assessment Director
+    - Internal Audit Director
+  secondary:
+    - Board Risk Committee
+    - Regulatory Affairs
+    - Notified Body Liaison
+    - Data Protection Officer
+capabilities:
+  - id: CS-CAP-001
+    name: Compliance Scoring
+    implementation: runtime_scoring_taxonomy_compliance_scoring_engine
+    status: production
+  - id: CS-CAP-002
+    name: Regulatory Readiness Scoring
+    implementation: runtime_scoring_taxonomy_regulatory_readiness_scoring_engine
+    status: production
+  - id: CS-CAP-003
+    name: Conformity Scoring
+    implementation: runtime_scoring_taxonomy_conformity_scoring_engine
+    status: production
+  - id: CS-CAP-004
+    name: Audit Readiness Scoring
+    implementation: runtime_scoring_taxonomy_audit_readiness_scoring_engine
+    status: production
+  - id: CS-CAP-005
+    name: Evidence Quality Scoring
+    implementation: runtime_scoring_taxonomy_evidence_quality_scoring_engine
+    status: production
+  - id: CS-CAP-006
+    name: Risk-Based Compliance Scoring
+    implementation: runtime_scoring_taxonomy_risk_based_compliance_scoring_engine
+    status: production
+  - id: CS-CAP-007
+    name: Governance Maturity Scoring
+    implementation: runtime_scoring_taxonomy_governance_maturity_scoring_engine
+    status: production
+  - id: CS-CAP-008
+    name: Control Effectiveness Scoring
+    implementation: runtime_scoring_taxonomy_control_effectiveness_scoring_engine
+    status: production
+  - id: CS-CAP-009
+    name: Documentation Completeness Scoring
+    implementation: runtime_scoring_taxonomy_documentation_completeness_scoring_engine
+    status: production
+  - id: CS-CAP-010
+    name: Technical Compliance Scoring
+    implementation: runtime_scoring_taxonomy_technical_compliance_scoring_engine
+    status: production
+  - id: CS-CAP-011
+    name: Provider Obligation Scoring
+    implementation: runtime_scoring_taxonomy_provider_obligation_scoring_engine
+    status: production
+  - id: CS-CAP-012
+    name: Transparency Scoring
+    implementation: runtime_scoring_taxonomy_transparency_scoring_engine
+    status: production
+  - id: CS-CAP-013
+    name: Human Oversight Scoring
+    implementation: runtime_scoring_taxonomy_human_oversight_scoring_engine
+    status: production
+  - id: CS-CAP-014
+    name: Data Governance Scoring
+    implementation: runtime_scoring_taxonomy_data_governance_scoring_engine
+    status: production
+  - id: CS-CAP-015
+    name: Risk Management Scoring
+    implementation: runtime_scoring_taxonomy_risk_management_scoring_engine
+    status: production
+  - id: CS-CAP-016
+    name: Post-Market Monitoring Scoring
+    implementation: runtime_scoring_taxonomy_post_market_monitoring_scoring_engine
+    status: production
+  - id: CS-CAP-017
+    name: CE Readiness Scoring
+    implementation: runtime_scoring_taxonomy_ce_readiness_scoring_engine
+    status: production
+  - id: CS-CAP-018
+    name: GPAI Compliance Scoring
+    implementation: runtime_scoring_taxonomy_gpai_compliance_scoring_engine
+    status: production
+  - id: CS-CAP-019
+    name: Foundation Model Compliance Scoring
+    implementation: runtime_scoring_taxonomy_foundation_model_compliance_scoring_engine
+    status: production
+  - id: CS-CAP-020
+    name: Executive Compliance Intelligence
+    implementation: runtime_scoring_taxonomy_executive_compliance_intelligence_engine
+    status: production
+  - id: CS-CAP-021
+    name: Continuous Compliance Monitoring
+    implementation: runtime_scoring_taxonomy_continuous_compliance_monitoring_engine
+    status: production
+  - id: CS-CAP-022
+    name: Compliance Trend Analysis
+    implementation: runtime_scoring_taxonomy_compliance_trend_analysis_engine
+    status: production
+  - id: CS-CAP-023
+    name: Compliance Forecasting
+    implementation: runtime_scoring_taxonomy_compliance_forecasting_engine
+    status: production
+  - id: CS-CAP-024
+    name: Remediation Prioritization
+    implementation: runtime_scoring_taxonomy_remediation_prioritization_engine
+    status: production
+  - id: CS-CAP-025
+    name: Compliance Benchmarking
+    implementation: runtime_scoring_taxonomy_compliance_benchmarking_engine
+    status: production
+  - id: CS-CAP-026
+    name: Cross-Domain Compliance Aggregation
+    implementation: runtime_scoring_taxonomy_cross_domain_compliance_aggregation_engine
+    status: production
+  - id: CS-CAP-027
+    name: Cross-Border Compliance Scoring
+    implementation: runtime_scoring_taxonomy_cross_border_compliance_scoring_engine
+    status: production
+  - id: CS-CAP-028
+    name: Regulatory Assurance Scoring
+    implementation: runtime_scoring_taxonomy_regulatory_assurance_scoring_engine
+    status: production
+  - id: CS-CAP-029
+    name: Certification Readiness Scoring
+    implementation: runtime_scoring_taxonomy_certification_readiness_scoring_engine
+    status: production
+  - id: CS-CAP-030
+    name: Enterprise Compliance Intelligence
+    implementation: runtime_scoring_taxonomy_enterprise_compliance_intelligence_engine
+    status: production
+requirements:
+  - All Runtime Scoring Taxonomy scores must be computed from auditable, versioned formulas
+  - Evidence completeness below 0.80 must reduce Runtime Scoring Taxonomy score confidence proportionally
+  - Score publication requires dual validation by scoring analyst and methodology owner
+  - Runtime Scoring Taxonomy scores must refresh per defined measurement_frequency with staleness alerts
+controls:
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_score_integrity_validation
+    control_category: detective
+    control_objective: Validate score integrity for Runtime Scoring Taxonomy
+    regulatory_rationale: runtime_scoring_taxonomy_score_integrity_validation ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_score_integrity_validation in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_score_integrity_validation_score_telemetry
+    validation_method: runtime_scoring_taxonomy_score_integrity_validation_methodology_audit
+    testing_method: runtime_scoring_taxonomy_score_integrity_validation_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_score_integrity_validation_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_score_integrity_validation formula integrity and input evidence.
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_evidence_weighting_assurance
+    control_category: preventive
+    control_objective: Assure evidence weighting in Runtime Scoring Taxonomy scores
+    regulatory_rationale: runtime_scoring_taxonomy_evidence_weighting_assurance ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_evidence_weighting_assurance in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_evidence_weighting_assurance_score_telemetry
+    validation_method: runtime_scoring_taxonomy_evidence_weighting_assurance_methodology_audit
+    testing_method: runtime_scoring_taxonomy_evidence_weighting_assurance_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_evidence_weighting_assurance_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_evidence_weighting_assurance formula integrity and input evidence.
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_regulatory_alignment_score_validation
+    control_category: detective
+    control_objective: Validate regulatory alignment scores for Runtime Scoring Taxonomy
+    regulatory_rationale: runtime_scoring_taxonomy_regulatory_alignment_score_validation ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_regulatory_alignment_score_validation in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_regulatory_alignment_score_validation_score_telemetry
+    validation_method: runtime_scoring_taxonomy_regulatory_alignment_score_validation_methodology_audit
+    testing_method: runtime_scoring_taxonomy_regulatory_alignment_score_validation_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_regulatory_alignment_score_validation_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_regulatory_alignment_score_validation formula integrity and input evidence.
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_conformity_score_governance
+    control_category: preventive
+    control_objective: Govern conformity score methodology for Runtime Scoring Taxonomy
+    regulatory_rationale: runtime_scoring_taxonomy_conformity_score_governance ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_conformity_score_governance in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_conformity_score_governance_score_telemetry
+    validation_method: runtime_scoring_taxonomy_conformity_score_governance_methodology_audit
+    testing_method: runtime_scoring_taxonomy_conformity_score_governance_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_conformity_score_governance_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_conformity_score_governance formula integrity and input evidence.
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_risk_adjusted_scoring_control
+    control_category: preventive
+    control_objective: Apply risk-adjusted scoring for Runtime Scoring Taxonomy
+    regulatory_rationale: runtime_scoring_taxonomy_risk_adjusted_scoring_control ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_risk_adjusted_scoring_control in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_risk_adjusted_scoring_control_score_telemetry
+    validation_method: runtime_scoring_taxonomy_risk_adjusted_scoring_control_methodology_audit
+    testing_method: runtime_scoring_taxonomy_risk_adjusted_scoring_control_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_risk_adjusted_scoring_control_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_risk_adjusted_scoring_control formula integrity and input evidence.
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_cross_domain_score_consistency_validation
+    control_category: detective
+    control_objective: Validate cross-domain score consistency for Runtime Scoring Taxonomy
+    regulatory_rationale: runtime_scoring_taxonomy_cross_domain_score_consistency_validation ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_cross_domain_score_consistency_validation in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_cross_domain_score_consistency_validation_score_telemetry
+    validation_method: runtime_scoring_taxonomy_cross_domain_score_consistency_validation_methodology_audit
+    testing_method: runtime_scoring_taxonomy_cross_domain_score_consistency_validation_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_cross_domain_score_consistency_validation_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_cross_domain_score_consistency_validation formula integrity and input evidence.
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_executive_dashboard_score_assurance
+    control_category: audit
+    control_objective: Assure executive dashboard scores for Runtime Scoring Taxonomy
+    regulatory_rationale: runtime_scoring_taxonomy_executive_dashboard_score_assurance ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_executive_dashboard_score_assurance in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_executive_dashboard_score_assurance_score_telemetry
+    validation_method: runtime_scoring_taxonomy_executive_dashboard_score_assurance_methodology_audit
+    testing_method: runtime_scoring_taxonomy_executive_dashboard_score_assurance_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_executive_dashboard_score_assurance_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_executive_dashboard_score_assurance formula integrity and input evidence.
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_scoring_methodology_validator
+    control_category: audit
+    control_objective: Validate scoring methodology for Runtime Scoring Taxonomy
+    regulatory_rationale: runtime_scoring_taxonomy_scoring_methodology_validator ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_scoring_methodology_validator in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_scoring_methodology_validator_score_telemetry
+    validation_method: runtime_scoring_taxonomy_scoring_methodology_validator_methodology_audit
+    testing_method: runtime_scoring_taxonomy_scoring_methodology_validator_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_scoring_methodology_validator_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_scoring_methodology_validator formula integrity and input evidence.
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_score_normalization_engine
+    control_category: preventive
+    control_objective: Normalize scores for Runtime Scoring Taxonomy
+    regulatory_rationale: runtime_scoring_taxonomy_score_normalization_engine ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_score_normalization_engine in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_score_normalization_engine_score_telemetry
+    validation_method: runtime_scoring_taxonomy_score_normalization_engine_methodology_audit
+    testing_method: runtime_scoring_taxonomy_score_normalization_engine_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_score_normalization_engine_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_score_normalization_engine formula integrity and input evidence.
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_confidence_interval_calculator
+    control_category: detective
+    control_objective: Calculate score confidence for Runtime Scoring Taxonomy
+    regulatory_rationale: runtime_scoring_taxonomy_confidence_interval_calculator ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_confidence_interval_calculator in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_confidence_interval_calculator_score_telemetry
+    validation_method: runtime_scoring_taxonomy_confidence_interval_calculator_methodology_audit
+    testing_method: runtime_scoring_taxonomy_confidence_interval_calculator_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_confidence_interval_calculator_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_confidence_interval_calculator formula integrity and input evidence.
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_score_degradation_detector
+    control_category: detective
+    control_objective: Detect score degradation for Runtime Scoring Taxonomy
+    regulatory_rationale: runtime_scoring_taxonomy_score_degradation_detector ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_score_degradation_detector in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_score_degradation_detector_score_telemetry
+    validation_method: runtime_scoring_taxonomy_score_degradation_detector_methodology_audit
+    testing_method: runtime_scoring_taxonomy_score_degradation_detector_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_score_degradation_detector_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_score_degradation_detector formula integrity and input evidence.
+  - control_id: CS-RUNT-RUNTIME_-RUNTIMESC
+    control_name: runtime_scoring_taxonomy_scoring_assurance_attestation
+    control_category: audit
+    control_objective: Attest scoring controls for Runtime Scoring Taxonomy
+    regulatory_rationale: runtime_scoring_taxonomy_scoring_assurance_attestation ensures measurable compliance intelligence for Runtime Scoring Taxonomy aligned with EU AI Act.
+    implementation_guidance: Implement runtime_scoring_taxonomy_scoring_assurance_attestation in runtime_scoring_taxonomy scoring pipeline with auditable formulas and evidence linkage.
+    monitoring_method: runtime_scoring_taxonomy_scoring_assurance_attestation_score_telemetry
+    validation_method: runtime_scoring_taxonomy_scoring_assurance_attestation_methodology_audit
+    testing_method: runtime_scoring_taxonomy_scoring_assurance_attestation_backtesting_and_sampling
+    control_owner: runtime_scoring_taxonomy_scoring_owner
+    evidence_generated: runtime_scoring_taxonomy_scoring_assurance_attestation_scoring_record
+    audit_considerations: Auditors verify runtime_scoring_taxonomy_scoring_assurance_attestation formula integrity and input evidence.
+processes:
+  - process_name: runtime_scoring_taxonomy_evidence_ingestion_process
+    owner: runtime_scoring_taxonomy_scoring_owner
+    input: runtime_scoring_taxonomy_evidence_feed
+    output: runtime_scoring_taxonomy_evidence_ingestion_process_record
+  - process_name: runtime_scoring_taxonomy_dimension_scoring_process
+    owner: runtime_scoring_taxonomy_scoring_owner
+    input: runtime_scoring_taxonomy_evidence_feed
+    output: runtime_scoring_taxonomy_dimension_scoring_process_record
+  - process_name: runtime_scoring_taxonomy_score_aggregation_process
+    owner: runtime_scoring_taxonomy_scoring_owner
+    input: runtime_scoring_taxonomy_evidence_feed
+    output: runtime_scoring_taxonomy_score_aggregation_process_record
+  - process_name: runtime_scoring_taxonomy_confidence_calculation_process
+    owner: runtime_scoring_taxonomy_scoring_owner
+    input: runtime_scoring_taxonomy_evidence_feed
+    output: runtime_scoring_taxonomy_confidence_calculation_process_record
+  - process_name: runtime_scoring_taxonomy_threshold_evaluation_process
+    owner: runtime_scoring_taxonomy_scoring_owner
+    input: runtime_scoring_taxonomy_evidence_feed
+    output: runtime_scoring_taxonomy_threshold_evaluation_process_record
+  - process_name: runtime_scoring_taxonomy_score_publication_process
+    owner: runtime_scoring_taxonomy_scoring_owner
+    input: runtime_scoring_taxonomy_evidence_feed
+    output: runtime_scoring_taxonomy_score_publication_process_record
+workflows:
+  - workflow_id: WF-CS-RUNTIME_SCORING_
+    workflow_name: runtime_scoring_taxonomy_scoring_workflow
+    workflow_owner: runtime_scoring_taxonomy_scoring_owner
+    trigger: runtime_scoring_taxonomy_score_calculation_due
+    inputs:
+      - runtime_scoring_taxonomy_evidence_feed
+      - runtime_scoring_taxonomy_control_telemetry
+    activities:
+      - evidence_ingestion
+      - dimension_scoring
+      - weight_application
+      - confidence_calculation
+      - threshold_evaluation
+      - score_publication
+      - remediation_trigger
+    decision_points:
+      - runtime_scoring_taxonomy_threshold_breach_decision
+    approvals:
+      - runtime_scoring_taxonomy_scoring_analyst_review
+    outputs:
+      - runtime_scoring_taxonomy_composite_score
+    evidence_generated:
+      - runtime_scoring_taxonomy_score_calculation_log
+    success_criteria:
+      - runtime_scoring_taxonomy_composite_score_published
+      - evidence_confidence_above_minimum
+    failure_conditions:
+      - insufficient_evidence
+      - formula_integrity_failure
+decision_logic:
+  runtime_scoring_taxonomy_score_publication_gate:
+    condition: runtime_scoring_taxonomy_score_confidence >= 0.80 AND runtime_scoring_taxonomy_methodology_valid == true
+    action: publish_runtime_scoring_taxonomy_composite_score
+    approval_required: runtime_scoring_taxonomy_scoring_owner
+  runtime_scoring_taxonomy_remediation_trigger:
+    condition: runtime_scoring_taxonomy_composite_score < 0.75
+    action: initiate_runtime_scoring_taxonomy_remediation_workflow
+    approval_required: compliance_officer
+scoring_model:
+  score_name: runtime_scoring_taxonomy_composite_score
+  score_type: composite_weighted
+  score_purpose: Measure Runtime Scoring Taxonomy compliance posture
+  scoring_methodology: runtime_scoring_taxonomy_weighted_dimension_scoring
+  weighting_model: runtime_scoring_taxonomy_domain_weights
+  aggregation_logic: weighted_average_with_confidence_adjustment
+  confidence_model: runtime_scoring_taxonomy_evidence_confidence
+  severity_model: runtime_scoring_taxonomy_gap_severity_tiers
+  maturity_model: five_level_compliance_maturity
+  validation_method: runtime_scoring_taxonomy_scoring_methodology_audit
+  review_frequency: monthly
+  minimum_score: 0.0
+  maximum_score: 1.0
+  target_score: 0.85
+  warning_threshold: 0.75
+  critical_threshold: 0.65
+  improvement_threshold: 0.05
+scoring_methodology:
+  evaluation_dimensions:
+    - runtime_scoring_taxonomy_control_effectiveness
+    - runtime_scoring_taxonomy_evidence_quality
+    - runtime_scoring_taxonomy_regulatory_alignment
+    - runtime_scoring_taxonomy_governance_maturity
+    - runtime_scoring_taxonomy_risk_posture
+  weighting_factors: runtime_scoring_taxonomy_domain_weight_matrix
+  scoring_formula: sum(dimension_score * weight) * confidence_factor
+  normalization_method: min_max_with_regulatory_baseline
+  aggregation_method: weighted_average_with_confidence_adjustment
+  confidence_calculation: runtime_scoring_taxonomy_evidence_confidence
+  severity_calculation: runtime_scoring_taxonomy_gap_severity_tiers
+  trend_analysis: runtime_scoring_taxonomy_rolling_30_90_180_day_trend
+  forecasting_method: runtime_scoring_taxonomy_bayesian_score_forecast
+  benchmarking_method: runtime_scoring_taxonomy_peer_regulatory_industry_benchmark
+score_categories:
+  overall_compliance_score:
+    score_engine: runtime_scoring_taxonomy_overall_compliance_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  regulatory_readiness_score:
+    score_engine: runtime_scoring_taxonomy_regulatory_readiness_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  conformity_score:
+    score_engine: runtime_scoring_taxonomy_conformity_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  audit_readiness_score:
+    score_engine: runtime_scoring_taxonomy_audit_readiness_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  evidence_quality_score:
+    score_engine: runtime_scoring_taxonomy_evidence_quality_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  documentation_completeness_score:
+    score_engine: runtime_scoring_taxonomy_documentation_completeness_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  governance_maturity_score:
+    score_engine: runtime_scoring_taxonomy_governance_maturity_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  control_effectiveness_score:
+    score_engine: runtime_scoring_taxonomy_control_effectiveness_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  risk_management_score:
+    score_engine: runtime_scoring_taxonomy_risk_management_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  human_oversight_score:
+    score_engine: runtime_scoring_taxonomy_human_oversight_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  transparency_score:
+    score_engine: runtime_scoring_taxonomy_transparency_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  provider_obligation_score:
+    score_engine: runtime_scoring_taxonomy_provider_obligation_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  technical_compliance_score:
+    score_engine: runtime_scoring_taxonomy_technical_compliance_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  post_market_monitoring_score:
+    score_engine: runtime_scoring_taxonomy_post_market_monitoring_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  ce_marking_readiness_score:
+    score_engine: runtime_scoring_taxonomy_ce_marking_readiness_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  gpai_compliance_score:
+    score_engine: runtime_scoring_taxonomy_gpai_compliance_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  foundation_model_compliance_score:
+    score_engine: runtime_scoring_taxonomy_foundation_model_compliance_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+  enterprise_assurance_score:
+    score_engine: runtime_scoring_taxonomy_enterprise_assurance_score_engine
+    primary: False
+    weight: 0.05
+    target: 0.85
+    warning_threshold: 0.75
+    critical_threshold: 0.65
+assessment_framework:
+  assessment_scope: Runtime Scoring Taxonomy compliance scoring dimensions
+  assessment_methodology: runtime_scoring_taxonomy_iso_19011_scoring_assessment
+  acceptance_threshold: 0.85
+validation_framework:
+  validation_method: runtime_scoring_taxonomy_scoring_methodology_audit
+  review_frequency: monthly
+  independent_review: runtime_scoring_taxonomy_methodology_auditor
+risk_model:
+  risk_sources:
+    - runtime_scoring_taxonomy_score_input_degradation
+    - runtime_scoring_taxonomy_evidence_quality_failure
+    - runtime_scoring_taxonomy_methodology_drift
+    - runtime_scoring_taxonomy_regulatory_misalignment
+  risk_scenarios:
+    runtime_scoring_taxonomy_false_compliance_confidence_scenario:
+      severity: 90
+      risk_owner: runtime_scoring_taxonomy_scoring_owner
+    runtime_scoring_taxonomy_score_manipulation_scenario:
+      severity: 95
+      risk_owner: runtime_scoring_taxonomy_scoring_owner
+    runtime_scoring_taxonomy_stale_score_decision_scenario:
+      severity: 75
+      risk_owner: runtime_scoring_taxonomy_scoring_owner
+  residual_risk_ceiling: 0.20
+  risk_monitoring: runtime_scoring_taxonomy_scoring_risk_dashboard
+metrics:
+  - metric_name: live_compliance_score
+    metric_category: scoring
+    formula: computed_live_compliance_score_from_runtime_scoring_taxonomy_engine
+    target: >= 0.85
+    warning_threshold: < 0.75
+    critical_threshold: < 0.65
+    measurement_frequency: daily
+    owner: runtime_scoring_taxonomy_scoring_owner
+    data_source: runtime_scoring_taxonomy_score_warehouse
+    evidence_generated: live_compliance_score_calculation_record
+  - metric_name: runtime_drift_score
+    metric_category: scoring
+    formula: computed_runtime_drift_score_from_runtime_scoring_taxonomy_engine
+    target: >= 0.85
+    warning_threshold: < 0.75
+    critical_threshold: < 0.65
+    measurement_frequency: daily
+    owner: runtime_scoring_taxonomy_scoring_owner
+    data_source: runtime_scoring_taxonomy_score_warehouse
+    evidence_generated: runtime_drift_score_calculation_record
+  - metric_name: runtime_behavior_score
+    metric_category: scoring
+    formula: computed_runtime_behavior_score_from_runtime_scoring_taxonomy_engine
+    target: >= 0.85
+    warning_threshold: < 0.75
+    critical_threshold: < 0.65
+    measurement_frequency: daily
+    owner: runtime_scoring_taxonomy_scoring_owner
+    data_source: runtime_scoring_taxonomy_score_warehouse
+    evidence_generated: runtime_behavior_score_calculation_record
+  - metric_name: runtime_risk_score
+    metric_category: scoring
+    formula: computed_runtime_risk_score_from_runtime_scoring_taxonomy_engine
+    target: >= 0.85
+    warning_threshold: < 0.75
+    critical_threshold: < 0.65
+    measurement_frequency: daily
+    owner: runtime_scoring_taxonomy_scoring_owner
+    data_source: runtime_scoring_taxonomy_score_warehouse
+    evidence_generated: runtime_risk_score_calculation_record
+  - metric_name: runtime_traceability_score
+    metric_category: scoring
+    formula: computed_runtime_traceability_score_from_runtime_scoring_taxonomy_engine
+    target: >= 0.85
+    warning_threshold: < 0.75
+    critical_threshold: < 0.65
+    measurement_frequency: daily
+    owner: runtime_scoring_taxonomy_scoring_owner
+    data_source: runtime_scoring_taxonomy_score_warehouse
+    evidence_generated: runtime_traceability_score_calculation_record
+  - metric_name: adaptive_runtime_score
+    metric_category: scoring
+    formula: computed_adaptive_runtime_score_from_runtime_scoring_taxonomy_engine
+    target: >= 0.85
+    warning_threshold: < 0.75
+    critical_threshold: < 0.65
+    measurement_frequency: daily
+    owner: runtime_scoring_taxonomy_scoring_owner
+    data_source: runtime_scoring_taxonomy_score_warehouse
+    evidence_generated: adaptive_runtime_score_calculation_record
+kpis:
+  - metric_name: live_compliance_score
+    target: >= 0.85
+  - metric_name: runtime_drift_score
+    target: >= 0.85
+  - metric_name: runtime_behavior_score
+    target: >= 0.85
+  - metric_name: runtime_risk_score
+    target: >= 0.85
+kris:
+  - metric_name: runtime_traceability_score
+    critical_threshold: < 0.65
+  - metric_name: adaptive_runtime_score
+    critical_threshold: < 0.65
+thresholds:
+  minimum_score: 0.0
+  maximum_score: 1.0
+  target_score: 0.85
+  warning_threshold: 0.75
+  critical_threshold: 0.65
+  improvement_threshold: 0.05
+evidence_requirements:
+  - evidence_name: runtime_scoring_taxonomy_score_calculation_log
+    evidence_type: scoring
+    retention_period: 7_years
+    validation_method: runtime_scoring_taxonomy_score_calculation_log_integrity_check
+  - evidence_name: runtime_scoring_taxonomy_input_evidence_index
+    evidence_type: scoring
+    retention_period: 7_years
+    validation_method: runtime_scoring_taxonomy_input_evidence_index_integrity_check
+  - evidence_name: runtime_scoring_taxonomy_methodology_version_record
+    evidence_type: scoring
+    retention_period: 7_years
+    validation_method: runtime_scoring_taxonomy_methodology_version_record_integrity_check
+  - evidence_name: runtime_scoring_taxonomy_confidence_calculation_workpaper
+    evidence_type: scoring
+    retention_period: 7_years
+    validation_method: runtime_scoring_taxonomy_confidence_calculation_workpaper_integrity_check
+  - evidence_name: runtime_scoring_taxonomy_threshold_evaluation_record
+    evidence_type: scoring
+    retention_period: 7_years
+    validation_method: runtime_scoring_taxonomy_threshold_evaluation_record_integrity_check
+  - evidence_name: runtime_scoring_taxonomy_scoring_attestation
+    evidence_type: scoring
+    retention_period: 7_years
+    validation_method: runtime_scoring_taxonomy_scoring_attestation_integrity_check
+compliance_mapping:
+  article_4:
+    article: Article 4
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 4
+    scoring_method: runtime_scoring_taxonomy_article_4_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_4_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_4_score_calculation_log
+      - runtime_scoring_taxonomy_article_4_input_evidence_index
+      - runtime_scoring_taxonomy_article_4_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_4_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_4_quarterly_score_assurance_review
+  article_8:
+    article: Article 8
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 8
+    scoring_method: runtime_scoring_taxonomy_article_8_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_8_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_8_score_calculation_log
+      - runtime_scoring_taxonomy_article_8_input_evidence_index
+      - runtime_scoring_taxonomy_article_8_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_8_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_8_quarterly_score_assurance_review
+  article_9:
+    article: Article 9
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 9
+    scoring_method: runtime_scoring_taxonomy_article_9_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_9_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_9_score_calculation_log
+      - runtime_scoring_taxonomy_article_9_input_evidence_index
+      - runtime_scoring_taxonomy_article_9_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_9_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_9_quarterly_score_assurance_review
+  article_10:
+    article: Article 10
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 10
+    scoring_method: runtime_scoring_taxonomy_article_10_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_10_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_10_score_calculation_log
+      - runtime_scoring_taxonomy_article_10_input_evidence_index
+      - runtime_scoring_taxonomy_article_10_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_10_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_10_quarterly_score_assurance_review
+  article_11:
+    article: Article 11
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 11
+    scoring_method: runtime_scoring_taxonomy_article_11_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_11_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_11_score_calculation_log
+      - runtime_scoring_taxonomy_article_11_input_evidence_index
+      - runtime_scoring_taxonomy_article_11_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_11_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_11_quarterly_score_assurance_review
+  article_12:
+    article: Article 12
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 12
+    scoring_method: runtime_scoring_taxonomy_article_12_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_12_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_12_score_calculation_log
+      - runtime_scoring_taxonomy_article_12_input_evidence_index
+      - runtime_scoring_taxonomy_article_12_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_12_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_12_quarterly_score_assurance_review
+  article_13:
+    article: Article 13
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 13
+    scoring_method: runtime_scoring_taxonomy_article_13_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_13_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_13_score_calculation_log
+      - runtime_scoring_taxonomy_article_13_input_evidence_index
+      - runtime_scoring_taxonomy_article_13_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_13_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_13_quarterly_score_assurance_review
+  article_14:
+    article: Article 14
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 14
+    scoring_method: runtime_scoring_taxonomy_article_14_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_14_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_14_score_calculation_log
+      - runtime_scoring_taxonomy_article_14_input_evidence_index
+      - runtime_scoring_taxonomy_article_14_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_14_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_14_quarterly_score_assurance_review
+  article_15:
+    article: Article 15
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 15
+    scoring_method: runtime_scoring_taxonomy_article_15_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_15_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_15_score_calculation_log
+      - runtime_scoring_taxonomy_article_15_input_evidence_index
+      - runtime_scoring_taxonomy_article_15_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_15_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_15_quarterly_score_assurance_review
+  article_16:
+    article: Article 16
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 16
+    scoring_method: runtime_scoring_taxonomy_article_16_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_16_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_16_score_calculation_log
+      - runtime_scoring_taxonomy_article_16_input_evidence_index
+      - runtime_scoring_taxonomy_article_16_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_16_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_16_quarterly_score_assurance_review
+  article_17:
+    article: Article 17
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 17
+    scoring_method: runtime_scoring_taxonomy_article_17_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_17_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_17_score_calculation_log
+      - runtime_scoring_taxonomy_article_17_input_evidence_index
+      - runtime_scoring_taxonomy_article_17_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_17_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_17_quarterly_score_assurance_review
+  article_26:
+    article: Article 26
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 26
+    scoring_method: runtime_scoring_taxonomy_article_26_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_26_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_26_score_calculation_log
+      - runtime_scoring_taxonomy_article_26_input_evidence_index
+      - runtime_scoring_taxonomy_article_26_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_26_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_26_quarterly_score_assurance_review
+  article_43:
+    article: Article 43
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 43
+    scoring_method: runtime_scoring_taxonomy_article_43_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_43_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_43_score_calculation_log
+      - runtime_scoring_taxonomy_article_43_input_evidence_index
+      - runtime_scoring_taxonomy_article_43_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_43_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_43_quarterly_score_assurance_review
+  article_44:
+    article: Article 44
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 44
+    scoring_method: runtime_scoring_taxonomy_article_44_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_44_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_44_score_calculation_log
+      - runtime_scoring_taxonomy_article_44_input_evidence_index
+      - runtime_scoring_taxonomy_article_44_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_44_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_44_quarterly_score_assurance_review
+  article_47:
+    article: Article 47
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 47
+    scoring_method: runtime_scoring_taxonomy_article_47_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_47_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_47_score_calculation_log
+      - runtime_scoring_taxonomy_article_47_input_evidence_index
+      - runtime_scoring_taxonomy_article_47_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_47_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_47_quarterly_score_assurance_review
+  article_48:
+    article: Article 48
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 48
+    scoring_method: runtime_scoring_taxonomy_article_48_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_48_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_48_score_calculation_log
+      - runtime_scoring_taxonomy_article_48_input_evidence_index
+      - runtime_scoring_taxonomy_article_48_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_48_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_48_quarterly_score_assurance_review
+  article_49:
+    article: Article 49
+    obligation: Runtime Scoring Taxonomy compliance scoring under Article 49
+    scoring_method: runtime_scoring_taxonomy_article_49_weighted_dimension_formula
+    implementation_method: runtime_scoring_taxonomy_article_49_scoring_pipeline_in_runtime_scoring
+    evidence_required:
+      - runtime_scoring_taxonomy_article_49_score_calculation_log
+      - runtime_scoring_taxonomy_article_49_input_evidence_index
+      - runtime_scoring_taxonomy_article_49_methodology_attestation
+    validation_method: runtime_scoring_taxonomy_article_49_scoring_methodology_audit
+    assurance_method: runtime_scoring_taxonomy_article_49_quarterly_score_assurance_review
+crosswalks:
+  eu_ai_act:
+    article_4:
+      scoring_implementation: runtime_scoring_taxonomy_eu_ai_act_article_4_score_formula
+      evidence: runtime_scoring_taxonomy_eu_ai_act_article_4_score_record
+    article_8:
+      scoring_implementation: runtime_scoring_taxonomy_eu_ai_act_article_8_score_formula
+      evidence: runtime_scoring_taxonomy_eu_ai_act_article_8_score_record
+    article_9:
+      scoring_implementation: runtime_scoring_taxonomy_eu_ai_act_article_9_score_formula
+      evidence: runtime_scoring_taxonomy_eu_ai_act_article_9_score_record
+    article_10:
+      scoring_implementation: runtime_scoring_taxonomy_eu_ai_act_article_10_score_formula
+      evidence: runtime_scoring_taxonomy_eu_ai_act_article_10_score_record
+    article_11:
+      scoring_implementation: runtime_scoring_taxonomy_eu_ai_act_article_11_score_formula
+      evidence: runtime_scoring_taxonomy_eu_ai_act_article_11_score_record
+    article_12:
+      scoring_implementation: runtime_scoring_taxonomy_eu_ai_act_article_12_score_formula
+      evidence: runtime_scoring_taxonomy_eu_ai_act_article_12_score_record
+    article_13:
+      scoring_implementation: runtime_scoring_taxonomy_eu_ai_act_article_13_score_formula
+      evidence: runtime_scoring_taxonomy_eu_ai_act_article_13_score_record
+    article_14:
+      scoring_implementation: runtime_scoring_taxonomy_eu_ai_act_article_14_score_formula
+      evidence: runtime_scoring_taxonomy_eu_ai_act_article_14_score_record
+  gdpr:
+    article_5:
+      scoring_implementation: runtime_scoring_taxonomy_gdpr_article_5_privacy_score
+      evidence: runtime_scoring_taxonomy_gdpr_article_5_compliance_score_record
+    article_6:
+      scoring_implementation: runtime_scoring_taxonomy_gdpr_article_6_privacy_score
+      evidence: runtime_scoring_taxonomy_gdpr_article_6_compliance_score_record
+    article_25:
+      scoring_implementation: runtime_scoring_taxonomy_gdpr_article_25_privacy_score
+      evidence: runtime_scoring_taxonomy_gdpr_article_25_compliance_score_record
+    article_32:
+      scoring_implementation: runtime_scoring_taxonomy_gdpr_article_32_privacy_score
+      evidence: runtime_scoring_taxonomy_gdpr_article_32_compliance_score_record
+    article_35:
+      scoring_implementation: runtime_scoring_taxonomy_gdpr_article_35_privacy_score
+      evidence: runtime_scoring_taxonomy_gdpr_article_35_compliance_score_record
+  iso_42001:
+    clause_4:
+      scoring_implementation: runtime_scoring_taxonomy_iso42001_clause_4_aims_score
+      evidence: runtime_scoring_taxonomy_iso42001_clause_4_score_attestation
+    clause_6:
+      scoring_implementation: runtime_scoring_taxonomy_iso42001_clause_6_aims_score
+      evidence: runtime_scoring_taxonomy_iso42001_clause_6_score_attestation
+    clause_8:
+      scoring_implementation: runtime_scoring_taxonomy_iso42001_clause_8_aims_score
+      evidence: runtime_scoring_taxonomy_iso42001_clause_8_score_attestation
+    clause_9:
+      scoring_implementation: runtime_scoring_taxonomy_iso42001_clause_9_aims_score
+      evidence: runtime_scoring_taxonomy_iso42001_clause_9_score_attestation
+    clause_10:
+      scoring_implementation: runtime_scoring_taxonomy_iso42001_clause_10_aims_score
+      evidence: runtime_scoring_taxonomy_iso42001_clause_10_score_attestation
+  iso_23894:
+    risk_identification:
+      scoring_implementation: runtime_scoring_taxonomy_iso23894_risk_identification_risk_score
+      evidence: runtime_scoring_taxonomy_iso23894_risk_identification_score_record
+    risk_analysis:
+      scoring_implementation: runtime_scoring_taxonomy_iso23894_risk_analysis_risk_score
+      evidence: runtime_scoring_taxonomy_iso23894_risk_analysis_score_record
+    risk_evaluation:
+      scoring_implementation: runtime_scoring_taxonomy_iso23894_risk_evaluation_risk_score
+      evidence: runtime_scoring_taxonomy_iso23894_risk_evaluation_score_record
+    risk_treatment:
+      scoring_implementation: runtime_scoring_taxonomy_iso23894_risk_treatment_risk_score
+      evidence: runtime_scoring_taxonomy_iso23894_risk_treatment_score_record
+  nist_ai_rmf:
+    govern:
+      scoring_implementation: runtime_scoring_taxonomy_nist_rmf_govern_score_mapping
+      evidence: runtime_scoring_taxonomy_nist_rmf_govern_assessment_score
+    map:
+      scoring_implementation: runtime_scoring_taxonomy_nist_rmf_map_score_mapping
+      evidence: runtime_scoring_taxonomy_nist_rmf_map_assessment_score
+    measure:
+      scoring_implementation: runtime_scoring_taxonomy_nist_rmf_measure_score_mapping
+      evidence: runtime_scoring_taxonomy_nist_rmf_measure_assessment_score
+    manage:
+      scoring_implementation: runtime_scoring_taxonomy_nist_rmf_manage_score_mapping
+      evidence: runtime_scoring_taxonomy_nist_rmf_manage_assessment_score
+relationships:
+  score_links:
+    - source: runtime_scoring_taxonomy
+      target: executive_compliance_dashboard
+      relationship_type: feeds
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+    - source: runtime_scoring_taxonomy
+      target: compliance_score_aggregation
+      relationship_type: aggregates
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+  control_links:
+    - source: runtime_scoring_taxonomy
+      target: runtime_scoring_taxonomy_control_register
+      relationship_type: validates
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+    - source: runtime_scoring_taxonomy
+      target: audit_and_enforcement/runtime_scoring
+      relationship_type: sources
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+  evidence_links:
+    - source: runtime_scoring_taxonomy
+      target: runtime_scoring_taxonomy_evidence_vault
+      relationship_type: indexes
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+    - source: runtime_scoring_taxonomy
+      target: runtime_scoring_taxonomy_score_calculation_log
+      relationship_type: produces
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+  assessment_links:
+    - source: runtime_scoring_taxonomy
+      target: conformity_assessment/runtime_scoring_taxonomy
+      relationship_type: informs
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+    - source: runtime_scoring_taxonomy
+      target: runtime_scoring_taxonomy_readiness_assessment
+      relationship_type: feeds
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+  risk_links:
+    - source: runtime_scoring_taxonomy
+      target: risk_management/runtime_scoring_taxonomy_risk_score
+      relationship_type: correlates
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+    - source: runtime_scoring_taxonomy
+      target: runtime_scoring_taxonomy_residual_risk_index
+      relationship_type: weights
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+  compliance_links:
+    - source: runtime_scoring_taxonomy
+      target: provider_obligations/runtime_scoring_taxonomy
+      relationship_type: aligns
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+    - source: runtime_scoring_taxonomy
+      target: ce_marketing/runtime_scoring_taxonomy
+      relationship_type: feeds
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+  obligation_links:
+    - source: runtime_scoring_taxonomy
+      target: Article_16_provider_obligations
+      relationship_type: scores
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+    - source: runtime_scoring_taxonomy
+      target: Article_17_qms_obligations
+      relationship_type: scores
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+  regulatory_links:
+    - source: runtime_scoring_taxonomy
+      target: EU_AI_Act_scoring_crosswalk
+      relationship_type: maps
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+    - source: runtime_scoring_taxonomy
+      target: runtime_scoring_taxonomy_regulatory_alignment_score
+      relationship_type: measures
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+  remediation_links:
+    - source: runtime_scoring_taxonomy
+      target: remediation_scoring/runtime_scoring_taxonomy
+      relationship_type: prioritizes
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+    - source: runtime_scoring_taxonomy
+      target: runtime_scoring_taxonomy_remediation_queue
+      relationship_type: routes
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+  dashboard_links:
+    - source: runtime_scoring_taxonomy
+      target: compliance_dashboarding/runtime_scoring_taxonomy
+      relationship_type: displays
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+    - source: runtime_scoring_taxonomy
+      target: runtime_scoring_taxonomy_executive_scorecard
+      relationship_type: renders
+      confidence: 0.92
+      evidence: runtime_scoring_taxonomy_relationship_assertion
+integration_points:
+  - system: ce_marketing
+    purpose: runtime_scoring_taxonomy_score_synchronization_with_ce_marketing
+    data_exchanged: [compliance_scores, evidence_quality_signals, control_effectiveness_metrics]
+    consumed_artifacts: [ce_marketing_telemetry, ce_marketing_evidence_index]
+    produced_artifacts: [runtime_scoring_taxonomy_composite_score, runtime_scoring_taxonomy_score_confidence_report]
+    trigger_conditions: [score_calculation_cycle, threshold_breach, regulatory_change]
+  - system: risk_management
+    purpose: runtime_scoring_taxonomy_score_synchronization_with_risk_management
+    data_exchanged: [compliance_scores, evidence_quality_signals, control_effectiveness_metrics]
+    consumed_artifacts: [risk_management_telemetry, risk_management_evidence_index]
+    produced_artifacts: [runtime_scoring_taxonomy_composite_score, runtime_scoring_taxonomy_score_confidence_report]
+    trigger_conditions: [score_calculation_cycle, threshold_breach, regulatory_change]
+  - system: provider_obligations
+    purpose: runtime_scoring_taxonomy_score_synchronization_with_provider_obligations
+    data_exchanged: [compliance_scores, evidence_quality_signals, control_effectiveness_metrics]
+    consumed_artifacts: [provider_obligations_telemetry, provider_obligations_evidence_index]
+    produced_artifacts: [runtime_scoring_taxonomy_composite_score, runtime_scoring_taxonomy_score_confidence_report]
+    trigger_conditions: [score_calculation_cycle, threshold_breach, regulatory_change]
+  - system: technical_documentation
+    purpose: runtime_scoring_taxonomy_score_synchronization_with_technical_documentation
+    data_exchanged: [compliance_scores, evidence_quality_signals, control_effectiveness_metrics]
+    consumed_artifacts: [technical_documentation_telemetry, technical_documentation_evidence_index]
+    produced_artifacts: [runtime_scoring_taxonomy_composite_score, runtime_scoring_taxonomy_score_confidence_report]
+    trigger_conditions: [score_calculation_cycle, threshold_breach, regulatory_change]
+  - system: audit_and_enforcement
+    purpose: runtime_scoring_taxonomy_score_synchronization_with_audit_and_enforcement
+    data_exchanged: [compliance_scores, evidence_quality_signals, control_effectiveness_metrics]
+    consumed_artifacts: [audit_and_enforcement_telemetry, audit_and_enforcement_evidence_index]
+    produced_artifacts: [runtime_scoring_taxonomy_composite_score, runtime_scoring_taxonomy_score_confidence_report]
+    trigger_conditions: [score_calculation_cycle, threshold_breach, regulatory_change]
+  - system: audit_and_forensics
+    purpose: runtime_scoring_taxonomy_score_synchronization_with_audit_and_forensics
+    data_exchanged: [compliance_scores, evidence_quality_signals, control_effectiveness_metrics]
+    consumed_artifacts: [audit_and_forensics_telemetry, audit_and_forensics_evidence_index]
+    produced_artifacts: [runtime_scoring_taxonomy_composite_score, runtime_scoring_taxonomy_score_confidence_report]
+    trigger_conditions: [score_calculation_cycle, threshold_breach, regulatory_change]
+  - system: post_market_monitoring
+    purpose: runtime_scoring_taxonomy_score_synchronization_with_post_market_monitoring
+    data_exchanged: [compliance_scores, evidence_quality_signals, control_effectiveness_metrics]
+    consumed_artifacts: [post_market_monitoring_telemetry, post_market_monitoring_evidence_index]
+    produced_artifacts: [runtime_scoring_taxonomy_composite_score, runtime_scoring_taxonomy_score_confidence_report]
+    trigger_conditions: [score_calculation_cycle, threshold_breach, regulatory_change]
+  - system: transparency_and_explainability
+    purpose: runtime_scoring_taxonomy_score_synchronization_with_transparency_and_explainability
+    data_exchanged: [compliance_scores, evidence_quality_signals, control_effectiveness_metrics]
+    consumed_artifacts: [transparency_and_explainability_telemetry, transparency_and_explainability_evidence_index]
+    produced_artifacts: [runtime_scoring_taxonomy_composite_score, runtime_scoring_taxonomy_score_confidence_report]
+    trigger_conditions: [score_calculation_cycle, threshold_breach, regulatory_change]
+  - system: human_oversight
+    purpose: runtime_scoring_taxonomy_score_synchronization_with_human_oversight
+    data_exchanged: [compliance_scores, evidence_quality_signals, control_effectiveness_metrics]
+    consumed_artifacts: [human_oversight_telemetry, human_oversight_evidence_index]
+    produced_artifacts: [runtime_scoring_taxonomy_composite_score, runtime_scoring_taxonomy_score_confidence_report]
+    trigger_conditions: [score_calculation_cycle, threshold_breach, regulatory_change]
+  - system: incident_reporting
+    purpose: runtime_scoring_taxonomy_score_synchronization_with_incident_reporting
+    data_exchanged: [compliance_scores, evidence_quality_signals, control_effectiveness_metrics]
+    consumed_artifacts: [incident_reporting_telemetry, incident_reporting_evidence_index]
+    produced_artifacts: [runtime_scoring_taxonomy_composite_score, runtime_scoring_taxonomy_score_confidence_report]
+    trigger_conditions: [score_calculation_cycle, threshold_breach, regulatory_change]
+artifacts:
+  - runtime_scoring_taxonomy_composite_score_artifact
+  - runtime_scoring_taxonomy_score_confidence_report
+  - runtime_scoring_taxonomy_dimension_breakdown
+  - runtime_scoring_taxonomy_trend_analysis_report
+  - runtime_scoring_taxonomy_executive_scorecard_feed
+outputs:
+  - runtime_scoring_taxonomy_composite_score
+  - runtime_scoring_taxonomy_score_confidence
+  - runtime_scoring_taxonomy_remediation_priority_list
+  - runtime_scoring_taxonomy_benchmark_comparison
+records:
+  - runtime_scoring_taxonomy_score_history_register
+  - runtime_scoring_taxonomy_methodology_change_log
+  - runtime_scoring_taxonomy_threshold_breach_log
+compliance_intelligence:
+  score_trends: runtime_scoring_taxonomy_rolling_30_90_180_day_trend_analyzer
+  score_predictions: runtime_scoring_taxonomy_bayesian_score_forecast_model
+  score_degradation_detection: runtime_scoring_taxonomy_degradation_anomaly_detector
+  control_gap_analysis: runtime_scoring_taxonomy_control_coverage_gap_scorer
+  evidence_gap_analysis: runtime_scoring_taxonomy_evidence_sufficiency_gap_scorer
+  risk_correlation_analysis: runtime_scoring_taxonomy_risk_score_correlation_engine
+  regulatory_impact_analysis: runtime_scoring_taxonomy_regulatory_change_impact_scorer
+  remediation_prioritization: runtime_scoring_taxonomy_weighted_remediation_priority_ranker
+executive_scorecards:
+  board_scorecard:
+    purpose: runtime_scoring_taxonomy_board_scorecard_executive_decision_support
+    audience: board_of_directors
+    included_scores: [runtime_scoring_taxonomy_composite_score, overall_compliance_score, regulatory_readiness_score]
+    decision_thresholds: 0.8
+    escalation_thresholds: 0.65
+    reporting_frequency: monthly
+  executive_scorecard:
+    purpose: runtime_scoring_taxonomy_executive_scorecard_executive_decision_support
+    audience: c_suite
+    included_scores: [runtime_scoring_taxonomy_composite_score, overall_compliance_score, regulatory_readiness_score]
+    decision_thresholds: 0.85
+    escalation_thresholds: 0.7
+    reporting_frequency: weekly
+  regulatory_scorecard:
+    purpose: runtime_scoring_taxonomy_regulatory_scorecard_executive_decision_support
+    audience: regulatory_affairs
+    included_scores: [runtime_scoring_taxonomy_composite_score, overall_compliance_score, regulatory_readiness_score]
+    decision_thresholds: 0.9
+    escalation_thresholds: 0.75
+    reporting_frequency: monthly
+  audit_scorecard:
+    purpose: runtime_scoring_taxonomy_audit_scorecard_executive_decision_support
+    audience: internal_audit
+    included_scores: [runtime_scoring_taxonomy_composite_score, overall_compliance_score, regulatory_readiness_score]
+    decision_thresholds: 0.88
+    escalation_thresholds: 0.72
+    reporting_frequency: quarterly
+  ce_readiness_scorecard:
+    purpose: runtime_scoring_taxonomy_ce_readiness_scorecard_executive_decision_support
+    audience: conformity_officer
+    included_scores: [runtime_scoring_taxonomy_composite_score, overall_compliance_score, regulatory_readiness_score]
+    decision_thresholds: 0.95
+    escalation_thresholds: 0.85
+    reporting_frequency: monthly
+  provider_obligation_scorecard:
+    purpose: runtime_scoring_taxonomy_provider_obligation_scorecard_executive_decision_support
+    audience: provider_compliance
+    included_scores: [runtime_scoring_taxonomy_composite_score, overall_compliance_score, regulatory_readiness_score]
+    decision_thresholds: 0.85
+    escalation_thresholds: 0.7
+    reporting_frequency: monthly
+maturity_model:
+  level_1:
+    name: Initial
+    required_score_range: 0.0-0.4
+    characteristics:
+      Ad hoc Runtime Scoring Taxonomy scoring without standardized methodology.
+    evidence_expectations:
+      - informal_review
+    control_expectations:
+      - basic_score_log
+    assurance_expectations:
+      - manual_score_calculation
+    required_metrics:
+      - score_count
+  level_2:
+    name: Developing
+    required_score_range: 0.4-0.6
+    characteristics:
+      Repeatable Runtime Scoring Taxonomy scoring with documented formulas.
+    evidence_expectations:
+      - runtime_scoring_taxonomy_calculation_log
+    control_expectations:
+      - runtime_scoring_taxonomy_formula_register
+    assurance_expectations:
+      - documented_scoring_workflow
+    required_metrics:
+      - runtime_scoring_taxonomy_accuracy_rate
+  level_3:
+    name: Managed
+    required_score_range: 0.6-0.75
+    characteristics:
+      Standardized enterprise Runtime Scoring Taxonomy scoring with governance.
+    evidence_expectations:
+      - runtime_scoring_taxonomy_scoring_audit_evidence
+    control_expectations:
+      - runtime_scoring_taxonomy_score_integrity_controls
+    assurance_expectations:
+      - runtime_scoring_taxonomy_automated_scoring_pipeline
+    required_metrics:
+      - runtime_scoring_taxonomy_composite_score
+  level_4:
+    name: Advanced
+    required_score_range: 0.75-0.9
+    characteristics:
+      Measured Runtime Scoring Taxonomy scoring with trend analytics and benchmarking.
+    evidence_expectations:
+      - runtime_scoring_taxonomy_assurance_package
+    control_expectations:
+      - runtime_scoring_taxonomy_confidence_interval_engine
+    assurance_expectations:
+      - runtime_scoring_taxonomy_predictive_scoring
+    required_metrics:
+      - runtime_scoring_taxonomy_benchmark_index
+  level_5:
+    name: Optimized
+    required_score_range: 0.9-1.0
+    characteristics:
+      Optimized Runtime Scoring Taxonomy scoring with autonomous remediation prioritization.
+    evidence_expectations:
+      - runtime_scoring_taxonomy_regulator_ready_scorecard
+    control_expectations:
+      - runtime_scoring_taxonomy_real_time_score_intelligence
+    assurance_expectations:
+      - runtime_scoring_taxonomy_adaptive_weight_calibration
+    required_metrics:
+      - runtime_scoring_taxonomy_forecast_accuracy
+altai_scoring:
+  agent_compliance_score: runtime_scoring_taxonomy_agent_compliance_scorer
+  agent_governance_score: runtime_scoring_taxonomy_agent_governance_scorer
+  agent_accountability_score: runtime_scoring_taxonomy_agent_accountability_scorer
+  agent_traceability_score: runtime_scoring_taxonomy_agent_traceability_scorer
+  agent_risk_score: runtime_scoring_taxonomy_agent_risk_scorer
+  agent_oversight_score: runtime_scoring_taxonomy_agent_oversight_scorer
+  reasoning_compliance_score: runtime_scoring_taxonomy_reasoning_compliance_scorer
+  reasoning_traceability_score: runtime_scoring_taxonomy_reasoning_traceability_scorer
+  reasoning_assurance_score: runtime_scoring_taxonomy_reasoning_assurance_scorer
+  memory_governance_score: runtime_scoring_taxonomy_memory_governance_scorer
+  memory_compliance_score: runtime_scoring_taxonomy_memory_compliance_scorer
+  tool_governance_score: runtime_scoring_taxonomy_tool_governance_scorer
+  tool_risk_score: runtime_scoring_taxonomy_tool_risk_scorer
+  foundation_model_compliance_score: runtime_scoring_taxonomy_foundation_model_compliance_scorer
+  gpai_compliance_score: runtime_scoring_taxonomy_gpai_compliance_scorer
+  system_level_compliance_score: runtime_scoring_taxonomy_system_level_compliance_scorer
+monitoring:
+  continuous: [runtime_scoring_taxonomy_score_telemetry, runtime_scoring_taxonomy_confidence_monitor, runtime_scoring_taxonomy_degradation_detector]
+  review_frequency: monthly
+continuous_improvement:
+  feedback_loop: runtime_scoring_taxonomy_score_accuracy_retrospective
+  methodology_review: quarterly
+exceptions:
+  override_authority: chief_compliance_officer
+  override_documentation: runtime_scoring_taxonomy_score_override_register
+escalation:
+  warning_escalation: compliance_officer
+  critical_escalation: chief_compliance_officer_and_board_risk_committee
+versioning:
+  current: 1.0.0
+  methodology_version: runtime_scoring_taxonomy_methodology_v1.0.0

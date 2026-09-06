@@ -1,0 +1,674 @@
+metadata:
+  id: CE-CC-THIPAR-001
+  name: third_party_certification
+  title: Third Party Certification
+  version: 1.0.0
+  status: production
+  owner: CE Marking and Conformity Office
+  maintainers:
+    - ce_conformity
+    - regulatory_affairs
+    - notified_body_liaison
+  created_date: 2026-06-12
+  last_updated: 2026-06-12
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: ce_marketing
+  skill_type: certification_governance
+  lifecycle_phase: operate
+  jurisdiction: EU_EEA
+  language: en
+  tags:
+    - ce_certification
+    - third_party_certification
+    - ce_marking
+    - conformity
+    - eu_ai_act
+    - notified_body
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GPAI Obligations
+    - ISO 42001
+    - ISO 23894
+    - ISO 27001
+    - ISO 9001
+    - NIST AI RMF
+    - GDPR
+    - CE Marking Framework
+  skill_functions:
+    - governance_skill
+    - conformity_skill
+    - certification_skill
+    - compliance_skill
+    - evidence_skill
+    - assessment_skill
+    - regulatory_skill
+    - market_access_skill
+    - monitoring_skill
+    - orchestration_skill
+purpose:
+  >
+    Executable CE Marking skill for Third Party Certification within ce_marketing/ce_certification.
+    Delivers conformity-assessment-ready, notified-body-ready, market-access-ready operations for
+    certification readiness, lifecycle, validation, governance, assurance. Functions as governance,
+    conformity, certification, compliance, evidence, assessment, regulatory, market-access,
+    monitoring, and orchestration skill.
+scope:
+  >
+    All AI systems, technical documentation, conformity assessments, declarations of conformity,
+    notified body interactions, and market authorization activities governed by Third Party
+    Certification.
+objectives:
+  - Operationalize Third Party Certification as executable CE marking conformity skill
+  - Enable notified-body-ready conformity validation for Third Party Certification
+  - Maintain market-access-ready evidence for Third Party Certification
+  - Integrate Third Party Certification with declaration and market authorization lifecycle
+  - Support post-certification monitoring and recertification for Third Party Certification
+definitions:
+  third_party_certification_conformity_assertion:
+    Formal conformity statement for Third Party Certification supported by indexed evidence.
+  third_party_certification_notified_body_evidence:
+    Evidence package suitable for notified body conformity assessment review.
+  third_party_certification_market_access_record:
+    Record demonstrating market authorization readiness for Third Party Certification.
+taxonomy:
+  root: third_party_certification_taxonomy
+  conformity_phase:
+    - preparation
+    - assessment
+    - declaration
+    - market_placement
+    - surveillance
+  third_party_certification_status:
+    - draft
+    - validated
+    - approved
+    - published
+    - suspended
+governance:
+  policy_owner: Third Party Certification Conformity Lead
+  oversight_body: CE Marking Governance Committee
+  domain: ce_certification
+roles_and_responsibilities:
+  third_party_certification_conformity_officer:
+    responsibilities:
+      - Accountable for Third Party Certification conformity outcomes
+  third_party_certification_technical_documentation_lead:
+    responsibilities:
+      - Maintains Article 11 technical file for Third Party Certification
+  notified_body_liaison:
+    responsibilities:
+      - Coordinates notified body assessment activities
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Conformity Assessment Director
+    - Regulatory Affairs
+    - Notified Body Liaison
+capabilities:
+  - id: CE-CAP-001
+    name: CE Marking Governance
+    status: production
+  - id: CE-CAP-002
+    name: Conformity Assessment
+    status: production
+  - id: CE-CAP-003
+    name: Conformity Validation
+    status: production
+  - id: CE-CAP-004
+    name: Technical Documentation Governance
+    status: production
+  - id: CE-CAP-005
+    name: Declaration of Conformity Governance
+    status: production
+  - id: CE-CAP-006
+    name: Notified Body Coordination
+    status: production
+  - id: CE-CAP-007
+    name: Market Authorization Readiness
+    status: production
+  - id: CE-CAP-008
+    name: Post-Certification Monitoring
+    status: production
+controls:
+  - control_id: CE-CE_C-THIRD_PA-THIRDPART
+    control_name: third_party_certification_certification_readiness_gate
+    control_category: preventive
+    control_objective: Gate market placement on certification readiness score threshold
+    regulatory_rationale: third_party_certification_certification_readiness_gate implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy third_party_certification_certification_readiness_gate in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: third_party_certification_certification_readiness_gate_telemetry_stream
+    validation_method: third_party_certification_certification_readiness_gate_conformity_test
+    testing_method: third_party_certification_certification_readiness_gate_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: third_party_certification_certification_readiness_gate_execution_record
+    audit_considerations: Notified body may sample third_party_certification_certification_readiness_gate during conformity assessment.
+  - control_id: CE-CE_C-THIRD_PA-PARTYCONF
+    control_name: party_conformity_assessment_scope_validator
+    control_category: preventive
+    control_objective: Validate conformity assessment scope covers all Annex III requirements
+    regulatory_rationale: party_conformity_assessment_scope_validator implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy party_conformity_assessment_scope_validator in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: party_conformity_assessment_scope_validator_telemetry_stream
+    validation_method: party_conformity_assessment_scope_validator_conformity_test
+    testing_method: party_conformity_assessment_scope_validator_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: party_conformity_assessment_scope_validator_execution_record
+    audit_considerations: Notified body may sample party_conformity_assessment_scope_validator during conformity assessment.
+  - control_id: CE-CE_C-THIRD_PA-CERTIFICAT
+    control_name: certification_notified_body_engagement_readiness
+    control_category: preventive
+    control_objective: Verify notified body engagement prerequisites before assessment initiation
+    regulatory_rationale: certification_notified_body_engagement_readiness implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy certification_notified_body_engagement_readiness in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: certification_notified_body_engagement_readiness_telemetry_stream
+    validation_method: certification_notified_body_engagement_readiness_conformity_test
+    testing_method: certification_notified_body_engagement_readiness_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: certification_notified_body_engagement_readiness_execution_record
+    audit_considerations: Notified body may sample certification_notified_body_engagement_readiness during conformity assessment.
+  - control_id: CE-CE_C-THIRD_PA-THIRDCERT
+    control_name: third_certification_lifecycle_state_enforcer
+    control_category: preventive
+    control_objective: Enforce certification lifecycle state transitions with evidence checkpoints
+    regulatory_rationale: third_certification_lifecycle_state_enforcer implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy third_certification_lifecycle_state_enforcer in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: third_certification_lifecycle_state_enforcer_telemetry_stream
+    validation_method: third_certification_lifecycle_state_enforcer_conformity_test
+    testing_method: third_certification_lifecycle_state_enforcer_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: third_certification_lifecycle_state_enforcer_execution_record
+    audit_considerations: Notified body may sample third_certification_lifecycle_state_enforcer during conformity assessment.
+  - control_id: CE-CE_C-THIRD_PA-THIRDPART
+    control_name: third_party_certificate_authenticity_verifier
+    control_category: detective
+    control_objective: Verify authenticity of third-party conformity certificates
+    regulatory_rationale: third_party_certificate_authenticity_verifier implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy third_party_certificate_authenticity_verifier in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: third_party_certificate_authenticity_verifier_telemetry_stream
+    validation_method: third_party_certificate_authenticity_verifier_conformity_test
+    testing_method: third_party_certificate_authenticity_verifier_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: third_party_certificate_authenticity_verifier_execution_record
+    audit_considerations: Notified body may sample third_party_certificate_authenticity_verifier during conformity assessment.
+  - control_id: CE-CE_C-THIRD_PA-HIGHRISK
+    control_name: high_risk_system_certification_tracker
+    control_category: detective
+    control_objective: Track high-risk system certification status across product portfolio
+    regulatory_rationale: high_risk_system_certification_tracker implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy high_risk_system_certification_tracker in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: high_risk_system_certification_tracker_telemetry_stream
+    validation_method: high_risk_system_certification_tracker_conformity_test
+    testing_method: high_risk_system_certification_tracker_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: high_risk_system_certification_tracker_execution_record
+    audit_considerations: Notified body may sample high_risk_system_certification_tracker during conformity assessment.
+  - control_id: CE-CE_C-THIRD_PA-THIRDCERT
+    control_name: third_certification_gap_remediation_router
+    control_category: corrective
+    control_objective: Route certification gaps to remediation with SLA tracking
+    regulatory_rationale: third_certification_gap_remediation_router implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy third_certification_gap_remediation_router in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: third_certification_gap_remediation_router_telemetry_stream
+    validation_method: third_certification_gap_remediation_router_conformity_test
+    testing_method: third_certification_gap_remediation_router_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: third_certification_gap_remediation_router_execution_record
+    audit_considerations: Notified body may sample third_certification_gap_remediation_router during conformity assessment.
+  - control_id: CE-CE_C-THIRD_PA-PARTYELIG
+    control_name: party_eligibility_criteria_compliance_checker
+    control_category: detective
+    control_objective: Check CE eligibility criteria against system classification
+    regulatory_rationale: party_eligibility_criteria_compliance_checker implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy party_eligibility_criteria_compliance_checker in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: party_eligibility_criteria_compliance_checker_telemetry_stream
+    validation_method: party_eligibility_criteria_compliance_checker_conformity_test
+    testing_method: party_eligibility_criteria_compliance_checker_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: party_eligibility_criteria_compliance_checker_execution_record
+    audit_considerations: Notified body may sample party_eligibility_criteria_compliance_checker during conformity assessment.
+  - control_id: CE-CE_C-THIRD_PA-CERTIFICAT
+    control_name: certification_evidence_completeness_scanner
+    control_category: detective
+    control_objective: Scan certification evidence packages for completeness
+    regulatory_rationale: certification_evidence_completeness_scanner implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy certification_evidence_completeness_scanner in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: certification_evidence_completeness_scanner_telemetry_stream
+    validation_method: certification_evidence_completeness_scanner_conformity_test
+    testing_method: certification_evidence_completeness_scanner_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: certification_evidence_completeness_scanner_execution_record
+    audit_considerations: Notified body may sample certification_evidence_completeness_scanner during conformity assessment.
+  - control_id: CE-CE_C-THIRD_PA-THIRDCERT
+    control_name: third_certification_assurance_attestation
+    control_category: audit
+    control_objective: Attest certification control effectiveness for management review
+    regulatory_rationale: third_certification_assurance_attestation implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy third_certification_assurance_attestation in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: third_certification_assurance_attestation_telemetry_stream
+    validation_method: third_certification_assurance_attestation_conformity_test
+    testing_method: third_certification_assurance_attestation_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: third_certification_assurance_attestation_execution_record
+    audit_considerations: Notified body may sample third_certification_assurance_attestation during conformity assessment.
+  - control_id: CE-CE_C-THIRD_PA-PARTYCERT
+    control_name: party_certification_renewal_trigger_monitor
+    control_category: detective
+    control_objective: Monitor triggers requiring certification renewal or reassessment
+    regulatory_rationale: party_certification_renewal_trigger_monitor implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy party_certification_renewal_trigger_monitor in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: party_certification_renewal_trigger_monitor_telemetry_stream
+    validation_method: party_certification_renewal_trigger_monitor_conformity_test
+    testing_method: party_certification_renewal_trigger_monitor_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: party_certification_renewal_trigger_monitor_execution_record
+    audit_considerations: Notified body may sample party_certification_renewal_trigger_monitor during conformity assessment.
+  - control_id: CE-CE_C-THIRD_PA-CERTIFICAT
+    control_name: certification_register_integrity_sealer
+    control_category: evidence
+    control_objective: Seal certification register entries for notified body audit
+    regulatory_rationale: certification_register_integrity_sealer implements EU AI Act conformity obligations for Third Party Certification under ce_certification.
+    implementation_guidance: Deploy certification_register_integrity_sealer in third_party_certification workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: certification_register_integrity_sealer_telemetry_stream
+    validation_method: certification_register_integrity_sealer_conformity_test
+    testing_method: certification_register_integrity_sealer_sampling_audit
+    control_owner: third_party_certification_conformity_owner
+    evidence_generated: certification_register_integrity_sealer_execution_record
+    audit_considerations: Notified body may sample certification_register_integrity_sealer during conformity assessment.
+workflows:
+  - workflow_id: WF-CE-THIRD_PARTY_CERTIFIC
+    workflow_name: third_party_certification_conformity_workflow
+    workflow_owner: third_party_certification_workflow_owner
+    trigger: third_party_certification_conformity_event
+    inputs:
+      - third_party_certification_conformity_context
+      - third_party_certification_evidence_index
+    activities:
+      - third_party_certification_intake
+      - third_party_certification_validation
+      - third_party_certification_evidence_review
+      - third_party_certification_approval
+      - third_party_certification_attestation
+      - third_party_certification_closure
+    decision_points:
+      - third_party_certification_conformity_decision
+      - third_party_certification_escalation_decision
+    approvals:
+      - third_party_certification_conformity_officer_approval
+    outputs:
+      - third_party_certification_conformity_record
+    evidence_generated:
+      - third_party_certification_workflow_log
+      - third_party_certification_attestation
+    success_criteria:
+      - third_party_certification_conformity_validated
+      - third_party_certification_evidence_complete
+    failure_conditions:
+      - third_party_certification_critical_gap_unresolved
+      - third_party_certification_evidence_integrity_failure
+  - workflow_id: WF-CE-CE_MARKING_P
+    workflow_name: third_party_certification_ce_marking_preparation_workflow
+    linked: true
+    trigger: third_party_certification_ce_marking_preparation_initiated
+  - workflow_id: WF-CE-CONFORMITY_A
+    workflow_name: third_party_certification_conformity_assessment_workflow
+    linked: true
+    trigger: third_party_certification_conformity_assessment_initiated
+  - workflow_id: WF-CE-NOTIFIED_BOD
+    workflow_name: third_party_certification_notified_body_engagement_workflow
+    linked: true
+    trigger: third_party_certification_notified_body_engagement_initiated
+  - workflow_id: WF-CE-DECLARATION_
+    workflow_name: third_party_certification_declaration_of_conformity_workflow
+    linked: true
+    trigger: third_party_certification_declaration_of_conformity_initiated
+  - workflow_id: WF-CE-MARKET_AUTHO
+    workflow_name: third_party_certification_market_authorization_workflow
+    linked: true
+    trigger: third_party_certification_market_authorization_initiated
+  - workflow_id: WF-CE-POST_CERTIFI
+    workflow_name: third_party_certification_post_certification_monitoring_workflow
+    linked: true
+    trigger: third_party_certification_post_certification_monitoring_initiated
+  - workflow_id: WF-CE-RECERTIFICAT
+    workflow_name: third_party_certification_recertification_workflow
+    linked: true
+    trigger: third_party_certification_recertification_initiated
+decision_logic:
+  third_party_certification_conformity_gate:
+    condition: third_party_certification_readiness_score >= 0.95 AND third_party_certification_evidence_complete == true
+    action: authorize_third_party_certification_progression
+    approval_required: conformity_officer
+conformity_assessment:
+  assessment_scope: Third Party Certification EU AI Act conformity dimensions
+  assessment_methodology: third_party_certification_iso_19011_conformity_method
+  assessment_criteria: third_party_certification_annex_iii_and_article_requirements
+  conformity_dimensions:
+    - technical
+    - organizational
+    - operational
+    - documentation
+  evidence_requirements:
+    - third_party_certification_technical_file
+    - third_party_certification_risk_assessment
+    - third_party_certification_validation_records
+  acceptance_thresholds: third_party_certification_readiness_score >= 0.95
+  rejection_thresholds: third_party_certification_critical_gap == true
+metrics:
+  - metric_name: conformity_readiness_score
+    metric_category: conformity
+    formula: computed_conformity_readiness_score_from_third_party_certification_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: third_party_certification_metrics_owner
+    data_source: third_party_certification_conformity_warehouse
+    evidence_generated: conformity_readiness_score_measurement_record
+  - metric_name: technical_documentation_completeness
+    metric_category: conformity
+    formula: computed_technical_documentation_completeness_from_third_party_certification_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: third_party_certification_metrics_owner
+    data_source: third_party_certification_conformity_warehouse
+    evidence_generated: technical_documentation_completeness_measurement_record
+  - metric_name: evidence_validation_success_rate
+    metric_category: conformity
+    formula: computed_evidence_validation_success_rate_from_third_party_certification_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: third_party_certification_metrics_owner
+    data_source: third_party_certification_conformity_warehouse
+    evidence_generated: evidence_validation_success_rate_measurement_record
+  - metric_name: ce_marking_readiness_score
+    metric_category: conformity
+    formula: computed_ce_marking_readiness_score_from_third_party_certification_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: third_party_certification_metrics_owner
+    data_source: third_party_certification_conformity_warehouse
+    evidence_generated: ce_marking_readiness_score_measurement_record
+  - metric_name: notified_body_acceptance_rate
+    metric_category: conformity
+    formula: computed_notified_body_acceptance_rate_from_third_party_certification_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: third_party_certification_metrics_owner
+    data_source: third_party_certification_conformity_warehouse
+    evidence_generated: notified_body_acceptance_rate_measurement_record
+  - metric_name: certification_gap_count
+    metric_category: conformity
+    formula: computed_certification_gap_count_from_third_party_certification_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: third_party_certification_metrics_owner
+    data_source: third_party_certification_conformity_warehouse
+    evidence_generated: certification_gap_count_measurement_record
+kpis:
+  - conformity_readiness_score
+  - technical_documentation_completeness
+  - evidence_validation_success_rate
+  - ce_marking_readiness_score
+kris:
+  - notified_body_acceptance_rate
+  - certification_gap_count
+evidence_requirements:
+  - evidence_name: third_party_certification_conformity_assessment_record
+    evidence_type: conformity
+    business_purpose: Support Third Party Certification conformity assessment and CE marking
+    generation_method: automated_third_party_certification_pipeline
+    retention_period: 10_years
+    validation_method: third_party_certification_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: third_party_certification_technical_documentation_extract
+    evidence_type: conformity
+    business_purpose: Support Third Party Certification conformity assessment and CE marking
+    generation_method: automated_third_party_certification_pipeline
+    retention_period: 10_years
+    validation_method: third_party_certification_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: third_party_certification_validation_report
+    evidence_type: conformity
+    business_purpose: Support Third Party Certification conformity assessment and CE marking
+    generation_method: automated_third_party_certification_pipeline
+    retention_period: 10_years
+    validation_method: third_party_certification_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: third_party_certification_notified_body_correspondence
+    evidence_type: conformity
+    business_purpose: Support Third Party Certification conformity assessment and CE marking
+    generation_method: automated_third_party_certification_pipeline
+    retention_period: 10_years
+    validation_method: third_party_certification_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: third_party_certification_declaration_reference
+    evidence_type: conformity
+    business_purpose: Support Third Party Certification conformity assessment and CE marking
+    generation_method: automated_third_party_certification_pipeline
+    retention_period: 10_years
+    validation_method: third_party_certification_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: third_party_certification_market_authorization_record
+    evidence_type: conformity
+    business_purpose: Support Third Party Certification conformity assessment and CE marking
+    generation_method: automated_third_party_certification_pipeline
+    retention_period: 10_years
+    validation_method: third_party_certification_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+attestation_requirements:
+  - attestation: third_party_certification_conformity_attestation
+    owner: conformity_officer
+    frequency: quarterly
+domain_reports:
+  - report_name: conformity_readiness_dashboard
+    report_owner: third_party_certification_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: certification_status_report
+    report_owner: third_party_certification_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: notified_body_briefing
+    report_owner: third_party_certification_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: executive_ce_governance_report
+    report_owner: third_party_certification_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: market_authorization_status
+    report_owner: third_party_certification_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+altai_conformity:
+  agent_conformity:
+    validation: third_party_certification_agent_conformity_validation
+    traceability: third_party_certification_agent_conformity_traceability
+    monitoring: third_party_certification_agent_conformity_monitoring
+  reasoning_conformity:
+    validation: third_party_certification_reasoning_conformity_validation
+    traceability: third_party_certification_reasoning_conformity_traceability
+    monitoring: third_party_certification_reasoning_conformity_monitoring
+  memory_conformity:
+    validation: third_party_certification_memory_conformity_validation
+    traceability: third_party_certification_memory_conformity_traceability
+    monitoring: third_party_certification_memory_conformity_monitoring
+  tool_conformity:
+    validation: third_party_certification_tool_conformity_validation
+    traceability: third_party_certification_tool_conformity_traceability
+    monitoring: third_party_certification_tool_conformity_monitoring
+  foundation_model_conformity:
+    validation: third_party_certification_foundation_model_conformity_validation
+    traceability: third_party_certification_foundation_model_conformity_traceability
+    monitoring: third_party_certification_foundation_model_conformity_monitoring
+  gpai_conformity:
+    validation: third_party_certification_gpai_conformity_validation
+    traceability: third_party_certification_gpai_conformity_traceability
+    monitoring: third_party_certification_gpai_conformity_monitoring
+compliance_mapping:
+  article_43:
+    article: Article 43
+    obligation: Third Party Certification conformity under Article 43
+    implementation_method: third_party_certification_article_43_controls
+    evidence_required: [third_party_certification_article_43_evidence]
+    validation_method: third_party_certification_article_43_conformity_test
+    assurance_method: third_party_certification_article_43_assurance_review
+  article_44:
+    article: Article 44
+    obligation: Third Party Certification conformity under Article 44
+    implementation_method: third_party_certification_article_44_controls
+    evidence_required: [third_party_certification_article_44_evidence]
+    validation_method: third_party_certification_article_44_conformity_test
+    assurance_method: third_party_certification_article_44_assurance_review
+  article_16:
+    article: Article 16
+    obligation: Third Party Certification conformity under Article 16
+    implementation_method: third_party_certification_article_16_controls
+    evidence_required: [third_party_certification_article_16_evidence]
+    validation_method: third_party_certification_article_16_conformity_test
+    assurance_method: third_party_certification_article_16_assurance_review
+  article_17:
+    article: Article 17
+    obligation: Third Party Certification conformity under Article 17
+    implementation_method: third_party_certification_article_17_controls
+    evidence_required: [third_party_certification_article_17_evidence]
+    validation_method: third_party_certification_article_17_conformity_test
+    assurance_method: third_party_certification_article_17_assurance_review
+relationships:
+  conformity_links:
+    - source: third_party_certification
+      target: third_party_certification_to_declaration_of_conformity
+      relationship_type: governs
+      confidence: 0.95
+  certification_links:
+    - source: third_party_certification
+      target: third_party_certification_to_ce_certification
+      relationship_type: governs
+      confidence: 0.95
+  evidence_links:
+    - source: third_party_certification
+      target: third_party_certification_to_conformity_evidence
+      relationship_type: governs
+      confidence: 0.95
+  documentation_links:
+    - source: third_party_certification
+      target: third_party_certification_to_technical_documentation
+      relationship_type: governs
+      confidence: 0.95
+integration_points:
+  - system: provider_obligations
+    purpose: third_party_certification_to_provider_obligations_conformity_sync
+    data_exchanged: [third_party_certification_conformity_scores, third_party_certification_evidence_refs]
+    consumed_artifacts: [provider_obligations_records]
+    produced_artifacts: [third_party_certification_conformity_package]
+  - system: technical_documentation
+    purpose: third_party_certification_to_technical_documentation_conformity_sync
+    data_exchanged: [third_party_certification_conformity_scores, third_party_certification_evidence_refs]
+    consumed_artifacts: [technical_documentation_records]
+    produced_artifacts: [third_party_certification_conformity_package]
+  - system: risk_management
+    purpose: third_party_certification_to_risk_management_conformity_sync
+    data_exchanged: [third_party_certification_conformity_scores, third_party_certification_evidence_refs]
+    consumed_artifacts: [risk_management_records]
+    produced_artifacts: [third_party_certification_conformity_package]
+  - system: post_market_monitoring
+    purpose: third_party_certification_to_post_market_monitoring_conformity_sync
+    data_exchanged: [third_party_certification_conformity_scores, third_party_certification_evidence_refs]
+    consumed_artifacts: [post_market_monitoring_records]
+    produced_artifacts: [third_party_certification_conformity_package]
+  - system: audit_and_enforcement
+    purpose: third_party_certification_to_audit_and_enforcement_conformity_sync
+    data_exchanged: [third_party_certification_conformity_scores, third_party_certification_evidence_refs]
+    consumed_artifacts: [audit_and_enforcement_records]
+    produced_artifacts: [third_party_certification_conformity_package]
+attestation_framework:
+  attestation_owner: third_party_certification_conformity_officer
+  attestation_frequency: quarterly
+  attestation_evidence: [third_party_certification_conformity_attestation, third_party_certification_control_effectiveness_review]
+maturity_model:
+  level_1:
+    name: Initial
+    characteristics: Ad hoc conformity for Third Party Certification
+  level_2:
+    name: Developing
+    characteristics: Documented procedures for Third Party Certification
+  level_3:
+    name: Managed
+    characteristics: Standardized enterprise-wide for Third Party Certification
+  level_4:
+    name: Advanced
+    characteristics: Measured with KPIs for Third Party Certification
+  level_5:
+    name: Optimized
+    characteristics: Predictive conformity for Third Party Certification
+risk_model:
+  risk_sources: [third_party_certification_conformity_gap, third_party_certification_evidence_failure, third_party_certification_notified_body_finding]
+  risk_monitoring: third_party_certification_conformity_risk_dashboard
+crosswalks:
+  eu_ai_act:
+    implementation: third_party_certification_eu_ai_act_conformity_mapping
+    evidence: third_party_certification_eu_ai_act_conformity_attestation
+  gdpr:
+    implementation: third_party_certification_gdpr_conformity_mapping
+    evidence: third_party_certification_gdpr_conformity_attestation
+  iso_42001:
+    implementation: third_party_certification_iso_42001_conformity_mapping
+    evidence: third_party_certification_iso_42001_conformity_attestation
+  iso_23894:
+    implementation: third_party_certification_iso_23894_conformity_mapping
+    evidence: third_party_certification_iso_23894_conformity_attestation
+  nist_ai_rmf:
+    implementation: third_party_certification_nist_ai_rmf_conformity_mapping
+    evidence: third_party_certification_nist_ai_rmf_conformity_attestation
+monitoring:
+  continuous: [third_party_certification_conformity_telemetry, third_party_certification_readiness_score_feed]
+continuous_improvement:
+  feedback_loop: third_party_certification_conformity_retrospective
+escalation:
+  critical_path: chief_compliance_officer
+versioning:
+  current: 1.0.0

@@ -1,0 +1,462 @@
+metadata:
+  document_id: "AF-COG-REASONING_TR-001"
+  title: "Reasoning Traceability"
+  domain: "Cognitive Forensics"
+  version: "1.0.0"
+  classification: "RESTRICTED"
+purpose: "Define the enterprise compliance and digital forensics framework for Reasoning Traceability within the Cognitive Forensics architecture. This standard governs the collection, preservation, and audit verification of forensic traces to support legal, regulatory, and notified body inspections under the EU AI Act."
+scope: "Applicable to all production environments, model runs, prompt interfaces, execution contexts, and storage systems that handle or affect Reasoning Traceability operations."
+objectives:
+  - "Provide regulator-ready forensic traceability for all Reasoning Traceability decisions."
+  - "Ensure cryptographically verifiable log validation for Reasoning Traceability transition states."
+  - "Support incident root cause reconstruction and liability attribution for Reasoning Traceability failures."
+definitions:
+  reasoning_traceability_state: "The state representing the operational metrics and compliance posture of Reasoning Traceability at a specific runtime timestamp."
+  forensic_integrity_proof: "A cryptographic validation token consisting of combined SHA256 hashes and digital signatures of telemetry logs."
+taxonomy:
+  event_classes:
+    - "CLASS_COG_REASONING_TRACEABILITY_INITIATED"
+    - "CLASS_COG_REASONING_TRACEABILITY_MUTATED"
+    - "CLASS_COG_REASONING_TRACEABILITY_EXCEPTION"
+    - "CLASS_COG_REASONING_TRACEABILITY_TERMINATED"
+  criticality_levels:
+    - "CRITICAL"
+    - "HIGH"
+    - "MEDIUM"
+    - "LOW"
+governance:
+  framework_authority: "AI Forensics and Oversight Committee (Cognitive Forensics Sub-panel)"
+  audit_cycle: "Quarterly internal audits combined with annual external notified body assessments"
+  oversight_policy: "GP-FORENSIC-COG-REV2"
+roles_and_responsibilities:
+  forensic_custodian: "Responsible for the safe custody and cryptographic verification of all Reasoning Traceability evidence."
+  assurance_engineer: "Responsible for implementing monitoring hooks and runtime probes for Reasoning Traceability telemetry."
+  compliance_auditor: "Responsible for conducting periodic conformity reviews and compiling regulator-ready reports."
+stakeholders:
+  - "Chief AI Governance Officer"
+  - "Lead Forensic Counsel"
+  - "Cognitive Forensics Engineering Lead"
+  - "AI Regulatory Compliance Director"
+capabilities:
+  - "Real-time telemetry capturing for Reasoning Traceability execution paths."
+  - "Cryptographic hash chain sealing for Reasoning Traceability audit logs."
+  - "Dynamic anomaly detection in Reasoning Traceability behavioral parameters."
+  - "Automated forensic case packaging for Reasoning Traceability incidents."
+requirements:
+  - "All Reasoning Traceability decisions must be recorded within a maximum latency of 100 milliseconds."
+  - "Log records must be written to write-once-read-many (WORM) secure log brokers."
+  - "Every telemetry record must contain a valid cryptographic signature from the originating container."
+controls:
+  - control_id: "CTRL-AF-COG-REASONIN-01"
+    control_type: "DETECTIVE"
+    objective: "Continuous validation of Reasoning Traceability logs to detect unauthorized state modifications or data tampering."
+    implementation_guidance: "Deploy background validator daemons that recalculate SHA256 hash chains of Reasoning Traceability database logs and compare them with ledger states."
+    control_owner: "Lead Forensic Security Engineer"
+    test_method: "Inject a modified database entry in a staging copy of the Reasoning Traceability log store and check if the signature validation alarm is triggered."
+    test_frequency: "DAILY"
+    test_inputs: "Target database log segment, signature keys, and validation schema."
+    test_outputs: "Signature verification report, anomaly alerts, audit log entries."
+    pass_criteria: "The validation run successfully detects the injected anomaly and triggers alerts within 5 seconds."
+    fail_criteria: "The anomaly goes undetected or the alarm fails to log to the central security console."
+    effectiveness_measurement: "Percentage of validation tests successfully completed without false negatives (Target: 100%)."
+    evidence_generated: "Signed verification summary reports archived in the Reasoning Traceability evidence folder."
+  - control_id: "CTRL-AF-COG-REASONIN-02"
+    control_type: "PREVENTATIVE"
+    objective: "Enforce execution boundaries on Reasoning Traceability parameters to prevent out-of-bounds or non-compliant states."
+    implementation_guidance: "Implement runtime interceptors that validate execution parameters against safety policy values before execution commands are dispatched."
+    control_owner: "Cognitive Forensics Systems Architect"
+    test_method: "Submit an execution command containing parameter values exceeding defined thresholds and verify that the system blocks the call."
+    test_frequency: "CONTINUOUS"
+    test_inputs: "Simulated call payload with out-of-bounds values, active safety policy configuration."
+    test_outputs: "Blocked transaction log, policy violation event, validation failure error response."
+    pass_criteria: "The transaction is successfully blocked, an error is returned, and a policy violation event is generated."
+    fail_criteria: "The transaction executes successfully or fails to log the policy breach event."
+    effectiveness_measurement: "Percentage of invalid requests correctly blocked at runtime (Target: 100%)."
+    evidence_generated: "Blocked transaction records and safety policy intercept logs."
+processes:
+  log_ingestion: "Telemetry records are streamed from Reasoning Traceability containers, enriched with global execution context, and written to secure storage."
+  incident_triaging: "Upon detection of a Reasoning Traceability anomaly, the monitoring service triggers log locking and signs the current state snapshot."
+workflows:
+  - workflow_id: "WF-AF-COG-REASONIN-01"
+    name: "Reasoning Traceability Forensic Investigation Workflow"
+    steps:
+      - "Step 1: Isolate the affected system runtime containers and capture memory snapshots."
+      - "Step 2: Lock the forensic log storage segments for Reasoning Traceability corresponding to the incident window."
+      - "Step 3: Verify cryptographic checksums of the log segments against the immutable ledger."
+      - "Step 4: Execute causal path reconstruction using the Causal Analysis engine."
+      - "Step 5: Compile forensic report and present to the AI Forensics Committee."
+decision_logic:
+  escalation_conditions:
+    - condition: "anomaly_score > 0.85 and duration_seconds > 60"
+      action: "Block execution of Reasoning Traceability operations, isolate active container, and trigger P1 escalation."
+    - condition: "signature_validation_failed == true"
+      action: "Trigger P1 security alert, notify security operations center, and freeze evidentiary storage."
+relationships:
+  incident_links:
+    - source: "ReasoningTraceabilityIncidentDetector"
+      target: "ReasoningTraceabilityFailureEvent"
+      relationship_type: "monitors_and_signals"
+      confidence: 0.98
+      evidence: "Log entry validation alert code ERR-012"
+  evidence_links:
+    - source: "ReasoningTraceabilityTelemetryLogger"
+      target: "ReasoningTraceabilityAuditTrail"
+      relationship_type: "appends_records_to"
+      confidence: 0.99
+      evidence: "Cryptographic checksum validation path"
+  agent_links:
+    - source: "ReasoningTraceabilityExecutionAgent"
+      target: "ReasoningTraceabilityVerificationSubagent"
+      relationship_type: "submits_actions_to"
+      confidence: 0.95
+      evidence: "Inter-agent RPC telemetry data log"
+  decision_links:
+    - source: "ReasoningTraceabilityDecisionEngine"
+      target: "ReasoningTraceabilityPolicyChecker"
+      relationship_type: "queries_safety_rules_from"
+      confidence: 0.99
+      evidence: "API request-response logs for constraint check"
+  control_links:
+    - source: "CTRL-AF-COG-REASONIN-01"
+      target: "ReasoningTraceabilityLogStore"
+      relationship_type: "protects_and_validates"
+      confidence: 0.97
+      evidence: "Daily control execution report verification"
+  audit_links:
+    - source: "ReasoningTraceabilityAuditProcedure"
+      target: "CTRL-AF-COG-REASONIN-01"
+      relationship_type: "verifies_implementation_of"
+      confidence: 0.96
+      evidence: "Quarterly audit documentation package"
+  regulatory_links:
+    - source: "AF-COG-REASONING_TR-001"
+      target: "EU_AI_Act_Article_12"
+      relationship_type: "satisfies_requirements_of"
+      confidence: 0.99
+      evidence: "Conformity mapping documentation section 3.1"
+  risk_links:
+    - source: "ReasoningTraceabilityTamperingRisk"
+      target: "CTRL-AF-COG-REASONIN-01"
+      relationship_type: "mitigated_by_control"
+      confidence: 0.95
+      evidence: "Risk assessment registry database"
+  workflow_links:
+    - source: "WF-AF-COG-REASONIN-01"
+      target: "ReasoningTraceabilityIncidentDetector"
+      relationship_type: "triggered_by_alert_from"
+      confidence: 0.98
+      evidence: "Incident orchestrator workflow mapping rules"
+  artifact_links:
+    - source: "ReasoningTraceabilityEvidenceArchive"
+      target: "ReasoningTraceabilityAttestationFile"
+      relationship_type: "contains_provenance_record"
+      confidence: 0.99
+      evidence: "File inventory index database path"
+  governance_links:
+    - source: "GP-FORENSIC-COG-REV2"
+      target: "AF-COG-REASONING_TR-001"
+      relationship_type: "authorizes_operational_policy"
+      confidence: 0.99
+      evidence: "Board authorization minutes signature block"
+  accountability_links:
+    - source: "Forensic Custodian"
+      target: "ReasoningTraceabilityEvidenceArchive"
+      relationship_type: "holds_responsibility_for"
+      confidence: 0.98
+      evidence: "IAM role assignment configurations"
+risk_model:
+  risk_identifiers:
+    - "RISK_COG_REASONING_TRACEABILITY_TAMPERING"
+    - "RISK_COG_REASONING_TRACEABILITY_LOG_LOSS"
+    - "RISK_COG_REASONING_TRACEABILITY_BYPASS"
+  risk_assessments:
+    - risk_name: "Reasoning Traceability Log Tampering"
+      likelihood: "LOW"
+      impact: "CRITICAL"
+      mitigation: "Deploy real-time cryptographic checksum chains to ensure tamper detection under control CTRL-AF-COG-REASONIN-01."
+evidence_model:
+  evidence_store: "ForensicArchive-COG"
+  validation_protocol: "Hardware-backed security module verify signature"
+  retention_policy: "Retain for 5 years or until litigation case closure"
+metrics:
+  kpis:
+    - name: "Reasoning Traceability Evidence Log Completeness Rate"
+      target: ">= 99.99%"
+      description: "Percentage of generated transaction trace logs successfully recorded in secure storage."
+    - name: "Reasoning Traceability Forensic Trace Retrieval SLA"
+      target: "<= 15 minutes"
+      description: "Time to retrieve, validate, and package audit logs for regulatory submission."
+  kris:
+    - name: "Reasoning Traceability Signature Verification Failures"
+      threshold: "> 0"
+      description: "Any detected failure in the integrity check of ingested log records."
+    - name: "Reasoning Traceability Log Processing Delay"
+      threshold: "> 5000 milliseconds"
+      description: "Delay between execution event and final evidence serialization."
+  thresholds:
+    max_tolerated_log_delay_ms: 100
+    min_cryptographic_key_strength_bits: 3072
+    max_concurrent_retrieval_requests: 20
+kpis:
+  - name: "Reasoning Traceability Evidence Log Completeness Rate"
+    target: ">= 99.99%"
+    description: "Percentage of generated transaction trace logs successfully recorded in secure storage."
+  - name: "Reasoning Traceability Forensic Trace Retrieval SLA"
+    target: "<= 15 minutes"
+    description: "Time to retrieve, validate, and package audit logs for regulatory submission."
+kris:
+  - name: "Reasoning Traceability Signature Verification Failures"
+    threshold: "> 0"
+    description: "Any detected failure in the integrity check of ingested log records."
+  - name: "Reasoning Traceability Log Processing Delay"
+    threshold: "> 5000 milliseconds"
+    description: "Delay between execution event and final evidence serialization."
+thresholds:
+  max_tolerated_log_delay_ms: 100
+  min_cryptographic_key_strength_bits: 3072
+  max_concurrent_retrieval_requests: 20
+compliance_mapping:
+  regulatory_obligations:
+    - regulation: "EU AI Act"
+      article: "Article 12 (Traceability)"
+      relevance: "Enforce continuous logging of system execution steps for Reasoning Traceability."
+    - regulation: "ISO 42001"
+      clause: "Annex A.8.4 (AI system logging and monitoring)"
+      relevance: "Establish policies and procedures for standardizing forensic collection."
+crosswalks:
+  framework_crosswalks:
+    - source_framework: "NIST AI RMF 1.0"
+      category: "MEASURE 2.4"
+      mapping_description: "Continuous monitoring of Reasoning Traceability to measure system safety and alignment drift."
+    - source_framework: "GDPR"
+      article: "Article 32 (Security of Processing)"
+      mapping_description: "Ensure cryptographic validation of execution traces and log privacy boundaries."
+integration_points:
+  siem_integration: "Forward logs via secure syslog (RFC 5424) over TLS to central SIEM."
+  ledger_integration: "Register hash chain roots daily to the corporate compliance block log."
+  agent_orchestrator: "Provide REST endpoints for agents to submit action execution traces."
+outputs:
+  artifacts:
+    - name: "ReasoningTraceabilityEvidencePackage"
+      type: "Zip file with signed logs"
+      description: "Contains complete execution traces, causal models, and custody trail for an investigation window."
+  records:
+    - "Execution transaction logs for Reasoning Traceability"
+    - "Cryptographic hash chain logs under control CTRL-AF-COG-REASONIN-01"
+    - "Policy block records under control CTRL-AF-COG-REASONIN-02"
+artifacts:
+  - name: "ReasoningTraceabilityEvidencePackage"
+    type: "Zip file with signed logs"
+    description: "Contains complete execution traces, causal models, and custody trail for an investigation window."
+records:
+  - "Execution transaction logs for Reasoning Traceability"
+  - "Cryptographic hash chain logs under control CTRL-AF-COG-REASONIN-01"
+  - "Policy block records under control CTRL-AF-COG-REASONIN-02"
+monitoring:
+  telemetry_stream: "Stream-COG-reasoning_traceability-telemetry"
+  monitoring_frequency: "REAL_TIME"
+  anomaly_indicators:
+    - "Drift vector similarity < 0.90"
+    - "Inconsistent execution order"
+continuous_improvement:
+  review_frequency: "SEMI_ANNUALLY"
+  improvement_triggers:
+    - "Any confirmed security or compliance breach"
+    - "Indication of model degradation or shift in validation metrics"
+  remediation_protocol: "Update safety intercept policy rules and run automated regression tests."
+exceptions:
+  allowed_exceptions:
+    - scenario: "Emergency manual system bypass"
+      approval_authority: "Chief AI Architect"
+      logging_requirement: "Bypass key logged to hardware security module and signed manually by the architect."
+escalation:
+  escalation_matrix:
+    level_1_warning:
+      trigger: "Minor threshold breach or processing delay"
+      target_role: "Assurance Engineer"
+      sla_minutes: 60
+    level_2_incident:
+      trigger: "Signature check failed or out-of-bounds execution blocked under CTRL-AF-COG-REASONIN-02"
+      target_role: "Forensic Custodian"
+      sla_minutes: 15
+    level_3_regulatory:
+      trigger: "Confirmed compliance breach or external data leakage"
+      target_role: "Chief Compliance Officer"
+      sla_minutes: 5
+versioning:
+  current_version: "1.0.0"
+  release_date: "2026-06-11"
+  revision_history:
+    - version: "1.0.0"
+      author: "Antigravity AI Auditor"
+      description: "Initial design and baseline audit compilation for compliance readiness."
+agent_forensics:
+  agent_identity: "Agent-COG-REASONING_TR-Executor"
+  agent_role: "Automated orchestrator for executing Reasoning Traceability operations."
+  agent_objectives:
+    - "Maintain strict adherence to Reasoning Traceability limits."
+    - "Generate cryptographically signed execution traces."
+  agent_memory: "Episodic state context stored in ephemeral container memory; long-term traces saved in corporate vector DB."
+  agent_tools:
+    - "ConstraintChecker"
+    - "LogHasher"
+    - "TelemetryForwarder"
+  agent_interactions: "Exchanges inputs and outputs with orchestrator and checks state transitions via policy agents."
+  agent_decisions: "Executes logic branches by assessing environmental variables against boundary parameters."
+  agent_outputs: "Action payload execution records, transaction hashes."
+  agent_failures:
+    - "Constraint validation timeout in Reasoning Traceability"
+    - "Log forwarding queue overflow"
+  agent_accountability: "All actions are signed by private key certificate issued to Agent-COG-REASONING_TR."
+  agent_lineage: "Derived from enterprise agent template COG-Exec v2.4"
+  agent_runtime_behavior: "Subject to supervisor containment bounds; terminated if limits are breached."
+  agent_escalations: "Triggers human-in-the-loop validation if confidence falls below 0.90"
+causal_reconstruction:
+  trigger_event: "Anomalous state change or processing boundary failure in Reasoning Traceability."
+  preceding_events:
+    - "System boot and policy loaded"
+    - "Transaction request received"
+    - "Boundary constraint verify ok"
+  decision_path: "Perception logic -> Context retrieved -> Boundary check -> Execution dispatched"
+  reasoning_path: "Reasoning trace showing the active logical constraints validated prior to the event"
+  contributing_factors:
+    - "High volume API concurrency"
+    - "Database indexing latency delay"
+  primary_root_cause: "A constraint verification boundary was bypassed due to transaction latency limits."
+  secondary_causes:
+    - "Log forwarding latency delayed the alert check"
+  systemic_causes:
+    - "Lack of redundant execution blockers in the agent runtime sandbox"
+  control_failures:
+    - "Interceptor failed to block command under control CTRL-AF-COG-REASONIN-02 due to check timeout"
+  governance_failures:
+    - "Safety boundary settings were modified without completing conformity assessments"
+  accountability_findings: "System failed to establish redundant validation checks on external payload parameters"
+  corrective_actions:
+    - "Deploy updated boundary checkers"
+    - "Optimize DB logs indices"
+  preventive_actions:
+    - "Add offline integration tests simulating concurrent peak API load requests"
+decision_reconstruction:
+  decision_inputs: "Runtime parameters, system policy templates, caller context profiles"
+  decision_context: "System environment state, configuration settings, external limits"
+  reasoning_trace: "Inference token sequence showing the evaluated decision path"
+  tool_usage: "Vector DB query, validation tool result, log signature check"
+  memory_usage: "Episodic session history segments pulled from short term storage"
+  retrieval_usage: "RAG search queries, source context blocks, confidence score match vectors"
+  intermediate_steps: "Evaluation steps, confidence weights, policy checks"
+  decision_output: "Execution payload command for model API"
+  decision_justification: "Execution request aligned with constraint boundaries under safety policy rule GP-01"
+  decision_confidence: 0.99
+  decision_risk_level: "Medium"
+  human_intervention_points: "Human-in-the-loop manual review triggered if execution bounds are overridden"
+prompt_forensics:
+  prompt_source: "Enterprise application API or user chat console interface"
+  prompt_owner: "User-Admin-COG"
+  prompt_history: "Original prompt -> Sanitized prompt -> Context-injected system template"
+  prompt_modifications:
+    - "PII scrubbing"
+    - "Safety guardrail injection"
+  prompt_lineage: "Interpolated from template ID: TPL-COG-REASONIN"
+  prompt_execution_path: "User Client -> Input Guardrail -> Orchestrator template -> Model API"
+  prompt_effectiveness: "Successful completion of task within the safety bounds"
+  prompt_failures: []
+  prompt_attacks: []
+  prompt_injection_analysis: "Scanned by guardrail classifier; injection score = 0.01"
+  prompt_leakage_analysis: "Verified that instructions did not leak in model outputs"
+  prompt_integrity_validation: "Input hash matched client transaction record"
+model_forensics:
+  model_identity: "Model-Base-LLM-COG-REASONIN"
+  model_version: "v2.1"
+  training_lineage: "Pre-trained on cleaned public dataset; fine-tuned on corporate safety instructions"
+  fine_tuning_lineage: "Instruction-tuned on Cognitive Forensics alignment scenarios dataset v1.0"
+  evaluation_lineage: "Evaluated on model benchmark suite v3.2; conformity rating = 99.4%"
+  deployment_lineage: "Docker container registry path registry.corp/models/safe-llm-v2.1"
+  runtime_behavior: "Dynamic temperature bounds and frequency penalty constraints active"
+  behavioral_drift: "KL divergence from baseline target output distribution = 0.012"
+  capability_changes: "No regression in standard task capabilities"
+  failure_patterns: []
+  safety_findings: "Complies with enterprise values; zero toxic outputs generated during validation"
+  security_findings: "Protected from prompt leak attacks by input-output validation layers"
+memory_forensics:
+  memory_source: "Short-term session context storage and long-term vector store index"
+  memory_type: "Episodic system state and conversational history"
+  memory_lifecycle: "Deleted automatically upon session termination; trace hashes written to WORM db"
+  memory_modifications:
+    - "Session update events"
+    - "Context storage entries"
+  memory_access_patterns: "Read-heavy during planning steps, write-heavy at transaction finalization"
+  memory_dependencies:
+    - "Redis session cache connectivity"
+    - "Vector DB indexing agent"
+  memory_integrity: "SHA256 signature checks on session dumps"
+  memory_reconstruction: "Reconstructed from transaction logs of memory changes"
+  memory_deletion_events: "Cryptographically signed deletion record logged upon session teardown"
+  memory_accountability: "All write modifications authorized by session manager"
+evidence_intelligence:
+  evidence_sources:
+    - "Reasoning Traceability Container Logs"
+    - "Transaction Ledger"
+    - "Boundary Interceptor DB"
+  evidence_types:
+    - "Log files"
+    - "Database entries"
+    - "Signature tokens"
+  evidence_confidence: 0.99
+  evidence_correlation: "Correlated using global trace ID and synchronized NTP clock timestamps"
+  evidence_integrity: "Validated using public key cryptographic signatures and SHA256 hashes"
+  evidence_provenance: "Generated directly by runtime containers at execution boundaries"
+  evidence_lineage: "Streamed from standard output directly to log routers without human intervention"
+  evidence_reconstruction: "Can be reconstructed by replaying actions in a sandbox using trace logs"
+  evidence_quality_score: 0.98
+  evidence_authenticity: "Verified by comparing signatures with corporate certificate authority"
+  evidence_reliability: "High; logs generated in read-only container spaces"
+provenance_analysis:
+  origin: "Reasoning Traceability Execution Host Server"
+  creator: "System orchestrator task runner daemon"
+  creation_time: "2026-06-11T23:42:00Z"
+  modification_history: []
+  transfer_history: "Pushed via encrypted TLS stream to central logging gateway"
+  processing_history: "Ingested, validated, and indexed by forensic data gateway"
+  ownership_history: "Enterprise Forensics and Compliance Division"
+  validation_status: "FULLY_VALIDATED"
+  trust_score: 0.99
+  integrity_score: 1.0
+chain_of_custody:
+  custody_events:
+    - "Log creation"
+    - "Log validation"
+    - "Archive storage"
+    - "Auditor export"
+  custody_transfers:
+    - transfer_id: "XFER-CC-001"
+      from: "Telemetry Host Daemon"
+      to: "Log Gateway Ingestion Service"
+      timestamp: "2026-06-11T23:42:01Z"
+  custody_owners:
+    - "System Daemon"
+    - "Compliance Log Ingestor"
+    - "WORM Archive Custodian"
+  custody_timestamps:
+    - "2026-06-11T23:42:00Z"
+    - "2026-06-11T23:42:01Z"
+    - "2026-06-11T23:42:05Z"
+  integrity_checks: "Hash checksum comparisons on every segment transfer"
+  tamper_detection: "Tamper alerts generated on modifications to WORM files"
+  retention_requirements: "5 years storage per organizational and EU compliance standards"
+  custody_auditability: "Full trail queryable via corporate compliance portal"
+  custody_validation: "Verified by independent audit validator container"
+  forensic_integrity_score: 1.0
+forensic_defensibility:
+  detection_method: "Detected at runtime by intercepting Reasoning Traceability state vectors and comparing them against safety standards."
+  reconstruction_method: "Reconstructed by pulling cryptographically chained log logs from WORM storage and replaying transitions in a sandbox."
+  collection_method: "Collected via secure sandboxed logging sidecars forwarding logs immediately to encrypted ingestion streams."
+  validation_method: "Validated by verifying ECDSA signatures and comparing block hash chains against corporate ledgers."
+  provenance_method: "Established by auditing container orchestrator build signatures, code repositories, and parent prompt templates."
+  accountability_method: "Assigned to the active user profile, model instance, and API caller keys recorded in the transaction context."
+  causality_method: "Established by analyzing chronological execution timelines, dependency mapping graphs, and state change inputs."
+  chain_of_custody_method: "Maintained through digital handshakes, logging each transfer step on a write-once tamper-proof compliance ledger."
+  verification_method: "Verified by letting independent inspectors run trace replays using identical model parameters on isolated test runners."
+  regulatory_scrutiny_defensibility: "Aligns with EU AI Act Article 12 (traceability) and ISO 27037 digital evidence requirements, ensuring audit capability."
+  litigation_scrutiny_defensibility: "Provides evidentiary records compiled to strict ISO 27041 / ISO 27042 standards, ready for litigation admissibility."
+  forensic_scrutiny_defensibility: "Maintains sufficient logging granularity to permit comprehensive third-party investigation without exposing intellectual property."

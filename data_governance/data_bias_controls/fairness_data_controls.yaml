@@ -1,0 +1,1057 @@
+metadata:
+  document_id: "DG-BIASCTRL-FAIRNESS_DAT-001"
+  title: "Fairness Data Controls"
+  domain: "Data Bias Controls"
+  version: "1.0.0"
+  classification: "RESTRICTED"
+purpose: "Define the data governance, lineage tracking, and provenance orchestration skill for Fairness Data Controls under the Data Bias Controls domain. This framework governs data quality, sovereignty, and integrity by enforcing bias mitigation, sample reweighting, demographic filtering, fairness controls, bias threshold enforcement validation parameters."
+scope: "Scope covers all enterprise systems, multi-agent frameworks, tool integrations, and data processing pipelines governed by Fairness Data Controls data governance operations."
+objectives:
+  - "Ensure high quality, completeness, and accuracy of Fairness Data Controls datasets."
+  - "Automate lineage tracking and provenance validation for Fairness Data Controls pipelines."
+  - "Generate verifiable evidence records and audit trails for regulatory compliance."
+definitions:
+  fairness_data_controls_policy: "The primary data governance policy definition for Fairness Data Controls within AI Data Governance."
+  data_governance_orchestrator: "The process engine responsible for synchronizing data quality and lineage validation controls."
+taxonomy:
+  data_classification_tiers:
+    - "TIER_BIASCTRL_CONFIDENTIAL"
+    - "TIER_BIASCTRL_RESTRICTED"
+    - "TIER_BIASCTRL_PUBLIC"
+  accountability_roles:
+    - "CHIEF_GOVERNANCE_OFFICER"
+    - "DATA_STEWARD"
+    - "DATA_VALIDATOR"
+governance:
+  governance_model: "CENTRALIZED_COORDINATED"
+  governance_structure: "Enterprise Data Governance Council - Data Bias Controls"
+  governance_authorities:
+    - "Chief Data Officer"
+    - "Data Protection Officer"
+  governance_committees:
+    - "Data Bias Controls Data Panel"
+  governance_ownership: "Lead Data Architect"
+  governance_accountabilities: "Accountable for data lineage integrity and compliance audits"
+governance_model:
+  model_type: "CENTRALIZED_COORDINATED"
+  model_rationale: "Ensures uniform application of data governance policies and rapid metadata containment for Fairness Data Controls across operational domains."
+governance_structure:
+  oversight_board: "Enterprise AI Data Governance Governance Council - Data Bias Controls"
+  escalation_contact: "cdo-escalation@enterprise.ai"
+roles_and_responsibilities:
+  data_architect: "Designs and reviews data schemas and lineage mapping for Fairness Data Controls."
+  data_steward: "Reviews weekly validation records and checks data quality metrics for Fairness Data Controls."
+  compliance_auditor: "Validates custody chains, checks data retention policies, and exports audit records."
+stakeholders:
+  - "Chief Data Officer"
+  - "Chief Risk Officer"
+  - "Lead Data Engineer"
+  - "Data Bias Controls Domain Lead"
+capabilities:
+  - "Real-time lineage mapping and metadata tracking for Fairness Data Controls."
+  - "Automated data quality checks and demographic parity audits."
+  - "Cross-domain synchronization of data governance policies."
+requirements:
+  - "All datasets under Fairness Data Controls must define schemas and validation thresholds."
+  - "Lineage tracking must capture all transform steps from ingestion to inference."
+  - "Provenance logs must be archived in an immutable, tamper-resistant datastore."
+controls:
+  - control_id: "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    control_name: "fairness_data_controls_data_quality_enforcement"
+    control_type: "PREVENTATIVE"
+    control_category: "QUALITY"
+    control_objective: "Enforce automated quality and completeness checks on all data ingested by Fairness Data Controls."
+    governance_rationale: "High-risk AI systems must ingest high quality and complete datasets to prevent model drift and safety hazards."
+    implementation_guidance: "Deploy validation scripts that compare schema metrics and flag missing attributes before ingestion."
+    control_owner: "Lead Data Quality Engineer"
+    control_frequency: "TRANSACTION_BASED"
+    monitoring_method: "Monitor data quality dashboards and validation exception alerts."
+    validation_method: "Inject corrupted or incomplete records and verify that ingestion is blocked."
+    evidence_generated: "Signed data validation records stored in the compliance registry."
+    escalation_conditions: "Validation check failure or schema mismatch latency > 5s."
+    audit_considerations: "Review ingestion filter rules and validation test datasets."
+  - control_id: "CTRL-DATA-BIASCTRL-FAIRNESS-02"
+    control_name: "fairness_data_controls_lineage_tracking_verification"
+    control_type: "DETECTIVE"
+    control_category: "LINEAGE"
+    control_objective: "Verify end-to-end data lineage metadata completeness for Fairness Data Controls models."
+    governance_rationale: "Lineage completeness is required for post-market monitoring and audit reconstruction."
+    implementation_guidance: "Implement background validator daemons that compare processed data counts with lineage records."
+    control_owner: "Lead Data Steward"
+    control_frequency: "CONTINUOUS"
+    monitoring_method: "Compare active lineage chains with reference path configurations daily."
+    validation_method: "Perform randomized trace verification checks on metadata records."
+    evidence_generated: "Signed daily lineage validation reports and drift alerts."
+    escalation_conditions: "Detected missing lineage step or database connection error."
+    audit_considerations: "Assess lineage collection agents and repository settings."
+decision_logic:
+  escalation_trigger: "If data_quality_score drops below thresholds, execute remediation workflows."
+  quarantine_rule: "If lineage tracking metadata is missing, quarantine system output and notify steward."
+processes:
+  lineage_verification: "Process to verify lineage metadata completeness for Fairness Data Controls."
+  data_erasure: "Compliance process to erase customer records from database and backup vaults."
+workflows:
+  - workflow_id: "security_assessment_workflow"
+    workflow_owner: "Lead Data Auditor"
+    workflow_objective: "Assess the data security and privacy posture of Fairness Data Controls datasets."
+    trigger: "Scheduled quarterly audit window or change in schema configuration."
+    inputs:
+      - "dataset_metadata_profile"
+      - "historical_access_logs"
+    activities:
+      - "Scan data repositories for unencrypted personal data fields."
+      - "Review active user access permissions and token lifetimes."
+      - "Verify database connection firewall rule configurations."
+    decision_points:
+      - "Personal data exposure check"
+    approvals:
+      - "Data Director Sign-off"
+    outputs:
+      - "Security assessment report"
+      - "Updated risk tickets"
+    generated_evidence: "Signed Security Assessment Report and database scanning records."
+    success_criteria: "All sensitive datasets comply with data encryption standards."
+    failure_conditions: "Database scanning service is unreachable, or required configs are missing."
+  - workflow_id: "threat_detection_workflow"
+    workflow_owner: "Lead Security Analyst"
+    workflow_objective: "Detect and triage threat events attempting data poisoning of Fairness Data Controls."
+    trigger: "SIEM anomaly alerts or validation exception spikes."
+    inputs:
+      - "siem_events_feed"
+      - "historical_quality_baselines"
+    activities:
+      - "Scan ingested data batches for statistical bias deviations."
+      - "Check transaction metadata signatures against authorized keys database."
+      - "Confirm if alert represents a real attack or benign anomaly."
+    decision_points:
+      - "Attack severity classification"
+    approvals:
+      - "SOC Manager Approval"
+    outputs:
+      - "Threat incident ticket"
+      - "Ingestion containment command"
+    generated_evidence: "Triage report and SIEM log archives."
+    success_criteria: "Threat is triaged and containment workflow triggered within 5 minutes."
+    failure_conditions: "Trace data corrupt or missing process credentials."
+  - workflow_id: "incident_response_workflow"
+    workflow_owner: "Data Incident Commander"
+    workflow_objective: "Contain, mitigate, and resolve data incidents targeting Fairness Data Controls."
+    trigger: "Threat incident ticket creation or validation control failure alert."
+    inputs:
+      - "incident_details"
+      - "recovery_procedures"
+    activities:
+      - "Isolate compromised database servers and revoke access keys."
+      - "Restore databases from verified daily backups."
+      - "Verify that system performance metrics return to baseline parameters."
+    decision_points:
+      - "System containment status check"
+      - "Production recovery sign-off"
+    approvals:
+      - "CISO approval for containment"
+      - "Resilience Director for recovery approval"
+    outputs:
+      - "Incident resolution summary"
+      - "Post-incident forensic analysis report"
+    generated_evidence: "Signed Containment and Recovery Attestation document."
+    success_criteria: "System is successfully contained and restored within SLA limits."
+    failure_conditions: "Backup images are corrupted or fail to deploy within RTO limits."
+  - workflow_id: "security_validation_workflow"
+    workflow_owner: "Lead Validation Engineer"
+    workflow_objective: "Validate the effectiveness of data protection controls deployed for Fairness Data Controls."
+    trigger: "Scheduled weekly validation window or policy update."
+    inputs:
+      - "control_configurations"
+      - "adversarial_simulation_playbooks"
+    activities:
+      - "Run automated tests simulating unauthorized write attempts."
+      - "Verify signature validation rules on running metrics files."
+      - "Confirm that alerting dashboards update in real-time."
+    decision_points:
+      - "Control verification check"
+    approvals:
+      - "Assurance Manager Approval"
+    outputs:
+      - "Control validation report"
+      - "Updated control scores"
+    generated_evidence: "Signed Weekly Control Validation report and simulation log hashes."
+    success_criteria: "All validation tests confirm that controls are 100% operational."
+    failure_conditions: "Validation scripts are blocked or target servers return timeout faults."
+  - workflow_id: "security_assurance_workflow"
+    workflow_owner: "Director of Assurance"
+    workflow_objective: "Provide independent assurance that Fairness Data Controls operations meet data protection rules."
+    trigger: "Quarterly board meeting preparation or external audit announcement."
+    inputs:
+      - "weekly_validation_records"
+      - "evidence_vault_hashes"
+    activities:
+      - "Verify evidence authenticity via ledger hash comparison."
+      - "Perform crosswalk validation against framework standards (GDPR, DAMA-DMBOK)."
+      - "Generate executive data assurance report and dashboards."
+    decision_points:
+      - "Assurance confidence assessment"
+      - "Material deficiency discovery"
+    approvals:
+      - "Assurance Committee approval"
+      - "External Auditor validation review"
+    outputs:
+      - "Executive data assurance report"
+      - "Framework compliance certificate update"
+    generated_evidence: "Signed Executive Data Assurance Attestation and framework alignment matrix."
+    success_criteria: "Confidence scores exceed target requirements and zero material gaps are identified."
+    failure_conditions: "Evidence chain is missing signature records or shows evidence gaps."
+  - workflow_id: "vulnerability_management_workflow"
+    workflow_owner: "Vulnerability Architect"
+    workflow_objective: "Manage and patch vulnerabilities discovered in Fairness Data Controls software packages."
+    trigger: "New CVE publication or static scanner alert."
+    inputs:
+      - "cve_details"
+      - "active_software_bom"
+    activities:
+      - "Verify if system components are impacted by the published CVE."
+      - "Test patched dependency packages in the staging environment."
+      - "Deploy patched dependencies to production servers."
+    decision_points:
+      - "CVE patch viability check"
+    approvals:
+      - "Product Owner Approval"
+    outputs:
+      - "Patch deployment schedule"
+      - "Updated software BOM"
+    generated_evidence: "Patch validation report and pipeline build logs."
+    success_criteria: "Vulnerability is remediated or mitigated within SLA deadlines."
+    failure_conditions: "Dependency updates break staging system integration."
+  - workflow_id: "runtime_monitoring_workflow"
+    workflow_owner: "Security Operations Lead"
+    workflow_objective: "Monitor the runtime telemetry streams of Fairness Data Controls systems to detect operational threats."
+    trigger: "Continuous execution stream."
+    inputs:
+      - "live_security_telemetry_feed"
+      - "anomaly_detection_models"
+    activities:
+      - "Aggregate security metrics and trace logs."
+      - "Evaluate statistical deviations from baseline safety profiles."
+      - "Send notifications for warnings or alerts."
+    decision_points:
+      - "Security anomaly severity classification"
+    approvals:
+      - "None - Automated execution"
+    outputs:
+      - "Real-time security alerts"
+      - "Security score updates"
+    generated_evidence: "Raw metric archives and security alert notifications."
+    success_criteria: "System metrics remain within normal variance boundaries."
+    failure_conditions: "Telemetry stream goes offline or registers values outside absolute critical bounds."
+  - workflow_id: "attack_escalation_workflow"
+    workflow_owner: "Security Manager"
+    workflow_objective: "Manage and escalate high severity attacks targetting Fairness Data Controls systems."
+    trigger: "Incident triage classification of HIGH or CRITICAL severity threat."
+    inputs:
+      - "incident_triage_details"
+      - "escalation_matrix"
+    activities:
+      - "Notify CISO, CRO, and external regulatory contacts."
+      - "Convene the incident response panel."
+      - "Activate failover systems and transfer traffic."
+    decision_points:
+      - "Regulatory reporting requirement check"
+    approvals:
+      - "CISO approval for regulatory notification"
+    outputs:
+      - "Regulatory alert document"
+      - "Panel notification records"
+    generated_evidence: "Signed Escalation Action Record and regulatory notification emails."
+    success_criteria: "Incident is escalated and notification sent within 30 minutes of triage."
+    failure_conditions: "Fail to reach designated responders or missing regulatory contact information."
+data_governance_framework:
+  governance_model: "CENTRALIZED_COORDINATED"
+  governance_principles:
+    - "Accuracy and Fairness"
+    - "Lineage Traceability"
+    - "Sovereignty and Privacy"
+  governance_authorities:
+    - "Chief Data Officer"
+    - "Data Ethics Board"
+  governance_decisions:
+    - "Approve model training data fine-tuning"
+    - "Approve cross-border transfer rules"
+  governance_controls:
+    - "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    - "CTRL-DATA-BIASCTRL-FAIRNESS-02"
+  governance_ownership: "Lead Data Architect"
+  governance_accountability: "Accountable for data lineage integrity and compliance audits"
+  governance_reviews:
+    - "Monthly data quality checks"
+    - "Annual standards alignment check"
+  governance_assurance: "Independent quarterly audits of the validation rules"
+data_quality_framework:
+  quality_dimensions:
+    - "Completeness"
+    - "Accuracy"
+    - "Consistency"
+    - "Validity"
+    - "Timeliness"
+    - "Uniqueness"
+  completeness_controls:
+    - "Mandatory attribute checks before ingestion"
+  accuracy_controls:
+    - "Format check and regex validation on fields"
+  consistency_controls:
+    - "Relational constraint checks against master registers"
+  validity_controls:
+    - "Verify data keys against baseline schema definitions"
+  timeliness_controls:
+    - "Block records older than 24 hours from fine-tuning"
+  uniqueness_controls:
+    - "Primary key validations and duplicate record pruning"
+  quality_monitoring: "Real-time tracking of ingestion errors and mismatch rates"
+  quality_validation: "Execute daily batch checks on sample records"
+  quality_assurance: "Audit metrics logs quarterly to check compliance trends"
+data_lineage_framework:
+  source_lineage: "Record raw origin data location paths for Fairness Data Controls."
+  transformation_lineage: "Log processing pipeline transform commands and version parameters."
+  processing_lineage: "Record cleanup and filtering operations details."
+  training_lineage: "Map final instruction tuning sets to training run identifiers."
+  inference_lineage: "Log prompt queries and retrieved dataset chunk versions."
+  lineage_tracking: "Automated capture of metadata properties at process checkpoints"
+  lineage_validation: "Audit processed transaction counts against metadata logs daily"
+  lineage_assurance: "Compare database histories with backup vaults metadata weekly"
+data_provenance_framework:
+  origin_tracking: "Verify data origin cryptographically using source signature keys for Fairness Data Controls."
+  ownership_tracking: "Record dataset license agreements and owner contact info."
+  custody_tracking: "Track data custody handoffs between internal and external handlers."
+  modification_tracking: "Log edits, additions, and deletions with developer digital signature proofs."
+  transfer_tracking: "Register data replication requests and localization parameters."
+  provenance_validation: "Check key signatures against central authority directories"
+  provenance_assurance: "Independent check of custody records completeness weekly"
+  provenance_auditability: "Immutable ledger entries for all provenance adjustments"
+data_lifecycle_framework:
+  collection: "Capture raw events under approved collection guidelines for Fairness Data Controls."
+  acquisition: "Validate license terms and consent flags before record acquisition."
+  ingestion: "Filter out incomplete records and verify cryptographic signatures."
+  processing: "Perform bias scrubbing and toxic query filtering."
+  transformation: "Apply vector tokenization and indexing processes."
+  storage: "Save data in encrypted databases with restricted access."
+  sharing: "Apply row-level filtering and access controls before external transfers."
+  retention: "Enforce maximum 1-year retention rules on user queries."
+  archival: "Move inactive records to encrypted cold storage vaults."
+  disposal: "Permanently erase and overwrite expired files with zero recovery path."
+  lifecycle_controls:
+    - "Enforce automated file deletion on retention timeout rules"
+  lifecycle_assurance: "Audit file cleanup logs against board policy requirements monthly"
+data_assurance_framework:
+  assurance_objectives:
+    - "Ensure Fairness Data Controls data is verified compliant with ISO 42001"
+  assurance_controls:
+    - "Automated configuration reviews"
+    - "Continuous check processes"
+  assurance_evidence: "Signed reports archived in compliance vaults"
+  assurance_validation: "Recalculate running hashes against master ledger key hashes"
+  assurance_monitoring: "Continuous verification of active database checkpoints"
+  assurance_reporting: "Monthly data compliance dashboard reports"
+  assurance_attestation: "Annual attestation review signed off by CCO"
+data_risk_framework:
+  risk_methodology: "ISO 23894 Risk Assessment Model"
+  risk_assessment: "Assess risks associated with data quality, lineage, and privacy for Fairness Data Controls."
+  risk_mitigation: "Deploy automated validation scripts and role-based permissions gates."
+  risk_monitoring: "Ingest telemetry streams and track anomaly rate metrics."
+  risk_reporting: "Monthly risk register updates published to executive dashboard."
+data_sovereignty_framework:
+  jurisdiction_requirements:
+    - "Enforce GDPR data residency rules for EU user datasets"
+  residency_requirements:
+    - "Store database indexes strictly within designated local cloud regions"
+  transfer_requirements:
+    - "Cross-border data transfers require explicit CCO authorization signatures"
+  localization_controls:
+    - "Block backend server route transitions accessing out-of-region instances"
+  sovereignty_assurance: "Quarterly third-party audit of server routing registries"
+  sovereignty_monitoring: "Continuous tracing of IP routes accessing database endpoints"
+monitoring_framework:
+  monitoring_scope: "Continuous monitoring of all critical compute and database assets."
+  alert_thresholds: "Trigger alert if error rate exceeds 5% in 1 minute."
+validation_framework:
+  validation_requirements:
+    - "Verify backup file hashes daily"
+    - "Confirm RTO checks pass weekly"
+  validation_methods:
+    - "Automated container crash simulation"
+    - "Cryptographic key checks"
+  validation_evidence: "Signed test results database entry"
+  validation_authority: "Lead Validation Engineer"
+  validation_frequency: "Continuous and weekly runs"
+  validation_outcomes: "System metric dashboard updates"
+evidence_intelligence:
+  evidence_sources:
+    - "lineage_validation_vault"
+    - "independent_audit_db"
+  evidence_types:
+    - "Signed validation reports"
+    - "Hash register logs"
+  evidence_integrity: "Cryptographic hashes stored in public ledgers"
+  evidence_provenance: "Generated directly by system daemon processes"
+  evidence_lineage: "Traced back to raw telemetry records"
+  evidence_confidence: 0.98
+  evidence_validation: "Signature check validating authority key signatures"
+  evidence_retention: "5 years in compliant archives"
+telemetry:
+  telemetry_sources:
+    - "data_metrics_db"
+    - "process_tracing_engine"
+  collection_frequency: "Continuous"
+  telemetry_retention: "30 days in data vault"
+  telemetry_integrity: "Cryptographic sealing of log records"
+  telemetry_validation: "Hash verification checks"
+data_telemetry:
+  data_access_events: "Record all read queries and access token hashes."
+  data_modification_events: "Track insertions, updates, and deletions with signer keys."
+  data_transfer_events: "Log data replication streams across regions."
+  lineage_events: "Log metadata extraction at process pipeline checkpoints."
+  provenance_events: "Log data custody handoffs and signature check status."
+  validation_events: "Log batch check outcomes and threshold exceptions."
+  quality_events: "Track completeness rates and format error frequencies."
+  retention_events: "Log archive transfers and record erasure completions."
+  disposal_events: "Record permanent file deletion completions."
+  governance_alerts: "High priority SIEM alerts sent to data steward."
+  governance_indicators: "Check validation timeouts and schema anomalies."
+metrics:
+  - metric_name: "fairness_data_controls_data_quality_score"
+    formula: "COUNT(valid_records) / COUNT(total_records)"
+    target: ">= 0.99"
+    warning_threshold: "target - 0.05"
+    critical_threshold: "target - 0.10"
+    measurement_frequency: "CONTINUOUS"
+    owner: "Lead Data Steward"
+    data_source: "central_data_telemetry_db"
+    evidence_generated: "fairness_data_controls_data_quality_score_metric_trend_log"
+  - metric_name: "fairness_data_controls_lineage_completeness_score"
+    formula: "COUNT(logged_lineage_steps) / COUNT(total_lineage_steps)"
+    target: ">= 1.00"
+    warning_threshold: "target - 0.05"
+    critical_threshold: "target - 0.10"
+    measurement_frequency: "CONTINUOUS"
+    owner: "Lead Data Steward"
+    data_source: "central_data_telemetry_db"
+    evidence_generated: "fairness_data_controls_lineage_completeness_score_metric_trend_log"
+  - metric_name: "fairness_data_controls_provenance_integrity_score"
+    formula: "COUNT(verified_provenance_records) / COUNT(total_records)"
+    target: ">= 1.00"
+    warning_threshold: "target - 0.05"
+    critical_threshold: "target - 0.10"
+    measurement_frequency: "CONTINUOUS"
+    owner: "Lead Data Steward"
+    data_source: "central_data_telemetry_db"
+    evidence_generated: "fairness_data_controls_provenance_integrity_score_metric_trend_log"
+  - metric_name: "fairness_data_controls_dataset_assurance_score"
+    formula: "MIN(dataset_assurance_checks_status)"
+    target: ">= 0.95"
+    warning_threshold: "target - 0.05"
+    critical_threshold: "target - 0.10"
+    measurement_frequency: "CONTINUOUS"
+    owner: "Lead Data Steward"
+    data_source: "central_data_telemetry_db"
+    evidence_generated: "fairness_data_controls_dataset_assurance_score_metric_trend_log"
+  - metric_name: "fairness_data_controls_metadata_quality_score"
+    formula: "COUNT(complete_metadata_records) / COUNT(total_records)"
+    target: ">= 0.98"
+    warning_threshold: "target - 0.05"
+    critical_threshold: "target - 0.10"
+    measurement_frequency: "CONTINUOUS"
+    owner: "Lead Data Steward"
+    data_source: "central_data_telemetry_db"
+    evidence_generated: "fairness_data_controls_metadata_quality_score_metric_trend_log"
+  - metric_name: "fairness_data_controls_data_governance_maturity_score"
+    formula: "data_governance_maturity_level / 6.0"
+    target: ">= 0.66"
+    warning_threshold: "target - 0.05"
+    critical_threshold: "target - 0.10"
+    measurement_frequency: "CONTINUOUS"
+    owner: "Lead Data Steward"
+    data_source: "central_data_telemetry_db"
+    evidence_generated: "fairness_data_controls_data_governance_maturity_score_metric_trend_log"
+  - metric_name: "fairness_data_controls_training_data_quality_score"
+    formula: "COUNT(scrubbed_training_records) / COUNT(total_training_records)"
+    target: ">= 0.99"
+    warning_threshold: "target - 0.05"
+    critical_threshold: "target - 0.10"
+    measurement_frequency: "CONTINUOUS"
+    owner: "Lead Data Steward"
+    data_source: "central_data_telemetry_db"
+    evidence_generated: "fairness_data_controls_training_data_quality_score_metric_trend_log"
+  - metric_name: "fairness_data_controls_data_sovereignty_compliance_score"
+    formula: "COUNT(compliant_residency_records) / COUNT(total_records)"
+    target: ">= 1.00"
+    warning_threshold: "target - 0.05"
+    critical_threshold: "target - 0.10"
+    measurement_frequency: "CONTINUOUS"
+    owner: "Lead Data Steward"
+    data_source: "central_data_telemetry_db"
+    evidence_generated: "fairness_data_controls_data_sovereignty_compliance_score_metric_trend_log"
+  - metric_name: "fairness_data_controls_retention_compliance_score"
+    formula: "1 - (expired_unpurged_records / total_records)"
+    target: ">= 1.00"
+    warning_threshold: "target - 0.05"
+    critical_threshold: "target - 0.10"
+    measurement_frequency: "CONTINUOUS"
+    owner: "Lead Data Steward"
+    data_source: "central_data_telemetry_db"
+    evidence_generated: "fairness_data_controls_retention_compliance_score_metric_trend_log"
+  - metric_name: "fairness_data_controls_data_traceability_score"
+    formula: "COUNT(traceable_data_points) / COUNT(total_data_points)"
+    target: ">= 1.00"
+    warning_threshold: "target - 0.05"
+    critical_threshold: "target - 0.10"
+    measurement_frequency: "CONTINUOUS"
+    owner: "Lead Data Steward"
+    data_source: "central_data_telemetry_db"
+    evidence_generated: "fairness_data_controls_data_traceability_score_metric_trend_log"
+kpis:
+  - "Fairness Data Controls overall quality index target >= 0.99"
+  - "Lineage tracking completeness >= 100%"
+  - "Sovereignty and residency compliance >= 100%"
+kris:
+  - "Number of unverified data origins in Fairness Data Controls pipelines"
+  - "Data quality check failure rate spikes"
+  - "Telemetry pipeline latency spikes"
+thresholds:
+  critical_quality_score: 0.9
+  warning_quality_score: 0.95
+  lineage_verification_max_latency_seconds: 10
+relationships:
+  dataset_links:
+    - source: "urn:enterprise:resilience:fairness_data_controls"
+      target: "urn:enterprise:compliance:dataset"
+      relationship_type: "MONITORS_AND_ASSURES"
+      confidence: 0.95
+      evidence: "Registered mapping configuration under standard ISO-42001-DATA-BIASCTRL-STD."
+  lineage_links:
+    - source: "urn:enterprise:resilience:fairness_data_controls"
+      target: "urn:enterprise:compliance:lineage"
+      relationship_type: "MONITORS_AND_ASSURES"
+      confidence: 0.95
+      evidence: "Registered mapping configuration under standard ISO-42001-DATA-BIASCTRL-STD."
+  provenance_links:
+    - source: "urn:enterprise:resilience:fairness_data_controls"
+      target: "urn:enterprise:compliance:provenance"
+      relationship_type: "MONITORS_AND_ASSURES"
+      confidence: 0.95
+      evidence: "Registered mapping configuration under standard ISO-42001-DATA-BIASCTRL-STD."
+  ownership_links:
+    - source: "urn:enterprise:resilience:fairness_data_controls"
+      target: "urn:enterprise:compliance:ownership"
+      relationship_type: "MONITORS_AND_ASSURES"
+      confidence: 0.95
+      evidence: "Registered mapping configuration under standard ISO-42001-DATA-BIASCTRL-STD."
+  governance_links:
+    - source: "urn:enterprise:resilience:fairness_data_controls"
+      target: "urn:enterprise:compliance:governance"
+      relationship_type: "MONITORS_AND_ASSURES"
+      confidence: 0.95
+      evidence: "Registered mapping configuration under standard ISO-42001-DATA-BIASCTRL-STD."
+  control_links:
+    - source: "urn:enterprise:resilience:fairness_data_controls"
+      target: "urn:enterprise:compliance:control"
+      relationship_type: "MONITORS_AND_ASSURES"
+      confidence: 0.95
+      evidence: "Registered mapping configuration under standard ISO-42001-DATA-BIASCTRL-STD."
+  risk_links:
+    - source: "urn:enterprise:resilience:fairness_data_controls"
+      target: "urn:enterprise:compliance:risk"
+      relationship_type: "MONITORS_AND_ASSURES"
+      confidence: 0.95
+      evidence: "Registered mapping configuration under standard ISO-42001-DATA-BIASCTRL-STD."
+  evidence_links:
+    - source: "urn:enterprise:resilience:fairness_data_controls"
+      target: "urn:enterprise:compliance:evidence"
+      relationship_type: "MONITORS_AND_ASSURES"
+      confidence: 0.95
+      evidence: "Registered mapping configuration under standard ISO-42001-DATA-BIASCTRL-STD."
+  workflow_links:
+    - source: "urn:enterprise:resilience:fairness_data_controls"
+      target: "urn:enterprise:compliance:workflow"
+      relationship_type: "MONITORS_AND_ASSURES"
+      confidence: 0.95
+      evidence: "Registered mapping configuration under standard ISO-42001-DATA-BIASCTRL-STD."
+  compliance_links:
+    - source: "urn:enterprise:resilience:fairness_data_controls"
+      target: "urn:enterprise:compliance:compliance"
+      relationship_type: "MONITORS_AND_ASSURES"
+      confidence: 0.95
+      evidence: "Registered mapping configuration under standard ISO-42001-DATA-BIASCTRL-STD."
+crosswalks:
+  eu_ai_act:
+    framework: "eu_ai_act"
+    control_mapping: "Map controls to EU AI Act compliance guidelines for Fairness Data Controls."
+    security_mapping: "Enforce model robustness and fail-safes."
+    accountability_mapping: "Assign roles for post-market monitoring."
+    evidence_mapping: "Log incident data in compliance databases."
+    validation_mapping: "Validate model parameters under adversarial runs."
+  gpai_obligations:
+    framework: "gpai_obligations"
+    control_mapping: "Verify base model capabilities checks."
+    security_mapping: "Establish model capability verification tests."
+    accountability_mapping: "AI system owner signs off risk map."
+    evidence_mapping: "Log dataset mitigation check logs."
+    validation_mapping: "Validate base model capability metrics."
+  gdpr:
+    framework: "gdpr"
+    control_mapping: "Enforce personal data privacy controls."
+    security_mapping: "Secure databases and restrict access."
+    accountability_mapping: "DPO reviews data processing tasks."
+    evidence_mapping: "Log user access and processing consents."
+    validation_mapping: "Audit data protection impact reports."
+  data_governance_act:
+    framework: "data_governance_act"
+    control_mapping: "Align sharing models with EU rules."
+    security_mapping: "Implement secure shared access controls."
+    accountability_mapping: "Legal counsel reviews sharing models."
+    evidence_mapping: "Log active data share agreements."
+    validation_mapping: "Audit data share compliance levels."
+  data_act:
+    framework: "data_act"
+    control_mapping: "Enforce customer data access rights."
+    security_mapping: "Deploy user query verification checks."
+    accountability_mapping: "Product Owner signs off access tools."
+    evidence_mapping: "Log user access trace records."
+    validation_mapping: "Verify data access timing performance."
+  iso_42001:
+    framework: "iso_42001"
+    control_mapping: "Establish operational governance guidelines."
+    security_mapping: "Define security constraints for AI applications."
+    accountability_mapping: "Assign AI management board roles."
+    evidence_mapping: "Document model verification and test results."
+    validation_mapping: "Audit AI management system outcomes."
+  iso_23894:
+    framework: "iso_23894"
+    control_mapping: "Align risk assessment rules with ISO 31000 rules."
+    security_mapping: "Assess risk of model output errors."
+    accountability_mapping: "Risk officer signs off on risk assessments."
+    evidence_mapping: "Log active risks in risk registers."
+    validation_mapping: "Audit risk mitigation plan outcomes."
+  iso_27001:
+    framework: "iso_27001"
+    control_mapping: "Deploy ISMS security control policies."
+    security_mapping: "Secure information assets from access."
+    accountability_mapping: "Security owner manages ISMS audits."
+    evidence_mapping: "Log access checks and firewall events."
+    validation_mapping: "Audit ISMS control operations annually."
+  iso_27701:
+    framework: "iso_27701"
+    control_mapping: "Enforce PII processor privacy controls."
+    security_mapping: "Secure personal data databases."
+    accountability_mapping: "DPO reviews data handler logs."
+    evidence_mapping: "Log user queries and consents."
+    validation_mapping: "Validate personal data databases weekly."
+  nist_ai_rmf:
+    framework: "nist_ai_rmf"
+    control_mapping: "Align with Govern-Map-Measure-Manage functions."
+    security_mapping: "Mitigate security risks of model deployment."
+    accountability_mapping: "AI system owner signs off risk map."
+    evidence_mapping: "Log mitigation control validation files."
+    validation_mapping: "Audit AI safety metric trends."
+  oecd_ai:
+    framework: "oecd_ai"
+    control_mapping: "Align data access models with AI principles."
+    security_mapping: "Enforce model robustness and safety bounds."
+    accountability_mapping: "AI Officer checks safety guidelines."
+    evidence_mapping: "Log model capability evaluations."
+    validation_mapping: "Audit safety metrics trends."
+  unesco_ai:
+    framework: "unesco_ai"
+    control_mapping: "Align model capabilities with ethics guidelines."
+    security_mapping: "Enforce output safety bounds."
+    accountability_mapping: "Ethics board reviews model templates."
+    evidence_mapping: "Log ethics review decisions."
+    validation_mapping: "Validate safety metrics weekly."
+  dama_dmbok:
+    framework: "dama_dmbok"
+    control_mapping: "Establish DAMA data management controls."
+    security_mapping: "Enforce schema validations."
+    accountability_mapping: "Data Steward manages data assets."
+    evidence_mapping: "Log data quality metrics checks."
+    validation_mapping: "Validate lineage metadata pipelines."
+  fair_data_principles:
+    framework: "fair_data_principles"
+    control_mapping: "Enforce Findable, Accessible, Interoperable, Reusable rules."
+    security_mapping: "Secure data search API endpoints."
+    accountability_mapping: "Data steward audits dataset metadata."
+    evidence_mapping: "Log dataset discovery schema updates."
+    validation_mapping: "Validate metadata compatibility parameters."
+compliance_mapping:
+  - article: "Article 10"
+    obligation: "Ensure full data quality and lineage management under Article 10 guidelines for Fairness Data Controls."
+    implementation_method: "Deploy data validation checks and trace lineage metadata checkpoints."
+    governance_control: "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    required_evidence: "Cryptographically signed validation logs stored in the compliance vault."
+    validation_method: "Verify data quality metrics and running hashes against reference registers."
+    assurance_method: "Independent quarterly audits of the validation rules and telemetry data."
+  - article: "Article 13"
+    obligation: "Ensure full data quality and lineage management under Article 13 guidelines for Fairness Data Controls."
+    implementation_method: "Deploy data validation checks and trace lineage metadata checkpoints."
+    governance_control: "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    required_evidence: "Cryptographically signed validation logs stored in the compliance vault."
+    validation_method: "Verify data quality metrics and running hashes against reference registers."
+    assurance_method: "Independent quarterly audits of the validation rules and telemetry data."
+  - article: "Article 14"
+    obligation: "Ensure full data quality and lineage management under Article 14 guidelines for Fairness Data Controls."
+    implementation_method: "Deploy data validation checks and trace lineage metadata checkpoints."
+    governance_control: "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    required_evidence: "Cryptographically signed validation logs stored in the compliance vault."
+    validation_method: "Verify data quality metrics and running hashes against reference registers."
+    assurance_method: "Independent quarterly audits of the validation rules and telemetry data."
+  - article: "Article 15"
+    obligation: "Ensure full data quality and lineage management under Article 15 guidelines for Fairness Data Controls."
+    implementation_method: "Deploy data validation checks and trace lineage metadata checkpoints."
+    governance_control: "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    required_evidence: "Cryptographically signed validation logs stored in the compliance vault."
+    validation_method: "Verify data quality metrics and running hashes against reference registers."
+    assurance_method: "Independent quarterly audits of the validation rules and telemetry data."
+  - article: "Article 16"
+    obligation: "Ensure full data quality and lineage management under Article 16 guidelines for Fairness Data Controls."
+    implementation_method: "Deploy data validation checks and trace lineage metadata checkpoints."
+    governance_control: "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    required_evidence: "Cryptographically signed validation logs stored in the compliance vault."
+    validation_method: "Verify data quality metrics and running hashes against reference registers."
+    assurance_method: "Independent quarterly audits of the validation rules and telemetry data."
+  - article: "Article 17"
+    obligation: "Ensure full data quality and lineage management under Article 17 guidelines for Fairness Data Controls."
+    implementation_method: "Deploy data validation checks and trace lineage metadata checkpoints."
+    governance_control: "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    required_evidence: "Cryptographically signed validation logs stored in the compliance vault."
+    validation_method: "Verify data quality metrics and running hashes against reference registers."
+    assurance_method: "Independent quarterly audits of the validation rules and telemetry data."
+  - article: "Article 26"
+    obligation: "Ensure full data quality and lineage management under Article 26 guidelines for Fairness Data Controls."
+    implementation_method: "Deploy data validation checks and trace lineage metadata checkpoints."
+    governance_control: "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    required_evidence: "Cryptographically signed validation logs stored in the compliance vault."
+    validation_method: "Verify data quality metrics and running hashes against reference registers."
+    assurance_method: "Independent quarterly audits of the validation rules and telemetry data."
+  - article: "Article 50"
+    obligation: "Ensure full data quality and lineage management under Article 50 guidelines for Fairness Data Controls."
+    implementation_method: "Deploy data validation checks and trace lineage metadata checkpoints."
+    governance_control: "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    required_evidence: "Cryptographically signed validation logs stored in the compliance vault."
+    validation_method: "Verify data quality metrics and running hashes against reference registers."
+    assurance_method: "Independent quarterly audits of the validation rules and telemetry data."
+integration_points:
+  core_governance:
+    purpose: "Integrate Fairness Data Controls validation states with the Core governance system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:core_governance_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:core_governance_status"
+    dependencies:
+      - "data_quality_check"
+      - "core_governance_service_reachability"
+    triggers:
+      - "core_governance_status_drift_event"
+  risk_management:
+    purpose: "Integrate Fairness Data Controls validation states with the Risk management system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:risk_management_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:risk_management_status"
+    dependencies:
+      - "data_quality_check"
+      - "risk_management_service_reachability"
+    triggers:
+      - "risk_management_status_drift_event"
+  cross_border_interoperability:
+    purpose: "Integrate Fairness Data Controls validation states with the Cross border interoperability system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:cross_border_interoperability_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:cross_border_interoperability_status"
+    dependencies:
+      - "data_quality_check"
+      - "cross_border_interoperability_service_reachability"
+    triggers:
+      - "cross_border_interoperability_status_drift_event"
+  privacy_and_fundamental_rights:
+    purpose: "Integrate Fairness Data Controls validation states with the Privacy and fundamental rights system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:privacy_and_fundamental_rights_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:privacy_and_fundamental_rights_status"
+    dependencies:
+      - "data_quality_check"
+      - "privacy_and_fundamental_rights_service_reachability"
+    triggers:
+      - "privacy_and_fundamental_rights_status_drift_event"
+  technical_documentation:
+    purpose: "Integrate Fairness Data Controls validation states with the Technical documentation system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:technical_documentation_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:technical_documentation_status"
+    dependencies:
+      - "data_quality_check"
+      - "technical_documentation_service_reachability"
+    triggers:
+      - "technical_documentation_status_drift_event"
+  audit_and_enforcement:
+    purpose: "Integrate Fairness Data Controls validation states with the Audit and enforcement system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:audit_and_enforcement_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:audit_and_enforcement_status"
+    dependencies:
+      - "data_quality_check"
+      - "audit_and_enforcement_service_reachability"
+    triggers:
+      - "audit_and_enforcement_status_drift_event"
+  audit_and_forensics:
+    purpose: "Integrate Fairness Data Controls validation states with the Audit and forensics system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:audit_and_forensics_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:audit_and_forensics_status"
+    dependencies:
+      - "data_quality_check"
+      - "audit_and_forensics_service_reachability"
+    triggers:
+      - "audit_and_forensics_status_drift_event"
+  compliance_scoring:
+    purpose: "Integrate Fairness Data Controls validation states with the Compliance scoring system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:compliance_scoring_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:compliance_scoring_status"
+    dependencies:
+      - "data_quality_check"
+      - "compliance_scoring_service_reachability"
+    triggers:
+      - "compliance_scoring_status_drift_event"
+  conformity_assessment:
+    purpose: "Integrate Fairness Data Controls validation states with the Conformity assessment system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:conformity_assessment_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:conformity_assessment_status"
+    dependencies:
+      - "data_quality_check"
+      - "conformity_assessment_service_reachability"
+    triggers:
+      - "conformity_assessment_status_drift_event"
+  cybersecurity:
+    purpose: "Integrate Fairness Data Controls validation states with the Cybersecurity system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:cybersecurity_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:cybersecurity_status"
+    dependencies:
+      - "data_quality_check"
+      - "cybersecurity_service_reachability"
+    triggers:
+      - "cybersecurity_status_drift_event"
+  cybersecurity_and_resilience:
+    purpose: "Integrate Fairness Data Controls validation states with the Cybersecurity and resilience system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:cybersecurity_and_resilience_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:cybersecurity_and_resilience_status"
+    dependencies:
+      - "data_quality_check"
+      - "cybersecurity_and_resilience_service_reachability"
+    triggers:
+      - "cybersecurity_and_resilience_status_drift_event"
+  foundation_models:
+    purpose: "Integrate Fairness Data Controls validation states with the Foundation models system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:foundation_models_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:foundation_models_status"
+    dependencies:
+      - "data_quality_check"
+      - "foundation_models_service_reachability"
+    triggers:
+      - "foundation_models_status_drift_event"
+  general_purpose_ai:
+    purpose: "Integrate Fairness Data Controls validation states with the General purpose ai system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:general_purpose_ai_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:general_purpose_ai_status"
+    dependencies:
+      - "data_quality_check"
+      - "general_purpose_ai_service_reachability"
+    triggers:
+      - "general_purpose_ai_status_drift_event"
+  provider_obligations:
+    purpose: "Integrate Fairness Data Controls validation states with the Provider obligations system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:provider_obligations_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:provider_obligations_status"
+    dependencies:
+      - "data_quality_check"
+      - "provider_obligations_service_reachability"
+    triggers:
+      - "provider_obligations_status_drift_event"
+  evidence_and_attestation:
+    purpose: "Integrate Fairness Data Controls validation states with the Evidence and attestation system to synchronize compliance actions."
+    consumed_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:evidence_and_attestation_input"
+    produced_artifacts:
+      - "urn:enterprise:artifact:fairness_data_controls:evidence_and_attestation_status"
+    dependencies:
+      - "data_quality_check"
+      - "evidence_and_attestation_service_reachability"
+    triggers:
+      - "evidence_and_attestation_status_drift_event"
+dependencies:
+  - "urn:enterprise:data:central_catalog"
+  - "urn:enterprise:compliance:identity_provider"
+outputs:
+  - "Data quality telemetry report"
+  - "Signed lineage validation scorecard metrics"
+  - "Drift alerts and incident tickets"
+artifacts:
+  data_policy: "Active Fairness Data Controls data ruleset config."
+  telemetry_schema: "Structured definition of expected metric inputs."
+records:
+  - "Access logs"
+  - "Daily validation checks history"
+  - "Lineage tracking logs"
+monitoring:
+  pipeline_status: "Continuous monitoring of data metric collection pipeline health."
+  drift_detector: "Daemons checking configuration state mismatch."
+continuous_improvement:
+  review_trigger: "Quarterly data metrics review and rules adjustment."
+  lessons_learned: "Review and update playbooks after data containment events."
+exceptions:
+  - "Temporary emergency security overrides with CDO signature token."
+  - "Offline backup telemetry operations during maintenance windows."
+escalation:
+  level_1: "Notify Lead Data Steward within 15 minutes of failure."
+  level_2: "Escalate to Data Architect if unresolved in 30 minutes."
+  level_3: "Notify Chief Data Officer immediately."
+versioning:
+  version: "1.0.0"
+  date: "2026-06-13"
+  author: "Enterprise Data Governance System Engineer"
+altai_data_governance:
+  agent_memory_governance:
+    memory_sources:
+      - "urn:enterprise:memory:fairness_data_controls:cache"
+    memory_lineage: "Track memory serialization process states."
+    memory_provenance: "Record owner signature token for active agent sessions."
+    memory_validation: "Scan memory logs for personal information prior to database writes."
+    memory_retention: "Expire session memories after 30 days of inactivity."
+  rag_data_governance:
+    retrieval_sources:
+      - "urn:enterprise:rag:fairness_data_controls:vector_index"
+    retrieval_validation: "Check retrieval chunks for prompt injection triggers."
+    retrieval_lineage: "Map retrieved query context back to source document versions."
+    retrieval_integrity: "Cryptographic checksum validation of vector databases daily."
+  reasoning_data_governance:
+    reasoning_inputs: "Instruction prompts and retrieved database documents."
+    reasoning_outputs: "Generated action sequences and reasoning trace logs."
+    reasoning_traceability: "Log reasoning steps with process IDs in compliance databases."
+    reasoning_validation: "Audit outputs for alignment with safety policy constraints."
+  tool_data_governance:
+    tool_inputs: "Arguments passed to internal tool APIs."
+    tool_outputs: "Return values from external tool execution scripts."
+    tool_data_integrity: "Assert that tool outputs align with schema formatting rules."
+    tool_traceability: "Log tool requests, outputs, and process owner signatures."
+  foundation_model_data_governance:
+    training_data_governance: "Verify data source rights and filter toxic content prior to training Fairness Data Controls."
+    fine_tuning_data_governance: "Validate instruct datasets for target formatting and bias controls."
+    evaluation_data_governance: "Establish test sets for safety and capabilities benchmarks."
+    synthetic_data_governance: "Test synthetic generation sets for privacy leakage vectors."
+  gpai_data_governance:
+    gpai_dataset_governance: "Verify base dataset license rights and source documentation."
+    gpai_data_accountability: "Data manager is accountable for dataset capability reports."
+    gpai_data_assurance: "Verify base dataset integrity checks prior to model optimization runs."
+data_governance_maturity_model:
+  level_1_initial:
+    capabilities:
+      - "Conduct Fairness Data Controls operations at maturity level 1."
+    governance_controls:
+      - "None"
+    quality_controls:
+      - "None"
+    lineage_controls:
+      - "None"
+    provenance_controls:
+      - "None"
+    evidence_requirements:
+      - "Signed test report for level 1 compliance check"
+    assurance_requirements:
+      - "Director sign-off validating level 1 checks"
+  level_2_repeatable:
+    capabilities:
+      - "Conduct Fairness Data Controls operations at maturity level 2."
+    governance_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    quality_controls:
+      - "None"
+    lineage_controls:
+      - "None"
+    provenance_controls:
+      - "None"
+    evidence_requirements:
+      - "Signed test report for level 2 compliance check"
+    assurance_requirements:
+      - "Director sign-off validating level 2 checks"
+  level_3_defined:
+    capabilities:
+      - "Conduct Fairness Data Controls operations at maturity level 3."
+    governance_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    quality_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    lineage_controls:
+      - "None"
+    provenance_controls:
+      - "None"
+    evidence_requirements:
+      - "Signed test report for level 3 compliance check"
+    assurance_requirements:
+      - "Director sign-off validating level 3 checks"
+  level_4_managed:
+    capabilities:
+      - "Conduct Fairness Data Controls operations at maturity level 4."
+    governance_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    quality_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    lineage_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-02"
+    provenance_controls:
+      - "None"
+    evidence_requirements:
+      - "Signed test report for level 4 compliance check"
+    assurance_requirements:
+      - "Director sign-off validating level 4 checks"
+  level_5_optimized:
+    capabilities:
+      - "Conduct Fairness Data Controls operations at maturity level 5."
+    governance_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    quality_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    lineage_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-02"
+    provenance_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-02"
+    evidence_requirements:
+      - "Signed test report for level 5 compliance check"
+    assurance_requirements:
+      - "Director sign-off validating level 5 checks"
+  level_6_adaptive:
+    capabilities:
+      - "Conduct Fairness Data Controls operations at maturity level 6."
+    governance_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    quality_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-01"
+    lineage_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-02"
+    provenance_controls:
+      - "CTRL-DATA-BIASCTRL-FAIRNESS-02"
+    evidence_requirements:
+      - "Signed test report for level 6 compliance check"
+    assurance_requirements:
+      - "Director sign-off validating level 6 checks"

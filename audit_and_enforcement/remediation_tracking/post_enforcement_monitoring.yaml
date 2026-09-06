@@ -1,0 +1,1938 @@
+metadata:
+  id: AAE-RT-POSENF-001
+  name: post_enforcement_monitoring
+  title: Post Enforcement Monitoring
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: remediation_tracking
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - remediation_tracking
+    - post_enforcement_monitoring
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Post Enforcement Monitoring governance within
+    audit_and_enforcement/remediation_tracking, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for enforceable restriction, prohibition, and corrective action
+    execution, continuous surveillance with threshold-based escalation. Integrates with the EU AI
+    Act governance ecosystem through machine-evaluable obligations, evidence preservation, and
+    conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Post Enforcement Monitoring across enterprise
+    and cross-border operations within audit_and_enforcement/remediation_tracking.
+objectives:
+  - Operationalize Post Enforcement Monitoring with regulator-defensible controls and evidence chains
+  - Enable automated validation of Post Enforcement Monitoring conformance across remediation_tracking
+  - Preserve audit-grade and forensic-grade records for all Post Enforcement Monitoring activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Post Enforcement Monitoring with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Post Enforcement Monitoring
+definitions:
+  post_enforcement_monitoring_governance_domain:
+    >
+      The operational jurisdiction of Post Enforcement Monitoring encompassing controlled audit,
+      enforcement, investigation, and evidence processes within remediation_tracking.
+  post_enforcement_monitoring_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Post Enforcement Monitoring control
+      effectiveness, process adherence, and regulatory conformity.
+  post_enforcement_monitoring_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Post Enforcement Monitoring decision logic.
+  post_enforcement_monitoring_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Post Enforcement Monitoring processes.
+  post_enforcement_monitoring_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within Post
+      Enforcement Monitoring operations.
+  post_enforcement_monitoring_conformity_assertion:
+    >
+      Formal statement that Post Enforcement Monitoring requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: post_enforcement_monitoring_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  post_enforcement_monitoring_artifact_type:
+    - post_enforcement_monitoring_record
+    - post_enforcement_monitoring_log
+    - post_enforcement_monitoring_report
+    - post_enforcement_monitoring_attestation
+    - post_enforcement_monitoring_package
+  post_enforcement_monitoring_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Post Enforcement Monitoring Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: remediation_tracking
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - enforcement_actions
+    - compliance_audits
+    - penalty_management
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - compliance_audits
+    - reporting
+    - post_market_monitoring
+    - audit_and_enforcement/remediation_tracking/post_enforcement_monitoring.yaml
+  related_domains:
+    - enforcement_actions
+    - compliance_audits
+    - reporting
+  related_skills:
+    - corrective_remediation_tracking
+    - compliance_restoration_validation
+    - post_enforcement_monitoring
+    - post_enforcement_monitoring
+  parent_governance_objects:
+    - enforcement_framework
+  child_governance_objects:
+    - remediation_plan
+    - corrective_action_tracker
+    - post_enforcement_monitoring_governance_object
+  consumes_artifacts:
+    - enforcement_order
+    - audit_finding
+    - penalty_assessment
+    - post_enforcement_monitoring_input_artifact
+  produces_artifacts:
+    - remediation_status_report
+    - compliance_restoration_attestation
+    - post_enforcement_monitoring_record
+    - post_enforcement_monitoring_report
+    - post_enforcement_monitoring_attestation
+  consumes_evidence:
+    - corrective_action_evidence
+    - enforcement_execution_log
+    - post_enforcement_monitoring_source_evidence
+  produces_evidence:
+    - remediation_closure_record
+    - effectiveness_analysis_report
+    - post_enforcement_monitoring_audit_evidence
+    - post_enforcement_monitoring_validation_evidence
+    - post_enforcement_monitoring_enforcement_evidence
+  governance_dependencies:
+    - remediation_engine
+    - policy_enforcement
+  regulatory_dependencies:
+    - eu_ai_act_article_17
+    - eu_ai_act_article_20
+  risk_dependencies:
+    - risk_management
+  control_dependencies:
+    - enforcement_actions
+    - compliance_audits
+    - post_enforcement_monitoring_control_register
+roles_and_responsibilities:
+  post_enforcement_monitoring_owner:
+    responsibilities:
+      - Accountable for Post Enforcement Monitoring strategy, control design, and regulatory alignment
+  post_enforcement_monitoring_operator:
+    responsibilities:
+      - Executes Post Enforcement Monitoring workflows and maintains operational records
+  post_enforcement_monitoring_auditor:
+    responsibilities:
+      - Independently validates Post Enforcement Monitoring control effectiveness and evidence sufficiency
+  post_enforcement_monitoring_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Post Enforcement Monitoring investigations
+  post_enforcement_monitoring_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Post Enforcement Monitoring
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-011
+    name: Corrective Action Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-012
+    name: Corrective Obligation Tracking
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-030
+    name: Remediation Tracking
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-031
+    name: Compliance Restoration
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-032
+    name: Remediation Effectiveness Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-050
+    name: Post-Enforcement Monitoring
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-REM-POST_ENFOR-POSTREMEDIA
+    control_name: post_remediation_plan_authorization
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring remediation plan authorization for Post Enforcement Monitoring
+        across remediation_tracking.
+    governance_rationale:
+      >
+        post_remediation_plan_authorization is required to govern Post Enforcement Monitoring risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected remediation
+        tracking failures.
+    implementation_guidance:
+      >
+        Implement post_remediation_plan_authorization as automated policy in post_enforcement_monitoring
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: post_remediation_plan_authorization_continuous_telemetry_dashboard
+    validation_method:
+      post_remediation_plan_authorization_quarterly_design_and_operating_effectiveness_test
+    testing_method: post_remediation_plan_authorization_statistical_sampling_with_exception_tracking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated: post_remediation_plan_authorization_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify post_remediation_plan_authorization design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        post_remediation_plan_authorization outputs may trigger enforcement under
+        post_enforcement_monitoring escalation rules.
+  - control_id: AAE-REM-POST_ENFOR-ENFORCEMENT
+    control_name: enforcement_deadline_breach_escalator
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring deadline breach escalator for Post Enforcement Monitoring across
+        remediation_tracking.
+    governance_rationale:
+      >
+        enforcement_deadline_breach_escalator is required to govern Post Enforcement Monitoring risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected remediation
+        tracking failures.
+    implementation_guidance:
+      >
+        Implement enforcement_deadline_breach_escalator as automated policy in
+        post_enforcement_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: enforcement_deadline_breach_escalator_continuous_telemetry_dashboard
+    validation_method:
+      enforcement_deadline_breach_escalator_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      enforcement_deadline_breach_escalator_statistical_sampling_with_exception_tracking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated: enforcement_deadline_breach_escalator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify enforcement_deadline_breach_escalator design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        enforcement_deadline_breach_escalator outputs may trigger enforcement under
+        post_enforcement_monitoring escalation rules.
+  - control_id: AAE-REM-POST_ENFOR-MONITORINGC
+    control_name: monitoring_corrective_action_completion_verifier
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring corrective action completion verifier for Post Enforcement
+        Monitoring across remediation_tracking.
+    governance_rationale:
+      >
+        monitoring_corrective_action_completion_verifier is required to govern Post Enforcement
+        Monitoring risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement monitoring_corrective_action_completion_verifier as automated policy in
+        post_enforcement_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: monitoring_corrective_action_completion_verifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        monitoring_corrective_action_completion_verifier_quarterly_design_and_operating_effectiveness_te
+        st
+    testing_method:
+      monitoring_corrective_action_completion_verifier_statistical_sampling_with_exception_tracking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated: monitoring_corrective_action_completion_verifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify monitoring_corrective_action_completion_verifier design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        monitoring_corrective_action_completion_verifier outputs may trigger enforcement under
+        post_enforcement_monitoring escalation rules.
+  - control_id: AAE-REM-POST_ENFOR-POSTENFORCE
+    control_name: post_enforcement_monitoring_compliance_restoration_validator
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring compliance restoration validator for Post Enforcement Monitoring
+        across remediation_tracking.
+    governance_rationale:
+      >
+        post_enforcement_monitoring_compliance_restoration_validator is required to govern Post
+        Enforcement Monitoring risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement post_enforcement_monitoring_compliance_restoration_validator as automated policy in
+        post_enforcement_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      post_enforcement_monitoring_compliance_restoration_validator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        post_enforcement_monitoring_compliance_restoration_validator_quarterly_design_and_operating_effe
+        ctiveness_test
+    testing_method:
+      >
+        post_enforcement_monitoring_compliance_restoration_validator_statistical_sampling_with_exception
+        _tracking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated:
+      post_enforcement_monitoring_compliance_restoration_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify post_enforcement_monitoring_compliance_restoration_validator design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        post_enforcement_monitoring_compliance_restoration_validator outputs may trigger enforcement
+        under post_enforcement_monitoring escalation rules.
+  - control_id: AAE-REM-POST_ENFOR-POSTENFORCE
+    control_name: post_enforcement_monitoring_effectiveness_regression_tester
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring effectiveness regression tester for Post Enforcement Monitoring
+        across remediation_tracking.
+    governance_rationale:
+      >
+        post_enforcement_monitoring_effectiveness_regression_tester is required to govern Post
+        Enforcement Monitoring risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement post_enforcement_monitoring_effectiveness_regression_tester as automated policy in
+        post_enforcement_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      post_enforcement_monitoring_effectiveness_regression_tester_continuous_telemetry_dashboard
+    validation_method:
+      >
+        post_enforcement_monitoring_effectiveness_regression_tester_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        post_enforcement_monitoring_effectiveness_regression_tester_statistical_sampling_with_exception_
+        tracking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated:
+      post_enforcement_monitoring_effectiveness_regression_tester_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify post_enforcement_monitoring_effectiveness_regression_tester design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        post_enforcement_monitoring_effectiveness_regression_tester outputs may trigger enforcement
+        under post_enforcement_monitoring escalation rules.
+  - control_id: AAE-REM-POST_ENFOR-POSTENFORCE
+    control_name: post_enforcement_monitoring_post_enforcement_surveillance_monitor
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring post enforcement surveillance monitor for Post Enforcement
+        Monitoring across remediation_tracking.
+    governance_rationale:
+      >
+        post_enforcement_monitoring_post_enforcement_surveillance_monitor is required to govern Post
+        Enforcement Monitoring risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement post_enforcement_monitoring_post_enforcement_surveillance_monitor as automated policy
+        in post_enforcement_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      post_enforcement_monitoring_post_enforcement_surveillance_monitor_continuous_telemetry_dashboard
+    validation_method:
+      >
+        post_enforcement_monitoring_post_enforcement_surveillance_monitor_quarterly_design_and_operating
+        _effectiveness_test
+    testing_method:
+      >
+        post_enforcement_monitoring_post_enforcement_surveillance_monitor_statistical_sampling_with_exce
+        ption_tracking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated:
+      post_enforcement_monitoring_post_enforcement_surveillance_monitor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify post_enforcement_monitoring_post_enforcement_surveillance_monitor design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        post_enforcement_monitoring_post_enforcement_surveillance_monitor outputs may trigger
+        enforcement under post_enforcement_monitoring escalation rules.
+  - control_id: AAE-REM-POST_ENFOR-POSTENFORCE
+    control_name: post_enforcement_monitoring_remediation_evidence_collector
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring remediation evidence collector for Post Enforcement Monitoring
+        across remediation_tracking.
+    governance_rationale:
+      >
+        post_enforcement_monitoring_remediation_evidence_collector is required to govern Post
+        Enforcement Monitoring risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement post_enforcement_monitoring_remediation_evidence_collector as automated policy in
+        post_enforcement_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      post_enforcement_monitoring_remediation_evidence_collector_continuous_telemetry_dashboard
+    validation_method:
+      >
+        post_enforcement_monitoring_remediation_evidence_collector_quarterly_design_and_operating_effect
+        iveness_test
+    testing_method:
+      >
+        post_enforcement_monitoring_remediation_evidence_collector_statistical_sampling_with_exception_t
+        racking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated: post_enforcement_monitoring_remediation_evidence_collector_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify post_enforcement_monitoring_remediation_evidence_collector design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        post_enforcement_monitoring_remediation_evidence_collector outputs may trigger enforcement under
+        post_enforcement_monitoring escalation rules.
+  - control_id: AAE-REM-POST_ENFOR-POSTENFORCE
+    control_name: post_enforcement_monitoring_obligation_closure_certifier
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring obligation closure certifier for Post Enforcement Monitoring across
+        remediation_tracking.
+    governance_rationale:
+      >
+        post_enforcement_monitoring_obligation_closure_certifier is required to govern Post Enforcement
+        Monitoring risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement post_enforcement_monitoring_obligation_closure_certifier as automated policy in
+        post_enforcement_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      post_enforcement_monitoring_obligation_closure_certifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        post_enforcement_monitoring_obligation_closure_certifier_quarterly_design_and_operating_effectiv
+        eness_test
+    testing_method:
+      >
+        post_enforcement_monitoring_obligation_closure_certifier_statistical_sampling_with_exception_tra
+        cking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated: post_enforcement_monitoring_obligation_closure_certifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify post_enforcement_monitoring_obligation_closure_certifier design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        post_enforcement_monitoring_obligation_closure_certifier outputs may trigger enforcement under
+        post_enforcement_monitoring escalation rules.
+  - control_id: AAE-REM-POST_ENFOR-POSTENFORCE
+    control_name: post_enforcement_monitoring_remediation_workflow_orchestrator
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring remediation workflow orchestrator for Post Enforcement Monitoring
+        across remediation_tracking.
+    governance_rationale:
+      >
+        post_enforcement_monitoring_remediation_workflow_orchestrator is required to govern Post
+        Enforcement Monitoring risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement post_enforcement_monitoring_remediation_workflow_orchestrator as automated policy in
+        post_enforcement_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      post_enforcement_monitoring_remediation_workflow_orchestrator_continuous_telemetry_dashboard
+    validation_method:
+      >
+        post_enforcement_monitoring_remediation_workflow_orchestrator_quarterly_design_and_operating_eff
+        ectiveness_test
+    testing_method:
+      >
+        post_enforcement_monitoring_remediation_workflow_orchestrator_statistical_sampling_with_exceptio
+        n_tracking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated:
+      post_enforcement_monitoring_remediation_workflow_orchestrator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify post_enforcement_monitoring_remediation_workflow_orchestrator design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        post_enforcement_monitoring_remediation_workflow_orchestrator outputs may trigger enforcement
+        under post_enforcement_monitoring escalation rules.
+  - control_id: AAE-REM-POST_ENFOR-POSTENFORCE
+    control_name: post_enforcement_monitoring_stakeholder_remediation_notifier
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring stakeholder remediation notifier for Post Enforcement Monitoring
+        across remediation_tracking.
+    governance_rationale:
+      >
+        post_enforcement_monitoring_stakeholder_remediation_notifier is required to govern Post
+        Enforcement Monitoring risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement post_enforcement_monitoring_stakeholder_remediation_notifier as automated policy in
+        post_enforcement_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      post_enforcement_monitoring_stakeholder_remediation_notifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        post_enforcement_monitoring_stakeholder_remediation_notifier_quarterly_design_and_operating_effe
+        ctiveness_test
+    testing_method:
+      >
+        post_enforcement_monitoring_stakeholder_remediation_notifier_statistical_sampling_with_exception
+        _tracking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated:
+      post_enforcement_monitoring_stakeholder_remediation_notifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify post_enforcement_monitoring_stakeholder_remediation_notifier design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        post_enforcement_monitoring_stakeholder_remediation_notifier outputs may trigger enforcement
+        under post_enforcement_monitoring escalation rules.
+  - control_id: AAE-REM-POST_ENFOR-POSTENFORCE
+    control_name: post_enforcement_monitoring_remediation_assurance_attestation
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring remediation assurance attestation for Post Enforcement Monitoring
+        across remediation_tracking.
+    governance_rationale:
+      >
+        post_enforcement_monitoring_remediation_assurance_attestation is required to govern Post
+        Enforcement Monitoring risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement post_enforcement_monitoring_remediation_assurance_attestation as automated policy in
+        post_enforcement_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      post_enforcement_monitoring_remediation_assurance_attestation_continuous_telemetry_dashboard
+    validation_method:
+      >
+        post_enforcement_monitoring_remediation_assurance_attestation_quarterly_design_and_operating_eff
+        ectiveness_test
+    testing_method:
+      >
+        post_enforcement_monitoring_remediation_assurance_attestation_statistical_sampling_with_exceptio
+        n_tracking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated:
+      post_enforcement_monitoring_remediation_assurance_attestation_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify post_enforcement_monitoring_remediation_assurance_attestation design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        post_enforcement_monitoring_remediation_assurance_attestation outputs may trigger enforcement
+        under post_enforcement_monitoring escalation rules.
+  - control_id: AAE-REM-POST_ENFOR-POSTENFORCE
+    control_name: post_enforcement_monitoring_restoration_regulatory_notifier
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring restoration regulatory notifier for Post Enforcement Monitoring
+        across remediation_tracking.
+    governance_rationale:
+      >
+        post_enforcement_monitoring_restoration_regulatory_notifier is required to govern Post
+        Enforcement Monitoring risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected remediation tracking failures.
+    implementation_guidance:
+      >
+        Implement post_enforcement_monitoring_restoration_regulatory_notifier as automated policy in
+        post_enforcement_monitoring orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      post_enforcement_monitoring_restoration_regulatory_notifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        post_enforcement_monitoring_restoration_regulatory_notifier_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        post_enforcement_monitoring_restoration_regulatory_notifier_statistical_sampling_with_exception_
+        tracking
+    control_owner: post_enforcement_monitoring_control_owner
+    evidence_generated:
+      post_enforcement_monitoring_restoration_regulatory_notifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify post_enforcement_monitoring_restoration_regulatory_notifier design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        post_enforcement_monitoring_restoration_regulatory_notifier outputs may trigger enforcement
+        under post_enforcement_monitoring escalation rules.
+requirements:
+  legal:
+    >
+      Post Enforcement Monitoring must satisfy legal requirements for enforceable restriction,
+      prohibition, and corrective action execution, continuous surveillance with threshold-based
+      escalation including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Post Enforcement Monitoring must satisfy regulatory requirements for enforceable restriction,
+      prohibition, and corrective action execution, continuous surveillance with threshold-based
+      escalation including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Post Enforcement Monitoring must satisfy technical requirements for enforceable restriction,
+      prohibition, and corrective action execution, continuous surveillance with threshold-based
+      escalation including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Post Enforcement Monitoring must satisfy operational requirements for enforceable restriction,
+      prohibition, and corrective action execution, continuous surveillance with threshold-based
+      escalation including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Post Enforcement Monitoring must satisfy audit requirements for enforceable restriction,
+      prohibition, and corrective action execution, continuous surveillance with threshold-based
+      escalation including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Post Enforcement Monitoring must satisfy forensic requirements for enforceable restriction,
+      prohibition, and corrective action execution, continuous surveillance with threshold-based
+      escalation including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Post Enforcement Monitoring must satisfy enforcement requirements for enforceable restriction,
+      prohibition, and corrective action execution, continuous surveillance with threshold-based
+      escalation including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Post Enforcement Monitoring with stage gates, RACI assignments, and evidence
+      capture.
+  triage:
+    >
+      Triage process for Post Enforcement Monitoring with stage gates, RACI assignments, and evidence
+      capture.
+  execution:
+    >
+      Execution process for Post Enforcement Monitoring with stage gates, RACI assignments, and
+      evidence capture.
+  validation:
+    >
+      Validation process for Post Enforcement Monitoring with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Post Enforcement Monitoring with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Post Enforcement Monitoring with stage gates, RACI assignments, and evidence
+      capture.
+  improvement:
+    >
+      Improvement process for Post Enforcement Monitoring with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: post_enforcement_monitoring_operational_lifecycle_workflow
+    workflow_trigger: post_enforcement_monitoring_governance_event_detected
+    workflow_steps:
+      - post_enforcement_monitoring_intake
+      - post_enforcement_monitoring_triage
+      - post_enforcement_monitoring_execution
+      - post_enforcement_monitoring_validation
+      - post_enforcement_monitoring_approval
+      - post_enforcement_monitoring_closure
+    approval_points:
+      - post_enforcement_monitoring_approval
+    escalation_points:
+      - post_enforcement_monitoring_triage
+    generated_evidence:
+      - post_enforcement_monitoring_workflow_log
+      - post_enforcement_monitoring_closure_attestation
+    completion_requirements:
+      - post_enforcement_monitoring_evidence_complete
+      - post_enforcement_monitoring_approvals_recorded
+  - workflow_name: post_enforcement_monitoring_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_post_enforcement_monitoring
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - post_enforcement_monitoring_regulatory_package
+      - post_enforcement_monitoring_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - post_enforcement_monitoring_governance_event_detected
+    - post_enforcement_monitoring_regulatory_inquiry
+    - post_enforcement_monitoring_integrity_breach
+    - post_enforcement_monitoring_enforcement_authorization
+  required_inputs:
+    - post_enforcement_monitoring_case_context
+    - post_enforcement_monitoring_evidence_index
+    - post_enforcement_monitoring_risk_assessment
+  workflow_steps:
+    - post_enforcement_monitoring_intake
+    - post_enforcement_monitoring_triage
+    - post_enforcement_monitoring_execution
+    - post_enforcement_monitoring_validation
+    - post_enforcement_monitoring_approval
+    - post_enforcement_monitoring_closure
+  validation_steps:
+    - post_enforcement_monitoring_evidence_sufficiency_check
+    - post_enforcement_monitoring_integrity_verification
+  approval_steps:
+    - post_enforcement_monitoring_approval
+  control_checkpoints:
+    - post_enforcement_monitoring_intake_gate
+    - post_enforcement_monitoring_evidence_gate
+    - post_enforcement_monitoring_decision_gate
+  evidence_generation:
+    - post_enforcement_monitoring_workflow_log
+    - post_enforcement_monitoring_closure_attestation
+  decision_points:
+    - post_enforcement_monitoring_severity_classification
+    - post_enforcement_monitoring_enforcement_authorization
+  escalation_points:
+    - post_enforcement_monitoring_triage
+  completion_criteria:
+    - post_enforcement_monitoring_evidence_complete
+    - post_enforcement_monitoring_approvals_recorded
+  generated_outputs:
+    - post_enforcement_monitoring_workflow_log
+    - post_enforcement_monitoring_closure_attestation
+    - post_enforcement_monitoring_final_disposition
+decision_logic:
+  decision_inputs:
+    - post_enforcement_monitoring_severity_score
+    - post_enforcement_monitoring_evidence_completeness
+    - post_enforcement_monitoring_regulatory_context
+    - post_enforcement_monitoring_risk_exposure_index
+  decision_conditions:
+    - post_enforcement_monitoring_critical_threshold_breach
+    - post_enforcement_monitoring_evidence_integrity_failure
+    - post_enforcement_monitoring_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: post_enforcement_monitoring_severity_score >= 90
+    high_severity: post_enforcement_monitoring_severity_score >= 70
+    evidence_complete: post_enforcement_monitoring_evidence_completeness >= 0.98
+  decision_rules:
+    post_enforcement_monitoring_high_severity_violation:
+      condition: post_enforcement_monitoring_severity_score >= 90
+      action: initiate_post_enforcement_monitoring_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: post_enforcement_monitoring_investigation_report
+    post_enforcement_monitoring_evidence_compromise_detected:
+      condition: post_enforcement_monitoring_integrity_status == compromised
+      action: activate_post_enforcement_monitoring_forensic_lockdown
+      approval_required: post_enforcement_monitoring_forensic_lead
+      evidence_required: post_enforcement_monitoring_integrity_alert_record
+    post_enforcement_monitoring_enforcement_authorization:
+      condition: post_enforcement_monitoring_violation_confirmed == true AND post_enforcement_monitoring_evidence_complete == true
+      action: issue_post_enforcement_monitoring_enforcement_order
+      approval_required: post_enforcement_monitoring_enforcement_officer
+      evidence_required: post_enforcement_monitoring_violation_evidence_package
+    post_enforcement_monitoring_regulator_inquiry_response:
+      condition: post_enforcement_monitoring_regulator_request_received == true
+      action: compile_post_enforcement_monitoring_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: post_enforcement_monitoring_regulatory_evidence_index
+  decision_outputs:
+    - post_enforcement_monitoring_enforcement_decision
+    - post_enforcement_monitoring_escalation_notice
+    - post_enforcement_monitoring_remediation_directive
+    - post_enforcement_monitoring_audit_disposition
+  approval_requirements:
+    enforcement_actions: [post_enforcement_monitoring_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - post_enforcement_monitoring_severity_score >= 90
+    - post_enforcement_monitoring_evidence_integrity_failure == true
+    - post_enforcement_monitoring_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_post_enforcement_monitoring_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: post_enforcement_monitoring_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Post Enforcement Monitoring may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Post Enforcement Monitoring per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Post Enforcement Monitoring per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Post Enforcement Monitoring per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Post Enforcement Monitoring per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: enforcement_execution_success_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure enforcement execution success rate for Post Enforcement Monitoring operational and
+        regulatory assurance
+    formula:
+      computed_enforcement_execution_success_rate_from_post_enforcement_monitoring_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: post_enforcement_monitoring_metrics_owner
+    data_source: post_enforcement_monitoring_metrics_warehouse
+    evidence_generated: enforcement_execution_success_rate_measurement_record
+  - metric_name: restriction_compliance_rate
+    metric_category: risk
+    business_purpose:
+      >
+        Measure restriction compliance rate for Post Enforcement Monitoring operational and regulatory
+        assurance
+    formula: computed_restriction_compliance_rate_from_post_enforcement_monitoring_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: post_enforcement_monitoring_metrics_owner
+    data_source: post_enforcement_monitoring_metrics_warehouse
+    evidence_generated: restriction_compliance_rate_measurement_record
+  - metric_name: prohibition_violation_detection_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure prohibition violation detection rate for Post Enforcement Monitoring operational and
+        regulatory assurance
+    formula:
+      computed_prohibition_violation_detection_rate_from_post_enforcement_monitoring_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: post_enforcement_monitoring_metrics_owner
+    data_source: post_enforcement_monitoring_metrics_warehouse
+    evidence_generated: prohibition_violation_detection_rate_measurement_record
+  - metric_name: corrective_action_closure_rate
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure corrective action closure rate for Post Enforcement Monitoring operational and
+        regulatory assurance
+    formula:
+      computed_corrective_action_closure_rate_from_post_enforcement_monitoring_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: post_enforcement_monitoring_metrics_owner
+    data_source: post_enforcement_monitoring_metrics_warehouse
+    evidence_generated: corrective_action_closure_rate_measurement_record
+  - metric_name: emergency_containment_activation_time
+    metric_category: governance
+    business_purpose:
+      >
+        Measure emergency containment activation time for Post Enforcement Monitoring operational and
+        regulatory assurance
+    formula:
+      computed_emergency_containment_activation_time_from_post_enforcement_monitoring_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: post_enforcement_monitoring_metrics_owner
+    data_source: post_enforcement_monitoring_metrics_warehouse
+    evidence_generated: emergency_containment_activation_time_measurement_record
+  - metric_name: enforcement_appeal_rate
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure enforcement appeal rate for Post Enforcement Monitoring operational and regulatory
+        assurance
+    formula: computed_enforcement_appeal_rate_from_post_enforcement_monitoring_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: post_enforcement_monitoring_metrics_owner
+    data_source: post_enforcement_monitoring_metrics_warehouse
+    evidence_generated: enforcement_appeal_rate_measurement_record
+kpis:
+  - metric_name: enforcement_execution_success_rate
+    formula: computed_enforcement_execution_success_rate_from_post_enforcement_monitoring_telemetry
+    target: >= 95%
+  - metric_name: restriction_compliance_rate
+    formula: computed_restriction_compliance_rate_from_post_enforcement_monitoring_telemetry
+    target: >= 95%
+  - metric_name: prohibition_violation_detection_rate
+    formula: computed_prohibition_violation_detection_rate_from_post_enforcement_monitoring_telemetry
+    target: >= 95%
+  - metric_name: corrective_action_closure_rate
+    formula: computed_corrective_action_closure_rate_from_post_enforcement_monitoring_telemetry
+    target: >= 95%
+kris:
+  - metric_name: prohibition_violation_detection_rate
+    business_purpose: Measure prohibition violation detection rate for Post Enforcement Monitoring operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: post_enforcement_monitoring_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support post enforcement monitoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_post_enforcement_monitoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: post_enforcement_monitoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: post_enforcement_monitoring_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support post enforcement monitoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_post_enforcement_monitoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: post_enforcement_monitoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: post_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support post enforcement monitoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_post_enforcement_monitoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: post_enforcement_monitoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: enforcement_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support post enforcement monitoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_post_enforcement_monitoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: post_enforcement_monitoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: monitoring_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support post enforcement monitoring governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_post_enforcement_monitoring_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: post_enforcement_monitoring_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: post_enforcement_monitoring_status_dashboard
+    report_owner: post_enforcement_monitoring_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: monthly
+    report_inputs:
+      - post_enforcement_monitoring_telemetry
+      - post_enforcement_monitoring_evidence_index
+    report_outputs:
+      - post_enforcement_monitoring_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: post_enforcement_monitoring_compliance_summary
+    report_owner: post_enforcement_monitoring_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - post_enforcement_monitoring_telemetry
+      - post_enforcement_monitoring_evidence_index
+    report_outputs:
+      - post_enforcement_monitoring_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: post_assurance_report
+    report_owner: post_enforcement_monitoring_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - post_enforcement_monitoring_telemetry
+      - post_enforcement_monitoring_evidence_index
+    report_outputs:
+      - post_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: post_enforcement_monitoring_executive_brief
+    report_owner: post_enforcement_monitoring_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - post_enforcement_monitoring_telemetry
+      - post_enforcement_monitoring_evidence_index
+    report_outputs:
+      - post_enforcement_monitoring_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: post_enforcement_monitoring_audit_pack
+    report_owner: post_enforcement_monitoring_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - post_enforcement_monitoring_telemetry
+      - post_enforcement_monitoring_evidence_index
+    report_outputs:
+      - post_enforcement_monitoring_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Post Enforcement Monitoring interfaces with autonomous agents,
+      GPAI, or tool-calling systems.
+  agent_governance:
+    agent_identity: post_enforcement_monitoring_registered_agent_identity_schema
+    agent_role: post_enforcement_monitoring_delegated_authority_role_matrix
+    agent_permissions: post_enforcement_monitoring_least_privilege_permission_set
+    agent_constraints: post_enforcement_monitoring_autonomy_and_tool_constraints
+    agent_accountability: post_enforcement_monitoring_human_accountability_chain
+    agent_escalation_rules: post_enforcement_monitoring_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - post_enforcement_monitoring_policy_context
+      - post_enforcement_monitoring_risk_score
+      - post_enforcement_monitoring_human_intent
+    decision_outputs:
+      - post_enforcement_monitoring_authorized_action
+      - post_enforcement_monitoring_escalation_notice
+    decision_owners:
+      - post_enforcement_monitoring_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: post_enforcement_monitoring_high_risk_decision_mandatory_review
+    decision_accountability: post_enforcement_monitoring_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: post_enforcement_monitoring_approved_tool_allowlist
+    tool_execution_validation: post_enforcement_monitoring_pre_execution_tool_risk_check
+    tool_risk_controls: post_enforcement_monitoring_tool_side_effect_containment
+    tool_auditability: post_enforcement_monitoring_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: post_enforcement_monitoring_memory_segment_access_policy
+    memory_integrity_validation: post_enforcement_monitoring_memory_tamper_detection
+    memory_retention_controls: post_enforcement_monitoring_memory_retention_and_purge_rules
+    memory_auditability: post_enforcement_monitoring_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: post_enforcement_monitoring_chain_of_thought_capture
+    reasoning_validation: post_enforcement_monitoring_reasoning_consistency_check
+    reasoning_risk_monitoring: post_enforcement_monitoring_reasoning_hazard_detection
+    reasoning_accountability: post_enforcement_monitoring_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - post_enforcement_monitoring_audit_log
+  - post_enforcement_monitoring_activity_log
+  - post_enforcement_monitoring_decision_log
+  - post_enforcement_monitoring_traceability_record
+  - post_enforcement_monitoring_evidence_package
+  - post_enforcement_monitoring_chain_of_custody_record
+  - post_enforcement_monitoring_attestation
+required_evidence:
+  - post_enforcement_monitoring_audit_log
+  - post_enforcement_monitoring_activity_log
+  - post_enforcement_monitoring_decision_log
+  - post_enforcement_monitoring_traceability_record
+  - post_enforcement_monitoring_evidence_package
+  - post_enforcement_monitoring_chain_of_custody_record
+  - post_enforcement_monitoring_attestation
+supporting_evidence:
+  - post_enforcement_monitoring_audit_log
+  - post_enforcement_monitoring_activity_log
+  - post_enforcement_monitoring_decision_log
+  - post_enforcement_monitoring_traceability_record
+  - post_enforcement_monitoring_evidence_package
+audit_evidence:
+  - post_enforcement_monitoring_audit_log
+  - post_enforcement_monitoring_activity_log
+  - post_enforcement_monitoring_decision_log
+  - post_enforcement_monitoring_traceability_record
+  - post_enforcement_monitoring_evidence_package
+  - post_enforcement_monitoring_chain_of_custody_record
+  - post_enforcement_monitoring_attestation
+forensic_evidence:
+  - post_enforcement_monitoring_audit_log
+  - post_enforcement_monitoring_activity_log
+  - post_enforcement_monitoring_decision_log
+  - post_enforcement_monitoring_traceability_record
+  - post_enforcement_monitoring_evidence_package
+  - post_enforcement_monitoring_chain_of_custody_record
+  - post_enforcement_monitoring_attestation
+regulatory_evidence:
+  - post_enforcement_monitoring_audit_log
+  - post_enforcement_monitoring_activity_log
+  - post_enforcement_monitoring_decision_log
+  - post_enforcement_monitoring_traceability_record
+  - post_enforcement_monitoring_evidence_package
+  - post_enforcement_monitoring_chain_of_custody_record
+  - post_enforcement_monitoring_attestation
+validation_evidence:
+  - post_enforcement_monitoring_audit_log
+  - post_enforcement_monitoring_activity_log
+  - post_enforcement_monitoring_decision_log
+  - post_enforcement_monitoring_traceability_record
+  - post_enforcement_monitoring_evidence_package
+  - post_enforcement_monitoring_chain_of_custody_record
+  - post_enforcement_monitoring_attestation
+validation_rules:
+  - rule: post_enforcement_monitoring_evidence_complete
+    condition: required_evidence_post_enforcement_monitoring < threshold
+    action: BLOCK_SUBMISSION
+  - rule: post_enforcement_monitoring_integrity_verified
+    condition: integrity_status_post_enforcement_monitoring != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: post_enforcement_monitoring_custody_intact
+    condition: custody_gap_post_enforcement_monitoring == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Post Enforcement Monitoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Post Enforcement Monitoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Post Enforcement Monitoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Post Enforcement Monitoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Post Enforcement Monitoring controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - post_enforcement_monitoring_control_failure
+    - post_enforcement_monitoring_evidence_compromise
+    - post_enforcement_monitoring_regulatory_non_compliance
+    - post_enforcement_monitoring_enforcement_delay
+  risk_events:
+    - post_enforcement_monitoring_audit_finding_critical
+    - post_enforcement_monitoring_investigation_escalation
+    - post_enforcement_monitoring_sanction_exposure
+    - post_enforcement_monitoring_market_surveillance_inquiry
+  risk_indicators:
+    - post_enforcement_monitoring_control_effectiveness_degradation
+    - post_enforcement_monitoring_evidence_gap_rate
+    - post_enforcement_monitoring_sla_breach_count
+    - post_enforcement_monitoring_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    post_enforcement_monitoring_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: post_enforcement_monitoring_forensic_lead
+    post_enforcement_monitoring_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    post_enforcement_monitoring_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: post_enforcement_monitoring_enforcement_officer
+  risk_tolerance:
+    post_enforcement_monitoring_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: post_enforcement_monitoring_risk_score >= 60
+    critical: post_enforcement_monitoring_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Post Enforcement Monitoring controls documented in
+      post_enforcement_monitoring_risk_register with quarterly review.
+  risk_treatment:
+    - post_enforcement_monitoring_preventive_control_reinforcement
+    - post_enforcement_monitoring_detective_monitoring_enhancement
+    - post_enforcement_monitoring_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: post_enforcement_monitoring_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Post Enforcement Monitoring workflow events with provenance anchor and
+      post_enforcement_monitoring_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via post_enforcement_monitoring_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      post_enforcement_monitoring_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      post_enforcement_monitoring_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in post_enforcement_monitoring_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per post_enforcement_monitoring_retention_schedule aligned with EU AI Act Article 18
+      and legal hold
+  evidence_archival:
+    Long-term archival with post_enforcement_monitoring_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via post_enforcement_monitoring_retrieval_gateway with purpose logging
+  evidence_disposal:
+    >
+      Authorized disposition with post_enforcement_monitoring_disposition_certificate and dual
+      approval
+compliance_mapping:
+  article_17:
+    article: Article 17
+    regulatory_text_summary:
+      Quality management system.
+    obligation:
+      >
+        QMS covering design, development, quality control, and post-market monitoring. Implemented
+        through Post Enforcement Monitoring in remediation_tracking.
+    implementation_controls:
+      - post_enforcement_monitoring_article_17_preventive_control
+      - post_enforcement_monitoring_article_17_detective_control
+      - post_enforcement_monitoring_article_17_evidence_control
+    implementation_processes:
+      - post_enforcement_monitoring_article_17_workflow
+      - post_enforcement_monitoring_article_17_validation_process
+      - post_enforcement_monitoring_article_17_escalation_process
+    implementation_evidence:
+      - post_enforcement_monitoring_article_17_compliance_record
+      - post_enforcement_monitoring_article_17_audit_package
+      - post_enforcement_monitoring_article_17_attestation
+    validation_method: post_enforcement_monitoring_article_17_automated_and_manual_conformity_testing
+    audit_method: post_enforcement_monitoring_article_17_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: post_enforcement_monitoring_article_17_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Post Enforcement Monitoring demonstrates Article 17 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_20:
+    article: Article 20
+    regulatory_text_summary:
+      CE marking.
+    obligation:
+      >
+        CE marking affixation for compliant high-risk AI systems. Implemented through Post Enforcement
+        Monitoring in remediation_tracking.
+    implementation_controls:
+      - post_enforcement_monitoring_article_20_preventive_control
+      - post_enforcement_monitoring_article_20_detective_control
+      - post_enforcement_monitoring_article_20_evidence_control
+    implementation_processes:
+      - post_enforcement_monitoring_article_20_workflow
+      - post_enforcement_monitoring_article_20_validation_process
+      - post_enforcement_monitoring_article_20_escalation_process
+    implementation_evidence:
+      - post_enforcement_monitoring_article_20_compliance_record
+      - post_enforcement_monitoring_article_20_audit_package
+      - post_enforcement_monitoring_article_20_attestation
+    validation_method: post_enforcement_monitoring_article_20_automated_and_manual_conformity_testing
+    audit_method: post_enforcement_monitoring_article_20_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: post_enforcement_monitoring_article_20_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Post Enforcement Monitoring demonstrates Article 20 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_21:
+    article: Article 21
+    regulatory_text_summary:
+      EU database registration.
+    obligation:
+      >
+        Registration in EU database before market placement. Implemented through Post Enforcement
+        Monitoring in remediation_tracking.
+    implementation_controls:
+      - post_enforcement_monitoring_article_21_preventive_control
+      - post_enforcement_monitoring_article_21_detective_control
+      - post_enforcement_monitoring_article_21_evidence_control
+    implementation_processes:
+      - post_enforcement_monitoring_article_21_workflow
+      - post_enforcement_monitoring_article_21_validation_process
+      - post_enforcement_monitoring_article_21_escalation_process
+    implementation_evidence:
+      - post_enforcement_monitoring_article_21_compliance_record
+      - post_enforcement_monitoring_article_21_audit_package
+      - post_enforcement_monitoring_article_21_attestation
+    validation_method: post_enforcement_monitoring_article_21_automated_and_manual_conformity_testing
+    audit_method: post_enforcement_monitoring_article_21_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: post_enforcement_monitoring_article_21_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Post Enforcement Monitoring demonstrates Article 21 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Post Enforcement Monitoring in remediation_tracking.
+    implementation_controls:
+      - post_enforcement_monitoring_article_26_preventive_control
+      - post_enforcement_monitoring_article_26_detective_control
+      - post_enforcement_monitoring_article_26_evidence_control
+    implementation_processes:
+      - post_enforcement_monitoring_article_26_workflow
+      - post_enforcement_monitoring_article_26_validation_process
+      - post_enforcement_monitoring_article_26_escalation_process
+    implementation_evidence:
+      - post_enforcement_monitoring_article_26_compliance_record
+      - post_enforcement_monitoring_article_26_audit_package
+      - post_enforcement_monitoring_article_26_attestation
+    validation_method: post_enforcement_monitoring_article_26_automated_and_manual_conformity_testing
+    audit_method: post_enforcement_monitoring_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: post_enforcement_monitoring_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Post Enforcement Monitoring demonstrates Article 26 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_17:
+      implementation: post_enforcement_monitoring_eu_ai_act_article_17_control_set
+      process: post_enforcement_monitoring_eu_ai_act_article_17_workflow
+      evidence: post_enforcement_monitoring_eu_ai_act_article_17_attestation
+    article_20:
+      implementation: post_enforcement_monitoring_eu_ai_act_article_20_control_set
+      process: post_enforcement_monitoring_eu_ai_act_article_20_workflow
+      evidence: post_enforcement_monitoring_eu_ai_act_article_20_attestation
+    article_21:
+      implementation: post_enforcement_monitoring_eu_ai_act_article_21_control_set
+      process: post_enforcement_monitoring_eu_ai_act_article_21_workflow
+      evidence: post_enforcement_monitoring_eu_ai_act_article_21_attestation
+    article_26:
+      implementation: post_enforcement_monitoring_eu_ai_act_article_26_control_set
+      process: post_enforcement_monitoring_eu_ai_act_article_26_workflow
+      evidence: post_enforcement_monitoring_eu_ai_act_article_26_attestation
+  gdpr:
+    article_5:
+      implementation: post_enforcement_monitoring_gdpr_article_5_privacy_control
+      evidence: post_enforcement_monitoring_gdpr_article_5_compliance_record
+    article_6:
+      implementation: post_enforcement_monitoring_gdpr_article_6_privacy_control
+      evidence: post_enforcement_monitoring_gdpr_article_6_compliance_record
+    article_22:
+      implementation: post_enforcement_monitoring_gdpr_article_22_privacy_control
+      evidence: post_enforcement_monitoring_gdpr_article_22_compliance_record
+    article_25:
+      implementation: post_enforcement_monitoring_gdpr_article_25_privacy_control
+      evidence: post_enforcement_monitoring_gdpr_article_25_compliance_record
+    article_32:
+      implementation: post_enforcement_monitoring_gdpr_article_32_privacy_control
+      evidence: post_enforcement_monitoring_gdpr_article_32_compliance_record
+    article_35:
+      implementation: post_enforcement_monitoring_gdpr_article_35_privacy_control
+      evidence: post_enforcement_monitoring_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: post_enforcement_monitoring_iso42001_clause_4_1_aims_control
+      evidence: post_enforcement_monitoring_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: post_enforcement_monitoring_iso42001_clause_4_2_aims_control
+      evidence: post_enforcement_monitoring_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: post_enforcement_monitoring_iso42001_clause_5_1_aims_control
+      evidence: post_enforcement_monitoring_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: post_enforcement_monitoring_iso42001_clause_5_2_aims_control
+      evidence: post_enforcement_monitoring_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: post_enforcement_monitoring_iso42001_clause_6_1_aims_control
+      evidence: post_enforcement_monitoring_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: post_enforcement_monitoring_iso42001_clause_8_1_aims_control
+      evidence: post_enforcement_monitoring_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: post_enforcement_monitoring_iso42001_clause_9_1_aims_control
+      evidence: post_enforcement_monitoring_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: post_enforcement_monitoring_iso42001_clause_10_1_aims_control
+      evidence: post_enforcement_monitoring_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: post_enforcement_monitoring_iso23894_risk_identification_alignment
+      evidence: post_enforcement_monitoring_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: post_enforcement_monitoring_iso23894_risk_analysis_alignment
+      evidence: post_enforcement_monitoring_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: post_enforcement_monitoring_iso23894_risk_evaluation_alignment
+      evidence: post_enforcement_monitoring_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: post_enforcement_monitoring_iso23894_risk_treatment_alignment
+      evidence: post_enforcement_monitoring_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: post_enforcement_monitoring_iso23894_risk_monitoring_alignment
+      evidence: post_enforcement_monitoring_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: post_enforcement_monitoring_iso19011_audit_principles_procedure
+      evidence: post_enforcement_monitoring_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: post_enforcement_monitoring_iso19011_audit_programme_management_procedure
+      evidence: post_enforcement_monitoring_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: post_enforcement_monitoring_iso19011_audit_evidence_requirements_procedure
+      evidence: post_enforcement_monitoring_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: post_enforcement_monitoring_iso19011_audit_reporting_procedure
+      evidence: post_enforcement_monitoring_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: post_enforcement_monitoring_nist_rmf_govern_control_mapping
+      evidence: post_enforcement_monitoring_nist_rmf_govern_assessment
+    map:
+      implementation: post_enforcement_monitoring_nist_rmf_map_control_mapping
+      evidence: post_enforcement_monitoring_nist_rmf_map_assessment
+    measure:
+      implementation: post_enforcement_monitoring_nist_rmf_measure_control_mapping
+      evidence: post_enforcement_monitoring_nist_rmf_measure_assessment
+    manage:
+      implementation: post_enforcement_monitoring_nist_rmf_manage_control_mapping
+      evidence: post_enforcement_monitoring_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: post_enforcement_monitoring_nist_csf_identify_safeguard
+      evidence: post_enforcement_monitoring_nist_csf_identify_log
+    protect:
+      implementation: post_enforcement_monitoring_nist_csf_protect_safeguard
+      evidence: post_enforcement_monitoring_nist_csf_protect_log
+    detect:
+      implementation: post_enforcement_monitoring_nist_csf_detect_safeguard
+      evidence: post_enforcement_monitoring_nist_csf_detect_log
+    respond:
+      implementation: post_enforcement_monitoring_nist_csf_respond_safeguard
+      evidence: post_enforcement_monitoring_nist_csf_respond_log
+    recover:
+      implementation: post_enforcement_monitoring_nist_csf_recover_safeguard
+      evidence: post_enforcement_monitoring_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: post_enforcement_monitoring_oecd_accountability_governance_control
+      evidence: post_enforcement_monitoring_oecd_accountability_attestation
+    transparency:
+      implementation: post_enforcement_monitoring_oecd_transparency_governance_control
+      evidence: post_enforcement_monitoring_oecd_transparency_attestation
+    robustness_security:
+      implementation: post_enforcement_monitoring_oecd_robustness_security_governance_control
+      evidence: post_enforcement_monitoring_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: post_enforcement_monitoring_oecd_inclusive_growth_governance_control
+      evidence: post_enforcement_monitoring_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: post_enforcement_monitoring_unesco_human_rights_ethics_control
+      evidence: post_enforcement_monitoring_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: post_enforcement_monitoring_unesco_fairness_non_discrimination_ethics_control
+      evidence: post_enforcement_monitoring_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: post_enforcement_monitoring_unesco_transparency_explainability_ethics_control
+      evidence: post_enforcement_monitoring_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: post_enforcement_monitoring_unesco_accountability_ethics_control
+      evidence: post_enforcement_monitoring_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Post Enforcement Monitoring covering executive, board, regulatory,
+      audit, forensic, and attestation consumers.
+  report_types:
+    - post_enforcement_monitoring_status_report
+    - post_enforcement_monitoring_compliance_report
+    - post_enforcement_monitoring_enforcement_report
+    - post_enforcement_monitoring_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [post_enforcement_monitoring_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_post_enforcement_monitoring
+  - quarterly_control_testing_post_enforcement_monitoring
+  - evidence_sampling_post_enforcement_monitoring
+  - finding_remediation_tracking_post_enforcement_monitoring
+enforcement_requirements:
+  enforcement_framework:
+    Enforcement Framework within Post Enforcement Monitoring scope.
+  enforcement_decision_logic:
+    Enforcement Decision Logic within Post Enforcement Monitoring scope.
+  sanction_management:
+    Sanction Management within Post Enforcement Monitoring scope.
+  penalty_management:
+    Penalty Management within Post Enforcement Monitoring scope.
+  post_enforcement_monitoring:
+    Post Enforcement Monitoring within Post Enforcement Monitoring scope.
+remediation_requirements:
+  remediation_workflows:
+    Remediation Workflows for Post Enforcement Monitoring.
+  corrective_actions:
+    Corrective Actions for Post Enforcement Monitoring.
+  compliance_restoration:
+    Compliance Restoration for Post Enforcement Monitoring.
+  effectiveness_analysis:
+    Effectiveness Analysis for Post Enforcement Monitoring.
+  deadline_tracking:
+    Deadline Tracking for Post Enforcement Monitoring.
+integration_points:
+  upstream_systems:
+    - system: enforcement_actions
+      purpose: post_enforcement_monitoring_to_enforcement_actions_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_enforcement_actions]
+      produced_artifacts: [post_enforcement_monitoring_output_to_enforcement_actions]
+    - system: compliance_audits
+      purpose: post_enforcement_monitoring_to_compliance_audits_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_compliance_audits]
+      produced_artifacts: [post_enforcement_monitoring_output_to_compliance_audits]
+    - system: penalty_management
+      purpose: post_enforcement_monitoring_to_penalty_management_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_penalty_management]
+      produced_artifacts: [post_enforcement_monitoring_output_to_penalty_management]
+  downstream_systems:
+    - system: compliance_audits
+      purpose: post_enforcement_monitoring_to_compliance_audits_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_compliance_audits]
+      produced_artifacts: [post_enforcement_monitoring_output_to_compliance_audits]
+    - system: reporting
+      purpose: post_enforcement_monitoring_to_reporting_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_reporting]
+      produced_artifacts: [post_enforcement_monitoring_output_to_reporting]
+    - system: post_market_monitoring
+      purpose: post_enforcement_monitoring_to_post_market_monitoring_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_post_market_monitoring]
+      produced_artifacts: [post_enforcement_monitoring_output_to_post_market_monitoring]
+  governance_integrations:
+    - system: remediation_engine
+      purpose: post_enforcement_monitoring_to_remediation_engine_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_remediation_engine]
+      produced_artifacts: [post_enforcement_monitoring_output_to_remediation_engine]
+    - system: policy_enforcement
+      purpose: post_enforcement_monitoring_to_policy_enforcement_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_policy_enforcement]
+      produced_artifacts: [post_enforcement_monitoring_output_to_policy_enforcement]
+  risk_integrations:
+    - system: risk_management
+      purpose: post_enforcement_monitoring_to_risk_management_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_risk_management]
+      produced_artifacts: [post_enforcement_monitoring_output_to_risk_management]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: post_enforcement_monitoring_to_compliance_audits_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_compliance_audits]
+      produced_artifacts: [post_enforcement_monitoring_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: post_enforcement_monitoring_to_internal_audit_system_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_internal_audit_system]
+      produced_artifacts: [post_enforcement_monitoring_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: post_enforcement_monitoring_to_governance_reporting_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_governance_reporting]
+      produced_artifacts: [post_enforcement_monitoring_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: post_enforcement_monitoring_to_executive_dashboard_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_executive_dashboard]
+      produced_artifacts: [post_enforcement_monitoring_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: post_enforcement_monitoring_to_enforcement_actions_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_enforcement_actions]
+      produced_artifacts: [post_enforcement_monitoring_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: post_enforcement_monitoring_to_policy_enforcement_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_policy_enforcement]
+      produced_artifacts: [post_enforcement_monitoring_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: post_enforcement_monitoring_to_remediation_tracking_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_remediation_tracking]
+      produced_artifacts: [post_enforcement_monitoring_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: post_enforcement_monitoring_to_remediation_engine_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_remediation_engine]
+      produced_artifacts: [post_enforcement_monitoring_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: post_enforcement_monitoring_to_evidence_preservation_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_evidence_preservation]
+      produced_artifacts: [post_enforcement_monitoring_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: post_enforcement_monitoring_to_technical_documentation_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_technical_documentation]
+      produced_artifacts: [post_enforcement_monitoring_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: post_enforcement_monitoring_to_post_market_monitoring_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_post_market_monitoring]
+      produced_artifacts: [post_enforcement_monitoring_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: post_enforcement_monitoring_to_incident_reporting_governance_sync
+      data_exchanged: [post_enforcement_monitoring_events, post_enforcement_monitoring_evidence_refs, post_enforcement_monitoring_metrics]
+      trigger_conditions: [post_enforcement_monitoring_state_change, post_enforcement_monitoring_escalation, post_enforcement_monitoring_closure]
+      consumed_artifacts: [post_enforcement_monitoring_input_from_incident_reporting]
+      produced_artifacts: [post_enforcement_monitoring_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Post Enforcement Monitoring activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Post Enforcement Monitoring procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - post_enforcement_monitoring_procedure_checklist
+    required_evidence:
+      - post_enforcement_monitoring_process_log
+    required_metrics:
+      - post_enforcement_monitoring_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Post Enforcement Monitoring enterprise-wide.
+    required_capabilities:
+      - post_enforcement_monitoring_standard_control_set
+    required_controls:
+      - post_enforcement_monitoring_control_register
+    required_evidence:
+      - post_enforcement_monitoring_audit_evidence
+    required_metrics:
+      - post_enforcement_monitoring_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Post Enforcement Monitoring with KPI optimization.
+    required_capabilities:
+      - post_enforcement_monitoring_automated_controls
+    required_controls:
+      - post_enforcement_monitoring_telemetry_controls
+    required_evidence:
+      - post_enforcement_monitoring_assurance_package
+    required_metrics:
+      - post_enforcement_monitoring_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Post Enforcement Monitoring with predictive analytics.
+    required_capabilities:
+      - post_enforcement_monitoring_autonomous_governance
+    required_controls:
+      - post_enforcement_monitoring_adaptive_controls
+    required_evidence:
+      - post_enforcement_monitoring_regulator_ready_portfolio
+    required_metrics:
+      - post_enforcement_monitoring_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - post_enforcement_monitoring_report
+  - post_enforcement_monitoring_evidence_package
+  - post_enforcement_monitoring_attestation
+  - post_enforcement_monitoring_enforcement_record
+artifacts:
+  - name: post_enforcement_monitoring_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: post_enforcement_monitoring_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: post_enforcement_monitoring_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: post_enforcement_monitoring_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - post_enforcement_monitoring_case_record
+  - post_enforcement_monitoring_audit_record
+  - post_enforcement_monitoring_enforcement_record
+  - post_enforcement_monitoring_remediation_record
+monitoring:
+  continuous:
+    - post_enforcement_monitoring_control_telemetry
+    - post_enforcement_monitoring_evidence_integrity_feed
+    - post_enforcement_monitoring_escalation_queue
+  periodic:
+    - post_enforcement_monitoring_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Post Enforcement Monitoring effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: post_enforcement_monitoring_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: post_enforcement_monitoring_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: post_enforcement_monitoring_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: post_enforcement_monitoring_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Post Enforcement Monitoring

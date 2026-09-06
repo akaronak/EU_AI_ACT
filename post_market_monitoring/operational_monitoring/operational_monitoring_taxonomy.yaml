@@ -1,0 +1,1229 @@
+metadata:
+  document_id: "PMM-OM-OPERATIONAL_-001"
+  title: "Operational Monitoring Taxonomy"
+  domain: "Operational Monitoring"
+  version: "1.0.0"
+  classification: "CONFIDENTIAL_REGULATORY"
+purpose: "Govern, operationalize, and validate post-market monitoring workflows for Operational Monitoring Taxonomy under the Operational Monitoring framework. This skill provides machine-readable, executable post-market monitoring & post-deployment governance coordination rules specifically tailored to operational indicator alerts, system health check loops, operational metrics logs, telemetry threshold triages properties."
+scope: "Scope covers all continuous monitoring targets, drift detection accuracy parameters, incident analysis, and market surveillance validation governed by the Operational Monitoring Taxonomy framework."
+objectives:
+  - "Enforce post-market monitoring and post-deployment validation rules under Operational Monitoring Taxonomy criteria."
+  - "Ensure real-time incident detection and corrective actions coordinates for Operational Monitoring."
+  - "Compile evidence-driven, regulator-ready compliance records under EU AI Act Article 61."
+definitions:
+  operational_monitoring_taxonomy_pmm_policy: "The primary operational post-market monitoring and deployment governance rules for Operational Monitoring Taxonomy."
+  operational_monitoring_taxonomy_telemetry_log: "Cryptographically sealed operational health, performance, and compliance log containing real-world data for Operational Monitoring Taxonomy."
+taxonomy:
+  monitoring_categories:
+    - "DEPLOYMENT_HEALTH"
+    - "COMPLIANCE_DRIFT"
+    - "PERFORMANCE_DEGRADATION"
+    - "INCIDENT_ALERT"
+  observability_modes:
+    - "REAL_TIME"
+    - "BATCH_DAILY"
+    - "HEURISTIC_TRIGGERED"
+    - "EXTERNAL_SURVEILLANCE"
+governance:
+  governance_model: "COORDINATED_POST_MARKET_MONITORING_GOVERNANCE"
+  governance_structure: "Enterprise Post-Market Governance Committee - Operational Monitoring"
+  roles_and_responsibilities:
+    monitoring_steward: "Responsible for post-market monitoring logs and operational data verification for Operational Monitoring Taxonomy."
+    incident_commander: "Responsible for serious incident classification and corrective actions coordination for Operational Monitoring Taxonomy."
+    compliance_steward: "Responsible for market surveillance interactions and authority notifications for Operational Monitoring Taxonomy."
+  stakeholders:
+    - "Chief Compliance Officer"
+    - "VP of Quality Assurance"
+    - "Director of AI Operations"
+governance_model:
+  model_type: "COORDINATED_POST_MARKET_MONITORING_GOVERNANCE"
+  model_rationale: "Ensures continuous feedback loops, systematic drift detection, prompt corrective remediation, and regulator-ready evidence logs across deployment and operational stages."
+governance_structure:
+  oversight_board: "Global Post-Market Assurance Council - Operational Monitoring"
+  escalation_contact: "post_market_monitoring@enterprise.ai"
+roles_and_responsibilities:
+  monitoring_steward: "Primary owner of the continuous monitoring coverage metrics and telemetry checkers under Operational Monitoring Taxonomy."
+  incident_commander: "Responsible for triaging anomalies, scoring severity levels, and routing incident logs."
+  compliance_steward: "Responsible for authority reports, notified body communications, and audit evidence."
+stakeholders:
+  - "Head of Global Post-Deployment Assurance"
+  - "Director of Regulatory Compliance"
+  - "VP of Enterprise Quality Management"
+  - "Operational Monitoring Specialist Owner"
+capabilities:
+  - "Continuous operational monitoring and behavior tracking under Operational Monitoring Taxonomy."
+  - "Systematic drift and degradation detection for safety and compliance constraints execution under Operational Monitoring."
+  - "Cryptographically verified incident analysis and corrective action management workflows."
+requirements:
+  - "All models under Operational Monitoring Taxonomy must execute with active continuous telemetry logging."
+  - "Post-market compliance scores must meet or exceed the 0.98 target thresholds."
+  - "Corrective actions for critical incidents must be initiated within 2 hours of detection."
+controls:
+  - control_id: "CTRL-PMM-OM-OPERAT-01"
+    control_name: "continuous_monitoring_control"
+    control_type: "PREVENTATIVE"
+    control_category: "MONITORING"
+    control_objective: "Enforce continuous monitoring coverage and behavior tracking for Operational Monitoring Taxonomy."
+    post_market_rationale: "Ensures operational health metrics are continuously collected, preventing unmonitored silent failures."
+    implementation_guidance: "Deploy automated health check loops validating active telemetry coverage daily."
+    control_owner: "Monitoring Steward"
+    control_frequency: "DAILY"
+    monitoring_method: "Monitor telemetry metrics and data collection coverage on the GRC dashboard."
+    validation_method: "Deactivate telemetry agent in sandbox, confirm alert triggers within 30 seconds."
+    evidence_generated: "Signed daily monitoring coverage report."
+    corrective_actions: "Re-initialize telemetry collector process and trigger diagnostic tests."
+    audit_considerations: "Check telemetry configuration scripts and connection logs history."
+  - control_id: "CTRL-PMM-OM-OPERAT-02"
+    control_name: "drift_detection_control"
+    control_type: "DETECTIVE"
+    control_category: "DRIFT_MANAGEMENT"
+    control_objective: "Assess compliance drift and accuracy decay indices for Operational Monitoring Taxonomy."
+    post_market_rationale: "Ensures systematic drift assessment, preventing model bias or outdated rule execution."
+    implementation_guidance: "Deploy drift monitors verifying input distributions against baselines weekly."
+    control_owner: "Monitoring Steward"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Review Kolmogorov-Smirnov test scores on validation portals."
+    validation_method: "Inject biased mock inputs into sandbox instance, verify drift warning is issued."
+    evidence_generated: "Weekly signed compliance drift assessment."
+    corrective_actions: "Initiate data retraining workflow and apply containment profile constraints."
+    audit_considerations: "Check baseline reference parameters and statistical analysis tools logs."
+  - control_id: "CTRL-PMM-OM-OPERAT-03"
+    control_name: "incident_intelligence_control"
+    control_type: "DETECTIVE"
+    control_category: "INCIDENT_MANAGEMENT"
+    control_objective: "Identify serious incidents and score severity levels for Operational Monitoring Taxonomy."
+    post_market_rationale: "Ensures rapid incident identification and classification under EU AI Act criteria."
+    implementation_guidance: "Triage alert signals against incident severity matrices continuously."
+    control_owner: "Incident Commander"
+    control_frequency: "CONTINUOUS"
+    monitoring_method: "Monitor active incident classification scoreboard."
+    validation_method: "Inject mock critical failure signature, confirm incident ticket creation."
+    evidence_generated: "Sealed Incident Triage and classification logs."
+    corrective_actions: "Activate containment protocol and notify Compliance Steward."
+    audit_considerations: "Inspect incident resolution timelines and classification rules manifests."
+  - control_id: "CTRL-PMM-OM-OPERAT-04"
+    control_name: "market_surveillance_control"
+    control_type: "PREVENTATIVE"
+    control_category: "REGULATORY"
+    control_objective: "Maintain authority interactions readiness and reporting metrics for Operational Monitoring Taxonomy."
+    post_market_rationale: "Ensures continuous readiness for national market surveillance inquiries and compliance checks."
+    implementation_guidance: "Archive evidence documents in the secure regulator export portal monthly."
+    control_owner: "Compliance Steward"
+    control_frequency: "MONTHLY"
+    monitoring_method: "Verify regulator portal export connection status weekly."
+    validation_method: "Run simulated audit package assembly tool, check export file formats."
+    evidence_generated: "Signed Monthly Market Surveillance readiness certificate."
+    corrective_actions: "Re-run compliance packager and update registry mappings."
+    audit_considerations: "Check export file checksum registries and access logs."
+  - control_id: "CTRL-PMM-OM-OPERAT-05"
+    control_name: "performance_assurance_control"
+    control_type: "DETECTIVE"
+    control_category: "PERFORMANCE"
+    control_objective: "Assess reliability decay and stability parameters for Operational Monitoring Taxonomy."
+    post_market_rationale: "Ensures real-world performance parameters meet pre-deployment commitments."
+    implementation_guidance: "Deploy accuracy monitors tracking inference errors hourly."
+    control_owner: "Monitoring Steward"
+    control_frequency: "HOURLY"
+    monitoring_method: "Track latency and stability indices on performance portal."
+    validation_method: "Introduce artificial delay in system test node, verify degradation trigger."
+    evidence_generated: "Hourly signed performance assurance log."
+    corrective_actions: "Initiate automated system failover and scale cluster nodes."
+    audit_considerations: "Verify performance thresholds files and telemetry collection schedules."
+  - control_id: "CTRL-PMM-OM-OPERAT-06"
+    control_name: "feedback_loop_control"
+    control_type: "DETECTIVE"
+    control_category: "FEEDBACK"
+    control_objective: "Collect, validate, and analyze customer feedback and complaints for Operational Monitoring Taxonomy."
+    post_market_rationale: "Ensures customer feedback directly updates the risk management loop, identifying emerging threats."
+    implementation_guidance: "Triage feedback logs and analyze complaints metadata weekly."
+    control_owner: "Incident Commander"
+    control_frequency: "WEEKLY"
+    monitoring_method: "Monitor customer complaints resolution timeline on dashboard."
+    validation_method: "Submit mock critical safety complaint, check classification latency."
+    evidence_generated: "Weekly feedback-driven risk mitigation report."
+    corrective_actions: "Update risk register constraints and re-evaluate behavior rules."
+    audit_considerations: "Inspect feedback databases and classification logs."
+decision_logic:
+  escalation_trigger: "If post_market_compliance_score drops below 0.98 or severe incident alert is triggered, activate incident containment and notify Incident Commander."
+  incident_classification: "Classify failures as CRITICAL if they cause serious physical harm, system desynchronization, or violate prohibited AI practices."
+processes:
+  operational_checks: "Standard operating procedures for checking compliance with continuous monitoring checklists for Operational Monitoring Taxonomy."
+  incident_remediation: "Standard workflow to route incident logs, initiate corrective actions, and apply containment profiles."
+workflows:
+  - workflow_id: "continuous_monitoring_workflow"
+    workflow_owner: "Monitoring Steward"
+    workflow_objective: "Executing continuous operational monitoring checks and tracking behavior metrics for Operational Monitoring Taxonomy."
+    trigger: "Scheduled monitoring interval or data pipeline update."
+    inputs:
+      - "operational_telemetry_configs"
+      - "health_thresholds_file"
+      - "system_log_streams"
+    activities:
+      - "Verify format of incoming telemetry log streams."
+      - "Enforce monitoring checklist parameters."
+      - "Issue continuous monitoring coverage token."
+    decision_points:
+      - "Telemetry feed status check pass"
+      - "Telemetry schema validation pass"
+    approvals:
+      - "Monitoring Steward sign-off"
+    outputs:
+      - "Telemetry coverage certificate"
+      - "GRC status updates"
+    generated_evidence: "Signed continuous monitoring checklist archived in GRC database."
+    monitoring_outputs:
+      monitoring_status: "SUCCESSFUL"
+      coverage_coverage_score: 0.99
+    success_criteria: "Active monitoring verified and status logged with zero alerts within SLA limits."
+    failure_conditions: "Telemetry feeds offline or data stream corrupted."
+  - workflow_id: "drift_detection_workflow"
+    workflow_owner: "Monitoring Steward"
+    workflow_objective: "Assessing compliance drift and verifying input distribution bounds for Operational Monitoring Taxonomy."
+    trigger: "Weekly scheduled drift assessment trigger."
+    inputs:
+      - "production_input_data"
+      - "baseline_training_parameters"
+      - "drift_thresholds_manifest"
+    activities:
+      - "Compare production data distributions with baseline profiles."
+      - "Compute Kolmogorov-Smirnov scores and drift metrics."
+      - "Log drift detection status to GRC databases."
+    decision_points:
+      - "Drift index under warning threshold"
+      - "Drift status validation check pass"
+    approvals:
+      - "Operations Director approval"
+    outputs:
+      - "Drift assessment certificate"
+      - "Updated drift logs"
+    generated_evidence: "Signed compliance drift report stored in secure vault."
+    monitoring_outputs:
+      drift_detected: False
+      maximum_drift_index: 0.032
+    success_criteria: "Drift analysis completed and records archived with zero failures."
+    failure_conditions: "Production data inaccessible or training baseline registry missing."
+  - workflow_id: "incident_analysis_workflow"
+    workflow_owner: "Incident Commander"
+    workflow_objective: "Triage incident alerts and classification of severity levels for Operational Monitoring Taxonomy."
+    trigger: "Anomaly alert signal or external operator ticket."
+    inputs:
+      - "incident_log_file"
+      - "severity_scoring_rules"
+      - "system_state_metadata"
+    activities:
+      - "Triage incoming incident log properties."
+      - "Apply classification scoring rules."
+      - "Route incident ticket to Incident Commander."
+    decision_points:
+      - "Incident classification validation"
+      - "Remediation action required"
+    approvals:
+      - "Incident Commander sign-off"
+    outputs:
+      - "Incident triage record"
+      - "GRC ticket updates"
+    generated_evidence: "Signed Incident Triage report saved in secure databases."
+    monitoring_outputs:
+      incident_severity_level: "LOW"
+      triage_latency_seconds: 120
+    success_criteria: "Incident triaged and ticket created within 5 minutes of alarm."
+    failure_conditions: "Severity metrics corrupted or triage engine failure."
+  - workflow_id: "market_surveillance_workflow"
+    workflow_owner: "Compliance Steward"
+    workflow_objective: "Updating regulatory compliance packages and exporting data for Operational Monitoring Taxonomy."
+    trigger: "Authority inquiry or monthly reporting schedule."
+    inputs:
+      - "compliance_records_inventory"
+      - "surveillance_reporting_template"
+      - "authority_key_registry"
+    activities:
+      - "Assemble compliance evidence logs package."
+      - "Enforce schema checklist rules pre-flight."
+      - "Upload audit records package to authority dashboard."
+    decision_points:
+      - "Authority connection verification pass"
+      - "Audit package validation checks"
+    approvals:
+      - "Compliance Director approval"
+    outputs:
+      - "Audit records packet"
+      - "Surveillance receipt token"
+    generated_evidence: "Signed Market Surveillance readiness certificate saved in compliance portal."
+    monitoring_outputs:
+      export_status: "COMPLETED"
+      authority_acknowledged: True
+    success_criteria: "Audit package compiled and exported with zero errors within SLA limits."
+    failure_conditions: "Authority portal connection timeout or inventory missing."
+  - workflow_id: "feedback_analysis_workflow"
+    workflow_owner: "Incident Commander"
+    workflow_objective: "Collecting, triaging, and analyzing feedback logs for Operational Monitoring Taxonomy."
+    trigger: "Submission of new customer safety feedback."
+    inputs:
+      - "feedback_records_database"
+      - "complaint_triage_rules"
+      - "risk_mitigation_manifest"
+    activities:
+      - "Verify and parse complaint metadata fields."
+      - "Triage feedback records against safety indices."
+      - "Issue feedback-driven threat alerts if necessary."
+    decision_points:
+      - "Feedback classification validation"
+      - "Risk registers updates required"
+    approvals:
+      - "Operations Director approval"
+    outputs:
+      - "Feedback triage record"
+      - "Risk registry update directives"
+    generated_evidence: "Signed feedback classification report archived in GRC database."
+    monitoring_outputs:
+      complaints_triaged: 12
+      feedback_resolution_latency_hours: 24
+    success_criteria: "Feedback triaged and risk matrices updated within 4 hours of submission."
+    failure_conditions: "Feedback text unreadable or database write timeout."
+  - workflow_id: "corrective_action_workflow"
+    workflow_owner: "Incident Commander"
+    workflow_objective: "Routing remediation actions and executing corrective plans for Operational Monitoring Taxonomy."
+    trigger: "Critical incident classification or compliance alert."
+    inputs:
+      - "incident_triage_record"
+      - "corrective_action_template"
+      - "remediation_credentials"
+    activities:
+      - "Verify operator remediation credentials pre-flight."
+      - "Execute corrective actions and containment gates."
+      - "Verify system restoration metrics."
+    decision_points:
+      - "Remediation credentials validation pass"
+      - "System restoration checks pass"
+    approvals:
+      - "Lead Auditor sign-off"
+      - "Operations Director approval"
+    outputs:
+      - "Corrective action validation certificate"
+      - "System restoration report"
+    generated_evidence: "Signed corrective action certificate archived in secure databases."
+    monitoring_outputs:
+      action_executed: "CONTAINMENT"
+      remediation_latency_minutes: 15
+    success_criteria: "Remediation executed and system restored within SLA boundaries."
+    failure_conditions: "Remediation credentials invalid or failover nodes offline."
+  - workflow_id: "performance_assurance_workflow"
+    workflow_owner: "Monitoring Steward"
+    workflow_objective: "Monitoring stability indices and verifying reliability metrics for Operational Monitoring Taxonomy."
+    trigger: "Hourly scheduled performance check tick."
+    inputs:
+      - "real_world_performance_logs"
+      - "stability_thresholds_file"
+      - "latency_metrics_db"
+    activities:
+      - "Verify inference accuracy indicators."
+      - "Track operational latency metrics daily."
+      - "Log performance degradation scorecards."
+    decision_points:
+      - "Accuracy meets safety parameters"
+      - "Stability metrics check pass"
+    approvals:
+      - "Monitoring Steward approval"
+    outputs:
+      - "Performance assurance scorecard"
+      - "Updated stability logs"
+    generated_evidence: "Signed performance assurance certificate stored in GRC database."
+    monitoring_outputs:
+      assurance_verified: True
+      performance_score: 0.992
+    success_criteria: "Scorecard generated and stability verified with zero alerts."
+    failure_conditions: "Performance data unavailable or stability indices missing."
+  - workflow_id: "post_market_review_workflow"
+    workflow_owner: "Compliance Steward"
+    workflow_objective: "Reviewing post-market metrics and compiling compliance files for Operational Monitoring Taxonomy."
+    trigger: "Monthly post-market review tick."
+    inputs:
+      - "monthly_monitoring_reports"
+      - "compliance_scorecards_vault"
+      - "evidence_attestations_log"
+    activities:
+      - "Audit E2E trace maps and check hashes."
+      - "Compile monthly post-market compliance file."
+      - "Publish updated maturity score indicator."
+    decision_points:
+      - "Trace logs integrity check pass"
+      - "Maturity metrics check pass"
+    approvals:
+      - "Lead Compliance Counsel sign-off"
+    outputs:
+      - "Monthly compliance file"
+      - "Updated maturity score receipt"
+    generated_evidence: "Signed Post-Market compliance file archived in compliance vaults."
+    monitoring_outputs:
+      review_completed: True
+      compliance_score: 0.995
+    success_criteria: "Review completed and compliance file sealed with zero exceptions."
+    failure_conditions: "Attestations log corrupted or validation databases offline."
+post_market_governance_framework:
+  governance_model: "COORDINATED_POST_MARKET_MONITORING_GOVERNANCE"
+  governance_principles:
+    - "Continuous Closed-Loop Feedback"
+    - "Regulator-Ready Traceability"
+    - "Proactive Threat Containment"
+  governance_authorities:
+    - "Global Post-Market Assurance Council"
+    - "Product Safety Council"
+  governance_controls:
+    - "CTRL-PMM-OM-OPERAT-01"
+    - "CTRL-PMM-OM-OPERAT-04"
+  monitoring_accountability: "Establishes primary accountability for telemetry collection loops with the Monitoring Steward."
+  lifecycle_accountability: "Assigns primary lifecycle monitoring responsibilities directly to the Chief Compliance Officer."
+  governance_reviews:
+    - "Bi-weekly monitoring data reviews"
+    - "Annual post-market framework audits"
+  governance_assurance: "Cryptographic logs signature validations and immutable audit trails checks."
+post_deployment_framework:
+  deployment_scope: "All production environments and model deployment endpoints under Operational Monitoring Taxonomy."
+  deployment_boundaries:
+    - "Limit execution rates to SLA targets"
+    - "Limit sandbox simulations access"
+  deployment_dependencies:
+    - "Telemetry client configs"
+    - "Log rotation databases"
+  deployment_monitoring: "Verify telemetry collection statuses weekly for Operational Monitoring Taxonomy."
+  deployment_validation: "Perform daily simulations of environment constraints validation."
+  deployment_assurance: "Log environment status checks monthly in GRC ledger."
+  deployment_reporting: "Publish deployment health indicators score daily."
+continuous_monitoring_framework:
+  monitoring_targets:
+    - "inference_accuracy"
+    - "data_distribution"
+    - "model_latency"
+  monitoring_objectives:
+    - "Maintain zero unmonitored silent failures for Operational Monitoring Taxonomy."
+  monitoring_controls:
+    - "CTRL-PMM-OM-OPERAT-01"
+  monitoring_thresholds:
+    warning: "coverage < 0.99"
+    critical: "coverage < 0.98"
+  monitoring_rules:
+    - "Trigger alert email if telemetry agent stops for 30 seconds"
+  monitoring_validation: "Verify monitoring coverage metrics weekly."
+  monitoring_assurance: "Seal continuous monitoring checklists monthly."
+market_surveillance_framework:
+  surveillance_requirements:
+    - "Regulator readiness guidelines"
+    - "Authority reporting format constraints"
+  surveillance_controls:
+    - "CTRL-PMM-OM-OPERAT-04"
+  surveillance_obligations:
+    - "Promptly notify national surveillance agencies of serious incidents under Operational Monitoring Taxonomy."
+  authority_interactions: "Archiving audit evidence packages in the secure regulator export portal for Operational Monitoring Taxonomy."
+  surveillance_reporting: "Export market surveillance package monthly under Operational Monitoring Taxonomy."
+  surveillance_validation: "Verify export file schema formats monthly."
+  surveillance_assurance: "Seal surveillance readiness certifications monthly."
+operational_assurance_framework:
+  assurance_targets:
+    - "operational_stability"
+    - "telemetry_integrity"
+    - "system_health"
+  assurance_controls:
+    - "CTRL-PMM-OM-OPERAT-01"
+    - "CTRL-PMM-OM-OPERAT-05"
+  assurance_criteria:
+    - "Maintain E2E trace hashes completeness score above 0.98 for Operational Monitoring Taxonomy."
+  operational_reviews:
+    - "Weekly reviews of telemetry integrity logs"
+    - "Bi-weekly operational checks"
+  operational_testing: "Run mock anomaly injections in sandbox node weekly."
+  assurance_validation: "Confirm operational validation indicators match targets weekly."
+  assurance_reporting: "Publish operational stability scores weekly."
+incident_intelligence_framework:
+  incident_sources:
+    - "telemetry_alert_vault"
+    - "support_ticket_db"
+    - "authority_notifications_ledger"
+  incident_analysis: "Perform root-cause analysis on anomalous transactions logs weekly for Operational Monitoring Taxonomy."
+  trend_analysis: "Track incident alerts frequency and alert latency indicators monthly under Operational Monitoring Taxonomy."
+  anomaly_analysis: "Evaluate data drift anomalies and classification rules weekly under Operational Monitoring Taxonomy."
+  systemic_analysis: "Analyze downstream systemic threat logs monthly under Operational Monitoring Taxonomy."
+  intelligence_validation: "Verify triage classification parameters weekly."
+  intelligence_assurance: "Audit incident registries monthly in GRC database."
+performance_assurance_framework:
+  performance_targets:
+    - "inference_latency"
+    - "error_rate"
+    - "cluster_memory"
+  performance_controls:
+    - "CTRL-PMM-OM-OPERAT-05"
+  performance_thresholds:
+    warning: "latency_ms > 150"
+    critical: "latency_ms > 300"
+  degradation_monitoring: "Track statistical accuracy decay trends weekly for Operational Monitoring Taxonomy."
+  drift_monitoring: "Verify input data distribution parameters weekly under Operational Monitoring Taxonomy."
+  performance_validation: "Verify performance scorecard metrics weekly."
+  performance_assurance: "Seal performance validation certificates monthly."
+risk_monitoring_framework:
+  monitored_risks:
+    - "autonomy_failures"
+    - "systemic_biases"
+    - "regulatory_violations"
+  risk_indicators:
+    - "drift_indices_score"
+    - "complaints_trend_indicator"
+    - "anomaly_alerts_rate"
+  risk_thresholds:
+    warning: "drift_score > 0.05"
+    critical: "drift_score > 0.10"
+  risk_controls:
+    - "CTRL-PMM-OM-OPERAT-02"
+    - "CTRL-PMM-OM-OPERAT-06"
+  risk_alerts:
+    - "Halt sandbox execution loops if critical risk threshold is breached"
+  risk_validation: "Verify risk registry mapping constraints weekly under Operational Monitoring Taxonomy."
+  risk_assurance: "Register updated risk parameters monthly in GRC ledger."
+feedback_loop_framework:
+  feedback_sources:
+    - "customer_complaints_portal"
+    - "operational_reviews_forum"
+    - "compliance_surveys"
+  feedback_collection: "Triage customer feedback logs and parse safety complaints weekly for Operational Monitoring Taxonomy."
+  feedback_validation: "Verify customer feedback signatures weekly under Operational Monitoring Taxonomy."
+  feedback_analysis: "Triage complaints metadata and categorize severity levels weekly."
+  feedback_prioritization:
+    - "Resolve safety-related feedback within 24 hours"
+  corrective_actions:
+    - "Trigger corrective actions workflow for all classified safety bugs under Operational Monitoring Taxonomy."
+  preventive_actions:
+    - "Update risk register criteria and re-evaluate rules templates monthly for Operational Monitoring Taxonomy."
+lifecycle_governance_framework:
+  lifecycle_stages:
+    - "Pre-Deployment-Conformity"
+    - "Market-Entry-Registration"
+    - "Active-Monitoring"
+    - "Decommissioning"
+  lifecycle_controls:
+    - "CTRL-PMM-OM-OPERAT-01"
+    - "CTRL-PMM-OM-OPERAT-04"
+  lifecycle_dependencies:
+    - "QMS compliance certifications"
+    - "Market surveillance approvals"
+  lifecycle_monitoring: "Verify lifecycle stage compliance scorecards weekly under Operational Monitoring Taxonomy."
+  lifecycle_reviews:
+    - "Bi-weekly stage gate reviews"
+    - "Annual operational reviews"
+  lifecycle_validation: "Confirm lifecycle stage criteria are checked pre-flight weekly."
+  lifecycle_assurance: "Archive lifecycle audit logs in compliance vaults monthly."
+monitoring_framework:
+  monitoring_scope: "Continuous verification of operational telemetry, drift, degradation, and incident metrics."
+  alert_thresholds: "Trigger alert if compliance score falls below 0.98 or severe incident alert remains unacknowledged for 5 minutes."
+validation_framework:
+  validation_requirements:
+    - "All deployments must pass environment constraint test"
+    - "Telemetry logs must pass schema completeness check"
+  validation_methods:
+    - "Automated telemetry checks"
+    - "Statistical drift analysis"
+  validation_evidence: "Signed validation certificates archived in GRC databases."
+  validation_authority: "Monitoring Steward"
+  validation_frequency: "Daily"
+  validation_outcomes:
+    - "Pass - continue active monitoring"
+    - "Fail - block workflow execution and notify incident commander"
+evidence_intelligence:
+  evidence_sources:
+    - "telemetry_gateway_db"
+    - "violation_checks_db"
+    - "compliance_ledger_vault"
+  evidence_types:
+    - "Monitoring coverage reports"
+    - "Drift assessments"
+    - "Incident classification records"
+  monitoring_evidence: "Daily telemetry metadata logs and signature verification hashes."
+  operational_evidence: "System logs, operator override records, and failover timestamps."
+  evidence_integrity: "Cryptographic SHA-256 hashes registered in immutable audit ledger."
+  evidence_lineage: "Map evidence items back to raw telemetry log files."
+  evidence_provenance: "Generated by verified telemetry and checking deamons."
+  evidence_validation: "Check digital signatures against key authority registry daily."
+  evidence_confidence: 0.99
+  evidence_retention: "10 years in secure operational archive"
+telemetry:
+  telemetry_sources:
+    - "production_system_logs"
+    - "drift_monitoring_service"
+    - "complaint_database"
+  collection_frequency: "Continuous"
+  telemetry_retention: "90 days active, 10 years compliance archive"
+  telemetry_integrity: "Cryptographically signed telemetry data blocks"
+  telemetry_validation: "Daily signature validations and completeness checks"
+post_market_telemetry:
+  monitoring_events: "Track continuous telemetry collection loops for Operational Monitoring Taxonomy."
+  anomaly_events: "Record dynamic data distribution anomalies and classification rules under Operational Monitoring Taxonomy."
+  drift_events: "Log weekly compliance drift assessments and retraining triggers under Operational Monitoring Taxonomy."
+  degradation_events: "Log accuracy decay trends and reliability alerts for Operational Monitoring Taxonomy."
+  incident_events: "Triage alert signals and route serious incident logs under Operational Monitoring Taxonomy."
+  corrective_action_events: "Record operator remediation credentials and restoring triggers under Operational Monitoring Taxonomy."
+  surveillance_events: "Record market surveillance export packages and authority receipt tokens under Operational Monitoring Taxonomy."
+  feedback_events: "Triage customer feedback logs and parse safety complaints weekly for Operational Monitoring Taxonomy."
+  governance_alerts: "High priority compliance alerts sent to post-market lead."
+  governance_indicators: "Check validation delays and recall execution latency indicators."
+metrics:
+  - metric_name: "operational_monitoring_taxonomy_continuous_monitoring_coverage"
+    formula: "COUNT(monitored_nodes) / COUNT(total_nodes)"
+    target: "1.00"
+    warning_threshold: "0.99"
+    critical_threshold: "0.98"
+    measurement_frequency: "DAILY"
+    owner: "Monitoring Steward"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Daily Monitoring Coverage report."
+  - metric_name: "operational_monitoring_taxonomy_drift_detection_accuracy"
+    formula: "COUNT(true_drift_alerts) / COUNT(total_drift_alerts)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.85"
+    measurement_frequency: "WEEKLY"
+    owner: "Monitoring Steward"
+    data_source: "violation_checks_db"
+    evidence_generated: "Weekly Drift Accuracy scorecard."
+  - metric_name: "operational_monitoring_taxonomy_performance_assurance_score"
+    formula: "COUNT(passed_performance_checks) / COUNT(total_performance_checks)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "HOURLY"
+    owner: "Monitoring Steward"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Hourly Performance Assurance logs."
+  - metric_name: "operational_monitoring_taxonomy_market_surveillance_readiness_score"
+    formula: "COUNT(ready_evidence_artifacts) / COUNT(required_evidence_artifacts)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "MONTHLY"
+    owner: "Compliance Steward"
+    data_source: "compliance_ledger_vault"
+    evidence_generated: "Monthly Surveillance Readiness certificate."
+  - metric_name: "operational_monitoring_taxonomy_incident_detection_effectiveness"
+    formula: "COUNT(detected_incidents) / COUNT(total_incidents)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "DAILY"
+    owner: "Incident Commander"
+    data_source: "violation_checks_db"
+    evidence_generated: "Daily Incident Detection metrics."
+  - metric_name: "operational_monitoring_taxonomy_corrective_action_closure_rate"
+    formula: "COUNT(closed_actions_within_SLA) / COUNT(total_actions)"
+    target: "0.98"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Incident Commander"
+    data_source: "violation_checks_db"
+    evidence_generated: "Weekly Corrective Action scorecard."
+  - metric_name: "operational_monitoring_taxonomy_feedback_resolution_rate"
+    formula: "COUNT(resolved_complaints_within_SLA) / COUNT(total_complaints)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.85"
+    measurement_frequency: "WEEKLY"
+    owner: "Incident Commander"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Weekly Feedback Resolution logs."
+  - metric_name: "operational_monitoring_taxonomy_operational_stability_score"
+    formula: "passed_stability_ticks / total_stability_ticks"
+    target: "0.99"
+    warning_threshold: "0.97"
+    critical_threshold: "0.95"
+    measurement_frequency: "DAILY"
+    owner: "Monitoring Steward"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Daily Operational Stability report."
+  - metric_name: "operational_monitoring_taxonomy_post_market_compliance_score"
+    formula: "passed_compliance_checks / total_compliance_checks"
+    target: "1.00"
+    warning_threshold: "0.99"
+    critical_threshold: "0.98"
+    measurement_frequency: "WEEKLY"
+    owner: "Compliance Steward"
+    data_source: "compliance_ledger_vault"
+    evidence_generated: "Weekly Post-Market Compliance scorecard."
+  - metric_name: "operational_monitoring_taxonomy_post_market_maturity_score"
+    formula: "current_maturity_level / 7.0"
+    target: "0.85"
+    warning_threshold: "0.71"
+    critical_threshold: "0.57"
+    measurement_frequency: "ANNUALLY"
+    owner: "Compliance Steward"
+    data_source: "telemetry_gateway_db"
+    evidence_generated: "Annual Maturity Assessment certificate."
+kpis:
+  - "operational_monitoring_taxonomy_continuous_monitoring_coverage"
+  - "operational_monitoring_taxonomy_performance_assurance_score"
+kris:
+  - "operational_monitoring_taxonomy_drift_detection_accuracy"
+  - "operational_monitoring_taxonomy_post_market_maturity_score"
+thresholds:
+  - "Warning: operational_monitoring_taxonomy_continuous_monitoring_coverage < 0.99"
+  - "Critical: operational_monitoring_taxonomy_continuous_monitoring_coverage < 0.98"
+relationships:
+  monitoring_links:
+    - source: "urn:enterprise:monitoring:operational_monitoring_taxonomy"
+      target: "urn:enterprise:compliance:post_market"
+      relationship_type: "MONITORS_AND_REPORTS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-PMM-OM-STD."
+  incident_links:
+    - source: "urn:enterprise:incident:operational_monitoring_taxonomy"
+      target: "urn:enterprise:compliance:post_market"
+      relationship_type: "ESCALATES_TO"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-PMM-OM-STD."
+  surveillance_links:
+    - source: "urn:enterprise:surveillance:operational_monitoring_taxonomy"
+      target: "urn:enterprise:compliance:post_market"
+      relationship_type: "REPORTS_TO"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-PMM-OM-STD."
+  feedback_links:
+    - source: "urn:enterprise:feedback:operational_monitoring_taxonomy"
+      target: "urn:enterprise:compliance:post_market"
+      relationship_type: "FEEDS_INTO"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-PMM-OM-STD."
+  lifecycle_links:
+    - source: "urn:enterprise:lifecycle:operational_monitoring_taxonomy"
+      target: "urn:enterprise:compliance:post_market"
+      relationship_type: "GOVERNS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-PMM-OM-STD."
+  evidence_links:
+    - source: "urn:enterprise:evidence:operational_monitoring_taxonomy"
+      target: "urn:enterprise:compliance:post_market"
+      relationship_type: "ATTESTS_TO"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-PMM-OM-STD."
+  workflow_links:
+    - source: "urn:enterprise:workflow:operational_monitoring_taxonomy"
+      target: "urn:enterprise:compliance:post_market"
+      relationship_type: "EXECUTES_FOR"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-PMM-OM-STD."
+  governance_links:
+    - source: "urn:enterprise:governance:operational_monitoring_taxonomy"
+      target: "urn:enterprise:compliance:post_market"
+      relationship_type: "OVERSIGHT_BY"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-PMM-OM-STD."
+  risk_links:
+    - source: "urn:enterprise:risk:operational_monitoring_taxonomy"
+      target: "urn:enterprise:compliance:post_market"
+      relationship_type: "MITIGATES"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-PMM-OM-STD."
+  compliance_links:
+    - source: "urn:enterprise:compliance:operational_monitoring_taxonomy"
+      target: "urn:enterprise:compliance:post_market"
+      relationship_type: "VALIDATES"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-PMM-OM-STD."
+knowledge_graph:
+  monitoring_nodes:
+    - id: "urn:enterprise:monitoring:pipeline"
+      label: "Telemetry Pipeline"
+      properties:
+        type: "monitor"
+  incident_nodes:
+    - id: "urn:enterprise:incident:registry"
+      label: "Incident Registry"
+      properties:
+        type: "registry"
+  surveillance_nodes:
+    - id: "urn:enterprise:surveillance:portal"
+      label: "Authority Surveillance Portal"
+      properties:
+        type: "portal"
+  feedback_nodes:
+    - id: "urn:enterprise:feedback:complaints_portal"
+      label: "Customer Complaints Portal"
+      properties:
+        type: "portal"
+  lifecycle_nodes:
+    - id: "urn:enterprise:lifecycle:assurance"
+      label: "Lifecycle Assurance Service"
+      properties:
+        type: "service"
+  evidence_nodes:
+    - id: "urn:enterprise:evidence:compliance_attestation"
+      label: "Sealed Compliance Attestation"
+      properties:
+        type: "evidence"
+  control_nodes:
+    - id: "urn:enterprise:control:OM-OPERAT-01"
+      label: "Continuous Monitoring Control"
+      properties:
+        type: "control"
+  workflow_nodes:
+    - id: "urn:enterprise:workflow:continuous_monitoring"
+      label: "Continuous Monitoring Workflow"
+      properties:
+        type: "workflow"
+  relationships:
+    - source: "urn:enterprise:obligation:operational_monitoring_taxonomy"
+      target: "urn:enterprise:regulation:eu_ai_act"
+      relationship_type: "DERIVED_FROM"
+      confidence: 0.99
+      evidence: "Post-market monitoring requirement analysis."
+crosswalks:
+  eu_ai_act:
+    framework: "eu_ai_act"
+    control_mapping: "Map post-market monitoring controls to EU AI Act guidelines for Operational Monitoring Taxonomy."
+    security_mapping: "Enforce model robustness and deployment containment checks."
+    accountability_mapping: "Assign roles for post-market monitoring and incident reviews."
+    evidence_mapping: "Log incident and scanning events in database."
+    validation_mapping: "Validate model benchmark results under containment profiles."
+  gpai_obligations:
+    framework: "gpai_obligations"
+    control_mapping: "Enforce GPAI model registration and systemic risk controls."
+    security_mapping: "Monitor model execution parameters and telemetry check alerts."
+    accountability_mapping: "Operations officer signs off GPAI database entries."
+    evidence_mapping: "Save model card updates and benchmark tests."
+    validation_mapping: "Validate base model accuracy and security profiles."
+  foundation_model_obligations:
+    framework: "foundation_model_obligations"
+    control_mapping: "Apply foundation model registration rules and audits."
+    security_mapping: "Verify downstream risk mitigations and safety filters."
+    accountability_mapping: "Compliance lead reviews foundation model portals."
+    evidence_mapping: "Log model card details and disclosures history."
+    validation_mapping: "Verify registration status indicators monthly."
+  iso_42001:
+    framework: "iso_42001"
+    control_mapping: "Map compliance controls to ISO 42001 clauses for post-market monitoring."
+    security_mapping: "Track quality management security metrics and hashes."
+    accountability_mapping: "Review roles assignment for AI systems monitoring daily."
+    evidence_mapping: "Archive ISO auditing worksheets and certificates."
+    validation_mapping: "Confirm compliance dashboard updates match auditing standards."
+  iso_23894:
+    framework: "iso_23894"
+    control_mapping: "Incorporate risk identification guidelines into monitoring checks."
+    security_mapping: "Track security risks and mitigation effectiveness."
+    accountability_mapping: "Risk owner reviews risk management configurations monthly."
+    evidence_mapping: "Log risk analysis updates and vulnerability scans."
+    validation_mapping: "Verify risk scorecard values against target thresholds."
+  iso_27001:
+    framework: "iso_27001"
+    control_mapping: "Align security procedures with ISO 27001 requirements."
+    security_mapping: "Track security breaches and containment latency daily."
+    accountability_mapping: "Operations officer reviews security classification monthly."
+    evidence_mapping: "Archive security logs and incident timelines in DB."
+    validation_mapping: "Confirm security validation timeline matches targets."
+  iso_22301:
+    framework: "iso_22301"
+    control_mapping: "Deploy business continuity controls weekly."
+    security_mapping: "Check failover systems readiness and recovery status."
+    accountability_mapping: "Operations manager reviews continuity scorecards weekly."
+    evidence_mapping: "Log continuity audits reports in GRC ledger."
+    validation_mapping: "Confirm continuity compliance index is above baseline weekly."
+  nist_ai_rmf:
+    framework: "nist_ai_rmf"
+    control_mapping: "Align monitoring steps with NIST AI RMF core."
+    security_mapping: "Track safety and bias metrics continuously."
+    accountability_mapping: "Define compliance owners across monitoring stages."
+    evidence_mapping: "Log NIST dashboard data and check events."
+    validation_mapping: "Review compliance indicators against NIST standards monthly."
+  nist_sp_800-53:
+    framework: "nist_sp_800-53"
+    control_mapping: "Map controls to NIST SP 800-53 security controls."
+    security_mapping: "Enforce access controls and database security checks."
+    accountability_mapping: "IT security lead reviews system vulnerabilities weekly."
+    evidence_mapping: "Log system event logs and vulnerability scans."
+    validation_mapping: "Verify patch status indicators against SLA targets."
+  oecd_ai_principles:
+    framework: "oecd_ai_principles"
+    control_mapping: "Promote transparency and safety along value chain."
+    security_mapping: "Ensure reliable rollback and containment profiles."
+    accountability_mapping: "Publish public model registry descriptions annually."
+    evidence_mapping: "Log transparency and data disclosure events."
+    validation_mapping: "Assess model card clarity using peer-review guides."
+  unesco_ai_ethics:
+    framework: "unesco_ai_ethics"
+    control_mapping: "Audit ethics score and bias metrics daily."
+    security_mapping: "Track model social and environmental impacts."
+    accountability_mapping: "Ethics committee reviews bias report profiles monthly."
+    evidence_mapping: "Save ethics scorecards and compliance reports."
+    validation_mapping: "Check model outputs against social safety guidelines."
+compliance_mapping:
+  - article: "Article 72"
+    obligation: "Peer notified body coordination and European AI Board notifications for Operational Monitoring Taxonomy."
+    implementation_method: "Triage notices and upload certification metadata to GRC registries monthly."
+    monitoring_control: "CTRL-PMM-OM-OPERAT-04"
+    required_evidence: "Notified body coordination transaction receipts and communication logs."
+    validation_method: "Verify GRC upload status and schema correctness daily."
+    assurance_method: "Audit coordination connection logs monthly."
+  - article: "Article 73"
+    obligation: "Provide information and access to national market surveillance authorities under Operational Monitoring Taxonomy."
+    implementation_method: "Maintain secure data export APIs and grant access keys to certified authority officers."
+    monitoring_control: "CTRL-PMM-OM-OPERAT-04"
+    required_evidence: "Authority access logs and exported records bundles."
+    validation_method: "Audit access tokens validation and API rate limits daily."
+    assurance_method: "Verify digital signature key registration weekly."
+  - article: "Article 74"
+    obligation: "Comply with market surveillance corrective action requests under Operational Monitoring Taxonomy."
+    implementation_method: "Deploy automated containment and recall workflows when directive is received."
+    monitoring_control: "CTRL-PMM-OM-OPERAT-03"
+    required_evidence: "Signed corrective actions logs and system deactivation certificates."
+    validation_method: "Confirm recall workflow deactivates models in sandbox tests."
+    assurance_method: "Review corrective action compliance histories quarterly."
+  - article: "Article 75"
+    obligation: "Mutual assistance and coordination with European AI Board under Operational Monitoring Taxonomy."
+    implementation_method: "Upload joint validation logs and conformity records monthly to Board database."
+    monitoring_control: "CTRL-PMM-OM-OPERAT-04"
+    required_evidence: "Transaction receipts from European AI Board database."
+    validation_method: "Check upload status codes and data hashes weekly."
+    assurance_method: "Audit cooperation agreement documentation annually."
+  - article: "Article 61"
+    obligation: "Post-Market Monitoring System planning and execution rules for Operational Monitoring Taxonomy."
+    implementation_method: "Establish continuous telemetry gathering, drift tracking, and customer feedback logs loops."
+    monitoring_control: "CTRL-PMM-OM-OPERAT-01"
+    required_evidence: "Signed monthly post-market compliance files and telemetry reports."
+    validation_method: "Verify telemetry metrics completeness daily."
+    assurance_method: "Audit Post-Market Monitoring System design annually."
+  - article: "High-Risk AI Obligations"
+    obligation: "Human oversight and quality management requirements tracking for Operational Monitoring Taxonomy."
+    implementation_method: "Enforce manual intervention checkpoints and override validation weekly."
+    monitoring_control: "CTRL-PMM-OM-OPERAT-03"
+    required_evidence: "Intervention checklists and override logs."
+    validation_method: "Assert supervisor latency is below SLA targets."
+    assurance_method: "Audit QMS indicators monthly."
+  - article: "Provider Obligations"
+    obligation: "Verify provider registration and compliance status for Operational Monitoring Taxonomy."
+    implementation_method: "Assert presence of required adequacy certificates and CE markings pre-market."
+    monitoring_control: "CTRL-PMM-OM-OPERAT-04"
+    required_evidence: "Signed provider validation attestations and registration certificates."
+    validation_method: "Check EU database registration status daily."
+    assurance_method: "Audit provider registry connections monthly."
+integration_points:
+  incident_reporting:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:incident_reporting:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  high_risk_ai_systems:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:high_risk_ai_systems:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  provider_obligations:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:provider_obligations:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  deployer_obligations:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:deployer_obligations:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  risk_management:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:risk_management:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  operational_runtime_governance:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:operational_runtime_governance:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  governance_reporting:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:governance_reporting:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  audit_and_enforcement:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:audit_and_enforcement:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  audit_and_forensics:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:audit_and_forensics:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  compliance_scoring:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:compliance_scoring:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  conformity_assessment:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:conformity_assessment:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  evidence_and_attestation:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:evidence_and_attestation:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  technical_documentation:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:technical_documentation:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  human_oversight:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:human_oversight:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  foundation_models:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:foundation_models:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  general_purpose_ai:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:general_purpose_ai:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  cybersecurity:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:cybersecurity:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  cybersecurity_and_resilience:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:cybersecurity_and_resilience:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  future_ai_governance:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:future_ai_governance:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  core_governance:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:core_governance:operational_monitoring_taxonomy"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+dependencies:
+  - "urn:enterprise:dependency:governance:post_market:operational_monitoring_taxonomy"
+  - "urn:enterprise:dependency:compliance:monitoring:operational_monitoring_taxonomy"
+  - "urn:enterprise:dependency:compliance:scoring:operational_monitoring_taxonomy"
+outputs:
+  - "continuous_monitoring_coverage_report"
+  - "drift_detection_accuracy_report"
+  - "performance_assurance_scorecard"
+  - "incident_triage_record"
+  - "market_surveillance_readiness_certificate"
+artifacts:
+  - "continuous_monitoring_checklist.yaml"
+  - "incident_triage_report.yaml"
+  - "corrective_action_certificate.yaml"
+records:
+  - "telemetry_gateway_db"
+  - "violation_checks_db"
+  - "compliance_ledger_vault"
+continuous_improvement:
+  exceptions:
+    - "Authorized bypass of monitoring rules during certified sandbox runs."
+  reviews:
+    - "Bi-weekly compliance score audits"
+    - "Annual operator compliance framework reviews"
+  updates:
+    - "Deploy updated validation rules definitions monthly."
+exceptions:
+  - "Bypass of telemetry checks authorized for certified sandbox simulations of Operational Monitoring Taxonomy."
+  - "Temporary performance requirements waiver during emergency disaster recovery actions of Operational Monitoring Taxonomy."
+escalation:
+  channels:
+    - "slack-compliance-alerts"
+    - "pagerduty-monitoring-lead"
+    - "email-post-market-monitoring"
+  thresholds:
+    - "Warning: post_market_compliance_score < 0.99 for Operational Monitoring Taxonomy"
+    - "Critical: post_market_compliance_score < 0.98 for Operational Monitoring Taxonomy"
+  workflows:
+    - "corrective_action_workflow"
+    - "post_market_review_workflow"
+versioning:
+  - version: "1.0.0"
+    date: "2026-06-13"
+    author: "Compliance Architect"
+    description: "Initial release of the Operational Monitoring Taxonomy post-market monitoring compliance skill."
+post_market_monitoring_capabilities:
+  post_market_monitoring: "Oversee global post-market monitoring policies and control plane parameters for Operational Monitoring Taxonomy."
+  post_deployment_governance: "Govern post-deployment verification checklists and coordination procedures under Operational Monitoring Taxonomy."
+  continuous_monitoring: "Manage telemetry collection coverage and behavior metrics under Operational Monitoring Taxonomy."
+  continuous_assurance: "Verify and enforce continuous compliance mappings and obligations for Operational Monitoring Taxonomy."
+  lifecycle_monitoring: "Configure stage gate status and lifecycle reviews weekly for Operational Monitoring Taxonomy."
+  operational_monitoring: "Verify and validate system health check loops and database connections for Operational Monitoring Taxonomy."
+  compliance_monitoring: "Evaluate compliance scorecards and check results hourly under Operational Monitoring Taxonomy."
+  risk_monitoring: "Monitor risk registry metrics and threat indexes daily under Operational Monitoring Taxonomy."
+  performance_monitoring: "Track latency, accuracy decay, and system resource metrics hourly under Operational Monitoring Taxonomy."
+  behavior_monitoring: "Track autonomous planning actions and action limit checks weekly under Operational Monitoring Taxonomy."
+  anomaly_detection: "Run automated anomaly checkers and triage warning alerts daily under Operational Monitoring Taxonomy."
+  drift_detection: "Deploy Kolmogorov-Smirnov statistical tests to assess data drift weekly for Operational Monitoring Taxonomy."
+  degradation_detection: "Track stability metrics and trigger failover controls when degradation is detected under Operational Monitoring Taxonomy."
+  incident_detection: "Triage incident logs and score severity levels within SLAs for Operational Monitoring Taxonomy."
+  market_surveillance_support: "Maintain secure data export portal and authority key registry for Operational Monitoring Taxonomy."
+  corrective_action_management: "Route serious incident reports and execute containment workflows for Operational Monitoring Taxonomy."
+  preventive_action_management: "Update risk registry and apply safety rules templates pre-deployment under Operational Monitoring Taxonomy."
+  stakeholder_feedback_management: "Track customer complaints resolution timelines and survey data under Operational Monitoring Taxonomy."
+  feedback_analysis: "Verify feedback digital signatures and categorize feedback weekly under Operational Monitoring Taxonomy."
+  operational_intelligence: "Analyze average detection delays and incident frequency monthly for Operational Monitoring Taxonomy."
+  traceability_management: "Log E2E trace maps from articles to automated system controls under Operational Monitoring Taxonomy."
+  accountability_management: "Verify role registry assignments and action log signatures quarterly under Operational Monitoring Taxonomy."
+  evidence_management: "Seal compliance audit records in immutable secure ledger daily under Operational Monitoring Taxonomy."
+  governance_intelligence: "Evaluate post-market monitoring compliance scores weekly under Operational Monitoring Taxonomy."
+  lifecycle_assurance: "Perform stages verification checks and lifecycle audits monthly under Operational Monitoring Taxonomy."
+  post_market_maturity: "Assess capabilities maturity level against ISO standards weekly for Operational Monitoring Taxonomy."
+altai_post_market_monitoring:
+  autonomous_agent_monitoring:
+    agent_behavior_monitoring: "Verify agent behavior and step execution bounds weekly under Operational Monitoring Taxonomy."
+    agent_decision_monitoring: "Log agent decisions and override checkpoints daily under Operational Monitoring Taxonomy."
+    agent_failure_monitoring: "Trigger deactivation triggers if agent plan violates constraints under Operational Monitoring Taxonomy."
+    agent_accountability_monitoring: "Verify human oversight overrides registry monthly under Operational Monitoring Taxonomy."
+  multi_agent_monitoring:
+    ecosystem_monitoring: "Monitor ecosystem communication parameters and trace logs daily under Operational Monitoring Taxonomy."
+    swarm_monitoring: "Verify swarm coordinates behavior and topology graph weekly under Operational Monitoring Taxonomy."
+    coordination_monitoring: "Check message format validations and rate limit logs under Operational Monitoring Taxonomy."
+    autonomy_monitoring: "Confirm digital signatures and connection keys weekly under Operational Monitoring Taxonomy."
+  reasoning_monitoring:
+    reasoning_quality_monitoring: "Verify reasoning steps logic templates weekly under Operational Monitoring Taxonomy."
+    reasoning_drift_monitoring: "Track reasoning latency and token count metrics monthly under Operational Monitoring Taxonomy."
+    reasoning_anomaly_detection: "Halt execution path if reasoning exception is raised under Operational Monitoring Taxonomy."
+    reasoning_traceability: "Log reasoning token sequences and trees to trace database weekly under Operational Monitoring Taxonomy."
+  memory_monitoring:
+    memory_integrity_monitoring: "Assert access controls and memory encryption weekly under Operational Monitoring Taxonomy."
+    memory_usage_monitoring: "Monitor context window sizes and retrieval latency daily under Operational Monitoring Taxonomy."
+    memory_retention_monitoring: "Log memory updates and retention checklists weekly under Operational Monitoring Taxonomy."
+    memory_accountability: "Seal memory registry records daily in immutable audit ledger under Operational Monitoring Taxonomy."
+  tool_monitoring:
+    tool_execution_monitoring: "Validate API keys and permissions pre-execution for Operational Monitoring Taxonomy."
+    tool_failure_monitoring: "Log tool call errors and diagnostic codes daily under Operational Monitoring Taxonomy."
+    tool_usage_analytics: "Track tool usage statistics and resource limits monthly under Operational Monitoring Taxonomy."
+    tool_accountability: "Audit tool registry modifications weekly under Operational Monitoring Taxonomy."
+  orchestration_monitoring:
+    workflow_monitoring: "Track workflow schedules and transitions weekly under Operational Monitoring Taxonomy."
+    orchestration_performance_monitoring: "Track average orchestration latency and queue sizes monthly under Operational Monitoring Taxonomy."
+    orchestration_failure_monitoring: "Verify orchestration rollback scripts execution daily under Operational Monitoring Taxonomy."
+    orchestration_traceability: "Log E2E orchestration trace files to secure registries weekly under Operational Monitoring Taxonomy."
+  foundation_model_monitoring:
+    capability_drift_monitoring: "Verify capability threshold alerts and vector divergence monthly under Operational Monitoring Taxonomy."
+    safety_monitoring: "Track toxic output safety filter triggers continuously for Operational Monitoring Taxonomy."
+    performance_monitoring: "Track inference latency and token output metrics weekly for Operational Monitoring Taxonomy."
+    systemic_risk_monitoring: "Audit downstream risk factors and model fine-tuning session records weekly under Operational Monitoring Taxonomy."
+  gpai_monitoring:
+    ecosystem_risk_monitoring: "Verify systemic risk indices and safety filter breaches daily under Operational Monitoring Taxonomy."
+    systemic_impact_monitoring: "Track downstream application errors and systemic failures weekly for Operational Monitoring Taxonomy."
+    operational_monitoring: "Log model autonomy events and capability threshold warnings daily for Operational Monitoring Taxonomy."
+    accountability_monitoring: "Audit model card specifications and benchmark updates quarterly under Operational Monitoring Taxonomy."
+drift_management:
+  model_drift: "Track inference output changes and score model drift under Operational Monitoring Taxonomy."
+  data_drift: "Monitor input data distribution changes and compute KS tests under Operational Monitoring Taxonomy."
+  concept_drift: "Evaluate data mapping changes and updates thresholds under Operational Monitoring Taxonomy."
+  drift_thresholds:
+    warning: "drift_score > 0.05"
+    critical: "drift_score > 0.10"
+  drift_detection_methods:
+    - "Kolmogorov-Smirnov test"
+    - "Population Stability Index"
+  drift_validation: "Verify drift checkers statistics weekly."
+  drift_assurance: "Register weekly drift reports in compliance vault."
+degradation_management:
+  performance_degradation: "Verify operational accuracy decay parameters hourly for Operational Monitoring Taxonomy."
+  safety_degradation: "Monitor systemic risk indices and safety filter breaches daily under Operational Monitoring Taxonomy."
+  compliance_degradation: "Track regulatory violation flags and alert frequencies weekly under Operational Monitoring Taxonomy."
+  degradation_thresholds:
+    warning: "error_rate > 0.02"
+    critical: "error_rate > 0.05"
+  degradation_responses:
+    - "Trigger corrective action workflow and apply containment profile under Operational Monitoring Taxonomy."
+  degradation_validation: "Verify degradation scores weekly."
+  degradation_assurance: "Seal performance degradation records monthly."
+post_market_monitoring_maturity_model:
+  level_1_reactive:
+    capabilities:
+      - "Basic auditing of compliance post-deployment when triggered by incidents."
+    monitoring_capabilities:
+      - "Manual checking of regional rules checklists."
+    assurance_capabilities:
+      - "Ad-hoc checking of output safety metrics logs."
+    intelligence_capabilities:
+      - "Triage alert signals only after system outage events."
+    evidence_requirements:
+      - "Audit files archived in physical cabinets."
+    validation_requirements:
+      - "Informal team review of system parameters."
+  level_2_repeatable:
+    capabilities:
+      - "Standardized monitoring templates for major systems."
+    monitoring_capabilities:
+      - "Triage regional rules lists using defined scripts."
+    assurance_capabilities:
+      - "Check standard validation scorecards for each run."
+    intelligence_capabilities:
+      - "Track trend parameters weekly on regional folders."
+    evidence_requirements:
+      - "Audit tickets saved in local folders."
+    validation_requirements:
+      - "Weekly review of alert classification metrics."
+  level_3_defined:
+    capabilities:
+      - "Documented runtime monitoring and override procedures."
+    monitoring_capabilities:
+      - "Verify safety boundaries using defined procedures."
+    assurance_capabilities:
+      - "Automated template checking for latency quality."
+    intelligence_capabilities:
+      - "Conduct incident root-cause analysis using defined methods."
+    evidence_requirements:
+      - "Audit reports stored in secure repositories."
+    validation_requirements:
+      - "Triage sign-off required from Lead Auditor before closure."
+  level_4_managed:
+    capabilities:
+      - "Real-time monitoring and automatic safety alerts."
+    monitoring_capabilities:
+      - "Automated severity checks pre-escalation."
+    assurance_capabilities:
+      - "Secure transmission of telemetry findings scorecards within SLA bounds."
+    intelligence_capabilities:
+      - "Continuous monitoring of risk scorecards with alerts."
+    evidence_requirements:
+      - "Attestations sealed and archived in DB dynamically."
+    validation_requirements:
+      - "Pre-closure checklist scores must meet targets or ticket remains open."
+  level_5_optimized:
+    capabilities:
+      - "Predictive risk analysis and telemetry updates feeds integration."
+    monitoring_capabilities:
+      - "Predictive incident impact assessments and findings triage updates."
+    assurance_capabilities:
+      - "Dynamic routing updates based on findings severity classes."
+    intelligence_capabilities:
+      - "Feedback loop updating triage checklists weekly based on findings rates."
+    evidence_requirements:
+      - "Log hashes checked against authority directories dynamically."
+    validation_requirements:
+      - "Continuous runtime verification of data privacy and safety rules."
+  level_6_predictive:
+    capabilities:
+      - "E2E cryptographic evidence sealing and independent validation tracking."
+    monitoring_capabilities:
+      - "Validation steps attested by cryptographic compliance daemon signatures."
+    assurance_capabilities:
+      - "Immutably sealed technical review trace databases."
+    intelligence_capabilities:
+      - "Execute proactive data distribution drift monitoring daily."
+    evidence_requirements:
+      - "Signed evidence certificates registered in compliance attestation vault."
+    validation_requirements:
+      - "Automated zero-trust checks for all intermediate transitions."
+  level_7_autonomous:
+    capabilities:
+      - "Real-time regulatory portal APIs and continuous compliance audits."
+    monitoring_capabilities:
+      - "Immediate digital verification queries for national agencies."
+    assurance_capabilities:
+      - "Cryptographic trace trail available dynamically via API access keys."
+    intelligence_capabilities:
+      - "Full alignment with European AI Board database standards."
+    evidence_requirements:
+      - "Sealed, time-stamped registry logs ready for regulator export."
+    validation_requirements:
+      - "Continuous automated validation of all 6 controls and 8 workflows."

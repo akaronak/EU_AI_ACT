@@ -1,0 +1,1864 @@
+metadata:
+  id: AAE-CA-COMAUD-001
+  name: compliance_audits
+  title: Compliance Audits
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: compliance_auditing
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - compliance_audits
+    - compliance_audits
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Compliance Audits governance within
+    audit_and_enforcement/compliance_audits, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for structured audit execution and evidence sufficiency validation.
+    Integrates with the EU AI Act governance ecosystem through machine-evaluable obligations,
+    evidence preservation, and conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Compliance Audits across enterprise and
+    cross-border operations within audit_and_enforcement/compliance_audits.
+objectives:
+  - Operationalize Compliance Audits with regulator-defensible controls and evidence chains
+  - Enable automated validation of Compliance Audits conformance across compliance_audits
+  - Preserve audit-grade and forensic-grade records for all Compliance Audits activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Compliance Audits with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Compliance Audits
+definitions:
+  compliance_audits_governance_domain:
+    >
+      The operational jurisdiction of Compliance Audits encompassing controlled audit, enforcement,
+      investigation, and evidence processes within compliance_audits.
+  compliance_audits_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Compliance Audits control
+      effectiveness, process adherence, and regulatory conformity.
+  compliance_audits_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Compliance Audits decision logic.
+  compliance_audits_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Compliance Audits processes.
+  compliance_audits_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Compliance Audits operations.
+  compliance_audits_conformity_assertion:
+    >
+      Formal statement that Compliance Audits requirements are met, supported by indexed evidence and
+      validation attestations.
+taxonomy:
+  root: compliance_audits_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  compliance_audits_artifact_type:
+    - compliance_audits_record
+    - compliance_audits_log
+    - compliance_audits_report
+    - compliance_audits_attestation
+    - compliance_audits_package
+  compliance_audits_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Compliance Audits Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: compliance_audits
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - audit_traceability
+    - evidence_preservation
+    - ai_literacy
+    - conformity_assessment
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - enforcement_actions
+    - remediation_tracking
+    - reporting
+    - audit_and_enforcement/compliance_audits/compliance_audits.yaml
+  related_domains:
+    - audit_traceability
+    - evidence_preservation
+    - reporting
+  related_skills:
+    - compliance_audit_framework
+    - audit_evidence_validation
+    - regulatory_audit_alignment
+    - compliance_audits
+  parent_governance_objects:
+    - audit_taxonomy
+    - enforcement_framework
+  child_governance_objects:
+    - audit_finding
+    - compliance_assessment_record
+    - compliance_audits_governance_object
+  consumes_artifacts:
+    - evidence_package
+    - control_register
+    - literacy_attestation
+    - compliance_audits_input_artifact
+  produces_artifacts:
+    - audit_report
+    - compliance_gap_register
+    - inspection_readiness_package
+    - compliance_audits_record
+    - compliance_audits_report
+    - compliance_audits_attestation
+  consumes_evidence:
+    - chain_of_custody_record
+    - traceability_record
+    - conformity_declaration
+    - compliance_audits_source_evidence
+  produces_evidence:
+    - audit_workpaper
+    - finding_validation_record
+    - management_response
+    - compliance_audits_audit_evidence
+    - compliance_audits_validation_evidence
+    - compliance_audits_enforcement_evidence
+  governance_dependencies:
+    - core_governance
+    - notified_bodies
+  regulatory_dependencies:
+    - eu_ai_act_article_43
+    - eu_ai_act_article_4
+    - iso_19011
+  risk_dependencies:
+    - risk_management
+    - compliance_scoring
+  control_dependencies:
+    - audit_traceability
+    - evidence_preservation
+    - compliance_audits_control_register
+roles_and_responsibilities:
+  compliance_audits_owner:
+    responsibilities:
+      - Accountable for Compliance Audits strategy, control design, and regulatory alignment
+  compliance_audits_operator:
+    responsibilities:
+      - Executes Compliance Audits workflows and maintains operational records
+  compliance_audits_auditor:
+    responsibilities:
+      - Independently validates Compliance Audits control effectiveness and evidence sufficiency
+  compliance_audits_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Compliance Audits investigations
+  compliance_audits_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Compliance Audits
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-001
+    name: Audit Governance
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-002
+    name: Regulatory Auditing
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-003
+    name: Internal Auditing
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-004
+    name: External Auditing
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-005
+    name: Compliance Auditing
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-006
+    name: Audit Readiness
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-007
+    name: Inspection Readiness
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-008
+    name: Conformity Assessments
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-044
+    name: Regulatory Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-045
+    name: Executive Audit Reporting
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-COM-COMPLIANCE-COMPLIANCEA
+    control_name: compliance_audit_scope_boundary_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring audit scope boundary enforcer for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        compliance_audit_scope_boundary_enforcer is required to govern Compliance Audits risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected compliance audits
+        failures.
+    implementation_guidance:
+      >
+        Implement compliance_audit_scope_boundary_enforcer as automated policy in compliance_audits
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: compliance_audit_scope_boundary_enforcer_continuous_telemetry_dashboard
+    validation_method:
+      compliance_audit_scope_boundary_enforcer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      compliance_audit_scope_boundary_enforcer_statistical_sampling_with_exception_tracking
+    control_owner: compliance_audits_control_owner
+    evidence_generated: compliance_audit_scope_boundary_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify compliance_audit_scope_boundary_enforcer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        compliance_audit_scope_boundary_enforcer outputs may trigger enforcement under compliance_audits
+        escalation rules.
+  - control_id: AAE-COM-COMPLIANCE-AUDITSSAMPL
+    control_name: audits_sampling_methodology_validator
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring sampling methodology validator for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        audits_sampling_methodology_validator is required to govern Compliance Audits risks under EU AI
+        Act and enterprise audit-enforcement policy; failure enables undetected compliance audits
+        failures.
+    implementation_guidance:
+      >
+        Implement audits_sampling_methodology_validator as automated policy in compliance_audits
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: audits_sampling_methodology_validator_continuous_telemetry_dashboard
+    validation_method:
+      audits_sampling_methodology_validator_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      audits_sampling_methodology_validator_statistical_sampling_with_exception_tracking
+    control_owner: compliance_audits_control_owner
+    evidence_generated: audits_sampling_methodology_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audits_sampling_methodology_validator design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        audits_sampling_methodology_validator outputs may trigger enforcement under compliance_audits
+        escalation rules.
+  - control_id: AAE-COM-COMPLIANCE-COMPLIANCEA
+    control_name: compliance_audits_finding_severity_classifier
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring finding severity classifier for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        compliance_audits_finding_severity_classifier is required to govern Compliance Audits risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected compliance
+        audits failures.
+    implementation_guidance:
+      >
+        Implement compliance_audits_finding_severity_classifier as automated policy in compliance_audits
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: compliance_audits_finding_severity_classifier_continuous_telemetry_dashboard
+    validation_method:
+      compliance_audits_finding_severity_classifier_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      compliance_audits_finding_severity_classifier_statistical_sampling_with_exception_tracking
+    control_owner: compliance_audits_control_owner
+    evidence_generated: compliance_audits_finding_severity_classifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify compliance_audits_finding_severity_classifier design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        compliance_audits_finding_severity_classifier outputs may trigger enforcement under
+        compliance_audits escalation rules.
+  - control_id: AAE-COM-COMPLIANCE-COMPLIANCEA
+    control_name: compliance_audits_evidence_sufficiency_gate
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring evidence sufficiency gate for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        compliance_audits_evidence_sufficiency_gate is required to govern Compliance Audits risks under
+        EU AI Act and enterprise audit-enforcement policy; failure enables undetected compliance audits
+        failures.
+    implementation_guidance:
+      >
+        Implement compliance_audits_evidence_sufficiency_gate as automated policy in compliance_audits
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: compliance_audits_evidence_sufficiency_gate_continuous_telemetry_dashboard
+    validation_method:
+      compliance_audits_evidence_sufficiency_gate_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      compliance_audits_evidence_sufficiency_gate_statistical_sampling_with_exception_tracking
+    control_owner: compliance_audits_control_owner
+    evidence_generated: compliance_audits_evidence_sufficiency_gate_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify compliance_audits_evidence_sufficiency_gate design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        compliance_audits_evidence_sufficiency_gate outputs may trigger enforcement under
+        compliance_audits escalation rules.
+  - control_id: AAE-COM-COMPLIANCE-COMPLIANCEA
+    control_name: compliance_audits_management_response_tracker
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring management response tracker for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        compliance_audits_management_response_tracker is required to govern Compliance Audits risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected compliance
+        audits failures.
+    implementation_guidance:
+      >
+        Implement compliance_audits_management_response_tracker as automated policy in compliance_audits
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: compliance_audits_management_response_tracker_continuous_telemetry_dashboard
+    validation_method:
+      compliance_audits_management_response_tracker_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      compliance_audits_management_response_tracker_statistical_sampling_with_exception_tracking
+    control_owner: compliance_audits_control_owner
+    evidence_generated: compliance_audits_management_response_tracker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify compliance_audits_management_response_tracker design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        compliance_audits_management_response_tracker outputs may trigger enforcement under
+        compliance_audits escalation rules.
+  - control_id: AAE-COM-COMPLIANCE-COMPLIANCEA
+    control_name: compliance_audits_external_auditor_coordination_hub
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring external auditor coordination hub for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        compliance_audits_external_auditor_coordination_hub is required to govern Compliance Audits
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        compliance audits failures.
+    implementation_guidance:
+      >
+        Implement compliance_audits_external_auditor_coordination_hub as automated policy in
+        compliance_audits orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      compliance_audits_external_auditor_coordination_hub_continuous_telemetry_dashboard
+    validation_method:
+      >
+        compliance_audits_external_auditor_coordination_hub_quarterly_design_and_operating_effectiveness
+        _test
+    testing_method:
+      compliance_audits_external_auditor_coordination_hub_statistical_sampling_with_exception_tracking
+    control_owner: compliance_audits_control_owner
+    evidence_generated: compliance_audits_external_auditor_coordination_hub_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify compliance_audits_external_auditor_coordination_hub design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        compliance_audits_external_auditor_coordination_hub outputs may trigger enforcement under
+        compliance_audits escalation rules.
+  - control_id: AAE-COM-COMPLIANCE-COMPLIANCEA
+    control_name: compliance_audits_continuous_audit_signal_processor
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring continuous audit signal processor for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        compliance_audits_continuous_audit_signal_processor is required to govern Compliance Audits
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        compliance audits failures.
+    implementation_guidance:
+      >
+        Implement compliance_audits_continuous_audit_signal_processor as automated policy in
+        compliance_audits orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      compliance_audits_continuous_audit_signal_processor_continuous_telemetry_dashboard
+    validation_method:
+      >
+        compliance_audits_continuous_audit_signal_processor_quarterly_design_and_operating_effectiveness
+        _test
+    testing_method:
+      compliance_audits_continuous_audit_signal_processor_statistical_sampling_with_exception_tracking
+    control_owner: compliance_audits_control_owner
+    evidence_generated: compliance_audits_continuous_audit_signal_processor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify compliance_audits_continuous_audit_signal_processor design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        compliance_audits_continuous_audit_signal_processor outputs may trigger enforcement under
+        compliance_audits escalation rules.
+  - control_id: AAE-COM-COMPLIANCE-COMPLIANCEA
+    control_name: compliance_audits_regulatory_audit_alignment_checker
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring regulatory audit alignment checker for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        compliance_audits_regulatory_audit_alignment_checker is required to govern Compliance Audits
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        compliance audits failures.
+    implementation_guidance:
+      >
+        Implement compliance_audits_regulatory_audit_alignment_checker as automated policy in
+        compliance_audits orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      compliance_audits_regulatory_audit_alignment_checker_continuous_telemetry_dashboard
+    validation_method:
+      >
+        compliance_audits_regulatory_audit_alignment_checker_quarterly_design_and_operating_effectivenes
+        s_test
+    testing_method:
+      >
+        compliance_audits_regulatory_audit_alignment_checker_statistical_sampling_with_exception_trackin
+        g
+    control_owner: compliance_audits_control_owner
+    evidence_generated: compliance_audits_regulatory_audit_alignment_checker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify compliance_audits_regulatory_audit_alignment_checker design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        compliance_audits_regulatory_audit_alignment_checker outputs may trigger enforcement under
+        compliance_audits escalation rules.
+  - control_id: AAE-COM-COMPLIANCE-COMPLIANCEA
+    control_name: compliance_audits_audit_workpaper_integrity_sealer
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring audit workpaper integrity sealer for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        compliance_audits_audit_workpaper_integrity_sealer is required to govern Compliance Audits risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected compliance
+        audits failures.
+    implementation_guidance:
+      >
+        Implement compliance_audits_audit_workpaper_integrity_sealer as automated policy in
+        compliance_audits orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      compliance_audits_audit_workpaper_integrity_sealer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        compliance_audits_audit_workpaper_integrity_sealer_quarterly_design_and_operating_effectiveness_
+        test
+    testing_method:
+      compliance_audits_audit_workpaper_integrity_sealer_statistical_sampling_with_exception_tracking
+    control_owner: compliance_audits_control_owner
+    evidence_generated: compliance_audits_audit_workpaper_integrity_sealer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify compliance_audits_audit_workpaper_integrity_sealer design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        compliance_audits_audit_workpaper_integrity_sealer outputs may trigger enforcement under
+        compliance_audits escalation rules.
+  - control_id: AAE-COM-COMPLIANCE-COMPLIANCEA
+    control_name: compliance_audits_inspection_readiness_scorer
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring inspection readiness scorer for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        compliance_audits_inspection_readiness_scorer is required to govern Compliance Audits risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected compliance
+        audits failures.
+    implementation_guidance:
+      >
+        Implement compliance_audits_inspection_readiness_scorer as automated policy in compliance_audits
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: compliance_audits_inspection_readiness_scorer_continuous_telemetry_dashboard
+    validation_method:
+      compliance_audits_inspection_readiness_scorer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      compliance_audits_inspection_readiness_scorer_statistical_sampling_with_exception_tracking
+    control_owner: compliance_audits_control_owner
+    evidence_generated: compliance_audits_inspection_readiness_scorer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify compliance_audits_inspection_readiness_scorer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        compliance_audits_inspection_readiness_scorer outputs may trigger enforcement under
+        compliance_audits escalation rules.
+  - control_id: AAE-COM-COMPLIANCE-COMPLIANCEA
+    control_name: compliance_audits_gap_remediation_linkage
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring gap remediation linkage for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        compliance_audits_gap_remediation_linkage is required to govern Compliance Audits risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected compliance audits
+        failures.
+    implementation_guidance:
+      >
+        Implement compliance_audits_gap_remediation_linkage as automated policy in compliance_audits
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: compliance_audits_gap_remediation_linkage_continuous_telemetry_dashboard
+    validation_method:
+      compliance_audits_gap_remediation_linkage_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      compliance_audits_gap_remediation_linkage_statistical_sampling_with_exception_tracking
+    control_owner: compliance_audits_control_owner
+    evidence_generated: compliance_audits_gap_remediation_linkage_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify compliance_audits_gap_remediation_linkage design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        compliance_audits_gap_remediation_linkage outputs may trigger enforcement under
+        compliance_audits escalation rules.
+  - control_id: AAE-COM-COMPLIANCE-COMPLIANCEA
+    control_name: compliance_audits_audit_closure_certifier
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring audit closure certifier for Compliance Audits across
+        compliance_audits.
+    governance_rationale:
+      >
+        compliance_audits_audit_closure_certifier is required to govern Compliance Audits risks under EU
+        AI Act and enterprise audit-enforcement policy; failure enables undetected compliance audits
+        failures.
+    implementation_guidance:
+      >
+        Implement compliance_audits_audit_closure_certifier as automated policy in compliance_audits
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: compliance_audits_audit_closure_certifier_continuous_telemetry_dashboard
+    validation_method:
+      compliance_audits_audit_closure_certifier_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      compliance_audits_audit_closure_certifier_statistical_sampling_with_exception_tracking
+    control_owner: compliance_audits_control_owner
+    evidence_generated: compliance_audits_audit_closure_certifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify compliance_audits_audit_closure_certifier design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        compliance_audits_audit_closure_certifier outputs may trigger enforcement under
+        compliance_audits escalation rules.
+requirements:
+  legal:
+    >
+      Compliance Audits must satisfy legal requirements for structured audit execution and evidence
+      sufficiency validation including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Compliance Audits must satisfy regulatory requirements for structured audit execution and
+      evidence sufficiency validation including documented procedures, accountable roles, measurable
+      SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Compliance Audits must satisfy technical requirements for structured audit execution and
+      evidence sufficiency validation including documented procedures, accountable roles, measurable
+      SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Compliance Audits must satisfy operational requirements for structured audit execution and
+      evidence sufficiency validation including documented procedures, accountable roles, measurable
+      SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Compliance Audits must satisfy audit requirements for structured audit execution and evidence
+      sufficiency validation including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Compliance Audits must satisfy forensic requirements for structured audit execution and evidence
+      sufficiency validation including documented procedures, accountable roles, measurable SLAs, and
+      evidence retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Compliance Audits must satisfy enforcement requirements for structured audit execution and
+      evidence sufficiency validation including documented procedures, accountable roles, measurable
+      SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    Intake process for Compliance Audits with stage gates, RACI assignments, and evidence capture.
+  triage:
+    Triage process for Compliance Audits with stage gates, RACI assignments, and evidence capture.
+  execution:
+    >
+      Execution process for Compliance Audits with stage gates, RACI assignments, and evidence
+      capture.
+  validation:
+    >
+      Validation process for Compliance Audits with stage gates, RACI assignments, and evidence
+      capture.
+  escalation:
+    >
+      Escalation process for Compliance Audits with stage gates, RACI assignments, and evidence
+      capture.
+  closure:
+    Closure process for Compliance Audits with stage gates, RACI assignments, and evidence capture.
+  improvement:
+    >
+      Improvement process for Compliance Audits with stage gates, RACI assignments, and evidence
+      capture.
+workflows:
+  - workflow_name: compliance_audits_operational_lifecycle_workflow
+    workflow_trigger: compliance_audits_governance_event_detected
+    workflow_steps:
+      - compliance_audits_intake
+      - compliance_audits_triage
+      - compliance_audits_execution
+      - compliance_audits_validation
+      - compliance_audits_approval
+      - compliance_audits_closure
+    approval_points:
+      - compliance_audits_approval
+    escalation_points:
+      - compliance_audits_triage
+    generated_evidence:
+      - compliance_audits_workflow_log
+      - compliance_audits_closure_attestation
+    completion_requirements:
+      - compliance_audits_evidence_complete
+      - compliance_audits_approvals_recorded
+  - workflow_name: compliance_audits_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_compliance_audits
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - compliance_audits_regulatory_package
+      - compliance_audits_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - compliance_audits_governance_event_detected
+    - compliance_audits_regulatory_inquiry
+    - compliance_audits_integrity_breach
+    - compliance_audits_enforcement_authorization
+  required_inputs:
+    - compliance_audits_case_context
+    - compliance_audits_evidence_index
+    - compliance_audits_risk_assessment
+  workflow_steps:
+    - compliance_audits_intake
+    - compliance_audits_triage
+    - compliance_audits_execution
+    - compliance_audits_validation
+    - compliance_audits_approval
+    - compliance_audits_closure
+  validation_steps:
+    - compliance_audits_evidence_sufficiency_check
+    - compliance_audits_integrity_verification
+  approval_steps:
+    - compliance_audits_approval
+  control_checkpoints:
+    - compliance_audits_intake_gate
+    - compliance_audits_evidence_gate
+    - compliance_audits_decision_gate
+  evidence_generation:
+    - compliance_audits_workflow_log
+    - compliance_audits_closure_attestation
+  decision_points:
+    - compliance_audits_severity_classification
+    - compliance_audits_enforcement_authorization
+  escalation_points:
+    - compliance_audits_triage
+  completion_criteria:
+    - compliance_audits_evidence_complete
+    - compliance_audits_approvals_recorded
+  generated_outputs:
+    - compliance_audits_workflow_log
+    - compliance_audits_closure_attestation
+    - compliance_audits_final_disposition
+decision_logic:
+  decision_inputs:
+    - compliance_audits_severity_score
+    - compliance_audits_evidence_completeness
+    - compliance_audits_regulatory_context
+    - compliance_audits_risk_exposure_index
+  decision_conditions:
+    - compliance_audits_critical_threshold_breach
+    - compliance_audits_evidence_integrity_failure
+    - compliance_audits_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: compliance_audits_severity_score >= 90
+    high_severity: compliance_audits_severity_score >= 70
+    evidence_complete: compliance_audits_evidence_completeness >= 0.98
+  decision_rules:
+    compliance_audits_high_severity_violation:
+      condition: compliance_audits_severity_score >= 90
+      action: initiate_compliance_audits_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: compliance_audits_investigation_report
+    compliance_audits_evidence_compromise_detected:
+      condition: compliance_audits_integrity_status == compromised
+      action: activate_compliance_audits_forensic_lockdown
+      approval_required: compliance_audits_forensic_lead
+      evidence_required: compliance_audits_integrity_alert_record
+    compliance_audits_enforcement_authorization:
+      condition: compliance_audits_violation_confirmed == true AND compliance_audits_evidence_complete == true
+      action: issue_compliance_audits_enforcement_order
+      approval_required: compliance_audits_enforcement_officer
+      evidence_required: compliance_audits_violation_evidence_package
+    compliance_audits_regulator_inquiry_response:
+      condition: compliance_audits_regulator_request_received == true
+      action: compile_compliance_audits_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: compliance_audits_regulatory_evidence_index
+  decision_outputs:
+    - compliance_audits_enforcement_decision
+    - compliance_audits_escalation_notice
+    - compliance_audits_remediation_directive
+    - compliance_audits_audit_disposition
+  approval_requirements:
+    enforcement_actions: [compliance_audits_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - compliance_audits_severity_score >= 90
+    - compliance_audits_evidence_integrity_failure == true
+    - compliance_audits_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_compliance_audits_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: compliance_audits_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Compliance Audits may trigger EU AI Act Articles 71, 73 reporting, market
+      surveillance cooperation, and conformity assessment suspension; all outputs must be litigation-
+      defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Compliance Audits per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Compliance Audits per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Compliance Audits per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Compliance Audits per ISO 19011 and EU AI Act
+      conformity assessment methodology.
+metrics:
+  - metric_name: audit_finding_closure_rate
+    metric_category: operational
+    business_purpose:
+      Measure audit finding closure rate for Compliance Audits operational and regulatory assurance
+    formula: computed_audit_finding_closure_rate_from_compliance_audits_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: compliance_audits_metrics_owner
+    data_source: compliance_audits_metrics_warehouse
+    evidence_generated: audit_finding_closure_rate_measurement_record
+  - metric_name: inspection_readiness_score
+    metric_category: risk
+    business_purpose:
+      Measure inspection readiness score for Compliance Audits operational and regulatory assurance
+    formula: computed_inspection_readiness_score_from_compliance_audits_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: compliance_audits_metrics_owner
+    data_source: compliance_audits_metrics_warehouse
+    evidence_generated: inspection_readiness_score_measurement_record
+  - metric_name: control_test_pass_rate
+    metric_category: compliance
+    business_purpose:
+      Measure control test pass rate for Compliance Audits operational and regulatory assurance
+    formula: computed_control_test_pass_rate_from_compliance_audits_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: compliance_audits_metrics_owner
+    data_source: compliance_audits_metrics_warehouse
+    evidence_generated: control_test_pass_rate_measurement_record
+  - metric_name: evidence_gap_count
+    metric_category: effectiveness
+    business_purpose:
+      Measure evidence gap count for Compliance Audits operational and regulatory assurance
+    formula: computed_evidence_gap_count_from_compliance_audits_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: compliance_audits_metrics_owner
+    data_source: compliance_audits_metrics_warehouse
+    evidence_generated: evidence_gap_count_measurement_record
+  - metric_name: regulatory_alignment_score
+    metric_category: governance
+    business_purpose:
+      Measure regulatory alignment score for Compliance Audits operational and regulatory assurance
+    formula: computed_regulatory_alignment_score_from_compliance_audits_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: compliance_audits_metrics_owner
+    data_source: compliance_audits_metrics_warehouse
+    evidence_generated: regulatory_alignment_score_measurement_record
+  - metric_name: continuous_audit_coverage
+    metric_category: enforcement
+    business_purpose:
+      Measure continuous audit coverage for Compliance Audits operational and regulatory assurance
+    formula: computed_continuous_audit_coverage_from_compliance_audits_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: compliance_audits_metrics_owner
+    data_source: compliance_audits_metrics_warehouse
+    evidence_generated: continuous_audit_coverage_measurement_record
+kpis:
+  - metric_name: audit_finding_closure_rate
+    formula: computed_audit_finding_closure_rate_from_compliance_audits_telemetry
+    target: >= 95%
+  - metric_name: inspection_readiness_score
+    formula: computed_inspection_readiness_score_from_compliance_audits_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: control_test_pass_rate
+    formula: computed_control_test_pass_rate_from_compliance_audits_telemetry
+    target: >= 95%
+  - metric_name: evidence_gap_count
+    formula: computed_evidence_gap_count_from_compliance_audits_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: regulatory_alignment_score
+    business_purpose: Measure regulatory alignment score for Compliance Audits operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+  - metric_name: continuous_audit_coverage
+    business_purpose: Measure continuous audit coverage for Compliance Audits operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: compliance_audits_primary_record
+    evidence_type: primary
+    business_purpose: Support compliance audits governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_compliance_audits_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: compliance_audits_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: compliance_audits_validation_attestation
+    evidence_type: corroborating
+    business_purpose: Support compliance audits governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_compliance_audits_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: compliance_audits_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: compliance_operational_log
+    evidence_type: attestation
+    business_purpose: Support compliance audits governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_compliance_audits_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: compliance_audits_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: audits_operational_log
+    evidence_type: derivative
+    business_purpose: Support compliance audits governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_compliance_audits_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: compliance_audits_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: compliance_audits_status_dashboard
+    report_owner: compliance_audits_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: monthly
+    report_inputs:
+      - compliance_audits_telemetry
+      - compliance_audits_evidence_index
+    report_outputs:
+      - compliance_audits_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: compliance_audits_compliance_summary
+    report_owner: compliance_audits_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - compliance_audits_telemetry
+      - compliance_audits_evidence_index
+    report_outputs:
+      - compliance_audits_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: compliance_assurance_report
+    report_owner: compliance_audits_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - compliance_audits_telemetry
+      - compliance_audits_evidence_index
+    report_outputs:
+      - compliance_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: compliance_audits_executive_brief
+    report_owner: compliance_audits_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - compliance_audits_telemetry
+      - compliance_audits_evidence_index
+    report_outputs:
+      - compliance_audits_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: compliance_audits_audit_pack
+    report_owner: compliance_audits_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - compliance_audits_telemetry
+      - compliance_audits_evidence_index
+    report_outputs:
+      - compliance_audits_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Compliance Audits interfaces with autonomous agents, GPAI, or
+      tool-calling systems.
+  agent_governance:
+    agent_identity: compliance_audits_registered_agent_identity_schema
+    agent_role: compliance_audits_delegated_authority_role_matrix
+    agent_permissions: compliance_audits_least_privilege_permission_set
+    agent_constraints: compliance_audits_autonomy_and_tool_constraints
+    agent_accountability: compliance_audits_human_accountability_chain
+    agent_escalation_rules: compliance_audits_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - compliance_audits_policy_context
+      - compliance_audits_risk_score
+      - compliance_audits_human_intent
+    decision_outputs:
+      - compliance_audits_authorized_action
+      - compliance_audits_escalation_notice
+    decision_owners:
+      - compliance_audits_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: compliance_audits_high_risk_decision_mandatory_review
+    decision_accountability: compliance_audits_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: compliance_audits_approved_tool_allowlist
+    tool_execution_validation: compliance_audits_pre_execution_tool_risk_check
+    tool_risk_controls: compliance_audits_tool_side_effect_containment
+    tool_auditability: compliance_audits_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: compliance_audits_memory_segment_access_policy
+    memory_integrity_validation: compliance_audits_memory_tamper_detection
+    memory_retention_controls: compliance_audits_memory_retention_and_purge_rules
+    memory_auditability: compliance_audits_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: compliance_audits_chain_of_thought_capture
+    reasoning_validation: compliance_audits_reasoning_consistency_check
+    reasoning_risk_monitoring: compliance_audits_reasoning_hazard_detection
+    reasoning_accountability: compliance_audits_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - compliance_audits_audit_log
+  - compliance_audits_activity_log
+  - compliance_audits_decision_log
+  - compliance_audits_traceability_record
+  - compliance_audits_evidence_package
+  - compliance_audits_chain_of_custody_record
+  - compliance_audits_attestation
+required_evidence:
+  - compliance_audits_audit_log
+  - compliance_audits_activity_log
+  - compliance_audits_decision_log
+  - compliance_audits_traceability_record
+  - compliance_audits_evidence_package
+  - compliance_audits_chain_of_custody_record
+  - compliance_audits_attestation
+supporting_evidence:
+  - compliance_audits_audit_log
+  - compliance_audits_activity_log
+  - compliance_audits_decision_log
+  - compliance_audits_traceability_record
+  - compliance_audits_evidence_package
+audit_evidence:
+  - compliance_audits_audit_log
+  - compliance_audits_activity_log
+  - compliance_audits_decision_log
+  - compliance_audits_traceability_record
+  - compliance_audits_evidence_package
+  - compliance_audits_chain_of_custody_record
+  - compliance_audits_attestation
+forensic_evidence:
+  - compliance_audits_audit_log
+  - compliance_audits_activity_log
+  - compliance_audits_decision_log
+  - compliance_audits_traceability_record
+  - compliance_audits_evidence_package
+  - compliance_audits_chain_of_custody_record
+  - compliance_audits_attestation
+regulatory_evidence:
+  - compliance_audits_audit_log
+  - compliance_audits_activity_log
+  - compliance_audits_decision_log
+  - compliance_audits_traceability_record
+  - compliance_audits_evidence_package
+  - compliance_audits_chain_of_custody_record
+  - compliance_audits_attestation
+validation_evidence:
+  - compliance_audits_audit_log
+  - compliance_audits_activity_log
+  - compliance_audits_decision_log
+  - compliance_audits_traceability_record
+  - compliance_audits_evidence_package
+  - compliance_audits_chain_of_custody_record
+  - compliance_audits_attestation
+validation_rules:
+  - rule: compliance_audits_evidence_complete
+    condition: required_evidence_compliance_audits < threshold
+    action: BLOCK_SUBMISSION
+  - rule: compliance_audits_integrity_verified
+    condition: integrity_status_compliance_audits != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: compliance_audits_custody_intact
+    condition: custody_gap_compliance_audits == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Compliance Audits controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Compliance Audits controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Compliance Audits controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Compliance Audits controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Compliance Audits controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - compliance_audits_control_failure
+    - compliance_audits_evidence_compromise
+    - compliance_audits_regulatory_non_compliance
+    - compliance_audits_enforcement_delay
+  risk_events:
+    - compliance_audits_audit_finding_critical
+    - compliance_audits_investigation_escalation
+    - compliance_audits_sanction_exposure
+    - compliance_audits_market_surveillance_inquiry
+  risk_indicators:
+    - compliance_audits_control_effectiveness_degradation
+    - compliance_audits_evidence_gap_rate
+    - compliance_audits_sla_breach_count
+    - compliance_audits_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    compliance_audits_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: compliance_audits_forensic_lead
+    compliance_audits_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    compliance_audits_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: compliance_audits_enforcement_officer
+  risk_tolerance:
+    compliance_audits_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: compliance_audits_risk_score >= 60
+    critical: compliance_audits_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Compliance Audits controls documented in compliance_audits_risk_register
+      with quarterly review.
+  risk_treatment:
+    - compliance_audits_preventive_control_reinforcement
+    - compliance_audits_detective_monitoring_enhancement
+    - compliance_audits_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: compliance_audits_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Compliance Audits workflow events with provenance anchor and
+      compliance_audits_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via compliance_audits_collection_api with schema validation and
+      classification
+  evidence_validation:
+    Completeness, authenticity, and admissibility checks via compliance_audits_validation_engine
+  evidence_classification:
+    RESTRICTED/CONFIDENTIAL classification per compliance_audits_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in compliance_audits_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per compliance_audits_retention_schedule aligned with EU AI Act Article 18 and legal
+      hold
+  evidence_archival:
+    Long-term archival with compliance_audits_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via compliance_audits_retrieval_gateway with purpose logging
+  evidence_disposal:
+    Authorized disposition with compliance_audits_disposition_certificate and dual approval
+compliance_mapping:
+  article_4:
+    article: Article 4
+    regulatory_text_summary:
+      AI literacy and training obligations for providers and deployers.
+    obligation:
+      >
+        Workforce competence and awareness for AI system lifecycle activities. Implemented through
+        Compliance Audits in compliance_audits.
+    implementation_controls:
+      - compliance_audits_article_4_preventive_control
+      - compliance_audits_article_4_detective_control
+      - compliance_audits_article_4_evidence_control
+    implementation_processes:
+      - compliance_audits_article_4_workflow
+      - compliance_audits_article_4_validation_process
+      - compliance_audits_article_4_escalation_process
+    implementation_evidence:
+      - compliance_audits_article_4_compliance_record
+      - compliance_audits_article_4_audit_package
+      - compliance_audits_article_4_attestation
+    validation_method: compliance_audits_article_4_automated_and_manual_conformity_testing
+    audit_method: compliance_audits_article_4_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: compliance_audits_article_4_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Compliance Audits demonstrates Article 4 conformity through indexed controls, immutable evidence
+        chains, and independent validation suitable for notified body and market surveillance review.
+  article_9:
+    article: Article 9
+    regulatory_text_summary:
+      Risk management system for high-risk AI systems.
+    obligation:
+      >
+        Continuous risk identification, analysis, evaluation, and treatment. Implemented through
+        Compliance Audits in compliance_audits.
+    implementation_controls:
+      - compliance_audits_article_9_preventive_control
+      - compliance_audits_article_9_detective_control
+      - compliance_audits_article_9_evidence_control
+    implementation_processes:
+      - compliance_audits_article_9_workflow
+      - compliance_audits_article_9_validation_process
+      - compliance_audits_article_9_escalation_process
+    implementation_evidence:
+      - compliance_audits_article_9_compliance_record
+      - compliance_audits_article_9_audit_package
+      - compliance_audits_article_9_attestation
+    validation_method: compliance_audits_article_9_automated_and_manual_conformity_testing
+    audit_method: compliance_audits_article_9_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: compliance_audits_article_9_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Compliance Audits demonstrates Article 9 conformity through indexed controls, immutable evidence
+        chains, and independent validation suitable for notified body and market surveillance review.
+  article_17:
+    article: Article 17
+    regulatory_text_summary:
+      Quality management system.
+    obligation:
+      >
+        QMS covering design, development, quality control, and post-market monitoring. Implemented
+        through Compliance Audits in compliance_audits.
+    implementation_controls:
+      - compliance_audits_article_17_preventive_control
+      - compliance_audits_article_17_detective_control
+      - compliance_audits_article_17_evidence_control
+    implementation_processes:
+      - compliance_audits_article_17_workflow
+      - compliance_audits_article_17_validation_process
+      - compliance_audits_article_17_escalation_process
+    implementation_evidence:
+      - compliance_audits_article_17_compliance_record
+      - compliance_audits_article_17_audit_package
+      - compliance_audits_article_17_attestation
+    validation_method: compliance_audits_article_17_automated_and_manual_conformity_testing
+    audit_method: compliance_audits_article_17_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: compliance_audits_article_17_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Compliance Audits demonstrates Article 17 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_43:
+    article: Article 43
+    regulatory_text_summary:
+      Conformity assessment.
+    obligation:
+      >
+        Conformity assessment procedures for high-risk AI systems. Implemented through Compliance Audits
+        in compliance_audits.
+    implementation_controls:
+      - compliance_audits_article_43_preventive_control
+      - compliance_audits_article_43_detective_control
+      - compliance_audits_article_43_evidence_control
+    implementation_processes:
+      - compliance_audits_article_43_workflow
+      - compliance_audits_article_43_validation_process
+      - compliance_audits_article_43_escalation_process
+    implementation_evidence:
+      - compliance_audits_article_43_compliance_record
+      - compliance_audits_article_43_audit_package
+      - compliance_audits_article_43_attestation
+    validation_method: compliance_audits_article_43_automated_and_manual_conformity_testing
+    audit_method: compliance_audits_article_43_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: compliance_audits_article_43_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Compliance Audits demonstrates Article 43 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+crosswalks:
+  eu_ai_act:
+    article_4:
+      implementation: compliance_audits_eu_ai_act_article_4_control_set
+      process: compliance_audits_eu_ai_act_article_4_workflow
+      evidence: compliance_audits_eu_ai_act_article_4_attestation
+    article_9:
+      implementation: compliance_audits_eu_ai_act_article_9_control_set
+      process: compliance_audits_eu_ai_act_article_9_workflow
+      evidence: compliance_audits_eu_ai_act_article_9_attestation
+    article_17:
+      implementation: compliance_audits_eu_ai_act_article_17_control_set
+      process: compliance_audits_eu_ai_act_article_17_workflow
+      evidence: compliance_audits_eu_ai_act_article_17_attestation
+    article_43:
+      implementation: compliance_audits_eu_ai_act_article_43_control_set
+      process: compliance_audits_eu_ai_act_article_43_workflow
+      evidence: compliance_audits_eu_ai_act_article_43_attestation
+  gdpr:
+    article_5:
+      implementation: compliance_audits_gdpr_article_5_privacy_control
+      evidence: compliance_audits_gdpr_article_5_compliance_record
+    article_6:
+      implementation: compliance_audits_gdpr_article_6_privacy_control
+      evidence: compliance_audits_gdpr_article_6_compliance_record
+    article_22:
+      implementation: compliance_audits_gdpr_article_22_privacy_control
+      evidence: compliance_audits_gdpr_article_22_compliance_record
+    article_25:
+      implementation: compliance_audits_gdpr_article_25_privacy_control
+      evidence: compliance_audits_gdpr_article_25_compliance_record
+    article_32:
+      implementation: compliance_audits_gdpr_article_32_privacy_control
+      evidence: compliance_audits_gdpr_article_32_compliance_record
+    article_35:
+      implementation: compliance_audits_gdpr_article_35_privacy_control
+      evidence: compliance_audits_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: compliance_audits_iso42001_clause_4_1_aims_control
+      evidence: compliance_audits_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: compliance_audits_iso42001_clause_4_2_aims_control
+      evidence: compliance_audits_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: compliance_audits_iso42001_clause_5_1_aims_control
+      evidence: compliance_audits_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: compliance_audits_iso42001_clause_5_2_aims_control
+      evidence: compliance_audits_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: compliance_audits_iso42001_clause_6_1_aims_control
+      evidence: compliance_audits_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: compliance_audits_iso42001_clause_8_1_aims_control
+      evidence: compliance_audits_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: compliance_audits_iso42001_clause_9_1_aims_control
+      evidence: compliance_audits_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: compliance_audits_iso42001_clause_10_1_aims_control
+      evidence: compliance_audits_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: compliance_audits_iso23894_risk_identification_alignment
+      evidence: compliance_audits_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: compliance_audits_iso23894_risk_analysis_alignment
+      evidence: compliance_audits_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: compliance_audits_iso23894_risk_evaluation_alignment
+      evidence: compliance_audits_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: compliance_audits_iso23894_risk_treatment_alignment
+      evidence: compliance_audits_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: compliance_audits_iso23894_risk_monitoring_alignment
+      evidence: compliance_audits_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: compliance_audits_iso19011_audit_principles_procedure
+      evidence: compliance_audits_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: compliance_audits_iso19011_audit_programme_management_procedure
+      evidence: compliance_audits_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: compliance_audits_iso19011_audit_evidence_requirements_procedure
+      evidence: compliance_audits_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: compliance_audits_iso19011_audit_reporting_procedure
+      evidence: compliance_audits_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: compliance_audits_nist_rmf_govern_control_mapping
+      evidence: compliance_audits_nist_rmf_govern_assessment
+    map:
+      implementation: compliance_audits_nist_rmf_map_control_mapping
+      evidence: compliance_audits_nist_rmf_map_assessment
+    measure:
+      implementation: compliance_audits_nist_rmf_measure_control_mapping
+      evidence: compliance_audits_nist_rmf_measure_assessment
+    manage:
+      implementation: compliance_audits_nist_rmf_manage_control_mapping
+      evidence: compliance_audits_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: compliance_audits_nist_csf_identify_safeguard
+      evidence: compliance_audits_nist_csf_identify_log
+    protect:
+      implementation: compliance_audits_nist_csf_protect_safeguard
+      evidence: compliance_audits_nist_csf_protect_log
+    detect:
+      implementation: compliance_audits_nist_csf_detect_safeguard
+      evidence: compliance_audits_nist_csf_detect_log
+    respond:
+      implementation: compliance_audits_nist_csf_respond_safeguard
+      evidence: compliance_audits_nist_csf_respond_log
+    recover:
+      implementation: compliance_audits_nist_csf_recover_safeguard
+      evidence: compliance_audits_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: compliance_audits_oecd_accountability_governance_control
+      evidence: compliance_audits_oecd_accountability_attestation
+    transparency:
+      implementation: compliance_audits_oecd_transparency_governance_control
+      evidence: compliance_audits_oecd_transparency_attestation
+    robustness_security:
+      implementation: compliance_audits_oecd_robustness_security_governance_control
+      evidence: compliance_audits_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: compliance_audits_oecd_inclusive_growth_governance_control
+      evidence: compliance_audits_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: compliance_audits_unesco_human_rights_ethics_control
+      evidence: compliance_audits_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: compliance_audits_unesco_fairness_non_discrimination_ethics_control
+      evidence: compliance_audits_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: compliance_audits_unesco_transparency_explainability_ethics_control
+      evidence: compliance_audits_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: compliance_audits_unesco_accountability_ethics_control
+      evidence: compliance_audits_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Compliance Audits covering executive, board, regulatory, audit,
+      forensic, and attestation consumers.
+  report_types:
+    - compliance_audits_status_report
+    - compliance_audits_compliance_report
+    - compliance_audits_enforcement_report
+    - compliance_audits_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [compliance_audits_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_compliance_audits
+  - quarterly_control_testing_compliance_audits
+  - evidence_sampling_compliance_audits
+  - finding_remediation_tracking_compliance_audits
+integration_points:
+  upstream_systems:
+    - system: audit_traceability
+      purpose: compliance_audits_to_audit_traceability_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_audit_traceability]
+      produced_artifacts: [compliance_audits_output_to_audit_traceability]
+    - system: evidence_preservation
+      purpose: compliance_audits_to_evidence_preservation_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_evidence_preservation]
+      produced_artifacts: [compliance_audits_output_to_evidence_preservation]
+    - system: ai_literacy
+      purpose: compliance_audits_to_ai_literacy_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_ai_literacy]
+      produced_artifacts: [compliance_audits_output_to_ai_literacy]
+    - system: conformity_assessment
+      purpose: compliance_audits_to_conformity_assessment_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_conformity_assessment]
+      produced_artifacts: [compliance_audits_output_to_conformity_assessment]
+  downstream_systems:
+    - system: enforcement_actions
+      purpose: compliance_audits_to_enforcement_actions_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_enforcement_actions]
+      produced_artifacts: [compliance_audits_output_to_enforcement_actions]
+    - system: remediation_tracking
+      purpose: compliance_audits_to_remediation_tracking_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_remediation_tracking]
+      produced_artifacts: [compliance_audits_output_to_remediation_tracking]
+    - system: reporting
+      purpose: compliance_audits_to_reporting_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_reporting]
+      produced_artifacts: [compliance_audits_output_to_reporting]
+  governance_integrations:
+    - system: core_governance
+      purpose: compliance_audits_to_core_governance_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_core_governance]
+      produced_artifacts: [compliance_audits_output_to_core_governance]
+    - system: notified_bodies
+      purpose: compliance_audits_to_notified_bodies_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_notified_bodies]
+      produced_artifacts: [compliance_audits_output_to_notified_bodies]
+  risk_integrations:
+    - system: risk_management
+      purpose: compliance_audits_to_risk_management_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_risk_management]
+      produced_artifacts: [compliance_audits_output_to_risk_management]
+    - system: compliance_scoring
+      purpose: compliance_audits_to_compliance_scoring_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_compliance_scoring]
+      produced_artifacts: [compliance_audits_output_to_compliance_scoring]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: compliance_audits_to_compliance_audits_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_compliance_audits]
+      produced_artifacts: [compliance_audits_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: compliance_audits_to_internal_audit_system_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_internal_audit_system]
+      produced_artifacts: [compliance_audits_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: compliance_audits_to_governance_reporting_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_governance_reporting]
+      produced_artifacts: [compliance_audits_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: compliance_audits_to_executive_dashboard_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_executive_dashboard]
+      produced_artifacts: [compliance_audits_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: compliance_audits_to_enforcement_actions_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_enforcement_actions]
+      produced_artifacts: [compliance_audits_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: compliance_audits_to_policy_enforcement_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_policy_enforcement]
+      produced_artifacts: [compliance_audits_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: compliance_audits_to_remediation_tracking_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_remediation_tracking]
+      produced_artifacts: [compliance_audits_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: compliance_audits_to_remediation_engine_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_remediation_engine]
+      produced_artifacts: [compliance_audits_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: compliance_audits_to_evidence_preservation_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_evidence_preservation]
+      produced_artifacts: [compliance_audits_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: compliance_audits_to_technical_documentation_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_technical_documentation]
+      produced_artifacts: [compliance_audits_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: compliance_audits_to_post_market_monitoring_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_post_market_monitoring]
+      produced_artifacts: [compliance_audits_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: compliance_audits_to_incident_reporting_governance_sync
+      data_exchanged: [compliance_audits_events, compliance_audits_evidence_refs, compliance_audits_metrics]
+      trigger_conditions: [compliance_audits_state_change, compliance_audits_escalation, compliance_audits_closure]
+      consumed_artifacts: [compliance_audits_input_from_incident_reporting]
+      produced_artifacts: [compliance_audits_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Compliance Audits activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Compliance Audits procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - compliance_audits_procedure_checklist
+    required_evidence:
+      - compliance_audits_process_log
+    required_metrics:
+      - compliance_audits_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Compliance Audits enterprise-wide.
+    required_capabilities:
+      - compliance_audits_standard_control_set
+    required_controls:
+      - compliance_audits_control_register
+    required_evidence:
+      - compliance_audits_audit_evidence
+    required_metrics:
+      - compliance_audits_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Compliance Audits with KPI optimization.
+    required_capabilities:
+      - compliance_audits_automated_controls
+    required_controls:
+      - compliance_audits_telemetry_controls
+    required_evidence:
+      - compliance_audits_assurance_package
+    required_metrics:
+      - compliance_audits_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Compliance Audits with predictive analytics.
+    required_capabilities:
+      - compliance_audits_autonomous_governance
+    required_controls:
+      - compliance_audits_adaptive_controls
+    required_evidence:
+      - compliance_audits_regulator_ready_portfolio
+    required_metrics:
+      - compliance_audits_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - compliance_audits_report
+  - compliance_audits_evidence_package
+  - compliance_audits_attestation
+  - compliance_audits_enforcement_record
+artifacts:
+  - name: compliance_audits_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: compliance_audits_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: compliance_audits_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: compliance_audits_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - compliance_audits_case_record
+  - compliance_audits_audit_record
+  - compliance_audits_enforcement_record
+  - compliance_audits_remediation_record
+monitoring:
+  continuous:
+    - compliance_audits_control_telemetry
+    - compliance_audits_evidence_integrity_feed
+    - compliance_audits_escalation_queue
+  periodic:
+    - compliance_audits_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Compliance Audits effectiveness, regulatory change impact assessment, and
+    control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: compliance_audits_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: compliance_audits_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: compliance_audits_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: compliance_audits_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Compliance Audits

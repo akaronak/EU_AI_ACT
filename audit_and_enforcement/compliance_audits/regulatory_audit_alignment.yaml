@@ -1,0 +1,1940 @@
+metadata:
+  id: AAE-CA-REGAUD-001
+  name: regulatory_audit_alignment
+  title: Regulatory Audit Alignment
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: compliance_auditing
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - compliance_audits
+    - regulatory_audit_alignment
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Regulatory Audit Alignment governance within
+    audit_and_enforcement/compliance_audits, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for structured audit execution and evidence sufficiency validation,
+    alignment drift detection and stability assurance monitoring, supervisory authority engagement
+    and submission management. Integrates with the EU AI Act governance ecosystem through machine-
+    evaluable obligations, evidence preservation, and conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Regulatory Audit Alignment across enterprise
+    and cross-border operations within audit_and_enforcement/compliance_audits.
+objectives:
+  - Operationalize Regulatory Audit Alignment with regulator-defensible controls and evidence chains
+  - Enable automated validation of Regulatory Audit Alignment conformance across compliance_audits
+  - Preserve audit-grade and forensic-grade records for all Regulatory Audit Alignment activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Regulatory Audit Alignment with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Regulatory Audit Alignment
+definitions:
+  regulatory_audit_alignment_governance_domain:
+    >
+      The operational jurisdiction of Regulatory Audit Alignment encompassing controlled audit,
+      enforcement, investigation, and evidence processes within compliance_audits.
+  regulatory_audit_alignment_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Regulatory Audit Alignment control
+      effectiveness, process adherence, and regulatory conformity.
+  regulatory_audit_alignment_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Regulatory Audit Alignment decision logic.
+  regulatory_audit_alignment_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Regulatory Audit Alignment processes.
+  regulatory_audit_alignment_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Regulatory Audit Alignment operations.
+  regulatory_audit_alignment_conformity_assertion:
+    >
+      Formal statement that Regulatory Audit Alignment requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: regulatory_audit_alignment_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  regulatory_audit_alignment_artifact_type:
+    - regulatory_audit_alignment_record
+    - regulatory_audit_alignment_log
+    - regulatory_audit_alignment_report
+    - regulatory_audit_alignment_attestation
+    - regulatory_audit_alignment_package
+  regulatory_audit_alignment_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Regulatory Audit Alignment Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: compliance_audits
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - audit_traceability
+    - evidence_preservation
+    - ai_literacy
+    - conformity_assessment
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - enforcement_actions
+    - remediation_tracking
+    - reporting
+    - audit_and_enforcement/compliance_audits/regulatory_audit_alignment.yaml
+  related_domains:
+    - audit_traceability
+    - evidence_preservation
+    - reporting
+  related_skills:
+    - compliance_audit_framework
+    - audit_evidence_validation
+    - regulatory_audit_alignment
+    - regulatory_audit_alignment
+  parent_governance_objects:
+    - audit_taxonomy
+    - enforcement_framework
+  child_governance_objects:
+    - audit_finding
+    - compliance_assessment_record
+    - regulatory_audit_alignment_governance_object
+  consumes_artifacts:
+    - evidence_package
+    - control_register
+    - literacy_attestation
+    - regulatory_audit_alignment_input_artifact
+  produces_artifacts:
+    - audit_report
+    - compliance_gap_register
+    - inspection_readiness_package
+    - regulatory_audit_alignment_record
+    - regulatory_audit_alignment_report
+    - regulatory_audit_alignment_attestation
+  consumes_evidence:
+    - chain_of_custody_record
+    - traceability_record
+    - conformity_declaration
+    - regulatory_audit_alignment_source_evidence
+  produces_evidence:
+    - audit_workpaper
+    - finding_validation_record
+    - management_response
+    - regulatory_audit_alignment_audit_evidence
+    - regulatory_audit_alignment_validation_evidence
+    - regulatory_audit_alignment_enforcement_evidence
+  governance_dependencies:
+    - core_governance
+    - notified_bodies
+  regulatory_dependencies:
+    - eu_ai_act_article_43
+    - eu_ai_act_article_4
+    - iso_19011
+  risk_dependencies:
+    - risk_management
+    - compliance_scoring
+  control_dependencies:
+    - audit_traceability
+    - evidence_preservation
+    - regulatory_audit_alignment_control_register
+roles_and_responsibilities:
+  regulatory_audit_alignment_owner:
+    responsibilities:
+      - Accountable for Regulatory Audit Alignment strategy, control design, and regulatory alignment
+  regulatory_audit_alignment_operator:
+    responsibilities:
+      - Executes Regulatory Audit Alignment workflows and maintains operational records
+  regulatory_audit_alignment_auditor:
+    responsibilities:
+      - Independently validates Regulatory Audit Alignment control effectiveness and evidence sufficiency
+  regulatory_audit_alignment_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Regulatory Audit Alignment investigations
+  regulatory_audit_alignment_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Regulatory Audit Alignment
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-001
+    name: Audit Governance
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-002
+    name: Regulatory Auditing
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-003
+    name: Internal Auditing
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-004
+    name: External Auditing
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-005
+    name: Compliance Auditing
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-006
+    name: Audit Readiness
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-007
+    name: Inspection Readiness
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-008
+    name: Conformity Assessments
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-044
+    name: Regulatory Reporting
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-045
+    name: Executive Audit Reporting
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-COM-REGULATORY-REGULATORYA
+    control_name: regulatory_audit_scope_boundary_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring audit scope boundary enforcer for Regulatory Audit Alignment across
+        compliance_audits.
+    governance_rationale:
+      >
+        regulatory_audit_scope_boundary_enforcer is required to govern Regulatory Audit Alignment risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected compliance
+        audits failures.
+    implementation_guidance:
+      >
+        Implement regulatory_audit_scope_boundary_enforcer as automated policy in
+        regulatory_audit_alignment orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: regulatory_audit_scope_boundary_enforcer_continuous_telemetry_dashboard
+    validation_method:
+      regulatory_audit_scope_boundary_enforcer_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      regulatory_audit_scope_boundary_enforcer_statistical_sampling_with_exception_tracking
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated: regulatory_audit_scope_boundary_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulatory_audit_scope_boundary_enforcer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulatory_audit_scope_boundary_enforcer outputs may trigger enforcement under
+        regulatory_audit_alignment escalation rules.
+  - control_id: AAE-COM-REGULATORY-AUDITSAMPLI
+    control_name: audit_sampling_methodology_validator
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring sampling methodology validator for Regulatory Audit Alignment
+        across compliance_audits.
+    governance_rationale:
+      >
+        audit_sampling_methodology_validator is required to govern Regulatory Audit Alignment risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected compliance
+        audits failures.
+    implementation_guidance:
+      >
+        Implement audit_sampling_methodology_validator as automated policy in regulatory_audit_alignment
+        orchestration layer; wire to telemetry bus; block non-compliant state transitions; log evidence
+        to immutable store.
+    monitoring_method: audit_sampling_methodology_validator_continuous_telemetry_dashboard
+    validation_method:
+      audit_sampling_methodology_validator_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      audit_sampling_methodology_validator_statistical_sampling_with_exception_tracking
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated: audit_sampling_methodology_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify audit_sampling_methodology_validator design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        audit_sampling_methodology_validator outputs may trigger enforcement under
+        regulatory_audit_alignment escalation rules.
+  - control_id: AAE-COM-REGULATORY-ALIGNMENTFI
+    control_name: alignment_finding_severity_classifier
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring finding severity classifier for Regulatory Audit Alignment across
+        compliance_audits.
+    governance_rationale:
+      >
+        alignment_finding_severity_classifier is required to govern Regulatory Audit Alignment risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected compliance
+        audits failures.
+    implementation_guidance:
+      >
+        Implement alignment_finding_severity_classifier as automated policy in
+        regulatory_audit_alignment orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method: alignment_finding_severity_classifier_continuous_telemetry_dashboard
+    validation_method:
+      alignment_finding_severity_classifier_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      alignment_finding_severity_classifier_statistical_sampling_with_exception_tracking
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated: alignment_finding_severity_classifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify alignment_finding_severity_classifier design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        alignment_finding_severity_classifier outputs may trigger enforcement under
+        regulatory_audit_alignment escalation rules.
+  - control_id: AAE-COM-REGULATORY-REGULATORYA
+    control_name: regulatory_audit_alignment_evidence_sufficiency_gate
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring evidence sufficiency gate for Regulatory Audit Alignment across
+        compliance_audits.
+    governance_rationale:
+      >
+        regulatory_audit_alignment_evidence_sufficiency_gate is required to govern Regulatory Audit
+        Alignment risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected compliance audits failures.
+    implementation_guidance:
+      >
+        Implement regulatory_audit_alignment_evidence_sufficiency_gate as automated policy in
+        regulatory_audit_alignment orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      regulatory_audit_alignment_evidence_sufficiency_gate_continuous_telemetry_dashboard
+    validation_method:
+      >
+        regulatory_audit_alignment_evidence_sufficiency_gate_quarterly_design_and_operating_effectivenes
+        s_test
+    testing_method:
+      >
+        regulatory_audit_alignment_evidence_sufficiency_gate_statistical_sampling_with_exception_trackin
+        g
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated: regulatory_audit_alignment_evidence_sufficiency_gate_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulatory_audit_alignment_evidence_sufficiency_gate design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulatory_audit_alignment_evidence_sufficiency_gate outputs may trigger enforcement under
+        regulatory_audit_alignment escalation rules.
+  - control_id: AAE-COM-REGULATORY-REGULATORYA
+    control_name: regulatory_audit_alignment_management_response_tracker
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring management response tracker for Regulatory Audit Alignment across
+        compliance_audits.
+    governance_rationale:
+      >
+        regulatory_audit_alignment_management_response_tracker is required to govern Regulatory Audit
+        Alignment risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected compliance audits failures.
+    implementation_guidance:
+      >
+        Implement regulatory_audit_alignment_management_response_tracker as automated policy in
+        regulatory_audit_alignment orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      regulatory_audit_alignment_management_response_tracker_continuous_telemetry_dashboard
+    validation_method:
+      >
+        regulatory_audit_alignment_management_response_tracker_quarterly_design_and_operating_effectiven
+        ess_test
+    testing_method:
+      >
+        regulatory_audit_alignment_management_response_tracker_statistical_sampling_with_exception_track
+        ing
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated: regulatory_audit_alignment_management_response_tracker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulatory_audit_alignment_management_response_tracker design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulatory_audit_alignment_management_response_tracker outputs may trigger enforcement under
+        regulatory_audit_alignment escalation rules.
+  - control_id: AAE-COM-REGULATORY-REGULATORYA
+    control_name: regulatory_audit_alignment_external_auditor_coordination_hub
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring external auditor coordination hub for Regulatory Audit Alignment
+        across compliance_audits.
+    governance_rationale:
+      >
+        regulatory_audit_alignment_external_auditor_coordination_hub is required to govern Regulatory
+        Audit Alignment risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected compliance audits failures.
+    implementation_guidance:
+      >
+        Implement regulatory_audit_alignment_external_auditor_coordination_hub as automated policy in
+        regulatory_audit_alignment orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      regulatory_audit_alignment_external_auditor_coordination_hub_continuous_telemetry_dashboard
+    validation_method:
+      >
+        regulatory_audit_alignment_external_auditor_coordination_hub_quarterly_design_and_operating_effe
+        ctiveness_test
+    testing_method:
+      >
+        regulatory_audit_alignment_external_auditor_coordination_hub_statistical_sampling_with_exception
+        _tracking
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated:
+      regulatory_audit_alignment_external_auditor_coordination_hub_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulatory_audit_alignment_external_auditor_coordination_hub design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulatory_audit_alignment_external_auditor_coordination_hub outputs may trigger enforcement
+        under regulatory_audit_alignment escalation rules.
+  - control_id: AAE-COM-REGULATORY-REGULATORYA
+    control_name: regulatory_audit_alignment_continuous_audit_signal_processor
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring continuous audit signal processor for Regulatory Audit Alignment
+        across compliance_audits.
+    governance_rationale:
+      >
+        regulatory_audit_alignment_continuous_audit_signal_processor is required to govern Regulatory
+        Audit Alignment risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected compliance audits failures.
+    implementation_guidance:
+      >
+        Implement regulatory_audit_alignment_continuous_audit_signal_processor as automated policy in
+        regulatory_audit_alignment orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      regulatory_audit_alignment_continuous_audit_signal_processor_continuous_telemetry_dashboard
+    validation_method:
+      >
+        regulatory_audit_alignment_continuous_audit_signal_processor_quarterly_design_and_operating_effe
+        ctiveness_test
+    testing_method:
+      >
+        regulatory_audit_alignment_continuous_audit_signal_processor_statistical_sampling_with_exception
+        _tracking
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated:
+      regulatory_audit_alignment_continuous_audit_signal_processor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulatory_audit_alignment_continuous_audit_signal_processor design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulatory_audit_alignment_continuous_audit_signal_processor outputs may trigger enforcement
+        under regulatory_audit_alignment escalation rules.
+  - control_id: AAE-COM-REGULATORY-REGULATORYA
+    control_name: regulatory_audit_alignment_regulatory_audit_alignment_checker
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring regulatory audit alignment checker for Regulatory Audit Alignment
+        across compliance_audits.
+    governance_rationale:
+      >
+        regulatory_audit_alignment_regulatory_audit_alignment_checker is required to govern Regulatory
+        Audit Alignment risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected compliance audits failures.
+    implementation_guidance:
+      >
+        Implement regulatory_audit_alignment_regulatory_audit_alignment_checker as automated policy in
+        regulatory_audit_alignment orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      regulatory_audit_alignment_regulatory_audit_alignment_checker_continuous_telemetry_dashboard
+    validation_method:
+      >
+        regulatory_audit_alignment_regulatory_audit_alignment_checker_quarterly_design_and_operating_eff
+        ectiveness_test
+    testing_method:
+      >
+        regulatory_audit_alignment_regulatory_audit_alignment_checker_statistical_sampling_with_exceptio
+        n_tracking
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated:
+      regulatory_audit_alignment_regulatory_audit_alignment_checker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulatory_audit_alignment_regulatory_audit_alignment_checker design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulatory_audit_alignment_regulatory_audit_alignment_checker outputs may trigger enforcement
+        under regulatory_audit_alignment escalation rules.
+  - control_id: AAE-COM-REGULATORY-REGULATORYA
+    control_name: regulatory_audit_alignment_audit_workpaper_integrity_sealer
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring audit workpaper integrity sealer for Regulatory Audit Alignment
+        across compliance_audits.
+    governance_rationale:
+      >
+        regulatory_audit_alignment_audit_workpaper_integrity_sealer is required to govern Regulatory
+        Audit Alignment risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected compliance audits failures.
+    implementation_guidance:
+      >
+        Implement regulatory_audit_alignment_audit_workpaper_integrity_sealer as automated policy in
+        regulatory_audit_alignment orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      regulatory_audit_alignment_audit_workpaper_integrity_sealer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        regulatory_audit_alignment_audit_workpaper_integrity_sealer_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        regulatory_audit_alignment_audit_workpaper_integrity_sealer_statistical_sampling_with_exception_
+        tracking
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated:
+      regulatory_audit_alignment_audit_workpaper_integrity_sealer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulatory_audit_alignment_audit_workpaper_integrity_sealer design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulatory_audit_alignment_audit_workpaper_integrity_sealer outputs may trigger enforcement
+        under regulatory_audit_alignment escalation rules.
+  - control_id: AAE-COM-REGULATORY-REGULATORYA
+    control_name: regulatory_audit_alignment_inspection_readiness_scorer
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring inspection readiness scorer for Regulatory Audit Alignment across
+        compliance_audits.
+    governance_rationale:
+      >
+        regulatory_audit_alignment_inspection_readiness_scorer is required to govern Regulatory Audit
+        Alignment risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected compliance audits failures.
+    implementation_guidance:
+      >
+        Implement regulatory_audit_alignment_inspection_readiness_scorer as automated policy in
+        regulatory_audit_alignment orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      regulatory_audit_alignment_inspection_readiness_scorer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        regulatory_audit_alignment_inspection_readiness_scorer_quarterly_design_and_operating_effectiven
+        ess_test
+    testing_method:
+      >
+        regulatory_audit_alignment_inspection_readiness_scorer_statistical_sampling_with_exception_track
+        ing
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated: regulatory_audit_alignment_inspection_readiness_scorer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulatory_audit_alignment_inspection_readiness_scorer design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulatory_audit_alignment_inspection_readiness_scorer outputs may trigger enforcement under
+        regulatory_audit_alignment escalation rules.
+  - control_id: AAE-COM-REGULATORY-REGULATORYA
+    control_name: regulatory_audit_alignment_gap_remediation_linkage
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring gap remediation linkage for Regulatory Audit Alignment across
+        compliance_audits.
+    governance_rationale:
+      >
+        regulatory_audit_alignment_gap_remediation_linkage is required to govern Regulatory Audit
+        Alignment risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected compliance audits failures.
+    implementation_guidance:
+      >
+        Implement regulatory_audit_alignment_gap_remediation_linkage as automated policy in
+        regulatory_audit_alignment orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      regulatory_audit_alignment_gap_remediation_linkage_continuous_telemetry_dashboard
+    validation_method:
+      >
+        regulatory_audit_alignment_gap_remediation_linkage_quarterly_design_and_operating_effectiveness_
+        test
+    testing_method:
+      regulatory_audit_alignment_gap_remediation_linkage_statistical_sampling_with_exception_tracking
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated: regulatory_audit_alignment_gap_remediation_linkage_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulatory_audit_alignment_gap_remediation_linkage design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulatory_audit_alignment_gap_remediation_linkage outputs may trigger enforcement under
+        regulatory_audit_alignment escalation rules.
+  - control_id: AAE-COM-REGULATORY-REGULATORYA
+    control_name: regulatory_audit_alignment_audit_closure_certifier
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring audit closure certifier for Regulatory Audit Alignment across
+        compliance_audits.
+    governance_rationale:
+      >
+        regulatory_audit_alignment_audit_closure_certifier is required to govern Regulatory Audit
+        Alignment risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected compliance audits failures.
+    implementation_guidance:
+      >
+        Implement regulatory_audit_alignment_audit_closure_certifier as automated policy in
+        regulatory_audit_alignment orchestration layer; wire to telemetry bus; block non-compliant state
+        transitions; log evidence to immutable store.
+    monitoring_method:
+      regulatory_audit_alignment_audit_closure_certifier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        regulatory_audit_alignment_audit_closure_certifier_quarterly_design_and_operating_effectiveness_
+        test
+    testing_method:
+      regulatory_audit_alignment_audit_closure_certifier_statistical_sampling_with_exception_tracking
+    control_owner: regulatory_audit_alignment_control_owner
+    evidence_generated: regulatory_audit_alignment_audit_closure_certifier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify regulatory_audit_alignment_audit_closure_certifier design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        regulatory_audit_alignment_audit_closure_certifier outputs may trigger enforcement under
+        regulatory_audit_alignment escalation rules.
+requirements:
+  legal:
+    >
+      Regulatory Audit Alignment must satisfy legal requirements for structured audit execution and
+      evidence sufficiency validation, alignment drift detection and stability assurance monitoring,
+      supervisory authority engagement and submission management including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Regulatory Audit Alignment must satisfy regulatory requirements for structured audit execution
+      and evidence sufficiency validation, alignment drift detection and stability assurance
+      monitoring, supervisory authority engagement and submission management including documented
+      procedures, accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act
+      and ISO 19011.
+  technical:
+    >
+      Regulatory Audit Alignment must satisfy technical requirements for structured audit execution
+      and evidence sufficiency validation, alignment drift detection and stability assurance
+      monitoring, supervisory authority engagement and submission management including documented
+      procedures, accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act
+      and ISO 19011.
+  operational:
+    >
+      Regulatory Audit Alignment must satisfy operational requirements for structured audit execution
+      and evidence sufficiency validation, alignment drift detection and stability assurance
+      monitoring, supervisory authority engagement and submission management including documented
+      procedures, accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act
+      and ISO 19011.
+  audit:
+    >
+      Regulatory Audit Alignment must satisfy audit requirements for structured audit execution and
+      evidence sufficiency validation, alignment drift detection and stability assurance monitoring,
+      supervisory authority engagement and submission management including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Regulatory Audit Alignment must satisfy forensic requirements for structured audit execution and
+      evidence sufficiency validation, alignment drift detection and stability assurance monitoring,
+      supervisory authority engagement and submission management including documented procedures,
+      accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Regulatory Audit Alignment must satisfy enforcement requirements for structured audit execution
+      and evidence sufficiency validation, alignment drift detection and stability assurance
+      monitoring, supervisory authority engagement and submission management including documented
+      procedures, accountable roles, measurable SLAs, and evidence retention aligned with EU AI Act
+      and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Regulatory Audit Alignment with stage gates, RACI assignments, and evidence
+      capture.
+  triage:
+    >
+      Triage process for Regulatory Audit Alignment with stage gates, RACI assignments, and evidence
+      capture.
+  execution:
+    >
+      Execution process for Regulatory Audit Alignment with stage gates, RACI assignments, and
+      evidence capture.
+  validation:
+    >
+      Validation process for Regulatory Audit Alignment with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Regulatory Audit Alignment with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Regulatory Audit Alignment with stage gates, RACI assignments, and evidence
+      capture.
+  improvement:
+    >
+      Improvement process for Regulatory Audit Alignment with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: regulatory_audit_alignment_operational_lifecycle_workflow
+    workflow_trigger: regulatory_audit_alignment_governance_event_detected
+    workflow_steps:
+      - regulatory_audit_alignment_intake
+      - regulatory_audit_alignment_triage
+      - regulatory_audit_alignment_execution
+      - regulatory_audit_alignment_validation
+      - regulatory_audit_alignment_approval
+      - regulatory_audit_alignment_closure
+    approval_points:
+      - regulatory_audit_alignment_approval
+    escalation_points:
+      - regulatory_audit_alignment_triage
+    generated_evidence:
+      - regulatory_audit_alignment_workflow_log
+      - regulatory_audit_alignment_closure_attestation
+    completion_requirements:
+      - regulatory_audit_alignment_evidence_complete
+      - regulatory_audit_alignment_approvals_recorded
+  - workflow_name: regulatory_audit_alignment_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_regulatory_audit_alignment
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - regulatory_audit_alignment_regulatory_package
+      - regulatory_audit_alignment_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - regulatory_audit_alignment_governance_event_detected
+    - regulatory_audit_alignment_regulatory_inquiry
+    - regulatory_audit_alignment_integrity_breach
+    - regulatory_audit_alignment_enforcement_authorization
+  required_inputs:
+    - regulatory_audit_alignment_case_context
+    - regulatory_audit_alignment_evidence_index
+    - regulatory_audit_alignment_risk_assessment
+  workflow_steps:
+    - regulatory_audit_alignment_intake
+    - regulatory_audit_alignment_triage
+    - regulatory_audit_alignment_execution
+    - regulatory_audit_alignment_validation
+    - regulatory_audit_alignment_approval
+    - regulatory_audit_alignment_closure
+  validation_steps:
+    - regulatory_audit_alignment_evidence_sufficiency_check
+    - regulatory_audit_alignment_integrity_verification
+  approval_steps:
+    - regulatory_audit_alignment_approval
+  control_checkpoints:
+    - regulatory_audit_alignment_intake_gate
+    - regulatory_audit_alignment_evidence_gate
+    - regulatory_audit_alignment_decision_gate
+  evidence_generation:
+    - regulatory_audit_alignment_workflow_log
+    - regulatory_audit_alignment_closure_attestation
+  decision_points:
+    - regulatory_audit_alignment_severity_classification
+    - regulatory_audit_alignment_enforcement_authorization
+  escalation_points:
+    - regulatory_audit_alignment_triage
+  completion_criteria:
+    - regulatory_audit_alignment_evidence_complete
+    - regulatory_audit_alignment_approvals_recorded
+  generated_outputs:
+    - regulatory_audit_alignment_workflow_log
+    - regulatory_audit_alignment_closure_attestation
+    - regulatory_audit_alignment_final_disposition
+decision_logic:
+  decision_inputs:
+    - regulatory_audit_alignment_severity_score
+    - regulatory_audit_alignment_evidence_completeness
+    - regulatory_audit_alignment_regulatory_context
+    - regulatory_audit_alignment_risk_exposure_index
+  decision_conditions:
+    - regulatory_audit_alignment_critical_threshold_breach
+    - regulatory_audit_alignment_evidence_integrity_failure
+    - regulatory_audit_alignment_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: regulatory_audit_alignment_severity_score >= 90
+    high_severity: regulatory_audit_alignment_severity_score >= 70
+    evidence_complete: regulatory_audit_alignment_evidence_completeness >= 0.98
+  decision_rules:
+    regulatory_audit_alignment_high_severity_violation:
+      condition: regulatory_audit_alignment_severity_score >= 90
+      action: initiate_regulatory_audit_alignment_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: regulatory_audit_alignment_investigation_report
+    regulatory_audit_alignment_evidence_compromise_detected:
+      condition: regulatory_audit_alignment_integrity_status == compromised
+      action: activate_regulatory_audit_alignment_forensic_lockdown
+      approval_required: regulatory_audit_alignment_forensic_lead
+      evidence_required: regulatory_audit_alignment_integrity_alert_record
+    regulatory_audit_alignment_enforcement_authorization:
+      condition: regulatory_audit_alignment_violation_confirmed == true AND regulatory_audit_alignment_evidence_complete == true
+      action: issue_regulatory_audit_alignment_enforcement_order
+      approval_required: regulatory_audit_alignment_enforcement_officer
+      evidence_required: regulatory_audit_alignment_violation_evidence_package
+    regulatory_audit_alignment_regulator_inquiry_response:
+      condition: regulatory_audit_alignment_regulator_request_received == true
+      action: compile_regulatory_audit_alignment_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: regulatory_audit_alignment_regulatory_evidence_index
+  decision_outputs:
+    - regulatory_audit_alignment_enforcement_decision
+    - regulatory_audit_alignment_escalation_notice
+    - regulatory_audit_alignment_remediation_directive
+    - regulatory_audit_alignment_audit_disposition
+  approval_requirements:
+    enforcement_actions: [regulatory_audit_alignment_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - regulatory_audit_alignment_severity_score >= 90
+    - regulatory_audit_alignment_evidence_integrity_failure == true
+    - regulatory_audit_alignment_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_regulatory_audit_alignment_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: regulatory_audit_alignment_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Regulatory Audit Alignment may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Regulatory Audit Alignment per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Regulatory Audit Alignment per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Regulatory Audit Alignment per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Regulatory Audit Alignment per ISO 19011 and EU
+      AI Act conformity assessment methodology.
+metrics:
+  - metric_name: audit_finding_closure_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure audit finding closure rate for Regulatory Audit Alignment operational and regulatory
+        assurance
+    formula: computed_audit_finding_closure_rate_from_regulatory_audit_alignment_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: regulatory_audit_alignment_metrics_owner
+    data_source: regulatory_audit_alignment_metrics_warehouse
+    evidence_generated: audit_finding_closure_rate_measurement_record
+  - metric_name: inspection_readiness_score
+    metric_category: risk
+    business_purpose:
+      >
+        Measure inspection readiness score for Regulatory Audit Alignment operational and regulatory
+        assurance
+    formula: computed_inspection_readiness_score_from_regulatory_audit_alignment_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: regulatory_audit_alignment_metrics_owner
+    data_source: regulatory_audit_alignment_metrics_warehouse
+    evidence_generated: inspection_readiness_score_measurement_record
+  - metric_name: control_test_pass_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure control test pass rate for Regulatory Audit Alignment operational and regulatory
+        assurance
+    formula: computed_control_test_pass_rate_from_regulatory_audit_alignment_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: regulatory_audit_alignment_metrics_owner
+    data_source: regulatory_audit_alignment_metrics_warehouse
+    evidence_generated: control_test_pass_rate_measurement_record
+  - metric_name: evidence_gap_count
+    metric_category: effectiveness
+    business_purpose:
+      Measure evidence gap count for Regulatory Audit Alignment operational and regulatory assurance
+    formula: computed_evidence_gap_count_from_regulatory_audit_alignment_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: regulatory_audit_alignment_metrics_owner
+    data_source: regulatory_audit_alignment_metrics_warehouse
+    evidence_generated: evidence_gap_count_measurement_record
+  - metric_name: regulatory_alignment_score
+    metric_category: governance
+    business_purpose:
+      >
+        Measure regulatory alignment score for Regulatory Audit Alignment operational and regulatory
+        assurance
+    formula: computed_regulatory_alignment_score_from_regulatory_audit_alignment_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: regulatory_audit_alignment_metrics_owner
+    data_source: regulatory_audit_alignment_metrics_warehouse
+    evidence_generated: regulatory_alignment_score_measurement_record
+  - metric_name: continuous_audit_coverage
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure continuous audit coverage for Regulatory Audit Alignment operational and regulatory
+        assurance
+    formula: computed_continuous_audit_coverage_from_regulatory_audit_alignment_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: regulatory_audit_alignment_metrics_owner
+    data_source: regulatory_audit_alignment_metrics_warehouse
+    evidence_generated: continuous_audit_coverage_measurement_record
+kpis:
+  - metric_name: audit_finding_closure_rate
+    formula: computed_audit_finding_closure_rate_from_regulatory_audit_alignment_telemetry
+    target: >= 95%
+  - metric_name: inspection_readiness_score
+    formula: computed_inspection_readiness_score_from_regulatory_audit_alignment_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: control_test_pass_rate
+    formula: computed_control_test_pass_rate_from_regulatory_audit_alignment_telemetry
+    target: >= 95%
+  - metric_name: evidence_gap_count
+    formula: computed_evidence_gap_count_from_regulatory_audit_alignment_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: regulatory_alignment_score
+    business_purpose: Measure regulatory alignment score for Regulatory Audit Alignment operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+  - metric_name: continuous_audit_coverage
+    business_purpose: Measure continuous audit coverage for Regulatory Audit Alignment operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: regulatory_audit_alignment_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support regulatory audit alignment governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_regulatory_audit_alignment_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: regulatory_audit_alignment_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: regulatory_audit_alignment_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support regulatory audit alignment governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_regulatory_audit_alignment_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: regulatory_audit_alignment_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: regulatory_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support regulatory audit alignment governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_regulatory_audit_alignment_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: regulatory_audit_alignment_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: audit_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support regulatory audit alignment governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_regulatory_audit_alignment_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: regulatory_audit_alignment_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: alignment_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support regulatory audit alignment governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_regulatory_audit_alignment_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: regulatory_audit_alignment_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: regulator_submission_package
+    report_owner: regulatory_audit_alignment_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - regulatory_audit_alignment_telemetry
+      - regulatory_audit_alignment_evidence_index
+    report_outputs:
+      - regulator_submission_package_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: supervisory_authority_brief
+    report_owner: regulatory_audit_alignment_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - regulatory_audit_alignment_telemetry
+      - regulatory_audit_alignment_evidence_index
+    report_outputs:
+      - supervisory_authority_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: market_surveillance_status_report
+    report_owner: regulatory_audit_alignment_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - regulatory_audit_alignment_telemetry
+      - regulatory_audit_alignment_evidence_index
+    report_outputs:
+      - market_surveillance_status_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: incident_disclosure_summary
+    report_owner: regulatory_audit_alignment_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - regulatory_audit_alignment_telemetry
+      - regulatory_audit_alignment_evidence_index
+    report_outputs:
+      - incident_disclosure_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: conformity_status_report
+    report_owner: regulatory_audit_alignment_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - regulatory_audit_alignment_telemetry
+      - regulatory_audit_alignment_evidence_index
+    report_outputs:
+      - conformity_status_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Regulatory Audit Alignment interfaces with autonomous agents,
+      GPAI, or tool-calling systems.
+  agent_governance:
+    agent_identity: regulatory_audit_alignment_registered_agent_identity_schema
+    agent_role: regulatory_audit_alignment_delegated_authority_role_matrix
+    agent_permissions: regulatory_audit_alignment_least_privilege_permission_set
+    agent_constraints: regulatory_audit_alignment_autonomy_and_tool_constraints
+    agent_accountability: regulatory_audit_alignment_human_accountability_chain
+    agent_escalation_rules: regulatory_audit_alignment_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - regulatory_audit_alignment_policy_context
+      - regulatory_audit_alignment_risk_score
+      - regulatory_audit_alignment_human_intent
+    decision_outputs:
+      - regulatory_audit_alignment_authorized_action
+      - regulatory_audit_alignment_escalation_notice
+    decision_owners:
+      - regulatory_audit_alignment_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: regulatory_audit_alignment_high_risk_decision_mandatory_review
+    decision_accountability: regulatory_audit_alignment_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: regulatory_audit_alignment_approved_tool_allowlist
+    tool_execution_validation: regulatory_audit_alignment_pre_execution_tool_risk_check
+    tool_risk_controls: regulatory_audit_alignment_tool_side_effect_containment
+    tool_auditability: regulatory_audit_alignment_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: regulatory_audit_alignment_memory_segment_access_policy
+    memory_integrity_validation: regulatory_audit_alignment_memory_tamper_detection
+    memory_retention_controls: regulatory_audit_alignment_memory_retention_and_purge_rules
+    memory_auditability: regulatory_audit_alignment_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: regulatory_audit_alignment_chain_of_thought_capture
+    reasoning_validation: regulatory_audit_alignment_reasoning_consistency_check
+    reasoning_risk_monitoring: regulatory_audit_alignment_reasoning_hazard_detection
+    reasoning_accountability: regulatory_audit_alignment_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - regulatory_audit_alignment_audit_log
+  - regulatory_audit_alignment_activity_log
+  - regulatory_audit_alignment_decision_log
+  - regulatory_audit_alignment_traceability_record
+  - regulatory_audit_alignment_evidence_package
+  - regulatory_audit_alignment_chain_of_custody_record
+  - regulatory_audit_alignment_attestation
+required_evidence:
+  - regulatory_audit_alignment_audit_log
+  - regulatory_audit_alignment_activity_log
+  - regulatory_audit_alignment_decision_log
+  - regulatory_audit_alignment_traceability_record
+  - regulatory_audit_alignment_evidence_package
+  - regulatory_audit_alignment_chain_of_custody_record
+  - regulatory_audit_alignment_attestation
+supporting_evidence:
+  - regulatory_audit_alignment_audit_log
+  - regulatory_audit_alignment_activity_log
+  - regulatory_audit_alignment_decision_log
+  - regulatory_audit_alignment_traceability_record
+  - regulatory_audit_alignment_evidence_package
+audit_evidence:
+  - regulatory_audit_alignment_audit_log
+  - regulatory_audit_alignment_activity_log
+  - regulatory_audit_alignment_decision_log
+  - regulatory_audit_alignment_traceability_record
+  - regulatory_audit_alignment_evidence_package
+  - regulatory_audit_alignment_chain_of_custody_record
+  - regulatory_audit_alignment_attestation
+forensic_evidence:
+  - regulatory_audit_alignment_audit_log
+  - regulatory_audit_alignment_activity_log
+  - regulatory_audit_alignment_decision_log
+  - regulatory_audit_alignment_traceability_record
+  - regulatory_audit_alignment_evidence_package
+  - regulatory_audit_alignment_chain_of_custody_record
+  - regulatory_audit_alignment_attestation
+regulatory_evidence:
+  - regulatory_audit_alignment_audit_log
+  - regulatory_audit_alignment_activity_log
+  - regulatory_audit_alignment_decision_log
+  - regulatory_audit_alignment_traceability_record
+  - regulatory_audit_alignment_evidence_package
+  - regulatory_audit_alignment_chain_of_custody_record
+  - regulatory_audit_alignment_attestation
+validation_evidence:
+  - regulatory_audit_alignment_audit_log
+  - regulatory_audit_alignment_activity_log
+  - regulatory_audit_alignment_decision_log
+  - regulatory_audit_alignment_traceability_record
+  - regulatory_audit_alignment_evidence_package
+  - regulatory_audit_alignment_chain_of_custody_record
+  - regulatory_audit_alignment_attestation
+validation_rules:
+  - rule: regulatory_audit_alignment_evidence_complete
+    condition: required_evidence_regulatory_audit_alignment < threshold
+    action: BLOCK_SUBMISSION
+  - rule: regulatory_audit_alignment_integrity_verified
+    condition: integrity_status_regulatory_audit_alignment != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: regulatory_audit_alignment_custody_intact
+    condition: custody_gap_regulatory_audit_alignment == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Regulatory Audit Alignment controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Regulatory Audit Alignment controls fail; mitigated through
+      preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Regulatory Audit Alignment controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Regulatory Audit Alignment controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Regulatory Audit Alignment controls fail; mitigated through
+      preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - regulatory_audit_alignment_control_failure
+    - regulatory_audit_alignment_evidence_compromise
+    - regulatory_audit_alignment_regulatory_non_compliance
+    - regulatory_audit_alignment_enforcement_delay
+  risk_events:
+    - regulatory_audit_alignment_audit_finding_critical
+    - regulatory_audit_alignment_investigation_escalation
+    - regulatory_audit_alignment_sanction_exposure
+    - regulatory_audit_alignment_market_surveillance_inquiry
+  risk_indicators:
+    - regulatory_audit_alignment_control_effectiveness_degradation
+    - regulatory_audit_alignment_evidence_gap_rate
+    - regulatory_audit_alignment_sla_breach_count
+    - regulatory_audit_alignment_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    regulatory_audit_alignment_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: regulatory_audit_alignment_forensic_lead
+    regulatory_audit_alignment_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    regulatory_audit_alignment_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: regulatory_audit_alignment_enforcement_officer
+  risk_tolerance:
+    regulatory_audit_alignment_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: regulatory_audit_alignment_risk_score >= 60
+    critical: regulatory_audit_alignment_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Regulatory Audit Alignment controls documented in
+      regulatory_audit_alignment_risk_register with quarterly review.
+  risk_treatment:
+    - regulatory_audit_alignment_preventive_control_reinforcement
+    - regulatory_audit_alignment_detective_monitoring_enhancement
+    - regulatory_audit_alignment_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: regulatory_audit_alignment_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Regulatory Audit Alignment workflow events with provenance anchor and
+      regulatory_audit_alignment_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via regulatory_audit_alignment_collection_api with schema validation and
+      classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      regulatory_audit_alignment_validation_engine
+  evidence_classification:
+    RESTRICTED/CONFIDENTIAL classification per regulatory_audit_alignment_data_classification_policy
+  evidence_storage:
+    Write-once immutable storage in regulatory_audit_alignment_evidence_vault with access controls
+  evidence_retention:
+    >
+      Retention per regulatory_audit_alignment_retention_schedule aligned with EU AI Act Article 18
+      and legal hold
+  evidence_archival:
+    Long-term archival with regulatory_audit_alignment_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via regulatory_audit_alignment_retrieval_gateway with purpose logging
+  evidence_disposal:
+    Authorized disposition with regulatory_audit_alignment_disposition_certificate and dual approval
+compliance_mapping:
+  article_4:
+    article: Article 4
+    regulatory_text_summary:
+      AI literacy and training obligations for providers and deployers.
+    obligation:
+      >
+        Workforce competence and awareness for AI system lifecycle activities. Implemented through
+        Regulatory Audit Alignment in compliance_audits.
+    implementation_controls:
+      - regulatory_audit_alignment_article_4_preventive_control
+      - regulatory_audit_alignment_article_4_detective_control
+      - regulatory_audit_alignment_article_4_evidence_control
+    implementation_processes:
+      - regulatory_audit_alignment_article_4_workflow
+      - regulatory_audit_alignment_article_4_validation_process
+      - regulatory_audit_alignment_article_4_escalation_process
+    implementation_evidence:
+      - regulatory_audit_alignment_article_4_compliance_record
+      - regulatory_audit_alignment_article_4_audit_package
+      - regulatory_audit_alignment_article_4_attestation
+    validation_method: regulatory_audit_alignment_article_4_automated_and_manual_conformity_testing
+    audit_method: regulatory_audit_alignment_article_4_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: regulatory_audit_alignment_article_4_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Regulatory Audit Alignment demonstrates Article 4 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_9:
+    article: Article 9
+    regulatory_text_summary:
+      Risk management system for high-risk AI systems.
+    obligation:
+      >
+        Continuous risk identification, analysis, evaluation, and treatment. Implemented through
+        Regulatory Audit Alignment in compliance_audits.
+    implementation_controls:
+      - regulatory_audit_alignment_article_9_preventive_control
+      - regulatory_audit_alignment_article_9_detective_control
+      - regulatory_audit_alignment_article_9_evidence_control
+    implementation_processes:
+      - regulatory_audit_alignment_article_9_workflow
+      - regulatory_audit_alignment_article_9_validation_process
+      - regulatory_audit_alignment_article_9_escalation_process
+    implementation_evidence:
+      - regulatory_audit_alignment_article_9_compliance_record
+      - regulatory_audit_alignment_article_9_audit_package
+      - regulatory_audit_alignment_article_9_attestation
+    validation_method: regulatory_audit_alignment_article_9_automated_and_manual_conformity_testing
+    audit_method: regulatory_audit_alignment_article_9_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: regulatory_audit_alignment_article_9_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Regulatory Audit Alignment demonstrates Article 9 conformity through indexed controls, immutable
+        evidence chains, and independent validation suitable for notified body and market surveillance
+        review.
+  article_17:
+    article: Article 17
+    regulatory_text_summary:
+      Quality management system.
+    obligation:
+      >
+        QMS covering design, development, quality control, and post-market monitoring. Implemented
+        through Regulatory Audit Alignment in compliance_audits.
+    implementation_controls:
+      - regulatory_audit_alignment_article_17_preventive_control
+      - regulatory_audit_alignment_article_17_detective_control
+      - regulatory_audit_alignment_article_17_evidence_control
+    implementation_processes:
+      - regulatory_audit_alignment_article_17_workflow
+      - regulatory_audit_alignment_article_17_validation_process
+      - regulatory_audit_alignment_article_17_escalation_process
+    implementation_evidence:
+      - regulatory_audit_alignment_article_17_compliance_record
+      - regulatory_audit_alignment_article_17_audit_package
+      - regulatory_audit_alignment_article_17_attestation
+    validation_method: regulatory_audit_alignment_article_17_automated_and_manual_conformity_testing
+    audit_method: regulatory_audit_alignment_article_17_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: regulatory_audit_alignment_article_17_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Regulatory Audit Alignment demonstrates Article 17 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_43:
+    article: Article 43
+    regulatory_text_summary:
+      Conformity assessment.
+    obligation:
+      >
+        Conformity assessment procedures for high-risk AI systems. Implemented through Regulatory Audit
+        Alignment in compliance_audits.
+    implementation_controls:
+      - regulatory_audit_alignment_article_43_preventive_control
+      - regulatory_audit_alignment_article_43_detective_control
+      - regulatory_audit_alignment_article_43_evidence_control
+    implementation_processes:
+      - regulatory_audit_alignment_article_43_workflow
+      - regulatory_audit_alignment_article_43_validation_process
+      - regulatory_audit_alignment_article_43_escalation_process
+    implementation_evidence:
+      - regulatory_audit_alignment_article_43_compliance_record
+      - regulatory_audit_alignment_article_43_audit_package
+      - regulatory_audit_alignment_article_43_attestation
+    validation_method: regulatory_audit_alignment_article_43_automated_and_manual_conformity_testing
+    audit_method: regulatory_audit_alignment_article_43_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: regulatory_audit_alignment_article_43_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Regulatory Audit Alignment demonstrates Article 43 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_4:
+      implementation: regulatory_audit_alignment_eu_ai_act_article_4_control_set
+      process: regulatory_audit_alignment_eu_ai_act_article_4_workflow
+      evidence: regulatory_audit_alignment_eu_ai_act_article_4_attestation
+    article_9:
+      implementation: regulatory_audit_alignment_eu_ai_act_article_9_control_set
+      process: regulatory_audit_alignment_eu_ai_act_article_9_workflow
+      evidence: regulatory_audit_alignment_eu_ai_act_article_9_attestation
+    article_17:
+      implementation: regulatory_audit_alignment_eu_ai_act_article_17_control_set
+      process: regulatory_audit_alignment_eu_ai_act_article_17_workflow
+      evidence: regulatory_audit_alignment_eu_ai_act_article_17_attestation
+    article_43:
+      implementation: regulatory_audit_alignment_eu_ai_act_article_43_control_set
+      process: regulatory_audit_alignment_eu_ai_act_article_43_workflow
+      evidence: regulatory_audit_alignment_eu_ai_act_article_43_attestation
+  gdpr:
+    article_5:
+      implementation: regulatory_audit_alignment_gdpr_article_5_privacy_control
+      evidence: regulatory_audit_alignment_gdpr_article_5_compliance_record
+    article_6:
+      implementation: regulatory_audit_alignment_gdpr_article_6_privacy_control
+      evidence: regulatory_audit_alignment_gdpr_article_6_compliance_record
+    article_22:
+      implementation: regulatory_audit_alignment_gdpr_article_22_privacy_control
+      evidence: regulatory_audit_alignment_gdpr_article_22_compliance_record
+    article_25:
+      implementation: regulatory_audit_alignment_gdpr_article_25_privacy_control
+      evidence: regulatory_audit_alignment_gdpr_article_25_compliance_record
+    article_32:
+      implementation: regulatory_audit_alignment_gdpr_article_32_privacy_control
+      evidence: regulatory_audit_alignment_gdpr_article_32_compliance_record
+    article_35:
+      implementation: regulatory_audit_alignment_gdpr_article_35_privacy_control
+      evidence: regulatory_audit_alignment_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: regulatory_audit_alignment_iso42001_clause_4_1_aims_control
+      evidence: regulatory_audit_alignment_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: regulatory_audit_alignment_iso42001_clause_4_2_aims_control
+      evidence: regulatory_audit_alignment_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: regulatory_audit_alignment_iso42001_clause_5_1_aims_control
+      evidence: regulatory_audit_alignment_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: regulatory_audit_alignment_iso42001_clause_5_2_aims_control
+      evidence: regulatory_audit_alignment_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: regulatory_audit_alignment_iso42001_clause_6_1_aims_control
+      evidence: regulatory_audit_alignment_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: regulatory_audit_alignment_iso42001_clause_8_1_aims_control
+      evidence: regulatory_audit_alignment_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: regulatory_audit_alignment_iso42001_clause_9_1_aims_control
+      evidence: regulatory_audit_alignment_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: regulatory_audit_alignment_iso42001_clause_10_1_aims_control
+      evidence: regulatory_audit_alignment_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: regulatory_audit_alignment_iso23894_risk_identification_alignment
+      evidence: regulatory_audit_alignment_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: regulatory_audit_alignment_iso23894_risk_analysis_alignment
+      evidence: regulatory_audit_alignment_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: regulatory_audit_alignment_iso23894_risk_evaluation_alignment
+      evidence: regulatory_audit_alignment_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: regulatory_audit_alignment_iso23894_risk_treatment_alignment
+      evidence: regulatory_audit_alignment_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: regulatory_audit_alignment_iso23894_risk_monitoring_alignment
+      evidence: regulatory_audit_alignment_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: regulatory_audit_alignment_iso19011_audit_principles_procedure
+      evidence: regulatory_audit_alignment_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: regulatory_audit_alignment_iso19011_audit_programme_management_procedure
+      evidence: regulatory_audit_alignment_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: regulatory_audit_alignment_iso19011_audit_evidence_requirements_procedure
+      evidence: regulatory_audit_alignment_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: regulatory_audit_alignment_iso19011_audit_reporting_procedure
+      evidence: regulatory_audit_alignment_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: regulatory_audit_alignment_nist_rmf_govern_control_mapping
+      evidence: regulatory_audit_alignment_nist_rmf_govern_assessment
+    map:
+      implementation: regulatory_audit_alignment_nist_rmf_map_control_mapping
+      evidence: regulatory_audit_alignment_nist_rmf_map_assessment
+    measure:
+      implementation: regulatory_audit_alignment_nist_rmf_measure_control_mapping
+      evidence: regulatory_audit_alignment_nist_rmf_measure_assessment
+    manage:
+      implementation: regulatory_audit_alignment_nist_rmf_manage_control_mapping
+      evidence: regulatory_audit_alignment_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: regulatory_audit_alignment_nist_csf_identify_safeguard
+      evidence: regulatory_audit_alignment_nist_csf_identify_log
+    protect:
+      implementation: regulatory_audit_alignment_nist_csf_protect_safeguard
+      evidence: regulatory_audit_alignment_nist_csf_protect_log
+    detect:
+      implementation: regulatory_audit_alignment_nist_csf_detect_safeguard
+      evidence: regulatory_audit_alignment_nist_csf_detect_log
+    respond:
+      implementation: regulatory_audit_alignment_nist_csf_respond_safeguard
+      evidence: regulatory_audit_alignment_nist_csf_respond_log
+    recover:
+      implementation: regulatory_audit_alignment_nist_csf_recover_safeguard
+      evidence: regulatory_audit_alignment_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: regulatory_audit_alignment_oecd_accountability_governance_control
+      evidence: regulatory_audit_alignment_oecd_accountability_attestation
+    transparency:
+      implementation: regulatory_audit_alignment_oecd_transparency_governance_control
+      evidence: regulatory_audit_alignment_oecd_transparency_attestation
+    robustness_security:
+      implementation: regulatory_audit_alignment_oecd_robustness_security_governance_control
+      evidence: regulatory_audit_alignment_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: regulatory_audit_alignment_oecd_inclusive_growth_governance_control
+      evidence: regulatory_audit_alignment_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: regulatory_audit_alignment_unesco_human_rights_ethics_control
+      evidence: regulatory_audit_alignment_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: regulatory_audit_alignment_unesco_fairness_non_discrimination_ethics_control
+      evidence: regulatory_audit_alignment_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: regulatory_audit_alignment_unesco_transparency_explainability_ethics_control
+      evidence: regulatory_audit_alignment_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: regulatory_audit_alignment_unesco_accountability_ethics_control
+      evidence: regulatory_audit_alignment_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Regulatory Audit Alignment covering executive, board, regulatory,
+      audit, forensic, and attestation consumers.
+  report_types:
+    - regulatory_audit_alignment_status_report
+    - regulatory_audit_alignment_compliance_report
+    - regulatory_audit_alignment_enforcement_report
+    - regulatory_audit_alignment_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [regulatory_audit_alignment_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_regulatory_audit_alignment
+  - quarterly_control_testing_regulatory_audit_alignment
+  - evidence_sampling_regulatory_audit_alignment
+  - finding_remediation_tracking_regulatory_audit_alignment
+integration_points:
+  upstream_systems:
+    - system: audit_traceability
+      purpose: regulatory_audit_alignment_to_audit_traceability_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_audit_traceability]
+      produced_artifacts: [regulatory_audit_alignment_output_to_audit_traceability]
+    - system: evidence_preservation
+      purpose: regulatory_audit_alignment_to_evidence_preservation_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_evidence_preservation]
+      produced_artifacts: [regulatory_audit_alignment_output_to_evidence_preservation]
+    - system: ai_literacy
+      purpose: regulatory_audit_alignment_to_ai_literacy_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_ai_literacy]
+      produced_artifacts: [regulatory_audit_alignment_output_to_ai_literacy]
+    - system: conformity_assessment
+      purpose: regulatory_audit_alignment_to_conformity_assessment_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_conformity_assessment]
+      produced_artifacts: [regulatory_audit_alignment_output_to_conformity_assessment]
+  downstream_systems:
+    - system: enforcement_actions
+      purpose: regulatory_audit_alignment_to_enforcement_actions_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_enforcement_actions]
+      produced_artifacts: [regulatory_audit_alignment_output_to_enforcement_actions]
+    - system: remediation_tracking
+      purpose: regulatory_audit_alignment_to_remediation_tracking_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_remediation_tracking]
+      produced_artifacts: [regulatory_audit_alignment_output_to_remediation_tracking]
+    - system: reporting
+      purpose: regulatory_audit_alignment_to_reporting_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_reporting]
+      produced_artifacts: [regulatory_audit_alignment_output_to_reporting]
+  governance_integrations:
+    - system: core_governance
+      purpose: regulatory_audit_alignment_to_core_governance_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_core_governance]
+      produced_artifacts: [regulatory_audit_alignment_output_to_core_governance]
+    - system: notified_bodies
+      purpose: regulatory_audit_alignment_to_notified_bodies_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_notified_bodies]
+      produced_artifacts: [regulatory_audit_alignment_output_to_notified_bodies]
+  risk_integrations:
+    - system: risk_management
+      purpose: regulatory_audit_alignment_to_risk_management_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_risk_management]
+      produced_artifacts: [regulatory_audit_alignment_output_to_risk_management]
+    - system: compliance_scoring
+      purpose: regulatory_audit_alignment_to_compliance_scoring_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_compliance_scoring]
+      produced_artifacts: [regulatory_audit_alignment_output_to_compliance_scoring]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: regulatory_audit_alignment_to_compliance_audits_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_compliance_audits]
+      produced_artifacts: [regulatory_audit_alignment_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: regulatory_audit_alignment_to_internal_audit_system_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_internal_audit_system]
+      produced_artifacts: [regulatory_audit_alignment_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: regulatory_audit_alignment_to_governance_reporting_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_governance_reporting]
+      produced_artifacts: [regulatory_audit_alignment_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: regulatory_audit_alignment_to_executive_dashboard_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_executive_dashboard]
+      produced_artifacts: [regulatory_audit_alignment_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: regulatory_audit_alignment_to_enforcement_actions_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_enforcement_actions]
+      produced_artifacts: [regulatory_audit_alignment_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: regulatory_audit_alignment_to_policy_enforcement_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_policy_enforcement]
+      produced_artifacts: [regulatory_audit_alignment_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: regulatory_audit_alignment_to_remediation_tracking_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_remediation_tracking]
+      produced_artifacts: [regulatory_audit_alignment_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: regulatory_audit_alignment_to_remediation_engine_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_remediation_engine]
+      produced_artifacts: [regulatory_audit_alignment_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: regulatory_audit_alignment_to_evidence_preservation_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_evidence_preservation]
+      produced_artifacts: [regulatory_audit_alignment_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: regulatory_audit_alignment_to_technical_documentation_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_technical_documentation]
+      produced_artifacts: [regulatory_audit_alignment_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: regulatory_audit_alignment_to_post_market_monitoring_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_post_market_monitoring]
+      produced_artifacts: [regulatory_audit_alignment_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: regulatory_audit_alignment_to_incident_reporting_governance_sync
+      data_exchanged: [regulatory_audit_alignment_events, regulatory_audit_alignment_evidence_refs, regulatory_audit_alignment_metrics]
+      trigger_conditions: [regulatory_audit_alignment_state_change, regulatory_audit_alignment_escalation, regulatory_audit_alignment_closure]
+      consumed_artifacts: [regulatory_audit_alignment_input_from_incident_reporting]
+      produced_artifacts: [regulatory_audit_alignment_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Regulatory Audit Alignment activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Regulatory Audit Alignment procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - regulatory_audit_alignment_procedure_checklist
+    required_evidence:
+      - regulatory_audit_alignment_process_log
+    required_metrics:
+      - regulatory_audit_alignment_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Regulatory Audit Alignment enterprise-wide.
+    required_capabilities:
+      - regulatory_audit_alignment_standard_control_set
+    required_controls:
+      - regulatory_audit_alignment_control_register
+    required_evidence:
+      - regulatory_audit_alignment_audit_evidence
+    required_metrics:
+      - regulatory_audit_alignment_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Regulatory Audit Alignment with KPI optimization.
+    required_capabilities:
+      - regulatory_audit_alignment_automated_controls
+    required_controls:
+      - regulatory_audit_alignment_telemetry_controls
+    required_evidence:
+      - regulatory_audit_alignment_assurance_package
+    required_metrics:
+      - regulatory_audit_alignment_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Regulatory Audit Alignment with predictive analytics.
+    required_capabilities:
+      - regulatory_audit_alignment_autonomous_governance
+    required_controls:
+      - regulatory_audit_alignment_adaptive_controls
+    required_evidence:
+      - regulatory_audit_alignment_regulator_ready_portfolio
+    required_metrics:
+      - regulatory_audit_alignment_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - regulatory_audit_alignment_report
+  - regulatory_audit_alignment_evidence_package
+  - regulatory_audit_alignment_attestation
+  - regulatory_audit_alignment_enforcement_record
+artifacts:
+  - name: regulatory_audit_alignment_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: regulatory_audit_alignment_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: regulatory_audit_alignment_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: regulatory_audit_alignment_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - regulatory_audit_alignment_case_record
+  - regulatory_audit_alignment_audit_record
+  - regulatory_audit_alignment_enforcement_record
+  - regulatory_audit_alignment_remediation_record
+monitoring:
+  continuous:
+    - regulatory_audit_alignment_control_telemetry
+    - regulatory_audit_alignment_evidence_integrity_feed
+    - regulatory_audit_alignment_escalation_queue
+  periodic:
+    - regulatory_audit_alignment_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Regulatory Audit Alignment effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: regulatory_audit_alignment_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: regulatory_audit_alignment_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: regulatory_audit_alignment_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: regulatory_audit_alignment_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Regulatory Audit Alignment

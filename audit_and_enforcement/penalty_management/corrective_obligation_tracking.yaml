@@ -1,0 +1,1975 @@
+metadata:
+  id: AAE-PM-COROBL-001
+  name: corrective_obligation_tracking
+  title: Corrective Obligation Tracking
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: penalty_management
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - penalty_management
+    - corrective_obligation_tracking
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Corrective Obligation Tracking governance within
+    audit_and_enforcement/penalty_management, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for corrective obligation register with closure verification.
+    Integrates with the EU AI Act governance ecosystem through machine-evaluable obligations,
+    evidence preservation, and conformity-assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Corrective Obligation Tracking across
+    enterprise and cross-border operations within audit_and_enforcement/penalty_management.
+objectives:
+  - Operationalize Corrective Obligation Tracking with regulator-defensible controls and evidence chains
+  - Enable automated validation of Corrective Obligation Tracking conformance across penalty_management
+  - Preserve audit-grade and forensic-grade records for all Corrective Obligation Tracking activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Corrective Obligation Tracking with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Corrective Obligation Tracking
+definitions:
+  corrective_obligation_tracking_governance_domain:
+    >
+      The operational jurisdiction of Corrective Obligation Tracking encompassing controlled audit,
+      enforcement, investigation, and evidence processes within penalty_management.
+  corrective_obligation_tracking_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Corrective Obligation Tracking control
+      effectiveness, process adherence, and regulatory conformity.
+  corrective_obligation_tracking_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Corrective Obligation Tracking decision logic.
+  corrective_obligation_tracking_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Corrective Obligation Tracking processes.
+  corrective_obligation_tracking_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within
+      Corrective Obligation Tracking operations.
+  corrective_obligation_tracking_conformity_assertion:
+    >
+      Formal statement that Corrective Obligation Tracking requirements are met, supported by indexed
+      evidence and validation attestations.
+taxonomy:
+  root: corrective_obligation_tracking_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  corrective_obligation_tracking_artifact_type:
+    - corrective_obligation_tracking_record
+    - corrective_obligation_tracking_log
+    - corrective_obligation_tracking_report
+    - corrective_obligation_tracking_attestation
+    - corrective_obligation_tracking_package
+  corrective_obligation_tracking_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Corrective Obligation Tracking Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: penalty_management
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - investigation_management
+    - enforcement_actions
+    - compliance_audits
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - remediation_tracking
+    - reporting
+    - enforcement_actions
+    - audit_and_enforcement/penalty_management/corrective_obligation_tracking.yaml
+  related_domains:
+    - enforcement_actions
+    - investigation_management
+    - remediation_tracking
+  related_skills:
+    - sanction_management
+    - financial_penalty_tracking
+    - repeat_violation_scoring
+    - corrective_obligation_tracking
+  parent_governance_objects:
+    - enforcement_framework
+  child_governance_objects:
+    - penalty_assessment
+    - sanction_order
+    - corrective_obligation_tracking_governance_object
+  consumes_artifacts:
+    - investigation_report
+    - enforcement_decision
+    - liability_mapping
+    - corrective_obligation_tracking_input_artifact
+  produces_artifacts:
+    - penalty_determination
+    - sanction_register_entry
+    - financial_penalty_ledger
+    - corrective_obligation_tracking_record
+    - corrective_obligation_tracking_report
+    - corrective_obligation_tracking_attestation
+  consumes_evidence:
+    - violation_evidence_package
+    - repeat_violation_history
+    - corrective_obligation_tracking_source_evidence
+  produces_evidence:
+    - penalty_calculation_workpaper
+    - sanction_attestation
+    - appeal_record
+    - corrective_obligation_tracking_audit_evidence
+    - corrective_obligation_tracking_validation_evidence
+    - corrective_obligation_tracking_enforcement_evidence
+  governance_dependencies:
+    - ai_liability
+    - legal_interoperability
+  regulatory_dependencies:
+    - eu_ai_act_article_71
+    - eu_ai_act_article_99
+  risk_dependencies:
+    - ai_liability
+    - compliance_scoring
+  control_dependencies:
+    - investigation_management
+    - enforcement_actions
+    - corrective_obligation_tracking_control_register
+roles_and_responsibilities:
+  corrective_obligation_tracking_owner:
+    responsibilities:
+      - Accountable for Corrective Obligation Tracking strategy, control design, and regulatory alignment
+  corrective_obligation_tracking_operator:
+    responsibilities:
+      - Executes Corrective Obligation Tracking workflows and maintains operational records
+  corrective_obligation_tracking_auditor:
+    responsibilities:
+      - Independently validates Corrective Obligation Tracking control effectiveness and evidence sufficiency
+  corrective_obligation_tracking_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Corrective Obligation Tracking investigations
+  corrective_obligation_tracking_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Corrective Obligation Tracking
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-013
+    name: Liability Attribution
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-014
+    name: Regulatory Accountability
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-015
+    name: Regulatory Escalation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-026
+    name: Penalty Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-027
+    name: Sanction Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-028
+    name: Financial Penalty Tracking
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-029
+    name: Repeat Violation Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-030
+    name: Remediation Tracking
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-PEN-CORRECTIVE-CORRECTIVEL
+    control_name: corrective_liability_chain_mapper
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring liability chain mapper for Corrective Obligation Tracking across
+        penalty_management.
+    governance_rationale:
+      >
+        corrective_liability_chain_mapper is required to govern Corrective Obligation Tracking risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty
+        management failures.
+    implementation_guidance:
+      >
+        Implement corrective_liability_chain_mapper as automated policy in
+        corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: corrective_liability_chain_mapper_continuous_telemetry_dashboard
+    validation_method:
+      corrective_liability_chain_mapper_quarterly_design_and_operating_effectiveness_test
+    testing_method: corrective_liability_chain_mapper_statistical_sampling_with_exception_tracking
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated: corrective_liability_chain_mapper_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_liability_chain_mapper design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_liability_chain_mapper outputs may trigger enforcement under
+        corrective_obligation_tracking escalation rules.
+  - control_id: AAE-PEN-CORRECTIVE-OBLIGATIONP
+    control_name: obligation_penalty_calculation_engine
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring penalty calculation engine for Corrective Obligation Tracking
+        across penalty_management.
+    governance_rationale:
+      >
+        obligation_penalty_calculation_engine is required to govern Corrective Obligation Tracking risks
+        under EU AI Act and enterprise audit-enforcement policy; failure enables undetected penalty
+        management failures.
+    implementation_guidance:
+      >
+        Implement obligation_penalty_calculation_engine as automated policy in
+        corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: obligation_penalty_calculation_engine_continuous_telemetry_dashboard
+    validation_method:
+      obligation_penalty_calculation_engine_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      obligation_penalty_calculation_engine_statistical_sampling_with_exception_tracking
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated: obligation_penalty_calculation_engine_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify obligation_penalty_calculation_engine design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        obligation_penalty_calculation_engine outputs may trigger enforcement under
+        corrective_obligation_tracking escalation rules.
+  - control_id: AAE-PEN-CORRECTIVE-TRACKINGFIN
+    control_name: tracking_financial_penalty_ledger_guard
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring financial penalty ledger guard for Corrective Obligation Tracking
+        across penalty_management.
+    governance_rationale:
+      >
+        tracking_financial_penalty_ledger_guard is required to govern Corrective Obligation Tracking
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        penalty management failures.
+    implementation_guidance:
+      >
+        Implement tracking_financial_penalty_ledger_guard as automated policy in
+        corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method: tracking_financial_penalty_ledger_guard_continuous_telemetry_dashboard
+    validation_method:
+      tracking_financial_penalty_ledger_guard_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      tracking_financial_penalty_ledger_guard_statistical_sampling_with_exception_tracking
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated: tracking_financial_penalty_ledger_guard_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify tracking_financial_penalty_ledger_guard design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        tracking_financial_penalty_ledger_guard outputs may trigger enforcement under
+        corrective_obligation_tracking escalation rules.
+  - control_id: AAE-PEN-CORRECTIVE-CORRECTIVEO
+    control_name: corrective_obligation_tracking_repeat_violation_scorer
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring repeat violation scorer for Corrective Obligation Tracking across
+        penalty_management.
+    governance_rationale:
+      >
+        corrective_obligation_tracking_repeat_violation_scorer is required to govern Corrective
+        Obligation Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement corrective_obligation_tracking_repeat_violation_scorer as automated policy in
+        corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_obligation_tracking_repeat_violation_scorer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_obligation_tracking_repeat_violation_scorer_quarterly_design_and_operating_effectiven
+        ess_test
+    testing_method:
+      >
+        corrective_obligation_tracking_repeat_violation_scorer_statistical_sampling_with_exception_track
+        ing
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated: corrective_obligation_tracking_repeat_violation_scorer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_obligation_tracking_repeat_violation_scorer design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_obligation_tracking_repeat_violation_scorer outputs may trigger enforcement under
+        corrective_obligation_tracking escalation rules.
+  - control_id: AAE-PEN-CORRECTIVE-CORRECTIVEO
+    control_name: corrective_obligation_tracking_corrective_obligation_register
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring corrective obligation register for Corrective Obligation Tracking
+        across penalty_management.
+    governance_rationale:
+      >
+        corrective_obligation_tracking_corrective_obligation_register is required to govern Corrective
+        Obligation Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement corrective_obligation_tracking_corrective_obligation_register as automated policy in
+        corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_obligation_tracking_corrective_obligation_register_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_obligation_tracking_corrective_obligation_register_quarterly_design_and_operating_eff
+        ectiveness_test
+    testing_method:
+      >
+        corrective_obligation_tracking_corrective_obligation_register_statistical_sampling_with_exceptio
+        n_tracking
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated:
+      corrective_obligation_tracking_corrective_obligation_register_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_obligation_tracking_corrective_obligation_register design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_obligation_tracking_corrective_obligation_register outputs may trigger enforcement
+        under corrective_obligation_tracking escalation rules.
+  - control_id: AAE-PEN-CORRECTIVE-CORRECTIVEO
+    control_name: corrective_obligation_tracking_regulatory_penalty_alignment_checker
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring regulatory penalty alignment checker for Corrective Obligation
+        Tracking across penalty_management.
+    governance_rationale:
+      >
+        corrective_obligation_tracking_regulatory_penalty_alignment_checker is required to govern
+        Corrective Obligation Tracking risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement corrective_obligation_tracking_regulatory_penalty_alignment_checker as automated
+        policy in corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        corrective_obligation_tracking_regulatory_penalty_alignment_checker_continuous_telemetry_dashboa
+        rd
+    validation_method:
+      >
+        corrective_obligation_tracking_regulatory_penalty_alignment_checker_quarterly_design_and_operati
+        ng_effectiveness_test
+    testing_method:
+      >
+        corrective_obligation_tracking_regulatory_penalty_alignment_checker_statistical_sampling_with_ex
+        ception_tracking
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated:
+      corrective_obligation_tracking_regulatory_penalty_alignment_checker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_obligation_tracking_regulatory_penalty_alignment_checker design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_obligation_tracking_regulatory_penalty_alignment_checker outputs may trigger
+        enforcement under corrective_obligation_tracking escalation rules.
+  - control_id: AAE-PEN-CORRECTIVE-CORRECTIVEO
+    control_name: corrective_obligation_tracking_penalty_proportionality_reviewer
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring penalty proportionality reviewer for Corrective Obligation Tracking
+        across penalty_management.
+    governance_rationale:
+      >
+        corrective_obligation_tracking_penalty_proportionality_reviewer is required to govern Corrective
+        Obligation Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement corrective_obligation_tracking_penalty_proportionality_reviewer as automated policy in
+        corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_obligation_tracking_penalty_proportionality_reviewer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_obligation_tracking_penalty_proportionality_reviewer_quarterly_design_and_operating_e
+        ffectiveness_test
+    testing_method:
+      >
+        corrective_obligation_tracking_penalty_proportionality_reviewer_statistical_sampling_with_except
+        ion_tracking
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated:
+      corrective_obligation_tracking_penalty_proportionality_reviewer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_obligation_tracking_penalty_proportionality_reviewer design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_obligation_tracking_penalty_proportionality_reviewer outputs may trigger enforcement
+        under corrective_obligation_tracking escalation rules.
+  - control_id: AAE-PEN-CORRECTIVE-CORRECTIVEO
+    control_name: corrective_obligation_tracking_payment_compliance_tracker
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring payment compliance tracker for Corrective Obligation Tracking
+        across penalty_management.
+    governance_rationale:
+      >
+        corrective_obligation_tracking_payment_compliance_tracker is required to govern Corrective
+        Obligation Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement corrective_obligation_tracking_payment_compliance_tracker as automated policy in
+        corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_obligation_tracking_payment_compliance_tracker_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_obligation_tracking_payment_compliance_tracker_quarterly_design_and_operating_effecti
+        veness_test
+    testing_method:
+      >
+        corrective_obligation_tracking_payment_compliance_tracker_statistical_sampling_with_exception_tr
+        acking
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated: corrective_obligation_tracking_payment_compliance_tracker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_obligation_tracking_payment_compliance_tracker design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_obligation_tracking_payment_compliance_tracker outputs may trigger enforcement under
+        corrective_obligation_tracking escalation rules.
+  - control_id: AAE-PEN-CORRECTIVE-CORRECTIVEO
+    control_name: corrective_obligation_tracking_penalty_appeal_processor
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring penalty appeal processor for Corrective Obligation Tracking across
+        penalty_management.
+    governance_rationale:
+      >
+        corrective_obligation_tracking_penalty_appeal_processor is required to govern Corrective
+        Obligation Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement corrective_obligation_tracking_penalty_appeal_processor as automated policy in
+        corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_obligation_tracking_penalty_appeal_processor_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_obligation_tracking_penalty_appeal_processor_quarterly_design_and_operating_effective
+        ness_test
+    testing_method:
+      >
+        corrective_obligation_tracking_penalty_appeal_processor_statistical_sampling_with_exception_trac
+        king
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated: corrective_obligation_tracking_penalty_appeal_processor_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_obligation_tracking_penalty_appeal_processor design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_obligation_tracking_penalty_appeal_processor outputs may trigger enforcement under
+        corrective_obligation_tracking escalation rules.
+  - control_id: AAE-PEN-CORRECTIVE-CORRECTIVEO
+    control_name: corrective_obligation_tracking_aggravating_factor_applier
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring aggravating factor applier for Corrective Obligation Tracking
+        across penalty_management.
+    governance_rationale:
+      >
+        corrective_obligation_tracking_aggravating_factor_applier is required to govern Corrective
+        Obligation Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement corrective_obligation_tracking_aggravating_factor_applier as automated policy in
+        corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_obligation_tracking_aggravating_factor_applier_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_obligation_tracking_aggravating_factor_applier_quarterly_design_and_operating_effecti
+        veness_test
+    testing_method:
+      >
+        corrective_obligation_tracking_aggravating_factor_applier_statistical_sampling_with_exception_tr
+        acking
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated: corrective_obligation_tracking_aggravating_factor_applier_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_obligation_tracking_aggravating_factor_applier design, operation, and
+        evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_obligation_tracking_aggravating_factor_applier outputs may trigger enforcement under
+        corrective_obligation_tracking escalation rules.
+  - control_id: AAE-PEN-CORRECTIVE-CORRECTIVEO
+    control_name: corrective_obligation_tracking_penalty_waiver_authorization_gate
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring penalty waiver authorization gate for Corrective Obligation
+        Tracking across penalty_management.
+    governance_rationale:
+      >
+        corrective_obligation_tracking_penalty_waiver_authorization_gate is required to govern
+        Corrective Obligation Tracking risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement corrective_obligation_tracking_penalty_waiver_authorization_gate as automated policy
+        in corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_obligation_tracking_penalty_waiver_authorization_gate_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_obligation_tracking_penalty_waiver_authorization_gate_quarterly_design_and_operating_
+        effectiveness_test
+    testing_method:
+      >
+        corrective_obligation_tracking_penalty_waiver_authorization_gate_statistical_sampling_with_excep
+        tion_tracking
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated:
+      corrective_obligation_tracking_penalty_waiver_authorization_gate_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_obligation_tracking_penalty_waiver_authorization_gate design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_obligation_tracking_penalty_waiver_authorization_gate outputs may trigger enforcement
+        under corrective_obligation_tracking escalation rules.
+  - control_id: AAE-PEN-CORRECTIVE-CORRECTIVEO
+    control_name: corrective_obligation_tracking_penalty_disclosure_registrar
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring penalty disclosure registrar for Corrective Obligation Tracking
+        across penalty_management.
+    governance_rationale:
+      >
+        corrective_obligation_tracking_penalty_disclosure_registrar is required to govern Corrective
+        Obligation Tracking risks under EU AI Act and enterprise audit-enforcement policy; failure
+        enables undetected penalty management failures.
+    implementation_guidance:
+      >
+        Implement corrective_obligation_tracking_penalty_disclosure_registrar as automated policy in
+        corrective_obligation_tracking orchestration layer; wire to telemetry bus; block non-compliant
+        state transitions; log evidence to immutable store.
+    monitoring_method:
+      corrective_obligation_tracking_penalty_disclosure_registrar_continuous_telemetry_dashboard
+    validation_method:
+      >
+        corrective_obligation_tracking_penalty_disclosure_registrar_quarterly_design_and_operating_effec
+        tiveness_test
+    testing_method:
+      >
+        corrective_obligation_tracking_penalty_disclosure_registrar_statistical_sampling_with_exception_
+        tracking
+    control_owner: corrective_obligation_tracking_control_owner
+    evidence_generated:
+      corrective_obligation_tracking_penalty_disclosure_registrar_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify corrective_obligation_tracking_penalty_disclosure_registrar design, operation,
+        and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        corrective_obligation_tracking_penalty_disclosure_registrar outputs may trigger enforcement
+        under corrective_obligation_tracking escalation rules.
+requirements:
+  legal:
+    >
+      Corrective Obligation Tracking must satisfy legal requirements for corrective obligation
+      register with closure verification including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Corrective Obligation Tracking must satisfy regulatory requirements for corrective obligation
+      register with closure verification including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Corrective Obligation Tracking must satisfy technical requirements for corrective obligation
+      register with closure verification including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Corrective Obligation Tracking must satisfy operational requirements for corrective obligation
+      register with closure verification including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Corrective Obligation Tracking must satisfy audit requirements for corrective obligation
+      register with closure verification including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Corrective Obligation Tracking must satisfy forensic requirements for corrective obligation
+      register with closure verification including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Corrective Obligation Tracking must satisfy enforcement requirements for corrective obligation
+      register with closure verification including documented procedures, accountable roles,
+      measurable SLAs, and evidence retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Corrective Obligation Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  triage:
+    >
+      Triage process for Corrective Obligation Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  execution:
+    >
+      Execution process for Corrective Obligation Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  validation:
+    >
+      Validation process for Corrective Obligation Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  escalation:
+    >
+      Escalation process for Corrective Obligation Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  closure:
+    >
+      Closure process for Corrective Obligation Tracking with stage gates, RACI assignments, and
+      evidence capture.
+  improvement:
+    >
+      Improvement process for Corrective Obligation Tracking with stage gates, RACI assignments, and
+      evidence capture.
+workflows:
+  - workflow_name: corrective_obligation_tracking_operational_lifecycle_workflow
+    workflow_trigger: corrective_obligation_tracking_governance_event_detected
+    workflow_steps:
+      - corrective_obligation_tracking_intake
+      - corrective_obligation_tracking_triage
+      - corrective_obligation_tracking_execution
+      - corrective_obligation_tracking_validation
+      - corrective_obligation_tracking_approval
+      - corrective_obligation_tracking_closure
+    approval_points:
+      - corrective_obligation_tracking_approval
+    escalation_points:
+      - corrective_obligation_tracking_triage
+    generated_evidence:
+      - corrective_obligation_tracking_workflow_log
+      - corrective_obligation_tracking_closure_attestation
+    completion_requirements:
+      - corrective_obligation_tracking_evidence_complete
+      - corrective_obligation_tracking_approvals_recorded
+  - workflow_name: corrective_obligation_tracking_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_corrective_obligation_tracking
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - corrective_obligation_tracking_regulatory_package
+      - corrective_obligation_tracking_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - corrective_obligation_tracking_governance_event_detected
+    - corrective_obligation_tracking_regulatory_inquiry
+    - corrective_obligation_tracking_integrity_breach
+    - corrective_obligation_tracking_enforcement_authorization
+  required_inputs:
+    - corrective_obligation_tracking_case_context
+    - corrective_obligation_tracking_evidence_index
+    - corrective_obligation_tracking_risk_assessment
+  workflow_steps:
+    - corrective_obligation_tracking_intake
+    - corrective_obligation_tracking_triage
+    - corrective_obligation_tracking_execution
+    - corrective_obligation_tracking_validation
+    - corrective_obligation_tracking_approval
+    - corrective_obligation_tracking_closure
+  validation_steps:
+    - corrective_obligation_tracking_evidence_sufficiency_check
+    - corrective_obligation_tracking_integrity_verification
+  approval_steps:
+    - corrective_obligation_tracking_approval
+  control_checkpoints:
+    - corrective_obligation_tracking_intake_gate
+    - corrective_obligation_tracking_evidence_gate
+    - corrective_obligation_tracking_decision_gate
+  evidence_generation:
+    - corrective_obligation_tracking_workflow_log
+    - corrective_obligation_tracking_closure_attestation
+  decision_points:
+    - corrective_obligation_tracking_severity_classification
+    - corrective_obligation_tracking_enforcement_authorization
+  escalation_points:
+    - corrective_obligation_tracking_triage
+  completion_criteria:
+    - corrective_obligation_tracking_evidence_complete
+    - corrective_obligation_tracking_approvals_recorded
+  generated_outputs:
+    - corrective_obligation_tracking_workflow_log
+    - corrective_obligation_tracking_closure_attestation
+    - corrective_obligation_tracking_final_disposition
+decision_logic:
+  decision_inputs:
+    - corrective_obligation_tracking_severity_score
+    - corrective_obligation_tracking_evidence_completeness
+    - corrective_obligation_tracking_regulatory_context
+    - corrective_obligation_tracking_risk_exposure_index
+  decision_conditions:
+    - corrective_obligation_tracking_critical_threshold_breach
+    - corrective_obligation_tracking_evidence_integrity_failure
+    - corrective_obligation_tracking_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: corrective_obligation_tracking_severity_score >= 90
+    high_severity: corrective_obligation_tracking_severity_score >= 70
+    evidence_complete: corrective_obligation_tracking_evidence_completeness >= 0.98
+  decision_rules:
+    corrective_obligation_tracking_high_severity_violation:
+      condition: corrective_obligation_tracking_severity_score >= 90
+      action: initiate_corrective_obligation_tracking_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: corrective_obligation_tracking_investigation_report
+    corrective_obligation_tracking_evidence_compromise_detected:
+      condition: corrective_obligation_tracking_integrity_status == compromised
+      action: activate_corrective_obligation_tracking_forensic_lockdown
+      approval_required: corrective_obligation_tracking_forensic_lead
+      evidence_required: corrective_obligation_tracking_integrity_alert_record
+    corrective_obligation_tracking_enforcement_authorization:
+      condition: corrective_obligation_tracking_violation_confirmed == true AND corrective_obligation_tracking_evidence_complete == true
+      action: issue_corrective_obligation_tracking_enforcement_order
+      approval_required: corrective_obligation_tracking_enforcement_officer
+      evidence_required: corrective_obligation_tracking_violation_evidence_package
+    corrective_obligation_tracking_regulator_inquiry_response:
+      condition: corrective_obligation_tracking_regulator_request_received == true
+      action: compile_corrective_obligation_tracking_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: corrective_obligation_tracking_regulatory_evidence_index
+  decision_outputs:
+    - corrective_obligation_tracking_enforcement_decision
+    - corrective_obligation_tracking_escalation_notice
+    - corrective_obligation_tracking_remediation_directive
+    - corrective_obligation_tracking_audit_disposition
+  approval_requirements:
+    enforcement_actions: [corrective_obligation_tracking_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - corrective_obligation_tracking_severity_score >= 90
+    - corrective_obligation_tracking_evidence_integrity_failure == true
+    - corrective_obligation_tracking_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_corrective_obligation_tracking_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: corrective_obligation_tracking_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Corrective Obligation Tracking may trigger EU AI Act Articles 71, 73 reporting,
+      market surveillance cooperation, and conformity assessment suspension; all outputs must be
+      litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Corrective Obligation Tracking per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Corrective Obligation Tracking per ISO 19011
+      and EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Corrective Obligation Tracking per ISO 19011 and
+      EU AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Corrective Obligation Tracking per ISO 19011
+      and EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: corrective_operational_rate
+    metric_category: operational
+    business_purpose:
+      >
+        Measure corrective operational rate for Corrective Obligation Tracking operational and
+        regulatory assurance
+    formula:
+      computed_corrective_operational_rate_from_corrective_obligation_tracking_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: corrective_obligation_tracking_metrics_owner
+    data_source: corrective_obligation_tracking_metrics_warehouse
+    evidence_generated: corrective_operational_rate_measurement_record
+  - metric_name: obligation_operational_rate
+    metric_category: risk
+    business_purpose:
+      >
+        Measure obligation operational rate for Corrective Obligation Tracking operational and
+        regulatory assurance
+    formula:
+      computed_obligation_operational_rate_from_corrective_obligation_tracking_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: corrective_obligation_tracking_metrics_owner
+    data_source: corrective_obligation_tracking_metrics_warehouse
+    evidence_generated: obligation_operational_rate_measurement_record
+  - metric_name: tracking_operational_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure tracking operational rate for Corrective Obligation Tracking operational and regulatory
+        assurance
+    formula: computed_tracking_operational_rate_from_corrective_obligation_tracking_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: corrective_obligation_tracking_metrics_owner
+    data_source: corrective_obligation_tracking_metrics_warehouse
+    evidence_generated: tracking_operational_rate_measurement_record
+  - metric_name: obligation_assurance_score
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure obligation assurance score for Corrective Obligation Tracking operational and regulatory
+        assurance
+    formula:
+      computed_obligation_assurance_score_from_corrective_obligation_tracking_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: corrective_obligation_tracking_metrics_owner
+    data_source: corrective_obligation_tracking_metrics_warehouse
+    evidence_generated: obligation_assurance_score_measurement_record
+  - metric_name: tracking_assurance_score
+    metric_category: governance
+    business_purpose:
+      >
+        Measure tracking assurance score for Corrective Obligation Tracking operational and regulatory
+        assurance
+    formula: computed_tracking_assurance_score_from_corrective_obligation_tracking_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: corrective_obligation_tracking_metrics_owner
+    data_source: corrective_obligation_tracking_metrics_warehouse
+    evidence_generated: tracking_assurance_score_measurement_record
+  - metric_name: corrective_obligation_tracking_escalation_frequency
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure corrective obligation tracking escalation frequency for Corrective Obligation Tracking
+        operational and regulatory assurance
+    formula:
+      >
+        computed_corrective_obligation_tracking_escalation_frequency_from_corrective_obligation_tracking
+        _telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: corrective_obligation_tracking_metrics_owner
+    data_source: corrective_obligation_tracking_metrics_warehouse
+    evidence_generated: corrective_obligation_tracking_escalation_frequency_measurement_record
+kpis:
+  - metric_name: corrective_operational_rate
+    formula: computed_corrective_operational_rate_from_corrective_obligation_tracking_telemetry
+    target: >= 95%
+  - metric_name: obligation_operational_rate
+    formula: computed_obligation_operational_rate_from_corrective_obligation_tracking_telemetry
+    target: >= 95%
+  - metric_name: tracking_operational_rate
+    formula: computed_tracking_operational_rate_from_corrective_obligation_tracking_telemetry
+    target: >= 95%
+  - metric_name: obligation_assurance_score
+    formula: computed_obligation_assurance_score_from_corrective_obligation_tracking_telemetry
+    target: <= threshold_defined_by_governance
+kris:
+  - metric_name: corrective_obligation_tracking_escalation_frequency
+    business_purpose: Measure corrective obligation tracking escalation frequency for Corrective Obligation Tracking operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: corrective_obligation_tracking_primary_record
+    evidence_type: primary
+    business_purpose:
+      Support corrective obligation tracking governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_corrective_obligation_tracking_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: corrective_obligation_tracking_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: corrective_obligation_tracking_validation_attestation
+    evidence_type: corroborating
+    business_purpose:
+      Support corrective obligation tracking governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_corrective_obligation_tracking_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: corrective_obligation_tracking_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: corrective_operational_log
+    evidence_type: attestation
+    business_purpose:
+      Support corrective obligation tracking governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_corrective_obligation_tracking_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: corrective_obligation_tracking_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: obligation_operational_log
+    evidence_type: derivative
+    business_purpose:
+      Support corrective obligation tracking governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_corrective_obligation_tracking_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: corrective_obligation_tracking_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: tracking_operational_log
+    evidence_type: audit
+    business_purpose:
+      Support corrective obligation tracking governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_corrective_obligation_tracking_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: corrective_obligation_tracking_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: corrective_obligation_tracking_status_dashboard
+    report_owner: corrective_obligation_tracking_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: monthly
+    report_inputs:
+      - corrective_obligation_tracking_telemetry
+      - corrective_obligation_tracking_evidence_index
+    report_outputs:
+      - corrective_obligation_tracking_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: corrective_obligation_tracking_compliance_summary
+    report_owner: corrective_obligation_tracking_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - corrective_obligation_tracking_telemetry
+      - corrective_obligation_tracking_evidence_index
+    report_outputs:
+      - corrective_obligation_tracking_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: corrective_assurance_report
+    report_owner: corrective_obligation_tracking_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - corrective_obligation_tracking_telemetry
+      - corrective_obligation_tracking_evidence_index
+    report_outputs:
+      - corrective_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: corrective_obligation_tracking_executive_brief
+    report_owner: corrective_obligation_tracking_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - corrective_obligation_tracking_telemetry
+      - corrective_obligation_tracking_evidence_index
+    report_outputs:
+      - corrective_obligation_tracking_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: corrective_obligation_tracking_audit_pack
+    report_owner: corrective_obligation_tracking_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - legal_counsel
+      - board_audit_committee
+    report_frequency: quarterly
+    report_inputs:
+      - corrective_obligation_tracking_telemetry
+      - corrective_obligation_tracking_evidence_index
+    report_outputs:
+      - corrective_obligation_tracking_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  scope_note:
+    >
+      ALTAI governance applies where Corrective Obligation Tracking interfaces with autonomous agents,
+      GPAI, or tool-calling systems.
+  agent_governance:
+    agent_identity: corrective_obligation_tracking_registered_agent_identity_schema
+    agent_role: corrective_obligation_tracking_delegated_authority_role_matrix
+    agent_permissions: corrective_obligation_tracking_least_privilege_permission_set
+    agent_constraints: corrective_obligation_tracking_autonomy_and_tool_constraints
+    agent_accountability: corrective_obligation_tracking_human_accountability_chain
+    agent_escalation_rules: corrective_obligation_tracking_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - corrective_obligation_tracking_policy_context
+      - corrective_obligation_tracking_risk_score
+      - corrective_obligation_tracking_human_intent
+    decision_outputs:
+      - corrective_obligation_tracking_authorized_action
+      - corrective_obligation_tracking_escalation_notice
+    decision_owners:
+      - corrective_obligation_tracking_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: corrective_obligation_tracking_high_risk_decision_mandatory_review
+    decision_accountability: corrective_obligation_tracking_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: corrective_obligation_tracking_approved_tool_allowlist
+    tool_execution_validation: corrective_obligation_tracking_pre_execution_tool_risk_check
+    tool_risk_controls: corrective_obligation_tracking_tool_side_effect_containment
+    tool_auditability: corrective_obligation_tracking_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: corrective_obligation_tracking_memory_segment_access_policy
+    memory_integrity_validation: corrective_obligation_tracking_memory_tamper_detection
+    memory_retention_controls: corrective_obligation_tracking_memory_retention_and_purge_rules
+    memory_auditability: corrective_obligation_tracking_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: corrective_obligation_tracking_chain_of_thought_capture
+    reasoning_validation: corrective_obligation_tracking_reasoning_consistency_check
+    reasoning_risk_monitoring: corrective_obligation_tracking_reasoning_hazard_detection
+    reasoning_accountability: corrective_obligation_tracking_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - corrective_obligation_tracking_audit_log
+  - corrective_obligation_tracking_activity_log
+  - corrective_obligation_tracking_decision_log
+  - corrective_obligation_tracking_traceability_record
+  - corrective_obligation_tracking_evidence_package
+  - corrective_obligation_tracking_chain_of_custody_record
+  - corrective_obligation_tracking_attestation
+required_evidence:
+  - corrective_obligation_tracking_audit_log
+  - corrective_obligation_tracking_activity_log
+  - corrective_obligation_tracking_decision_log
+  - corrective_obligation_tracking_traceability_record
+  - corrective_obligation_tracking_evidence_package
+  - corrective_obligation_tracking_chain_of_custody_record
+  - corrective_obligation_tracking_attestation
+supporting_evidence:
+  - corrective_obligation_tracking_audit_log
+  - corrective_obligation_tracking_activity_log
+  - corrective_obligation_tracking_decision_log
+  - corrective_obligation_tracking_traceability_record
+  - corrective_obligation_tracking_evidence_package
+audit_evidence:
+  - corrective_obligation_tracking_audit_log
+  - corrective_obligation_tracking_activity_log
+  - corrective_obligation_tracking_decision_log
+  - corrective_obligation_tracking_traceability_record
+  - corrective_obligation_tracking_evidence_package
+  - corrective_obligation_tracking_chain_of_custody_record
+  - corrective_obligation_tracking_attestation
+forensic_evidence:
+  - corrective_obligation_tracking_audit_log
+  - corrective_obligation_tracking_activity_log
+  - corrective_obligation_tracking_decision_log
+  - corrective_obligation_tracking_traceability_record
+  - corrective_obligation_tracking_evidence_package
+  - corrective_obligation_tracking_chain_of_custody_record
+  - corrective_obligation_tracking_attestation
+regulatory_evidence:
+  - corrective_obligation_tracking_audit_log
+  - corrective_obligation_tracking_activity_log
+  - corrective_obligation_tracking_decision_log
+  - corrective_obligation_tracking_traceability_record
+  - corrective_obligation_tracking_evidence_package
+  - corrective_obligation_tracking_chain_of_custody_record
+  - corrective_obligation_tracking_attestation
+validation_evidence:
+  - corrective_obligation_tracking_audit_log
+  - corrective_obligation_tracking_activity_log
+  - corrective_obligation_tracking_decision_log
+  - corrective_obligation_tracking_traceability_record
+  - corrective_obligation_tracking_evidence_package
+  - corrective_obligation_tracking_chain_of_custody_record
+  - corrective_obligation_tracking_attestation
+validation_rules:
+  - rule: corrective_obligation_tracking_evidence_complete
+    condition: required_evidence_corrective_obligation_tracking < threshold
+    action: BLOCK_SUBMISSION
+  - rule: corrective_obligation_tracking_integrity_verified
+    condition: integrity_status_corrective_obligation_tracking != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: corrective_obligation_tracking_custody_intact
+    condition: custody_gap_corrective_obligation_tracking == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Corrective Obligation Tracking controls fail; mitigated through
+      preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Corrective Obligation Tracking controls fail; mitigated
+      through preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Corrective Obligation Tracking controls fail; mitigated through
+      preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Corrective Obligation Tracking controls fail; mitigated through
+      preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Corrective Obligation Tracking controls fail; mitigated
+      through preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - corrective_obligation_tracking_control_failure
+    - corrective_obligation_tracking_evidence_compromise
+    - corrective_obligation_tracking_regulatory_non_compliance
+    - corrective_obligation_tracking_enforcement_delay
+  risk_events:
+    - corrective_obligation_tracking_audit_finding_critical
+    - corrective_obligation_tracking_investigation_escalation
+    - corrective_obligation_tracking_sanction_exposure
+    - corrective_obligation_tracking_market_surveillance_inquiry
+  risk_indicators:
+    - corrective_obligation_tracking_control_effectiveness_degradation
+    - corrective_obligation_tracking_evidence_gap_rate
+    - corrective_obligation_tracking_sla_breach_count
+    - corrective_obligation_tracking_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    corrective_obligation_tracking_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: corrective_obligation_tracking_forensic_lead
+    corrective_obligation_tracking_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    corrective_obligation_tracking_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: corrective_obligation_tracking_enforcement_officer
+  risk_tolerance:
+    corrective_obligation_tracking_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: corrective_obligation_tracking_risk_score >= 60
+    critical: corrective_obligation_tracking_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Corrective Obligation Tracking controls documented in
+      corrective_obligation_tracking_risk_register with quarterly review.
+  risk_treatment:
+    - corrective_obligation_tracking_preventive_control_reinforcement
+    - corrective_obligation_tracking_detective_monitoring_enhancement
+    - corrective_obligation_tracking_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: corrective_obligation_tracking_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Corrective Obligation Tracking workflow events with provenance anchor and
+      corrective_obligation_tracking_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via corrective_obligation_tracking_collection_api with schema validation
+      and classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      corrective_obligation_tracking_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      corrective_obligation_tracking_data_classification_policy
+  evidence_storage:
+    >
+      Write-once immutable storage in corrective_obligation_tracking_evidence_vault with access
+      controls
+  evidence_retention:
+    >
+      Retention per corrective_obligation_tracking_retention_schedule aligned with EU AI Act Article
+      18 and legal hold
+  evidence_archival:
+    Long-term archival with corrective_obligation_tracking_integrity_verification before migration
+  evidence_retrieval:
+    Audited retrieval via corrective_obligation_tracking_retrieval_gateway with purpose logging
+  evidence_disposal:
+    >
+      Authorized disposition with corrective_obligation_tracking_disposition_certificate and dual
+      approval
+chain_of_custody:
+  custody_events:
+    - corrective_obligation_tracking_capture_event
+    - corrective_obligation_tracking_transfer_event
+    - corrective_obligation_tracking_access_event
+    - corrective_obligation_tracking_disposition_event
+  custody_owners:
+    primary: corrective_obligation_tracking_evidence_custodian
+    secondary: corrective_obligation_tracking_forensic_lead
+  custody_validation:
+    method: corrective_obligation_tracking_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - corrective_obligation_tracking_sha256_hash_chain
+    - corrective_obligation_tracking_digital_signature
+    - corrective_obligation_tracking_timestamp_authority
+  tamper_detection:
+    method: corrective_obligation_tracking_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: corrective_obligation_tracking_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_71:
+    article: Article 71
+    regulatory_text_summary:
+      Penalties.
+    obligation:
+      >
+        Administrative fines for infringements. Implemented through Corrective Obligation Tracking in
+        penalty_management.
+    implementation_controls:
+      - corrective_obligation_tracking_article_71_preventive_control
+      - corrective_obligation_tracking_article_71_detective_control
+      - corrective_obligation_tracking_article_71_evidence_control
+    implementation_processes:
+      - corrective_obligation_tracking_article_71_workflow
+      - corrective_obligation_tracking_article_71_validation_process
+      - corrective_obligation_tracking_article_71_escalation_process
+    implementation_evidence:
+      - corrective_obligation_tracking_article_71_compliance_record
+      - corrective_obligation_tracking_article_71_audit_package
+      - corrective_obligation_tracking_article_71_attestation
+    validation_method: corrective_obligation_tracking_article_71_automated_and_manual_conformity_testing
+    audit_method: corrective_obligation_tracking_article_71_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: corrective_obligation_tracking_article_71_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Corrective Obligation Tracking demonstrates Article 71 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_22:
+    article: Article 22
+    regulatory_text_summary:
+      Changes to high-risk AI systems.
+    obligation:
+      >
+        Notification of substantial modifications. Implemented through Corrective Obligation Tracking in
+        penalty_management.
+    implementation_controls:
+      - corrective_obligation_tracking_article_22_preventive_control
+      - corrective_obligation_tracking_article_22_detective_control
+      - corrective_obligation_tracking_article_22_evidence_control
+    implementation_processes:
+      - corrective_obligation_tracking_article_22_workflow
+      - corrective_obligation_tracking_article_22_validation_process
+      - corrective_obligation_tracking_article_22_escalation_process
+    implementation_evidence:
+      - corrective_obligation_tracking_article_22_compliance_record
+      - corrective_obligation_tracking_article_22_audit_package
+      - corrective_obligation_tracking_article_22_attestation
+    validation_method: corrective_obligation_tracking_article_22_automated_and_manual_conformity_testing
+    audit_method: corrective_obligation_tracking_article_22_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: corrective_obligation_tracking_article_22_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Corrective Obligation Tracking demonstrates Article 22 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Corrective Obligation Tracking in penalty_management.
+    implementation_controls:
+      - corrective_obligation_tracking_article_26_preventive_control
+      - corrective_obligation_tracking_article_26_detective_control
+      - corrective_obligation_tracking_article_26_evidence_control
+    implementation_processes:
+      - corrective_obligation_tracking_article_26_workflow
+      - corrective_obligation_tracking_article_26_validation_process
+      - corrective_obligation_tracking_article_26_escalation_process
+    implementation_evidence:
+      - corrective_obligation_tracking_article_26_compliance_record
+      - corrective_obligation_tracking_article_26_audit_package
+      - corrective_obligation_tracking_article_26_attestation
+    validation_method: corrective_obligation_tracking_article_26_automated_and_manual_conformity_testing
+    audit_method: corrective_obligation_tracking_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: corrective_obligation_tracking_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Corrective Obligation Tracking demonstrates Article 26 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+  article_99:
+    article: Article 99
+    regulatory_text_summary:
+      Penalties for GPAI.
+    obligation:
+      >
+        Penalties specific to GPAI obligations. Implemented through Corrective Obligation Tracking in
+        penalty_management.
+    implementation_controls:
+      - corrective_obligation_tracking_article_99_preventive_control
+      - corrective_obligation_tracking_article_99_detective_control
+      - corrective_obligation_tracking_article_99_evidence_control
+    implementation_processes:
+      - corrective_obligation_tracking_article_99_workflow
+      - corrective_obligation_tracking_article_99_validation_process
+      - corrective_obligation_tracking_article_99_escalation_process
+    implementation_evidence:
+      - corrective_obligation_tracking_article_99_compliance_record
+      - corrective_obligation_tracking_article_99_audit_package
+      - corrective_obligation_tracking_article_99_attestation
+    validation_method: corrective_obligation_tracking_article_99_automated_and_manual_conformity_testing
+    audit_method: corrective_obligation_tracking_article_99_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: corrective_obligation_tracking_article_99_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Corrective Obligation Tracking demonstrates Article 99 conformity through indexed controls,
+        immutable evidence chains, and independent validation suitable for notified body and market
+        surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_71:
+      implementation: corrective_obligation_tracking_eu_ai_act_article_71_control_set
+      process: corrective_obligation_tracking_eu_ai_act_article_71_workflow
+      evidence: corrective_obligation_tracking_eu_ai_act_article_71_attestation
+    article_22:
+      implementation: corrective_obligation_tracking_eu_ai_act_article_22_control_set
+      process: corrective_obligation_tracking_eu_ai_act_article_22_workflow
+      evidence: corrective_obligation_tracking_eu_ai_act_article_22_attestation
+    article_26:
+      implementation: corrective_obligation_tracking_eu_ai_act_article_26_control_set
+      process: corrective_obligation_tracking_eu_ai_act_article_26_workflow
+      evidence: corrective_obligation_tracking_eu_ai_act_article_26_attestation
+    article_99:
+      implementation: corrective_obligation_tracking_eu_ai_act_article_99_control_set
+      process: corrective_obligation_tracking_eu_ai_act_article_99_workflow
+      evidence: corrective_obligation_tracking_eu_ai_act_article_99_attestation
+  gdpr:
+    article_5:
+      implementation: corrective_obligation_tracking_gdpr_article_5_privacy_control
+      evidence: corrective_obligation_tracking_gdpr_article_5_compliance_record
+    article_6:
+      implementation: corrective_obligation_tracking_gdpr_article_6_privacy_control
+      evidence: corrective_obligation_tracking_gdpr_article_6_compliance_record
+    article_22:
+      implementation: corrective_obligation_tracking_gdpr_article_22_privacy_control
+      evidence: corrective_obligation_tracking_gdpr_article_22_compliance_record
+    article_25:
+      implementation: corrective_obligation_tracking_gdpr_article_25_privacy_control
+      evidence: corrective_obligation_tracking_gdpr_article_25_compliance_record
+    article_32:
+      implementation: corrective_obligation_tracking_gdpr_article_32_privacy_control
+      evidence: corrective_obligation_tracking_gdpr_article_32_compliance_record
+    article_35:
+      implementation: corrective_obligation_tracking_gdpr_article_35_privacy_control
+      evidence: corrective_obligation_tracking_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: corrective_obligation_tracking_iso42001_clause_4_1_aims_control
+      evidence: corrective_obligation_tracking_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: corrective_obligation_tracking_iso42001_clause_4_2_aims_control
+      evidence: corrective_obligation_tracking_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: corrective_obligation_tracking_iso42001_clause_5_1_aims_control
+      evidence: corrective_obligation_tracking_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: corrective_obligation_tracking_iso42001_clause_5_2_aims_control
+      evidence: corrective_obligation_tracking_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: corrective_obligation_tracking_iso42001_clause_6_1_aims_control
+      evidence: corrective_obligation_tracking_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: corrective_obligation_tracking_iso42001_clause_8_1_aims_control
+      evidence: corrective_obligation_tracking_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: corrective_obligation_tracking_iso42001_clause_9_1_aims_control
+      evidence: corrective_obligation_tracking_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: corrective_obligation_tracking_iso42001_clause_10_1_aims_control
+      evidence: corrective_obligation_tracking_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: corrective_obligation_tracking_iso23894_risk_identification_alignment
+      evidence: corrective_obligation_tracking_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: corrective_obligation_tracking_iso23894_risk_analysis_alignment
+      evidence: corrective_obligation_tracking_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: corrective_obligation_tracking_iso23894_risk_evaluation_alignment
+      evidence: corrective_obligation_tracking_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: corrective_obligation_tracking_iso23894_risk_treatment_alignment
+      evidence: corrective_obligation_tracking_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: corrective_obligation_tracking_iso23894_risk_monitoring_alignment
+      evidence: corrective_obligation_tracking_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: corrective_obligation_tracking_iso19011_audit_principles_procedure
+      evidence: corrective_obligation_tracking_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: corrective_obligation_tracking_iso19011_audit_programme_management_procedure
+      evidence: corrective_obligation_tracking_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: corrective_obligation_tracking_iso19011_audit_evidence_requirements_procedure
+      evidence: corrective_obligation_tracking_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: corrective_obligation_tracking_iso19011_audit_reporting_procedure
+      evidence: corrective_obligation_tracking_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: corrective_obligation_tracking_nist_rmf_govern_control_mapping
+      evidence: corrective_obligation_tracking_nist_rmf_govern_assessment
+    map:
+      implementation: corrective_obligation_tracking_nist_rmf_map_control_mapping
+      evidence: corrective_obligation_tracking_nist_rmf_map_assessment
+    measure:
+      implementation: corrective_obligation_tracking_nist_rmf_measure_control_mapping
+      evidence: corrective_obligation_tracking_nist_rmf_measure_assessment
+    manage:
+      implementation: corrective_obligation_tracking_nist_rmf_manage_control_mapping
+      evidence: corrective_obligation_tracking_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: corrective_obligation_tracking_nist_csf_identify_safeguard
+      evidence: corrective_obligation_tracking_nist_csf_identify_log
+    protect:
+      implementation: corrective_obligation_tracking_nist_csf_protect_safeguard
+      evidence: corrective_obligation_tracking_nist_csf_protect_log
+    detect:
+      implementation: corrective_obligation_tracking_nist_csf_detect_safeguard
+      evidence: corrective_obligation_tracking_nist_csf_detect_log
+    respond:
+      implementation: corrective_obligation_tracking_nist_csf_respond_safeguard
+      evidence: corrective_obligation_tracking_nist_csf_respond_log
+    recover:
+      implementation: corrective_obligation_tracking_nist_csf_recover_safeguard
+      evidence: corrective_obligation_tracking_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: corrective_obligation_tracking_oecd_accountability_governance_control
+      evidence: corrective_obligation_tracking_oecd_accountability_attestation
+    transparency:
+      implementation: corrective_obligation_tracking_oecd_transparency_governance_control
+      evidence: corrective_obligation_tracking_oecd_transparency_attestation
+    robustness_security:
+      implementation: corrective_obligation_tracking_oecd_robustness_security_governance_control
+      evidence: corrective_obligation_tracking_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: corrective_obligation_tracking_oecd_inclusive_growth_governance_control
+      evidence: corrective_obligation_tracking_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: corrective_obligation_tracking_unesco_human_rights_ethics_control
+      evidence: corrective_obligation_tracking_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: corrective_obligation_tracking_unesco_fairness_non_discrimination_ethics_control
+      evidence: corrective_obligation_tracking_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: corrective_obligation_tracking_unesco_transparency_explainability_ethics_control
+      evidence: corrective_obligation_tracking_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: corrective_obligation_tracking_unesco_accountability_ethics_control
+      evidence: corrective_obligation_tracking_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Corrective Obligation Tracking covering executive, board, regulatory,
+      audit, forensic, and attestation consumers.
+  report_types:
+    - corrective_obligation_tracking_status_report
+    - corrective_obligation_tracking_compliance_report
+    - corrective_obligation_tracking_enforcement_report
+    - corrective_obligation_tracking_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [corrective_obligation_tracking_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_corrective_obligation_tracking
+  - quarterly_control_testing_corrective_obligation_tracking
+  - evidence_sampling_corrective_obligation_tracking
+  - finding_remediation_tracking_corrective_obligation_tracking
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Corrective Obligation Tracking aligned with ISO/IEC 27037 and legal
+      admissibility standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Corrective Obligation Tracking.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Corrective Obligation Tracking.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Corrective Obligation Tracking.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Corrective Obligation Tracking.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Corrective Obligation Tracking.
+enforcement_requirements:
+  enforcement_framework:
+    Enforcement Framework within Corrective Obligation Tracking scope.
+  enforcement_decision_logic:
+    Enforcement Decision Logic within Corrective Obligation Tracking scope.
+  sanction_management:
+    Sanction Management within Corrective Obligation Tracking scope.
+  penalty_management:
+    Penalty Management within Corrective Obligation Tracking scope.
+  post_enforcement_monitoring:
+    Post Enforcement Monitoring within Corrective Obligation Tracking scope.
+integration_points:
+  upstream_systems:
+    - system: investigation_management
+      purpose: corrective_obligation_tracking_to_investigation_management_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_investigation_management]
+      produced_artifacts: [corrective_obligation_tracking_output_to_investigation_management]
+    - system: enforcement_actions
+      purpose: corrective_obligation_tracking_to_enforcement_actions_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_enforcement_actions]
+      produced_artifacts: [corrective_obligation_tracking_output_to_enforcement_actions]
+    - system: compliance_audits
+      purpose: corrective_obligation_tracking_to_compliance_audits_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_compliance_audits]
+      produced_artifacts: [corrective_obligation_tracking_output_to_compliance_audits]
+  downstream_systems:
+    - system: remediation_tracking
+      purpose: corrective_obligation_tracking_to_remediation_tracking_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_remediation_tracking]
+      produced_artifacts: [corrective_obligation_tracking_output_to_remediation_tracking]
+    - system: reporting
+      purpose: corrective_obligation_tracking_to_reporting_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_reporting]
+      produced_artifacts: [corrective_obligation_tracking_output_to_reporting]
+    - system: enforcement_actions
+      purpose: corrective_obligation_tracking_to_enforcement_actions_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_enforcement_actions]
+      produced_artifacts: [corrective_obligation_tracking_output_to_enforcement_actions]
+  governance_integrations:
+    - system: ai_liability
+      purpose: corrective_obligation_tracking_to_ai_liability_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_ai_liability]
+      produced_artifacts: [corrective_obligation_tracking_output_to_ai_liability]
+    - system: legal_interoperability
+      purpose: corrective_obligation_tracking_to_legal_interoperability_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_legal_interoperability]
+      produced_artifacts: [corrective_obligation_tracking_output_to_legal_interoperability]
+  risk_integrations:
+    - system: ai_liability
+      purpose: corrective_obligation_tracking_to_ai_liability_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_ai_liability]
+      produced_artifacts: [corrective_obligation_tracking_output_to_ai_liability]
+    - system: compliance_scoring
+      purpose: corrective_obligation_tracking_to_compliance_scoring_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_compliance_scoring]
+      produced_artifacts: [corrective_obligation_tracking_output_to_compliance_scoring]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: corrective_obligation_tracking_to_compliance_audits_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_compliance_audits]
+      produced_artifacts: [corrective_obligation_tracking_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: corrective_obligation_tracking_to_internal_audit_system_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_internal_audit_system]
+      produced_artifacts: [corrective_obligation_tracking_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: corrective_obligation_tracking_to_governance_reporting_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_governance_reporting]
+      produced_artifacts: [corrective_obligation_tracking_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: corrective_obligation_tracking_to_executive_dashboard_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_executive_dashboard]
+      produced_artifacts: [corrective_obligation_tracking_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: corrective_obligation_tracking_to_enforcement_actions_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_enforcement_actions]
+      produced_artifacts: [corrective_obligation_tracking_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: corrective_obligation_tracking_to_policy_enforcement_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_policy_enforcement]
+      produced_artifacts: [corrective_obligation_tracking_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: corrective_obligation_tracking_to_remediation_tracking_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_remediation_tracking]
+      produced_artifacts: [corrective_obligation_tracking_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: corrective_obligation_tracking_to_remediation_engine_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_remediation_engine]
+      produced_artifacts: [corrective_obligation_tracking_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: corrective_obligation_tracking_to_evidence_preservation_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_evidence_preservation]
+      produced_artifacts: [corrective_obligation_tracking_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: corrective_obligation_tracking_to_technical_documentation_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_technical_documentation]
+      produced_artifacts: [corrective_obligation_tracking_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: corrective_obligation_tracking_to_post_market_monitoring_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_post_market_monitoring]
+      produced_artifacts: [corrective_obligation_tracking_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: corrective_obligation_tracking_to_incident_reporting_governance_sync
+      data_exchanged: [corrective_obligation_tracking_events, corrective_obligation_tracking_evidence_refs, corrective_obligation_tracking_metrics]
+      trigger_conditions: [corrective_obligation_tracking_state_change, corrective_obligation_tracking_escalation, corrective_obligation_tracking_closure]
+      consumed_artifacts: [corrective_obligation_tracking_input_from_incident_reporting]
+      produced_artifacts: [corrective_obligation_tracking_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Corrective Obligation Tracking activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Corrective Obligation Tracking procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - corrective_obligation_tracking_procedure_checklist
+    required_evidence:
+      - corrective_obligation_tracking_process_log
+    required_metrics:
+      - corrective_obligation_tracking_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Corrective Obligation Tracking enterprise-wide.
+    required_capabilities:
+      - corrective_obligation_tracking_standard_control_set
+    required_controls:
+      - corrective_obligation_tracking_control_register
+    required_evidence:
+      - corrective_obligation_tracking_audit_evidence
+    required_metrics:
+      - corrective_obligation_tracking_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Corrective Obligation Tracking with KPI optimization.
+    required_capabilities:
+      - corrective_obligation_tracking_automated_controls
+    required_controls:
+      - corrective_obligation_tracking_telemetry_controls
+    required_evidence:
+      - corrective_obligation_tracking_assurance_package
+    required_metrics:
+      - corrective_obligation_tracking_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Corrective Obligation Tracking with predictive analytics.
+    required_capabilities:
+      - corrective_obligation_tracking_autonomous_governance
+    required_controls:
+      - corrective_obligation_tracking_adaptive_controls
+    required_evidence:
+      - corrective_obligation_tracking_regulator_ready_portfolio
+    required_metrics:
+      - corrective_obligation_tracking_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - corrective_obligation_tracking_report
+  - corrective_obligation_tracking_evidence_package
+  - corrective_obligation_tracking_attestation
+  - corrective_obligation_tracking_enforcement_record
+artifacts:
+  - name: corrective_obligation_tracking_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: corrective_obligation_tracking_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: corrective_obligation_tracking_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: corrective_obligation_tracking_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - corrective_obligation_tracking_case_record
+  - corrective_obligation_tracking_audit_record
+  - corrective_obligation_tracking_enforcement_record
+  - corrective_obligation_tracking_remediation_record
+monitoring:
+  continuous:
+    - corrective_obligation_tracking_control_telemetry
+    - corrective_obligation_tracking_evidence_integrity_feed
+    - corrective_obligation_tracking_escalation_queue
+  periodic:
+    - corrective_obligation_tracking_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Corrective Obligation Tracking effectiveness, regulatory change impact
+    assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: corrective_obligation_tracking_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: corrective_obligation_tracking_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: corrective_obligation_tracking_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: corrective_obligation_tracking_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Corrective Obligation Tracking

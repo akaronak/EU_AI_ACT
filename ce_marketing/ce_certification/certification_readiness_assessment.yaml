@@ -1,0 +1,677 @@
+metadata:
+  id: CE-CC-CERREA-001
+  name: certification_readiness_assessment
+  title: Certification Readiness Assessment
+  version: 1.0.0
+  status: production
+  owner: CE Marking and Conformity Office
+  maintainers:
+    - ce_conformity
+    - regulatory_affairs
+    - notified_body_liaison
+  created_date: 2026-06-12
+  last_updated: 2026-06-12
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: ce_marketing
+  skill_type: certification_governance
+  lifecycle_phase: operate
+  jurisdiction: EU_EEA
+  language: en
+  tags:
+    - ce_certification
+    - certification_readiness_assessment
+    - ce_marking
+    - conformity
+    - eu_ai_act
+    - notified_body
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GPAI Obligations
+    - ISO 42001
+    - ISO 23894
+    - ISO 27001
+    - ISO 9001
+    - NIST AI RMF
+    - GDPR
+    - CE Marking Framework
+  skill_functions:
+    - governance_skill
+    - conformity_skill
+    - certification_skill
+    - compliance_skill
+    - evidence_skill
+    - assessment_skill
+    - regulatory_skill
+    - market_access_skill
+    - monitoring_skill
+    - orchestration_skill
+purpose:
+  >
+    Executable CE Marking skill for Certification Readiness Assessment within
+    ce_marketing/ce_certification. Delivers conformity-assessment-ready, notified-body-ready,
+    market-access-ready operations for certification readiness, lifecycle, validation, governance,
+    assurance. Functions as governance, conformity, certification, compliance, evidence, assessment,
+    regulatory, market-access, monitoring, and orchestration skill.
+scope:
+  >
+    All AI systems, technical documentation, conformity assessments, declarations of conformity,
+    notified body interactions, and market authorization activities governed by Certification
+    Readiness Assessment.
+objectives:
+  - Operationalize Certification Readiness Assessment as executable CE marking conformity skill
+  - Enable notified-body-ready conformity validation for Certification Readiness Assessment
+  - Maintain market-access-ready evidence for Certification Readiness Assessment
+  - Integrate Certification Readiness Assessment with declaration and market authorization lifecycle
+  - Support post-certification monitoring and recertification for Certification Readiness Assessment
+definitions:
+  certification_readiness_assessment_conformity_assertion:
+    >
+      Formal conformity statement for Certification Readiness Assessment supported by indexed
+      evidence.
+  certification_readiness_assessment_notified_body_evidence:
+    Evidence package suitable for notified body conformity assessment review.
+  certification_readiness_assessment_market_access_record:
+    Record demonstrating market authorization readiness for Certification Readiness Assessment.
+taxonomy:
+  root: certification_readiness_assessment_taxonomy
+  conformity_phase:
+    - preparation
+    - assessment
+    - declaration
+    - market_placement
+    - surveillance
+  certification_readiness_assessment_status:
+    - draft
+    - validated
+    - approved
+    - published
+    - suspended
+governance:
+  policy_owner: Certification Readiness Assessment Conformity Lead
+  oversight_body: CE Marking Governance Committee
+  domain: ce_certification
+roles_and_responsibilities:
+  certification_readiness_assessment_conformity_officer:
+    responsibilities:
+      - Accountable for Certification Readiness Assessment conformity outcomes
+  certification_readiness_assessment_technical_documentation_lead:
+    responsibilities:
+      - Maintains Article 11 technical file for Certification Readiness Assessment
+  notified_body_liaison:
+    responsibilities:
+      - Coordinates notified body assessment activities
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Conformity Assessment Director
+    - Regulatory Affairs
+    - Notified Body Liaison
+capabilities:
+  - id: CE-CAP-001
+    name: CE Marking Governance
+    status: production
+  - id: CE-CAP-002
+    name: Conformity Assessment
+    status: production
+  - id: CE-CAP-003
+    name: Conformity Validation
+    status: production
+  - id: CE-CAP-004
+    name: Technical Documentation Governance
+    status: production
+  - id: CE-CAP-005
+    name: Declaration of Conformity Governance
+    status: production
+  - id: CE-CAP-006
+    name: Notified Body Coordination
+    status: production
+  - id: CE-CAP-007
+    name: Market Authorization Readiness
+    status: production
+  - id: CE-CAP-008
+    name: Post-Certification Monitoring
+    status: production
+controls:
+  - control_id: CE-CE_C-CERTIFIC-CONFORMITY
+    control_name: conformity_readiness_score_computation
+    control_category: detective
+    control_objective: Compute conformity readiness score across all assessment dimensions
+    regulatory_rationale: conformity_readiness_score_computation implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy conformity_readiness_score_computation in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: conformity_readiness_score_computation_telemetry_stream
+    validation_method: conformity_readiness_score_computation_conformity_test
+    testing_method: conformity_readiness_score_computation_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: conformity_readiness_score_computation_execution_record
+    audit_considerations: Notified body may sample conformity_readiness_score_computation during conformity assessment.
+  - control_id: CE-CE_C-CERTIFIC-TECHNICAL
+    control_name: technical_documentation_completeness_scan
+    control_category: detective
+    control_objective: Scan technical documentation for Article 11 completeness
+    regulatory_rationale: technical_documentation_completeness_scan implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy technical_documentation_completeness_scan in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: technical_documentation_completeness_scan_telemetry_stream
+    validation_method: technical_documentation_completeness_scan_conformity_test
+    testing_method: technical_documentation_completeness_scan_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: technical_documentation_completeness_scan_execution_record
+    audit_considerations: Notified body may sample technical_documentation_completeness_scan during conformity assessment.
+  - control_id: CE-CE_C-CERTIFIC-NOTIFIEDB
+    control_name: notified_body_readiness_checklist_enforcer
+    control_category: preventive
+    control_objective: Enforce notified body readiness checklist completion
+    regulatory_rationale: notified_body_readiness_checklist_enforcer implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy notified_body_readiness_checklist_enforcer in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: notified_body_readiness_checklist_enforcer_telemetry_stream
+    validation_method: notified_body_readiness_checklist_enforcer_conformity_test
+    testing_method: notified_body_readiness_checklist_enforcer_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: notified_body_readiness_checklist_enforcer_execution_record
+    audit_considerations: Notified body may sample notified_body_readiness_checklist_enforcer during conformity assessment.
+  - control_id: CE-CE_C-CERTIFIC-RISKCONTR
+    control_name: risk_control_implementation_verifier
+    control_category: detective
+    control_objective: Verify risk control implementation per Article 9
+    regulatory_rationale: risk_control_implementation_verifier implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy risk_control_implementation_verifier in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: risk_control_implementation_verifier_telemetry_stream
+    validation_method: risk_control_implementation_verifier_conformity_test
+    testing_method: risk_control_implementation_verifier_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: risk_control_implementation_verifier_execution_record
+    audit_considerations: Notified body may sample risk_control_implementation_verifier during conformity assessment.
+  - control_id: CE-CE_C-CERTIFIC-QMSCONFOR
+    control_name: qms_conformity_evidence_validator
+    control_category: detective
+    control_objective: Validate QMS conformity evidence per Article 17
+    regulatory_rationale: qms_conformity_evidence_validator implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy qms_conformity_evidence_validator in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: qms_conformity_evidence_validator_telemetry_stream
+    validation_method: qms_conformity_evidence_validator_conformity_test
+    testing_method: qms_conformity_evidence_validator_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: qms_conformity_evidence_validator_execution_record
+    audit_considerations: Notified body may sample qms_conformity_evidence_validator during conformity assessment.
+  - control_id: CE-CE_C-CERTIFIC-CERTIFICAT
+    control_name: certification_gap_severity_classifier
+    control_category: detective
+    control_objective: Classify certification gaps by severity and remediation priority
+    regulatory_rationale: certification_gap_severity_classifier implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy certification_gap_severity_classifier in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: certification_gap_severity_classifier_telemetry_stream
+    validation_method: certification_gap_severity_classifier_conformity_test
+    testing_method: certification_gap_severity_classifier_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: certification_gap_severity_classifier_execution_record
+    audit_considerations: Notified body may sample certification_gap_severity_classifier during conformity assessment.
+  - control_id: CE-CE_C-CERTIFIC-READINESS
+    control_name: readiness_assessment_workpaper_sealer
+    control_category: evidence
+    control_objective: Seal readiness assessment workpapers for audit
+    regulatory_rationale: readiness_assessment_workpaper_sealer implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy readiness_assessment_workpaper_sealer in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: readiness_assessment_workpaper_sealer_telemetry_stream
+    validation_method: readiness_assessment_workpaper_sealer_conformity_test
+    testing_method: readiness_assessment_workpaper_sealer_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: readiness_assessment_workpaper_sealer_execution_record
+    audit_considerations: Notified body may sample readiness_assessment_workpaper_sealer during conformity assessment.
+  - control_id: CE-CE_C-CERTIFIC-PREASSESS
+    control_name: pre_assessment_remediation_gate
+    control_category: preventive
+    control_objective: Gate pre-assessment on critical gap remediation
+    regulatory_rationale: pre_assessment_remediation_gate implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy pre_assessment_remediation_gate in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: pre_assessment_remediation_gate_telemetry_stream
+    validation_method: pre_assessment_remediation_gate_conformity_test
+    testing_method: pre_assessment_remediation_gate_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: pre_assessment_remediation_gate_execution_record
+    audit_considerations: Notified body may sample pre_assessment_remediation_gate during conformity assessment.
+  - control_id: CE-CE_C-CERTIFIC-HIGHRISK
+    control_name: high_risk_annex_iii_coverage_validator
+    control_category: preventive
+    control_objective: Validate Annex III high-risk coverage in readiness assessment
+    regulatory_rationale: high_risk_annex_iii_coverage_validator implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy high_risk_annex_iii_coverage_validator in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: high_risk_annex_iii_coverage_validator_telemetry_stream
+    validation_method: high_risk_annex_iii_coverage_validator_conformity_test
+    testing_method: high_risk_annex_iii_coverage_validator_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: high_risk_annex_iii_coverage_validator_execution_record
+    audit_considerations: Notified body may sample high_risk_annex_iii_coverage_validator during conformity assessment.
+  - control_id: CE-CE_C-CERTIFIC-PROVIDERO
+    control_name: provider_obligation_readiness_checker
+    control_category: detective
+    control_objective: Check provider obligation readiness for conformity assessment
+    regulatory_rationale: provider_obligation_readiness_checker implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy provider_obligation_readiness_checker in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: provider_obligation_readiness_checker_telemetry_stream
+    validation_method: provider_obligation_readiness_checker_conformity_test
+    testing_method: provider_obligation_readiness_checker_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: provider_obligation_readiness_checker_execution_record
+    audit_considerations: Notified body may sample provider_obligation_readiness_checker during conformity assessment.
+  - control_id: CE-CE_C-CERTIFIC-READINESS
+    control_name: readiness_executive_sign_off_gate
+    control_category: preventive
+    control_objective: Require executive sign-off before notified body engagement
+    regulatory_rationale: readiness_executive_sign_off_gate implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy readiness_executive_sign_off_gate in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: readiness_executive_sign_off_gate_telemetry_stream
+    validation_method: readiness_executive_sign_off_gate_conformity_test
+    testing_method: readiness_executive_sign_off_gate_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: readiness_executive_sign_off_gate_execution_record
+    audit_considerations: Notified body may sample readiness_executive_sign_off_gate during conformity assessment.
+  - control_id: CE-CE_C-CERTIFIC-READINESS
+    control_name: readiness_assurance_attestation
+    control_category: audit
+    control_objective: Attest certification readiness assessment control effectiveness
+    regulatory_rationale: readiness_assurance_attestation implements EU AI Act conformity obligations for Certification Readiness Assessment under ce_certification.
+    implementation_guidance: Deploy readiness_assurance_attestation in certification_readiness_assessment workflow; integrate with conformity register; block non-compliant transitions.
+    monitoring_method: readiness_assurance_attestation_telemetry_stream
+    validation_method: readiness_assurance_attestation_conformity_test
+    testing_method: readiness_assurance_attestation_sampling_audit
+    control_owner: certification_readiness_assessment_conformity_owner
+    evidence_generated: readiness_assurance_attestation_execution_record
+    audit_considerations: Notified body may sample readiness_assurance_attestation during conformity assessment.
+workflows:
+  - workflow_id: WF-CE-CERTIFICATION_READIN
+    workflow_name: certification_readiness_assessment_workflow
+    workflow_owner: certification_readiness_assessment_workflow_owner
+    trigger: certification_cycle_initiated
+    inputs:
+      - certification_readiness_assessment_conformity_context
+      - certification_readiness_assessment_evidence_index
+    activities:
+      - scope_definition
+      - documentation_review
+      - gap_analysis
+      - remediation
+      - readiness_scoring
+      - executive_approval
+      - notified_body_engagement
+    decision_points:
+      - certification_readiness_assessment_conformity_decision
+      - certification_readiness_assessment_escalation_decision
+    approvals:
+      - certification_readiness_assessment_conformity_officer_approval
+    outputs:
+      - certification_readiness_assessment_conformity_record
+    evidence_generated:
+      - certification_readiness_assessment_workflow_log
+      - certification_readiness_assessment_attestation
+    success_criteria:
+      - certification_readiness_assessment_conformity_validated
+      - certification_readiness_assessment_evidence_complete
+    failure_conditions:
+      - certification_readiness_assessment_critical_gap_unresolved
+      - certification_readiness_assessment_evidence_integrity_failure
+  - workflow_id: WF-CE-CE_MARKING_P
+    workflow_name: certification_readiness_assessment_ce_marking_preparation_workflow
+    linked: true
+    trigger: certification_readiness_assessment_ce_marking_preparation_initiated
+  - workflow_id: WF-CE-CONFORMITY_A
+    workflow_name: certification_readiness_assessment_conformity_assessment_workflow
+    linked: true
+    trigger: certification_readiness_assessment_conformity_assessment_initiated
+  - workflow_id: WF-CE-NOTIFIED_BOD
+    workflow_name: certification_readiness_assessment_notified_body_engagement_workflow
+    linked: true
+    trigger: certification_readiness_assessment_notified_body_engagement_initiated
+  - workflow_id: WF-CE-DECLARATION_
+    workflow_name: certification_readiness_assessment_declaration_of_conformity_workflow
+    linked: true
+    trigger: certification_readiness_assessment_declaration_of_conformity_initiated
+  - workflow_id: WF-CE-MARKET_AUTHO
+    workflow_name: certification_readiness_assessment_market_authorization_workflow
+    linked: true
+    trigger: certification_readiness_assessment_market_authorization_initiated
+  - workflow_id: WF-CE-POST_CERTIFI
+    workflow_name: certification_readiness_assessment_post_certification_monitoring_workflow
+    linked: true
+    trigger: certification_readiness_assessment_post_certification_monitoring_initiated
+  - workflow_id: WF-CE-RECERTIFICAT
+    workflow_name: certification_readiness_assessment_recertification_workflow
+    linked: true
+    trigger: certification_readiness_assessment_recertification_initiated
+decision_logic:
+  certification_readiness_assessment_conformity_gate:
+    condition: certification_readiness_assessment_readiness_score >= 0.95 AND certification_readiness_assessment_evidence_complete == true
+    action: authorize_certification_readiness_assessment_progression
+    approval_required: conformity_officer
+conformity_assessment:
+  assessment_scope: Certification Readiness Assessment EU AI Act conformity dimensions
+  assessment_methodology: certification_readiness_assessment_iso_19011_conformity_method
+  assessment_criteria: certification_readiness_assessment_annex_iii_and_article_requirements
+  conformity_dimensions:
+    - technical
+    - organizational
+    - operational
+    - documentation
+  evidence_requirements:
+    - certification_readiness_assessment_technical_file
+    - certification_readiness_assessment_risk_assessment
+    - certification_readiness_assessment_validation_records
+  acceptance_thresholds: certification_readiness_assessment_readiness_score >= 0.95
+  rejection_thresholds: certification_readiness_assessment_critical_gap == true
+metrics:
+  - metric_name: conformity_readiness_score
+    metric_category: conformity
+    formula: computed_conformity_readiness_score_from_certification_readiness_assessment_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: certification_readiness_assessment_metrics_owner
+    data_source: certification_readiness_assessment_conformity_warehouse
+    evidence_generated: conformity_readiness_score_measurement_record
+  - metric_name: technical_documentation_completeness
+    metric_category: conformity
+    formula: computed_technical_documentation_completeness_from_certification_readiness_assessment_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: certification_readiness_assessment_metrics_owner
+    data_source: certification_readiness_assessment_conformity_warehouse
+    evidence_generated: technical_documentation_completeness_measurement_record
+  - metric_name: evidence_validation_success_rate
+    metric_category: conformity
+    formula: computed_evidence_validation_success_rate_from_certification_readiness_assessment_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: certification_readiness_assessment_metrics_owner
+    data_source: certification_readiness_assessment_conformity_warehouse
+    evidence_generated: evidence_validation_success_rate_measurement_record
+  - metric_name: ce_marking_readiness_score
+    metric_category: conformity
+    formula: computed_ce_marking_readiness_score_from_certification_readiness_assessment_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: certification_readiness_assessment_metrics_owner
+    data_source: certification_readiness_assessment_conformity_warehouse
+    evidence_generated: ce_marking_readiness_score_measurement_record
+  - metric_name: notified_body_acceptance_rate
+    metric_category: conformity
+    formula: computed_notified_body_acceptance_rate_from_certification_readiness_assessment_telemetry
+    target: >= 0.95
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: certification_readiness_assessment_metrics_owner
+    data_source: certification_readiness_assessment_conformity_warehouse
+    evidence_generated: notified_body_acceptance_rate_measurement_record
+  - metric_name: certification_gap_count
+    metric_category: conformity
+    formula: computed_certification_gap_count_from_certification_readiness_assessment_telemetry
+    target: defined_by_conformity_board
+    warning_threshold: < 0.90
+    critical_threshold: < 0.80
+    measurement_frequency: weekly
+    owner: certification_readiness_assessment_metrics_owner
+    data_source: certification_readiness_assessment_conformity_warehouse
+    evidence_generated: certification_gap_count_measurement_record
+kpis:
+  - conformity_readiness_score
+  - technical_documentation_completeness
+  - evidence_validation_success_rate
+  - ce_marking_readiness_score
+kris:
+  - notified_body_acceptance_rate
+  - certification_gap_count
+evidence_requirements:
+  - evidence_name: certification_readiness_assessment_readiness_assessment_workpaper
+    evidence_type: conformity
+    business_purpose: Support Certification Readiness Assessment conformity assessment and CE marking
+    generation_method: automated_certification_readiness_assessment_pipeline
+    retention_period: 10_years
+    validation_method: certification_readiness_assessment_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: certification_readiness_assessment_gap_analysis_report
+    evidence_type: conformity
+    business_purpose: Support Certification Readiness Assessment conformity assessment and CE marking
+    generation_method: automated_certification_readiness_assessment_pipeline
+    retention_period: 10_years
+    validation_method: certification_readiness_assessment_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: certification_readiness_assessment_remediation_evidence
+    evidence_type: conformity
+    business_purpose: Support Certification Readiness Assessment conformity assessment and CE marking
+    generation_method: automated_certification_readiness_assessment_pipeline
+    retention_period: 10_years
+    validation_method: certification_readiness_assessment_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: certification_readiness_assessment_executive_sign_off
+    evidence_type: conformity
+    business_purpose: Support Certification Readiness Assessment conformity assessment and CE marking
+    generation_method: automated_certification_readiness_assessment_pipeline
+    retention_period: 10_years
+    validation_method: certification_readiness_assessment_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: certification_readiness_assessment_notified_body_readiness_checklist
+    evidence_type: conformity
+    business_purpose: Support Certification Readiness Assessment conformity assessment and CE marking
+    generation_method: automated_certification_readiness_assessment_pipeline
+    retention_period: 10_years
+    validation_method: certification_readiness_assessment_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+  - evidence_name: certification_readiness_assessment_conformity_evidence_index
+    evidence_type: conformity
+    business_purpose: Support Certification Readiness Assessment conformity assessment and CE marking
+    generation_method: automated_certification_readiness_assessment_pipeline
+    retention_period: 10_years
+    validation_method: certification_readiness_assessment_evidence_validator
+    audit_relevance: notified_body_assessment
+    enforcement_relevance: market_surveillance
+attestation_requirements:
+  - attestation: certification_readiness_assessment_conformity_attestation
+    owner: conformity_officer
+    frequency: quarterly
+domain_reports:
+  - report_name: conformity_readiness_dashboard
+    report_owner: certification_readiness_assessment_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: certification_status_report
+    report_owner: certification_readiness_assessment_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: notified_body_briefing
+    report_owner: certification_readiness_assessment_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: executive_ce_governance_report
+    report_owner: certification_readiness_assessment_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+  - report_name: market_authorization_status
+    report_owner: certification_readiness_assessment_reporting_owner
+    report_frequency: monthly
+    regulatory_relevance: EU_AI_Act_Article_43
+    audit_relevance: conformity_assessment_evidence
+    report_consumers:
+      - conformity_officer
+      - notified_body_liaison
+      - regulatory_affairs
+altai_conformity:
+  agent_conformity:
+    validation: certification_readiness_assessment_agent_conformity_validation
+    traceability: certification_readiness_assessment_agent_conformity_traceability
+    monitoring: certification_readiness_assessment_agent_conformity_monitoring
+  reasoning_conformity:
+    validation: certification_readiness_assessment_reasoning_conformity_validation
+    traceability: certification_readiness_assessment_reasoning_conformity_traceability
+    monitoring: certification_readiness_assessment_reasoning_conformity_monitoring
+  memory_conformity:
+    validation: certification_readiness_assessment_memory_conformity_validation
+    traceability: certification_readiness_assessment_memory_conformity_traceability
+    monitoring: certification_readiness_assessment_memory_conformity_monitoring
+  tool_conformity:
+    validation: certification_readiness_assessment_tool_conformity_validation
+    traceability: certification_readiness_assessment_tool_conformity_traceability
+    monitoring: certification_readiness_assessment_tool_conformity_monitoring
+  foundation_model_conformity:
+    validation: certification_readiness_assessment_foundation_model_conformity_validation
+    traceability: certification_readiness_assessment_foundation_model_conformity_traceability
+    monitoring: certification_readiness_assessment_foundation_model_conformity_monitoring
+  gpai_conformity:
+    validation: certification_readiness_assessment_gpai_conformity_validation
+    traceability: certification_readiness_assessment_gpai_conformity_traceability
+    monitoring: certification_readiness_assessment_gpai_conformity_monitoring
+compliance_mapping:
+  article_43:
+    article: Article 43
+    obligation: Certification Readiness Assessment conformity under Article 43
+    implementation_method: certification_readiness_assessment_article_43_controls
+    evidence_required: [certification_readiness_assessment_article_43_evidence]
+    validation_method: certification_readiness_assessment_article_43_conformity_test
+    assurance_method: certification_readiness_assessment_article_43_assurance_review
+  article_44:
+    article: Article 44
+    obligation: Certification Readiness Assessment conformity under Article 44
+    implementation_method: certification_readiness_assessment_article_44_controls
+    evidence_required: [certification_readiness_assessment_article_44_evidence]
+    validation_method: certification_readiness_assessment_article_44_conformity_test
+    assurance_method: certification_readiness_assessment_article_44_assurance_review
+  article_16:
+    article: Article 16
+    obligation: Certification Readiness Assessment conformity under Article 16
+    implementation_method: certification_readiness_assessment_article_16_controls
+    evidence_required: [certification_readiness_assessment_article_16_evidence]
+    validation_method: certification_readiness_assessment_article_16_conformity_test
+    assurance_method: certification_readiness_assessment_article_16_assurance_review
+  article_17:
+    article: Article 17
+    obligation: Certification Readiness Assessment conformity under Article 17
+    implementation_method: certification_readiness_assessment_article_17_controls
+    evidence_required: [certification_readiness_assessment_article_17_evidence]
+    validation_method: certification_readiness_assessment_article_17_conformity_test
+    assurance_method: certification_readiness_assessment_article_17_assurance_review
+relationships:
+  conformity_links:
+    - source: certification_readiness_assessment
+      target: certification_readiness_assessment_to_declaration_of_conformity
+      relationship_type: governs
+      confidence: 0.95
+  certification_links:
+    - source: certification_readiness_assessment
+      target: certification_readiness_assessment_to_ce_certification
+      relationship_type: governs
+      confidence: 0.95
+  evidence_links:
+    - source: certification_readiness_assessment
+      target: certification_readiness_assessment_to_conformity_evidence
+      relationship_type: governs
+      confidence: 0.95
+  documentation_links:
+    - source: certification_readiness_assessment
+      target: certification_readiness_assessment_to_technical_documentation
+      relationship_type: governs
+      confidence: 0.95
+integration_points:
+  - system: provider_obligations
+    purpose: certification_readiness_assessment_to_provider_obligations_conformity_sync
+    data_exchanged: [certification_readiness_assessment_conformity_scores, certification_readiness_assessment_evidence_refs]
+    consumed_artifacts: [provider_obligations_records]
+    produced_artifacts: [certification_readiness_assessment_conformity_package]
+  - system: technical_documentation
+    purpose: certification_readiness_assessment_to_technical_documentation_conformity_sync
+    data_exchanged: [certification_readiness_assessment_conformity_scores, certification_readiness_assessment_evidence_refs]
+    consumed_artifacts: [technical_documentation_records]
+    produced_artifacts: [certification_readiness_assessment_conformity_package]
+  - system: risk_management
+    purpose: certification_readiness_assessment_to_risk_management_conformity_sync
+    data_exchanged: [certification_readiness_assessment_conformity_scores, certification_readiness_assessment_evidence_refs]
+    consumed_artifacts: [risk_management_records]
+    produced_artifacts: [certification_readiness_assessment_conformity_package]
+  - system: post_market_monitoring
+    purpose: certification_readiness_assessment_to_post_market_monitoring_conformity_sync
+    data_exchanged: [certification_readiness_assessment_conformity_scores, certification_readiness_assessment_evidence_refs]
+    consumed_artifacts: [post_market_monitoring_records]
+    produced_artifacts: [certification_readiness_assessment_conformity_package]
+  - system: audit_and_enforcement
+    purpose: certification_readiness_assessment_to_audit_and_enforcement_conformity_sync
+    data_exchanged: [certification_readiness_assessment_conformity_scores, certification_readiness_assessment_evidence_refs]
+    consumed_artifacts: [audit_and_enforcement_records]
+    produced_artifacts: [certification_readiness_assessment_conformity_package]
+attestation_framework:
+  attestation_owner: certification_readiness_assessment_conformity_officer
+  attestation_frequency: quarterly
+  attestation_evidence: [certification_readiness_assessment_conformity_attestation, certification_readiness_assessment_control_effectiveness_review]
+maturity_model:
+  level_1:
+    name: Initial
+    characteristics: Ad hoc conformity for Certification Readiness Assessment
+  level_2:
+    name: Developing
+    characteristics: Documented procedures for Certification Readiness Assessment
+  level_3:
+    name: Managed
+    characteristics: Standardized enterprise-wide for Certification Readiness Assessment
+  level_4:
+    name: Advanced
+    characteristics: Measured with KPIs for Certification Readiness Assessment
+  level_5:
+    name: Optimized
+    characteristics: Predictive conformity for Certification Readiness Assessment
+risk_model:
+  risk_sources: [certification_readiness_assessment_conformity_gap, certification_readiness_assessment_evidence_failure, certification_readiness_assessment_notified_body_finding]
+  risk_monitoring: certification_readiness_assessment_conformity_risk_dashboard
+crosswalks:
+  eu_ai_act:
+    implementation: certification_readiness_assessment_eu_ai_act_conformity_mapping
+    evidence: certification_readiness_assessment_eu_ai_act_conformity_attestation
+  gdpr:
+    implementation: certification_readiness_assessment_gdpr_conformity_mapping
+    evidence: certification_readiness_assessment_gdpr_conformity_attestation
+  iso_42001:
+    implementation: certification_readiness_assessment_iso_42001_conformity_mapping
+    evidence: certification_readiness_assessment_iso_42001_conformity_attestation
+  iso_23894:
+    implementation: certification_readiness_assessment_iso_23894_conformity_mapping
+    evidence: certification_readiness_assessment_iso_23894_conformity_attestation
+  nist_ai_rmf:
+    implementation: certification_readiness_assessment_nist_ai_rmf_conformity_mapping
+    evidence: certification_readiness_assessment_nist_ai_rmf_conformity_attestation
+monitoring:
+  continuous: [certification_readiness_assessment_conformity_telemetry, certification_readiness_assessment_readiness_score_feed]
+continuous_improvement:
+  feedback_loop: certification_readiness_assessment_conformity_retrospective
+escalation:
+  critical_path: chief_compliance_officer
+versioning:
+  current: 1.0.0

@@ -1,0 +1,2016 @@
+metadata:
+  id: AAE-IM-CROBOR-001
+  name: cross_border_investigation_coordination
+  title: Cross Border Investigation Coordination
+  version: 1.0.0
+  status: production
+  owner: Enterprise Audit and Enforcement Office
+  maintainers:
+    - audit_enforcement_governance
+    - regulatory_compliance
+    - digital_forensics
+  created_date: 2026-06-11
+  last_updated: 2026-06-11
+  review_frequency: quarterly
+  criticality: critical
+  maturity_level: defined
+  classification: RESTRICTED
+  regulatory_domain: audit_and_enforcement
+  skill_type: investigation_management
+  lifecycle_phase: operate
+  jurisdiction: EU/EEA_primary_global_extensions
+  language: en
+  tags:
+    - investigation_management
+    - cross_border_investigation_coordination
+    - eu_ai_act
+    - audit
+    - enforcement
+    - forensics
+  authoritative_sources:
+    - EU AI Act 2024/1689
+    - GDPR
+    - ISO 42001
+    - ISO 23894
+    - ISO 19011
+    - ISO 31000
+    - NIST AI RMF 1.0
+    - NIST CSF 2.0
+    - OECD AI Principles
+    - UNESCO AI Ethics
+purpose:
+  >
+    Establish production-grade Cross Border Investigation Coordination governance within
+    audit_and_enforcement/investigation_management, delivering regulator-ready, audit-ready, and
+    enforcement-ready controls for case-managed investigation workflows with regulator coordination,
+    multi-party coordination protocols and SLA management. Integrates with the EU AI Act governance
+    ecosystem through machine-evaluable obligations, evidence preservation, and conformity-
+    assessment-ready artifacts.
+scope:
+  >
+    All organizational AI systems, governance processes, audit activities, enforcement actions,
+    investigations, and evidence artifacts governed by Cross Border Investigation Coordination
+    across enterprise and cross-border operations within
+    audit_and_enforcement/investigation_management.
+objectives:
+  - Operationalize Cross Border Investigation Coordination with regulator-defensible controls and evidence chains
+  - Enable automated validation of Cross Border Investigation Coordination conformance across investigation_management
+  - Preserve audit-grade and forensic-grade records for all Cross Border Investigation Coordination activities
+  - Support conformity assessments, notified body reviews, and market surveillance
+  - Integrate Cross Border Investigation Coordination with enterprise enforcement, investigation, and remediation workflows
+  - Maintain continuous improvement and post-enforcement monitoring for Cross Border Investigation Coordination
+definitions:
+  cross_border_investigation_coordination_governance_domain:
+    >
+      The operational jurisdiction of Cross Border Investigation Coordination encompassing controlled
+      audit, enforcement, investigation, and evidence processes within investigation_management.
+  cross_border_investigation_coordination_audit_evidence:
+    >
+      Machine-readable and human-readable records demonstrating Cross Border Investigation
+      Coordination control effectiveness, process adherence, and regulatory conformity.
+  cross_border_investigation_coordination_enforcement_action:
+    >
+      A documented restriction, corrective obligation, sanction, or operational intervention
+      authorized through Cross Border Investigation Coordination decision logic.
+  cross_border_investigation_coordination_forensic_artifact:
+    >
+      Tamper-evident record suitable for investigation, litigation, or regulatory proceedings produced
+      by Cross Border Investigation Coordination processes.
+  cross_border_investigation_coordination_traceability_chain:
+    >
+      Immutable linkage from triggering event through decisions, actions, and outcomes within Cross
+      Border Investigation Coordination operations.
+  cross_border_investigation_coordination_conformity_assertion:
+    >
+      Formal statement that Cross Border Investigation Coordination requirements are met, supported by
+      indexed evidence and validation attestations.
+taxonomy:
+  root: cross_border_investigation_coordination_taxonomy
+  audit_phase:
+    - planning
+    - fieldwork
+    - evidence_review
+    - finding_validation
+    - reporting
+    - closure
+  enforcement_tier:
+    - advisory
+    - corrective
+    - restrictive
+    - prohibitive
+    - sanctioned
+  evidence_class:
+    - primary
+    - secondary
+    - corroborating
+    - derivative
+    - attestation
+  integrity_status:
+    - verified
+    - provisional
+    - degraded
+    - compromised
+    - quarantined
+  jurisdiction_scope:
+    - eu_member_state
+    - eea
+    - uk
+    - global
+    - sector_specific
+  maturity_level:
+    - initial
+    - managed
+    - defined
+    - quantified
+    - optimizing
+  cross_border_investigation_coordination_artifact_type:
+    - cross_border_investigation_coordination_record
+    - cross_border_investigation_coordination_log
+    - cross_border_investigation_coordination_report
+    - cross_border_investigation_coordination_attestation
+    - cross_border_investigation_coordination_package
+  cross_border_investigation_coordination_finding_severity:
+    - observation
+    - low
+    - medium
+    - high
+    - critical
+governance:
+  policy_owner: Cross Border Investigation Coordination Governance Lead
+  oversight_body: Audit and Enforcement Committee
+  review_cycle: quarterly
+  escalation_authority: Chief Compliance Officer
+  domain: investigation_management
+  artifact_types:
+    - governance_artifact
+    - operational_artifact
+    - audit_artifact
+    - enforcement_artifact
+    - evidence_artifact
+    - orchestration_artifact
+    - knowledge_graph_artifact
+relationships:
+  upstream_dependencies:
+    - governance_forensics
+    - incident_reporting
+    - evidence_preservation
+    - audit_and_enforcement/core/audit_metadata.yaml
+  downstream_dependencies:
+    - enforcement_actions
+    - penalty_management
+    - remediation_tracking
+    - audit_and_enforcement/investigation_management/cross_border_investigation_coordination.yaml
+  related_domains:
+    - governance_forensics
+    - enforcement_actions
+    - evidence_preservation
+  related_skills:
+    - investigation_case_management
+    - root_cause_analysis
+    - regulator_investigation_coordination
+    - cross_border_investigation_coordination
+  parent_governance_objects:
+    - enforcement_framework
+  child_governance_objects:
+    - investigation_case
+    - violation_determination_record
+    - cross_border_investigation_coordination_governance_object
+  consumes_artifacts:
+    - forensic_report
+    - incident_notification
+    - risk_register_entry
+    - cross_border_investigation_coordination_input_artifact
+  produces_artifacts:
+    - investigation_report
+    - root_cause_analysis_report
+    - escalation_recommendation
+    - cross_border_investigation_coordination_record
+    - cross_border_investigation_coordination_report
+    - cross_border_investigation_coordination_attestation
+  consumes_evidence:
+    - forensic_evidence_package
+    - witness_statement
+    - system_log_extract
+    - cross_border_investigation_coordination_source_evidence
+  produces_evidence:
+    - investigation_workpaper
+    - regulator_notification_draft
+    - case_closure_record
+    - cross_border_investigation_coordination_audit_evidence
+    - cross_border_investigation_coordination_validation_evidence
+    - cross_border_investigation_coordination_enforcement_evidence
+  governance_dependencies:
+    - incident_reporting
+    - ai_liability
+  regulatory_dependencies:
+    - eu_ai_act_article_73
+    - eu_ai_act_article_50
+    - gdpr_article_33
+  risk_dependencies:
+    - risk_management
+  control_dependencies:
+    - governance_forensics
+    - evidence_preservation
+    - cross_border_investigation_coordination_control_register
+roles_and_responsibilities:
+  cross_border_investigation_coordination_owner:
+    responsibilities:
+      - Accountable for Cross Border Investigation Coordination strategy, control design, and regulatory alignment
+  cross_border_investigation_coordination_operator:
+    responsibilities:
+      - Executes Cross Border Investigation Coordination workflows and maintains operational records
+  cross_border_investigation_coordination_auditor:
+    responsibilities:
+      - Independently validates Cross Border Investigation Coordination control effectiveness and evidence sufficiency
+  cross_border_investigation_coordination_forensic_lead:
+    responsibilities:
+      - Preserves and analyzes forensic artifacts for Cross Border Investigation Coordination investigations
+  cross_border_investigation_coordination_enforcement_officer:
+    responsibilities:
+      - Authorizes and executes enforcement actions under Cross Border Investigation Coordination
+  regulatory_liaison:
+    responsibilities:
+      - Coordinates regulator submissions and inspection responses
+stakeholders:
+  primary:
+    - Chief Compliance Officer
+    - Chief AI Officer
+    - Internal Audit Director
+    - Legal Counsel
+    - Regulatory Affairs
+  secondary:
+    - Notified Body Liaison
+    - Data Protection Officer
+    - Enterprise Risk
+    - Board Audit Committee
+capabilities:
+  - id: CAP-016
+    name: Investigation Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-017
+    name: Investigation Coordination
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-018
+    name: Cross-Border Investigations
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-019
+    name: Root Cause Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-024
+    name: Violation Analysis
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-025
+    name: Violation Classification
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-033
+    name: Evidence Preservation
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-034
+    name: Digital Evidence Management
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-035
+    name: Chain of Custody
+    implementation_status: production
+    controls_linked: true
+  - id: CAP-045
+    name: Executive Audit Reporting
+    implementation_status: production
+    controls_linked: true
+controls:
+  - control_id: AAE-INV-CROSS_BORD-CROSSINVEST
+    control_name: cross_investigation_intake_screener
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring investigation intake screener for Cross Border Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        cross_investigation_intake_screener is required to govern Cross Border Investigation
+        Coordination risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement cross_investigation_intake_screener as automated policy in
+        cross_border_investigation_coordination orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method: cross_investigation_intake_screener_continuous_telemetry_dashboard
+    validation_method:
+      cross_investigation_intake_screener_quarterly_design_and_operating_effectiveness_test
+    testing_method: cross_investigation_intake_screener_statistical_sampling_with_exception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated: cross_investigation_intake_screener_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify cross_investigation_intake_screener design, operation, and evidence sufficiency
+        per ISO 19011.
+    enforcement_considerations:
+      >
+        cross_investigation_intake_screener outputs may trigger enforcement under
+        cross_border_investigation_coordination escalation rules.
+  - control_id: AAE-INV-CROSS_BORD-BORDERSEVER
+    control_name: border_severity_scoring_engine
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring severity scoring engine for Cross Border Investigation Coordination
+        across investigation_management.
+    governance_rationale:
+      >
+        border_severity_scoring_engine is required to govern Cross Border Investigation Coordination
+        risks under EU AI Act and enterprise audit-enforcement policy; failure enables undetected
+        investigation management failures.
+    implementation_guidance:
+      >
+        Implement border_severity_scoring_engine as automated policy in
+        cross_border_investigation_coordination orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method: border_severity_scoring_engine_continuous_telemetry_dashboard
+    validation_method: border_severity_scoring_engine_quarterly_design_and_operating_effectiveness_test
+    testing_method: border_severity_scoring_engine_statistical_sampling_with_exception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated: border_severity_scoring_engine_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify border_severity_scoring_engine design, operation, and evidence sufficiency per
+        ISO 19011.
+    enforcement_considerations:
+      >
+        border_severity_scoring_engine outputs may trigger enforcement under
+        cross_border_investigation_coordination escalation rules.
+  - control_id: AAE-INV-CROSS_BORD-INVESTIGATIO
+    control_name: investigation_root_cause_decomposition_analyzer
+    control_category: detective
+    control_objective:
+      >
+        Operational control ensuring root cause decomposition analyzer for Cross Border Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        investigation_root_cause_decomposition_analyzer is required to govern Cross Border Investigation
+        Coordination risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement investigation_root_cause_decomposition_analyzer as automated policy in
+        cross_border_investigation_coordination orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method: investigation_root_cause_decomposition_analyzer_continuous_telemetry_dashboard
+    validation_method:
+      >
+        investigation_root_cause_decomposition_analyzer_quarterly_design_and_operating_effectiveness_tes
+        t
+    testing_method:
+      investigation_root_cause_decomposition_analyzer_statistical_sampling_with_exception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated: investigation_root_cause_decomposition_analyzer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify investigation_root_cause_decomposition_analyzer design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        investigation_root_cause_decomposition_analyzer outputs may trigger enforcement under
+        cross_border_investigation_coordination escalation rules.
+  - control_id: AAE-INV-CROSS_BORD-COORDINATION
+    control_name: coordination_violation_escalation_router
+    control_category: corrective
+    control_objective:
+      >
+        Operational control ensuring violation escalation router for Cross Border Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        coordination_violation_escalation_router is required to govern Cross Border Investigation
+        Coordination risks under EU AI Act and enterprise audit-enforcement policy; failure enables
+        undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement coordination_violation_escalation_router as automated policy in
+        cross_border_investigation_coordination orchestration layer; wire to telemetry bus; block non-
+        compliant state transitions; log evidence to immutable store.
+    monitoring_method: coordination_violation_escalation_router_continuous_telemetry_dashboard
+    validation_method:
+      coordination_violation_escalation_router_quarterly_design_and_operating_effectiveness_test
+    testing_method:
+      coordination_violation_escalation_router_statistical_sampling_with_exception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated: coordination_violation_escalation_router_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify coordination_violation_escalation_router design, operation, and evidence
+        sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        coordination_violation_escalation_router outputs may trigger enforcement under
+        cross_border_investigation_coordination escalation rules.
+  - control_id: AAE-INV-CROSS_BORD-CROSSBORDER
+    control_name: cross_border_investigation_coordination_regulator_coordination_protocol_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring regulator coordination protocol enforcer for Cross Border
+        Investigation Coordination across investigation_management.
+    governance_rationale:
+      >
+        cross_border_investigation_coordination_regulator_coordination_protocol_enforcer is required to
+        govern Cross Border Investigation Coordination risks under EU AI Act and enterprise audit-
+        enforcement policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement cross_border_investigation_coordination_regulator_coordination_protocol_enforcer as
+        automated policy in cross_border_investigation_coordination orchestration layer; wire to
+        telemetry bus; block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        cross_border_investigation_coordination_regulator_coordination_protocol_enforcer_continuous_tele
+        metry_dashboard
+    validation_method:
+      >
+        cross_border_investigation_coordination_regulator_coordination_protocol_enforcer_quarterly_desig
+        n_and_operating_effectiveness_test
+    testing_method:
+      >
+        cross_border_investigation_coordination_regulator_coordination_protocol_enforcer_statistical_sam
+        pling_with_exception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated:
+      >
+        cross_border_investigation_coordination_regulator_coordination_protocol_enforcer_control_executi
+        on_log
+    audit_considerations:
+      >
+        Auditors verify cross_border_investigation_coordination_regulator_coordination_protocol_enforcer
+        design, operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        cross_border_investigation_coordination_regulator_coordination_protocol_enforcer outputs may
+        trigger enforcement under cross_border_investigation_coordination escalation rules.
+  - control_id: AAE-INV-CROSS_BORD-CROSSBORDER
+    control_name: cross_border_investigation_coordination_cross_border_mutual_assistance_handler
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring cross border mutual assistance handler for Cross Border
+        Investigation Coordination across investigation_management.
+    governance_rationale:
+      >
+        cross_border_investigation_coordination_cross_border_mutual_assistance_handler is required to
+        govern Cross Border Investigation Coordination risks under EU AI Act and enterprise audit-
+        enforcement policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement cross_border_investigation_coordination_cross_border_mutual_assistance_handler as
+        automated policy in cross_border_investigation_coordination orchestration layer; wire to
+        telemetry bus; block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        cross_border_investigation_coordination_cross_border_mutual_assistance_handler_continuous_teleme
+        try_dashboard
+    validation_method:
+      >
+        cross_border_investigation_coordination_cross_border_mutual_assistance_handler_quarterly_design_
+        and_operating_effectiveness_test
+    testing_method:
+      >
+        cross_border_investigation_coordination_cross_border_mutual_assistance_handler_statistical_sampl
+        ing_with_exception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated:
+      >
+        cross_border_investigation_coordination_cross_border_mutual_assistance_handler_control_execution
+        _log
+    audit_considerations:
+      >
+        Auditors verify cross_border_investigation_coordination_cross_border_mutual_assistance_handler
+        design, operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        cross_border_investigation_coordination_cross_border_mutual_assistance_handler outputs may
+        trigger enforcement under cross_border_investigation_coordination escalation rules.
+  - control_id: AAE-INV-CROSS_BORD-CROSSBORDER
+    control_name: cross_border_investigation_coordination_investigation_decision_tracker
+    control_category: evidence
+    control_objective:
+      >
+        Operational control ensuring investigation decision tracker for Cross Border Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        cross_border_investigation_coordination_investigation_decision_tracker is required to govern
+        Cross Border Investigation Coordination risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement cross_border_investigation_coordination_investigation_decision_tracker as automated
+        policy in cross_border_investigation_coordination orchestration layer; wire to telemetry bus;
+        block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        cross_border_investigation_coordination_investigation_decision_tracker_continuous_telemetry_dash
+        board
+    validation_method:
+      >
+        cross_border_investigation_coordination_investigation_decision_tracker_quarterly_design_and_oper
+        ating_effectiveness_test
+    testing_method:
+      >
+        cross_border_investigation_coordination_investigation_decision_tracker_statistical_sampling_with
+        _exception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated:
+      cross_border_investigation_coordination_investigation_decision_tracker_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify cross_border_investigation_coordination_investigation_decision_tracker design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        cross_border_investigation_coordination_investigation_decision_tracker outputs may trigger
+        enforcement under cross_border_investigation_coordination escalation rules.
+  - control_id: AAE-INV-CROSS_BORD-CROSSBORDER
+    control_name: cross_border_investigation_coordination_workflow_stage_gate_enforcer
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring workflow stage gate enforcer for Cross Border Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        cross_border_investigation_coordination_workflow_stage_gate_enforcer is required to govern Cross
+        Border Investigation Coordination risks under EU AI Act and enterprise audit-enforcement policy;
+        failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement cross_border_investigation_coordination_workflow_stage_gate_enforcer as automated
+        policy in cross_border_investigation_coordination orchestration layer; wire to telemetry bus;
+        block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        cross_border_investigation_coordination_workflow_stage_gate_enforcer_continuous_telemetry_dashbo
+        ard
+    validation_method:
+      >
+        cross_border_investigation_coordination_workflow_stage_gate_enforcer_quarterly_design_and_operat
+        ing_effectiveness_test
+    testing_method:
+      >
+        cross_border_investigation_coordination_workflow_stage_gate_enforcer_statistical_sampling_with_e
+        xception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated:
+      cross_border_investigation_coordination_workflow_stage_gate_enforcer_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify cross_border_investigation_coordination_workflow_stage_gate_enforcer design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        cross_border_investigation_coordination_workflow_stage_gate_enforcer outputs may trigger
+        enforcement under cross_border_investigation_coordination escalation rules.
+  - control_id: AAE-INV-CROSS_BORD-CROSSBORDER
+    control_name: cross_border_investigation_coordination_evidence_collection_orchestrator
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring evidence collection orchestrator for Cross Border Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        cross_border_investigation_coordination_evidence_collection_orchestrator is required to govern
+        Cross Border Investigation Coordination risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement cross_border_investigation_coordination_evidence_collection_orchestrator as automated
+        policy in cross_border_investigation_coordination orchestration layer; wire to telemetry bus;
+        block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        cross_border_investigation_coordination_evidence_collection_orchestrator_continuous_telemetry_da
+        shboard
+    validation_method:
+      >
+        cross_border_investigation_coordination_evidence_collection_orchestrator_quarterly_design_and_op
+        erating_effectiveness_test
+    testing_method:
+      >
+        cross_border_investigation_coordination_evidence_collection_orchestrator_statistical_sampling_wi
+        th_exception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated:
+      cross_border_investigation_coordination_evidence_collection_orchestrator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify cross_border_investigation_coordination_evidence_collection_orchestrator design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        cross_border_investigation_coordination_evidence_collection_orchestrator outputs may trigger
+        enforcement under cross_border_investigation_coordination escalation rules.
+  - control_id: AAE-INV-CROSS_BORD-CROSSBORDER
+    control_name: cross_border_investigation_coordination_investigation_closure_validator
+    control_category: audit
+    control_objective:
+      >
+        Operational control ensuring investigation closure validator for Cross Border Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        cross_border_investigation_coordination_investigation_closure_validator is required to govern
+        Cross Border Investigation Coordination risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement cross_border_investigation_coordination_investigation_closure_validator as automated
+        policy in cross_border_investigation_coordination orchestration layer; wire to telemetry bus;
+        block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        cross_border_investigation_coordination_investigation_closure_validator_continuous_telemetry_das
+        hboard
+    validation_method:
+      >
+        cross_border_investigation_coordination_investigation_closure_validator_quarterly_design_and_ope
+        rating_effectiveness_test
+    testing_method:
+      >
+        cross_border_investigation_coordination_investigation_closure_validator_statistical_sampling_wit
+        h_exception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated:
+      cross_border_investigation_coordination_investigation_closure_validator_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify cross_border_investigation_coordination_investigation_closure_validator design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        cross_border_investigation_coordination_investigation_closure_validator outputs may trigger
+        enforcement under cross_border_investigation_coordination escalation rules.
+  - control_id: AAE-INV-CROSS_BORD-CROSSBORDER
+    control_name: cross_border_investigation_coordination_whistleblower_protection_guard
+    control_category: preventive
+    control_objective:
+      >
+        Operational control ensuring whistleblower protection guard for Cross Border Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        cross_border_investigation_coordination_whistleblower_protection_guard is required to govern
+        Cross Border Investigation Coordination risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement cross_border_investigation_coordination_whistleblower_protection_guard as automated
+        policy in cross_border_investigation_coordination orchestration layer; wire to telemetry bus;
+        block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        cross_border_investigation_coordination_whistleblower_protection_guard_continuous_telemetry_dash
+        board
+    validation_method:
+      >
+        cross_border_investigation_coordination_whistleblower_protection_guard_quarterly_design_and_oper
+        ating_effectiveness_test
+    testing_method:
+      >
+        cross_border_investigation_coordination_whistleblower_protection_guard_statistical_sampling_with
+        _exception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated:
+      cross_border_investigation_coordination_whistleblower_protection_guard_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify cross_border_investigation_coordination_whistleblower_protection_guard design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        cross_border_investigation_coordination_whistleblower_protection_guard outputs may trigger
+        enforcement under cross_border_investigation_coordination escalation rules.
+  - control_id: AAE-INV-CROSS_BORD-CROSSBORDER
+    control_name: cross_border_investigation_coordination_investigation_metrics_publisher
+    control_category: reporting
+    control_objective:
+      >
+        Operational control ensuring investigation metrics publisher for Cross Border Investigation
+        Coordination across investigation_management.
+    governance_rationale:
+      >
+        cross_border_investigation_coordination_investigation_metrics_publisher is required to govern
+        Cross Border Investigation Coordination risks under EU AI Act and enterprise audit-enforcement
+        policy; failure enables undetected investigation management failures.
+    implementation_guidance:
+      >
+        Implement cross_border_investigation_coordination_investigation_metrics_publisher as automated
+        policy in cross_border_investigation_coordination orchestration layer; wire to telemetry bus;
+        block non-compliant state transitions; log evidence to immutable store.
+    monitoring_method:
+      >
+        cross_border_investigation_coordination_investigation_metrics_publisher_continuous_telemetry_das
+        hboard
+    validation_method:
+      >
+        cross_border_investigation_coordination_investigation_metrics_publisher_quarterly_design_and_ope
+        rating_effectiveness_test
+    testing_method:
+      >
+        cross_border_investigation_coordination_investigation_metrics_publisher_statistical_sampling_wit
+        h_exception_tracking
+    control_owner: cross_border_investigation_coordination_control_owner
+    evidence_generated:
+      cross_border_investigation_coordination_investigation_metrics_publisher_control_execution_log
+    audit_considerations:
+      >
+        Auditors verify cross_border_investigation_coordination_investigation_metrics_publisher design,
+        operation, and evidence sufficiency per ISO 19011.
+    enforcement_considerations:
+      >
+        cross_border_investigation_coordination_investigation_metrics_publisher outputs may trigger
+        enforcement under cross_border_investigation_coordination escalation rules.
+requirements:
+  legal:
+    >
+      Cross Border Investigation Coordination must satisfy legal requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  regulatory:
+    >
+      Cross Border Investigation Coordination must satisfy regulatory requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  technical:
+    >
+      Cross Border Investigation Coordination must satisfy technical requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  operational:
+    >
+      Cross Border Investigation Coordination must satisfy operational requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  audit:
+    >
+      Cross Border Investigation Coordination must satisfy audit requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  forensic:
+    >
+      Cross Border Investigation Coordination must satisfy forensic requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+  enforcement:
+    >
+      Cross Border Investigation Coordination must satisfy enforcement requirements for case-managed
+      investigation workflows with regulator coordination, multi-party coordination protocols and SLA
+      management including documented procedures, accountable roles, measurable SLAs, and evidence
+      retention aligned with EU AI Act and ISO 19011.
+processes:
+  intake:
+    >
+      Intake process for Cross Border Investigation Coordination with stage gates, RACI assignments,
+      and evidence capture.
+  triage:
+    >
+      Triage process for Cross Border Investigation Coordination with stage gates, RACI assignments,
+      and evidence capture.
+  execution:
+    >
+      Execution process for Cross Border Investigation Coordination with stage gates, RACI
+      assignments, and evidence capture.
+  validation:
+    >
+      Validation process for Cross Border Investigation Coordination with stage gates, RACI
+      assignments, and evidence capture.
+  escalation:
+    >
+      Escalation process for Cross Border Investigation Coordination with stage gates, RACI
+      assignments, and evidence capture.
+  closure:
+    >
+      Closure process for Cross Border Investigation Coordination with stage gates, RACI assignments,
+      and evidence capture.
+  improvement:
+    >
+      Improvement process for Cross Border Investigation Coordination with stage gates, RACI
+      assignments, and evidence capture.
+workflows:
+  - workflow_name: cross_border_investigation_coordination_operational_lifecycle_workflow
+    workflow_trigger: cross_border_investigation_coordination_governance_event_detected
+    workflow_steps:
+      - cross_border_investigation_coordination_intake
+      - cross_border_investigation_coordination_triage
+      - cross_border_investigation_coordination_execution
+      - cross_border_investigation_coordination_validation
+      - cross_border_investigation_coordination_approval
+      - cross_border_investigation_coordination_closure
+    approval_points:
+      - cross_border_investigation_coordination_approval
+    escalation_points:
+      - cross_border_investigation_coordination_triage
+    generated_evidence:
+      - cross_border_investigation_coordination_workflow_log
+      - cross_border_investigation_coordination_closure_attestation
+    completion_requirements:
+      - cross_border_investigation_coordination_evidence_complete
+      - cross_border_investigation_coordination_approvals_recorded
+  - workflow_name: cross_border_investigation_coordination_regulatory_response_workflow
+    workflow_trigger: regulator_inquiry_for_cross_border_investigation_coordination
+    workflow_steps:
+      - inquiry_intake
+      - scope_assessment
+      - evidence_compilation
+      - legal_review
+      - regulator_submission
+      - follow_up_tracking
+    approval_points:
+      - legal_review
+    escalation_points:
+      - scope_assessment
+    generated_evidence:
+      - cross_border_investigation_coordination_regulatory_package
+      - cross_border_investigation_coordination_submission_receipt
+    completion_requirements:
+      - regulator_sla_met
+      - follow_up_obligations_tracked
+workflow_execution_model:
+  trigger_events:
+    - cross_border_investigation_coordination_governance_event_detected
+    - cross_border_investigation_coordination_regulatory_inquiry
+    - cross_border_investigation_coordination_integrity_breach
+    - cross_border_investigation_coordination_enforcement_authorization
+  required_inputs:
+    - cross_border_investigation_coordination_case_context
+    - cross_border_investigation_coordination_evidence_index
+    - cross_border_investigation_coordination_risk_assessment
+  workflow_steps:
+    - cross_border_investigation_coordination_intake
+    - cross_border_investigation_coordination_triage
+    - cross_border_investigation_coordination_execution
+    - cross_border_investigation_coordination_validation
+    - cross_border_investigation_coordination_approval
+    - cross_border_investigation_coordination_closure
+  validation_steps:
+    - cross_border_investigation_coordination_evidence_sufficiency_check
+    - cross_border_investigation_coordination_integrity_verification
+  approval_steps:
+    - cross_border_investigation_coordination_approval
+  control_checkpoints:
+    - cross_border_investigation_coordination_intake_gate
+    - cross_border_investigation_coordination_evidence_gate
+    - cross_border_investigation_coordination_decision_gate
+  evidence_generation:
+    - cross_border_investigation_coordination_workflow_log
+    - cross_border_investigation_coordination_closure_attestation
+  decision_points:
+    - cross_border_investigation_coordination_severity_classification
+    - cross_border_investigation_coordination_enforcement_authorization
+  escalation_points:
+    - cross_border_investigation_coordination_triage
+  completion_criteria:
+    - cross_border_investigation_coordination_evidence_complete
+    - cross_border_investigation_coordination_approvals_recorded
+  generated_outputs:
+    - cross_border_investigation_coordination_workflow_log
+    - cross_border_investigation_coordination_closure_attestation
+    - cross_border_investigation_coordination_final_disposition
+decision_logic:
+  decision_inputs:
+    - cross_border_investigation_coordination_severity_score
+    - cross_border_investigation_coordination_evidence_completeness
+    - cross_border_investigation_coordination_regulatory_context
+    - cross_border_investigation_coordination_risk_exposure_index
+  decision_conditions:
+    - cross_border_investigation_coordination_critical_threshold_breach
+    - cross_border_investigation_coordination_evidence_integrity_failure
+    - cross_border_investigation_coordination_regulatory_notification_required
+  decision_thresholds:
+    critical_severity: cross_border_investigation_coordination_severity_score >= 90
+    high_severity: cross_border_investigation_coordination_severity_score >= 70
+    evidence_complete: cross_border_investigation_coordination_evidence_completeness >= 0.98
+  decision_rules:
+    cross_border_investigation_coordination_high_severity_violation:
+      condition: cross_border_investigation_coordination_severity_score >= 90
+      action: initiate_cross_border_investigation_coordination_regulatory_escalation
+      approval_required: chief_compliance_officer
+      evidence_required: cross_border_investigation_coordination_investigation_report
+    cross_border_investigation_coordination_evidence_compromise_detected:
+      condition: cross_border_investigation_coordination_integrity_status == compromised
+      action: activate_cross_border_investigation_coordination_forensic_lockdown
+      approval_required: cross_border_investigation_coordination_forensic_lead
+      evidence_required: cross_border_investigation_coordination_integrity_alert_record
+    cross_border_investigation_coordination_enforcement_authorization:
+      condition: cross_border_investigation_coordination_violation_confirmed == true AND cross_border_investigation_coordination_evidence_complete == true
+      action: issue_cross_border_investigation_coordination_enforcement_order
+      approval_required: cross_border_investigation_coordination_enforcement_officer
+      evidence_required: cross_border_investigation_coordination_violation_evidence_package
+    cross_border_investigation_coordination_regulator_inquiry_response:
+      condition: cross_border_investigation_coordination_regulator_request_received == true
+      action: compile_cross_border_investigation_coordination_regulatory_disclosure_package
+      approval_required: regulatory_liaison
+      evidence_required: cross_border_investigation_coordination_regulatory_evidence_index
+  decision_outputs:
+    - cross_border_investigation_coordination_enforcement_decision
+    - cross_border_investigation_coordination_escalation_notice
+    - cross_border_investigation_coordination_remediation_directive
+    - cross_border_investigation_coordination_audit_disposition
+  approval_requirements:
+    enforcement_actions: [cross_border_investigation_coordination_enforcement_officer, chief_compliance_officer]
+    regulatory_submissions: [regulatory_liaison, legal_counsel]
+  escalation_conditions:
+    - cross_border_investigation_coordination_severity_score >= 90
+    - cross_border_investigation_coordination_evidence_integrity_failure == true
+    - cross_border_investigation_coordination_regulatory_deadline_breach == true
+  exception_conditions:
+    - regulatory_override_with_legal_concurrence
+    - emergency_containment_under_cross_border_investigation_coordination_crisis_protocol
+  override_conditions:
+    authority: chief_compliance_officer
+    documentation: cross_border_investigation_coordination_override_register_entry
+    dual_approval: true
+  regulatory_implications:
+    >
+      Decisions under Cross Border Investigation Coordination may trigger EU AI Act Articles 71, 73
+      reporting, market surveillance cooperation, and conformity assessment suspension; all outputs
+      must be litigation-defensible.
+assessment_criteria:
+  design_effectiveness:
+    >
+      Criteria for evaluating design_effectiveness of Cross Border Investigation Coordination per ISO
+      19011 and EU AI Act conformity assessment methodology.
+  operating_effectiveness:
+    >
+      Criteria for evaluating operating_effectiveness of Cross Border Investigation Coordination per
+      ISO 19011 and EU AI Act conformity assessment methodology.
+  evidence_sufficiency:
+    >
+      Criteria for evaluating evidence_sufficiency of Cross Border Investigation Coordination per ISO
+      19011 and EU AI Act conformity assessment methodology.
+  regulatory_conformity:
+    >
+      Criteria for evaluating regulatory_conformity of Cross Border Investigation Coordination per ISO
+      19011 and EU AI Act conformity assessment methodology.
+metrics:
+  - metric_name: case_closure_sla_compliance
+    metric_category: operational
+    business_purpose:
+      >
+        Measure case closure sla compliance for Cross Border Investigation Coordination operational and
+        regulatory assurance
+    formula:
+      computed_case_closure_sla_compliance_from_cross_border_investigation_coordination_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: cross_border_investigation_coordination_metrics_owner
+    data_source: cross_border_investigation_coordination_metrics_warehouse
+    evidence_generated: case_closure_sla_compliance_measurement_record
+  - metric_name: evidence_sufficiency_score
+    metric_category: risk
+    business_purpose:
+      >
+        Measure evidence sufficiency score for Cross Border Investigation Coordination operational and
+        regulatory assurance
+    formula:
+      computed_evidence_sufficiency_score_from_cross_border_investigation_coordination_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: cross_border_investigation_coordination_metrics_owner
+    data_source: cross_border_investigation_coordination_metrics_warehouse
+    evidence_generated: evidence_sufficiency_score_measurement_record
+  - metric_name: investigation_escalation_rate
+    metric_category: compliance
+    business_purpose:
+      >
+        Measure investigation escalation rate for Cross Border Investigation Coordination operational
+        and regulatory assurance
+    formula:
+      computed_investigation_escalation_rate_from_cross_border_investigation_coordination_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: cross_border_investigation_coordination_metrics_owner
+    data_source: cross_border_investigation_coordination_metrics_warehouse
+    evidence_generated: investigation_escalation_rate_measurement_record
+  - metric_name: root_cause_identification_rate
+    metric_category: effectiveness
+    business_purpose:
+      >
+        Measure root cause identification rate for Cross Border Investigation Coordination operational
+        and regulatory assurance
+    formula:
+      computed_root_cause_identification_rate_from_cross_border_investigation_coordination_telemetry
+    target: >= 95%
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: daily
+    owner: cross_border_investigation_coordination_metrics_owner
+    data_source: cross_border_investigation_coordination_metrics_warehouse
+    evidence_generated: root_cause_identification_rate_measurement_record
+  - metric_name: regulator_notification_timeliness
+    metric_category: governance
+    business_purpose:
+      >
+        Measure regulator notification timeliness for Cross Border Investigation Coordination
+        operational and regulatory assurance
+    formula:
+      >
+        computed_regulator_notification_timeliness_from_cross_border_investigation_coordination_telemetr
+        y
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: cross_border_investigation_coordination_metrics_owner
+    data_source: cross_border_investigation_coordination_metrics_warehouse
+    evidence_generated: regulator_notification_timeliness_measurement_record
+  - metric_name: forensic_integrity_score
+    metric_category: enforcement
+    business_purpose:
+      >
+        Measure forensic integrity score for Cross Border Investigation Coordination operational and
+        regulatory assurance
+    formula:
+      computed_forensic_integrity_score_from_cross_border_investigation_coordination_telemetry
+    target: <= threshold_defined_by_governance
+    warning_threshold: breach_of_90_percent_target_or_equivalent
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+    measurement_frequency: weekly
+    owner: cross_border_investigation_coordination_metrics_owner
+    data_source: cross_border_investigation_coordination_metrics_warehouse
+    evidence_generated: forensic_integrity_score_measurement_record
+kpis:
+  - metric_name: case_closure_sla_compliance
+    formula: computed_case_closure_sla_compliance_from_cross_border_investigation_coordination_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: evidence_sufficiency_score
+    formula: computed_evidence_sufficiency_score_from_cross_border_investigation_coordination_telemetry
+    target: <= threshold_defined_by_governance
+  - metric_name: investigation_escalation_rate
+    formula: computed_investigation_escalation_rate_from_cross_border_investigation_coordination_telemetry
+    target: >= 95%
+  - metric_name: root_cause_identification_rate
+    formula: computed_root_cause_identification_rate_from_cross_border_investigation_coordination_telemetry
+    target: >= 95%
+kris:
+  - metric_name: investigation_escalation_rate
+    business_purpose: Measure investigation escalation rate for Cross Border Investigation Coordination operational and regulatory assurance
+    critical_threshold: breach_of_80_percent_target_or_equivalent
+evidence_objects:
+  - evidence_name: investigation_case_file
+    evidence_type: primary
+    business_purpose:
+      Support cross border investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cross_border_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cross_border_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: witness_interview_transcripts
+    evidence_type: corroborating
+    business_purpose:
+      Support cross border investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cross_border_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cross_border_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: evidence_exhibit_index
+    evidence_type: attestation
+    business_purpose:
+      Support cross border investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cross_border_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cross_border_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: regulator_notification_records
+    evidence_type: derivative
+    business_purpose:
+      Support cross border investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cross_border_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cross_border_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: case_timeline_reconstruction
+    evidence_type: audit
+    business_purpose:
+      Support cross border investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cross_border_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cross_border_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+  - evidence_name: investigation_closure_memo
+    evidence_type: regulatory
+    business_purpose:
+      Support cross border investigation coordination governance, audit, and enforcement defensibility
+    generation_method: automated_capture_via_cross_border_investigation_coordination_pipeline
+    retention_period: 10_years_or_legal_hold
+    validation_method: cross_border_investigation_coordination_evidence_integrity_verification
+    audit_relevance: ISO_19011_audit_evidence_sufficiency
+    enforcement_relevance: EU_AI_Act_enforcement_proceeding_admissibility
+domain_reports:
+  - report_name: cross_border_investigation_coordination_status_dashboard
+    report_owner: cross_border_investigation_coordination_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: monthly
+    report_inputs:
+      - cross_border_investigation_coordination_telemetry
+      - cross_border_investigation_coordination_evidence_index
+    report_outputs:
+      - cross_border_investigation_coordination_status_dashboard_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: cross_border_investigation_coordination_compliance_summary
+    report_owner: cross_border_investigation_coordination_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - cross_border_investigation_coordination_telemetry
+      - cross_border_investigation_coordination_evidence_index
+    report_outputs:
+      - cross_border_investigation_coordination_compliance_summary_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: cross_assurance_report
+    report_owner: cross_border_investigation_coordination_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - cross_border_investigation_coordination_telemetry
+      - cross_border_investigation_coordination_evidence_index
+    report_outputs:
+      - cross_assurance_report_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: cross_border_investigation_coordination_executive_brief
+    report_owner: cross_border_investigation_coordination_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - cross_border_investigation_coordination_telemetry
+      - cross_border_investigation_coordination_evidence_index
+    report_outputs:
+      - cross_border_investigation_coordination_executive_brief_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+  - report_name: cross_border_investigation_coordination_audit_pack
+    report_owner: cross_border_investigation_coordination_reporting_owner
+    report_consumers:
+      - chief_compliance_officer
+      - internal_audit
+      - regulatory_liaison
+    report_frequency: quarterly
+    report_inputs:
+      - cross_border_investigation_coordination_telemetry
+      - cross_border_investigation_coordination_evidence_index
+    report_outputs:
+      - cross_border_investigation_coordination_audit_pack_published_artifact
+    regulatory_relevance: EU_AI_Act_Article_12_and_43_reporting_obligations
+    audit_relevance: ISO_19011_management_review_and_audit_reporting
+altai_governance:
+  agent_governance:
+    agent_identity: cross_border_investigation_coordination_registered_agent_identity_schema
+    agent_role: cross_border_investigation_coordination_delegated_authority_role_matrix
+    agent_permissions: cross_border_investigation_coordination_least_privilege_permission_set
+    agent_constraints: cross_border_investigation_coordination_autonomy_and_tool_constraints
+    agent_accountability: cross_border_investigation_coordination_human_accountability_chain
+    agent_escalation_rules: cross_border_investigation_coordination_agent_escalation_tier_matrix
+  decision_governance:
+    decision_inputs:
+      - cross_border_investigation_coordination_policy_context
+      - cross_border_investigation_coordination_risk_score
+      - cross_border_investigation_coordination_human_intent
+    decision_outputs:
+      - cross_border_investigation_coordination_authorized_action
+      - cross_border_investigation_coordination_escalation_notice
+    decision_owners:
+      - cross_border_investigation_coordination_governance_owner
+      - human_oversight_officer
+    decision_review_requirements: cross_border_investigation_coordination_high_risk_decision_mandatory_review
+    decision_accountability: cross_border_investigation_coordination_decision_provenance_immutable_log
+  tool_governance:
+    tool_usage_controls: cross_border_investigation_coordination_approved_tool_allowlist
+    tool_execution_validation: cross_border_investigation_coordination_pre_execution_tool_risk_check
+    tool_risk_controls: cross_border_investigation_coordination_tool_side_effect_containment
+    tool_auditability: cross_border_investigation_coordination_tool_invocation_audit_trail
+  memory_governance:
+    memory_access_controls: cross_border_investigation_coordination_memory_segment_access_policy
+    memory_integrity_validation: cross_border_investigation_coordination_memory_tamper_detection
+    memory_retention_controls: cross_border_investigation_coordination_memory_retention_and_purge_rules
+    memory_auditability: cross_border_investigation_coordination_memory_access_audit_log
+  reasoning_governance:
+    reasoning_traceability: cross_border_investigation_coordination_chain_of_thought_capture
+    reasoning_validation: cross_border_investigation_coordination_reasoning_consistency_check
+    reasoning_risk_monitoring: cross_border_investigation_coordination_reasoning_hazard_detection
+    reasoning_accountability: cross_border_investigation_coordination_reasoning_attribution_record
+thresholds:
+  control_effectiveness_minimum: 0.95
+  evidence_completeness_minimum: 1.00
+  audit_readiness_minimum: 0.90
+  escalation_sla_minutes: 60
+  regulator_response_sla_hours: 24
+accepted_evidence:
+  - cross_border_investigation_coordination_audit_log
+  - cross_border_investigation_coordination_activity_log
+  - cross_border_investigation_coordination_decision_log
+  - cross_border_investigation_coordination_traceability_record
+  - cross_border_investigation_coordination_evidence_package
+  - cross_border_investigation_coordination_chain_of_custody_record
+  - cross_border_investigation_coordination_attestation
+required_evidence:
+  - cross_border_investigation_coordination_audit_log
+  - cross_border_investigation_coordination_activity_log
+  - cross_border_investigation_coordination_decision_log
+  - cross_border_investigation_coordination_traceability_record
+  - cross_border_investigation_coordination_evidence_package
+  - cross_border_investigation_coordination_chain_of_custody_record
+  - cross_border_investigation_coordination_attestation
+supporting_evidence:
+  - cross_border_investigation_coordination_audit_log
+  - cross_border_investigation_coordination_activity_log
+  - cross_border_investigation_coordination_decision_log
+  - cross_border_investigation_coordination_traceability_record
+  - cross_border_investigation_coordination_evidence_package
+audit_evidence:
+  - cross_border_investigation_coordination_audit_log
+  - cross_border_investigation_coordination_activity_log
+  - cross_border_investigation_coordination_decision_log
+  - cross_border_investigation_coordination_traceability_record
+  - cross_border_investigation_coordination_evidence_package
+  - cross_border_investigation_coordination_chain_of_custody_record
+  - cross_border_investigation_coordination_attestation
+forensic_evidence:
+  - cross_border_investigation_coordination_audit_log
+  - cross_border_investigation_coordination_activity_log
+  - cross_border_investigation_coordination_decision_log
+  - cross_border_investigation_coordination_traceability_record
+  - cross_border_investigation_coordination_evidence_package
+  - cross_border_investigation_coordination_chain_of_custody_record
+  - cross_border_investigation_coordination_attestation
+regulatory_evidence:
+  - cross_border_investigation_coordination_audit_log
+  - cross_border_investigation_coordination_activity_log
+  - cross_border_investigation_coordination_decision_log
+  - cross_border_investigation_coordination_traceability_record
+  - cross_border_investigation_coordination_evidence_package
+  - cross_border_investigation_coordination_chain_of_custody_record
+  - cross_border_investigation_coordination_attestation
+validation_evidence:
+  - cross_border_investigation_coordination_audit_log
+  - cross_border_investigation_coordination_activity_log
+  - cross_border_investigation_coordination_decision_log
+  - cross_border_investigation_coordination_traceability_record
+  - cross_border_investigation_coordination_evidence_package
+  - cross_border_investigation_coordination_chain_of_custody_record
+  - cross_border_investigation_coordination_attestation
+validation_rules:
+  - rule: cross_border_investigation_coordination_evidence_complete
+    condition: required_evidence_cross_border_investigation_coordination < threshold
+    action: BLOCK_SUBMISSION
+  - rule: cross_border_investigation_coordination_integrity_verified
+    condition: integrity_status_cross_border_investigation_coordination != verified
+    action: QUARANTINE_AND_ESCALATE
+  - rule: cross_border_investigation_coordination_custody_intact
+    condition: custody_gap_cross_border_investigation_coordination == true
+    action: INITIATE_FORENSIC_REVIEW
+risk_considerations:
+  regulatory_sanction:
+    >
+      Risk of regulatory sanction if Cross Border Investigation Coordination controls fail; mitigated
+      through preventive/detective controls and escalation.
+  evidence_inadmissibility:
+    >
+      Risk of evidence inadmissibility if Cross Border Investigation Coordination controls fail;
+      mitigated through preventive/detective controls and escalation.
+  enforcement_failure:
+    >
+      Risk of enforcement failure if Cross Border Investigation Coordination controls fail; mitigated
+      through preventive/detective controls and escalation.
+  reputational_harm:
+    >
+      Risk of reputational harm if Cross Border Investigation Coordination controls fail; mitigated
+      through preventive/detective controls and escalation.
+  operational_disruption:
+    >
+      Risk of operational disruption if Cross Border Investigation Coordination controls fail;
+      mitigated through preventive/detective controls and escalation.
+risk_model:
+  risk_sources:
+    - cross_border_investigation_coordination_control_failure
+    - cross_border_investigation_coordination_evidence_compromise
+    - cross_border_investigation_coordination_regulatory_non_compliance
+    - cross_border_investigation_coordination_enforcement_delay
+  risk_events:
+    - cross_border_investigation_coordination_audit_finding_critical
+    - cross_border_investigation_coordination_investigation_escalation
+    - cross_border_investigation_coordination_sanction_exposure
+    - cross_border_investigation_coordination_market_surveillance_inquiry
+  risk_indicators:
+    - cross_border_investigation_coordination_control_effectiveness_degradation
+    - cross_border_investigation_coordination_evidence_gap_rate
+    - cross_border_investigation_coordination_sla_breach_count
+    - cross_border_investigation_coordination_repeat_violation_signal
+  risk_scenarios:
+  risk_scores:
+    cross_border_investigation_coordination_evidence_inadmissibility_scenario:
+      likelihood: low
+      impact: critical
+      severity: 95
+      velocity: slow
+      detectability: high
+      risk_owner: cross_border_investigation_coordination_forensic_lead
+    cross_border_investigation_coordination_regulatory_sanction_scenario:
+      likelihood: medium
+      impact: high
+      severity: 85
+      velocity: medium
+      detectability: medium
+      risk_owner: chief_compliance_officer
+    cross_border_investigation_coordination_enforcement_failure_scenario:
+      likelihood: low
+      impact: high
+      severity: 75
+      velocity: fast
+      detectability: high
+      risk_owner: cross_border_investigation_coordination_enforcement_officer
+  risk_tolerance:
+    cross_border_investigation_coordination_residual_risk_ceiling: 0.25
+  risk_thresholds:
+    warning: cross_border_investigation_coordination_risk_score >= 60
+    critical: cross_border_investigation_coordination_risk_score >= 85
+  residual_risk:
+    >
+      Residual risk after Cross Border Investigation Coordination controls documented in
+      cross_border_investigation_coordination_risk_register with quarterly review.
+  risk_treatment:
+    - cross_border_investigation_coordination_preventive_control_reinforcement
+    - cross_border_investigation_coordination_detective_monitoring_enhancement
+    - cross_border_investigation_coordination_corrective_remediation_plan
+  risk_monitoring:
+    telemetry: cross_border_investigation_coordination_risk_dashboard
+    review_frequency: monthly
+evidence_lifecycle:
+  evidence_creation:
+    >
+      Automated capture at Cross Border Investigation Coordination workflow events with provenance
+      anchor and cross_border_investigation_coordination_hash_chain_init
+  evidence_collection:
+    >
+      Structured ingestion via cross_border_investigation_coordination_collection_api with schema
+      validation and classification
+  evidence_validation:
+    >
+      Completeness, authenticity, and admissibility checks via
+      cross_border_investigation_coordination_validation_engine
+  evidence_classification:
+    >
+      RESTRICTED/CONFIDENTIAL classification per
+      cross_border_investigation_coordination_data_classification_policy
+  evidence_storage:
+    >
+      Write-once immutable storage in cross_border_investigation_coordination_evidence_vault with
+      access controls
+  evidence_retention:
+    >
+      Retention per cross_border_investigation_coordination_retention_schedule aligned with EU AI Act
+      Article 18 and legal hold
+  evidence_archival:
+    >
+      Long-term archival with cross_border_investigation_coordination_integrity_verification before
+      migration
+  evidence_retrieval:
+    >
+      Audited retrieval via cross_border_investigation_coordination_retrieval_gateway with purpose
+      logging
+  evidence_disposal:
+    >
+      Authorized disposition with cross_border_investigation_coordination_disposition_certificate and
+      dual approval
+chain_of_custody:
+  custody_events:
+    - cross_border_investigation_coordination_capture_event
+    - cross_border_investigation_coordination_transfer_event
+    - cross_border_investigation_coordination_access_event
+    - cross_border_investigation_coordination_disposition_event
+  custody_owners:
+    primary: cross_border_investigation_coordination_evidence_custodian
+    secondary: cross_border_investigation_coordination_forensic_lead
+  custody_validation:
+    method: cross_border_investigation_coordination_dual_attestation_custody_verification
+    frequency: per_transfer
+  integrity_controls:
+    - cross_border_investigation_coordination_sha256_hash_chain
+    - cross_border_investigation_coordination_digital_signature
+    - cross_border_investigation_coordination_timestamp_authority
+  tamper_detection:
+    method: cross_border_investigation_coordination_continuous_hash_verification
+    alert_sla_minutes: 15
+  evidence_integrity_scoring:
+    formula: cross_border_investigation_coordination_integrity_dimensions_weighted_score
+    minimum_admissibility: 0.90
+compliance_mapping:
+  article_26:
+    article: Article 26
+    regulatory_text_summary:
+      Obligations of deployers.
+    obligation:
+      >
+        Deployer duties including oversight, monitoring, and incident reporting. Implemented through
+        Cross Border Investigation Coordination in investigation_management.
+    implementation_controls:
+      - cross_border_investigation_coordination_article_26_preventive_control
+      - cross_border_investigation_coordination_article_26_detective_control
+      - cross_border_investigation_coordination_article_26_evidence_control
+    implementation_processes:
+      - cross_border_investigation_coordination_article_26_workflow
+      - cross_border_investigation_coordination_article_26_validation_process
+      - cross_border_investigation_coordination_article_26_escalation_process
+    implementation_evidence:
+      - cross_border_investigation_coordination_article_26_compliance_record
+      - cross_border_investigation_coordination_article_26_audit_package
+      - cross_border_investigation_coordination_article_26_attestation
+    validation_method: cross_border_investigation_coordination_article_26_automated_and_manual_conformity_testing
+    audit_method: cross_border_investigation_coordination_article_26_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: cross_border_investigation_coordination_article_26_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Cross Border Investigation Coordination demonstrates Article 26 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+  article_50:
+    article: Article 50
+    regulatory_text_summary:
+      Codes of practice for GPAI.
+    obligation:
+      >
+        Codes of practice and compliance demonstration for GPAI models. Implemented through Cross Border
+        Investigation Coordination in investigation_management.
+    implementation_controls:
+      - cross_border_investigation_coordination_article_50_preventive_control
+      - cross_border_investigation_coordination_article_50_detective_control
+      - cross_border_investigation_coordination_article_50_evidence_control
+    implementation_processes:
+      - cross_border_investigation_coordination_article_50_workflow
+      - cross_border_investigation_coordination_article_50_validation_process
+      - cross_border_investigation_coordination_article_50_escalation_process
+    implementation_evidence:
+      - cross_border_investigation_coordination_article_50_compliance_record
+      - cross_border_investigation_coordination_article_50_audit_package
+      - cross_border_investigation_coordination_article_50_attestation
+    validation_method: cross_border_investigation_coordination_article_50_automated_and_manual_conformity_testing
+    audit_method: cross_border_investigation_coordination_article_50_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: cross_border_investigation_coordination_article_50_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Cross Border Investigation Coordination demonstrates Article 50 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+  article_55:
+    article: Article 55
+    regulatory_text_summary:
+      Obligations for providers of GPAI.
+    obligation:
+      >
+        GPAI provider obligations including technical documentation. Implemented through Cross Border
+        Investigation Coordination in investigation_management.
+    implementation_controls:
+      - cross_border_investigation_coordination_article_55_preventive_control
+      - cross_border_investigation_coordination_article_55_detective_control
+      - cross_border_investigation_coordination_article_55_evidence_control
+    implementation_processes:
+      - cross_border_investigation_coordination_article_55_workflow
+      - cross_border_investigation_coordination_article_55_validation_process
+      - cross_border_investigation_coordination_article_55_escalation_process
+    implementation_evidence:
+      - cross_border_investigation_coordination_article_55_compliance_record
+      - cross_border_investigation_coordination_article_55_audit_package
+      - cross_border_investigation_coordination_article_55_attestation
+    validation_method: cross_border_investigation_coordination_article_55_automated_and_manual_conformity_testing
+    audit_method: cross_border_investigation_coordination_article_55_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: cross_border_investigation_coordination_article_55_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Cross Border Investigation Coordination demonstrates Article 55 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+  article_73:
+    article: Article 73
+    regulatory_text_summary:
+      Reporting of serious incidents.
+    obligation:
+      >
+        Serious incident reporting to market surveillance authorities. Implemented through Cross Border
+        Investigation Coordination in investigation_management.
+    implementation_controls:
+      - cross_border_investigation_coordination_article_73_preventive_control
+      - cross_border_investigation_coordination_article_73_detective_control
+      - cross_border_investigation_coordination_article_73_evidence_control
+    implementation_processes:
+      - cross_border_investigation_coordination_article_73_workflow
+      - cross_border_investigation_coordination_article_73_validation_process
+      - cross_border_investigation_coordination_article_73_escalation_process
+    implementation_evidence:
+      - cross_border_investigation_coordination_article_73_compliance_record
+      - cross_border_investigation_coordination_article_73_audit_package
+      - cross_border_investigation_coordination_article_73_attestation
+    validation_method: cross_border_investigation_coordination_article_73_automated_and_manual_conformity_testing
+    audit_method: cross_border_investigation_coordination_article_73_iso_19011_sampling_audit
+    regulatory_owner: regulatory_liaison
+    assurance_method: cross_border_investigation_coordination_article_73_quarterly_assurance_review
+    defensibility_rationale:
+      >
+        Cross Border Investigation Coordination demonstrates Article 73 conformity through indexed
+        controls, immutable evidence chains, and independent validation suitable for notified body and
+        market surveillance review.
+crosswalks:
+  eu_ai_act:
+    article_26:
+      implementation: cross_border_investigation_coordination_eu_ai_act_article_26_control_set
+      process: cross_border_investigation_coordination_eu_ai_act_article_26_workflow
+      evidence: cross_border_investigation_coordination_eu_ai_act_article_26_attestation
+    article_50:
+      implementation: cross_border_investigation_coordination_eu_ai_act_article_50_control_set
+      process: cross_border_investigation_coordination_eu_ai_act_article_50_workflow
+      evidence: cross_border_investigation_coordination_eu_ai_act_article_50_attestation
+    article_55:
+      implementation: cross_border_investigation_coordination_eu_ai_act_article_55_control_set
+      process: cross_border_investigation_coordination_eu_ai_act_article_55_workflow
+      evidence: cross_border_investigation_coordination_eu_ai_act_article_55_attestation
+    article_73:
+      implementation: cross_border_investigation_coordination_eu_ai_act_article_73_control_set
+      process: cross_border_investigation_coordination_eu_ai_act_article_73_workflow
+      evidence: cross_border_investigation_coordination_eu_ai_act_article_73_attestation
+  gdpr:
+    article_5:
+      implementation: cross_border_investigation_coordination_gdpr_article_5_privacy_control
+      evidence: cross_border_investigation_coordination_gdpr_article_5_compliance_record
+    article_6:
+      implementation: cross_border_investigation_coordination_gdpr_article_6_privacy_control
+      evidence: cross_border_investigation_coordination_gdpr_article_6_compliance_record
+    article_22:
+      implementation: cross_border_investigation_coordination_gdpr_article_22_privacy_control
+      evidence: cross_border_investigation_coordination_gdpr_article_22_compliance_record
+    article_25:
+      implementation: cross_border_investigation_coordination_gdpr_article_25_privacy_control
+      evidence: cross_border_investigation_coordination_gdpr_article_25_compliance_record
+    article_32:
+      implementation: cross_border_investigation_coordination_gdpr_article_32_privacy_control
+      evidence: cross_border_investigation_coordination_gdpr_article_32_compliance_record
+    article_35:
+      implementation: cross_border_investigation_coordination_gdpr_article_35_privacy_control
+      evidence: cross_border_investigation_coordination_gdpr_article_35_compliance_record
+  iso_42001:
+    clause_4_1:
+      implementation: cross_border_investigation_coordination_iso42001_clause_4_1_aims_control
+      evidence: cross_border_investigation_coordination_iso42001_clause_4_1_audit_evidence
+    clause_4_2:
+      implementation: cross_border_investigation_coordination_iso42001_clause_4_2_aims_control
+      evidence: cross_border_investigation_coordination_iso42001_clause_4_2_audit_evidence
+    clause_5_1:
+      implementation: cross_border_investigation_coordination_iso42001_clause_5_1_aims_control
+      evidence: cross_border_investigation_coordination_iso42001_clause_5_1_audit_evidence
+    clause_5_2:
+      implementation: cross_border_investigation_coordination_iso42001_clause_5_2_aims_control
+      evidence: cross_border_investigation_coordination_iso42001_clause_5_2_audit_evidence
+    clause_6_1:
+      implementation: cross_border_investigation_coordination_iso42001_clause_6_1_aims_control
+      evidence: cross_border_investigation_coordination_iso42001_clause_6_1_audit_evidence
+    clause_8_1:
+      implementation: cross_border_investigation_coordination_iso42001_clause_8_1_aims_control
+      evidence: cross_border_investigation_coordination_iso42001_clause_8_1_audit_evidence
+    clause_9_1:
+      implementation: cross_border_investigation_coordination_iso42001_clause_9_1_aims_control
+      evidence: cross_border_investigation_coordination_iso42001_clause_9_1_audit_evidence
+    clause_10_1:
+      implementation: cross_border_investigation_coordination_iso42001_clause_10_1_aims_control
+      evidence: cross_border_investigation_coordination_iso42001_clause_10_1_audit_evidence
+  iso_23894:
+    risk_identification:
+      implementation: cross_border_investigation_coordination_iso23894_risk_identification_alignment
+      evidence: cross_border_investigation_coordination_iso23894_risk_identification_record
+    risk_analysis:
+      implementation: cross_border_investigation_coordination_iso23894_risk_analysis_alignment
+      evidence: cross_border_investigation_coordination_iso23894_risk_analysis_record
+    risk_evaluation:
+      implementation: cross_border_investigation_coordination_iso23894_risk_evaluation_alignment
+      evidence: cross_border_investigation_coordination_iso23894_risk_evaluation_record
+    risk_treatment:
+      implementation: cross_border_investigation_coordination_iso23894_risk_treatment_alignment
+      evidence: cross_border_investigation_coordination_iso23894_risk_treatment_record
+    risk_monitoring:
+      implementation: cross_border_investigation_coordination_iso23894_risk_monitoring_alignment
+      evidence: cross_border_investigation_coordination_iso23894_risk_monitoring_record
+  iso_19011:
+    audit_principles:
+      implementation: cross_border_investigation_coordination_iso19011_audit_principles_procedure
+      evidence: cross_border_investigation_coordination_iso19011_audit_principles_workpaper
+    audit_programme_management:
+      implementation: cross_border_investigation_coordination_iso19011_audit_programme_management_procedure
+      evidence: cross_border_investigation_coordination_iso19011_audit_programme_management_workpaper
+    audit_evidence_requirements:
+      implementation: cross_border_investigation_coordination_iso19011_audit_evidence_requirements_procedure
+      evidence: cross_border_investigation_coordination_iso19011_audit_evidence_requirements_workpaper
+    audit_reporting:
+      implementation: cross_border_investigation_coordination_iso19011_audit_reporting_procedure
+      evidence: cross_border_investigation_coordination_iso19011_audit_reporting_workpaper
+  nist_ai_rmf:
+    govern:
+      implementation: cross_border_investigation_coordination_nist_rmf_govern_control_mapping
+      evidence: cross_border_investigation_coordination_nist_rmf_govern_assessment
+    map:
+      implementation: cross_border_investigation_coordination_nist_rmf_map_control_mapping
+      evidence: cross_border_investigation_coordination_nist_rmf_map_assessment
+    measure:
+      implementation: cross_border_investigation_coordination_nist_rmf_measure_control_mapping
+      evidence: cross_border_investigation_coordination_nist_rmf_measure_assessment
+    manage:
+      implementation: cross_border_investigation_coordination_nist_rmf_manage_control_mapping
+      evidence: cross_border_investigation_coordination_nist_rmf_manage_assessment
+  nist_csf:
+    identify:
+      implementation: cross_border_investigation_coordination_nist_csf_identify_safeguard
+      evidence: cross_border_investigation_coordination_nist_csf_identify_log
+    protect:
+      implementation: cross_border_investigation_coordination_nist_csf_protect_safeguard
+      evidence: cross_border_investigation_coordination_nist_csf_protect_log
+    detect:
+      implementation: cross_border_investigation_coordination_nist_csf_detect_safeguard
+      evidence: cross_border_investigation_coordination_nist_csf_detect_log
+    respond:
+      implementation: cross_border_investigation_coordination_nist_csf_respond_safeguard
+      evidence: cross_border_investigation_coordination_nist_csf_respond_log
+    recover:
+      implementation: cross_border_investigation_coordination_nist_csf_recover_safeguard
+      evidence: cross_border_investigation_coordination_nist_csf_recover_log
+  oecd_ai:
+    accountability:
+      implementation: cross_border_investigation_coordination_oecd_accountability_governance_control
+      evidence: cross_border_investigation_coordination_oecd_accountability_attestation
+    transparency:
+      implementation: cross_border_investigation_coordination_oecd_transparency_governance_control
+      evidence: cross_border_investigation_coordination_oecd_transparency_attestation
+    robustness_security:
+      implementation: cross_border_investigation_coordination_oecd_robustness_security_governance_control
+      evidence: cross_border_investigation_coordination_oecd_robustness_security_attestation
+    inclusive_growth:
+      implementation: cross_border_investigation_coordination_oecd_inclusive_growth_governance_control
+      evidence: cross_border_investigation_coordination_oecd_inclusive_growth_attestation
+  unesco_ai:
+    human_rights:
+      implementation: cross_border_investigation_coordination_unesco_human_rights_ethics_control
+      evidence: cross_border_investigation_coordination_unesco_human_rights_review_record
+    fairness_non_discrimination:
+      implementation: cross_border_investigation_coordination_unesco_fairness_non_discrimination_ethics_control
+      evidence: cross_border_investigation_coordination_unesco_fairness_non_discrimination_review_record
+    transparency_explainability:
+      implementation: cross_border_investigation_coordination_unesco_transparency_explainability_ethics_control
+      evidence: cross_border_investigation_coordination_unesco_transparency_explainability_review_record
+    accountability:
+      implementation: cross_border_investigation_coordination_unesco_accountability_ethics_control
+      evidence: cross_border_investigation_coordination_unesco_accountability_review_record
+reporting_requirements:
+  reporting_framework:
+    >
+      Structured reporting for Cross Border Investigation Coordination covering executive, board,
+      regulatory, audit, forensic, and attestation consumers.
+  report_types:
+    - cross_border_investigation_coordination_status_report
+    - cross_border_investigation_coordination_compliance_report
+    - cross_border_investigation_coordination_enforcement_report
+    - cross_border_investigation_coordination_executive_summary
+  reporting_frequency:
+    operational: weekly
+    compliance: monthly
+    executive: quarterly
+    regulatory: on_demand
+  reporting_owners: [cross_border_investigation_coordination_owner, regulatory_liaison]
+  reporting_consumers: [board_audit_committee, regulators, internal_audit, executive_leadership]
+audit_requirements:
+  - annual_internal_audit_cross_border_investigation_coordination
+  - quarterly_control_testing_cross_border_investigation_coordination
+  - evidence_sampling_cross_border_investigation_coordination
+  - finding_remediation_tracking_cross_border_investigation_coordination
+forensic_requirements:
+  forensic_framework:
+    >
+      Forensic framework for Cross Border Investigation Coordination aligned with ISO/IEC 27037 and
+      legal admissibility standards.
+  event_reconstruction:
+    Event Reconstruction procedures specific to Cross Border Investigation Coordination.
+  behavioral_analysis:
+    Behavioral Analysis procedures specific to Cross Border Investigation Coordination.
+  decision_reconstruction:
+    Decision Reconstruction procedures specific to Cross Border Investigation Coordination.
+  chain_of_custody:
+    Chain Of Custody procedures specific to Cross Border Investigation Coordination.
+  forensic_integrity_validation:
+    Forensic Integrity Validation procedures specific to Cross Border Investigation Coordination.
+investigation_requirements:
+  case_management:
+    Case Management for Cross Border Investigation Coordination investigations.
+  investigation_lifecycle:
+    Investigation Lifecycle for Cross Border Investigation Coordination investigations.
+  evidence_collection:
+    Evidence Collection for Cross Border Investigation Coordination investigations.
+  root_cause_analysis:
+    Root Cause Analysis for Cross Border Investigation Coordination investigations.
+  violation_determination:
+    Violation Determination for Cross Border Investigation Coordination investigations.
+  regulatory_notification:
+    Regulatory Notification for Cross Border Investigation Coordination investigations.
+integration_points:
+  upstream_systems:
+    - system: governance_forensics
+      purpose: cross_border_investigation_coordination_to_governance_forensics_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_governance_forensics]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_governance_forensics]
+    - system: incident_reporting
+      purpose: cross_border_investigation_coordination_to_incident_reporting_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_incident_reporting]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_incident_reporting]
+    - system: evidence_preservation
+      purpose: cross_border_investigation_coordination_to_evidence_preservation_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_evidence_preservation]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_evidence_preservation]
+  downstream_systems:
+    - system: enforcement_actions
+      purpose: cross_border_investigation_coordination_to_enforcement_actions_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_enforcement_actions]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_enforcement_actions]
+    - system: penalty_management
+      purpose: cross_border_investigation_coordination_to_penalty_management_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_penalty_management]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_penalty_management]
+    - system: remediation_tracking
+      purpose: cross_border_investigation_coordination_to_remediation_tracking_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_remediation_tracking]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_remediation_tracking]
+  governance_integrations:
+    - system: incident_reporting
+      purpose: cross_border_investigation_coordination_to_incident_reporting_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_incident_reporting]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_incident_reporting]
+    - system: ai_liability
+      purpose: cross_border_investigation_coordination_to_ai_liability_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_ai_liability]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_ai_liability]
+  risk_integrations:
+    - system: risk_management
+      purpose: cross_border_investigation_coordination_to_risk_management_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_risk_management]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_risk_management]
+  audit_integrations:
+    - system: compliance_audits
+      purpose: cross_border_investigation_coordination_to_compliance_audits_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_compliance_audits]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_compliance_audits]
+    - system: internal_audit_system
+      purpose: cross_border_investigation_coordination_to_internal_audit_system_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_internal_audit_system]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_internal_audit_system]
+  reporting_integrations:
+    - system: governance_reporting
+      purpose: cross_border_investigation_coordination_to_governance_reporting_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_governance_reporting]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_governance_reporting]
+    - system: executive_dashboard
+      purpose: cross_border_investigation_coordination_to_executive_dashboard_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_executive_dashboard]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_executive_dashboard]
+  enforcement_integrations:
+    - system: enforcement_actions
+      purpose: cross_border_investigation_coordination_to_enforcement_actions_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_enforcement_actions]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_enforcement_actions]
+    - system: policy_enforcement
+      purpose: cross_border_investigation_coordination_to_policy_enforcement_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_policy_enforcement]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_policy_enforcement]
+  remediation_integrations:
+    - system: remediation_tracking
+      purpose: cross_border_investigation_coordination_to_remediation_tracking_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_remediation_tracking]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_remediation_tracking]
+    - system: remediation_engine
+      purpose: cross_border_investigation_coordination_to_remediation_engine_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_remediation_engine]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_remediation_engine]
+  evidence_integrations:
+    - system: evidence_preservation
+      purpose: cross_border_investigation_coordination_to_evidence_preservation_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_evidence_preservation]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_evidence_preservation]
+    - system: technical_documentation
+      purpose: cross_border_investigation_coordination_to_technical_documentation_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_technical_documentation]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_technical_documentation]
+  monitoring_integrations:
+    - system: post_market_monitoring
+      purpose: cross_border_investigation_coordination_to_post_market_monitoring_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_post_market_monitoring]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_post_market_monitoring]
+    - system: incident_reporting
+      purpose: cross_border_investigation_coordination_to_incident_reporting_governance_sync
+      data_exchanged: [cross_border_investigation_coordination_events, cross_border_investigation_coordination_evidence_refs, cross_border_investigation_coordination_metrics]
+      trigger_conditions: [cross_border_investigation_coordination_state_change, cross_border_investigation_coordination_escalation, cross_border_investigation_coordination_closure]
+      consumed_artifacts: [cross_border_investigation_coordination_input_from_incident_reporting]
+      produced_artifacts: [cross_border_investigation_coordination_output_to_incident_reporting]
+maturity_model:
+  level_1_initial:
+    characteristics:
+      Ad hoc Cross Border Investigation Coordination activities without documented controls.
+    required_capabilities:
+      - manual_processes
+    required_controls:
+      - basic_logging
+    required_evidence:
+      - informal_notes
+    required_metrics:
+      - completion_count
+  level_2_repeatable:
+    characteristics:
+      Repeatable Cross Border Investigation Coordination procedures with basic documentation.
+    required_capabilities:
+      - documented_workflow
+    required_controls:
+      - cross_border_investigation_coordination_procedure_checklist
+    required_evidence:
+      - cross_border_investigation_coordination_process_log
+    required_metrics:
+      - cross_border_investigation_coordination_process_adherence_rate
+  level_3_defined:
+    characteristics:
+      Standardized Cross Border Investigation Coordination enterprise-wide.
+    required_capabilities:
+      - cross_border_investigation_coordination_standard_control_set
+    required_controls:
+      - cross_border_investigation_coordination_control_register
+    required_evidence:
+      - cross_border_investigation_coordination_audit_evidence
+    required_metrics:
+      - cross_border_investigation_coordination_effectiveness_score
+  level_4_managed:
+    characteristics:
+      Measured Cross Border Investigation Coordination with KPI optimization.
+    required_capabilities:
+      - cross_border_investigation_coordination_automated_controls
+    required_controls:
+      - cross_border_investigation_coordination_telemetry_controls
+    required_evidence:
+      - cross_border_investigation_coordination_assurance_package
+    required_metrics:
+      - cross_border_investigation_coordination_kpi_dashboard
+  level_5_optimized:
+    characteristics:
+      Optimized Cross Border Investigation Coordination with predictive analytics.
+    required_capabilities:
+      - cross_border_investigation_coordination_autonomous_governance
+    required_controls:
+      - cross_border_investigation_coordination_adaptive_controls
+    required_evidence:
+      - cross_border_investigation_coordination_regulator_ready_portfolio
+    required_metrics:
+      - cross_border_investigation_coordination_predictive_risk_index
+dependencies:
+  required:
+    - audit_and_enforcement/core/audit_metadata.yaml
+    - audit_and_enforcement/core/enforcement_framework.yaml
+  optional:
+    - audit_and_enforcement/evidence_preservation/evidence_management.yaml
+outputs:
+  - cross_border_investigation_coordination_report
+  - cross_border_investigation_coordination_evidence_package
+  - cross_border_investigation_coordination_attestation
+  - cross_border_investigation_coordination_enforcement_record
+artifacts:
+  - name: cross_border_investigation_coordination_policy
+    retention_years: 10
+    classification: RESTRICTED
+  - name: cross_border_investigation_coordination_procedure
+    retention_years: 10
+    classification: RESTRICTED
+  - name: cross_border_investigation_coordination_checklist
+    retention_years: 10
+    classification: RESTRICTED
+  - name: cross_border_investigation_coordination_template
+    retention_years: 10
+    classification: RESTRICTED
+records:
+  - cross_border_investigation_coordination_case_record
+  - cross_border_investigation_coordination_audit_record
+  - cross_border_investigation_coordination_enforcement_record
+  - cross_border_investigation_coordination_remediation_record
+monitoring:
+  continuous:
+    - cross_border_investigation_coordination_control_telemetry
+    - cross_border_investigation_coordination_evidence_integrity_feed
+    - cross_border_investigation_coordination_escalation_queue
+  periodic:
+    - cross_border_investigation_coordination_quarterly_assurance_review
+continuous_improvement:
+  >
+    Quarterly review of Cross Border Investigation Coordination effectiveness, regulatory change
+    impact assessment, and control optimization based on audit findings and enforcement outcomes.
+exceptions:
+  - exception_type: regulatory_override
+    authority: Chief Compliance Officer with Legal Counsel concurrence
+    documentation: mandatory_exception_register_entry
+escalation:
+  level_1:
+    trigger: moderate_finding
+    sla_minutes: 240
+    authority: cross_border_investigation_coordination_owner
+  level_2:
+    trigger: high_finding
+    sla_minutes: 120
+    authority: cross_border_investigation_coordination_owner
+  level_3:
+    trigger: critical_finding
+    sla_minutes: 60
+    authority: cross_border_investigation_coordination_owner
+  level_4:
+    trigger: regulatory_notification_required
+    sla_minutes: 30
+    authority: cross_border_investigation_coordination_owner
+versioning:
+  current: 1.0.0
+  changelog:
+    - version: 1.0.0
+      date: 2026-06-11
+      changes: Initial production release for Cross Border Investigation Coordination

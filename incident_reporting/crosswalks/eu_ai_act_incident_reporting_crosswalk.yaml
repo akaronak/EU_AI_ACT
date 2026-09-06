@@ -1,0 +1,1202 @@
+metadata:
+  document_id: "IR-CW-EU_AI_ACT_IN-001"
+  title: "Eu Ai Act Incident Reporting Crosswalk"
+  domain: "Crosswalks"
+  version: "1.0.0"
+  classification: "CONFIDENTIAL_REGULATORY"
+purpose: "Govern, operationalize, and validate compliance checks for Eu Ai Act Incident Reporting Crosswalk under the Crosswalks framework. This skill provides machine-readable, executable AI Incident Reporting & serious incident notification logic specifically tailored to interoperability mappings, framework crosswalk alignments, standard reporting translations, compliance scoring models properties."
+scope: "Scope covers all incident classification checks, escalation paths, containment rules, and regulatory coordination activities governed by the Eu Ai Act Incident Reporting Crosswalk framework."
+objectives:
+  - "Enforce automated incident detection and severity scoring under Eu Ai Act Incident Reporting Crosswalk criteria."
+  - "Ensure real-time telemetry capture and forensic log sealing for Crosswalks."
+  - "Compile regulator-ready evidence files to verify compliance with serious incident obligations."
+definitions:
+  eu_ai_act_incident_reporting_crosswalk_incident_policy: "The primary operational incident response and reporting policy for Eu Ai Act Incident Reporting Crosswalk."
+  eu_ai_act_incident_reporting_crosswalk_incident_payload: "Cryptographically sealed incident report bundle containing causal data for Eu Ai Act Incident Reporting Crosswalk."
+taxonomy:
+  incident_types:
+    - "SERIOUS_INCIDENT"
+    - "SECURITY_BREACH"
+    - "SYSTEMIC_ANOMALY"
+  incident_states:
+    - "DETECTED"
+    - "CONTAINED"
+    - "UNDER_INVESTIGATION"
+    - "RESOLVED"
+governance:
+  governance_model: "COORDINATED_INCIDENT_REPORTING_GOVERNANCE"
+  governance_structure: "Enterprise AI Safety Committee - Crosswalks"
+  roles_and_responsibilities:
+    incident_manager: "Responsible for managing response workflows and containment actions for Eu Ai Act Incident Reporting Crosswalk."
+    compliance_officer: "Responsible for drafting and executing regulatory notifications for Eu Ai Act Incident Reporting Crosswalk."
+    forensics_lead: "Responsible for leading causal chain analyses and evidence gathering for Eu Ai Act Incident Reporting Crosswalk."
+  stakeholders:
+    - "Chief AI Officer"
+    - "VP of Cybersecurity"
+    - "General Counsel"
+governance_model:
+  model_type: "COORDINATED_INCIDENT_REPORTING_GOVERNANCE"
+  model_rationale: "Ensures uniform application of incident classification, rapid containment execution, and compliant regulatory notifications across all systems."
+governance_structure:
+  oversight_board: "Global AI Risk & Safety Board - Crosswalks"
+  escalation_contact: "incident_response@enterprise.ai"
+roles_and_responsibilities:
+  incident_manager: "Primary owner of incident validation and triage checklist under Eu Ai Act Incident Reporting Crosswalk."
+  compliance_officer: "Responsible for submitting serious incident alerts within regulatory deadlines."
+  forensics_lead: "Responsible for timeline reconstructions and evidence vaults management."
+stakeholders:
+  - "Head of Incident Response"
+  - "VP of Quality Assurance"
+  - "Chief Information Security Officer"
+  - "Crosswalks Incident Lead"
+capabilities:
+  - "Automated verification of incident severity scores for Eu Ai Act Incident Reporting Crosswalk."
+  - "Real-time monitoring of telemetry indicators and alert triggers under Crosswalks."
+  - "Regulator-ready notification compilation and cryptographic attestation."
+requirements:
+  - "All serious incidents under Eu Ai Act Incident Reporting Crosswalk must be notified to competent authorities within 72 hours."
+  - "Containment actions must be deployed within 15 minutes of critical threshold breaches."
+  - "Audit logs and forensic traces must be immutably sealed in the trade database."
+controls:
+  - control_id: "CTRL-IR-CW-EU_AI_-01"
+    control_name: "serious_incident_reporting_control"
+    control_type: "PREVENTATIVE"
+    control_category: "REPORTING"
+    control_objective: "Verify and enforce serious incident notification timelines for Eu Ai Act Incident Reporting Crosswalk."
+    incident_reporting_rationale: "Fulfills the obligation to report serious incidents and prevent regulatory penalties under Article 72."
+    implementation_guidance: "Deploy automated timers that alert the compliance team 24 hours prior to reporting deadlines."
+    control_owner: "Compliance Officer"
+    control_frequency: "ON_ALERT"
+    monitoring_method: "Monitor reporting countdown tickers on dashboard."
+    validation_method: "Mock incident alert, check if timer and automated template compile."
+    evidence_generated: "Signed regulatory notification draft."
+    escalation_conditions: "Drill or actual notification delay exceeds 24 hours from detection."
+    audit_considerations: "Check authority submission receipts and logs timestamp indexes."
+  - control_id: "CTRL-IR-CW-EU_AI_-02"
+    control_name: "regulatory_notification_control"
+    control_type: "PREVENTATIVE"
+    control_category: "REGULATORY"
+    control_objective: "Validate that regulatory packages are complete and correct for Eu Ai Act Incident Reporting Crosswalk."
+    incident_reporting_rationale: "Prevents sending incomplete or incorrect disclosures to national regulators under Article 73."
+    implementation_guidance: "Deploy schema-validation checkpoints checking all required legal fields before egress."
+    control_owner: "Compliance Officer"
+    control_frequency: "AS_REQUIRED"
+    monitoring_method: "Assert verification gate pass flags in logs."
+    validation_method: "Attempt egress transfer with empty metadata field, verify validation block."
+    evidence_generated: "Validated regulatory notification package receipt."
+    escalation_conditions: "Validation checklist failure score falls below 1.0."
+    audit_considerations: "Verify kms key setups and cryptographic signature logs."
+  - control_id: "CTRL-IR-CW-EU_AI_-03"
+    control_name: "incident_classification_control"
+    control_type: "PREVENTATIVE"
+    control_category: "CLASSIFICATION"
+    control_objective: "Audit accuracy of automated severity scoring for Eu Ai Act Incident Reporting Crosswalk."
+    incident_reporting_rationale: "Ensures correct escalation and triage paths are followed, avoiding under-reporting risks."
+    implementation_guidance: "Implement verification loops that match alert variables against classification matrix configurations."
+    control_owner: "Incident Manager"
+    control_frequency: "ON_ALERT"
+    monitoring_method: "Review classification logs database daily."
+    validation_method: "Inject mock systemic anomaly violating limits, verify correct high severity scoring."
+    evidence_generated: "Systemic severity assessment report."
+    escalation_conditions: "Alert severity mismatch detected during triage audits."
+    audit_considerations: "Check classification rule logic files and databases."
+  - control_id: "CTRL-IR-CW-EU_AI_-04"
+    control_name: "authority_notification_control"
+    control_type: "PREVENTATIVE"
+    control_category: "COMMUNICATION"
+    control_objective: "Verify communication endpoints and signature keys for Eu Ai Act Incident Reporting Crosswalk."
+    incident_reporting_rationale: "Enables secure, authenticated communications with regulatory authorities."
+    implementation_guidance: "Run automated checks validating compliance team keys configurations against authority directories monthly."
+    control_owner: "CISO"
+    control_frequency: "MONTHLY"
+    monitoring_method: "Measure key validation delays and connection check status."
+    validation_method: "Mock authority notification submission with invalid key, verify connection block."
+    evidence_generated: "Monthly authority interface test cert."
+    escalation_conditions: "Key mismatches or failed connection test rounds."
+    audit_considerations: "Review roles database and key directories setups."
+  - control_id: "CTRL-IR-CW-EU_AI_-05"
+    control_name: "corrective_action_tracking_control"
+    control_type: "DETECTIVE"
+    control_category: "REMEDIATION"
+    control_objective: "Monitor containment action tracking metrics for Eu Ai Act Incident Reporting Crosswalk."
+    incident_reporting_rationale: "Enables prompt mitigation of active failures and prevents ongoing harms under Article 74."
+    implementation_guidance: "Deploy automated daemons that capture rollback execution states."
+    control_owner: "Incident Manager"
+    control_frequency: "DAILY"
+    monitoring_method: "Review active quarantine dashboards daily."
+    validation_method: "Mock missing containment step in incident history, verify containment alert."
+    evidence_generated: "Signed quarantine attestation archived in secure ledgers."
+    escalation_conditions: "Containment action execution latency exceeds SLA targets."
+    audit_considerations: "Inspect database logs and rollback timeline records."
+  - control_id: "CTRL-IR-CW-EU_AI_-06"
+    control_name: "incident_accountability_control"
+    control_type: "DETECTIVE"
+    control_category: "ACCOUNTABILITY"
+    control_objective: "Verify roles registry assignments and action log entries for Eu Ai Act Incident Reporting Crosswalk."
+    incident_reporting_rationale: "Guarantees that all response actions are traceable to authorized individuals, satisfying ISO 42001 requirements."
+    implementation_guidance: "Perform quarterly reviews of signature records against directory permissions setups."
+    control_owner: "Compliance Officer"
+    control_frequency: "QUARTERLY"
+    monitoring_method: "Audit signature ledger hashes against employee registries."
+    validation_method: "Simulate critical action update without matching signature in database, check for alert."
+    evidence_generated: "Quarterly accountability verification report."
+    escalation_conditions: "Unattested system updates identified in logs."
+    audit_considerations: "Check employee directories and signature key stores."
+decision_logic:
+  escalation_trigger: "If serious_incident_management_score drops below 0.95 or containment action fails, escalate to the Chief AI Officer immediately."
+  incident_classification: "Classify anomalies as CRITICAL if they impact fundamental rights or cause physical harm for more than 1 hour."
+processes:
+  triage: "Standard operating procedure for checking automated alert severity scorecards for Eu Ai Act Incident Reporting Crosswalk."
+  containment: "Standard workflow to isolate database connections, rollback model weights, or deploy routing blocks."
+workflows:
+  - workflow_id: "incident_detection_workflow"
+    workflow_owner: "Incident Manager"
+    workflow_objective: "Triaging system alerts and validating anomaly events for Eu Ai Act Incident Reporting Crosswalk."
+    trigger: "Anomaly threshold crossing alert or system performance drop webhook."
+    inputs:
+      - "runtime_telemetry_stream"
+      - "anomaly_severity_thresholds"
+      - "incident_triage_checklist"
+    activities:
+      - "Parse active system telemetry data blocks."
+      - "Verify alert parameters against severity thresholds."
+      - "Log confirmed anomaly in active incident database."
+    decision_points:
+      - "Triage severity level validation"
+      - "False positive validation check"
+    approvals:
+      - "Incident Manager triage approval"
+    outputs:
+      - "Anomaly ticket log entry"
+      - "Triage status dashboard update"
+    generated_evidence: "Triage status report logged in active database."
+    success_criteria: "Alert triaged and logged within 5 minutes of webhook trigger."
+    failure_conditions: "Telemetry database timeout or classification logic errors."
+  - workflow_id: "incident_classification_workflow"
+    workflow_owner: "Incident Manager"
+    workflow_objective: "Asserting incident classification parameters and impact assessments for Eu Ai Act Incident Reporting Crosswalk."
+    trigger: "Triage approval or escalation indicator trigger."
+    inputs:
+      - "anomaly_ticket_log"
+      - "impact_assessment_matrix"
+      - "legal_obligations_guide"
+    activities:
+      - "Execute impact assessment checklist across affected models."
+      - "Apply classification criteria rules to determine category."
+      - "Publish classification result scorecard."
+    decision_points:
+      - "Legal serious incident criteria pass"
+      - "Scale of harm evaluation review"
+    approvals:
+      - "Incident Manager classification sign-off"
+    outputs:
+      - "Incident classification scorecard"
+      - "Triage report update"
+    generated_evidence: "Signed Incident Classification scorecard archived in risk ledger."
+    success_criteria: "Triage results completed and validated with zero warnings."
+    failure_conditions: "Missing model metadata or incomplete impact assessment records."
+  - workflow_id: "serious_incident_assessment_workflow"
+    workflow_owner: "Compliance Officer"
+    workflow_objective: "Evaluating regulatory серьез incident criteria and thresholds for Eu Ai Act Incident Reporting Crosswalk."
+    trigger: "Serious incident classification alert or manual CISO order."
+    inputs:
+      - "incident_classification_scorecard"
+      - "serious_incident_thresholds_manifest"
+      - "compliance_scorecards_vault"
+    activities:
+      - "Assert incident scores exceed serious threshold levels."
+      - "Draft formal regulatory notification package document."
+      - "Submit notification draft for legal signature sign-offs."
+    decision_points:
+      - "Obligation alert trigger check"
+      - "Legal notification review pass"
+    approvals:
+      - "General Counsel approval"
+      - "CISO sign-off"
+    outputs:
+      - "Serious incident notification draft"
+      - "Incident assessment receipt file"
+    generated_evidence: "Signed Incident Assessment receipt saved to trade database."
+    success_criteria: "Assessment and draft compiled within 4 hours of classification."
+    failure_conditions: "Legal contacts database unreachable or signature verification timeouts."
+  - workflow_id: "regulatory_notification_workflow"
+    workflow_owner: "Compliance Officer"
+    workflow_objective: "Sealing evidence registries and submitting notifications to authorities for Eu Ai Act Incident Reporting Crosswalk."
+    trigger: "Legal approval signature or countdown alert."
+    inputs:
+      - "serious_incident_notification_draft"
+      - "kms_authority_keys"
+      - "regulatory_portal_connection"
+    activities:
+      - "Encrypt regulatory notification pack document using authority keys."
+      - "Transmit secure data pack to regulatory portal."
+      - "Verify submission receipts hashes against compliance ledger."
+    decision_points:
+      - "Submission transmission check"
+      - "Receipt validation check"
+    approvals:
+      - "Compliance Officer transmission sign-off"
+    outputs:
+      - "Regulatory submission receipt file"
+      - "Notification ledger update"
+    generated_evidence: "Signed regulatory submission receipt saved to risk databases."
+    success_criteria: "Notification package transmitted and receipt verified within 72 hours."
+    failure_conditions: "Regulatory portal connection timeout or failed key validations."
+  - workflow_id: "incident_escalation_workflow"
+    workflow_owner: "CISO"
+    workflow_objective: "Triggering tier escalations and notifying executive teams for Eu Ai Act Incident Reporting Crosswalk."
+    trigger: "Incident triage duration exceed warning or manual manager trigger."
+    inputs:
+      - "anomaly_ticket_log"
+      - "escalation_routes_manifest"
+      - "alert_distribution_channels"
+    activities:
+      - "Check active incident triage duration against target SLAs."
+      - "Escalate warning tier level and alert CRO/CAIO."
+      - "Publish escalation status to corporate channels."
+    decision_points:
+      - "SLA threshold breach review"
+      - "Tier transition validation check"
+    approvals:
+      - "CISO escalation approval"
+    outputs:
+      - "Escalation notice document"
+      - "Warning ticket update log"
+    generated_evidence: "Escalation log entry saved to active databases."
+    success_criteria: "Escalation completed and CRO/CAIO alerts verified within 15 minutes."
+    failure_conditions: "Communication channel downtime or database write errors."
+  - workflow_id: "corrective_action_workflow"
+    workflow_owner: "Incident Manager"
+    workflow_objective: "Deploying containment actions and tracking rollback updates for Eu Ai Act Incident Reporting Crosswalk."
+    trigger: "Serious incident alert or containment trigger webhook."
+    inputs:
+      - "anomaly_ticket_log"
+      - "containment_playbook_steps"
+      - "active_shipments_registry"
+    activities:
+      - "Execute model weight rollback commands."
+      - "Deploy transit halts and quarantine states."
+      - "Verify system isolation status indicators."
+    decision_points:
+      - "Quarantine activation review"
+      - "System rollback confirmation"
+    approvals:
+      - "VP of Operations approval"
+      - "CISO sign-off"
+    outputs:
+      - "System isolation receipts"
+      - "Quarantine status notice"
+    generated_evidence: "Signed Quarantine Attestation saved to audit ledger."
+    success_criteria: "Isolation complete and system state rollbacks confirmed within 15 minutes."
+    failure_conditions: "System weight rollback script timeout or command delivery failure."
+  - workflow_id: "authority_engagement_workflow"
+    workflow_owner: "Compliance Officer"
+    workflow_objective: "Hosting mock regulatory drills and resolving authority queries for Eu Ai Act Incident Reporting Crosswalk."
+    trigger: "Authority query ticket or quarterly drill scheduler."
+    inputs:
+      - "authority_request_document"
+      - "compliance_scorecards_vault"
+      - "evidence_checklists"
+    activities:
+      - "Retrieve requested technical documentation packages."
+      - "Assemble audit-ready regulatory evidence pack."
+      - "Transmit secure data pack file to regulatory portal."
+    decision_points:
+      - "Sensitive data masking check"
+      - "Legal query review"
+    approvals:
+      - "Corporate Trade Counsel sign-off"
+    outputs:
+      - "Regulatory evidence package document"
+      - "Submission receipt file"
+    generated_evidence: "Signed regulatory communication certificate archived in legal portals."
+    success_criteria: "Drill completed and audit-ready package delivered within 2 hours."
+    failure_conditions: "Technical documentation DB unreachable or legal signature timeout."
+  - workflow_id: "incident_closure_workflow"
+    workflow_owner: "Incident Manager"
+    workflow_objective: "Reviewing recovery effectiveness indicators and closing tickets for Eu Ai Act Incident Reporting Crosswalk."
+    trigger: "Remediation verification pass alert."
+    inputs:
+      - "containment_action_confirmations"
+      - "recovery_scorecard"
+      - "closure_checklists_criteria"
+    activities:
+      - "Assert recovery effectiveness score meets target thresholds."
+      - "Update incident log status to closed."
+      - "Generate incident wrap-up and post-mortem report."
+    decision_points:
+      - "Closure check gate pass"
+      - "Post-mortem review sign-off"
+    approvals:
+      - "Incident Manager ticket closure approval"
+    outputs:
+      - "Incident closure clearance document"
+      - "Incident post-mortem report"
+    generated_evidence: "Signed Incident Closure clearance archived in secure database."
+    success_criteria: "Ticket status updated and post-mortem report archived within 48 hours of resolution."
+    failure_conditions: "Missing recovery scorecards or incomplete post-incident files."
+incident_governance_framework:
+  governance_model: "COORDINATED_INCIDENT_REPORTING_GOVERNANCE"
+  governance_principles:
+    - "Proportional Safety Protection"
+    - "Full Containment Priority"
+    - "Transfarent Regulatory Cooperation"
+  governance_authorities:
+    - "AI Safety Committee"
+    - "Product Security Board"
+  governance_controls:
+    - "CTRL-IR-CW-EU_AI_-01"
+    - "CTRL-IR-CW-EU_AI_-06"
+  incident_ownership: "Assigns primary ownership of incident registries directly to the CAIO."
+  incident_accountability: "Establishes incident response limits and reporting responsibilities with the CISO."
+  governance_reviews:
+    - "Bi-weekly active incident score audits"
+    - "Annual incident governance framework audits"
+  governance_assurance: "Cryptographic signature validation and ledger compliance verification checks"
+incident_classification_framework:
+  incident_categories:
+    - "CRITICAL_SAFETY_THREAT"
+    - "SECURITY_DATA_BREACH"
+    - "SYSTEMIC_BIAS_ANOMALY"
+  severity_levels:
+    - "CRITICAL"
+    - "HIGH"
+    - "MEDIUM"
+    - "LOW"
+  impact_levels:
+    - "SYSTEMIC_MARKET_IMPACT"
+    - "SINGLE_USER_IMPACT"
+    - "NO_EXTERNAL_IMPACT"
+  classification_criteria: "Apply severity scoring logic comparing alert variables against standard safety thresholds for Eu Ai Act Incident Reporting Crosswalk."
+  classification_controls:
+    - "CTRL-IR-CW-EU_AI_-03"
+  classification_validation: "Check accuracy of scorecards against historical patterns weekly"
+  classification_assurance: "Register signed severity classification scores in trade ledger database monthly"
+serious_incident_framework:
+  serious_incident_criteria:
+    - "Fundamental rights breach"
+    - "Significant market disruption"
+    - "Physical harm or property damage"
+  serious_incident_thresholds:
+    - "System down time > 2 hours"
+    - "Affected user base > 10%"
+  serious_incident_categories:
+    - "SAFETY_FAILURES"
+    - "PRIVACY_BREACHES"
+  serious_incident_assessment: "Assess incident features using assessment checklists within 4 hours of detection."
+  serious_incident_controls:
+    - "CTRL-IR-CW-EU_AI_-01"
+    - "CTRL-IR-CW-EU_AI_-03"
+  serious_incident_validation: "Audit serious incident assessment reports monthly for completeness."
+  serious_incident_assurance: "Verify digital signatures of assessing officers weekly."
+incident_reporting_framework:
+  reporting_requirements:
+    - "Identify serious failures"
+    - "Transmit alert draft to compliance team"
+  reporting_timelines:
+    - "72 hours for serious incidents"
+    - "24 hours for safety threats"
+  reporting_triggers:
+    - "Assessment score exceeds serious incident threshold"
+  reporting_channels:
+    - "Regulatory Notification Portal"
+    - "Secure Legal Egress Pathway"
+  reporting_authorities:
+    - "National Competent Authority"
+    - "Union Safeguard Registry"
+  reporting_validation: "Review reporting status timestamps against SLAs daily"
+  reporting_assurance: "Verify reporting ledger hashes daily"
+regulatory_notification_framework:
+  notification_requirements:
+    - "Secure packaging"
+    - "Digital signature validation"
+  notification_authorities:
+    - "National AI Office"
+    - "European AI Board"
+  notification_timelines:
+    - "72 hours post serious incident confirmation"
+  notification_controls:
+    - "CTRL-IR-CW-EU_AI_-02"
+    - "CTRL-IR-CW-EU_AI_-04"
+  notification_evidence: "Signed regulatory submission receipts and connection check logs"
+  notification_validation: "Assert that schema check pass scores equal 1.00"
+  notification_assurance: "Audit submission signature registries monthly"
+incident_escalation_framework:
+  escalation_levels:
+    tier_1: "Triage failure and notify Incident Lead"
+    tier_2: "Escalate to CISO and CRO"
+    tier_3: "Notify Executive Board and regulatory authorities"
+  escalation_triggers:
+    - "Triage delay exceeds 15 minutes"
+    - "Assessment confirms serious incident category"
+  escalation_authorities:
+    - "Incident Manager"
+    - "CISO"
+    - "Chief AI Officer"
+  escalation_controls:
+    - "CTRL-IR-CW-EU_AI_-01"
+    - "CTRL-IR-CW-EU_AI_-04"
+  escalation_workflows:
+    - "incident_escalation_workflow"
+  escalation_validation: "Verify escalation alert routing accuracy monthly against mock scenarios"
+  escalation_assurance: "Audit escalation communication timelines quarterly"
+corrective_action_framework:
+  corrective_actions:
+    - "Rollback Eu Ai Act Incident Reporting Crosswalk model weights"
+    - "Isolate API gateway endpoints"
+  remediation_actions:
+    - "Deploy hotfix patches"
+    - "Re-train planning safety boundaries"
+  containment_actions:
+    - "Isolate database servers"
+    - "Suspend affected shipments"
+  validation_actions:
+    - "Perform post-incident validation checklists"
+    - "Run simulation safety suites"
+  monitoring_actions:
+    - "Monitor alert count rates daily post-resolution"
+  corrective_action_assurance: "Audit recovery effectiveness scorecards weekly"
+  corrective_action_reporting: "Publish post-mortem analysis reports to safety portal"
+incident_intelligence_framework:
+  intelligence_sources:
+    - "active_incident_db"
+    - "external_threat_feeds"
+    - "regulatory_bulletins"
+  incident_analysis: "Detailed process for mapping causal factors for Eu Ai Act Incident Reporting Crosswalk."
+  pattern_analysis: "Analyze historical anomaly event frequencies to identify systemic patterns under Crosswalks."
+  trend_analysis: "Track mean time to detect (MTTD) and mean time to resolve (MTTR) monthly trends for Eu Ai Act Incident Reporting Crosswalk."
+  systemic_analysis: "Correlate failure events with model planning steps updates monthly."
+  intelligence_validation: "Perform peer reviews of foresight briefing documents monthly"
+  intelligence_assurance: "Validate source integrity hashes weekly"
+post_market_incident_framework:
+  post_market_monitoring_scope: "Continuous monitoring of deployed models and customer incident alerts."
+  incident_handling: "Standard operating procedures for routing post-market alerts to triage teams."
+  validation_requirements: "All post-market incident reports must verify customer input hashes."
+  assurance_method: "Audit customer ticket databases weekly against classification scorecards"
+accountability_framework:
+  decision_owners:
+    - "Chief AI Safety Counsel"
+    - "VP of Operations"
+  decision_authorities:
+    - "AI Safety Committee"
+  accountability_controls:
+    - "CTRL-IR-CW-EU_AI_-06"
+  accountability_validation: "Verify roles registry assignments and logs quarterly"
+  accountability_assurance: "Check active action logs against authorized signature keys weekly"
+  accountability_reporting: "Publish monthly accountability reports to AI Safety Committee"
+monitoring_framework:
+  monitoring_scope: "Continuous verification of incident alert counts and telemetry metrics for Eu Ai Act Incident Reporting Crosswalk."
+  alert_thresholds: "Trigger alert if validation score falls below 0.95 or MTTR exceeds SLA targets."
+validation_framework:
+  validation_requirements:
+    - "All incident closures must pass validation gates"
+    - "Rollback logs must pass completeness checks"
+  validation_methods:
+    - "Automated document checks"
+    - "Simulated validation safety checks"
+  validation_evidence: "Signed incident closure clearance certificates archived in compliance vaults."
+  validation_authority: "Incident Manager"
+  validation_frequency: "Weekly"
+  validation_outcomes:
+    - "Pass - allow system restoration"
+    - "Fail - block restoration and extend containment actions"
+evidence_intelligence:
+  evidence_sources:
+    - "active_incident_db"
+    - "evidence_vaults_db"
+    - "trade_ledger_vault"
+  evidence_types:
+    - "Anomaly tickets"
+    - "Assessment scorecards"
+    - "Quarantine attestations"
+  evidence_integrity: "Cryptographic SHA-256 hashes registered in immutable risk database."
+  evidence_lineage: "Map evidence items back to specific system telemetry timestamps."
+  evidence_provenance: "Generated directly by compliance validation and logging daemons."
+  evidence_validation: "Verify digital signatures against CISO key directory weekly."
+  evidence_confidence: 0.99
+  evidence_retention: "10 years in secure compliance archive"
+telemetry:
+  telemetry_sources:
+    - "system_health_daemons"
+    - "security_logs_db"
+    - "api_gateway_events"
+  collection_frequency: "Continuous"
+  telemetry_retention: "90 days active, 10 years compliance archive"
+  telemetry_integrity: "Signed telemetry data blocks"
+  telemetry_validation: "Daily signature and hash check updates"
+incident_reporting_telemetry:
+  incident_detection_events: "Track automated anomaly pause triggers and safety halts events for Eu Ai Act Incident Reporting Crosswalk."
+  classification_events: "Record daily triage classifications and severity score results for Eu Ai Act Incident Reporting Crosswalk."
+  escalation_events: "Log executive board escalations and warning tickets alerts for Eu Ai Act Incident Reporting Crosswalk."
+  notification_events: "Record regulatory submission attempts and receipt details for Eu Ai Act Incident Reporting Crosswalk."
+  corrective_action_events: "Track weight rollbacks and quarantine executions checks for Eu Ai Act Incident Reporting Crosswalk."
+  authority_interaction_events: "Log queries and inspections event trails for Eu Ai Act Incident Reporting Crosswalk."
+  validation_events: "Record pre-release checklist evaluation and confirm signature completeness scores for Eu Ai Act Incident Reporting Crosswalk."
+  closure_events: "Log ticket closure clearances and post-mortem report completions for Eu Ai Act Incident Reporting Crosswalk."
+  governance_alerts: "High priority safety notifications sent to Safety Board."
+  governance_indicators: "Check metric threshold crossings and containment delays."
+root_cause_analysis:
+  causal_factors:
+    - "Weight drift in Eu Ai Act Incident Reporting Crosswalk planner nodes"
+    - "Out of bound values in system inputs"
+  contributing_factors:
+    - "High API concurrency levels"
+    - "Network message delays"
+  systemic_factors:
+    - "Planning safety threshold settings too loose"
+    - "Provider update latency"
+  governance_failures:
+    - "Oversight review checklist omitted pre-release"
+    - "Missing signature approvals in logs"
+  control_failures:
+    - "Classification daemon timeout"
+    - "Key directory unreachable"
+  corrective_recommendations:
+    - "Implement tighter boundary checking rules for Eu Ai Act Incident Reporting Crosswalk planner."
+  preventive_recommendations:
+    - "Automate daily schema updates tests."
+impact_assessment:
+  affected_stakeholders:
+    - "End Users"
+    - "Enterprise Compliance Team"
+    - "Regional Distributors"
+  affected_systems:
+    - "urn:enterprise:system:planner:eu_ai_act_incident_reporting_crosswalk"
+    - "urn:enterprise:system:database:compliance"
+  affected_operations:
+    - "Product verification checks"
+    - "Automated release scheduling"
+  harm_assessment: "Assess scale of rights breaches and safety impacts for Eu Ai Act Incident Reporting Crosswalk."
+  risk_assessment: "Compute system threat level scores and publish to CISO portal."
+  impact_validation: "Validate impact assessment calculations weekly against target matrix rules."
+  impact_assurance: "Seal impact assessments in trade ledger databases."
+metrics:
+  - metric_name: "eu_ai_act_incident_reporting_crosswalk_incident_detection_timeliness"
+    formula: "COUNT(detected_anomalies_within_5m) / COUNT(total_detected_anomalies)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Incident Manager"
+    data_source: "active_incident_db"
+    evidence_generated: "Monthly Detection Timeliness report."
+  - metric_name: "eu_ai_act_incident_reporting_crosswalk_incident_reporting_timeliness"
+    formula: "COUNT(reported_within_72h) / COUNT(total_required_reports)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Compliance Officer"
+    data_source: "active_incident_db"
+    evidence_generated: "Weekly Reporting Timeliness report."
+  - metric_name: "eu_ai_act_incident_reporting_crosswalk_regulatory_notification_compliance_score"
+    formula: "COUNT(passed_regulatory_validations) / COUNT(total_submitted_notifications)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "ON_SUBMISSION"
+    owner: "Compliance Officer"
+    data_source: "evidence_vaults_db"
+    evidence_generated: "Regulatory submission check report."
+  - metric_name: "eu_ai_act_incident_reporting_crosswalk_serious_incident_management_score"
+    formula: "COUNT(passed_assessment_audits) / COUNT(total_serious_incidents)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "MONTHLY"
+    owner: "Compliance Officer"
+    data_source: "active_incident_db"
+    evidence_generated: "Monthly Serious Incident management summary."
+  - metric_name: "eu_ai_act_incident_reporting_crosswalk_corrective_action_effectiveness_score"
+    formula: "COUNT(successful_quarantines_within_15m) / COUNT(total_required_quarantines)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "WEEKLY"
+    owner: "Incident Manager"
+    data_source: "active_incident_db"
+    evidence_generated: "Weekly Quarantine Effectiveness report."
+  - metric_name: "eu_ai_act_incident_reporting_crosswalk_incident_resolution_rate"
+    formula: "COUNT(resolved_tickets_within_SLA) / COUNT(total_closed_tickets)"
+    target: "0.95"
+    warning_threshold: "0.90"
+    critical_threshold: "0.80"
+    measurement_frequency: "WEEKLY"
+    owner: "Incident Manager"
+    data_source: "active_incident_db"
+    evidence_generated: "Weekly Incident Resolution report."
+  - metric_name: "eu_ai_act_incident_reporting_crosswalk_incident_traceability_score"
+    formula: "COUNT(fully_traced_incident_actions) / COUNT(total_incident_actions)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Compliance Officer"
+    data_source: "evidence_vaults_db"
+    evidence_generated: "Weekly Incident Traceability report."
+  - metric_name: "eu_ai_act_incident_reporting_crosswalk_incident_accountability_score"
+    formula: "COUNT(signed_actions) / COUNT(total_logged_actions)"
+    target: "1.00"
+    warning_threshold: "0.98"
+    critical_threshold: "0.95"
+    measurement_frequency: "WEEKLY"
+    owner: "Compliance Officer"
+    data_source: "evidence_vaults_db"
+    evidence_generated: "Weekly Incident Accountability report."
+  - metric_name: "eu_ai_act_incident_reporting_crosswalk_authority_response_readiness_score"
+    formula: "COUNT(successful_regulatory_drills) / COUNT(total_drills)"
+    target: "1.00"
+    warning_threshold: "0.95"
+    critical_threshold: "0.90"
+    measurement_frequency: "QUARTERLY"
+    owner: "Compliance Officer"
+    data_source: "evidence_vaults_db"
+    evidence_generated: "Quarterly drill audit report."
+  - metric_name: "eu_ai_act_incident_reporting_crosswalk_incident_reporting_maturity_score"
+    formula: "current_maturity_level / 7.0"
+    target: "0.85"
+    warning_threshold: "0.71"
+    critical_threshold: "0.57"
+    measurement_frequency: "ANNUALLY"
+    owner: "Compliance Officer"
+    data_source: "trade_ledger_vault"
+    evidence_generated: "Annual Maturity Assessment certificate."
+kpis:
+  - "eu_ai_act_incident_reporting_crosswalk_incident_reporting_timeliness"
+  - "eu_ai_act_incident_reporting_crosswalk_regulatory_notification_compliance_score"
+kris:
+  - "eu_ai_act_incident_reporting_crosswalk_corrective_action_effectiveness_score"
+  - "eu_ai_act_incident_reporting_crosswalk_incident_reporting_maturity_score"
+thresholds:
+  - "Warning: eu_ai_act_incident_reporting_crosswalk_incident_reporting_timeliness < 0.98"
+  - "Critical: eu_ai_act_incident_reporting_crosswalk_incident_reporting_timeliness < 0.95"
+relationships:
+  incident_links:
+    - source: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      target: "urn:enterprise:compliance:incident"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IR-CW-STD."
+  escalation_links:
+    - source: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      target: "urn:enterprise:compliance:escalation"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IR-CW-STD."
+  notification_links:
+    - source: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      target: "urn:enterprise:compliance:notification"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IR-CW-STD."
+  authority_links:
+    - source: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      target: "urn:enterprise:compliance:authority"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IR-CW-STD."
+  evidence_links:
+    - source: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      target: "urn:enterprise:compliance:evidence"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IR-CW-STD."
+  workflow_links:
+    - source: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      target: "urn:enterprise:compliance:workflow"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IR-CW-STD."
+  governance_links:
+    - source: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      target: "urn:enterprise:compliance:governance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IR-CW-STD."
+  accountability_links:
+    - source: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      target: "urn:enterprise:compliance:accountability"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IR-CW-STD."
+  corrective_action_links:
+    - source: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      target: "urn:enterprise:compliance:corrective_action"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IR-CW-STD."
+  compliance_links:
+    - source: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      target: "urn:enterprise:compliance:compliance"
+      relationship_type: "GOVERNS_AND_MONITORS"
+      confidence: 0.98
+      evidence: "Registered mapping configuration under standard ISO-42001-IR-CW-STD."
+knowledge_graph:
+  nodes:
+    - id: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      label: "Eu Ai Act Incident Reporting Crosswalk"
+      properties:
+        domain: "Crosswalks"
+        doc_id: "IR-CW-EU_AI_ACT_IN-001"
+        version: "1.0.0"
+    - id: "urn:enterprise:compliance:incident_db"
+      label: "Incident Database Ledger"
+      properties:
+        type: "database"
+        immutable: True
+  relationships:
+    - source: "urn:enterprise:incident:eu_ai_act_incident_reporting_crosswalk"
+      target: "urn:enterprise:compliance:incident_db"
+      relationship_type: "WRITES_LOGS_TO"
+      confidence: 0.99
+      evidence: "API write call configs and log hashes checks."
+crosswalks:
+  eu_ai_act:
+    framework: "eu_ai_act"
+    control_mapping: "Map incident compliance controls to EU AI Act guidelines for Eu Ai Act Incident Reporting Crosswalk."
+    security_mapping: "Enforce model robustness and deployment containment checks."
+    accountability_mapping: "Assign roles for post-market monitoring and incident reviews."
+    evidence_mapping: "Log incident and scanning events in database."
+    validation_mapping: "Validate model benchmark results under containment profiles."
+  serious_incident_reporting:
+    framework: "serious_incident_reporting"
+    control_mapping: "Verify serious incident validation checks pre-regulatory reporting."
+    security_mapping: "Check safety breach logs and containment status."
+    accountability_mapping: "CISO signs off regulatory notification packages."
+    evidence_mapping: "Log serious incident assessments and approvals logs."
+    validation_mapping: "Validate notification data fields completeness."
+  post-market_monitoring:
+    framework: "post-market_monitoring"
+    control_mapping: "Confirm post-market alert checks for distribution channels."
+    security_mapping: "Monitor customer ticket registries daily."
+    accountability_mapping: "Designate owner of customer feedback databases."
+    evidence_mapping: "Log customer incident checklists and triage status."
+    validation_mapping: "Verify customer input hashes against standard keys."
+  gpai_obligations:
+    framework: "gpai_obligations"
+    control_mapping: "Verify general-purpose model baseline benchmarks."
+    security_mapping: "Establish model capability verification tests."
+    accountability_mapping: "Compliance lead signs off GPAI compliance maps."
+    evidence_mapping: "Log GPAI registrations and documentation checks."
+    validation_mapping: "Validate base model safety metadata files."
+  foundation_model_obligations:
+    framework: "foundation_model_obligations"
+    control_mapping: "Verify foundation model capabilities."
+    security_mapping: "Deploy capability checks and boundary constraints."
+    accountability_mapping: "Model provider delivers documentation sets."
+    evidence_mapping: "Save model cards and training descriptions."
+    validation_mapping: "Verify training dataset compliance logs."
+  iso_42001:
+    framework: "iso_42001"
+    control_mapping: "Map compliance controls to ISO 42001 clauses for trade."
+    security_mapping: "Track supply chain security metrics and hashes."
+    accountability_mapping: "Review roles assignment for AI systems trade daily."
+    evidence_mapping: "Archive ISO auditing worksheets and certificates."
+    validation_mapping: "Confirm compliance dashboard updates match auditing standards."
+  iso_23894:
+    framework: "iso_23894"
+    control_mapping: "Incorporate risk identification guidelines into placement checks."
+    security_mapping: "Track security risks and mitigation effectiveness."
+    accountability_mapping: "Risk owner reviews risk management configurations monthly."
+    evidence_mapping: "Log risk analysis updates and vulnerability scans."
+    validation_mapping: "Verify risk scorecard values against target thresholds."
+  iso_27035:
+    framework: "iso_27035"
+    control_mapping: "Align security incident handling steps with ISO 27035 standard."
+    security_mapping: "Track security breaches and containment latency daily."
+    accountability_mapping: "Security manager reviews incident classification monthly."
+    evidence_mapping: "Archive incident logs and timeline reconstructions in DB."
+    validation_mapping: "Confirm containment timeline matches SLA targets."
+  iso_22320:
+    framework: "iso_22320"
+    control_mapping: "Map emergency coordination steps to ISO 22320 standards."
+    security_mapping: "Check containment response effectiveness and quarantine status."
+    accountability_mapping: "Crisis response coordinator maps team roles."
+    evidence_mapping: "Log emergency drill events and query logs."
+    validation_mapping: "Audit assembly latency and communication paths monthly."
+  nist_ai_rmf:
+    framework: "nist_ai_rmf"
+    control_mapping: "Align importer validation steps with NIST AI RMF core."
+    security_mapping: "Track safety and bias metrics continuously."
+    accountability_mapping: "Define compliance owners across model deployment stages."
+    evidence_mapping: "Log NIST dashboard data and check events."
+    validation_mapping: "Review compliance indicators against NIST standards monthly."
+  nist_sp_800-61:
+    framework: "nist_sp_800-61"
+    control_mapping: "Integrate NIST incident handling steps into triage workflows."
+    security_mapping: "Track mean time to detect and resolve security incidents."
+    accountability_mapping: "Incident team lead reviews CISO metrics monthly."
+    evidence_mapping: "Log security tickets and threat scans reports."
+    validation_mapping: "Assert triage score is complete pre-escalation."
+  oecd_ai:
+    framework: "oecd_ai"
+    control_mapping: "Promote transparency and safety along value chain."
+    security_mapping: "Ensure reliable rollback and containment profiles."
+    accountability_mapping: "Publish public model registry descriptions annually."
+    evidence_mapping: "Log transparency and data disclosure events."
+    validation_mapping: "Assess model card clarity using peer-review guides."
+  unesco_ai:
+    framework: "unesco_ai"
+    control_mapping: "Audit ethics score and bias metrics daily."
+    security_mapping: "Track model social and environmental impacts."
+    accountability_mapping: "Ethics committee reviews bias report profiles monthly."
+    evidence_mapping: "Save ethics scorecards and compliance reports."
+    validation_mapping: "Check model outputs against social safety guidelines."
+  gdpr:
+    framework: "gdpr"
+    control_mapping: "Protect personal data and identify processing purposes."
+    security_mapping: "Deploy data anonymization and masking protocols."
+    accountability_mapping: "DPO signs off on data governance controls."
+    evidence_mapping: "Archive DPIA certificates and consent records."
+    validation_mapping: "Verify compliance with user data deletion signals."
+  market_surveillance:
+    framework: "market_surveillance"
+    control_mapping: "Provide immediate info access to national regulators."
+    security_mapping: "Verify data egress containment and verification gates."
+    accountability_mapping: "Surveillance coordinator logs communications."
+    evidence_mapping: "Log authority drill events and audit packages."
+    validation_mapping: "Audit assembly latency and data masking protocols."
+compliance_mapping:
+  - article: "Article 72"
+    obligation: "Serious incident reporting obligations for Eu Ai Act Incident Reporting Crosswalk."
+    implementation_method: "Deploy automated triage classifications and regulatory notification workflows."
+    control_mapping: "CTRL-IR-CW-EU_AI_-01 and CTRL-IR-CW-EU_AI_-02"
+    required_evidence: "Regulatory notification package validation reports and submission receipts."
+    validation_method: "Confirm presence and valid signatures of all compliance drafts."
+    assurance_method: "Review reporting timestamp indexes monthly."
+  - article: "Article 73"
+    obligation: "Regulatory authority query and notification obligations for Eu Ai Act Incident Reporting Crosswalk."
+    implementation_method: "Deploy authority query routing pathways and evidence package generation weekly."
+    control_mapping: "CTRL-IR-CW-EU_AI_-04 and CTRL-IR-CW-EU_AI_-06"
+    required_evidence: "Audited query transaction logs and communication certs."
+    validation_method: "Mock authority queries and measure package assembly times."
+    assurance_method: "Audit query authentication databases quarterly."
+  - article: "Serious Incident Reporting Obligations"
+    obligation: "Serious incident evaluation requirements for Eu Ai Act Incident Reporting Crosswalk."
+    implementation_method: "Apply serious incident threshold scorecards daily."
+    control_mapping: "CTRL-IR-CW-EU_AI_-01 and CTRL-IR-CW-EU_AI_-03"
+    required_evidence: "Serious incident assessment reports and verification hashes."
+    validation_method: "Assert incident scores exceed serious threshold levels."
+    assurance_method: "Verify assessments signature logs weekly."
+  - article: "Post-Market Monitoring Obligations"
+    obligation: "Post-market incident tracking and customer alerts management for Eu Ai Act Incident Reporting Crosswalk."
+    implementation_method: "Monitor customer tickets and database logs daily."
+    control_mapping: "CTRL-IR-CW-EU_AI_-05"
+    required_evidence: "Triage status report entries and customer feedback logs."
+    validation_method: "Confirm customer input hashes match baseline values."
+    assurance_method: "Review ticket registries weekly against classification scorecards."
+  - article: "Market Surveillance Obligations"
+    obligation: "Cooperate with market surveillance quarantine and isolation orders for Eu Ai Act Incident Reporting Crosswalk."
+    implementation_method: "Deploy system rollback and quarantine execution commands."
+    control_mapping: "CTRL-IR-CW-EU_AI_-05 and CTRL-IR-CW-EU_AI_-06"
+    required_evidence: "Quarantine attestation receipts and system isolation logs."
+    validation_method: "Verify system isolation status indicators across channels."
+    assurance_method: "Audit isolation event timelines weekly."
+integration_points:
+  core_governance:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:core_governance:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  post_market_monitoring:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:post_market_monitoring:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  risk_management:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:risk_management:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  audit_and_enforcement:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:audit_and_enforcement:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  audit_and_forensics:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:audit_and_forensics:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  compliance_scoring:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:compliance_scoring:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  conformity_assessment:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:conformity_assessment:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  evidence_and_attestation:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:evidence_and_attestation:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  technical_documentation:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:technical_documentation:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  provider_obligations:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:provider_obligations:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  deployer_obligations:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:deployer_obligations:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  market_surveillance:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:market_surveillance:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  governance_reporting:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:governance_reporting:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  high_risk_ai_systems:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:high_risk_ai_systems:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  human_oversight:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:human_oversight:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  foundation_models:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:foundation_models:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  general_purpose_ai:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:general_purpose_ai:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  cybersecurity:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:cybersecurity:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  cybersecurity_and_resilience:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:cybersecurity_and_resilience:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+  cross_border_interoperability:
+    interface_type: "REST_API"
+    data_schema: "urn:enterprise:schema:compliance:cross_border_interoperability:eu_ai_act_incident_reporting_crosswalk"
+    validation_rule: "Assert linked status equals ACTIVE and latency is below 150ms."
+    integration_status: "INTEGRATED"
+dependencies:
+  - "urn:enterprise:dependency:cybersecurity:eu_ai_act_incident_reporting_crosswalk"
+  - "urn:enterprise:dependency:post:market:monitoring:eu_ai_act_incident_reporting_crosswalk"
+  - "urn:enterprise:dependency:high:risk:ai:systems:eu_ai_act_incident_reporting_crosswalk"
+outputs:
+  - "anomaly_ticket_log_entry"
+  - "incident_classification_scorecard"
+  - "regulatory_submission_receipt"
+  - "system_isolation_receipt"
+artifacts:
+  - "incident_triage_checklist.yaml"
+  - "incident_classification_scorecard.yaml"
+  - "regulatory_notification_draft.yaml"
+records:
+  - "incident_log_management_db"
+  - "evidence_vaults_archive"
+  - "regulatory_submission_receipts_db"
+continuous_improvement:
+  exceptions:
+    - "Authorized bypass of triage scoring during certified sandboxed drills."
+  reviews:
+    - "Bi-weekly active incident score audits"
+    - "Annual incident governance framework reviews"
+  updates:
+    - "Deploy updated classification rules definitions monthly."
+exceptions:
+  - "Bypass of automated triage scoring authorized for sandboxed simulation drills of Eu Ai Act Incident Reporting Crosswalk."
+  - "Temporary reporting waiver during certified safety systems maintenance of Eu Ai Act Incident Reporting Crosswalk."
+escalation:
+  channels:
+    - "slack-incident-alerts"
+    - "pagerduty-ciso-lead"
+    - "email-legal-ops"
+  thresholds:
+    - "Warning: incident triage duration > 15 minutes for Eu Ai Act Incident Reporting Crosswalk"
+    - "Critical: incident triage duration > 30 minutes for Eu Ai Act Incident Reporting Crosswalk"
+  workflows:
+    - "incident_escalation_workflow"
+    - "corrective_action_workflow"
+versioning:
+  - version: "1.0.0"
+    date: "2026-06-13"
+    author: "Incident Architect"
+    description: "Initial release of the Eu Ai Act Incident Reporting Crosswalk AI Incident Reporting compliance skill."
+incident_reporting_capabilities:
+  incident_reporting_governance: "Manage incident reporting governance policies and liability maps for Eu Ai Act Incident Reporting Crosswalk."
+  incident_detection: "Orchestrate anomaly detection alerts and triage checklist checks for Eu Ai Act Incident Reporting Crosswalk."
+  incident_identification: "Track anomaly identification records and verify signature hashes for Eu Ai Act Incident Reporting Crosswalk."
+  incident_classification: "Apply severity scoring logic and impact assessment matrix weekly for Eu Ai Act Incident Reporting Crosswalk."
+  incident_assessment: "Assess incident features using assessment checklists for Eu Ai Act Incident Reporting Crosswalk."
+  serious_incident_management: "Evaluate regulatory serious incident criteria and thresholds under Eu Ai Act Incident Reporting Crosswalk."
+  regulatory_notification: "Seal evidence registries and submit serious incident alerts for Eu Ai Act Incident Reporting Crosswalk."
+  authority_engagement: "Host mock regulatory drills and query response tracking for Eu Ai Act Incident Reporting Crosswalk."
+  corrective_action_management: "Deploy system rollback commands and trace isolation paths under Eu Ai Act Incident Reporting Crosswalk."
+  incident_traceability: "Log operator identities, actions, and signatures in database registers for Eu Ai Act Incident Reporting Crosswalk."
+  incident_accountability: "Audit signature ledger logs and roles database weekly for Eu Ai Act Incident Reporting Crosswalk."
+  incident_auditability: "Verify immutable logs hash codes integrity daily under Eu Ai Act Incident Reporting Crosswalk."
+  incident_monitoring: "Track daily alert count rates and mean time to detect indicators under Eu Ai Act Incident Reporting Crosswalk."
+  incident_escalation: "Route alerts and escalate tier levels within SLAs under Eu Ai Act Incident Reporting Crosswalk."
+  root_cause_reporting: "Identify causal factors and preventative actions for Eu Ai Act Incident Reporting Crosswalk."
+  impact_assessment: "Assess rights breaches scale and operations impacts for Eu Ai Act Incident Reporting Crosswalk."
+  harm_assessment: "Calculate harm scores and log in risk ledger under Eu Ai Act Incident Reporting Crosswalk."
+  post_market_incident_management: "Monitor deployed models and handle post-market tickets under Eu Ai Act Incident Reporting Crosswalk."
+  market_surveillance_support: "Compile regulator-ready audit packages for surveillance inspects under Eu Ai Act Incident Reporting Crosswalk."
+  incident_evidence_management: "Store time-stamped log hashes in secure compliance vaults under Eu Ai Act Incident Reporting Crosswalk."
+  incident_assurance: "Verify digital signatures and trace validation metrics weekly under Eu Ai Act Incident Reporting Crosswalk."
+  incident_validation: "Perform mock connection checks and test connection routes daily under Eu Ai Act Incident Reporting Crosswalk."
+  incident_intelligence: "Monitor external threat feeds and compile foresight briefings monthly under Eu Ai Act Incident Reporting Crosswalk."
+  cross_border_incident_reporting: "Coordinate cross-border authority alerts and notifications under Eu Ai Act Incident Reporting Crosswalk."
+  systemic_incident_management: "Manage systemic risks and large-scale coordinate failures under Eu Ai Act Incident Reporting Crosswalk."
+  governance_intelligence: "Trace regulatory update alerts and standard guidelines revisions for Eu Ai Act Incident Reporting Crosswalk."
+  incident_reporting_maturity: "Assess capabilities maturity level against ISO standards weekly for Eu Ai Act Incident Reporting Crosswalk."
+altai_incident_reporting:
+  autonomous_agent_incidents:
+    agent_failure_incidents: "Log planning capability errors and loop halts for agents of Eu Ai Act Incident Reporting Crosswalk."
+    agent_harm_incidents: "Track physical or digital harm events caused by agent planning for Eu Ai Act Incident Reporting Crosswalk."
+    agent_decision_incidents: "Audit agent choices against safety checklists pre-execution for Eu Ai Act Incident Reporting Crosswalk."
+    agent_accountability_incidents: "Verify human override logs for agent autonomous decisions under Eu Ai Act Incident Reporting Crosswalk."
+  multi_agent_incidents:
+    coordination_failures: "Log agent coordination message timeouts and lock states under Eu Ai Act Incident Reporting Crosswalk."
+    swarm_failures: "Audit swarm consensus behavior anomalies weekly for Eu Ai Act Incident Reporting Crosswalk."
+    ecosystem_incidents: "Track agent cascade failure risks across networks for Eu Ai Act Incident Reporting Crosswalk."
+    autonomy_incidents: "Log unapproved agent consensus transitions daily under Eu Ai Act Incident Reporting Crosswalk."
+  reasoning_incidents:
+    reasoning_failures: "Log logic loops and context window overflows in model runs of Eu Ai Act Incident Reporting Crosswalk."
+    reasoning_anomalies: "Audit reasoning steps against trade safety guidelines daily for Eu Ai Act Incident Reporting Crosswalk."
+    reasoning_harm_events: "Verify semantic correct answers weekly to prevent misinformation under Eu Ai Act Incident Reporting Crosswalk."
+    reasoning_accountability: "Risk analyst reviews reasoning planning trees monthly for Eu Ai Act Incident Reporting Crosswalk."
+  memory_incidents:
+    memory_failures: "Log context database write failures and session loss events under Eu Ai Act Incident Reporting Crosswalk."
+    memory_corruption: "Verify data privacy compliance for database memory writes daily for Eu Ai Act Incident Reporting Crosswalk."
+    memory_leakage: "Log unauthorized memory updates and info leaks under Eu Ai Act Incident Reporting Crosswalk."
+    memory_accountability: "Database manager audits memory context size limits monthly for Eu Ai Act Incident Reporting Crosswalk."
+  tool_execution_incidents:
+    tool_failures: "Log API tool connection timeouts and format parser errors under Eu Ai Act Incident Reporting Crosswalk."
+    tool_misuse: "Track unauthorized API calls and tool bypass actions daily for Eu Ai Act Incident Reporting Crosswalk."
+    tool_harm_events: "Verify tool outputs signature correctness monthly under Eu Ai Act Incident Reporting Crosswalk."
+    tool_accountability: "API lead signs off credentials setups monthly for Eu Ai Act Incident Reporting Crosswalk."
+  orchestration_incidents:
+    orchestration_failures: "Log job execution halts and queue deadlock events under Eu Ai Act Incident Reporting Crosswalk."
+    workflow_failures: "Verify runner node digital signatures weekly for Eu Ai Act Incident Reporting Crosswalk."
+    orchestration_harm_events: "Log job failures cascading across orchestration loops for Eu Ai Act Incident Reporting Crosswalk."
+    orchestration_accountability: "Orchestrator signs off workflow definitions weekly under Eu Ai Act Incident Reporting Crosswalk."
+  foundation_model_incidents:
+    capability_failures: "Log model fine-tuning drift and planning baseline anomalies under Eu Ai Act Incident Reporting Crosswalk."
+    safety_failures: "Audit base model capabilities against safety score baselines weekly for Eu Ai Act Incident Reporting Crosswalk."
+    alignment_failures: "Verify dataset hashes against corporate guidelines daily for Eu Ai Act Incident Reporting Crosswalk."
+    systemic_failures: "Track systemic risk events and model cards metrics under Eu Ai Act Incident Reporting Crosswalk."
+  gpai_incidents:
+    systemic_risk_events: "Log systemic failures across Union database registrations under Eu Ai Act Incident Reporting Crosswalk."
+    large_scale_failures: "Verify general-purpose AI safety features alignment monthly for Eu Ai Act Incident Reporting Crosswalk."
+    ecosystem_harm_events: "Track general-purpose base model warnings weekly under Eu Ai Act Incident Reporting Crosswalk."
+    accountability_failures: "Compliance officer reviews base model metadata completeness under Eu Ai Act Incident Reporting Crosswalk."
+incident_reporting_maturity_model:
+  level_1_reactive:
+    capabilities:
+      - "Basic logging of system errors post-incident."
+    reporting_capabilities:
+      - "Manual drafting of notifications upon authority request."
+    escalation_capabilities:
+      - "Ad-hoc alert escalation rules."
+    assurance_capabilities:
+      - "Manual backup of error ticket logs."
+    evidence_requirements:
+      - "Shipment error records saved in local trade directories."
+    validation_requirements:
+      - "Informal team review of system bugs."
+  level_2_repeatable:
+    capabilities:
+      - "Standardized triage rules for security breaches."
+    reporting_capabilities:
+      - "Draft serious incident notifications using checklists."
+    escalation_capabilities:
+      - "Escalate tier level based on warning time thresholds."
+    assurance_capabilities:
+      - "Verify CISO dashboard alerts monthly."
+    evidence_requirements:
+      - "Incident tickets saved in local folders."
+    validation_requirements:
+      - "Weekly review of alert classification metrics."
+  level_3_defined:
+    capabilities:
+      - "Documented triage and escalation procedures."
+    reporting_capabilities:
+      - "Automated template compilation for serious incidents."
+    escalation_capabilities:
+      - "Central escalation routing database tracking tickets."
+    assurance_capabilities:
+      - "Track compliance status scores using scorecards."
+    evidence_requirements:
+      - "Incident assessment reports stored in corporate vaults."
+    validation_requirements:
+      - "Triage sign-off required from CISO before closure."
+  level_4_managed:
+    capabilities:
+      - "Real-time anomaly triggers and automatic isolation pipelines."
+    verification_capabilities:
+      - "Automated severity classification pre-escalation check gates."
+    reporting_capabilities:
+      - "Secure transmission to regulatory portal within SLA bounds."
+    escalation_capabilities:
+      - "Automated alert routing to CRO/CAIO within 15 minutes."
+    assurance_capabilities:
+      - "Continuous monitoring of compliance scorecards with alerts."
+    evidence_requirements:
+      - "Attestations sealed and archived in DB dynamically."
+    validation_requirements:
+      - "Pre-closure checklist scores must equal 1.00 or ticket remains open."
+  level_5_optimized:
+    capabilities:
+      - "Predictive risk analysis and threat feeds integration."
+    reporting_capabilities:
+      - "Predictive incident impact assessments and triage updates."
+    escalation_capabilities:
+      - "Dynamic routing updates based on incident severity classes."
+    assurance_capabilities:
+      - "Feedback loop updating triage checklists weekly based on alert rates."
+    evidence_requirements:
+      - "Log hashes checked against authority directories dynamically."
+    validation_requirements:
+      - "Continuous runtime verification of data privacy and masking rules."
+  level_6_assured:
+    capabilities:
+      - "Cryptographic evidence vaults and E2E signature tracing."
+    reporting_capabilities:
+      - "Submission packages attested by digital compliance daemon keys."
+    escalation_capabilities:
+      - "Immutably sealed escalation trails trace databases."
+    assurance_capabilities:
+      - "Verify drill package assembly latency indicators monthly."
+    evidence_requirements:
+      - "Signed evidence certificates registered in compliance attestation vault."
+    validation_requirements:
+      - "Automated zero-trust checks for all intermediate transitions."
+  level_7_regulator_ready:
+    capabilities:
+      - "Real-time regulatory query APIs and continuous auditing."
+    reporting_capabilities:
+      - "Immediate digital verification queries for national surveillance agencies."
+    escalation_capabilities:
+      - "Cryptographic trace trail available dynamically via API access keys."
+    assurance_capabilities:
+      - "Full alignment with European AI Board database standards."
+    evidence_requirements:
+      - "Sealed, time-stamped registry logs ready for regulator export."
+    validation_requirements:
+      - "Continuous automated validation of all 6 controls and 8 workflows."
